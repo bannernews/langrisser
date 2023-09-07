@@ -2,16 +2,18 @@
 <html>
 
 <head>
-    <title>Soldiers</title>
-    <link rel="icon" type="image/png" href="favicon.png">
+    <title>Солдаты</title>  <!--название странички на вкладке сайта-->
+    <link rel="icon" type="image/png" href="favicon.png">  <!--иконка на вкладке сайта-->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+<!--    <link rel="stylesheet" href="assets/css/main.css" /> -->
+    <link rel="stylesheet" href="css/soldiers.css" />
 </head>
 
 <body style="background-color: #629786;">
 <div id="top" style="display:block;width:1320px;margin:0 auto;">
 	<br>
-	<hr noshade style="color: #d1c1a9;">
+	<hr noshade style="border-color: #d8c2a9;">
 	<div id="menu" style="display:inline-block;padding: 20px;text-decoration: none;line-height: 3px;margin-left: 40px;font-size: 30px;">Heroes</div>
 	<div id="menu" style="display:inline-block;padding: 20px;text-decoration: none;line-height: 3px;font-size: 30px;">Items</div>
 	<div id="menu" style="display:inline-block;padding: 20px;text-decoration: none;line-height: 3px;font-size: 30px;">Soldiers</div>
@@ -20,12 +22,22 @@
 	
 	<div id="logo" style="display:inline-block;padding: 20px;text-decoration:none;line-height: 3px;float:right;margin-right:5%;background-color: aquamarine;">!!!</div>
 	<br>
-	<hr noshade style="color: #d1c1a9;">
+	<hr noshade style="border-color: #d8c2a9;">
 </div>
 <div id="middle" style="width:1320px;border:1px solid black;margin:0 auto;padding-top:7px;white-space: nowrap;">
 	<span id="title" style="display:block;width:200px;margin:0 auto;font-size: 30px;color: antiquewhite;">Soldiers</span>
-	<div id="left_filter" style="display:inline-block;width:200px;border:1px solid black;vertical-align: top;margin-left: 15px;">Поиск<br>1434<br>dfgdfg<br>
-	
+	<div id="left_filter" style="display:inline-block;width:205px;border:1px solid black;vertical-align: top;margin-left: 15px;">Фильтр по классу<br><br>
+		<div class="filt" onclick="" style="float: left;"><img src="classes/sword.png" height="70px" /></div>
+		<div class="filt" onclick="" style="float: right;"><img src="classes/fly.png" height="70px" /></div><br>
+			<div class="filt" onclick="" style="margin: 0 auto;padding-top: 44px;"><img src="classes/lance.png" height="70px" /></div>
+		<div class="filt" onclick="" style="float: left;"><img src="classes/cavalry.png" height="70px" /></div>
+		<div class="filt" onclick="" style="float: right;"><img src="classes/water.png" height="70px" /></div>
+		<div class="filt" onclick="" style="float: left;"><img src="classes/bow.png" height="70px" /></div>
+		<div class="filt" onclick="" style="float: right;"><img src="classes/holy.png" height="70px" /></div><br>
+			<div class="filt" onclick="" style="margin: 0 auto;padding-top: 116px;"><img src="classes/mage.png" height="70px" /></div>
+		<div class="filt" onclick="" style="float: left;"><img src="classes/assasin.png" height="70px" /></div>
+		<div class="filt" onclick="" style="float: right;"><img src="classes/demon.png" height="70px" /></div>
+		<br><br><div class="disable_all" style="width:180px;display:block;margin-top:50px;">Очистить</div>
 	</div>
 	<div id="sold_data" style="width:1000px;height:900px;border:1px solid black;display: inline-block;">
 		
@@ -36,12 +48,12 @@
 </div>
 
 
-<!--			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-			<script src="assets/js/troop.js"></script>  -->
+<!--			<script src="js/jquery.min.js"></script>
+			<script src="js/browser.min.js"></script>
+			<script src="js/breakpoints.min.js"></script>
+			<script src="js/util.js"></script>
+			<script src="js/main.js"></script>  -->
+			<script src="js/soldiers.js"></script>  
 
 </body>
 </html>
