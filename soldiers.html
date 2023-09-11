@@ -14,34 +14,35 @@
 <div id="top" style="display:block;width:1320px;margin:0 auto;">
 	<br>
 	<hr noshade style="border-color: #d8c2a9;">
-	<div id="menu" style="display:inline-block;padding: 20px;text-decoration: none;line-height: 3px;margin-left: 40px;font-size: 30px;">Heroes</div>
-	<div id="menu" style="display:inline-block;padding: 20px;text-decoration: none;line-height: 3px;font-size: 30px;">Items</div>
-	<div id="menu" style="display:inline-block;padding: 20px;text-decoration: none;line-height: 3px;font-size: 30px;">Soldiers</div>
-	<div id="menu" style="display:inline-block;padding: 20px;text-decoration: none;line-height: 3px;font-size: 30px;">Calendar</div>
-	<div id="menu" style="display:inline-block;padding: 20px;text-decoration: none;line-height: 3px;font-size: 30px;">Donate</div>
+	<div class="menu" style="display:inline-block;padding: 20px;text-decoration: none;line-height: 3px;margin-left: 40px;font-size: 30px;">Герои</div>
+	<div class="menu" style="display:inline-block;padding: 20px;text-decoration: none;line-height: 3px;font-size: 30px;">Снаряжение</div>
+	<div class="menu" style="display:inline-block;padding: 20px;text-decoration: none;line-height: 3px;font-size: 30px;">Солдаты</div>
+	<div class="menu" style="display:inline-block;padding: 20px;text-decoration: none;line-height: 3px;font-size: 30px;">Календарь</div>
+	<div class="menu" style="display:inline-block;padding: 20px;text-decoration: none;line-height: 3px;font-size: 30px;">Донат</div>
 	
-	<div id="logo" style="display:inline-block;padding: 20px;text-decoration:none;line-height: 3px;float:right;margin-right:5%;background-color: aquamarine;">!!!</div>
+	<div id="logo" style="display:inline-block;text-decoration:none;line-height: 3px;float:right;margin-right:2%;margin-top: -10px;"><img src="headpanel.png" height="60px" /><span style="font-size: 40px;vertical-align: 15px;">Banner News</span><img src="headpanel.png" height="60px" /></div>
 	<br>
 	<hr noshade style="border-color: #d8c2a9;">
 </div>
-<div id="middle" style="width:1320px;border:1px solid black;margin:0 auto;padding-top:7px;white-space: nowrap;">
-	<span id="title" style="display:block;width:200px;margin:0 auto;font-size: 30px;color: antiquewhite;">Soldiers</span>
-	<div id="left_filter" style="display:inline-block;width:205px;border:1px solid black;vertical-align: top;margin-left: 15px;">Фильтр по классу<br><br>
-		<div class="filt" onclick="" style="float: left;"><img src="classes/sword.png" height="70px" /></div>
-		<div class="filt" onclick="" style="float: right;"><img src="classes/fly.png" height="70px" /></div><br>
-			<div class="filt" onclick="" style="margin: 0 auto;padding-top: 44px;"><img src="classes/lance.png" height="70px" /></div>
-		<div class="filt" onclick="" style="float: left;"><img src="classes/cavalry.png" height="70px" /></div>
-		<div class="filt" onclick="" style="float: right;"><img src="classes/water.png" height="70px" /></div>
-		<div class="filt" onclick="" style="float: left;"><img src="classes/bow.png" height="70px" /></div>
-		<div class="filt" onclick="" style="float: right;"><img src="classes/holy.png" height="70px" /></div><br>
-			<div class="filt" onclick="" style="margin: 0 auto;padding-top: 116px;"><img src="classes/mage.png" height="70px" /></div>
-		<div class="filt" onclick="" style="float: left;"><img src="classes/assasin.png" height="70px" /></div>
-		<div class="filt" onclick="" style="float: right;"><img src="classes/demon.png" height="70px" /></div>
-		<br><br><div class="disable_all" style="width:180px;display:block;margin-top:50px;">Очистить</div>
+<div id="middle" style="width:1320px;margin:0 auto;padding-top:7px;white-space: nowrap;">
+	<span id="title" style="display:block;width:200px;margin:0 auto;font-size: 30px;color: antiquewhite;">Солдаты</span><br>
+	<div id="left_filter" style="display:inline-block;width:205px;vertical-align: top;margin-left: 15px;position:sticky;top:10px;">Фильтр по классу<br><br>
+		<div class="filt active_f" onclick=soldView('sword') style="float: left;"><img src="classes/sword.png" height="70px" /></div>
+		<div class="filt" onclick=soldView('fly') style="float: right;"><img src="classes/fly.png" height="70px" /></div><br>
+			<div class="filt" onclick=soldView('lance') style="margin: 0 auto;padding-top: 44px;"><img src="classes/lance.png" height="70px" /></div>
+		<div class="filt" onclick=soldView('cavalry') style="float: left;"><img src="classes/cavalry.png" height="70px" /></div>
+		<div class="filt" onclick=soldView('water') style="float: right;"><img src="classes/water.png" height="70px" /></div>
+		<div class="filt" onclick=soldView('bow') style="float: left;"><img src="classes/bow.png" height="70px" /></div>
+		<div class="filt" onclick=soldView('holy') style="float: right;"><img src="classes/holy.png" height="70px" /></div><br>
+			<div class="filt" onclick=soldView('mage') style="margin: 0 auto;padding-top: 116px;"><img src="classes/mage.png" height="70px" /></div>
+		<div class="filt" onclick=soldView('assasin') style="float: left;"><img src="classes/assasin.png" height="70px" /></div>
+		<div class="filt" onclick=soldView('demon') style="float: right;"><img src="classes/demon.png" height="70px" /></div>
+<!--		<br><br><div class="disable_all" style="width:180px;display:block;margin-top:50px;">Очистить</div>-->
 	</div>
-	<div id="sold_data" style="width:1000px;height:900px;border:1px solid black;display: inline-block;">
+	<div id="sold_data" style="width:1050px;display: inline-block;margin-left:30px;">
 		
-	</div>	
+	</div>
+
 </div>
 <div id="bottom">
 
@@ -51,9 +52,11 @@
 <!--			<script src="js/jquery.min.js"></script>
 			<script src="js/browser.min.js"></script>
 			<script src="js/breakpoints.min.js"></script>
-			<script src="js/util.js"></script>
-			<script src="js/main.js"></script>  -->
-			<script src="js/soldiers.js"></script>  
-
+			<script src="js/util.js"></script> -->
+		<script src="js/soldDat.js"></script>
+		<script src="js/soldiers.js"></script>
+	<script type="text/javascript">
+		window.onload = soldView('sword');   //при загрузке страницы автоматически фильтр по мечникам
+	</script>
 </body>
 </html>
