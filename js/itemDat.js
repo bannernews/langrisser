@@ -224,7 +224,7 @@ var itemDat = [
         "ATK +1,5%. When entering battle with a damage-dealing skill, 15% chance to reduce that skill's cooldown by 1-2 at random."
     ],
     [
-        "Медаль Кузнеца",
+        "Медаль кузнеца",
         "Swordsmith's Medal",
         "accessoir",
         "",
@@ -250,7 +250,7 @@ var itemDat = [
         "ATK +1%. When initiating battle, has a 25% chance to deal fixed damage once to the enemy unit after battle. This damage is equal to 1x the hero's attack."
     ],
     [
-        "Око Смотрящего",
+        "Око смотрящего",
         "Eye of the Beholder",
         "accessoir",
         "",
@@ -367,7 +367,7 @@ var itemDat = [
         "INT +1,5%. Immune to active skill silence."
     ],
     [
-        "Святой Грааль",
+        "Святой грааль",
         "Holy Grail",
         "accessoir",
         "",
@@ -770,7 +770,7 @@ var itemDat = [
         "HP +2%. When unit HP is above 50%, DEF increases by 2%. When unit HP is below 50%, MDEF increases by 2%."
     ],
     [
-        "Мантия Смерти",
+        "Мантия смерти",
         "Death's Robe",
         "body",
         "34",
@@ -874,7 +874,7 @@ var itemDat = [
         "DEF +2%. When HP of this unit is on 100%, lowers all damage taken by 40%."
     ],
     [
-        "Решимость Гиганта",
+        "Решимость гиганта",
         "Giant's Resolve",
         "body",
         "25",
@@ -900,7 +900,7 @@ var itemDat = [
         "AoE damage taken decreases by 3% and healing effects +2%."
     ],
     [
-        "Ряса богини",
+        "Ряса Богини",
         "Goddess Dress",
         "body",
         "34",
@@ -1069,7 +1069,7 @@ var itemDat = [
         "DEF +2%. In battle, ignores 3% of enemy's DEF."
     ],
     [
-        "Врата Истины",
+        "Врата истины",
         "Gate of Truth",
         "weapon",
         "34",
@@ -1082,7 +1082,7 @@ var itemDat = [
         "When attacking, increases iNT, DEF and MDEF by 3%."
     ],
     [
-        "Дар Вечной жизни",
+        "Дар вечной жизни",
         "Gift of Eternal Life",
         "weapon",
         "34",
@@ -1212,7 +1212,7 @@ var itemDat = [
         "ATK +2%. When initiating battle and before battle, nullifies all enemy armor skill (aside from max HP effects). If the target is a non-player hero, the effect will instead reduce DEF by 15%. Lasts 1 turn."
     ],
     [
-        "Красная Луна",
+        "Красная луна",
         "Red Moon",
         "weapon",
         "25",
@@ -1537,7 +1537,7 @@ var itemDat = [
         "ATK, DEF and MDEF increase by 1% for every 1 block moved before battle (up to 3%)."
     ],
     [
-        "Синяя Луна",
+        "Синяя луна",
         "Blue Moon",
         "weapon",
         "25",
@@ -1745,7 +1745,7 @@ var itemDat = [
         "HP +1%. When forced into battle by a ranged attack, Hero DEF increses by 3%."
     ],
     [
-        "Гнев иерофанта",
+        "Гнев Иерофанта",
         "Wrath of the Hierophant",
         "hat",
         "34",
@@ -1992,7 +1992,7 @@ var itemDat = [
         "When unit HP is at 100%, MDEF and DEF increase by 3%."
     ],
     [
-        "Углеродный шлем",
+        "Углеродный Шлем",
         "Carbon Fiber Helm",
         "hat",
         "34",
