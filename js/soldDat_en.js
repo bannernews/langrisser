@@ -2003,7 +2003,7 @@ function soldView (soldClas) {
 			if (heroes[0]!=""){
 				h2 = "";
 				for (j=0;j<heroes.length;j++){
-					h2 += '<img height="50px" src="images/head/' + heroes[j] + '.png" title="' + heroes[j] + '">';
+					h2 += '<img style="margin-right:2px;margin-bottom:2px;" height="50px" src="images/head/' + heroes[j] + '.png" title="' + heroes[j] + '">';
 				}
 			} else {h2 = "";}
 			sd.innerHTML += '<div style="display:block;width:95%;height:160px;margin-bottom:0px;"><div style="display:block;width:130px;float:left;"><img src="images/soldIcons/' + soldClas + '/' + soldDat[i][0] + 
