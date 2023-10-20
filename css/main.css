@@ -1,0 +1,118 @@
+td{
+	text-align:center;
+	vertical-align:middle;
+	padding:5px 0;
+}
+
+.filt{
+	display: block;
+	width: 70px;
+	cursor: pointer;
+}
+.filt_i{
+	display: block;
+	width: 70px;
+	cursor: pointer;
+}
+.ml{
+	cursor:pointer;
+	float:left;
+	margin-top:70px;
+}
+.active_f{
+	background-image: url(../images/active_f.png);
+	background-position:bottom -4px left;
+	background-repeat: no-repeat;
+}
+.active_h{
+	background-image: url(../images/active_f.png);
+	background-position:bottom 2px center;
+	background-repeat: no-repeat;
+	background-size:90%;
+}
+/* .active_item{
+	background-image: url(../images/active_f.png);
+	background-position:bottom -4px right;
+	background-repeat: no-repeat;
+} */
+.menu{
+	display:inline-block;
+	padding: 20px 8px;
+	text-decoration: none;
+	line-height: 3px;
+	font-size: 30px;
+}
+body{
+	font-family: 'CENTURY GOTHIC';
+}
+.hero_face{
+	display:none;
+}
+
+.hero_face_open{
+	margin-left:20px;
+	width:95%;
+	display:flex;
+	flex-wrap:wrap;
+	margin-bottom:10px;
+}
+
+.dropbtn {
+	background-color: #629786;
+    font-size: 30px;
+    border: none;
+}
+
+.menumore {
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    z-index: 1;
+	top:53px;
+	left:0px;
+	border-top:none;
+	box-shadow:0 0 12px #d8cea9;
+}
+
+.dropdown-content a {
+	background-color: #629786;
+    color: black;
+    padding: 16px 0px;
+    text-decoration: none;
+    display: block;
+	text-align: center;
+	width:205px;
+	font-size:21px;
+}
+
+/* .dropdown-content a:hover {background-color: #629786;} */
+.menu_point1{
+	display:none;
+	position:absolute;
+	top:10px;
+}
+.menu_point2{
+	display:none;
+	position:absolute;
+	top:46px;
+}
+.menumore:hover .dropdown-content {display: block;color:black;text-shadow: none;}
+#mp1:hover .menu_point1 {display: initial;}
+#mp2:hover .menu_point2 {display: initial;}
+
+.menu:hover {
+	color: #d8cea9;
+	text-shadow: 0 0 10px #e4d3ba;
+	cursor:pointer;
+}
+
+.menu a{
+	text-decoration:none;
+}
+.menu a:visited{
+	color:unset;
+}
