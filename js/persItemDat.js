@@ -1912,7 +1912,7 @@ var persItemDat = [
         "HP +5%. After taking action, if this unit has not moved or dealt damage this turn, then may act again. This effect has a 4 turn cooldown."
     ],
     [
-        "Ю'тем",
+        "Ютем",
         "Wehttam",
         "Повелитель Демонов",
         "",
