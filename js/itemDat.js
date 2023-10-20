@@ -30,7 +30,7 @@ var itemDat = [
     ],
 	[
         "Ангел бедствия",
-        "Angel of Distress",
+        "Apostle of doom",
         "accessoir",
         "",
         "6",
@@ -545,7 +545,7 @@ var itemDat = [
         "",
         "",
         "",
-        "Все аттрибуты +1%. В конце действия, если герой не нанёс никакого урона, 100% шанс получить мобильность +2. Длится 1 раунд. (Если уже есть другое повышение мобильности, дает Мобильность +3)",
+        "Все аттрибуты +1%. В конце действия, если герой не нанёс никакого урона, 100(?)% шанс получить мобильность +2. Длится 1 раунд. (Если уже есть другое повышение мобильности, дает Мобильность +3)",
         "All attributes +1%. At the end of the action, if the hero has not dealt any damage, there is a 100(?)% chance to gain +2 mobility. Lasts 1 round. (If there is already another mobility boost, gives Mobility +3)"
     ],
     [
@@ -836,7 +836,7 @@ var itemDat = [
     ],
 	[
         "Охотничьи угодья",
-        "Hunting grounds",
+        "Hunter King's Harness",
         "body",
         "29",
         "",
@@ -1317,7 +1317,7 @@ var itemDat = [
     ],
 	[
         "Меч клятвы",
-        "Sword of Oath",
+        "Allegiance Blade",
         "weapon",
         "25",
         "9",
@@ -1798,7 +1798,7 @@ var itemDat = [
     ],
 	[
         "Завеса звезд",
-        "Veil of Stars",
+        "Star crown",
         "hat",
         "21",
         "",
