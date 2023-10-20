@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>Солдаты</title>  <!--название странички на вкладке сайта-->
+    <title>Soldiers</title>  <!--название странички на вкладке сайта-->
     <link rel="icon" type="image/png" href="favicon.png">  <!--иконка на вкладке сайта-->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
@@ -14,25 +14,25 @@
 <div id="top" style="display:block;width:1320px;margin:0 auto;">
 	<br>
 	<hr noshade style="border-color: #d8c2a9;">
-	<div class="menu" style="margin-left: 40px;">Герои</div>
-	<div class="menu menumore">Снаряжение
+<!--	<div class="menu" style="margin-left: 40px;"><a href="heroes_en.html">Heroes</div>-->
+	<div class="menu menumore" style="margin-left: 40px;">Items
 		<div class="dropdown-content">
 			<a style="margin-top: -30px;background-color: unset;" href="#"></a>
-			<a id="mp1" href="items.html">Общее<img class="menu_point1" src="images/point.png" height="20px" style="vertical-align:-3px;" /></a>
-			<a id="mp2" href="pers_items.html">Личное<img class="menu_point2" src="images/point.png" height="20px" style="vertical-align:-3px;" /></a>
+			<a id="mp1" href="items_en.html">Common<img class="menu_point1" src="images/point.png" height="20px" style="vertical-align:-3px;" /></a>
+			<a id="mp2" href="pers_items_en.html">Personal<img class="menu_point2" src="images/point.png" height="20px" style="vertical-align:-3px;" /></a>
 		</div>
 	</div>
-	<div class="menu"><a href="soldiers.html">Солдаты</a></div>
-	<div class="menu">Календарь</div>
-	<div class="menu">Донат</div>
+	<div class="menu"><a href="soldiers_en.html">Soldiers</a></div>
+<!--	<div class="menu">Calendar</div>
+	<div class="menu">Donate</div>-->
 	
 	<div id="logo" style="display:inline-block;text-decoration:none;line-height: 3px;float:right;margin-right:2%;margin-top: -10px;"><img src="images/headpanel.png" height="60px" /><span style="font-size: 40px;vertical-align: 15px;text-shadow: 1px 1px #d8c2a9;">Banner News</span><img src="images/headpanel.png" height="60px" /></div>
 	<br>
 	<hr noshade style="border-color: #d8c2a9;">
 </div>
 <div id="middle" style="width:1320px;margin:0 auto;padding-top:7px;white-space: nowrap;">
-	<span id="title" style="display:block;width:200px;margin:0 auto;font-size: 30px;color:#d8c2a9;">Солдаты</span><br>
-	<div id="left_filter" style="display:inline-block;width:205px;vertical-align: top;margin-left: 15px;position:sticky;top:10px;">Фильтр по классу<br><img src="images/shadow.png" height="30px" width="210px" /><br>
+	<span id="title" style="display:block;width:200px;margin:0 auto;font-size: 30px;color:#d8c2a9;">Soldiers</span><br>
+	<div id="left_filter" style="display:inline-block;width:205px;vertical-align: top;margin-left: 15px;position:sticky;top:10px;">Filter by class<br><img src="images/shadow.png" height="30px" width="210px" /><br>
 		<div class="filt active_f" onclick=soldView('sword') style="float: left;"><img src="images/classes/sword.png" height="70px" /></div>
 		<div class="filt" onclick=soldView('fly') style="float: right;"><img src="images/classes/fly.png" height="70px" /></div><br>
 			<div class="filt" onclick=soldView('lance') style="margin: 0 auto;padding-top: 56px;"><img src="images/classes/lance.png" height="70px" /></div>
@@ -59,7 +59,7 @@
 			<script src="js/browser.min.js"></script>
 			<script src="js/breakpoints.min.js"></script>
 			<script src="js/util.js"></script> -->
-		<script src="js/soldDat.js"></script>
+		<script src="js/soldDat_en.js"></script>
 		<script src="js/main.js"></script>
 	<script type="text/javascript">
 		window.onload = soldView('sword');   //при загрузке страницы автоматически фильтр по мечникам

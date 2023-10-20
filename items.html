@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>Солдаты</title>  <!--название странички на вкладке сайта-->
+    <title>Снаряжение</title>  <!--название странички на вкладке сайта-->
     <link rel="icon" type="image/png" href="favicon.png">  <!--иконка на вкладке сайта-->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
@@ -31,21 +31,21 @@
 	<hr noshade style="border-color: #d8c2a9;">
 </div>
 <div id="middle" style="width:1320px;margin:0 auto;padding-top:7px;white-space: nowrap;">
-	<span id="title" style="display:block;width:200px;margin:0 auto;font-size: 30px;color:#d8c2a9;">Солдаты</span><br>
-	<div id="left_filter" style="display:inline-block;width:205px;vertical-align: top;margin-left: 15px;position:sticky;top:10px;">Фильтр по классу<br><img src="images/shadow.png" height="30px" width="210px" /><br>
-		<div class="filt active_f" onclick=soldView('sword') style="float: left;"><img src="images/classes/sword.png" height="70px" /></div>
-		<div class="filt" onclick=soldView('fly') style="float: right;"><img src="images/classes/fly.png" height="70px" /></div><br>
-			<div class="filt" onclick=soldView('lance') style="margin: 0 auto;padding-top: 56px;"><img src="images/classes/lance.png" height="70px" /></div>
-		<div class="filt" onclick=soldView('cavalry') style="float: left;"><img src="images/classes/cavalry.png" height="70px" /></div>
-		<div class="filt" onclick=soldView('water') style="float: right;"><img src="images/classes/water.png" height="70px" /></div>
-		<div class="filt" onclick=soldView('bow') style="float: left;margin-top:10px;"><img src="images/classes/bow.png" height="70px" /></div>
+	<span id="title" style="display:block;width:200px;margin:0 auto;font-size: 30px;color:#d8c2a9;">Общие вещи</span><br>
+	<div id="left_filter" style="display:inline-block;width:160px;vertical-align: top;margin-left: 15px;position:sticky;top:10px;">Фильтр по типу<br><img src="images/shadow.png" height="30px" width="180px" /><br>
+		<div class="filt_i weapony active_item" onclick=itemView('weapon') style="float: left;"><img id="weaponi" src="images/itemIcons/weapon_active.png" height="70px"/></div>
+		<div class="filt_i bodyy" onclick=itemView('body') style="float: right;"><img id="bodyi" src="images/item_type/body.png" height="70px" /></div><br><br>
+<!--			<div class="filt" onclick=soldView('lance') style="margin: 0 auto;padding-top: 56px;"><img src="images/classes/lance.png" height="70px" /></div> -->
+		<div class="filt_i haty" onclick=itemView('hat') style="float: left;margin-top:10px;"><img id="hati" src="images/item_type/head.png" height="70px" /></div>
+		<div class="filt_i accy" onclick=itemView('accessoir') style="float: right;margin-top:10px;"><img id="acci" src="images/item_type/accessoir.png" height="70px" /></div>
+<!--		<div class="filt" onclick=soldView('bow') style="float: left;margin-top:10px;"><img src="images/classes/bow.png" height="70px" /></div>
 		<div class="filt" onclick=soldView('holy') style="float: right;margin-top:10px;"><img src="images/classes/holy.png" height="70px" /></div><br>
 			<div class="filt" onclick=soldView('mage') style="margin: 0 auto;padding-top: 143px;"><img src="images/classes/mage.png" height="70px" /></div>
 		<div class="filt" onclick=soldView('assasin') style="float: left;"><img src="images/classes/assasin.png" height="70px" /></div>
 		<div class="filt" onclick=soldView('demon') style="float: right;"><img src="images/classes/demon.png" height="70px" /></div>
 <!--		<br><br><div class="disable_all" style="width:180px;display:block;margin-top:50px;">Очистить</div>-->
 	</div>
-	<div id="sold_data" style="width:1050px;display: inline-block;margin-left:30px;">
+	<div id="item_data" style="width:1050px;display: inline-block;margin-left:30px;">
 		
 	</div>
 
@@ -59,10 +59,10 @@
 			<script src="js/browser.min.js"></script>
 			<script src="js/breakpoints.min.js"></script>
 			<script src="js/util.js"></script> -->
-		<script src="js/soldDat.js"></script>
+		<script src="js/itemDat.js"></script>
 		<script src="js/main.js"></script>
 	<script type="text/javascript">
-		window.onload = soldView('sword');   //при загрузке страницы автоматически фильтр по мечникам
+		window.onload = itemView('weapon');   //при загрузке страницы автоматически фильтр по оружию
 	</script>
 </body>
 </html>
