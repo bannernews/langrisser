@@ -1986,7 +1986,7 @@ var soldDat = [
         "5",
         "1",
         "Когда здоровье солдат выше 80%, АТК, ЗАЩ и МЗАЩ увеличиваются 20%. При дальней атаке получаемый урон уменьшается на 20%.",
-        "When a soldier's health is above 80%, ATK, DEF and MDEF are increased by 20%. With a ranged attack, damage taken is reduced by 20%.",
+        "When a soldier's health is above 80%, ATK, DEF and MDEF are increased by 20%. When ranged attacked, damage taken is reduced by 20%.",
         "demon",
         "Соня,Сибараку,Зерида,Листелл,Шалтир,Винсент,Эпсилон,Ютем,Апофеоз"
     ]
