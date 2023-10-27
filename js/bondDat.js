@@ -36,7 +36,7 @@ var bondDat = [
         "SSR",
         "",
         "",
-        "РЕ"
+        "РЕИ"
     ],
     [
         "Автократо",
@@ -48,7 +48,7 @@ var bondDat = [
         "SSR",
         "",
         "",
-        "РЕ"
+        "РЕИ"
     ],
     [
         "Агнес",
@@ -300,7 +300,7 @@ var bondDat = [
         "SSR",
         "",
         "",
-        "РЕ"
+        "РЕИ"
     ],
     [
         "Арианход",
@@ -468,7 +468,7 @@ var bondDat = [
         "SSR",
         "",
         "",
-        "РЕ"
+        "РЕИ"
     ],
     [
         "Вилер",
@@ -588,10 +588,10 @@ var bondDat = [
         "SSR",
         "",
         "",
-        "РЕ"
+        "РЕИ"
     ],
     [
-        "Дева ковчега",
+        "Дева Ковчега",
         "Ликорис",
         "Флоренция",
         "",
@@ -603,7 +603,7 @@ var bondDat = [
         "М3"
     ],
     [
-        "Девушка в доспехах",
+        "Девушка в Доспехах",
         "Джулиан",
         "Железный Воитель",
         "Лео Бек",
@@ -627,8 +627,8 @@ var bondDat = [
         "Л13"
     ],
     [
-        "Джек",
-        "Рыцарь тайн",
+        "Капитан Джек",
+        "Рыцарь Тайн",
         "Элвин",
         "",
         "",
@@ -653,7 +653,7 @@ var bondDat = [
     [
         "Джо и Конни",
         "Император Ловина",
-        "Девушка в доспехах",
+        "Девушка в Доспехах",
         "",
         "",
         "ИМП,МС,РЕ,",
@@ -678,7 +678,7 @@ var bondDat = [
         "Джулиан",
         "Хильда",
         "Император Ловина",
-        "Девушка в доспехах,Теон",
+        "Девушка в Доспехах,Теон",
         "",
         "ТР,МУ,РЕ,",
         "SSR",
@@ -727,7 +727,7 @@ var bondDat = [
         "Хильда",
         "Флоренция",
         "Каролина",
-        "Девушка в доспехах,Лостхэм",
+        "Девушка в Доспехах,Лостхэм",
         "ИМП,МС,ГЙ,",
         "SSR",
         "",
@@ -772,7 +772,7 @@ var bondDat = [
     ],
     [
         "Илюсия",
-        "Рыцарь тайн",
+        "Рыцарь Тайн",
         "Оливер",
         "Мелания,Винсент",
         "",
@@ -888,7 +888,7 @@ var bondDat = [
         "SSR",
         "",
         "",
-        "РЕ"
+        "РЕИ"
     ],
     [
         "Кирика",
@@ -996,7 +996,7 @@ var bondDat = [
         "SSR",
         "",
         "",
-        "РЕ"
+        "РЕИ"
     ],
     [
         "Курама",
@@ -1074,7 +1074,7 @@ var bondDat = [
         "Ленфорд",
         "Шелфаниэль",
         "Лэндиус",
-        "Рыцарь тайн,Розенцель",
+        "Рыцарь Тайн,Розенцель",
         "Вилер",
         "МС,ГЙ,",
         "SSR",
@@ -1084,7 +1084,7 @@ var bondDat = [
     ],
     [
         "Лео Бек",
-        "Девушка в доспехах",
+        "Девушка в Доспехах",
         "Теон",
         "",
         "Теон",
@@ -1176,7 +1176,7 @@ var bondDat = [
         "SSR",
         "1",
         "",
-        "РЕ"
+        "РЕИ"
     ],
     [
         "Лина",
@@ -1236,7 +1236,7 @@ var bondDat = [
         "SSR",
         "",
         "",
-        "РЕ"
+        "РЕИ"
     ],
     [
         "Луна",
@@ -1267,7 +1267,7 @@ var bondDat = [
         "",
         "Рэйчел",
         "",
-        "Рыцарь тайн,Ленфорд,Листелл,Рэйчел,Рикки",
+        "Рыцарь Тайн,Ленфорд,Листелл,Рэйчел,Рикки",
         "ГГ,ГЙ,",
         "SSR",
         "1",
@@ -1284,7 +1284,7 @@ var bondDat = [
         "SSR",
         "",
         "",
-        "РЕ"
+        "РЕИ"
     ],
     [
         "Майя",
@@ -1296,7 +1296,7 @@ var bondDat = [
         "SSR",
         "1",
         "",
-        "РЕ"
+        "РЕИ"
     ],
     [
         "Маклейн",
@@ -1332,7 +1332,7 @@ var bondDat = [
         "SSR",
         "1",
         "",
-        "РЕ"
+        "РЕИ"
     ],
     [
         "Мелания",
@@ -1380,7 +1380,7 @@ var bondDat = [
         "SSR",
         "",
         "",
-        "РЕ"
+        "РЕИ"
     ],
     [
         "Мю",
@@ -1440,7 +1440,7 @@ var bondDat = [
         "SSR",
         "1",
         "",
-        "РЕ"
+        "РЕИ"
     ],
     [
         "Оборо",
@@ -1468,7 +1468,7 @@ var bondDat = [
     ],
     [
         "Оливиер",
-        "Рыцарь тайн",
+        "Рыцарь Тайн",
         "Шелфаниэль",
         "",
         "Илюсия",
@@ -1492,7 +1492,7 @@ var bondDat = [
     ],
     [
         "Отшельник",
-        "Рыцарь тайн",
+        "Рыцарь Тайн",
         "Листелл",
         "",
         "Мариандель",
@@ -1524,7 +1524,7 @@ var bondDat = [
         "SSR",
         "",
         "",
-        "РЕ"
+        "РЕИ"
     ],
     [
         "Пиротесс",
@@ -1548,7 +1548,7 @@ var bondDat = [
         "SSR",
         "",
         "",
-        "РЕ"
+        "РЕИ"
     ],
     [
         "Преция",
@@ -1620,7 +1620,7 @@ var bondDat = [
         "SSR",
         "1",
         "",
-        "РЕ"
+        "РЕИ"
     ],
     [
         "Рене",
@@ -1668,7 +1668,7 @@ var bondDat = [
         "SSR",
         "1",
         "",
-        "РЕ"
+        "РЕИ"
     ],
     [
         "Розенцель",
@@ -1686,7 +1686,7 @@ var bondDat = [
         "Роланд",
         "Лэндиус",
         "Листелл",
-        "Преция",
+        "Немия",
         "",
         "ГГ,ЛС,ГЙ,",
         "SSR",
@@ -1707,10 +1707,10 @@ var bondDat = [
         "Л13"
     ],
     [
-        "Рыцарь тайн",
+        "Рыцарь Тайн",
         "Ленфорд",
         "Лэндиус",
-        "Илюсия,Оливиер,Отшельник,Джек",
+        "Илюсия,Оливиер,Отшельник,Капитан Джек",
         "",
         "МС,ГЙ,",
         "SSR",
@@ -1757,7 +1757,7 @@ var bondDat = [
     [
         "Светоносец",
         "Император Ловина",
-        "Дева ковчега",
+        "Дева Ковчега",
         "",
         "",
         "ГГ,ЛС,ТАИР,",
@@ -1899,7 +1899,7 @@ var bondDat = [
         "Л13"
     ],
     [
-        "Странствующий дуэлянт",
+        "Странствующий Дуэлянт",
         "Вернер",
         "Мариандель",
         "",
@@ -1932,7 +1932,7 @@ var bondDat = [
         "SSR",
         "1",
         "",
-        "РЕ"
+        "РЕИ"
     ],
     [
         "Таталия",
@@ -1980,7 +1980,7 @@ var bondDat = [
         "SSR",
         "1",
         "",
-        "РЕ"
+        "РЕИ"
     ],
     [
         "Тогуро",
@@ -2052,7 +2052,7 @@ var bondDat = [
         "SSR",
         "1",
         "",
-        "РЕ"
+        "РЕИ"
     ],
     [
         "Фрейя",
@@ -2112,7 +2112,7 @@ var bondDat = [
         "SSR",
         "1",
         "",
-        "РЕ"
+        "РЕИ"
     ],
     [
         "Химико",
@@ -2148,7 +2148,7 @@ var bondDat = [
         "SSR",
         "1",
         "",
-        "РЕ"
+        "РЕИ"
     ],
     [
         "Шалтир",
@@ -2227,7 +2227,7 @@ var bondDat = [
         "Хейн",
         "Лиана",
         "Хейн",
-        "Лана,Ледин,Леон,Лиана,Джек",
+        "Лана,Ледин,Леон,Лиана,Капитан Джек",
         "ГГ,ЛС,ИМП,",
         "SSR",
         "",
@@ -2268,7 +2268,7 @@ var bondDat = [
         "SSR",
         "",
         "",
-        "РЕ"
+        "РЕИ"
     ],
     [
         "Эмерик",
@@ -2323,7 +2323,7 @@ var bondDat = [
         "Хоффман",
         "",
         "",
-        "Эшеан",
+        "Хоффман",
         "ЛС,АП,МУ,",
         "SSR",
         "",
@@ -2388,32 +2388,42 @@ function bondView () {
 	//sd.innerHTML = soldDat[111][8];
 	var i;
 	for (i=1;i<bondDat.length;i++){
-		if(bondDat[i][1]==''){z="";} else {z="<img height='70px' src='images/head/" + bondDat[i][1] + ".png' title='" + bondDat[i][1] + "'>"}
-		if(bondDat[i][2]==''){a="";} else {a="<img height='70px' src='images/head/" + bondDat[i][2] + ".png' title='" + bondDat[i][2] + "'>"}
+		if(bondDat[i][1]==''){z="";} else {z="<img style='position:absolute;' height='70px' src='images/head/" + bondDat[i][1] + ".png' title='" + bondDat[i][1] + "'><img height='25px' src='images/DEF.png' style='position:absolute;top:50px;left:50px;'>"}
+		if(bondDat[i][2]==''){a="";} else {a="<img style='position:absolute;margin-left:74px;' height='70px' src='images/head/" + bondDat[i][2] + ".png' title='" + bondDat[i][2] + "'><img height='25px' src='images/ATK.png' style='position:absolute;top:50px;left:120px;'>"}
 		if(bondDat[i][3]==''){hz="";} else {
 			heroesZ = bondDat[i][3].split(",");
 			hz="";
 			for (jz=0;jz<heroesZ.length;jz++){
-				hz+="<img height='70px' src='images/head/" + heroesZ[jz] + ".png' title='" + heroesZ[jz] + "'>";
+				hz+="<img height='70px' src='images/head/" + heroesZ[jz] + ".png' title='" + heroesZ[jz] + "'><img height='25px' src='images/DEF.png' style='position:absolute;top:50px;left:" + (50+jz*70) +"px;'>";
 			}
 		}
 		if(bondDat[i][4]==''){ha="";} else {
 			heroesA = bondDat[i][4].split(",");
 			ha="";
+			
 			for (ja=0;ja<heroesA.length;ja++){
-				ha+="<img height='70px' src='images/head/" + heroesA[ja] + ".png' title='" + heroesA[ja] + "'>";
+				if(bondDat[i][3]==''){ll=50+ja*70;}else{ll=50+jz*70+ja*70;}
+				ha+="<img height='70px' src='images/head/" + heroesA[ja] + ".png' title='" + heroesA[ja] + "'><img height='25px' src='images/ATK.png' style='position:absolute;top:50px;left:" + ll +"px;'>";
 			}
 		}
 		fact = bondDat[i][5].split(",");
 		if (fact[0]!=""){
-			f2 = "her";
-			for (j=0;j<fact.length;j++){
-				f2 += ' ' + fact[j];
-			}
-		} else {f2 = "her";}
-		
-			sd.innerHTML += '<div class="' + f2 + ' ' + bondDat[i][6] + ' ' + bondDat[i][7] + ' ' + bondDat[i][8] + ' ' + bondDat[i][9] + '"><div style="display:block;height:73px;width:73px;float:left;"><img height="70px" src="images/head/' + bondDat[i][0] + '.png" title="' + bondDat[i][0] + '"></div>' +
-			'<div style="display:block;height:73px;width:145px;float:left;">' + z + ' ' + a + '</div><div style="display:block;height:73px;width:800px;float:left;">' + hz + ' ' + ha + '</div></div>';
+				f2 = "her";
+				for (j=0;j<fact.length;j++){
+					f2 += ' ' + fact[j];
+				}
+			} else {f2 = "her";}
+//		if (soldDat[i][10]==soldClas){
+//			NA = new String(soldDat[i][1]);  //имя солдата по англ. без пробелов для функции показа героев
+//			heroes = soldDat[i][11].split(",");
+//			if (heroes[0]!=""){
+//				h2 = "";
+//				for (j=0;j<heroes.length;j++){
+//					h2 += '<img height="50px" src="images/head/' + heroes[j] + '.png" title="' + heroes[j] + '">';
+//				}
+//			} else {h2 = "";}
+			sd.innerHTML += '<div class="' + f2 + ' ' + bondDat[i][9] + ' ' + bondDat[i][6] + ' ' + bondDat[i][7] + ' ' + bondDat[i][8] + '" style="display:block;height:58px;"><div style="display:block;height:73px;width:73px;float:left;"><img height="70px" src="images/head/' + bondDat[i][0] + '.png" title="' + bondDat[i][0] + '"></div>' +
+			'<span style="float: left;display: block;height: 40px;margin-top: 15px;"><img src="images/sold_stats.png" height="40px" /></span><div style="display:block;height:73px;width:145px;float:left;margin-left:2px;position:relative;">' + z + '' + a + '</div><span style="float: left;display: block;height: 40px;margin-top: 15px;"><img src="images/sold_stats.png" height="40px" /></span><div style="display:block;height:73px;width:730px;float:left;margin-left:2px;position:relative;">' + hz + ' ' + ha + '</div></div>';
 //		}
 	}
 }

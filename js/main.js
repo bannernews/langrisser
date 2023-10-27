@@ -55,6 +55,7 @@ for (var i2 = 0; i2 < iC.length; i2++) {
 
 var filt_h = document.querySelectorAll('.filt_h'); // кнопки - фильтры
 var her = document.getElementById('heroes_data'); // иконки героев
+var chast = document.querySelectorAll('.chast');
 var ff='';
 for (var i = 0; i < filt_h.length; i++) {
 	filt_h[i].chosen = false; // Изначально все показаны
