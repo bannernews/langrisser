@@ -61,7 +61,7 @@ var persItemDat = [
         "",
         "",
         "ОЗ +10%. Когда дружественный отряд заканчивают действие на [двери], он получат «АТК/ИНТ +20%», длится 2 раунда. Все вражеские войска, способ передвижения которых не [полет], проходя через местность в 2 клетках от [двери], потребляют дополнительно 1 очко движения.",
-        "HP +10%. When a friendly unit ends on [door], they will receive \"ATK / INT + 20%\", lasts 2 rounds. All enemy troops that has non [flying] move, while passing through terrain within 2 squares of the [door] consume an additional 1 movement point.\""
+        "HP +10%. When a friendly unit ends on [door], they will receive \"ATK / INT + 20%\", lasts 2 rounds. All enemy troops that has [flying] move, while passing through terrain within 2 squares of the [door] consume an additional 1 movement point.\""
     ],
     [
         "Азуса",
@@ -484,7 +484,7 @@ var persItemDat = [
         "HP +10%. When this unit has skills on cooldown, hero damage dealt +10% and before being forced into battle by a ranged attack, deal 1x This Unit's INT as fixed damage."
     ],
     [
-        "Дева Ковчега",
+        "Дева ковчега",
         "Saint of the Ark",
         "Корона рассвета",
         "",
@@ -499,7 +499,7 @@ var persItemDat = [
         "HP +10%. When there are at least 2 allies within 1 ring, Darklight Synthesis will not deal damage to allies, and recieved healing effects +8%."
     ],
     [
-        "Девушка в Доспехах",
+        "Девушка в доспехах",
         "Girl in the Shell",
         "Исходное ядро",
         "",
@@ -1387,7 +1387,7 @@ var persItemDat = [
         "HP +10%. For each layer of Crystall Barrier you have, the healing effect is increased by 3%. When a hero dies, restores HP to other allies within 2 squares for 2x INT."
     ],
     [
-        "Рыцарь Тайн",
+        "Рыцарь тайн",
         "Knight of Mystery",
         "Клятва защитника",
         "",
@@ -1537,7 +1537,7 @@ var persItemDat = [
         "HP +5%. When casting skills on allies, also grant: \"ATK, INT +15%\" and \"MDEF +20%\". Lasts 2 turns.\""
     ],
     [
-        "Странствующий Дуэлянт",
+        "Странствующий дуэлянт",
         "Wandering Dualist",
         "Одеяние Дуэлянта",
         "",

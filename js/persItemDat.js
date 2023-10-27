@@ -484,7 +484,7 @@ var persItemDat = [
         "HP +10%. When this unit has skills on cooldown, hero damage dealt +10% and before being forced into battle by a ranged attack, deal 1x This Unit's INT as fixed damage."
     ],
     [
-        "Дева Ковчега",
+        "Дева ковчега",
         "Saint of the Ark",
         "Корона рассвета",
         "",
@@ -499,7 +499,7 @@ var persItemDat = [
         "HP +10%. When there are at least 2 allies within 1 ring, Darklight Synthesis will not deal damage to allies, and recieved healing effects +8%."
     ],
     [
-        "Девушка в Доспехах",
+        "Девушка в доспехах",
         "Girl in the Shell",
         "Исходное ядро",
         "",
@@ -1387,7 +1387,7 @@ var persItemDat = [
         "HP +10%. For each layer of Crystall Barrier you have, the healing effect is increased by 3%. When a hero dies, restores HP to other allies within 2 squares for 2x INT."
     ],
     [
-        "Рыцарь Тайн",
+        "Рыцарь тайн",
         "Knight of Mystery",
         "Клятва защитника",
         "",
@@ -1537,7 +1537,7 @@ var persItemDat = [
         "HP +5%. When casting skills on allies, also grant: \"ATK, INT +15%\" and \"MDEF +20%\". Lasts 2 turns.\""
     ],
     [
-        "Странствующий Дуэлянт",
+        "Странствующий дуэлянт",
         "Wandering Dualist",
         "Одеяние Дуэлянта",
         "",
