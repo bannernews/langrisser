@@ -61,7 +61,7 @@ var persItemDat = [
         "",
         "",
         "ОЗ +10%. Когда дружественный отряд заканчивают действие на [двери], он получат «АТК/ИНТ +20%», длится 2 раунда. Все вражеские войска, способ передвижения которых не [полет], проходя через местность в 2 клетках от [двери], потребляют дополнительно 1 очко движения.",
-        "HP +10%. When a friendly unit ends on [door], they will receive \"ATK / INT + 20%\", lasts 2 rounds. All enemy troops that has [flying] move, while passing through terrain within 2 squares of the [door] consume an additional 1 movement point.\""
+        "HP +10%. When a friendly unit ends on [door], they will receive \"ATK / INT + 20%\", lasts 2 rounds. All enemy troops that has non [flying] move, while passing through terrain within 2 squares of the [door] consume an additional 1 movement point.\""
     ],
     [
         "Азуса",
@@ -935,7 +935,7 @@ var persItemDat = [
     ],
     [
         "Лиза",
-        "Liza",
+        "Lisa",
         "Лидер Блуждающих Духов",
         "",
         "hat",
@@ -1085,7 +1085,7 @@ var persItemDat = [
     ],
     [
         "Маклейн",
-        "McClein",
+        "McClaine",
         "Основной метанабор",
         "",
         "hat",
@@ -1160,7 +1160,7 @@ var persItemDat = [
     ],
     [
         "Мишель",
-        "Michel",
+        "Michelle",
         "Волшебное научное оружие",
         "",
         "weapon",
@@ -1418,7 +1418,7 @@ var persItemDat = [
     ],
     [
         "Сагани",
-        "Sagny",
+        "Sagani",
         "Глобал - 11.01.2024",
         "",
         "body",
@@ -1508,7 +1508,7 @@ var persItemDat = [
     ],
     [
         "Соня",
-        "Sonya",
+        "Sonia",
         "Темный рассвет",
         "",
         "weapon",
@@ -1539,7 +1539,7 @@ var persItemDat = [
     [
         "Странствующий дуэлянт",
         "Wandering Dualist",
-        "Одеяние Дуэлянта",
+        "Одеяние дуэлянта",
         "",
         "body",
         "29",
@@ -1583,7 +1583,7 @@ var persItemDat = [
     ],
     [
         "Теон",
-        "Zion",
+        "Theon",
         "Капюшон тайной мощи",
         "",
         "hat",
