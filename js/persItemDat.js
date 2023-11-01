@@ -1158,6 +1158,21 @@ var persItemDat = [
         "Если в радиусе 2 клеток есть союзник, АТК, ЗАЩ, МЗАЩ увеличивается на 10%.",
         "When an ally is within 2 blocks, ATK, DEF, and MDEF +10%."
     ],
+	[
+        "Меч Света и Тьмы",
+        "Sword of Light and Shadow",
+        "Глобал - 07.03.2024",
+        "",
+        "body",
+        "25",
+        "",
+        "",
+        "6",
+        "",
+        "",
+        "ОЗ и ЗАЩ +5%. Когда сражается с врагом у которого есть [сопротивление смертельному урону], АТК и ЗАЩ войск увеличиваются на 10%. После получения смертельного урона и срабатывании таланта, на клетке героя появится [осколок души]. (Перезарядка этого эффекта 3 хода).",
+        "HP and DEF +5%. When fighting an enemy who has [lethal damage resistance], the ATK and DEF of troops increases by 10%. After receiving fatal damage and triggering the talent, a [soul fragment] will appear on the hero’s cell. (Cooldown of that effect 3 turns)."
+    ],
     [
         "Мишель",
         "Michel",
@@ -1307,6 +1322,21 @@ var persItemDat = [
         "",
         "ОЗ & МЗАЩ +5%. +1 к мобильности, когда у врагов есть герой, не являющейся женщиной. После совершения действия 1 случайный герой, не являющейся женщиной, в радиусе 3 клеток получает эффект [утомлённый].",
         "HP & MDEF +5%. If the enemy has a non-female hero, movement+1. After taking action, inflict [Fatigue] on one random non-female hero within 3 blocks."
+    ],
+	[
+        "Полиал",
+        "Polyal",
+        "Глобал - 07.03.2024",
+        "",
+        "hat",
+        "34",
+        "",
+        "",
+        "",
+        "4",
+        "",
+        "ЗАЩ +10%. Когда у вас есть умение в перезарядке, наносимый урон +10%. При применении [перемещения] на враге получает ауру: 'Все враги в радиусе 2 блоков получают на 30% меньше лечения'. Действует 1 раунд.",
+        "DEF +10%. When you have a skill on cooldown, damage dealt +10%. When casting [Move] on an enemy, gains the aura: 'All enemies within a 2 block radius receive 30% less healing.' Lasts 1 round."
     ],
     [
         "Рейнфорс",
