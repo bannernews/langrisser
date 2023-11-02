@@ -935,7 +935,7 @@ var persItemDat = [
     ],
     [
         "Лиза",
-        "Liza",
+        "Lisa",
         "Лидер Блуждающих Духов",
         "",
         "hat",
@@ -1085,7 +1085,7 @@ var persItemDat = [
     ],
     [
         "Маклейн",
-        "McClein",
+        "McClaine",
         "Основной метанабор",
         "",
         "hat",
@@ -1175,7 +1175,7 @@ var persItemDat = [
     ],
     [
         "Мишель",
-        "Michel",
+        "Michelle",
         "Волшебное научное оружие",
         "",
         "weapon",
@@ -1448,7 +1448,7 @@ var persItemDat = [
     ],
     [
         "Сагани",
-        "Sagny",
+        "Sagani",
         "Глобал - 11.01.2024",
         "",
         "body",
@@ -1538,7 +1538,7 @@ var persItemDat = [
     ],
     [
         "Соня",
-        "Sonya",
+        "Sonia",
         "Темный рассвет",
         "",
         "weapon",
@@ -1613,7 +1613,7 @@ var persItemDat = [
     ],
     [
         "Теон",
-        "Zion",
+        "Theon",
         "Капюшон тайной мощи",
         "",
         "hat",

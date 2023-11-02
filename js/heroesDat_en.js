@@ -382,7 +382,7 @@ var heroesDat = [
     ],
     [
         "Гаури",
-        "Goury",
+        "Gourry",
         "ГГ,ЛС,ГВ,",
         "SSR",
         "",
@@ -562,7 +562,7 @@ var heroesDat = [
     ],
     [
         "Зелгадис",
-        "Zelgadius",
+        "Zelgadis",
         "МС,ТАИР,ГВ,",
         "SSR",
         "",
@@ -994,7 +994,7 @@ var heroesDat = [
     ],
     [
         "Маклейн",
-        "McClein",
+        "McClaine",
         "МС,МУ,ГЙ,",
         "SSR",
         "",
@@ -1048,7 +1048,7 @@ var heroesDat = [
     ],
     [
         "Мишель",
-        "Michel",
+        "Michelle",
         "ЛС,РЕ,",
         "SSR",
         "",
@@ -1183,7 +1183,7 @@ var heroesDat = [
     ],
     [
         "Преция",
-        "Presia",
+        "Precia",
         "ГГ,АП,ТАИР,",
         "SSR",
         "",
@@ -1192,7 +1192,7 @@ var heroesDat = [
     ],
     [
         "Пробужденная",
-        "Awakener",
+        "Awakened One",
         "ТР,ТАИР,ГВ,",
         "SSR",
         "",
@@ -1318,7 +1318,7 @@ var heroesDat = [
     ],
     [
         "Сагани",
-        "Sagny",
+        "Sagani",
         "МС,ГЙ,ТАИР,",
         "SSR",
         "",
@@ -1417,7 +1417,7 @@ var heroesDat = [
     ],
     [
         "Соня",
-        "Sonya",
+        "Sonia",
         "АП,ТР,",
         "SR",
         "",
@@ -1426,7 +1426,7 @@ var heroesDat = [
     ],
     [
         "Соня Бланш",
-        "Sonya",
+        "Sonia Blanche",
         "ЛС,АП,ГВ,",
         "SSR",
         "",
@@ -1480,7 +1480,7 @@ var heroesDat = [
     ],
     [
         "Теон",
-        "Zion",
+        "Theon",
         "ИС,МС,МУ,",
         "SSR",
         "",
