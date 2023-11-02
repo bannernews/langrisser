@@ -187,7 +187,7 @@ var heroesDat = [
         "Andriole",
         "ИМП,МС,МУ,",
         "SSR",
-        "forge",
+        "",
         "",
         "Т"
     ],
