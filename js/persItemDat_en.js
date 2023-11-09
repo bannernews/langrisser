@@ -1336,7 +1336,7 @@ var persItemDat = [
         "4",
         "",
         "ЗАЩ +10%. Когда у вас есть умение в перезарядке, наносимый урон +10%. При применении [перемещения] на враге получает ауру: 'Все враги в радиусе 2 блоков получают на 30% меньше лечения'. Действует 1 раунд.",
-        "DEF +10%. When you have a skill on cooldown, damage dealt +10%. When casting [Move] on an enemy, gains the aura: 'All enemies within a 2 block radius receive 30% less healing.' Lasts 1 round."
+        "DEF +10%. When you have a skill on cooldown, damage dealt +10%. When do [Displacement] on an enemy, gains the aura: 'All enemies within a 2 block radius receive 30% less healing.' Lasts 1 round."
     ],
     [
         "Рейнфорс",
