@@ -814,7 +814,7 @@ var persItemDat = [
         "DEF and MDEF +5%. Immune to displacement. After activating the revive effect from Talent, gain the [Equinox] effect. You may only have one [Whispers] effect."
     ],
     [
-        "Ламда",
+        "Ламбда",
         "Lambda",
         "Расцвет Мирового древа",
         "Yggdrasil blossom",
@@ -1939,7 +1939,7 @@ var persItemDat = [
         "\"ATK +10%. This unit ignores class effects. When a unit dies, dispel 1 debuff from self, restore 30% HP and gain [Demon Sword's Ward]: \"\"Damage taken from the next attack reduced by 80%\"\". [Demon Sword's Ward] has a 1 turn cooldown.\""
     ],
     [
-        "Ю'тем",
+        "Ютем",
         "Wehttam",
         "Повелитель Демонов",
         "Demon overlord",
