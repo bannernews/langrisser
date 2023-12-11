@@ -31536,10 +31536,17 @@ if (chb.length==2){
 			chibi2skin[i] = chibiskin[i]+classStats[chb[1]-1][15]+'.png';
 		}
 	} else {
-		chibi1skin[0]='0'+classStats[chb[0]-1][14]+'.png';
-		chibi1skin[1]='0'+classStats[chb[0]-1][14]+'.png';
-		chibi2skin[0]='0'+classStats[chb[1]-1][14]+'.png';
-		chibi2skin[1]='0'+classStats[chb[1]-1][14]+'.png';
+		if(dataTable[hero_number][27].split(",").length == 2 && dataTable[hero_number][47]!==''){
+			chibi1skin[0]='0'+classStats[chb[0]-1][14]+'.png';
+			chibi1skin[1]='0'+classStats[chb[0]-1][14]+'.png';
+			chibi2skin[0]=classStats[chb[1]-1][14]+'.png';
+			chibi2skin[1]=classStats[chb[1]-1][14]+'.png';
+		} else {
+			chibi1skin[0]='0'+classStats[chb[0]-1][14]+'.png';
+			chibi1skin[1]='0'+classStats[chb[0]-1][14]+'.png';
+			chibi2skin[0]='0'+classStats[chb[1]-1][14]+'.png';
+			chibi2skin[1]='0'+classStats[chb[1]-1][14]+'.png';
+		}
 		for (i=2;i<chibiskin.length;i++){
 			chibi1skin[i] = chibiskin[i]+classStats[chb[0]-1][15]+'.png';
 			chibi2skin[i] = chibiskin[i]+classStats[chb[1]-1][15]+'.png';
@@ -31657,6 +31664,7 @@ if (chb.length==2){
 		}
 	}
 } else if (chb.length==3){
+	
 	if (classStats[chb[0]-1][3]>classStats[chb[1]-1][3]){ozA='#16ff66'}else{ozA='black'};if (classStats[chb[0]-1][3]<classStats[chb[1]-1][3]){ozB='#16ff66'}else{ozB='black'};
 	if (classStats[chb[0]-1][4]>classStats[chb[1]-1][4]){atkA='#16ff66'}else{atkA='black'};if (classStats[chb[0]-1][4]<classStats[chb[1]-1][4]){atkB='#16ff66'}else{atkB='black'};
 	if (classStats[chb[0]-1][5]>classStats[chb[1]-1][5]){intA='#16ff66'}else{intA='black'};if (classStats[chb[0]-1][5]<classStats[chb[1]-1][5]){intB='#16ff66'}else{intB='black'};
@@ -31665,6 +31673,7 @@ if (chb.length==2){
 	if (classStats[chb[0]-1][8]>classStats[chb[1]-1][8]){skillA='#16ff66'}else{skillA='black'};if (classStats[chb[0]-1][8]<classStats[chb[1]-1][8]){skillB='#16ff66'}else{skillB='black'};
 	h_info3.innerHTML = '<table border="0" style="width:100%;"><tr><td style="width:20%;height:190px;border:0;"></td><td id="chb1" style="width:27%;height:190px;position:relative;"></td><td style="height:190px;"></td><td id="chb2" style="width:27%;height:190px;position:relative;"></td></tr><tr><td id="uzi_l3" rowspan="11" style="background-image:url(images/uzi_l.png);background-repeat:no-repeat;">Для личных уз</td><td style="height:20px;font-size:20px;"><img src="images/Icon_Range.png" height="25px" /> '+classStats[chb[0]-1][9]+' <img src="images/'+classStats[chb[0]-1][11]+'.png" height="25px" /> '+classStats[chb[0]-1][10]+'</td><td style="height:20px;"></td><td id="ch2" style="height:20px;font-size:20px;"><img src="images/Icon_Range.png" height="25px" /> '+classStats[chb[1]-1][9]+' <img src="images/'+classStats[chb[1]-1][11]+'.png" height="25px" /> '+classStats[chb[1]-1][10]+'</td></tr><tr style="font-size:20px;"><td style="height:20px;"><span style="color:'+ozA+';">'+classStats[chb[0]-1][3]+'</span></td><td style="height:20px;">ОЗ</td><td style="height:20px;"><span style="color:'+ozB+';">'+classStats[chb[1]-1][3]+'</span></td></tr><tr style="font-size:20px;"><td style="height:20px;"><span style="color:'+atkA+';">'+classStats[chb[0]-1][4]+'</span></td><td style="height:20px;">АТК</td><td style="height:20px;"><span style="color:'+atkB+';">'+classStats[chb[1]-1][4]+'</span></td></tr><tr style="font-size:20px;"><td style="height:20px;"><span style="color:'+intA+';">'+classStats[chb[0]-1][5]+'</span></td><td style="height:20px;">ИНТ</td><td style="height:20px;"><span style="color:'+intB+';">'+classStats[chb[1]-1][5]+'</span></td></tr><tr style="font-size:20px;"><td style="height:20px;"><span style="color:'+defA+';">'+classStats[chb[0]-1][6]+'</span></td><td style="height:20px;">ЗАЩ</td><td style="height:20px;"><span style="color:'+defB+';">'+classStats[chb[1]-1][6]+'</span></td></tr><tr style="font-size:20px;"><td style="height:20px;"><span style="color:'+mdefA+';">'+classStats[chb[0]-1][7]+'</span></td><td style="height:20px;">МЗАЩ</td><td style="height:20px;"><span style="color:'+mdefB+';">'+classStats[chb[1]-1][7]+'</span></td></tr><tr style="font-size:20px;"><td style="width:24%;height:20px;"><span style="color:'+skillA+';">'+classStats[chb[0]-1][8]+'</span></td><td style="width:4%;height:20px;">НАВЫК</td><td style="width:24%;height:20px;"><span style="color:'+skillB+';">'+classStats[chb[1]-1][8]+'</span></td></tr><tr><td colspan="3"><img src="images/shadow.png" width="100%" height="20px" /></td></tr><tr><td style="height:50px;white-space:break-spaces;padding:0 10px;vertical-align:middle;"><span>'+classStats[chb[0]-1][12]+'</span></td><td style="height:50px;"><img src="images/heart.png" height="40px" /><br>4 уровень</td><td style="height:50px;white-space:break-spaces;padding:0 10px;vertical-align:middle;"><span>'+classStats[chb[1]-1][12]+'</span></td></tr><tr><td style="height:50px;white-space:break-spaces;padding:0 10px;vertical-align:middle;"><span>'+classStats[chb[0]-1][13]+'</span></td><td style="height:50px;"><img src="images/heart.png" height="40px" /><br>7 уровень</td><td style="height:50px;white-space:break-spaces;padding:0 10px;vertical-align:middle;"><span>'+classStats[chb[1]-1][13]+'</span></td></tr><tr><td style="height:20px;" colspan="4"></td></tr></table><br>';
 	
+	if (dataTable[hero_number][47]!==''){SPclass='/SP/'}else{SPclass=''}
 	var chb1 = document.getElementById("chb1");
 	var chb2 = document.getElementById("chb2");
 	var chibiskin = dataTable[hero_number][26].split(",");
@@ -31718,7 +31727,7 @@ if (chb.length==2){
 	chb3.innerHTML = '<div id="ch1s3" class="chibi1s3" style="display:block;width:436px;height:214px;"></div>';
 	var ch1s3 = document.getElementById("ch1s3");
 	for (i=0;i<chibi3skin.length;i++){
-		ch1s3.innerHTML += '<div style="position:relative;height:214px;width:436px;"><img style="position:absolute;top:0;left:145px;" src="images/moon.png" height="190px" /><img style="position:absolute;top:0;left:157px;" src="images/heroes/heroes_list/'+ heroName +'/Chibi/'+chibi3skin[i]+'" height="180px" /><img style="position:absolute;top:0;left:285px;" src="images/classes/'+classStats[chb[2]-1][2]+'.png" height="60px" /></div>';
+		ch1s3.innerHTML += '<div style="position:relative;height:214px;width:436px;"><img style="position:absolute;top:0;left:145px;" src="images/moon.png" height="190px" /><img style="position:absolute;top:0;left:157px;" src="images/heroes/heroes_list/'+ heroName +'/Chibi/'+chibi3skin[i]+'" height="180px" /><img style="position:absolute;top:0;left:285px;" src="images/classes/'+SPclass+classStats[chb[2]-1][2]+'.png" height="60px" /></div>';
 	}
 	
 //	<img style="position:absolute;top:0;left:120px;" src="images/moon.png" height="190px" /><img style="position:absolute;top:0;left:120px;" src="images/heroes/heroes_list/'+ heroName +'/Chibi/'+classStats[chb[2]-1][14]+'.png" height="180px" /><img style="position:absolute;top:0;left:260px;" src="images/classes/'+classStats[chb[2]-1][2]+'.png" height="60px" />
@@ -31997,6 +32006,7 @@ var clSP = document.getElementById("clSP");
 if (dataTable[hero_number][47]==''){
 	clSP.style.display = 'none';
 } else {
+	if (dataTable[hero_number][47]!==''){SPclass='/SP/'}else{SPclass=''}
 	cl20.style["border-bottom"] = "2px solid antiquewhite";
 	cl20.style["padding-bottom"] = "15px";
 	cl21.style["border-bottom"] = "2px solid antiquewhite";
@@ -32004,9 +32014,9 @@ if (dataTable[hero_number][47]==''){
 	cl22.style["border-bottom"] = "2px solid antiquewhite";
 	cl22.style["padding-bottom"] = "15px";
 	if (!(chb[2]-1)){
-		clSP.innerHTML = '<div style="display:block;width:100%;height:176px;position:relative;"><img style="position:absolute;left:575px;top:-13px;" src="images/under_job.png" height="176px;" /><img style="position:absolute;margin:0 auto;top:3px;" src="images/heroes/job/'+heroName+'/SP.png" height="105px" /><img style="position:absolute;top:98px;left:687px;" src="images/classes/'+classStats[chb[1]-1][2]+'.png" height="35px" /></div>';
+		clSP.innerHTML = '<div style="display:block;width:100%;height:176px;position:relative;"><img style="position:absolute;left:575px;top:-13px;" src="images/under_job.png" height="176px;" /><img style="position:absolute;margin:0 auto;top:3px;" src="images/heroes/job/'+heroName+'/SP.png" height="105px" /><img style="position:absolute;top:98px;left:687px;" src="images/classes/'+SPclass+classStats[chb[1]-1][2]+'.png" height="35px" /></div>';
 	} else {
-		clSP.innerHTML = '<div style="display:block;width:100%;height:176px;position:relative;"><img style="position:absolute;left:575px;top:-13px;" src="images/under_job.png" height="176px;" /><img style="position:absolute;margin:0 auto;top:3px;" src="images/heroes/job/'+heroName+'/SP.png" height="105px" /><img style="position:absolute;top:98px;left:687px;" src="images/classes/'+classStats[chb[2]-1][2]+'.png" height="35px" /></div>';
+		clSP.innerHTML = '<div style="display:block;width:100%;height:176px;position:relative;"><img style="position:absolute;left:575px;top:-13px;" src="images/under_job.png" height="176px;" /><img style="position:absolute;margin:0 auto;top:3px;" src="images/heroes/job/'+heroName+'/SP.png" height="105px" /><img style="position:absolute;top:98px;left:687px;" src="images/classes/'+SPclass+classStats[chb[2]-1][2]+'.png" height="35px" /></div>';
 	}
 	persSP = dataTable[hero_number][47].split(",");
 	for (i=0;i<persSP.length;i++){
