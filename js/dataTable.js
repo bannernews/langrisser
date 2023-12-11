@@ -29722,7 +29722,7 @@ var builds = [
         "Боевая броня Эола,Углеродная броня,Решимость гиганта",
         "Ярость Тюра,Углеродный Шлем",
         "Апексовые сапоги,Эмблема истребителя,Талисман судьи",
-        "Горец-воин,Солдат фаланги,Железокрылый воин"
+        "Горец-воин,Железокрылый воин"
     ],
     [
         "Розалия",
@@ -31449,7 +31449,7 @@ if (dataTable[hero_number][8]==''){
 	pers_text.innerHTML = '<b style="margin-right:8px;">'+dataTable[hero_number][8]+'</b><img src="images/item_type/' + dataTable[hero_number][9] + '.png" height="20px" /><br>';
 	if (dataTable[hero_number][10]!=''){var oz='ОЗ '+dataTable[hero_number][10]+'  '}else{var oz =''};
 	if (dataTable[hero_number][11]!=''){var atk='АТК '+dataTable[hero_number][11]+'  '}else{var atk =''};
-	if (dataTable[hero_number][12]!=''){var inte='ИНТ '+dataTable[hero_number][12+'  ']}else{var inte =''};
+	if (dataTable[hero_number][12]!=''){var inte='ИНТ '+dataTable[hero_number][12]+'  '}else{var inte =''};
 	if (dataTable[hero_number][13]!=''){var def='ЗАЩ '+dataTable[hero_number][13]+'  '}else{var def =''};
 	if (dataTable[hero_number][14]!=''){var mdef='МЗАЩ '+dataTable[hero_number][14]+'  '}else{var mdef =''};
 	if (dataTable[hero_number][15]!=''){var skil='НАВЫК '+dataTable[hero_number][15]+'  '}else{var skil =''};
