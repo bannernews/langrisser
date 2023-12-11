@@ -2071,7 +2071,7 @@ var bondDat = [
         "Эпсилон",
         "Гизаров",
         "",
-        "",
+        "Альфа",
         "ТР,ГЙ,ТАИР",
         "SSR",
         "",
@@ -2436,22 +2436,26 @@ function bondView () {
 	//sd.innerHTML = soldDat[111][8];
 	var i;
 	for (i=1;i<bondDat.length;i++){
-		if(bondDat[i][1]==''){z="";} else {z="<img style='position:absolute;' height='70px' src='images/head/" + bondDat[i][1] + ".png' title='" + bondDat[i][1] + "'><img height='25px' src='images/DEF.png' style='position:absolute;top:50px;left:50px;'>"}
-		if(bondDat[i][2]==''){a="";} else {a="<img style='position:absolute;margin-left:74px;' height='70px' src='images/head/" + bondDat[i][2] + ".png' title='" + bondDat[i][2] + "'><img height='25px' src='images/ATK.png' style='position:absolute;top:50px;left:120px;'>"}
+		hreff0 = ('hero.html?name='+ bondDat[i][0]).replace(/ /g,"%20");
+		hreff1 = ('hero.html?name='+ bondDat[i][1]).replace(/ /g,"%20");
+		hreff2 = ('hero.html?name='+ bondDat[i][2]).replace(/ /g,"%20");
+		if(bondDat[i][1]==''){z="";} else {z="<img style='position:absolute;cursor:pointer;' height='70px' src='images/head/" + bondDat[i][1] + ".png' title='" + bondDat[i][1] + "' onclick=location.href='"+hreff1+"'><img height='25px' src='images/DEF.png' style='position:absolute;top:50px;left:50px;'>"}
+		if(bondDat[i][2]==''){a="";} else {a="<img style='position:absolute;margin-left:74px;cursor:pointer;' height='70px' src='images/head/" + bondDat[i][2] + ".png' title='" + bondDat[i][2] + "' onclick=location.href='"+hreff2+"'><img height='25px' src='images/ATK.png' style='position:absolute;top:50px;left:120px;'>"}
 		if(bondDat[i][3]==''){hz="";} else {
 			heroesZ = bondDat[i][3].split(",");
 			hz="";
 			for (jz=0;jz<heroesZ.length;jz++){
-				hz+="<img height='70px' src='images/head/" + heroesZ[jz] + ".png' title='" + heroesZ[jz] + "'><img height='25px' src='images/DEF.png' style='position:absolute;top:50px;left:" + (50+jz*70) +"px;'>";
+				hreff3 = ('hero.html?name='+ heroesZ[jz]).replace(/ /g,"%20");
+				hz+="<img height='70px' style='cursor:pointer;' src='images/head/" + heroesZ[jz] + ".png' title='" + heroesZ[jz] + "' onclick=location.href='"+hreff3+"'><img height='25px' src='images/DEF.png' style='position:absolute;top:50px;left:" + (50+jz*70) +"px;'>";
 			}
 		}
 		if(bondDat[i][4]==''){ha="";} else {
 			heroesA = bondDat[i][4].split(",");
 			ha="";
-			
 			for (ja=0;ja<heroesA.length;ja++){
+				hreff4 = ('hero.html?name='+ heroesA[ja]).replace(/ /g,"%20");
 				if(bondDat[i][3]==''){ll=50+ja*70;}else{ll=50+jz*70+ja*70;}
-				ha+="<img height='70px' src='images/head/" + heroesA[ja] + ".png' title='" + heroesA[ja] + "'><img height='25px' src='images/ATK.png' style='position:absolute;top:50px;left:" + ll +"px;'>";
+				ha+="<img height='70px' style='cursor:pointer;' src='images/head/" + heroesA[ja] + ".png' title='" + heroesA[ja] + "' onclick=location.href='"+hreff4+"'><img height='25px' src='images/ATK.png' style='position:absolute;top:50px;left:" + ll +"px;'>";
 			}
 		}
 		fact = bondDat[i][5].split(",");
@@ -2470,7 +2474,7 @@ function bondView () {
 //					h2 += '<img height="50px" src="images/head/' + heroes[j] + '.png" title="' + heroes[j] + '">';
 //				}
 //			} else {h2 = "";}
-			sd.innerHTML += '<div class="' + f2 + ' ' + bondDat[i][9] + ' ' + bondDat[i][6] + ' ' + bondDat[i][7] + ' ' + bondDat[i][8] + '" style="display:block;height:58px;"><div style="display:block;height:73px;width:73px;float:left;"><img height="70px" src="images/head/' + bondDat[i][0] + '.png" title="' + bondDat[i][0] + '"></div>' +
+			sd.innerHTML += '<div class="' + f2 + ' ' + bondDat[i][9] + ' ' + bondDat[i][6] + ' ' + bondDat[i][7] + ' ' + bondDat[i][8] + '" style="display:block;height:58px;"><div style="display:block;height:73px;width:73px;float:left;"><img height="70px" style="cursor:pointer;" src="images/head/' + bondDat[i][0] + '.png" title="' + bondDat[i][0] + '" onclick=location.href="'+hreff0+'"></div>' +
 			'<span style="float: left;display: block;height: 40px;margin-top: 15px;"><img src="images/sold_stats.png" height="40px" /></span><div style="display:block;height:73px;width:145px;float:left;margin-left:2px;position:relative;">' + z + '' + a + '</div><span style="float: left;display: block;height: 40px;margin-top: 15px;"><img src="images/sold_stats.png" height="40px" /></span><div style="display:block;height:73px;width:730px;float:left;margin-left:2px;position:relative;">' + hz + ' ' + ha + '</div></div>';
 //		}
 	}
