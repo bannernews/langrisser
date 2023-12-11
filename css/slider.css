@@ -1,0 +1,12 @@
+#sl_middle{
+	background-image: url(../images/phone.png);
+	background-position:top 2px center;
+	background-repeat: no-repeat;
+	background-size:100%;
+}
+
+.kavichki{
+	font-size: 67px;
+	line-height: 0.5;
+	vertical-align: bottom;
+}
