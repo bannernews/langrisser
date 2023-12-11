@@ -1836,8 +1836,9 @@ function heroesView () {
 					f2 += ' ' + fact[j];
 				}
 			} else {f2 = "her";}
+		hreff = ('hero.html?name='+ heroesDat[i][0]).replace(/ /g,"%20");
 		if(heroesDat[i][0]=='Трансцендентный'){f = 'font-size:11px;'}else{f = 'font-size:12px;'}
-		sd.innerHTML += '<div class="' + f2 + ' ' + heroesDat[i][3] + ' ' + heroesDat[i][4] + ' ' + heroesDat[i][5] + ' ' + heroesDat[i][6] + '" style="display:block;height:140px;width:109px;float:left;"><div style="display:block;"><img height="100px" src="images/head/' + heroesDat[i][0] + '.png" title="' + heroesDat[i][0] + '"></div><div style="white-space:normal;' + f + 'width:95px;text-align:center;margin-top:-5px;">' + heroesDat[i][0] + '</div></div>';
+		sd.innerHTML += '<div class="' + f2 + ' ' + heroesDat[i][3] + ' ' + heroesDat[i][4] + ' ' + heroesDat[i][5] + ' ' + heroesDat[i][6] + '" style="display:block;height:135px;width:109px;float:left;"><div class="imgglow" style="display:block;"><img style="cursor:pointer;" height="100px" src="images/head/' + heroesDat[i][0] + '.png" title="' + heroesDat[i][0] + '" onclick=location.href="'+hreff+'"></div><div style="white-space:normal;' + f + 'width:95px;text-align:center;margin-top:-5px;">' + heroesDat[i][0] + '</div></div>';
 //		}
 	}
 }

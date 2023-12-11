@@ -2136,7 +2136,7 @@ function itemView (itemType) {
 			if (itemDat[i][6]!=''){var def='<img src="images/sold_stats.png" height="23px" /><span style="font-size:20px;vertical-align:super;margin-right:10px;">DEF: ' + itemDat[i][6] + '</span>'}else{var def=''};
 			if (itemDat[i][7]!=''){var mdef='<img src="images/sold_stats.png" height="23px" /><span style="font-size:20px;vertical-align:super;margin-right:10px;">MDEF: ' + itemDat[i][7] + '</span>'}else{var mdef=''};
 			if (itemDat[i][8]!=''){var crit='<img src="images/sold_stats.png" height="23px" /><span style="font-size:20px;vertical-align:super;margin-right:10px;">SKILL: ' + itemDat[i][8] + '</span>'}else{var crit=''};
-			id.innerHTML += '<div style="display:block;width:95%;height:140px;"><div style="display:block;width:150px;float:left;"><img src="images/itemIcons/' + itemType + '/' + itemDat[i][0] + 
+			id.innerHTML += '<div style="display:block;width:95%;height:140px;"><div style="display:block;width:150px;float:left;"><img src="images/itemIcons/all/' + itemDat[i][0] + 
 			'.png" height="120px" /></div><div style="display:block;width:700px;float:left;"><b style="font-size: 23px;margin-right: 50px;float:left;">' + itemDat[i][1]+ 			'</b>' +
 //			'<img src="images/Move_Walk.png" height="23px" /><span style="font-size:20px;vertical-align:super;margin: 0 10px;">' + soldDat[i][6] + 
 //			'</span> <img src="images/Icon_Range.png" height="23px" /><span style="font-size:20px;vertical-align:super;margin: 0 10px;">' + soldDat[i][7] + 

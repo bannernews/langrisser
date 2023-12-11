@@ -2000,8 +2000,9 @@ function persItemView (itemType) {
 			if (persItemDat[i][9]!=''){var mdef='<img src="images/sold_stats.png" height="23px" /><span style="font-size:20px;vertical-align:super;margin-right:10px;">MDEF: ' + persItemDat[i][9] + '</span>'}else{var mdef=''};
 			if (persItemDat[i][10]!=''){var crit='<img src="images/sold_stats.png" height="23px" /><span style="font-size:20px;vertical-align:super;margin-right:10px;">SKILL: ' + persItemDat[i][10] + '</span>'}else{var crit=''};
 			if (persItemDat[i][0]=='Ашемар'){descr ='<span style="font-size:16px;font-style:italic;">'}else{descr ='<span style="font-size:18px;font-style:italic;">'};
-			id.innerHTML += '<div style="display:block;width:95%;height:145px;"><div style="display:block;width:150px;float:left;position:relative;"><img style="position:absolute;" src="images/itemIcons/personal/' + persItemDat[i][0] + 
-			'.png" height="120px" /><img style="position:absolute;top:65px;right:-10px;" title="' + persItemDat[i][1] + '" src="images/head_circle/' + persItemDat[i][0] + '.png" height="70px" /></div><div style="display:block;width:700px;float:left;margin-left:164px;"><b style="font-size: 23px;margin-right: 50px;float:left;">' + persItemDat[i][3]+ 			'</b>' +
+			hreff = ('hero.html?name='+ persItemDat[i][0]).replace(/ /g,"%20");
+			id.innerHTML += '<div style="display:block;width:95%;height:145px;"><div style="display:block;width:150px;float:left;position:relative;"><img style="position:absolute;" src="images/itemIcons/all/' + persItemDat[i][0] + 
+			'.png" height="120px" /><img style="position:absolute;top:65px;right:-10px;" title="' + persItemDat[i][1] + '" src="images/head_circle/' + persItemDat[i][0] + '.png" height="70px" onclick=location.href="'+hreff+'"  /></div><div style="display:block;width:700px;float:left;margin-left:164px;"><b style="font-size: 23px;margin-right: 50px;float:left;">' + persItemDat[i][3]+ 			'</b>' +
 //			'<img src="images/Move_Walk.png" height="23px" /><span style="font-size:20px;vertical-align:super;margin: 0 10px;">' + soldDat[i][6] + 
 //			'</span> <img src="images/Icon_Range.png" height="23px" /><span style="font-size:20px;vertical-align:super;margin: 0 10px;">' + soldDat[i][7] + 
 //			'</span> <img src="images/icon.png" height="25px" />

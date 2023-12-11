@@ -270,7 +270,7 @@ var soldDat = [
     ],
     [
         "Клыкастая Стража",
-        "Fanged Guard",
+        "Tusk Guardian",
         "40",
         "43",
         "22",
@@ -507,8 +507,8 @@ var soldDat = [
         "Лана,Лэндиус,Алустриэль,Эмилия,Ака,Дидлит,Отшельник,Флоренция,Мю,Вернер,Мариандель,Кагуя,Ван,Соня Бланш"
     ],
     [
-        "Новый копейщик",
-        "---",
+        "Эгидная гвардия",
+        "Aegis Garde",
         "45",
         "40",
         "22",
@@ -518,15 +518,7 @@ var soldDat = [
         "Солдаты получают на 15% меньше урона в дальнем бою. Находясь на «незащитной местности», АТК и ЗАЩ солдат увеличиваются на 20%.",
         "Soldiers take 15% less ranged damage. While in “undefended terrain,” a soldier’s ATK and DEF increases by 20%.",
         "lance",
-        "\"Аарон,Железный Воитель,Автократо,Хоффман,Оборо,Хильда,Полиал,Мишель,Лэндиус,Преция,Король Красной Луны,Бетти,Вернер,Альфа",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "\""
+        "Аарон,Железный Воитель,Автократо,Хоффман,Оборо,Хильда,Полиал,Мишель,Лэндиус,Преция,Король Красной Луны,Бетти,Вернер,Альфа"
     ],
     [
         "Кавалерия",
@@ -792,7 +784,7 @@ var soldDat = [
         "Когда ОЗ солдат выше 80%, АТК и ЗАЩ вражеских солдат в пределах 2 клеток будут снижены на 15%",
         "When a soldier's HP is above 80%, the ATK and DEF of enemy soldiers within 2 cells will be reduced by 15%",
         "cavalry",
-        "Леон,Скотт,Эмерик,Фрейя,Левин,Лэйд,Юлия,Андриоле,Алтемюллер,Ленфорд,Ашрам,Арес,Рикки"
+        "Леон,Скотт,Эмерик,Фрейя,Левин,Лэйд,Юлия,Андриоле,Алтемюллер,Ленфорд,Ашрам,Арес,Рикки,Бернхардт"
     ],
     [
         "Всадник - ястреб",
@@ -977,8 +969,8 @@ var soldDat = [
         "Кит,Ланс,Элвин,Леон,Алтемюллер,Кларетт,Парн,Арес,Рената,Император Ловина,Странствующий Дуэлянт,Греншиль"
     ],
     [
-        "Новый Летающий",
-        "---",
+        "Пегас звездной призмы",
+        "Starprisma Pegasus",
         "45",
         "43",
         "22",
@@ -1397,8 +1389,8 @@ var soldDat = [
         "Лиффани,Оливиер,Сигма,Анжелика,Алтина,Цубамэ,Аватар Света,Сюзетт,Сельвария,Алисия,Аданкельмо,Девушка в Доспехах,Джо и Конни,Агнес,Пробужденная,Роланд,Лина"
     ],
     [
-        "Новый лучник",
-        "---",
+        "Разведчик экспедиции",
+        "Wild Expedition",
         "40",
         "43",
         "20",
@@ -1887,8 +1879,8 @@ var soldDat = [
         "Альмеда,Анна,Крис,Фрейя,Ледин,Клозе,Селина,Ламбда,Эмилия,Арианход,Мариэль,Мариандель,Азуса,Светоносец,Люгнер,Агнес,Преция"
     ],
     [
-        "Новый святой",
-        "---",
+        "Бард цветущего ветра",
+        "Windbloom Ghanter",
         "40",
         "34",
         "22",
@@ -2042,7 +2034,7 @@ var soldDat = [
     ],
     [
         "Контрактный голем",
-        "Contracted golem",
+        "Pact golem",
         "48",
         "40",
         "23",
@@ -2067,12 +2059,13 @@ function soldView (soldClas) {
 			if (heroes[0]!=""){
 				h2 = "";
 				for (j=0;j<heroes.length;j++){
-					h2 += '<img style="margin-right:2px;margin-bottom:2px;" height="50px" src="images/head/' + heroes[j] + '.png" title="' + heroes[j] + '">';
+					hreff = ('hero.html?name='+ heroes[j]).replace(/ /g,"%20");
+					h2 += '<img style="margin-right:2px;margin-bottom:2px;" height="50px" src="images/head/' + heroes[j] + '.png" title="' + heroes[j] + '" onclick=location.href="'+hreff+'">';
 				}
 			} else {h2 = "";}
-			sd.innerHTML += '<div style="display:block;width:95%;height:160px;margin-bottom:0px;"><div style="display:block;width:130px;float:left;"><img src="images/soldIcons/' + soldClas + '/' + soldDat[i][0] + 
+			sd.innerHTML += '<div style="display:block;width:95%;height:160px;margin-bottom:0px;"><div style="display:block;width:130px;float:left;"><img src="images/soldIcons/all/' + soldDat[i][0] + 
 			'.png" height="150px" /></div><div style="display:block;width:700px;float:left;"><b style="font-size: 23px;margin-right: 50px;vertical-align:super;">' + soldDat[i][1]+ 
-			'</b> <img src="images/Move_Walk.png" height="23px" /><span style="font-size:20px;vertical-align:super;margin: 0 10px;">' + soldDat[i][6] + 
+			'</b> <img src="images/ходьба.png" height="23px" /><span style="font-size:20px;vertical-align:super;margin: 0 10px;">' + soldDat[i][6] + 
 			'</span> <img src="images/Icon_Range.png" height="23px" /><span style="font-size:20px;vertical-align:super;margin: 0 10px;">' + soldDat[i][7] + 
 			'</span> <img onclick=iconHeroOpen("' + NA.replace(/ /g,"") + '") src="images/icon.png" height="25px" /></div><br><br><div><img src="images/sold_stats.png" height="23px" /><span style="font-size:20px;vertical-align:super;margin-right:30px;">HP: ' + soldDat[i][2]  + 
 			'</span><img src="images/sold_stats.png" height="23px" /><span style="font-size:20px;vertical-align:super;margin-right:30px;">ATK: ' + soldDat[i][3]  + 
