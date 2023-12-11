@@ -1761,7 +1761,7 @@ var dataTable = [
         "",
         "копье,молот",
         "тяжелая",
-        "0,4,41",
+        "0,41,42",
         "69,70",
         "Имельда",
         "Бернхардт",
@@ -2058,7 +2058,7 @@ var dataTable = [
         "",
         "",
         "За каждую 1 пройденную клетку шанс крита увеличивается на 1% (до 3%). Когда атакует и наносит крит.удар, рассеивает с врага 1 бафф.",
-        "Урон навыков увеличен на 10%. При срабатывании смертельного эффекта [Крылья разрушения], задетые враги также получают \"увеличение получаемого урона на 15%\" на 1 раунд",
+        "\"Урон навыков увеличен на 10%. При срабатывании смертельного эффекта [Крылья разрушения], задетые враги также получают \"\"увеличение получаемого урона на 15%\"\" на 1 раунд\"",
         "20",
         "25",
         "20",
@@ -2835,7 +2835,7 @@ var dataTable = [
         "0,2",
         "108,109",
         "Император Ловина",
-        "Девушка в Доспехах",
+        "Девушка в доспехах",
         "",
         "",
         "213",
@@ -2938,7 +2938,7 @@ var dataTable = [
         "112,113",
         "Хильда",
         "Император Ловина",
-        "Девушка в Доспехах,Теон",
+        "Девушка в доспехах,Теон",
         "",
         "",
         "19,140",
@@ -3143,7 +3143,7 @@ var dataTable = [
         "Хильда",
         "Флоренция",
         "Каролина",
-        "Девушка в Доспехах,Лостхэм",
+        "Девушка в доспехах,Лостхэм",
         "239",
         "112",
         "",
@@ -4772,7 +4772,7 @@ var dataTable = [
         "тканевая",
         "0,2,3,5",
         "183,184",
-        "Девушка в Доспехах",
+        "Девушка в доспехах",
         "Теон",
         "",
         "Теон",
@@ -10966,7 +10966,7 @@ var classStats = [
         "1",
         "5",
         "всадник",
-        "При атаке юнита с более высоким процентом здоровья, чем ваш, урон, получаемый в бою, уменьшается на 10%.​",
+        "Когда класс героя — Всадник Святого Духа: при атаке юнита с более высоким процентом здоровья, чем ваш, урон, получаемый в бою, уменьшается на 10%.​",
         "Когда ОЗ отряда ниже 70%, урон увеличивается на 10%.​",
         "A",
         ""
@@ -10984,7 +10984,7 @@ var classStats = [
         "1",
         "5",
         "всадник",
-        "Находясь в [Опасной зоне], юнит 10% реже получает критический урон.​",
+        "Когда класс героя — Генерал варваров-наездников: находясь в [Опасной зоне], юнит 10% реже получает критический урон.​",
         "Когда ОЗ юнита выше 80%, критический урон увеличивается на 10%.",
         "C",
         ""
@@ -11506,7 +11506,7 @@ var classStats = [
         "1",
         "3",
         "ходьба",
-        "В начале битвы получаемый юнитом урон уменьшается на 10%.",
+        "Когда класс героя Шеф-спригган: в начале битвы получаемый юнитом урон уменьшается на 10%.",
         "когда этот юнит имеет более 5 баффов, урон, наносимый во время боя, увеличивается на 10%.",
         "A",
         ""
@@ -11706,7 +11706,7 @@ var classStats = [
         "всадник",
         "При инициировании боя получаемый юнитом урон снижается на 10%.",
         "Когда втянуты в бой в ходе физической атаки, наносимый урон увеличивается на 10%.",
-        "B",
+        "C",
         ""
     ],
     [
@@ -12154,7 +12154,7 @@ var classStats = [
         "2",
         "3",
         "ходьба",
-        "При атаке юнита с более высоким процентом здоровья, чем у вас, урон, получаемый в бою, уменьшается на 10%",
+        "Когда класс героя — Волшебник: при атаке юнита с более высоким процентом здоровья, чем у вас, урон, получаемый в бою, уменьшается на 10%",
         "Когда ОЗ меньше 70%, наносимый урон увеличивается на 10% после вступления в бой.​",
         "C",
         "C"
@@ -12316,7 +12316,7 @@ var classStats = [
         "2",
         "3",
         "ходьба",
-        "В [Опасной зоне] на 10% меньше шансов получить критический урон.​",
+        "Когда класс героя — Верховный мастер: в [Опасной зоне] на 10%меньше шансов получить критический урон.​",
         "Юнит получает 10% шанс критического удара, когда у него 100%здоровья.​",
         "A",
         "A"
@@ -12334,7 +12334,7 @@ var classStats = [
         "2",
         "3",
         "ходьба",
-        "При атаке и вступлении в бой юнит получает на 10% меньше урона.​\"",
+        "\"Когда класс героя — \"\"Снайпер-охотник\"\": при атаке и вступлении в бой юнит получает на 10% меньше урона.​\"",
         "Наносимый урон по площади увеличивается на 10%",
         "C",
         "C"
@@ -14747,7 +14747,7 @@ var classStats = [
         "3",
         "ходьба",
         "При атаке и вступлении в бой получаемый отрядом урон уменьшается на 10%",
-        "При атаке и вступлении в бой наносимый урон увеличивается на 10%",
+        "Когда класс героя — Посланник Дракона духа: при атаке и вступлении в бой наносимый урон увеличивается на 10%",
         "C",
         ""
     ],
@@ -19412,7 +19412,7 @@ var persSkills = [
     ],
     [
         "",
-        "Быстрый Удар",
+        "Быстрый удар",
         "2",
         "2",
         "1",
@@ -27629,13 +27629,13 @@ var SPskills = [
     ],
     [
         "",
-        "Посмотрите мне в глаза и действуйте",
+        "Посмотрите мне у глаза и действуйте",
         "1",
         "7",
         "",
         "",
         "",
-        "[Активный] Может выбрать 1 заклинание из трёх: [Сердце похвалы♂], [Богиня любит тебя~] или [Я, Бозел?]. В конце действия время восстановления всех навыков поддержки сокращается на 1 ход.\ <br><br>[Сердце похвалы ♂] Цель: на себя\ <br><br>[Активный] При активном использовании эффекты исцеления в этом раунде будет увеличен на 50% . В конце действия талант сработает 1 дополнительный раз.\ <br><br>[Богиня любит тебя] Цель: одиночный | Дальность: 3 клетки\ <br><br>[Поддержка] Дает одному союзнику: «при активной атаке и вступлении в бой накладывает на врага 2 дебаффа перед битвой», длится 2 раунда.\ <br><br>[Я, Бозел?] Цель: одиночный | Дальность: 3 клетки\ <br><br>[Магический урон] Непосредственно наносит 0,2х АоЕ урон одному врагу на поле битвы и накладывает 1 случайный сильный дебафф."
+        "[Активный] Может выбрать 1 заклинание из трёх: [Сердце похвалы♂], [Богиня любит тебя~] или [Я, Бозель?]. В конце действия время восстановления всех навыков поддержки сокращается на 1 ход.\ <br><br>[Сердце похвалы ♂] Цель: на себя\ <br><br>[Активный] При активном использовании эффекты исцеления в этом раунде будет увеличен на 50% . В конце действия талант сработает 1 дополнительный раз.\ <br><br>[Богиня любит тебя] Цель: одиночный | Дальность: 3 клетки\ <br><br>[Поддержка] Дает одному союзнику: «при активной атаке и вступлении в бой накладывает на врага 2 дебаффа перед битвой», длится 2 раунда.\ <br><br>[Я, Бозель?] Цель: одиночный | Дальность: 3 клетки\ <br><br>[Магический урон] Непосредственно наносит 0,2х АоЕ урон одному врагу на поле битвы и накладывает 1 случайный сильный дебафф."
     ],
     [
         "",
@@ -29722,7 +29722,7 @@ var builds = [
         "Боевая броня Эола,Углеродная броня,Решимость гиганта",
         "Ярость Тюра,Углеродный Шлем",
         "Апексовые сапоги,Эмблема истребителя,Талисман судьи",
-        "Горец-воин,Железокрылый воин"
+        "Горец-воин,Солдат фаланги,Железокрылый воин"
     ],
     [
         "Розалия",
@@ -31449,7 +31449,7 @@ if (dataTable[hero_number][8]==''){
 	pers_text.innerHTML = '<b style="margin-right:8px;">'+dataTable[hero_number][8]+'</b><img src="images/item_type/' + dataTable[hero_number][9] + '.png" height="20px" /><br>';
 	if (dataTable[hero_number][10]!=''){var oz='ОЗ '+dataTable[hero_number][10]+'  '}else{var oz =''};
 	if (dataTable[hero_number][11]!=''){var atk='АТК '+dataTable[hero_number][11]+'  '}else{var atk =''};
-	if (dataTable[hero_number][12]!=''){var inte='ИНТ '+dataTable[hero_number][12]+'  '}else{var inte =''};
+	if (dataTable[hero_number][12]!=''){var inte='ИНТ '+dataTable[hero_number][12+'  ']}else{var inte =''};
 	if (dataTable[hero_number][13]!=''){var def='ЗАЩ '+dataTable[hero_number][13]+'  '}else{var def =''};
 	if (dataTable[hero_number][14]!=''){var mdef='МЗАЩ '+dataTable[hero_number][14]+'  '}else{var mdef =''};
 	if (dataTable[hero_number][15]!=''){var skil='НАВЫК '+dataTable[hero_number][15]+'  '}else{var skil =''};
@@ -31536,17 +31536,10 @@ if (chb.length==2){
 			chibi2skin[i] = chibiskin[i]+classStats[chb[1]-1][15]+'.png';
 		}
 	} else {
-		if(dataTable[hero_number][27].split(",").length == 2 && dataTable[hero_number][47]!==''){
-			chibi1skin[0]='0'+classStats[chb[0]-1][14]+'.png';
-			chibi1skin[1]='0'+classStats[chb[0]-1][14]+'.png';
-			chibi2skin[0]=classStats[chb[1]-1][14]+'.png';
-			chibi2skin[1]=classStats[chb[1]-1][14]+'.png';
-		} else {
-			chibi1skin[0]='0'+classStats[chb[0]-1][14]+'.png';
-			chibi1skin[1]='0'+classStats[chb[0]-1][14]+'.png';
-			chibi2skin[0]='0'+classStats[chb[1]-1][14]+'.png';
-			chibi2skin[1]='0'+classStats[chb[1]-1][14]+'.png';
-		}
+		chibi1skin[0]='0'+classStats[chb[0]-1][14]+'.png';
+		chibi1skin[1]='0'+classStats[chb[0]-1][14]+'.png';
+		chibi2skin[0]='0'+classStats[chb[1]-1][14]+'.png';
+		chibi2skin[1]='0'+classStats[chb[1]-1][14]+'.png';
 		for (i=2;i<chibiskin.length;i++){
 			chibi1skin[i] = chibiskin[i]+classStats[chb[0]-1][15]+'.png';
 			chibi2skin[i] = chibiskin[i]+classStats[chb[1]-1][15]+'.png';
@@ -31664,7 +31657,6 @@ if (chb.length==2){
 		}
 	}
 } else if (chb.length==3){
-	
 	if (classStats[chb[0]-1][3]>classStats[chb[1]-1][3]){ozA='#16ff66'}else{ozA='black'};if (classStats[chb[0]-1][3]<classStats[chb[1]-1][3]){ozB='#16ff66'}else{ozB='black'};
 	if (classStats[chb[0]-1][4]>classStats[chb[1]-1][4]){atkA='#16ff66'}else{atkA='black'};if (classStats[chb[0]-1][4]<classStats[chb[1]-1][4]){atkB='#16ff66'}else{atkB='black'};
 	if (classStats[chb[0]-1][5]>classStats[chb[1]-1][5]){intA='#16ff66'}else{intA='black'};if (classStats[chb[0]-1][5]<classStats[chb[1]-1][5]){intB='#16ff66'}else{intB='black'};
@@ -31673,7 +31665,6 @@ if (chb.length==2){
 	if (classStats[chb[0]-1][8]>classStats[chb[1]-1][8]){skillA='#16ff66'}else{skillA='black'};if (classStats[chb[0]-1][8]<classStats[chb[1]-1][8]){skillB='#16ff66'}else{skillB='black'};
 	h_info3.innerHTML = '<table border="0" style="width:100%;"><tr><td style="width:20%;height:190px;border:0;"></td><td id="chb1" style="width:27%;height:190px;position:relative;"></td><td style="height:190px;"></td><td id="chb2" style="width:27%;height:190px;position:relative;"></td></tr><tr><td id="uzi_l3" rowspan="11" style="background-image:url(images/uzi_l.png);background-repeat:no-repeat;">Для личных уз</td><td style="height:20px;font-size:20px;"><img src="images/Icon_Range.png" height="25px" /> '+classStats[chb[0]-1][9]+' <img src="images/'+classStats[chb[0]-1][11]+'.png" height="25px" /> '+classStats[chb[0]-1][10]+'</td><td style="height:20px;"></td><td id="ch2" style="height:20px;font-size:20px;"><img src="images/Icon_Range.png" height="25px" /> '+classStats[chb[1]-1][9]+' <img src="images/'+classStats[chb[1]-1][11]+'.png" height="25px" /> '+classStats[chb[1]-1][10]+'</td></tr><tr style="font-size:20px;"><td style="height:20px;"><span style="color:'+ozA+';">'+classStats[chb[0]-1][3]+'</span></td><td style="height:20px;">ОЗ</td><td style="height:20px;"><span style="color:'+ozB+';">'+classStats[chb[1]-1][3]+'</span></td></tr><tr style="font-size:20px;"><td style="height:20px;"><span style="color:'+atkA+';">'+classStats[chb[0]-1][4]+'</span></td><td style="height:20px;">АТК</td><td style="height:20px;"><span style="color:'+atkB+';">'+classStats[chb[1]-1][4]+'</span></td></tr><tr style="font-size:20px;"><td style="height:20px;"><span style="color:'+intA+';">'+classStats[chb[0]-1][5]+'</span></td><td style="height:20px;">ИНТ</td><td style="height:20px;"><span style="color:'+intB+';">'+classStats[chb[1]-1][5]+'</span></td></tr><tr style="font-size:20px;"><td style="height:20px;"><span style="color:'+defA+';">'+classStats[chb[0]-1][6]+'</span></td><td style="height:20px;">ЗАЩ</td><td style="height:20px;"><span style="color:'+defB+';">'+classStats[chb[1]-1][6]+'</span></td></tr><tr style="font-size:20px;"><td style="height:20px;"><span style="color:'+mdefA+';">'+classStats[chb[0]-1][7]+'</span></td><td style="height:20px;">МЗАЩ</td><td style="height:20px;"><span style="color:'+mdefB+';">'+classStats[chb[1]-1][7]+'</span></td></tr><tr style="font-size:20px;"><td style="width:24%;height:20px;"><span style="color:'+skillA+';">'+classStats[chb[0]-1][8]+'</span></td><td style="width:4%;height:20px;">НАВЫК</td><td style="width:24%;height:20px;"><span style="color:'+skillB+';">'+classStats[chb[1]-1][8]+'</span></td></tr><tr><td colspan="3"><img src="images/shadow.png" width="100%" height="20px" /></td></tr><tr><td style="height:50px;white-space:break-spaces;padding:0 10px;vertical-align:middle;"><span>'+classStats[chb[0]-1][12]+'</span></td><td style="height:50px;"><img src="images/heart.png" height="40px" /><br>4 уровень</td><td style="height:50px;white-space:break-spaces;padding:0 10px;vertical-align:middle;"><span>'+classStats[chb[1]-1][12]+'</span></td></tr><tr><td style="height:50px;white-space:break-spaces;padding:0 10px;vertical-align:middle;"><span>'+classStats[chb[0]-1][13]+'</span></td><td style="height:50px;"><img src="images/heart.png" height="40px" /><br>7 уровень</td><td style="height:50px;white-space:break-spaces;padding:0 10px;vertical-align:middle;"><span>'+classStats[chb[1]-1][13]+'</span></td></tr><tr><td style="height:20px;" colspan="4"></td></tr></table><br>';
 	
-	if (dataTable[hero_number][47]!==''){SPclass='/SP/'}else{SPclass=''}
 	var chb1 = document.getElementById("chb1");
 	var chb2 = document.getElementById("chb2");
 	var chibiskin = dataTable[hero_number][26].split(",");
@@ -31727,7 +31718,7 @@ if (chb.length==2){
 	chb3.innerHTML = '<div id="ch1s3" class="chibi1s3" style="display:block;width:436px;height:214px;"></div>';
 	var ch1s3 = document.getElementById("ch1s3");
 	for (i=0;i<chibi3skin.length;i++){
-		ch1s3.innerHTML += '<div style="position:relative;height:214px;width:436px;"><img style="position:absolute;top:0;left:145px;" src="images/moon.png" height="190px" /><img style="position:absolute;top:0;left:157px;" src="images/heroes/heroes_list/'+ heroName +'/Chibi/'+chibi3skin[i]+'" height="180px" /><img style="position:absolute;top:0;left:285px;" src="images/classes/'+SPclass+classStats[chb[2]-1][2]+'.png" height="60px" /></div>';
+		ch1s3.innerHTML += '<div style="position:relative;height:214px;width:436px;"><img style="position:absolute;top:0;left:145px;" src="images/moon.png" height="190px" /><img style="position:absolute;top:0;left:157px;" src="images/heroes/heroes_list/'+ heroName +'/Chibi/'+chibi3skin[i]+'" height="180px" /><img style="position:absolute;top:0;left:285px;" src="images/classes/'+classStats[chb[2]-1][2]+'.png" height="60px" /></div>';
 	}
 	
 //	<img style="position:absolute;top:0;left:120px;" src="images/moon.png" height="190px" /><img style="position:absolute;top:0;left:120px;" src="images/heroes/heroes_list/'+ heroName +'/Chibi/'+classStats[chb[2]-1][14]+'.png" height="180px" /><img style="position:absolute;top:0;left:260px;" src="images/classes/'+classStats[chb[2]-1][2]+'.png" height="60px" />
@@ -32006,7 +31997,6 @@ var clSP = document.getElementById("clSP");
 if (dataTable[hero_number][47]==''){
 	clSP.style.display = 'none';
 } else {
-	if (dataTable[hero_number][47]!==''){SPclass='/SP/'}else{SPclass=''}
 	cl20.style["border-bottom"] = "2px solid antiquewhite";
 	cl20.style["padding-bottom"] = "15px";
 	cl21.style["border-bottom"] = "2px solid antiquewhite";
@@ -32014,9 +32004,9 @@ if (dataTable[hero_number][47]==''){
 	cl22.style["border-bottom"] = "2px solid antiquewhite";
 	cl22.style["padding-bottom"] = "15px";
 	if (!(chb[2]-1)){
-		clSP.innerHTML = '<div style="display:block;width:100%;height:176px;position:relative;"><img style="position:absolute;left:575px;top:-13px;" src="images/under_job.png" height="176px;" /><img style="position:absolute;margin:0 auto;top:3px;" src="images/heroes/job/'+heroName+'/SP.png" height="105px" /><img style="position:absolute;top:98px;left:687px;" src="images/classes/'+SPclass+classStats[chb[1]-1][2]+'.png" height="35px" /></div>';
+		clSP.innerHTML = '<div style="display:block;width:100%;height:176px;position:relative;"><img style="position:absolute;left:575px;top:-13px;" src="images/under_job.png" height="176px;" /><img style="position:absolute;margin:0 auto;top:3px;" src="images/heroes/job/'+heroName+'/SP.png" height="105px" /><img style="position:absolute;top:98px;left:687px;" src="images/classes/'+classStats[chb[1]-1][2]+'.png" height="35px" /></div>';
 	} else {
-		clSP.innerHTML = '<div style="display:block;width:100%;height:176px;position:relative;"><img style="position:absolute;left:575px;top:-13px;" src="images/under_job.png" height="176px;" /><img style="position:absolute;margin:0 auto;top:3px;" src="images/heroes/job/'+heroName+'/SP.png" height="105px" /><img style="position:absolute;top:98px;left:687px;" src="images/classes/'+SPclass+classStats[chb[2]-1][2]+'.png" height="35px" /></div>';
+		clSP.innerHTML = '<div style="display:block;width:100%;height:176px;position:relative;"><img style="position:absolute;left:575px;top:-13px;" src="images/under_job.png" height="176px;" /><img style="position:absolute;margin:0 auto;top:3px;" src="images/heroes/job/'+heroName+'/SP.png" height="105px" /><img style="position:absolute;top:98px;left:687px;" src="images/classes/'+classStats[chb[2]-1][2]+'.png" height="35px" /></div>';
 	}
 	persSP = dataTable[hero_number][47].split(",");
 	for (i=0;i<persSP.length;i++){
