@@ -31592,7 +31592,7 @@ if (chb.length==2){
 	var imgbonddef = new Image();
 	imgbonddef.src = 'images/head_circle/'+dataTable[hero_number][28]+'.png';
 	imgbonddef.onload = function(){
-		uzi_l.innerHTML += '<span style="display:block;width:170px;height:170px;margin:0 auto;">ЗАЩ<br><img style="cursor:pointer;margin-top:5px;" src="images/head_circle/'+dataTable[hero_number][28]+'.png" height="144px" onclick=location.href="hero.html?name='+(dataTable[hero_number][28]).replace(/ /g,"%20")+'" /></span>';
+		uzi_l.innerHTML += '<span style="display:block;width:170px;height:170px;margin:0 auto;">ЗАЩ<br><a href="hero.html?name='+(dataTable[hero_number][28]).replace(/ /g,"%20")+'"><img style="cursor:pointer;margin-top:5px;" src="images/head_circle/'+dataTable[hero_number][28]+'.png" height="144px" /></a></span>';
 	};
 	imgbonddef.onerror = function(){
 		uzi_l.innerHTML += '';
@@ -31600,7 +31600,7 @@ if (chb.length==2){
 	var imgbondatk = new Image();
 	imgbondatk.src = 'images/head_circle/'+dataTable[hero_number][29]+'.png';
 	imgbondatk.onload = function(){
-		uzi_l.innerHTML += '<span style="display:block;width:170px;height:170px;margin:0 auto;margin-top:8px;">АТК<br><img style="cursor:pointer;margin-top:5px;" src="images/head_circle/'+dataTable[hero_number][29]+'.png" height="144px" onclick=location.href="hero.html?name='+(dataTable[hero_number][29]).replace(/ /g,"%20")+'" /></span>';
+		uzi_l.innerHTML += '<span style="display:block;width:170px;height:170px;margin:0 auto;margin-top:8px;">АТК<br><a href="hero.html?name='+(dataTable[hero_number][29]).replace(/ /g,"%20")+'"><img style="cursor:pointer;margin-top:5px;" src="images/head_circle/'+dataTable[hero_number][29]+'.png" height="144px" /></a></span>';
 	};
 	imgbondatk.onerror = function(){
 		uzi_l.innerHTML += '';
@@ -31613,14 +31613,14 @@ if (chb.length==2){
 	if (dataTable[hero_number][30]!==''){
 		uzi_dr.innerHTML += '<span style="display:block;width:215px;height:auto;margin:0 auto;white-space:pre-wrap;">ЗАЩ<br></span>';
 		for (i=0;i<drdef.length;i++){
-			uzi_dr.innerHTML += '<img style="cursor:pointer;margin-left:5px;" src="images/head_circle/'+drdef[i]+'.png" height="'+widthu+'" onclick=location.href="hero.html?name='+(drdef[i]).replace(/ /g,"%20")+'" />';
+			uzi_dr.innerHTML += '<a href="hero.html?name='+(drdef[i]).replace(/ /g,"%20")+'"><img style="cursor:pointer;margin-left:5px;" src="images/head_circle/'+drdef[i]+'.png" height="'+widthu+'" /></a>';
 		}
 	}
 	uzi_dr.innerHTML += '<br><br>';
 	if (dataTable[hero_number][31]!==''){
 		uzi_dr.innerHTML += '<span style="display:block;width:215px;height:auto;margin:0 auto;white-space:pre-wrap;">АТК<br></span>';
 		for (i=0;i<dratk.length;i++){
-			uzi_dr.innerHTML += '<img style="cursor:pointer;margin-left:5px;" src="images/head_circle/'+dratk[i]+'.png" height="'+widthu+'" onclick=location.href="hero.html?name='+(dratk[i]).replace(/ /g,"%20")+'" />';
+			uzi_dr.innerHTML += '<a href="hero.html?name='+(dratk[i]).replace(/ /g,"%20")+'"><img style="cursor:pointer;margin-left:5px;" src="images/head_circle/'+dratk[i]+'.png" height="'+widthu+'" /></a>';
 		}
 	}
 	
@@ -31643,8 +31643,8 @@ if (chb.length==2){
 	uzi_l1.style["vertical-align"] = "top";
 	uzi_dr1.style["vertical-align"] = "top";
 	uzi_l1.innerHTML = '<span style="display:block;width:170px;height:auto;margin:0 auto;margin-top:10px;white-space:pre-wrap;margin-bottom:12px;">Разблокировка личных уз</span>';
-	uzi_l1.innerHTML += '<span style="display:block;width:170px;height:150px;margin:0 auto;">ЗАЩ<br><img style="cursor:pointer;margin-top:6px;" src="images/head_circle/'+dataTable[hero_number][28]+'.png" height="120px" onclick=location.href="hero.html?name='+(dataTable[hero_number][28]).replace(/ /g,"%20")+'" /></span>';
-	uzi_l1.innerHTML += '<span style="display:block;width:170px;height:150px;margin:0 auto;margin-top:6px;">АТК<br><img style="cursor:pointer;margin-top:6px;" src="images/head_circle/'+dataTable[hero_number][29]+'.png" height="120px" onclick=location.href="hero.html?name='+(dataTable[hero_number][29]).replace(/ /g,"%20")+'" /></span>';
+	uzi_l1.innerHTML += '<span style="display:block;width:170px;height:150px;margin:0 auto;">ЗАЩ<br><a href="hero.html?name='+(dataTable[hero_number][28]).replace(/ /g,"%20")+'"><img style="cursor:pointer;margin-top:6px;" src="images/head_circle/'+dataTable[hero_number][28]+'.png" height="120px" /></a></span>';
+	uzi_l1.innerHTML += '<span style="display:block;width:170px;height:150px;margin:0 auto;margin-top:6px;">АТК<br><a href="hero.html?name='+(dataTable[hero_number][29]).replace(/ /g,"%20")+'"><img style="cursor:pointer;margin-top:6px;" src="images/head_circle/'+dataTable[hero_number][29]+'.png" height="120px" /></a></span>';
 	drdef = dataTable[hero_number][30].split(",")
 	dratk = dataTable[hero_number][31].split(",")
 	bond_dr_sum = drdef.length + dratk.length;
@@ -31653,14 +31653,14 @@ if (chb.length==2){
 	if (dataTable[hero_number][30]!==''){
 		uzi_dr1.innerHTML += '<span style="display:block;width:215px;height:auto;margin:0 auto;white-space:pre-wrap;">ЗАЩ<br></span>';
 		for (i=0;i<drdef.length;i++){
-			uzi_dr1.innerHTML += '<img style="cursor:pointer;margin-left:5px;" src="images/head_circle/'+drdef[i]+'.png" height="'+widthu+'" onclick=location.href="hero.html?name='+(drdef[i]).replace(/ /g,"%20")+'" />';
+			uzi_dr1.innerHTML += '<a href="hero.html?name='+(drdef[i]).replace(/ /g,"%20")+'"><img style="cursor:pointer;margin-left:5px;" src="images/head_circle/'+drdef[i]+'.png" height="'+widthu+'" /></a>';
 		}
 	}
 	uzi_dr1.innerHTML += '<br><br>';
 	if (dataTable[hero_number][31]!==''){
 		uzi_dr1.innerHTML += '<span style="display:block;width:215px;height:auto;margin:0 auto;white-space:pre-wrap;">АТК<br></span>';
 		for (i=0;i<dratk.length;i++){
-			uzi_dr1.innerHTML += '<img style="cursor:pointer;margin-left:5px;" src="images/head_circle/'+dratk[i]+'.png" height="'+widthu+'" onclick=location.href="hero.html?name='+(dratk[i]).replace(/ /g,"%20")+'" />';
+			uzi_dr1.innerHTML += '<a href="hero.html?name='+(dratk[i]).replace(/ /g,"%20")+'"<img style="cursor:pointer;margin-left:5px;" src="images/head_circle/'+dratk[i]+'.png" height="'+widthu+'" /></a>';
 		}
 	}
 } else if (chb.length==3){
@@ -31737,8 +31737,8 @@ if (chb.length==2){
 	uzi_l3.style["vertical-align"] = "top";
 	uzi_dr3.style["vertical-align"] = "top";
 	uzi_l3.innerHTML = '<span style="display:block;width:170px;height:auto;margin:0 auto;margin-top:15px;white-space:pre-wrap;margin-bottom:12px;">Разблокировка личных уз</span>';
-	uzi_l3.innerHTML += '<span style="display:block;width:170px;height:150px;margin:10px auto;">ЗАЩ<br><img style="cursor:pointer;margin-top:6px;" src="images/head_circle/'+dataTable[hero_number][28]+'.png" height="134px" onclick=location.href="hero.html?name='+(dataTable[hero_number][28]).replace(/ /g,"%20")+'" /></span>';
-	uzi_l3.innerHTML += '<span style="display:block;width:170px;height:150px;margin:10px auto;margin-top:17px;">АТК<br><img style="cursor:pointer;margin-top:6px;" src="images/head_circle/'+dataTable[hero_number][29]+'.png" height="134px" onclick=location.href="hero.html?name='+(dataTable[hero_number][29]).replace(/ /g,"%20")+'" /></span>';
+	uzi_l3.innerHTML += '<span style="display:block;width:170px;height:150px;margin:10px auto;">ЗАЩ<br><a href="hero.html?name='+(dataTable[hero_number][28]).replace(/ /g,"%20")+'"><img style="cursor:pointer;margin-top:6px;" src="images/head_circle/'+dataTable[hero_number][28]+'.png" height="134px" /></a></span>';
+	uzi_l3.innerHTML += '<span style="display:block;width:170px;height:150px;margin:10px auto;margin-top:17px;">АТК<br><a href="hero.html?name='+(dataTable[hero_number][29]).replace(/ /g,"%20")+'"><img style="cursor:pointer;margin-top:6px;" src="images/head_circle/'+dataTable[hero_number][29]+'.png" height="134px" /></a></span>';
 	drdef = dataTable[hero_number][30].split(",")
 	dratk = dataTable[hero_number][31].split(",")
 	bond_dr_sum = drdef.length + dratk.length;
@@ -31747,14 +31747,14 @@ if (chb.length==2){
 	if (dataTable[hero_number][30]!==''){
 		uzi_dr3.innerHTML += '<span style="display:block;width:215px;height:auto;margin:0 auto;white-space:pre-wrap;">ЗАЩ<br></span>';
 		for (i=0;i<drdef.length;i++){
-			uzi_dr3.innerHTML += '<img style="cursor:pointer;margin-left:5px;" src="images/head_circle/'+drdef[i]+'.png" height="'+widthu+'" onclick=location.href="hero.html?name='+(drdef[i]).replace(/ /g,"%20")+'" />';
+			uzi_dr3.innerHTML += '<a href="hero.html?name='+(drdef[i]).replace(/ /g,"%20")+'"><img style="cursor:pointer;margin-left:5px;" src="images/head_circle/'+drdef[i]+'.png" height="'+widthu+'" /></a>';
 		}
 	}
 	uzi_dr3.innerHTML += '<br>';
 	if (dataTable[hero_number][31]!==''){
 		uzi_dr3.innerHTML += '<span style="display:block;width:215px;height:auto;margin:0 auto;white-space:pre-wrap;">АТК<br></span>';
 		for (i=0;i<dratk.length;i++){
-			uzi_dr3.innerHTML += '<img style="cursor:pointer;margin-left:5px;" style="margin:4px 4px;" src="images/head_circle/'+dratk[i]+'.png" height="'+widthu+'" onclick=location.href="hero.html?name='+(dratk[i]).replace(/ /g,"%20")+'" />';
+			uzi_dr3.innerHTML += '<a href="hero.html?name='+(dratk[i]).replace(/ /g,"%20")+'"><img style="cursor:pointer;margin-left:5px;" style="margin:4px 4px;" src="images/head_circle/'+dratk[i]+'.png" height="'+widthu+'" /></a>';
 		}
 	}
 }

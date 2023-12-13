@@ -2060,7 +2060,7 @@ function soldView (soldClas) {
 				h2 = "";
 				for (j=0;j<heroes.length;j++){
 					hreff = ('hero.html?name='+ heroes[j]).replace(/ /g,"%20");
-					h2 += '<img style="margin-right:2px;margin-bottom:2px;" height="50px" src="images/head/' + heroes[j] + '.png" title="' + heroes[j] + '" onclick=location.href="'+hreff+'">';
+					h2 += '<a href="'+hreff+'"><img style="margin-right:2px;margin-bottom:2px;cursor:pointer;" height="50px" src="images/head/' + heroes[j] + '.png" title="' + heroes[j] + '"></a>';
 				}
 			} else {h2 = "";}
 			sd.innerHTML += '<div style="display:block;width:95%;height:160px;margin-bottom:0px;"><div style="display:block;width:130px;float:left;"><img src="images/soldIcons/all/' + soldDat[i][0] + 
