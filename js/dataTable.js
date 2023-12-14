@@ -262,7 +262,7 @@ var dataTable = [
         "",
         "",
         "М3",
-        "Потуртороннее пространство",
+        "Потустороннее пространство",
         "Наносимый урон увеличивается на (15,20,25,30)%. После выполнения действия применяет пару эффектов местности [Портал] к назначенным блокам 2: если союзный юнит заканчивает свой ход на одном портале, он телепортируется на другой. Все враги в пределах 3 блоков портала получают 1 случайный дебафф после совершения действия.\ <br><br>Порталы действуют 3 хода. (Каждый союзный юнит можно телепортировать только 1 раз за ход.) (После применения [Портала] его можно использовать раз в (5,4,4,3) хода. [Портал] имеет высокий приоритет охвата местности.) Когда на поле существует союзный [Портал], юниты имеют дальность действия +2.",
         "Глобал - 14.12.2023",
         "броня",
@@ -6740,7 +6740,7 @@ var dataTable = [
         "",
         "РЕИ",
         "Щит предков",
-        "Для каждого отряда 1 в радиусе кольца (1,2,2,3) ATK и ЗАЩ увеличиваются на (3,4,5,6)% (до (15,20,25,30)%).\ <br><br>Когда навык AoE наносит урон 3 или более врагам, уменьшите их ЗАЩ на (10,15,15,20)% на 2 ходы и получают [Иммунитет] и [Подкрепления] на 1 ход.",
+        "За каждого союзника в радиусе (1,2,2,3) кольца ATK и ЗАЩ увеличиваются на (3,4,5,6)% (до (15,20,25,30)%).\ <br><br>Когда навык AoE наносит урон 3 или более врагам, уменьшите их ЗАЩ на (10,15,15,20)% на 2 ходы и получают [Иммунитет] и [Подкрепления] на 1 ход.",
         "Глобал - 07.03.2024",
         "шапка",
         "34",
@@ -6791,7 +6791,7 @@ var dataTable = [
         "",
         "Т",
         "Игла Времени",
-        "При инициировании боя урон снижается на (10,15,20,30)%. В конце хода выбирает один из двух навыков:\ <br><br>[Натяжение времени]: снижает длительность баффов и дебаффов на 1 ход, снижает КД навыков на перезарядке на 1 ход.\ <br><br>[Остановка времени]: длительность баффов, дебаффов и КД навыков не изменяются.\ <br><br>При использовании [Остановки времени] в [Опасной зоне], получает [Контроль времени]: получив смертельный урон, воскресает с (10,20,30,50)% здоровья. Не может быть развеян и игнорирует иммунитет. Длится 1 ход. КД [Контроля времени] 3 хода.",
+        "Перед вступлением в бой, АТК и ЗАЩ повышается на (10,15,20,25)%. В конце хода выбирает один из двух навыков:\ <br><br>[Поток времени]: снижает длительность баффов и дебаффов на 1 ход, снижает КД навыков на перезарядке на 1 ход.\ <br><br>[Хроно-брейк]: длительность баффов, дебаффов и КД навыков не изменяются.\ <br><br>При использовании [Хроно-брейк] в [Опасной зоне], получает [Контроль времени]: получив смертельный урон, воскресает с (10,20,30,50)% здоровья. Не может быть развеян и игнорирует иммунитет. Длится 1 ход. КД [Контроля времени] 3 хода.",
         "",
         "",
         "",
@@ -9833,7 +9833,7 @@ var dataTable = [
         "64",
         "",
         "26",
-        "743",
+        "473",
         "66",
         "",
         "34,56",
@@ -10102,7 +10102,7 @@ var dataTable = [
         "Юлия",
         "ЛС,ИС,ТАИР",
         "SSR",
-        "",
+        "forge",
         "",
         "М1",
         "Вечная легенда",
@@ -31564,12 +31564,12 @@ if (chb.length==2){
 	}
 	ch1.innerHTML = '<img src="images/Icon_Range.png" height="25px" /> '+classStats[chb[0]-1][9]+' <img src="images/'+classStats[chb[0]-1][11]+'.png" height="25px" /> '+classStats[chb[0]-1][10];
 	ch2.innerHTML = '<img src="images/Icon_Range.png" height="25px" /> '+classStats[chb[1]-1][9]+' <img src="images/'+classStats[chb[1]-1][11]+'.png" height="25px" /> '+classStats[chb[1]-1][10];
-	if (Number(classStats[chb[0]-1][3])>Number(classStats[chb[1]-1][3])){ozA='#16ff66'}else{ozA='black'};if (Number(classStats[chb[0]-1][3])<Number(classStats[chb[1]-1][3])){ozB='#16ff66'}else{ozB='black'};
-	if (Number(classStats[chb[0]-1][4])>Number(classStats[chb[1]-1][4])){atkA='#16ff66'}else{atkA='black'};if (Number(classStats[chb[0]-1][4])<Number(classStats[chb[1]-1][4])){atkB='#16ff66'}else{atkB='black'};
-	if (Number(classStats[chb[0]-1][5])>Number(classStats[chb[1]-1][5])){intA='#16ff66'}else{intA='black'};if (Number(classStats[chb[0]-1][5])<Number(classStats[chb[1]-1][5])){intB='#16ff66'}else{intB='black'};
-	if (Number(classStats[chb[0]-1][6])>Number(classStats[chb[1]-1][6])){defA='#16ff66'}else{defA='black'};if (Number(classStats[chb[0]-1][6])<Number(classStats[chb[1]-1][6])){defB='#16ff66'}else{defB='black'};
-	if (Number(classStats[chb[0]-1][7])>Number(classStats[chb[1]-1][7])){mdefA='#16ff66'}else{mdefA='black'};if (Number(classStats[chb[0]-1][7])<Number(classStats[chb[1]-1][7])){mdefB='#16ff66'}else{mdefB='black'};
-	if (Number(classStats[chb[0]-1][8])>Number(classStats[chb[1]-1][8])){skillA='#16ff66'}else{skillA='black'};if (Number(classStats[chb[0]-1][8])<Number(classStats[chb[1]-1][8])){skillB='#16ff66'}else{skillB='black'};
+	if (classStats[chb[0]-1][3]>classStats[chb[1]-1][3]){ozA='#16ff66'}else{ozA='black'};if (classStats[chb[0]-1][3]<classStats[chb[1]-1][3]){ozB='#16ff66'}else{ozB='black'};
+	if (classStats[chb[0]-1][4]>classStats[chb[1]-1][4]){atkA='#16ff66'}else{atkA='black'};if (classStats[chb[0]-1][4]<classStats[chb[1]-1][4]){atkB='#16ff66'}else{atkB='black'};
+	if (classStats[chb[0]-1][5]>classStats[chb[1]-1][5]){intA='#16ff66'}else{intA='black'};if (classStats[chb[0]-1][5]<classStats[chb[1]-1][5]){intB='#16ff66'}else{intB='black'};
+	if (classStats[chb[0]-1][6]>classStats[chb[1]-1][6]){defA='#16ff66'}else{defA='black'};if (classStats[chb[0]-1][6]<classStats[chb[1]-1][6]){defB='#16ff66'}else{defB='black'};
+	if (classStats[chb[0]-1][7]>classStats[chb[1]-1][7]){mdefA='#16ff66'}else{mdefA='black'};if (classStats[chb[0]-1][7]<classStats[chb[1]-1][7]){mdefB='#16ff66'}else{mdefB='black'};
+	if (classStats[chb[0]-1][8]>classStats[chb[1]-1][8]){skillA='#16ff66'}else{skillA='black'};if (classStats[chb[0]-1][8]<classStats[chb[1]-1][8]){skillB='#16ff66'}else{skillB='black'};
 	coz1.innerHTML = '<span style="color:'+ozA+';">'+classStats[chb[0]-1][3]+'</span>';
 	coz2.innerHTML = '<span style="color:'+ozB+';">'+classStats[chb[1]-1][3]+'</span>';
 	catk1.innerHTML = '<span style="color:'+atkA+';">'+classStats[chb[0]-1][4]+'</span>';
@@ -31592,7 +31592,7 @@ if (chb.length==2){
 	var imgbonddef = new Image();
 	imgbonddef.src = 'images/head_circle/'+dataTable[hero_number][28]+'.png';
 	imgbonddef.onload = function(){
-		uzi_l.innerHTML += '<span style="display:block;width:170px;height:170px;margin:0 auto;">ЗАЩ<br><a href="hero.html?name='+(dataTable[hero_number][28]).replace(/ /g,"%20")+'"><img style="cursor:pointer;margin-top:5px;" src="images/head_circle/'+dataTable[hero_number][28]+'.png" height="144px" /></a></span>';
+		uzi_l.innerHTML += '<span style="display:block;width:170px;height:170px;margin:0 auto;">ЗАЩ<br><img style="cursor:pointer;margin-top:5px;" src="images/head_circle/'+dataTable[hero_number][28]+'.png" height="144px" onclick=location.href="hero.html?name='+(dataTable[hero_number][28]).replace(/ /g,"%20")+'" /></span>';
 	};
 	imgbonddef.onerror = function(){
 		uzi_l.innerHTML += '';
@@ -31600,7 +31600,7 @@ if (chb.length==2){
 	var imgbondatk = new Image();
 	imgbondatk.src = 'images/head_circle/'+dataTable[hero_number][29]+'.png';
 	imgbondatk.onload = function(){
-		uzi_l.innerHTML += '<span style="display:block;width:170px;height:170px;margin:0 auto;margin-top:8px;">АТК<br><a href="hero.html?name='+(dataTable[hero_number][29]).replace(/ /g,"%20")+'"><img style="cursor:pointer;margin-top:5px;" src="images/head_circle/'+dataTable[hero_number][29]+'.png" height="144px" /></a></span>';
+		uzi_l.innerHTML += '<span style="display:block;width:170px;height:170px;margin:0 auto;margin-top:8px;">АТК<br><img style="cursor:pointer;margin-top:5px;" src="images/head_circle/'+dataTable[hero_number][29]+'.png" height="144px" onclick=location.href="hero.html?name='+(dataTable[hero_number][29]).replace(/ /g,"%20")+'" /></span>';
 	};
 	imgbondatk.onerror = function(){
 		uzi_l.innerHTML += '';
@@ -31613,14 +31613,14 @@ if (chb.length==2){
 	if (dataTable[hero_number][30]!==''){
 		uzi_dr.innerHTML += '<span style="display:block;width:215px;height:auto;margin:0 auto;white-space:pre-wrap;">ЗАЩ<br></span>';
 		for (i=0;i<drdef.length;i++){
-			uzi_dr.innerHTML += '<a href="hero.html?name='+(drdef[i]).replace(/ /g,"%20")+'"><img style="cursor:pointer;margin-left:5px;" src="images/head_circle/'+drdef[i]+'.png" height="'+widthu+'" /></a>';
+			uzi_dr.innerHTML += '<img style="cursor:pointer;margin-left:5px;" src="images/head_circle/'+drdef[i]+'.png" height="'+widthu+'" onclick=location.href="hero.html?name='+(drdef[i]).replace(/ /g,"%20")+'" />';
 		}
 	}
 	uzi_dr.innerHTML += '<br><br>';
 	if (dataTable[hero_number][31]!==''){
 		uzi_dr.innerHTML += '<span style="display:block;width:215px;height:auto;margin:0 auto;white-space:pre-wrap;">АТК<br></span>';
 		for (i=0;i<dratk.length;i++){
-			uzi_dr.innerHTML += '<a href="hero.html?name='+(dratk[i]).replace(/ /g,"%20")+'"><img style="cursor:pointer;margin-left:5px;" src="images/head_circle/'+dratk[i]+'.png" height="'+widthu+'" /></a>';
+			uzi_dr.innerHTML += '<img style="cursor:pointer;margin-left:5px;" src="images/head_circle/'+dratk[i]+'.png" height="'+widthu+'" onclick=location.href="hero.html?name='+(dratk[i]).replace(/ /g,"%20")+'" />';
 		}
 	}
 	
@@ -31643,8 +31643,8 @@ if (chb.length==2){
 	uzi_l1.style["vertical-align"] = "top";
 	uzi_dr1.style["vertical-align"] = "top";
 	uzi_l1.innerHTML = '<span style="display:block;width:170px;height:auto;margin:0 auto;margin-top:10px;white-space:pre-wrap;margin-bottom:12px;">Разблокировка личных уз</span>';
-	uzi_l1.innerHTML += '<span style="display:block;width:170px;height:150px;margin:0 auto;">ЗАЩ<br><a href="hero.html?name='+(dataTable[hero_number][28]).replace(/ /g,"%20")+'"><img style="cursor:pointer;margin-top:6px;" src="images/head_circle/'+dataTable[hero_number][28]+'.png" height="120px" /></a></span>';
-	uzi_l1.innerHTML += '<span style="display:block;width:170px;height:150px;margin:0 auto;margin-top:6px;">АТК<br><a href="hero.html?name='+(dataTable[hero_number][29]).replace(/ /g,"%20")+'"><img style="cursor:pointer;margin-top:6px;" src="images/head_circle/'+dataTable[hero_number][29]+'.png" height="120px" /></a></span>';
+	uzi_l1.innerHTML += '<span style="display:block;width:170px;height:150px;margin:0 auto;">ЗАЩ<br><img style="cursor:pointer;margin-top:6px;" src="images/head_circle/'+dataTable[hero_number][28]+'.png" height="120px" onclick=location.href="hero.html?name='+(dataTable[hero_number][28]).replace(/ /g,"%20")+'" /></span>';
+	uzi_l1.innerHTML += '<span style="display:block;width:170px;height:150px;margin:0 auto;margin-top:6px;">АТК<br><img style="cursor:pointer;margin-top:6px;" src="images/head_circle/'+dataTable[hero_number][29]+'.png" height="120px" onclick=location.href="hero.html?name='+(dataTable[hero_number][29]).replace(/ /g,"%20")+'" /></span>';
 	drdef = dataTable[hero_number][30].split(",")
 	dratk = dataTable[hero_number][31].split(",")
 	bond_dr_sum = drdef.length + dratk.length;
@@ -31653,24 +31653,24 @@ if (chb.length==2){
 	if (dataTable[hero_number][30]!==''){
 		uzi_dr1.innerHTML += '<span style="display:block;width:215px;height:auto;margin:0 auto;white-space:pre-wrap;">ЗАЩ<br></span>';
 		for (i=0;i<drdef.length;i++){
-			uzi_dr1.innerHTML += '<a href="hero.html?name='+(drdef[i]).replace(/ /g,"%20")+'"><img style="cursor:pointer;margin-left:5px;" src="images/head_circle/'+drdef[i]+'.png" height="'+widthu+'" /></a>';
+			uzi_dr1.innerHTML += '<img style="cursor:pointer;margin-left:5px;" src="images/head_circle/'+drdef[i]+'.png" height="'+widthu+'" onclick=location.href="hero.html?name='+(drdef[i]).replace(/ /g,"%20")+'" />';
 		}
 	}
 	uzi_dr1.innerHTML += '<br><br>';
 	if (dataTable[hero_number][31]!==''){
 		uzi_dr1.innerHTML += '<span style="display:block;width:215px;height:auto;margin:0 auto;white-space:pre-wrap;">АТК<br></span>';
 		for (i=0;i<dratk.length;i++){
-			uzi_dr1.innerHTML += '<a href="hero.html?name='+(dratk[i]).replace(/ /g,"%20")+'"<img style="cursor:pointer;margin-left:5px;" src="images/head_circle/'+dratk[i]+'.png" height="'+widthu+'" /></a>';
+			uzi_dr1.innerHTML += '<img style="cursor:pointer;margin-left:5px;" src="images/head_circle/'+dratk[i]+'.png" height="'+widthu+'" onclick=location.href="hero.html?name='+(dratk[i]).replace(/ /g,"%20")+'" />';
 		}
 	}
 } else if (chb.length==3){
 	
-	if (Number(classStats[chb[0]-1][3])>Number(classStats[chb[1]-1][3])){ozA='#16ff66'}else{ozA='black'};if (Number(classStats[chb[0]-1][3])<Number(classStats[chb[1]-1][3])){ozB='#16ff66'}else{ozB='black'};
-	if (Number(classStats[chb[0]-1][4])>Number(classStats[chb[1]-1][4])){atkA='#16ff66'}else{atkA='black'};if (Number(classStats[chb[0]-1][4])<Number(classStats[chb[1]-1][4])){atkB='#16ff66'}else{atkB='black'};
-	if (Number(classStats[chb[0]-1][5])>Number(classStats[chb[1]-1][5])){intA='#16ff66'}else{intA='black'};if (Number(classStats[chb[0]-1][5])<Number(classStats[chb[1]-1][5])){intB='#16ff66'}else{intB='black'};
-	if (Number(classStats[chb[0]-1][6])>Number(classStats[chb[1]-1][6])){defA='#16ff66'}else{defA='black'};if (Number(classStats[chb[0]-1][6])<Number(classStats[chb[1]-1][6])){defB='#16ff66'}else{defB='black'};
-	if (Number(classStats[chb[0]-1][7])>Number(classStats[chb[1]-1][7])){mdefA='#16ff66'}else{mdefA='black'};if (Number(classStats[chb[0]-1][7])<Number(classStats[chb[1]-1][7])){mdefB='#16ff66'}else{mdefB='black'};
-	if (Number(classStats[chb[0]-1][8])>Number(classStats[chb[1]-1][8])){skillA='#16ff66'}else{skillA='black'};if (Number(classStats[chb[0]-1][8])<Number(classStats[chb[1]-1][8])){skillB='#16ff66'}else{skillB='black'};
+	if (classStats[chb[0]-1][3]>classStats[chb[1]-1][3]){ozA='#16ff66'}else{ozA='black'};if (classStats[chb[0]-1][3]<classStats[chb[1]-1][3]){ozB='#16ff66'}else{ozB='black'};
+	if (classStats[chb[0]-1][4]>classStats[chb[1]-1][4]){atkA='#16ff66'}else{atkA='black'};if (classStats[chb[0]-1][4]<classStats[chb[1]-1][4]){atkB='#16ff66'}else{atkB='black'};
+	if (classStats[chb[0]-1][5]>classStats[chb[1]-1][5]){intA='#16ff66'}else{intA='black'};if (classStats[chb[0]-1][5]<classStats[chb[1]-1][5]){intB='#16ff66'}else{intB='black'};
+	if (classStats[chb[0]-1][6]>classStats[chb[1]-1][6]){defA='#16ff66'}else{defA='black'};if (classStats[chb[0]-1][6]<classStats[chb[1]-1][6]){defB='#16ff66'}else{defB='black'};
+	if (classStats[chb[0]-1][7]>classStats[chb[1]-1][7]){mdefA='#16ff66'}else{mdefA='black'};if (classStats[chb[0]-1][7]<classStats[chb[1]-1][7]){mdefB='#16ff66'}else{mdefB='black'};
+	if (classStats[chb[0]-1][8]>classStats[chb[1]-1][8]){skillA='#16ff66'}else{skillA='black'};if (classStats[chb[0]-1][8]<classStats[chb[1]-1][8]){skillB='#16ff66'}else{skillB='black'};
 	h_info3.innerHTML = '<table border="0" style="width:100%;"><tr><td style="width:20%;height:190px;border:0;"></td><td id="chb1" style="width:27%;height:190px;position:relative;"></td><td style="height:190px;"></td><td id="chb2" style="width:27%;height:190px;position:relative;"></td></tr><tr><td id="uzi_l3" rowspan="11" style="background-image:url(images/uzi_l.png);background-repeat:no-repeat;">Для личных уз</td><td style="height:20px;font-size:20px;"><img src="images/Icon_Range.png" height="25px" /> '+classStats[chb[0]-1][9]+' <img src="images/'+classStats[chb[0]-1][11]+'.png" height="25px" /> '+classStats[chb[0]-1][10]+'</td><td style="height:20px;"></td><td id="ch2" style="height:20px;font-size:20px;"><img src="images/Icon_Range.png" height="25px" /> '+classStats[chb[1]-1][9]+' <img src="images/'+classStats[chb[1]-1][11]+'.png" height="25px" /> '+classStats[chb[1]-1][10]+'</td></tr><tr style="font-size:20px;"><td style="height:20px;"><span style="color:'+ozA+';">'+classStats[chb[0]-1][3]+'</span></td><td style="height:20px;">ОЗ</td><td style="height:20px;"><span style="color:'+ozB+';">'+classStats[chb[1]-1][3]+'</span></td></tr><tr style="font-size:20px;"><td style="height:20px;"><span style="color:'+atkA+';">'+classStats[chb[0]-1][4]+'</span></td><td style="height:20px;">АТК</td><td style="height:20px;"><span style="color:'+atkB+';">'+classStats[chb[1]-1][4]+'</span></td></tr><tr style="font-size:20px;"><td style="height:20px;"><span style="color:'+intA+';">'+classStats[chb[0]-1][5]+'</span></td><td style="height:20px;">ИНТ</td><td style="height:20px;"><span style="color:'+intB+';">'+classStats[chb[1]-1][5]+'</span></td></tr><tr style="font-size:20px;"><td style="height:20px;"><span style="color:'+defA+';">'+classStats[chb[0]-1][6]+'</span></td><td style="height:20px;">ЗАЩ</td><td style="height:20px;"><span style="color:'+defB+';">'+classStats[chb[1]-1][6]+'</span></td></tr><tr style="font-size:20px;"><td style="height:20px;"><span style="color:'+mdefA+';">'+classStats[chb[0]-1][7]+'</span></td><td style="height:20px;">МЗАЩ</td><td style="height:20px;"><span style="color:'+mdefB+';">'+classStats[chb[1]-1][7]+'</span></td></tr><tr style="font-size:20px;"><td style="width:24%;height:20px;"><span style="color:'+skillA+';">'+classStats[chb[0]-1][8]+'</span></td><td style="width:4%;height:20px;">НАВЫК</td><td style="width:24%;height:20px;"><span style="color:'+skillB+';">'+classStats[chb[1]-1][8]+'</span></td></tr><tr><td colspan="3"><img src="images/shadow.png" width="100%" height="20px" /></td></tr><tr><td style="height:50px;white-space:break-spaces;padding:0 10px;vertical-align:middle;"><span>'+classStats[chb[0]-1][12]+'</span></td><td style="height:50px;"><img src="images/heart.png" height="40px" /><br>4 уровень</td><td style="height:50px;white-space:break-spaces;padding:0 10px;vertical-align:middle;"><span>'+classStats[chb[1]-1][12]+'</span></td></tr><tr><td style="height:50px;white-space:break-spaces;padding:0 10px;vertical-align:middle;"><span>'+classStats[chb[0]-1][13]+'</span></td><td style="height:50px;"><img src="images/heart.png" height="40px" /><br>7 уровень</td><td style="height:50px;white-space:break-spaces;padding:0 10px;vertical-align:middle;"><span>'+classStats[chb[1]-1][13]+'</span></td></tr><tr><td style="height:20px;" colspan="4"></td></tr></table><br>';
 	
 	if (dataTable[hero_number][47]!==''){SPclass='/SP/'}else{SPclass=''}
@@ -31737,8 +31737,8 @@ if (chb.length==2){
 	uzi_l3.style["vertical-align"] = "top";
 	uzi_dr3.style["vertical-align"] = "top";
 	uzi_l3.innerHTML = '<span style="display:block;width:170px;height:auto;margin:0 auto;margin-top:15px;white-space:pre-wrap;margin-bottom:12px;">Разблокировка личных уз</span>';
-	uzi_l3.innerHTML += '<span style="display:block;width:170px;height:150px;margin:10px auto;">ЗАЩ<br><a href="hero.html?name='+(dataTable[hero_number][28]).replace(/ /g,"%20")+'"><img style="cursor:pointer;margin-top:6px;" src="images/head_circle/'+dataTable[hero_number][28]+'.png" height="134px" /></a></span>';
-	uzi_l3.innerHTML += '<span style="display:block;width:170px;height:150px;margin:10px auto;margin-top:17px;">АТК<br><a href="hero.html?name='+(dataTable[hero_number][29]).replace(/ /g,"%20")+'"><img style="cursor:pointer;margin-top:6px;" src="images/head_circle/'+dataTable[hero_number][29]+'.png" height="134px" /></a></span>';
+	uzi_l3.innerHTML += '<span style="display:block;width:170px;height:150px;margin:10px auto;">ЗАЩ<br><img style="cursor:pointer;margin-top:6px;" src="images/head_circle/'+dataTable[hero_number][28]+'.png" height="134px" onclick=location.href="hero.html?name='+(dataTable[hero_number][28]).replace(/ /g,"%20")+'" /></span>';
+	uzi_l3.innerHTML += '<span style="display:block;width:170px;height:150px;margin:10px auto;margin-top:17px;">АТК<br><img style="cursor:pointer;margin-top:6px;" src="images/head_circle/'+dataTable[hero_number][29]+'.png" height="134px" onclick=location.href="hero.html?name='+(dataTable[hero_number][29]).replace(/ /g,"%20")+'" /></span>';
 	drdef = dataTable[hero_number][30].split(",")
 	dratk = dataTable[hero_number][31].split(",")
 	bond_dr_sum = drdef.length + dratk.length;
@@ -31747,14 +31747,14 @@ if (chb.length==2){
 	if (dataTable[hero_number][30]!==''){
 		uzi_dr3.innerHTML += '<span style="display:block;width:215px;height:auto;margin:0 auto;white-space:pre-wrap;">ЗАЩ<br></span>';
 		for (i=0;i<drdef.length;i++){
-			uzi_dr3.innerHTML += '<a href="hero.html?name='+(drdef[i]).replace(/ /g,"%20")+'"><img style="cursor:pointer;margin-left:5px;" src="images/head_circle/'+drdef[i]+'.png" height="'+widthu+'" /></a>';
+			uzi_dr3.innerHTML += '<img style="cursor:pointer;margin-left:5px;" src="images/head_circle/'+drdef[i]+'.png" height="'+widthu+'" onclick=location.href="hero.html?name='+(drdef[i]).replace(/ /g,"%20")+'" />';
 		}
 	}
 	uzi_dr3.innerHTML += '<br>';
 	if (dataTable[hero_number][31]!==''){
 		uzi_dr3.innerHTML += '<span style="display:block;width:215px;height:auto;margin:0 auto;white-space:pre-wrap;">АТК<br></span>';
 		for (i=0;i<dratk.length;i++){
-			uzi_dr3.innerHTML += '<a href="hero.html?name='+(dratk[i]).replace(/ /g,"%20")+'"><img style="cursor:pointer;margin-left:5px;" style="margin:4px 4px;" src="images/head_circle/'+dratk[i]+'.png" height="'+widthu+'" /></a>';
+			uzi_dr3.innerHTML += '<img style="cursor:pointer;margin-left:5px;" style="margin:4px 4px;" src="images/head_circle/'+dratk[i]+'.png" height="'+widthu+'" onclick=location.href="hero.html?name='+(dratk[i]).replace(/ /g,"%20")+'" />';
 		}
 	}
 }
