@@ -25,7 +25,7 @@ var heroesDat = [
         "Light of Genesis",
         "ЛС,ИС,РЕ",
         "SSR",
-        "",
+        "forge",
         "",
         "РЕИ"
     ],
@@ -673,7 +673,7 @@ var heroesDat = [
         "Caroline",
         "ЛС,ИМП,МС",
         "SSR",
-        "",
+        "forge",
         "",
         "М3"
     ],
@@ -1042,7 +1042,7 @@ var heroesDat = [
         "Matthew",
         "ГГ,ЛС",
         "N",
-        "",
+        "forge",
         "SP",
         "М1"
     ],
@@ -1582,7 +1582,7 @@ var heroesDat = [
         "Freya",
         "ИС,АП",
         "SR",
-        "",
+        "forge",
         "SP",
         "Л13"
     ],
