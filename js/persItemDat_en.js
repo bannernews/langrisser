@@ -1354,6 +1354,21 @@ var persItemDat = [
         "\"DEF +10%. When you have a skill on cooldown, damage dealt +10%. When doing [displacement] on an enemy, gains the aura: \"\"All enemies within 2 blocks receive 30% less healing.\"\" for 1 round.\""
     ],
     [
+        "Преция",
+        "Precia",
+        "Глобал - 02.05.2024",
+        "",
+        "weapon",
+        "21",
+        "10",
+        "",
+        "",
+        "",
+        "",
+        "АТК +10%. [Поток времени] дополнительно снижает КД на 1. [Хроно-брейк] больше не имеет КД. Наносимый урон увеличивается на 5% за каждый навык, который находится не в перезарядке.",
+        "ATK +10%. [Time Flux] additionally reduces CD by 1. [Chrono Break] no longer has CD. Damage dealt increases by 5% for each skill that is not on cooldown."
+    ],
+    [
         "Рейнфорс",
         "Rainforce",
         "Сердце Красной Луны",
@@ -1667,6 +1682,21 @@ var persItemDat = [
         "",
         "ОЗ & ЗАЩ +5%. Когда у этого героя есть особый эффект «сила синтеза», урон, наносимый при атаке и вступлении в бой увеличивается на 10%. Если у врага нет «силы синтеза», его АТК и ИНТ уменьшается на 15% перед битвой. Длится 1 ход.",
         "\"HP & DEF +5%. When this unit has a special effect from a Fusion Power, when attacking and entering battle increase damage dealt by 10%. If at the same time the target does not have a special effect from a Fusion Power, before battle inflict \"\"ATK/INT -15%\"\". Lasts 1 turn.\""
+    ],
+[
+        "Тормил",
+        "Tourmilque",
+        "Глобал 02.05.2024",
+        "",
+        "body",
+        "34",
+        "",
+        "",
+        "5",
+        "",
+        "",
+        "ОЗ +10%. В начале хода, преобразовывает 1 стак [Перцептивный] или [Рациональный] (смотря что ниже) в другой. Чем меньше разница в стаках [Перцептивный] и [Рациональный], тем больше увеличивается наносимый героем урон (до 10% при равных стаках).",
+        "HP +10%. At the start of the turn, converts 1 stack of [Perceptual] or [Rational] (whichever is lower) into another. The smaller the difference in the [Perceptive] and [Rational] stacks, the more the damage dealt by the hero increases (up to 10% for equal stacks)."
     ],
     [
         "Трансцендентный",
