@@ -997,7 +997,7 @@ var heroesDat = [
         "Maiya",
         "ИМП,РЕ",
         "SSR",
-        "1",
+        "forge",
         "",
         "РЕИ"
     ],
