@@ -32255,10 +32255,10 @@ if (dataTable[hero_number][34]=='' && dataTable[hero_number][35]==''){
 	if (heroName == 'Алканфель' || heroName == 'Макишима Агито' || heroName == 'Шо Фукамачи'){
 		cl10.style.display = 'none';
 		cl11.style.width = "100%";
-		cl12.style.width = "none";
+		cl12.style.width = "0";
 		cl20.style.display = 'none';
 		cl21.style.width = "100%";
-		cl22.style.width = "none";
+		cl22.style.width = "0";
 		glminus.style.display = 'none';
 		glminus2.style.display = 'none';
 		undw = "565px";
@@ -32303,10 +32303,10 @@ if (dataTable[hero_number][36]=='' && dataTable[hero_number][37]==''){
 	if (heroName == 'Алканфель' || heroName == 'Макишима Агито' || heroName == 'Шо Фукамачи'){
 		cl10.style.display = 'none';
 		cl11.style.width = "100%";
-		cl12.style.width = "none";
+		cl12.style.width = "0";
 		cl20.style.display = 'none';
 		cl21.style.width = "100%";
-		cl22.style.width = "none";
+		cl22.style.width = "0";
 		glminus.style.display = 'none';
 		glminus2.style.display = 'none';
 		undw = "565px";
@@ -32348,10 +32348,10 @@ if (dataTable[hero_number][38]=='' && dataTable[hero_number][39]==''){
 	if (heroName == 'Алканфель' || heroName == 'Макишима Агито' || heroName == 'Шо Фукамачи'){
 		cl10.style.display = 'none';
 		cl11.style.width = "100%";
-		cl12.style.width = "none";
+		cl12.style.width = "0";
 		cl20.style.display = 'none';
 		cl21.style.width = "100%";
-		cl22.style.width = "none";
+		cl22.style.width = "0";
 		glminus.style.display = 'none';
 		glminus2.style.display = 'none';
 		undw = "565px";
