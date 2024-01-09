@@ -546,7 +546,7 @@ var itemDat = [
         "",
         "",
         "Все аттрибуты +1%. В конце действия, если герой не нанёс никакого урона, 100(?)% шанс получить мобильность +2. Длится 1 раунд. (Если уже есть другое повышение мобильности, дает Мобильность +3)",
-        "All attributes +1%. At the end of the action, if the hero has not dealt any damage, there is a 100(?)% chance to gain +2 mobility. Lasts 1 round. (If there is already another mobility boost, gives Mobility +3)"
+        "All attributes +1%. At the end of the action, if the hero has not dealt any damage, there is a 100% chance to gain +2 mobility. Lasts 1 round. (If there is already another mobility boost, gives Mobility +3)"
     ],
     [
         "Белая мантия Бальдра",
