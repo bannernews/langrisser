@@ -61,7 +61,7 @@ var persItemDat = [
         "",
         "",
         "ОЗ +10%. Когда дружественный отряд заканчивают действие на [двери], он получат «АТК/ИНТ +20%», длится 2 раунда. Все вражеские войска, способ передвижения которых не [полет], проходя через местность в 2 клетках от [двери], потребляют дополнительно 1 очко движения.",
-        "\"HP +10%. When a friendly unit ends on [door], they will receive \"\"ATK / INT + 20%\"\", lasts 2 rounds. All enemy troops that has non [flying] move, while passing through terrain within 2 squares of the [door] consume an additional 1 movement point.\""
+        "HP +10%. When a friendly unit ends on [door], they will receive \"ATK / INT + 20%\", lasts 2 rounds. All enemy troops that has non [flying] move, while passing through terrain within 2 squares of the [door] consume an additional 1 movement point."
     ],
     [
         "Азуса",
@@ -136,7 +136,7 @@ var persItemDat = [
         "",
         "",
         "ИНТ +10%. После атаки и нанесении урона мобильность противника снижается на 1 клетку, и он не может охранять в течении 1 хода.",
-        "\"INT +10%. After attacking and dealing damage, inflicts \"\"Movement -1 and cannot guard\"\" for 1 turn.\""
+        "INT +10%. After attacking and dealing damage, inflicts \"Movement -1 and cannot guard\" for 1 turn."
     ],
     [
         "Альфа",
@@ -451,7 +451,7 @@ var persItemDat = [
         "",
         "",
         "ИНТ & ОЗ +5%. Если после активного использования навыка один из призванных Гизаровым «конструктов» находится на поле боя, 1 раз проводится случайное «Обновление конструкта».",
-        "\"INT & HP +5%. After using a skill, if Gizarof has a \"\"Construct\"\", 1 \"\"Renovation\"\" is added.\""
+        "INT & HP +5%. After using a skill, if Gizarof has a \"Construct\", 1 \"Renovation\" is added."
     ],
     [
         "Греншиль",
@@ -556,7 +556,7 @@ var persItemDat = [
         "5",
         "",
         "ОЗ +10%. Когда Джоа находится в пределах 3 блоков, урон от атаки Конни увеличивается на 15%. Когда Джоа использует помехи канала, он так же может дополнительно получить: «[Команда] Вражеские войска в пределах 2 клеток вокруг него не могут быть охраняемы, когда их атакует Конни », длится 2 раунда.",
-        "\"HP +10%. When Joa is within 3 blocks, Connie's attack damage is increased by 15%. When Joa uses channel jamming, she can additionally gain: \"\"[Command] Enemy troops within 2 squares around cannot be defended when attacked by Connie\"\", lasts 2 rounds.\""
+        "HP +10%. When Joa is within 3 blocks, Connie's attack damage is increased by 15%. When Joa uses channel jamming, she can additionally gain: \"[Command] Enemy troops within 2 squares around cannot be defended when attacked by Connie\", lasts 2 rounds."
     ],
     [
         "Джулиан",
@@ -661,7 +661,7 @@ var persItemDat = [
         "6",
         "",
         "МЗАЩ +10%. После завершения действия дарует 4 союзникам в пределах 2 клеток иммунитет к фиксированому урону. Длится 1 ход.",
-        "\"MDEF +10%. After taking action, 4 allies within 2 blocks gain \"\"Immune to Fixed Damage\"\". Lasts 1 turn.\""
+        "MDEF +10%. After taking action, 4 allies within 2 blocks gain \"Immune to Fixed Damage\". Lasts 1 turn."
     ],
     [
         "Император Ловина",
@@ -676,7 +676,7 @@ var persItemDat = [
         "",
         "",
         "ОЗ and ATK +5%. Когда этот герой имеет особый эффект «энергия слияния», он получает +1 дальность умения при использовании АОЕ-навыков. После того как союзный отряд развернут, он наносит 10% урон в течении 2 ходов. После развертывании эффекты повышения мобильности таланта длятся 1 ход.",
-        "\"HP and ATK +5%. When this unit has a special effect from a Fusion Power, AoE skill span +1. After deploying allies, grant those allies \"\"Damage Dealt +10%\"\". Lasts 2 turns. After deploying, movement gained from talent has its duration increased by 1\""
+        "HP and ATK +5%. When this unit has a special effect from a Fusion Power, AoE skill span +1. After deploying allies, grant those allies \"Damage Dealt +10%\". Lasts 2 turns. After deploying, movement gained from talent has its duration increased by 1"
     ],
     [
         "Кагуя",
@@ -691,7 +691,7 @@ var persItemDat = [
         "6",
         "",
         "ОЗ +10%. В начале боя получает случайным образом 2 [свинью], [оленя] или [бабочку]. Эффект «диапазон героя +2», получаемый при использовании [скрытой карты], нельзя рассеять. Шанс критического удара героя увеличивается на 1% за каждую 1 [свинью], [оленя] или [бабочку], использованных в этой битве (до 10%).",
-        "\"HP +10%. At the start of a map, gain 2 random [Ino], [Shika], or [Cho]. The \"\"Unit Range +2\"\" from [Sleeved Card] cannot be dispelled. For every 1 [Ino], [Shika], or [Cho] consumed, Hero critical hit rate +1% (up to 10%).\""
+        "HP +10%. At the start of a map, gain 2 random [Ino], [Shika], or [Cho]. The \"Unit Range +2\" from [Sleeved Card] cannot be dispelled. For every 1 [Ino], [Shika], or [Cho] consumed, Hero critical hit rate +1% (up to 10%)."
     ],
     [
         "Каролина",
@@ -721,7 +721,7 @@ var persItemDat = [
         "6",
         "",
         "ОЗ +10%. Восстанавливает 20% ОЗ после вступления в бой, когда враг атакует [печать души]. При убийстве двойника с портрета, наносимый урон увеличивается на 10%, а получаемый урон уменьшается на 10%.",
-        "\"HP +10%. After being attacked by enemy with [Soul Seal], restore 20% HP. When defeating an enemy, the resulting Painted Puppet will have \"\"Damage Dealt +10%\"\" and \"\"Damage Taken -10%\"\".\""
+        "HP +10%. After being attacked by enemy with [Soul Seal], restore 20% HP. When defeating an enemy, the resulting Painted Puppet will have \"Damage Dealt +10%\" and \"Damage Taken -10%\"."
     ],
     [
         "Кирикадзе",
@@ -765,8 +765,8 @@ var persItemDat = [
         "",
         "6",
         "",
-        "\"ОЗ +10%. Когда у любого врага есть эффект \"\"расколотое пламя\"\", атака и интелект союзников в радиусе 2 клеток вокруг него увеличивается на 10%. После нанесения урону противнику получает эффект \"\"урон от следующего умения увеличивается на 25%\"\"\"",
-        "\"Life +10%, When any enemy has [Destroyed Flame Pattern], allies within 2 blocks around it: \"\"Attack, Intelligence\"\" increased by 10%. After causing skill damage to the enemy, get \"\"25% increase in next skill damage\"\".\""
+        "ОЗ +10%. Когда у любого врага есть эффект \"расколотое пламя\"\", атака и интелект союзников в радиусе 2 клеток вокруг него увеличивается на 10%. После нанесения урону противнику получает эффект \"урон от следующего умения увеличивается на 25%\"",
+        "Life +10%, When any enemy has [Destroyed Flame Pattern], allies within 2 blocks around it: \"Attack, Intelligence\" increased by 10%. After causing skill damage to the enemy, get \"25% increase in next skill damage\"."
     ],
     [
         "Король Красной Луны",
@@ -781,7 +781,7 @@ var persItemDat = [
         "",
         "",
         "ОЗ +10%. Наносимый фиксированный урон и эффект исцеления увеличивается на 20%. «Тёмная сторона луны» увеличивает диапазон баффа на 1.",
-        "\"HP +10%. Fixed damage dealt and received heal effects +20%. Command range of \"\"Dark Side of the Moon\"\" +1.\""
+        "HP +10%. Fixed damage dealt and received heal effects +20%. Command range of \"Dark Side of the Moon\" +1."
     ],
     [
         "Крис",
@@ -871,7 +871,7 @@ var persItemDat = [
         "4",
         "",
         "ЗАЩ +10%. Если в радиусе 2 клеток есть дружественный юнит, герой наносит на 10% больше урона. Может получать преимущество от эффекта енергии слияния [Легион Света].",
-        "\"DEF +10%. When there are allies within 2 blocks, hero damage dealt +10%. May receive \"\"Legion of Glory\"\" fusion powers.\""
+        "DEF +10%. When there are allies within 2 blocks, hero damage dealt +10%. May receive \"Legion of Glory\" fusion powers."
     ],
     [
         "Ледин",
@@ -886,7 +886,7 @@ var persItemDat = [
         "",
         "",
         "ЗАЩ & МЗАЩ +5%. После уничтожения врага блокирует 1 смертельный удар и восстанавливает ОЗ героя до прежнего значения. В этом статусе можно активировать только 1 возрождение. Длится 1 ход. ([активация КД] эффект можно активировать только 1 раз за 3 хода).",
-        "\"DEF & MDEF +5%. When this unit defeats an enemy, gain \"\"Prevent one instance of fatal damage, instead returning to the amount of HP this unit was at before that instance of damage. This may only occur once during this buff.\"\" Lasts 1 turn. This effect has a 2 turn cooldown.\""
+        "DEF & MDEF +5%. When this unit defeats an enemy, gain \"Prevent one instance of fatal damage, instead returning to the amount of HP this unit was at before that instance of damage. This may only occur once during this buff.\" Lasts 1 turn. This effect has a 2 turn cooldown."
     ],
     [
         "Ленфорд",
@@ -931,7 +931,7 @@ var persItemDat = [
         "",
         "",
         "ЗАЩ +10%. Когда получаете урон, местность больше не влияет на мобильность. Длится 1 ход.",
-        "\"DEF +10%. After taking damage, gain \"\"Movement is not affected by terrain\"\". Lasts 1 turn.\""
+        "DEF +10%. After taking damage, gain \"Movement is not affected by terrain\". Lasts 1 turn."
     ],
     [
         "Лиана",
@@ -946,7 +946,7 @@ var persItemDat = [
         "",
         "",
         "ОЗ +10%. Когда используется Дополнительный ход, также накладывает на цель АТК/ИНТ + 20%. Длится 2 раунда. Призванный небесный лучник имеет повышенные статы и умение «Молитва».",
-        "\"HP +10%. When using [Act Again], also grant \"\"ATK/INT +20%\"\". Lasts 2 turns. Summoned Sky Archer has increased stats and has the skill [Prayer].\""
+        "HP +10%. When using [Act Again], also grant \"ATK/INT +20%\". Lasts 2 turns. Summoned Sky Archer has increased stats and has the skill [Prayer]."
     ],
     [
         "Лиза",
@@ -991,7 +991,7 @@ var persItemDat = [
         "6",
         "",
         "ОЗ +10%. Если у героя более 80% ОЗ, ЗАЩ и МЗАЩ увеличивается на 10%. После нанесении урона врагам заставляет их нанести на 20% меньше магического урона в течении 2 ходов.",
-        "\"HP +10%. When this unit's HP is at least 80%, DEF and MDEF +10%. After dealing damage to an enemy, inflict \"\"Magic Damage Dealt -20%\"\". Lasts 2 turns.\""
+        "HP +10%. When this unit's HP is at least 80%, DEF and MDEF +10%. After dealing damage to an enemy, inflict \"Magic Damage Dealt -20%\". Lasts 2 turns."
     ],
     [
         "Лиффани",
@@ -1051,7 +1051,7 @@ var persItemDat = [
         "5",
         "",
         "ОЗ & МЗАЩ +5%. Дальность эффекта команды всех ваших талантов и навыков увеличивается на 1. После совершения действия накладывает «наносимый урон увеличивается на 15%» на 2 союзников в радиусе 1 клетки. Длится 1 ход.",
-        "\"HP & MDEF +5%. Command range from talent and skills +1. After taking action, grants 2 allies within 1 block \"\"Damage Dealt+15%\"\". Lasts 1 turn.\""
+        "HP & MDEF +5%. Command range from talent and skills +1. After taking action, grants 2 allies within 1 block \"Damage Dealt+15%\". Lasts 1 turn."
     ],
     [
         "Лэндиус",
@@ -1156,7 +1156,7 @@ var persItemDat = [
         "",
         "",
         "Эффект исцеления +15%. Этот юнит получает [комманду]: все союзные юниты в радиусе 1 клетки получают иммунитет к [ранящему проклятию] и эффектам, не позволяющим исцеляться.",
-        "\"Heal Effect +15%. The unit gains [Command]: \"\"Allies within 1 block are immune to 'Curse of Wounding' and 'Cannot be Healed'.\"\"\""
+        "Heal Effect +15%. The unit gains [Command]: \"Allies within 1 block are immune to 'Curse of Wounding' and 'Cannot be Healed'.\""
     ],
     [
         "Метью",
@@ -1201,7 +1201,7 @@ var persItemDat = [
         "",
         "",
         "ATK +10%. После нанесения урона противнику есть 50% шанс применить 1 суммирование [жгучее пламя] и получает «при использовании прямолинейных умений дальность умения +1 на 1ход. Нельзя рассеять».",
-        "\"ATK +10%. After dealing damage to an enemy, 50% chance to inflict 1 stack of [Burning Flame], and this unit gains \"\"Line skill range +1. Lasts 1 turn. Cannot be dispelled.\"\"\""
+        "ATK +10%. After dealing damage to an enemy, 50% chance to inflict 1 stack of [Burning Flame], and this unit gains \"Line skill range +1. Lasts 1 turn. Cannot be dispelled.\""
     ],
     [
         "Мю",
@@ -1216,7 +1216,7 @@ var persItemDat = [
         "6",
         "",
         "ОЗ +10%. После совершения действия получает эффект, который заставляет всех юнитов в радиусе 3 клеток считать любую местность «пастбищем» в течении 1 хода. ([Активация КД] Эффект можно активировать только еще раз после 3 ходов).",
-        "\"HP +10%. After taking action, gain buff: \"\"Units within 3 blocks have all terrain considered as 'Grasslands'\"\". Lasts 1 turn. This effect has a 3 turn cooldown.\""
+        "HP +10%. After taking action, gain buff: \"Units within 3 blocks have all terrain considered as 'Grasslands'\". Lasts 1 turn. This effect has a 3 turn cooldown."
     ],
     [
         "Нарм",
@@ -1306,7 +1306,7 @@ var persItemDat = [
         "5",
         "",
         "ОЗ +10%. Убийство врага с помощью активного навыка уменьшает КД этого навыка на 2 хода. После совершения действия получает «НАВЫК +20%» и мобильность +2 на 1 ход.",
-        "\"HP +10%. After using a skill to defeat an enemy, CD-2 for that skill and gain \"\"Skill +20%\"\" and \"\"Movement +2\"\" for 1 turn.\""
+        "HP +10%. After using a skill to defeat an enemy, CD-2 for that skill and gain \"Skill +20%\" and \"Movement +2\" for 1 turn."
     ],
     [
         "Отшельник",
@@ -1350,8 +1350,8 @@ var persItemDat = [
         "",
         "4",
         "",
-        "\"ЗАЩ +10%. Когда у вас есть умение в перезарядке, наносимый урон +10%. При применении [перемещения] на враге получает ауру: \"\"Все враги в радиусе 2 блоков получают на 30% меньше лечения\"\". Действует 1 раунд.\"",
-        "\"DEF +10%. When you have a skill on cooldown, damage dealt +10%. When doing [displacement] on an enemy, gains the aura: \"\"All enemies within 2 blocks receive 30% less healing.\"\" for 1 round.\""
+        "ЗАЩ +10%. Когда у вас есть умение в перезарядке, наносимый урон +10%. При применении [перемещения] на враге получает ауру: \"Все враги в радиусе 2 блоков получают на 30% меньше лечения\". Действует 1 раунд.",
+        "DEF +10%. When you have a skill on cooldown, damage dealt +10%. When doing [displacement] on an enemy, gains the aura: \"All enemies within 2 blocks receive 30% less healing.\" for 1 round."
     ],
     [
         "Преция",
@@ -1411,7 +1411,7 @@ var persItemDat = [
         "4",
         "",
         "ОЗ and ЗАЩ +5%. Вступая в бой с вражескими юнитами в оборонительном направлении, герой наносит на 10% больше урона. Если на поле боя есть Шельфаниэль, обе стороны наносят на 5% больше урона от умений.",
-        "\"HP and DEF +5%. When battling enemies in this unit's defense direction, Hero Damage Dealt +10%. If there is an allied unit named \"\"Shelfaniel\"\" on the map, both units gain Skill Damage +5%.\""
+        "HP and DEF +5%. When battling enemies in this unit's defense direction, Hero Damage Dealt +10%. If there is an allied unit named \"Shelfaniel\" on the map, both units gain Skill Damage +5%."
     ],
     [
         "Розалия",
@@ -1442,6 +1442,21 @@ var persItemDat = [
         "",
         "ОЗ +10%. За каждый слой кристаллического барьера, который у вас есть, лечебный эффект увеличивается на 3%. Когда герой умирает, восстанавливает жизнь другим союзникам в пределах 2 клеток на 2х ИНТ.",
         "HP +10%. For each layer of Crystall Barrier you have, the healing effect is increased by 3%. When a hero dies, restores HP to other allies within 2 squares for 2x INT."
+    ],
+	[
+        "Роланд",
+        "Roland",
+        "Глобал - 30.05.2024",
+        "",
+        "body",
+        "34",
+        "",
+        "",
+        "5",
+        "",
+        "",
+        "ОЗ +10%.  При переключении формы, количество ходов баффов не уменьшается. Если у юнита есть [Грань проницательности] и за ход не был нанесен урон, в конце хода получает \"Мобильность +2\", длится 1 раунд. Если у юнита есть [Карающий свет], может передвинуться на 2 клетки после атаки.",
+        "HP +10%. When switching forms, the number of buffs does not decrease. If a unit has [Edge of Insight] and no damage was dealt during the turn, at the end of the turn gains \"Mobility +2\", lasts 1 round. If a unit has [Punishing Light], it can move 2 squares after an attack."
     ],
     [
         "Рыцарь тайн",
@@ -1476,7 +1491,7 @@ var persItemDat = [
     [
         "Сагани",
         "Sagny",
-        "Глобал - 11.01.2024",
+        "Снежные Ритуальные Одеяния",
         "",
         "body",
         "34",
@@ -1486,12 +1501,12 @@ var persItemDat = [
         "",
         "",
         "ОЗ +10%. Снежную сову можно переместить +1 дополнительный раз. Когда в радиусе 6 клеток от Сагани есть снежная сова, при получении фатального урона не умирает (1 раз за бой)",
-        "\"HP +10%. After releasing [Cold Sharp Eyes], you can choose to move the \"\"Snowy Owl\"\" +1 times. When there is a \"\"Snowy Owl\"\" released by itself within 6 squares, it cannot be fatally hit (it can be triggered once per battle at most).\""
+        "HP +10%. After releasing [Cold Sharp Eyes], you can choose to move the \"Snowy Owl\" +1 times. When there is a \"Snowy Owl\" released by itself within 6 squares, it cannot be fatally hit (it can be triggered once per battle at most)."
     ],
     [
         "Светоносец",
         "Lightbringer",
-        "Глобал - 14.12.2023",
+        "Эмбер Уотч",
         "",
         "hat",
         "34",
@@ -1546,7 +1561,7 @@ var persItemDat = [
         "5",
         "",
         "ОЗ +5%. После совершения действия может с 25% шансом повысить свою АТК на 20%. Длится 4 хода.",
-        "\"HP +5%. After taking action, 25% to gain \"\"ATK +20%\"\". Lasts 4 turns.\""
+        "HP +5%. After taking action, 25% to gain \"ATK +20%\". Lasts 4 turns."
     ],
     [
         "Сисси Уайт",
@@ -1591,7 +1606,7 @@ var persItemDat = [
         "",
         "",
         "ОЗ +5%. Применяя навыки на союзных юнитов, дополнительно накладывает: АТК и ИНТ повышается на 15%, а МЗАЩ повышается на 20%. Длится 2 хода.",
-        "\"HP +5%. When casting skills on allies, also grant: \"\"ATK, INT +15%\"\" and \"\"MDEF +20%\"\". Lasts 2 turns.\""
+        "HP +5%. When casting skills on allies, also grant: \"ATK, INT +15%\" and \"MDEF +20%\". Lasts 2 turns."
     ],
     [
         "Странствующий дуэлянт",
@@ -1621,12 +1636,12 @@ var persItemDat = [
         "",
         "4",
         "ATK +10%. Может получать преимущества от эффекта «энергии слияния» [Легиона Света]. Навыки с АОЕ-уроном становятся одиночными, шанс крита героя увеличивается на 3% за каждую 1 клетку расстояния до цели (до 15%).",
-        "\"ATK +10%. May receive \"\"Legion of Glory\"\" Fusion Power effects. AoE skills now target tiles. The further this unit is from its targets, the greater the critical hit rate, giving +3% critical hit rate per block (up to 15%).\""
+        "ATK +10%. May receive \"Legion of Glory\" Fusion Power effects. AoE skills now target tiles. The further this unit is from its targets, the greater the critical hit rate, giving +3% critical hit rate per block (up to 15%)."
     ],
     [
         "Таталия",
         "Tatalia",
-        "Глобал - 11.01.2024",
+        "Наказание зла",
         "",
         "hat",
         "25",
@@ -1635,8 +1650,8 @@ var persItemDat = [
         "",
         "5",
         "",
-        "\"ОЗ, ЗАЩ +5%. Когда сражается с врагом и в радиусе 3 клеток от него есть враг с [восприятием зла], наносимый урон увеличивается на 10%. После того как Пожирание злых мыслей (3С) убьёт врага, в конце действия получает \"\"когда ОЗ 70% и выше, персонажа нельзя выбрать целью атаки или умения\"\". Действует 1 раунд\"",
-        "\"HP DEF +5%. When fighting with enemies within 3 squares of the enemy unit with [Evil Thought Perception], the damage dealt is increased by 10%. After using [Evil Thought Devour] to kill the enemy, at the end of the action, you will get \"\"When the unit's HP is above 70%, it cannot be targeted by the enemy's normal attack and skills\"\", which lasts for 1 round.\""
+        "ОЗ, ЗАЩ +5%. Когда сражается с врагом и в радиусе 3 клеток от него есть враг с [восприятием зла], наносимый урон увеличивается на 10%. После того как Темное пожирание (3С) убьёт врага, в конце действия получает \"Когда ОЗ 70% и выше, персонажа нельзя выбрать целью атаки или умения\". Действует 1 раунд",
+        "HP DEF +5%. When fighting with enemies within 3 squares of the enemy unit with [Evil Thought Perception], the damage dealt is increased by 10%. After using [Evil Thought Devour] (3С) to kill the enemy, at the end of the action, you will get \"When the unit's HP is above 70%, it cannot be targeted by the enemy's normal attack and skills\", which lasts for 1 round."
     ],
     [
         "Теон",
@@ -1666,7 +1681,7 @@ var persItemDat = [
         "6",
         "",
         "ОЗ +10%. При использовании умения на одиночную цель союзника, он также получает эффект: наносит на 30% больше урона и получает только половину урона в бою. Длится 1 ход.",
-        "\"HP +10%. After using single target skills on allies, also grant \"\"When attacking and entering battle, damage dealt +30%, and damage taken is reduced by half.\"\" Lasts 1 turn.\""
+        "HP +10%. After using single target skills on allies, also grant \"When attacking and entering battle, damage dealt +30%, and damage taken is reduced by half.\" Lasts 1 turn."
     ],
     [
         "Това",
@@ -1681,7 +1696,7 @@ var persItemDat = [
         "4",
         "",
         "ОЗ & ЗАЩ +5%. Когда у этого героя есть особый эффект «сила синтеза», урон, наносимый при атаке и вступлении в бой увеличивается на 10%. Если у врага нет «силы синтеза», его АТК и ИНТ уменьшается на 15% перед битвой. Длится 1 ход.",
-        "\"HP & DEF +5%. When this unit has a special effect from a Fusion Power, when attacking and entering battle increase damage dealt by 10%. If at the same time the target does not have a special effect from a Fusion Power, before battle inflict \"\"ATK/INT -15%\"\". Lasts 1 turn.\""
+        "HP & DEF +5%. When this unit has a special effect from a Fusion Power, when attacking and entering battle increase damage dealt by 10%. If at the same time the target does not have a special effect from a Fusion Power, before battle inflict \"ATK/INT -15%\". Lasts 1 turn.\""
     ],
 [
         "Тормил",
@@ -1801,7 +1816,7 @@ var persItemDat = [
         "",
         "",
         "ОЗ & ЗАЩ +5%. Экипированные навыки игнорируют ограничение стоимости. При входе в ближний бой, перед боем отключает навыки оружия противника (кроме эффектов макс ОЗ). Когда цель не является героем игрока, эффект меняется на 25% эффект снижения атаки и интелекта. Длится 1 ход.",
-        "\"HP & DEF +5%. Ignore skill cost limit. When entering melee battle, cause the enemy to be afflicted with \"\"Weapon Skill Disabled (Excluding Max HP effects)\"\". If the enemy is an NPC, this effect is instead \"\"ATK/INT -25%\"\". Lasts 1 turn.\""
+        "HP & DEF +5%. Ignore skill cost limit. When entering melee battle, cause the enemy to be afflicted with \"Weapon Skill Disabled (Excluding Max HP effects)\". If the enemy is an NPC, this effect is instead \"ATK/INT -25%\". Lasts 1 turn."
     ],
     [
         "Цубамэ",
@@ -1816,7 +1831,7 @@ var persItemDat = [
         "5",
         "",
         "ОЗ+10%. Наносимый урон увеличивается на 10%. Получаемый АОЕ-урон снижается на 10%. Когда у этого героя имеется эффект «скрытая тень» крит урон увеличивается на 15%. После совершения действия получает эффект [гонка]: мобильность +1. Может накладываться 2 раза. Длится 2 хода.",
-        "\"HP +10%. Damage dealt +10%, AoE damage taken -10%. When this unit has [Hide], critical hit rate +15%, and after taking action, gain [Haste]: \"\"Movement +1. Can be stacked up to 2 times.\"\" Lasts 2 turns.\""
+        "HP +10%. Damage dealt +10%, AoE damage taken -10%. When this unit has [Hide], critical hit rate +15%, and after taking action, gain [Haste]: \"Movement +1. Can be stacked up to 2 times.\" Lasts 2 turns."
     ],
     [
         "Шельфаниэль",
@@ -1831,7 +1846,7 @@ var persItemDat = [
         "6",
         "",
         "МЗАЩ +10%. После совершения действия есть 30% шанс получить +1 к дальности навыков и +1 к диапазону. Длится 1 ход.",
-        "\"MDEF +10%. 30% chance after taking action to gain \"\"Skill range +1, skill span +1\"\". Lasts 1 turn.\""
+        "MDEF +10%. 30% chance after taking action to gain \"Skill range +1, skill span +1\". Lasts 1 turn."
     ],
     [
         "Шери",
@@ -1876,7 +1891,7 @@ var persItemDat = [
         "",
         "",
         "ОЗ & ЗАЩ +5%. Подвергшись атаке и получив урон вы получаете также дальность навыка +1 и диапазон +1 в течении 1 хода.",
-        "\"HP & DEF +5%. After taking damage from being attacked, gain \"\"Skill range +1 and Span +1\"\" for 1 turn.\""
+        "HP & DEF +5%. After taking damage from being attacked, gain \"Skill range +1 and Span +1\" for 1 turn."
     ],
     [
         "Элвин",
@@ -1921,7 +1936,7 @@ var persItemDat = [
         "6",
         "",
         "ОЗ +10%. Исцеляющий эффект [Святой свечи] увеличен на 20%. Когда на него действует особый эффект фракционного усиления, примененное [Зеркало священного света] нельзя рассеять.",
-        "Life +10% [Holy Candle] healing effect increased by 20%. When it has the special effect of faction buff, the applied [Mirror of Holy Light] cannot be dispelled."
+        "HP +10% [Holy Candle] healing effect increased by 20%. When it has the special effect of faction buff, the applied [Mirror of Holy Light] cannot be dispelled."
     ],
     [
         "Эмерик",
@@ -1966,7 +1981,7 @@ var persItemDat = [
         "",
         "",
         "ATK +10%. Этот герой игнорирует недостатки класса. Когда погибает юнит, снимает с себя 1 дебафф, восстанавливает 30% ОЗ и получает [щит альхазарда]: следующий получаемый этим героем урон снижается на 80%. Когда срок его действия истекает, [щит альхазарда] можно будет получить снова только через 1 ход.",
-        "\"ATK +10%. This unit ignores class effects. When a unit dies, dispel 1 debuff from self, restore 30% HP and gain [Demon Sword's Ward]: \"\"Damage taken from the next attack reduced by 80%\"\". [Demon Sword's Ward] has a 1 turn cooldown.\""
+        "ATK +10%. This unit ignores class effects. When a unit dies, dispel 1 debuff from self, restore 30% HP and gain [Demon Sword's Ward]: \"Damage taken from the next attack reduced by 80%\". [Demon Sword's Ward] has a 1 turn cooldown."
     ],
     [
         "Ютем",
@@ -1980,7 +1995,7 @@ var persItemDat = [
         "",
         "5",
         "",
-        "\"ОЗ +10%, При входе в бой против цели у которой есть эффект \"\"отчаяние\"\" урон увеличивается на 10%. При использовании умения перезарядка -1.\"",
+        "ОЗ +10%, При входе в бой против цели у которой есть эффект \"отчаяние\" урон увеличивается на 10%. При использовании умения перезарядка -1.",
         "Life +10%, When entering the battle, if the target has [Despair], the damage dealt by the hero will be increased by 10%, and if a skill is used, the cooldown time of the skill will be -1."
     ],
     [
@@ -1996,7 +2011,7 @@ var persItemDat = [
         "",
         "",
         "ОЗ +10%. Когда активируется талант героя и спасает от смерти при получении смертельного урона, он получает следующий эффект на 1 ход: перед вступлением в бой наносит врагу фиксированный урон, равный 2х от ИНТ заклинателя, и восстанавливает ОЗ в размере 2х от ИНТ заклинателя.",
-        "\"HP +10%. When the hero activates the revive effect in her talent, gain \"\"Before entering battle, deals fixed damage equal to 2x INT and heal self for 2x INT.\"\" Lasts 1 turn.\""
+        "HP +10%. When the hero activates the revive effect in her talent, gain \"Before entering battle, deals fixed damage equal to 2x INT and heal self for 2x INT.\" Lasts 1 turn."
     ],
     [
         "Юная Джессика",

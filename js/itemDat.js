@@ -548,6 +548,19 @@ var itemDat = [
         "Все аттрибуты +1%. В конце действия, если герой не нанёс никакого урона, 100% шанс получить мобильность +2. Длится 1 раунд. (Если уже есть другое повышение мобильности, дает Мобильность +3)",
         "All attributes +1%. At the end of the action, if the hero has not dealt any damage, there is a 100(?)% chance to gain +2 mobility. Lasts 1 round. (If there is already another mobility boost, gives Mobility +3)"
     ],
+	[
+        "Акс2",
+        "--",
+        "accessoir",
+        "",
+        "",
+        "",
+        "4",
+        "4",
+        "",
+        "Все аттрибуты +5%. В начале раунда получает \"Иммунитет к 1 дебафу. Восстанавливает 20% ОЗ при срабатывании\". Не может быть снят",
+        "All attributes +5%. At the beginning of the round, gains \"Immunity to 1 debuff. Restores 20% HP when triggered.\" Cannot be removed."
+    ],
     [
         "Белая мантия Бальдра",
         "Baldr's White Robe",
@@ -1002,6 +1015,19 @@ var itemDat = [
         "",
         "ЗАЩ +2%. Уменьшает АоЕ урон на 10%.",
         "DEF +2%. Reduce AoE damage by 10%."
+    ],
+	[
+        "Броня2",
+        "--",
+        "body",
+        "34",
+        "",
+        "",
+        "5",
+        "",
+        "",
+        "Если ОЗ юнита выше 50%, ЗАЩ и МЗАЩ +8%. Если ОЗ ниже 50%, сила исцеления и получаемое исцеление +8%.",
+        "If the unit's HP is above 50%, DEF and MDEF +8%. If HP is below 50%, healing power and received healing +8%."
     ],
     [
         "Алый жнец",
@@ -1679,6 +1705,19 @@ var itemDat = [
         "АТК +2%. При вынужденном вступлении в бой, ЗАЩ увеличивается на 2% за каждый перемещенную противником клетку (до 10%).",
         "ATK +2%. When forced into battle, DEF increases by 2% for each cell moved by the enemy (up to 10%)."
     ],
+	[
+        "Оружие2",
+        "--",
+        "weapon",
+        "",
+        "9",
+        "",
+        "",
+        "",
+        "4",
+        "АТК +10%. Перед вступлением в бой, если ОЗ цели выше 80%, на врага будет наложен дебафф \"ЗАЩ -30%\" на 1 ход.",
+        "ATK +10%. Before entering battle, if the target's HP is above 80%, the enemy will be afflicted with the \"DEF -30%\" debuff for 1 turn."
+    ],
     [
         "Благословение Коронет",
         "Benediction Coronet",
@@ -2120,6 +2159,19 @@ var itemDat = [
         "",
         "ОЗ +2%. Перед активным вступлением в бой, добавляет к ЗАЩ или МЗАЩ (смотря какой ниже) 8% аттрибуты который выше.",
         "Before actively entering battle, adds 8% of the higher attribute of DEF or MDEF to lower."
+    ],
+	[
+        "Шлем2",
+        "--",
+        "hat",
+        "25",
+        "",
+        "",
+        "",
+        "5",
+        "",
+        "ОЗ +10%. Если в конце действия в пределах 2 блоков нет врагов, получает \"Урон умений увеличивается на 5%\" и \"АоЕ урон увеличивается на 10%\", длится 1 ход.",
+        "HP +10%. If at the end of the action there are no enemies within 2 blocks, receives \"Skill damage increased by 5%\" and \"AoE damage increased by 10%\", lasts 1 turn."
     ]
 ]
 

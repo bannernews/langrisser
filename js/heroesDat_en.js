@@ -79,7 +79,7 @@ var heroesDat = [
         "Iris",
         "АП,ИМП,ГВ",
         "SR",
-        "",
+        "forge",
         "",
         ""
     ],
@@ -565,7 +565,7 @@ var heroesDat = [
         "Ironblood Commander",
         "ИМП,МС,ГЙ",
         "SSR",
-        "",
+        "forge",
         "",
         "М3"
     ],
@@ -583,7 +583,7 @@ var heroesDat = [
         "Zerida",
         "ТР,МУ,ТАИР",
         "SSR",
-        "",
+        "forge",
         "",
         "М1"
     ],
@@ -1168,7 +1168,7 @@ var heroesDat = [
         "Sage of the Trees",
         "ГЙ,ТАИР",
         "SSR",
-        "",
+        "forge",
         "",
         "М2"
     ],
@@ -1204,6 +1204,15 @@ var heroesDat = [
         "Pirotess",
         "ТР,МУ,ГВ",
         "SR",
+        "",
+        "",
+        ""
+    ],
+	[
+        "Повелительница ледяной бездны",
+        "Queen of the Frozen Abyss",
+        "ИМП,МС,ГВ",
+        "LLR",
         "",
         "",
         ""

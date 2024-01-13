@@ -79,7 +79,7 @@ var heroesDat = [
         "Iris",
         "АП,ИМП,ГВ",
         "SR",
-        "",
+        "forge",
         "",
         ""
     ],
@@ -565,7 +565,7 @@ var heroesDat = [
         "Ironblood Commander",
         "ИМП,МС,ГЙ",
         "SSR",
-        "",
+        "forge",
         "",
         "М3"
     ],
@@ -583,7 +583,7 @@ var heroesDat = [
         "Zerida",
         "ТР,МУ,ТАИР",
         "SSR",
-        "",
+        "forge",
         "",
         "М1"
     ],
@@ -1168,7 +1168,7 @@ var heroesDat = [
         "Sage of the Trees",
         "ГЙ,ТАИР",
         "SSR",
-        "",
+        "forge",
         "",
         "М2"
     ],
@@ -1204,6 +1204,15 @@ var heroesDat = [
         "Pirotess",
         "ТР,МУ,ГВ",
         "SR",
+        "",
+        "",
+        ""
+    ],
+	[
+        "Повелительница ледяной бездны",
+        "Queen of the Frozen Abyss",
+        "ИМП,МС,ГВ",
+        "LLR",
         "",
         "",
         ""
@@ -1864,7 +1873,7 @@ function heroesView () {
 				}
 			} else {f2 = "her";}
 		hreff = ('hero.html?name='+ heroesDat[i][0]).replace(/ /g,"%20");
-		if(heroesDat[i][0]=='Трансцендентный'){f = 'font-size:11px;'}else{f = 'font-size:12px;'}
+		if(heroesDat[i][0]=='Трансцендентный' || heroesDat[i][0]=='Повелительница ледяной бездны'){f = 'font-size:11px;'}else{f = 'font-size:12px;'}
 		sd.innerHTML += '<div class="' + f2 + ' ' + heroesDat[i][3] + ' ' + heroesDat[i][4] + ' ' + heroesDat[i][5] + ' ' + heroesDat[i][6] + '" style="display:block;height:135px;width:109px;float:left;"><div class="imgglow" style="display:block;"><a href="'+hreff+'"><img style="cursor:pointer;" height="100px" src="images/head/' + heroesDat[i][0] + '.png" title="' + heroesDat[i][0] + '"></a></div><div style="white-space:normal;' + f + 'width:95px;text-align:center;margin-top:-5px;">' + heroesDat[i][0] + '</div></div>';
 //		}
 	}
