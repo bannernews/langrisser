@@ -32654,9 +32654,9 @@ if (dataTable[hero_number][47]==''){
 //builds
 var h_info5 = document.getElementById("h_info5");
 var mozaik3 = document.getElementById("mozaik3");
-h_info5.innerHTML='';
-mozaik3.style.display="none";
-/*if (builds[hero_number][4]!==''){
+//h_info5.innerHTML='';
+//mozaik3.style.display="none";
+if (builds[hero_number][4]!==''){
 	var b_weapon = document.getElementById("b_weapon");
 	var b_body = document.getElementById("b_body");
 	var b_head = document.getElementById("b_head");
@@ -32750,7 +32750,7 @@ if (dataTable[hero_number][47]!==''){
 		for (i=0;i<SPbuilds[dataTable[hero_number][48]-1][3];i++){
 			b_pvpsp.innerHTML += '<span style="margin:5px;height:auto;display:block;width:35px;float:left;"><img src="images/star.png" height="35px" /></span>';
 		}
-}*/
+}
 
 var fetter_pic=document.getElementById("fetter_pic");
 fetter_title=document.getElementById("fetter_title");
