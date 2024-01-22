@@ -10,6 +10,10 @@
     <link rel="stylesheet" href="css/main.css" />
 </head>
 
+<script type="text/javascript" src="jq/jquery.js"></script>
+<script type="text/javascript" src="jq/jquery-ui-1.10.4.custom.min.js"></script>
+<script type="text/javascript" src="jq/jquery.cookie.js"></script>
+
 <body style="background-color: #629786;">
 <div id="top" style="display:block;width:1320px;margin:0 auto;">
 	<br>
@@ -38,7 +42,7 @@
 </div>
 <div id="middle" style="width:1320px;margin:0 auto;padding-top:7px;white-space: nowrap;">
 	<span id="title" style="display:block;width:200px;margin:0 auto;font-size: 30px;color:#d8c2a9;">Heroes</span><br>
-	<div id="left_filter" style="display:inline-block;width:200px;vertical-align: top;margin-left: 15px;position:sticky;top:10px;">filter<br><img src="images/shadow.png" height="30px" width="190px" />
+	<div id="left_filter" style="display:inline-block;width:200px;vertical-align: top;margin-left: 15px;position:sticky;top:10px;"><input style="color:black;background-color: #629786;border: none;margin-left: 10px;height: 20px;font-size: 20px;width: 150px;" placeholder="Поиск:" type="text" id="hero_find" size="20"/><br><img src="images/shadow.png" height="30px" width="190px" />
 	<table border='0' style="margin-top:-15px;"><tr><td class="filt_h" title="ГГ" width='56px'><img src="images/hero_filter/factions/ГГ.png" height="45px" /></td>
 			<td class="filt_h" title="ЛС" width='56px'><img src="images/hero_filter/factions/ЛС.png" height="45px" /></td>
 			<td class="filt_h" title="ИМП" width='56px'><img src="images/hero_filter/factions/ИМП.png" height="45px" /></td></tr>
@@ -89,5 +93,20 @@
 	<script type="text/javascript">
 		window.onload = heroesView();   //при загрузке страницы автоматически фильтр по мечникам
 	</script>
+<script type="text/javascript">
+	$('#hero_find').change(function(){
+		var filter = $(this).val();
+        if (filter) {
+			$matches = $('#heroes_data').find(':Contains(' + $('#hero_find')[0].value + ')');
+			$('div[description]','#heroes_data').not($matches).hide();
+			$matches.slideDown();
+        } else {
+			$('#heroes_data').find('div').show();
+        } return false;
+		})
+		.keyup( function () {
+			$(this).change();
+		});
+</script>
 </body>
 </html>
