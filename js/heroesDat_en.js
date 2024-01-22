@@ -490,7 +490,7 @@ var heroesDat = [
     ],
     [
         "Джейси",
-        "Jack",
+        "Jayce",
         "ИС,ГЙ,ТАИР",
         "SSR",
         "",
@@ -670,7 +670,7 @@ var heroesDat = [
     ],
     [
         "Капитан Джек",
-        "Jayce",
+        "Captain Jack",
         "ЛС,МУ,ГЙ",
         "SSR",
         "",
@@ -1874,7 +1874,7 @@ function heroesView () {
 			} else {f2 = "her";}
 		hreff = ('hero.html?name='+ heroesDat[i][0]).replace(/ /g,"%20");
 		
-		sd.innerHTML += '<div class="' + f2 + ' ' + heroesDat[i][3] + ' ' + heroesDat[i][4] + ' ' + heroesDat[i][5] + ' ' + heroesDat[i][6] + '" style="display:block;height:135px;width:109px;float:left;"><div class="imgglow" style="display:block;"><a href ="'+hreff+'"><img height="100px" src="images/head/' + heroesDat[i][0] + '.png" title="' + heroesDat[i][1] + '"></a></div><div style="white-space:normal;font-size:12px;width:95px;text-align:center;margin-top:-5px;">' + heroesDat[i][1] + '</div></div>';
+		sd.innerHTML += '<div description="' + heroesDat[i][0] + '" class="' + f2 + ' ' + heroesDat[i][3] + ' ' + heroesDat[i][4] + ' ' + heroesDat[i][5] + ' ' + heroesDat[i][6] + '" style="display:block;height:135px;width:109px;float:left;"><div class="imgglow" style="display:block;"><a href ="'+hreff+'"><img height="100px" src="images/head/' + heroesDat[i][0] + '.png" title="' + heroesDat[i][1] + '"></a></div><div style="white-space:normal;font-size:12px;width:95px;text-align:center;margin-top:-5px;">' + heroesDat[i][1] + '</div></div>';
 //		}
 	}
 }
