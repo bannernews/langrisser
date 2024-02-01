@@ -536,7 +536,7 @@ var itemDat = [
         "All stats +1%. When forced into battle, DEF or MDEF (whichever is lower) increases by 1%."
     ],
 	[
-        "Акс1",
+        "Крылья скрытого великолепия",
         "--",
         "accessoir",
         "29",
@@ -1004,7 +1004,7 @@ var itemDat = [
         "When unit HP is about 50%, DEF and MDEF increase by 1,5%. When unit HP is below 50%, ATK and SKILL increase by 1,5%."
     ],
 	[
-        "Броня1",
+        "Благородная броня",
         "--",
         "body",
         "25",
@@ -1693,7 +1693,7 @@ var itemDat = [
         "ATK +2%. Unit's damage in not reduced in melee battles."
     ],
 	[
-        "Оружие1",
+        "Копье Разрушителя заряда",
         "--",
         "weapon",
         "34",
@@ -1793,7 +1793,7 @@ var itemDat = [
         "",
         "4",
         "",
-        "ОЗ +2%. При атаке АТК +1,5%.",
+        "ОЗ +2%. Когда атакован, АТК увеличивается на 1,5%.",
         "HP +2%. When attacked, ATK increases by 1,5%."
     ],
     [
@@ -2148,7 +2148,7 @@ var itemDat = [
         "DEF +2%. After taking action, if you haven't dealt damage, skill damage is increased by 2% and counterattack damage increases by 2% for 1 turn."
     ],
 	[
-        "Шлем1",
+        "Крылатый шлем сумерек",
         "--",
         "hat",
         "34",
