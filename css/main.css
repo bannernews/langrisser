@@ -215,3 +215,11 @@ body{
 .display_block{
 	display:block;
 }
+.box_shadow{
+	box-shadow: 0 0 26px white;
+}
+.color_hover:hover {
+	color: #d8cea9;
+	text-shadow: 0 0 10px #e4d3ba;
+	cursor:pointer;
+}
