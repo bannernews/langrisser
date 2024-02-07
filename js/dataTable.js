@@ -32152,7 +32152,7 @@ var startB = [
         "Магия",
         "Мифриловый меч",
         "Броня дракона,Броня Гнева войны",
-        "Шлем дракон,Шлем ужаса,Шлем берсерка",
+        "Шлем дракона,Шлем ужаса,Шлем берсерка",
         "Кольцо штурма,Сланец просвещенного,Герб доблести"
     ],
     [
@@ -34054,7 +34054,7 @@ var basicB = [
         "Зомби-гигант,Темный страж,Лавовый титан",
         "Часы,Полнолуние",
         "Страж печати,Разбитая звезда",
-        "Броня родовой маги,Броня Энея,Зеркальная броня",
+        "Броня родовой магии,Броня Энея,Зеркальная броня",
         "Шлем Энея,Гнев Иерофанта",
         "Крылатые щитки на голень,Апексовые сапоги,Значок повелителя"
     ],
@@ -34066,7 +34066,7 @@ var basicB = [
         "Синяя луна,Левая рука богини",
         "Сумеречный страж,Галактический плащ,Ритуал замешательства",
         "Венок Иггдрасиля,Благословение Коронет,Отголосок ведьмы",
-        "Святое кольцо,Сердце искупления,"
+        "Святое кольцо,Сердце искупления"
     ],
     [
         "Аданкельмо",
@@ -34113,7 +34113,7 @@ var basicB = [
         "3",
         "Сталегривый оборотень",
         "Полнолуние,Бриз",
-        "Синяя луна,Страж печати,Морозное лезвие,",
+        "Синяя луна,Страж печати,Морозное лезвие",
         "Мрачные одеяния,Галактический плащ,Боевая броня Эола,Броня родовой магии",
         "Шлем Энея,Корона ледяного пламени",
         "Святое кольцо,Ангел бедствия,Браслет одинокой звезды"
@@ -34262,7 +34262,7 @@ var basicB = [
         "Апофеоз",
         "4",
         "Сталегривый оборотень,Железокрылый воин",
-        "",
+        "Бриз,Полнолуние",
         "Миротворец,Мьельнир",
         "Одеяния Альянса,Лазаревая легенда,Сияющие латы,Куртка горгульи",
         "Шлем Энея,Око Ермунганда",
@@ -34282,7 +34282,7 @@ var basicB = [
         "Арианход",
         "3",
         "Фанатик",
-        "Бриз, Магия",
+        "Бриз,Магия",
         "Миротворец,Мьельнир,Страж трона",
         "Зеркальная броня,Углеродная броня,Броня Энея",
         "Шлем Энея,Углеродный Шлем",
@@ -38991,7 +38991,7 @@ var pvpB = [
         "Печать бури,Ветвь Иггдрасиля",
         "Доспехи хранителя,Благословение Тиамат",
         "Ярость Тюра,Шлем Энея",
-        "Значок повелителя,Пакт крови,Медаль кузнеца,",
+        "Значок повелителя,Пакт крови,Медаль кузнеца",
         "ОЗ,ЗАЩ,МЗАЩ",
         "ОЗ,ЗАЩ,МЗАЩ",
         "ОЗ,ЗАЩ,МЗАЩ",
@@ -39167,7 +39167,7 @@ var pvpB = [
         "Алтина",
         "2.5",
         "Колдунья,Маг - ядовитая летучая мышь,Призрак тумана",
-        "Магия, Часы",
+        "Магия,Часы",
         "Чудесный посох,Красная луна",
         "Мантия Теннио,Последние обряды",
         "Головной убор Теннио",
@@ -39183,7 +39183,7 @@ var pvpB = [
         "3",
         "Конный лучник эльфов",
         "Бриз,Бурное море",
-        "Кристальное жало,Лук Уллра,Оружие2,Экстремально магический лук,",
+        "Кристальное жало,Лук Уллра,Оружие2,Экстремально магический лук",
         "Последние обряды,Одеяния Альянса",
         "Алустриэль,Перьевая корона Ньорда",
         "Сокровище узника,Талисман судьи,Эмблема истребителя",
@@ -39191,7 +39191,7 @@ var pvpB = [
         "ОЗ,АТК,ЗАЩ",
         "ОЗ,ИНТ,ЗАЩ",
         "ОЗ,АТК,НАВЫК",
-        "ОЗ,АТК,КРИИТУРОН,НАВЫК,КРИТ"
+        "ОЗ,АТК,КРИТУРОН,НАВЫК,КРИТ"
     ],
     [
         "Альбедо",
@@ -39401,7 +39401,7 @@ var pvpB = [
         "ОЗ,ИНТ,ЗАЩ",
         "ОЗ,ИНТ,ЗАЩ",
         "ОЗ,ИНТ,НАВЫК",
-        "ОЗ.ИНТ,ПКРИТУРОН,КРИТУРОН,КРИТ"
+        "ОЗ,ИНТ,ПКРИТУРОН,КРИТУРОН,КРИТ"
     ],
     [
         "Ашрам",
@@ -39416,7 +39416,7 @@ var pvpB = [
         "ОЗ,АТК,ЗАЩ",
         "ОЗ,АТК,ЗАЩ",
         "ОЗ,АТК,НАВЫК",
-        "ОЗ,АКТ,НАВЫК,КРИТУРОН,КРИТ"
+        "ОЗ,АТК,НАВЫК,КРИТУРОН,КРИТ"
     ],
     [
         "Бернхардт",
@@ -42872,7 +42872,7 @@ if (startB[hero_number][1]==''){
 		st_body = startB[hero_number][5].split(",");
 		st_hat = startB[hero_number][6].split(",");
 		st_acc = startB[hero_number][7].split(",");
-		h_info5.innerHTML += '<div id="start_temp" class="display_none"><div id="stB" style="display:block;width:100%;height:auto;margin-bottom:20px;margin-top:20px;"><img src="images/start2.png" width="1320px"></div><table border="0" style="width:90%;margin:0 auto;"><tr><td style="width:9%;"><img src="images/item_type/weapon.png" height="50px" /></td><td id="stB_weapon" style="width:32%;text-align:left;"></td><td style="width:5%;"></td><td style="width:7%;"><img src="images/chant.png" height="70px" /></td><td style="width:5%;"></td><td id="stB_sold" style="width:42%;" colspan="2" rowspan="2"></td></tr><tr><td><img src="images/item_type/body.png" height="50px" /></td><td id="stB_body"style="text-align:left;" ></td><td style="vertical-align: middle;"><img src="images/point.png" height="30px" /></td><td id="stB_chari" rowspan="3" style="vertical-align:top;"></td><td style="vertical-align: middle;"><img src="images/point.png" height="30px" /></td></tr><tr><td><img src="images/item_type/head.png" height="50px" /></td><td id="stB_head" style="text-align:left;"></td><td></td><td></td><td colspan="2" id="stB_ocenka" style="width:42%;vertical-align:top;text-align:left;"></td></tr><tr><td><img src="images/item_type/accessoir.png" height="50px" /></td><td id="stB_acc" style="text-align:left;"></td><td></td></tr></table></div>';
+		h_info5.innerHTML += '<div id="start_temp" class="display_none"><div id="stB" style="display:block;width:100%;height:auto;margin-bottom:20px;margin-top:20px;"><img src="images/start2.png" width="1320px"></div><table border="0" style="width:95%;margin:0 auto;"><tr><td style="width:9%;"><img src="images/item_type/weapon.png" height="50px" /></td><td id="stB_weapon" style="width:32%;text-align:left;"></td><td style="width:5%;"></td><td style="width:7%;"><img src="images/chant.png" height="70px" /></td><td style="width:5%;"></td><td id="stB_sold" style="width:42%;" colspan="2" rowspan="2"></td></tr><tr><td><img src="images/item_type/body.png" height="50px" /></td><td id="stB_body"style="text-align:left;" ></td><td style="vertical-align: middle;"><img src="images/point.png" height="30px" /></td><td id="stB_chari" rowspan="3" style="vertical-align:top;"></td><td style="vertical-align: middle;"><img src="images/point.png" height="30px" /></td></tr><tr><td><img src="images/item_type/head.png" height="50px" /></td><td id="stB_head" style="text-align:left;"></td><td></td><td></td><td colspan="2" id="stB_ocenka" style="width:42%;vertical-align:top;text-align:left;"></td></tr><tr><td><img src="images/item_type/accessoir.png" height="50px" /></td><td id="stB_acc" style="text-align:left;"></td><td></td></tr></table></div>';
 		var stB_weapon = document.getElementById("stB_weapon");
 		var stB_body = document.getElementById("stB_body");
 		var stB_head = document.getElementById("stB_head");
@@ -42916,7 +42916,7 @@ if (startB[hero_number][1]==''){
 		bas_body = basicB[hero_number][5].split(",");
 		bas_hat = basicB[hero_number][6].split(",");
 		bas_acc = basicB[hero_number][7].split(",");
-		h_info5.innerHTML += '<div id="base_temp" class="display_none"><div id="basB" style="display:block;width:100%;height:auto;margin-bottom:0px;"><img src="images/base2.png" width="1320px"></div><div style="display:block;width:100%;height:auto;text-align:center;font-size:17px;margin-bottom:20px;">*Снаряжение рекомендуется качать копиями</div><table border="0" style="width:90%;margin:0 auto;"><tr><td style="width:9%;"><img src="images/item_type/weapon.png" height="50px" /></td><td id="basB_weapon" style="width:32%;text-align:left;"></td><td style="width:5%;"></td><td style="width:7%;"><img src="images/chant.png" height="70px" /></td><td style="width:5%;"></td><td id="basB_sold" style="width:42%;" colspan="2" rowspan="2"></td></tr><tr><td><img src="images/item_type/body.png" height="50px" /></td><td id="basB_body"style="text-align:left;" ></td><td style="vertical-align: middle;"><img src="images/point.png" height="30px" /></td><td id="basB_chari" rowspan="3" style="vertical-align:top;"></td><td style="vertical-align: middle;"><img src="images/point.png" height="30px" /></td></tr><tr><td><img src="images/item_type/head.png" height="50px" /></td><td id="basB_head" style="text-align:left;"></td><td></td><td></td><td colspan="2" id="basB_ocenka" style="width:42%;vertical-align:top;text-align:left;"></td></tr><tr><td><img src="images/item_type/accessoir.png" height="50px" /></td><td id="basB_acc" style="text-align:left;"></td><td></td></tr></table></div>';
+		h_info5.innerHTML += '<div id="base_temp" class="display_none"><div id="basB" style="display:block;width:100%;height:auto;margin-bottom:0px;"><img src="images/base2.png" width="1320px"></div><div style="display:block;width:100%;height:auto;text-align:center;font-size:17px;margin-bottom:20px;">*Снаряжение рекомендуется качать копиями</div><table border="0" style="width:95%;margin:0 auto;"><tr><td style="width:9%;"><img src="images/item_type/weapon.png" height="50px" /></td><td id="basB_weapon" style="width:32%;text-align:left;"></td><td style="width:5%;"></td><td style="width:7%;"><img src="images/chant.png" height="70px" /></td><td style="width:5%;"></td><td id="basB_sold" style="width:42%;" colspan="2" rowspan="2"></td></tr><tr><td><img src="images/item_type/body.png" height="50px" /></td><td id="basB_body"style="text-align:left;" ></td><td style="vertical-align: middle;"><img src="images/point.png" height="30px" /></td><td id="basB_chari" rowspan="3" style="vertical-align:top;"></td><td style="vertical-align: middle;"><img src="images/point.png" height="30px" /></td></tr><tr><td><img src="images/item_type/head.png" height="50px" /></td><td id="basB_head" style="text-align:left;"></td><td></td><td></td><td colspan="2" id="basB_ocenka" style="width:42%;vertical-align:top;text-align:left;"></td></tr><tr><td><img src="images/item_type/accessoir.png" height="50px" /></td><td id="basB_acc" style="text-align:left;"></td><td></td></tr></table></div>';
 		var basB_weapon = document.getElementById("basB_weapon");
 		var basB_body = document.getElementById("basB_body");
 		var basB_head = document.getElementById("basB_head");
@@ -42964,7 +42964,7 @@ if (startB[hero_number][1]==''){
 		pve_bst = pveB[hero_number][9].split(",");
 		pve_hst = pveB[hero_number][10].split(",");
 		pve_ast = pveB[hero_number][11].split(",");
-		h_info5.innerHTML += '<div id="best_temp" class="display_none"><div id="pveB" style="display:block;width:100%;height:auto;margin-bottom:0px;"><img src="images/best2.png" width="1320px"></div><div style="display:block;width:100%;height:auto;text-align:center;font-size:17px;margin-bottom:20px;">*Если в Лучшей версии присутствует снаряжение с Базовой сборки, такое снаряжение лучше прокачивать копиями.<br>Другие виды снаряжения рекомендуется качать шардами</div><table border="0" style="width:90%;margin:0 auto;"><tr><td style="width:9%;"><img src="images/item_type/weapon.png" height="50px" /></td><td id="weapon_stone" style="width:2%;white-space:pre-wrap;"></td><td id="pveB_weapon" style="width:32%;text-align:left;"></td><td style="width:5%;"></td><td style="width:7%;"><img src="images/chant.png" height="70px" /></td><td style="width:5%;"></td><td id="pveB_sold" style="width:42%;" colspan="2" rowspan="2"></td></tr><tr><td><img src="images/item_type/body.png" height="50px" /></td><td id="body_stone" style="white-space:pre-wrap;"></td><td id="pveB_body"style="text-align:left;" ></td><td style="vertical-align: middle;"><img src="images/point.png" height="30px" /></td><td id="pveB_chari" rowspan="3" style="vertical-align:top;"></td><td style="vertical-align: middle;"><img src="images/point.png" height="30px" /></td></tr><tr><td><img src="images/item_type/head.png" height="50px" /></td><td id="hat_stone" style="white-space:pre-wrap;"></td><td id="pveB_head" style="text-align:left;"></td><td></td><td></td><td colspan="2" id="pveB_ocenka" style="width:42%;vertical-align:top;text-align:left;"></td></tr><tr><td><img src="images/item_type/accessoir.png" height="50px" /></td><td id="acc_stone" style=";white-space:pre-wrap;"></td><td id="pveB_acc" style="text-align:left;"></td><td></td></td></tr></table></div>';
+		h_info5.innerHTML += '<div id="best_temp" class="display_none"><div id="pveB" style="display:block;width:100%;height:auto;margin-bottom:0px;"><img src="images/best2.png" width="1320px"></div><div style="display:block;width:100%;height:auto;text-align:center;font-size:17px;margin-bottom:20px;">*Если в Лучшей версии присутствует снаряжение с Базовой сборки, такое снаряжение лучше прокачивать копиями.<br>Другие виды снаряжения рекомендуется качать шардами</div><table border="0" style="width:95%;margin:0 auto;"><tr><td style="width:9%;"><img src="images/item_type/weapon.png" height="50px" /></td><td id="weapon_stone" style="width:2%;white-space:pre-wrap;"></td><td id="pveB_weapon" style="width:32%;text-align:left;"></td><td style="width:5%;"></td><td style="width:7%;"><img src="images/chant.png" height="70px" /></td><td style="width:5%;"></td><td id="pveB_sold" style="width:42%;" colspan="2" rowspan="2"></td></tr><tr><td><img src="images/item_type/body.png" height="50px" /></td><td id="body_stone" style="white-space:pre-wrap;"></td><td id="pveB_body"style="text-align:left;" ></td><td style="vertical-align: middle;"><img src="images/point.png" height="30px" /></td><td id="pveB_chari" rowspan="3" style="vertical-align:top;"></td><td style="vertical-align: middle;"><img src="images/point.png" height="30px" /></td></tr><tr><td><img src="images/item_type/head.png" height="50px" /></td><td id="hat_stone" style="white-space:pre-wrap;"></td><td id="pveB_head" style="text-align:left;"></td><td></td><td></td><td colspan="2" id="pveB_ocenka" style="width:42%;vertical-align:top;text-align:left;"></td></tr><tr><td><img src="images/item_type/accessoir.png" height="50px" /></td><td id="acc_stone" style=";white-space:pre-wrap;"></td><td id="pveB_acc" style="text-align:left;"></td><td></td></td></tr></table></div>';
 		var pveB_weapon = document.getElementById("pveB_weapon");
 		var pveB_body = document.getElementById("pveB_body");
 		var pveB_head = document.getElementById("pveB_head");
@@ -43030,7 +43030,7 @@ if (startB[hero_number][1]==''){
 		pvp_hst = pvpB[hero_number][10].split(",");
 		pvp_ast = pvpB[hero_number][11].split(",");
 		pvp_arenast = pvpB[hero_number][12].split(",");
-		h_info5.innerHTML += '<div id="best_temp2" class="display_none"><div id="pvpB" style="display:block;width:100%;height:auto;margin-bottom:0px;"><img src="images/best2.png" width="1320px"></div><div style="display:block;width:100%;height:auto;text-align:center;font-size:17px;margin-bottom:20px;">*Если в Лучшей версии присутствует снаряжение с Базовой сборки, такое снаряжение лучше прокачивать копиями.<br>Другие виды снаряжения рекомендуется качать шардами</div><table border="0" style="width:90%;margin:0 auto;"><tr><td style="width:9%;"><img src="images/item_type/weapon.png" height="50px" /></td><td id="weapon_stone_a" style="width:2%;white-space:pre-wrap;"></td><td id="pvpB_weapon" style="width:32%;text-align:left;"></td><td style="width:5%;"></td><td style="width:7%;"><img src="images/chant.png" height="70px" /></td><td style="width:5%;"></td><td id="pvpB_sold" style="width:42%;" colspan="2" rowspan="2"></td></tr><tr><td><img src="images/item_type/body.png" height="50px" /></td><td id="body_stone_a" style="white-space:pre-wrap;"><td id="pvpB_body" style="text-align:left;" ></td><td style="vertical-align: middle;"><img src="images/point.png" height="30px" /></td><td id="pvpB_chari" rowspan="3" style="vertical-align:top;"></td><td style="vertical-align: middle;"><img src="images/point.png" height="30px" /></td></tr><tr><td><img src="images/item_type/head.png" height="50px" /></td><td id="hat_stone_a" style="white-space:pre-wrap;"></td><td id="pvpB_head" style="text-align:left;"></td><td></td><td></td><td colspan="2" id="pvpB_ocenka" style="width:42%;vertical-align:top;text-align:left;"></td></tr><tr><td><img src="images/item_type/accessoir.png" height="50px" /></td><td id="acc_stone_a" style=";white-space:pre-wrap;"></td><td id="pvpB_acc" style="text-align:left;"></td><td></td><td></td><td colspan="2" id="arena_stones" style="width:42%;vertical-align:top;text-align:left;"></td></tr></table></div>';
+		h_info5.innerHTML += '<div id="best_temp2" class="display_none"><div id="pvpB" style="display:block;width:100%;height:auto;margin-bottom:0px;"><img src="images/best2.png" width="1320px"></div><div style="display:block;width:100%;height:auto;text-align:center;font-size:17px;margin-bottom:20px;">*Если в Лучшей версии присутствует снаряжение с Базовой сборки, такое снаряжение лучше прокачивать копиями.<br>Другие виды снаряжения рекомендуется качать шардами</div><table border="0" style="width:95%;margin:0 auto;"><tr><td style="width:9%;"><img src="images/item_type/weapon.png" height="50px" /></td><td id="weapon_stone_a" style="width:2%;white-space:pre-wrap;"></td><td id="pvpB_weapon" style="width:32%;text-align:left;"></td><td style="width:5%;"></td><td style="width:7%;"><img src="images/chant.png" height="70px" /></td><td style="width:5%;"></td><td id="pvpB_sold" style="width:42%;" colspan="2" rowspan="2"></td></tr><tr><td><img src="images/item_type/body.png" height="50px" /></td><td id="body_stone_a" style="white-space:pre-wrap;"><td id="pvpB_body" style="text-align:left;" ></td><td style="vertical-align: middle;"><img src="images/point.png" height="30px" /></td><td id="pvpB_chari" rowspan="3" style="vertical-align:top;"></td><td style="vertical-align: middle;"><img src="images/point.png" height="30px" /></td></tr><tr><td><img src="images/item_type/head.png" height="50px" /></td><td id="hat_stone_a" style="white-space:pre-wrap;"></td><td id="pvpB_head" style="text-align:left;"></td><td></td><td></td><td colspan="2" id="pvpB_ocenka" style="width:42%;vertical-align:top;text-align:left;"></td></tr><tr><td><img src="images/item_type/accessoir.png" height="50px" /></td><td id="acc_stone_a" style=";white-space:pre-wrap;"></td><td id="pvpB_acc" style="text-align:left;"></td><td></td><td></td><td colspan="2" id="arena_stones" style="width:42%;vertical-align:top;text-align:left;"></td></tr></table></div>';
 		var pvpB_weapon = document.getElementById("pvpB_weapon");
 		var pvpB_body = document.getElementById("pvpB_body");
 		var pvpB_head = document.getElementById("pvpB_head");
