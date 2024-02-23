@@ -42548,7 +42548,7 @@ if (dataTable[hero_number][3]==''){
 }
 
 h_forge_pic = document.getElementById("h_forge_pic");
-h_forge_pic.innerHTML = '<span style="width:100%;display:block;text-align:center;"><img src="images/repair.png" height="290px"/><br>In development (Forge / Path pf the Law)</span>';
+h_forge_pic.innerHTML = '<span style="width:100%;display:block;text-align:center;"><img src="images/repair.png" height="290px"/><br>In development (Forging / Path of the Law)</span>';
 
 var sold_pic = document.getElementById('sold_pic');
 var sold_text = document.getElementById('sold_text');
