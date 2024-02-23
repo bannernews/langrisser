@@ -2059,7 +2059,7 @@ function soldView (soldClas) {
 			if (heroes[0]!=""){
 				h2 = "";
 				for (j=0;j<heroes.length;j++){
-					hreff = ('hero.html?name='+ heroes[j]).replace(/ /g,"%20");
+					hreff = ('hero_en.html?name='+ heroes[j]).replace(/ /g,"%20");
 					h2 += '<a href="'+hreff+'"><img style="margin-right:2px;margin-bottom:2px;" height="50px" src="images/head/' + heroes[j] + '.png" title="' + heroes[j] + '"></a>';
 				}
 			} else {h2 = "";}

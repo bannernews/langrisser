@@ -570,8 +570,8 @@ var persItemDat = [
         "",
         "5",
         "",
-        "ОЗ +10%. Если на поле боя есть враг с ОЗ меньше 100%, дальность войск +1 при использовании навыков. После атаки есть 20% шанс получить повторный ход. (Этот эффект может сработать снова после 2 раундов",
-        "HP +10%. If there are enemy troops whose HP is lower than 100%, the range of the troops will be +1 when using skills. After atacking, there is a 20% chance to act again. [Trigger Cooldown] This effect can only be triggered again after 2 rounds."
+        "ОЗ +10%. Если на поле боя есть враг с ОЗ меньше 100%, дальность юнита +1 при использовании навыков. После атаки есть 20% шанс получить повторный ход. (Этот эффект может сработать снова после 2 раундов",
+        "HP +10%. If there are enemy units whose HP is lower than 100%, the range of the unit will be +1 when using skills. After atacking, there is a 20% chance to act again. [Trigger Cooldown] This effect can only be triggered again after 2 rounds."
     ],
     [
         "Дихарт",
