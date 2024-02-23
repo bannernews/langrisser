@@ -19488,7 +19488,7 @@ var persSkills = [
     ],
     [
         "Moon Phase Pull",
-        "Притяжение луны",
+        "Притяжение Луны",
         "3",
         "2",
         "3",
@@ -42468,6 +42468,9 @@ var pvpB = [
 let params = (new URL(document.location)).searchParams;  //получаем имя героя с адресной строки
 var heroName = params.get("name");
 
+langu = document.getElementById('langu');
+langu.href = "hero.html?name="+heroName;
+
 if (heroName == 'Метью'){
 	document.location.href = "work_en.html";
 }
@@ -43267,7 +43270,7 @@ if (startB[hero_number][1]==''){
 	h_info5.innerHTML='';
 	mozaik3.style.display="block";
 	h_info5.innerHTML+='<div style="display:block;width:100%;height:auto;text-align:center;font-size:20px;margin-bottom:20px;font-weight: bold;">Rating and recommendations for hero development</div>';
-	h_info5.innerHTML+='<div style="display: -webkit-box;"><div onclick=startBuildOpen() class="color_hover" id="startbut" style="display:block;width:178px;height:118px;margin:30px 60px 30px 330px;cursor:pointer;position:relative;"><img src="images/start1.png" width="180px"><span style="position:absolute;left: 63px;top: 75px;">Starting</span></div><div onclick=baseBuildOpen() class="color_hover" id="basebut" style="display:block;width:178px;height:118px;cursor:pointer;position:relative;margin-top:30px;"><img src="images/base1.png" width="180px"><span style="position:absolute;left: 72px;top: 75px;">Basic</span></div><div onclick=bestBuildOpen() class="color_hover" id="bestbut" style="display:block;width:178px;height:118px;margin-left:60px;cursor:pointer;position:relative;margin-top:30px;"><img src="images/best1.png" width="180px"><span style="position:absolute;left: 75px;top: 75px;">Best</span></div></div>';
+	h_info5.innerHTML+='<div style="display: -webkit-box;"><div onclick=startBuildOpen() class="color_hover" id="startbut" style="display:block;width:178px;height:118px;margin:30px 60px 30px 330px;cursor:pointer;position:relative;"><img src="images/start1.png" width="180px"><span style="position:absolute;left: 50px;top: 75px;">Starting</span></div><div onclick=baseBuildOpen() class="color_hover" id="basebut" style="display:block;width:178px;height:118px;cursor:pointer;position:relative;margin-top:30px;"><img src="images/base1.png" width="180px"><span style="position:absolute;left: 58px;top: 75px;">Basic</span></div><div onclick=bestBuildOpen() class="color_hover" id="bestbut" style="display:block;width:178px;height:118px;margin-left:60px;cursor:pointer;position:relative;margin-top:30px;"><img src="images/best1.png" width="180px"><span style="position:absolute;left: 61px;top: 75px;">Best</span></div></div>';
 	
 	if (startB[hero_number][1]!==''){
 		st_ocenka = startB[hero_number][1];
@@ -43548,7 +43551,7 @@ var imgFetter = new Image();
 imgFetter.src = "images/heroes/heroes_list/"+ heroName +"/Confession/Confession.png";
 imgFetter.onload = function(){
 	fetter_pic.innerHTML = '<img src="images/heroes/heroes_list/'+ heroName +'/Confession/Confession.png" width="1320px" />';
-	fetter_title.innerHTML += '<span style="line-height:2;display:block;width:120px;margin:0 auto;height:35px;">Confession  <img class="conf_hover" style="position:absolute;vertical-align:middle;cursor:pointer;" src="images/icon_confession.png" height="30px" onclick=window.open("'+confession[hero_number][1]+'","new_window"); /></span>';
+	fetter_title.innerHTML += '<span style="line-height:2;display:block;width:120px;margin:0 auto;height:35px;">Признание  <img class="conf_hover" style="position:absolute;vertical-align:middle;cursor:pointer;" src="images/icon_confession.png" height="30px" onclick=window.open("'+confession[hero_number][1]+'","new_window"); /></span>';
 };
 imgFetter.onerror = function(){
 	fetter_pic.style.display='none';

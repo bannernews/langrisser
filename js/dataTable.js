@@ -42068,6 +42068,9 @@ if (heroName){
 	titleName.innerHTML = heroName;
 	title_1.innerHTML = heroName;
 }
+langu = document.getElementById('langu');
+langu.href = "hero_en.html?name="+heroName;
+
 if (heroName == 'Метью'){
 	document.location.href = "work.html";
 }
