@@ -4748,7 +4748,7 @@ var dataTable = [
         "МС,ГЙ",
         "SSR",
         "forge",
-        "SP",
+        "",
         "Л45",
         "Integrity",
         "\"Increases the stats of allies within a radius of 2 cells by (5,8,11,15)% (except for HP). The effect does not stack with the effects of the \"\"Command\"\" skill.\"",
