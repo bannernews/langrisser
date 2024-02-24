@@ -693,6 +693,21 @@ var persItemDat = [
         "ОЗ +10%. В начале боя получает случайным образом 2 [свинью], [оленя] или [бабочку]. Эффект «диапазон героя +2», получаемый при использовании [скрытой карты], нельзя рассеять. Шанс критического удара героя увеличивается на 1% за каждую 1 [свинью], [оленя] или [бабочку], использованных в этой битве (до 10%).",
         "HP +10%. At the start of a map, gain 2 random [Ino], [Shika], or [Cho]. The \"Unit Range +2\" from [Sleeved Card] cannot be dispelled. For every 1 [Ino], [Shika], or [Cho] consumed, Hero critical hit rate +1% (up to 10%)."
     ],
+	[
+        "Капитан Джек",
+        "Captain Mack",
+        "Глобал - 27.06.2024",
+        "Global - 27.06.2024",
+        "hat",
+        "25",
+        "",
+        "",
+        "",
+        "5",
+        "",
+        "ОЗ +10%. Игнорирует стоимость навыков. Когда союзники в радиусе действия [Цели путешествия] активно атакуют и наносят урон, они крадут 1 бафф у врага после атаки и применяют 1 случайный бафф к Капитану Маку.",
+        "HP +10%. Ignores skill costs. When allies within range of [Route Marker] actively attack and deal damage, they steal 1 buff from the enemy after attacking and apply 1 random buff to Captain Mack."
+    ],
     [
         "Каролина",
         "Caroline",

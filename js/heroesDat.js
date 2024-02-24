@@ -556,7 +556,7 @@ var heroesDat = [
         "Dieharte",
         "ГГ,ИС,МУ",
         "SSR",
-        "",
+        "forge",
         "SP",
         "Л13"
     ],
@@ -592,7 +592,7 @@ var heroesDat = [
         "Evil God Kreuger",
         "ТР,ТАИР",
         "SSR",
-        "",
+        "forge",
         "",
         "М2"
     ],
@@ -700,7 +700,7 @@ var heroesDat = [
         "Kertesz",
         "ТР,РЕ",
         "SSR",
-        "",
+        "forge",
         "",
         "РЕИ"
     ],
@@ -845,7 +845,7 @@ var heroesDat = [
         "МС,ГЙ",
         "SSR",
         "forge",
-        "",
+        "SP",
         "Л45"
     ],
     [
@@ -1051,7 +1051,7 @@ var heroesDat = [
         "Melania",
         "ЛС,АП,ГЙ",
         "SR",
-        "",
+        "forge",
         "",
         "М2"
     ],
@@ -1514,6 +1514,15 @@ var heroesDat = [
         "",
         "РЕИ"
     ],
+	[
+        "Табрес",
+        "Tabres",
+        "МУ,МС,АП",
+        "SSR",
+        "",
+        "",
+        "Т"
+    ],
     [
         "Таталия",
         "Tatalia",
@@ -1540,6 +1549,15 @@ var heroesDat = [
         "",
         "",
         "Л13"
+    ],
+	[
+        "Тирантир",
+        "Terantel",
+        "ИМП,ТАИР,РЕ",
+        "SSR",
+        "",
+        "",
+        "Т"
     ],
     [
         "Това",
