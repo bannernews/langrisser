@@ -2761,8 +2761,8 @@ var dataTable = [
         "",
         "",
         "Т",
-        "Hope to travel the world",
-        "INT increases by (10,13,16,20)%. <br><br>At the end of the action, the block on which you stand receives an “Arcane Scar”: ATK and DEF of allies within a radius of 2 cells +10%, MDEF of enemies within a radius of 2 cells -10%, duration 2 turns. <br><br>After an attack, you can remove 1 Arcane Scar and teleport to its place. Arcane Scar has higher terrain priority.",
+        "Hope in a Wandering World",
+        "INT increases by (10,13,16,20)%. <br><br>At the end of the action, the block on which you stand receives an “Arcane Traces”: ATK and DEF of allies within a radius of 2 cells +10%, MDEF of enemies within a radius of 2 cells -10%, duration 2 turns. <br><br>After an attack, you can remove 1 Arcane Traces and teleport to its place. Arcane Scar has higher terrain priority.",
         "",
         "",
         "",
@@ -26503,34 +26503,34 @@ var persSkills = [
         ""
     ],
     [
-        "Arcane Blast",
+        "Arcane Flash",
         "Чародейская вспышка",
         "1",
         "7",
         "5",
         "1",
         "3",
-        "[Active] Use on yourself, defensive terrain, or a friendly [Arcane Mark] to teleport to the target area. After use, it can move 2 additional cells and attack again. (After using this skill, the number of buff turns will not be reduced)"
+        "[Active] Use on yourself, defensive terrain, or a friendly [Arcane Traces] to teleport to the target area. After use, it can move 2 additional cells and attack again. (After using this skill, the number of buff turns will not be reduced)"
     ],
     [
-        "Destructive Light Vortex",
+        "Calamitous Light Vortex",
         "Вихрь света, разрушающий зло",
         "2",
         "1",
         "5",
         "3",
         "3",
-        "[Magic Damage] Attacks multiple enemies within range, dealing 0.36x AoE damage and applying a special terrain effect for 1 round at the target location. [Destructive Light Vortex]: “This area has [Command]: radius 2 cells. If the enemy is inside, magic defense will be reduced by 10%; when leaving the command's range, an additional 1 movement point per cell will be spent; at the end of the action, if an enemy is in the command's area, they will be teleported to the center of [Destructive Light Vortex].\" ([Destructive Light Vortex] has higher priority for terrain coverage)"
+        "[Magic Damage] Attacks multiple enemies within range, dealing 0.36x AoE damage and applying a special terrain effect for 1 round at the target location. [Calamitous Light Vortex]: “This area has [Command]: radius 2 cells. If the enemy is inside, magic defense will be reduced by 10%; when leaving the command's range, an additional 1 movement point per cell will be spent; at the end of the action, if an enemy is in the command's area, they will be teleported to the center of [Calamitous Light Vortex].\" ([Calamitous Light Vortex] has higher priority for terrain coverage)"
     ],
     [
-        "Justice Glow",
+        "Radiant Judgment",
         "Правосудие Глоу",
         "3",
         "1",
         "3",
         "one target",
         "3",
-        "[Passive] For each allied [Arcane Mark] on the battlefield, damage dealt increases by 10% (to a maximum of 30%). <br><br>[Magic Damage] Attacks one enemy, dealing 1.6x damage. When wearing the Long Range Soldier, the Soldier will also attack at the same time and deal more damage to all enemy types except \"Mages\". Before the battle, if the enemy is affected by the effect of reducing magic defense, ignores the effect of the guard. If the enemy is not killed, he will not be able to act in the next turn."
+        "[Passive] For each allied [Arcane Traces] on the battlefield, damage dealt increases by 10% (to a maximum of 30%). <br><br>[Magic Damage] Attacks one enemy, dealing 1.6x damage. When wearing the Range Soldier, the Soldier will also attack at the same time and deal more damage to all enemy types except \"Mages\". Before the battle, if the enemy is affected by the effect of reducing MDEF, ignores the effect of the guard. If the enemy is not killed, he will not be able to act in the next turn."
     ],
     [
         "Изольда",
