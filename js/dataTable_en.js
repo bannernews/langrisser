@@ -32144,7 +32144,7 @@ var confession = [
     ],
     [
         "Изольда",
-        ""
+        "https://drive.google.com/file/d/1ZeR5V6XbwgvOZrb3nbYyOvdOshXi9ijh/view?usp=sharing"
     ],
     [
         "Илюсия",
