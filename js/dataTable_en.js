@@ -11685,7 +11685,7 @@ var classStats = [
         "135",
         "1",
         "4",
-        "ходьба",
+        "парение",
         "When attacking and entering battle, the damage taken by unit is reduced by 10%.​",
         "When actively attacking enemy in melee, damage dealt increases by 10% after entering the battle.",
         "1",
