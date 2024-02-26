@@ -95,10 +95,15 @@
 		window.onload = heroesView();   //при загрузке страницы автоматически фильтр по мечникам
 	</script>
 <script type="text/javascript">
+	$.extend($.expr[":"], {
+  "containsIgnoreCase": function(elem, i, match, array) {
+     return (elem.textContent || elem.innerText || "").toLowerCase().indexOf((match[3] || "").toLowerCase()) >= 0;
+}});
+	
 	$('#hero_find').change(function(){
 		var filter = $(this).val();
         if (filter) {
-			$matches = $('#heroes_data').find(':Contains(' + $('#hero_find')[0].value + ')');
+			$matches = $('#heroes_data').find(':containsIgnoreCase(' + $('#hero_find')[0].value + ')');
 			$('div[description]','#heroes_data').not($matches).hide();
 			$matches.slideDown();
         } else {
