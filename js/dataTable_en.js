@@ -586,8 +586,8 @@ var dataTable = [
         "10",
         "Эльфийский метатель копья,Ведьма,Колдунья,Кристальный чародей,Маг - ядовитая летучая мышь,Палубный стрелок,Скелет-лучник,Лучник адского пламени,Призрак тумана,Элементаль льда",
         "",
-        "Оружие",
-        "Тип брони",
+        "посох",
+        "тканевая",
         "0,2",
         "412",
         "",
@@ -5737,8 +5737,8 @@ var dataTable = [
         "20",
         "Элитная пехота,Тяжелая пехота,Клыкастый страж,Рогатый дино,Костяной дино,Адский пес,Осквернитель пламени,Горгулья,Солдат-драконианец,Зомби-гигант",
         "",
-        "Оружие",
-        "Тип брони",
+        "меч,нож",
+        "тяжелая",
         "0",
         "413",
         "",
@@ -6859,8 +6859,8 @@ var dataTable = [
         "15",
         "Элитная кавалерия,Драгун,Гигантский всадник-ящерица,Всадник-грифон,Рыцарь-грифон,Рыцарь на механическом драконе,Боевой сокол,Меткий стрелок,Охотник на демонов,Рейнджер вихря,Ведьма,Колдунья,Фея-ворожея",
         "",
-        "оружие ковка",
-        "тип брони ковка",
+        "посох,молот",
+        "тканевая",
         "0,2",
         "415,416",
         "",
@@ -9817,8 +9817,8 @@ var dataTable = [
         "10",
         "Элитная пехота,Страж-пехотинец,Наемник пустыни,Галантный дуэлянт,Клыкастый страж,Всадник-грифон,Рыцарь-грифон,Ангел,Железокрылый воин,Гигантский всадник-ящерица",
         "",
-        "Оружие",
-        "Тип брони",
+        "меч,нож",
+        "тяжелая",
         "0,2",
         "414",
         "",
@@ -11685,7 +11685,7 @@ var classStats = [
         "135",
         "1",
         "4",
-        "парение",
+        "ходьба",
         "When attacking and entering battle, the damage taken by unit is reduced by 10%.​",
         "When actively attacking enemy in melee, damage dealt increases by 10% after entering the battle.",
         "1",
@@ -17635,7 +17635,7 @@ var classStats = [
         "Эпсилон",
         "Идеальный киборг",
         "demon",
-        "419",
+        "4139",
         "600",
         "244",
         "309",
@@ -42999,7 +42999,33 @@ if (dataTable[hero_number][3]==''){
 }
 
 h_forge_pic = document.getElementById("h_forge_pic");
-h_forge_pic.innerHTML = '<span style="width:100%;display:block;text-align:center;"><img src="images/repair.png" height="290px"/><br>In development (Forging / Path of the Law)</span>';
+h_forge_pic.innerHTML = '<div id="forge_div" style="width:100%;display:block;text-align:center;position:relative;"><img id="forge_base" src="images/forge/forge_1.png" height="290px"/><br><span id="forge_icon">(Forge / Path of the Law)<br>Click on the icon for details</span></div>';
+var fbase = dataTable[hero_number][24].split(",");
+var h_forge_div = document.getElementById("forge_div");
+var h_forge_base = document.getElementById("forge_base");
+var h_forge_icon = document.getElementById("forge_icon");
+if (fbase.length == 1){
+	h_forge_base.src = "images/forge/forge_1.png";
+	h_forge_div.innerHTML += '<img id="f_w1" class="f_i f_wea" style="position:absolute;top: 5px;left: 61px" src="images/forge/'+fbase+'_2.png" height="85px">';
+	h_forge_div.innerHTML += '<img id="f_b1" class="f_i f_body" style="position:absolute;top: 5px;left: 248px" src="images/forge/бр_'+dataTable[hero_number][25]+'.png" height="85px">';
+	h_forge_div.innerHTML += '<img id="f_h1" class="f_i f_hat" style="position:absolute;top: 191px;left: 62px" src="images/forge/шл_'+dataTable[hero_number][25]+'.png" height="85px">';
+	h_forge_div.innerHTML += '<img id="f_a1" class="f_i f_acc" style="position:absolute;top: 190px;left: 248px" src="images/forge/акс.png" height="85px">';
+	if (dataTable[hero_number][3]!==''){
+		h_forge_div.innerHTML += '<img style="position:absolute;top: 107px;left: 161px" src="images/forge/forge.png" height="65px">';
+	}
+//	h_forge_icon.innerHTML = '('+fbase+')<br><img src="images/forge/'+fbase+'1.png" height="40px">x330   <img src="images/forge/'+fbase+'2.png" height="40px">x216   <img src="images/forge/'+fbase+'3.png" height="40px">x120<br><img src="images/forge/best1.png" height="40px">x130 <img src="images/forge/best2.png" height="40px">x28 <img src="images/forge/best3.png" height="40px">x9';
+} else {
+	h_forge_base.src = "images/forge/forge_2.png";
+	h_forge_div.innerHTML += '<img id="f_w1" class="f_i f_wea" style="position:absolute;top: 34px;left: 56px" src="images/forge/'+fbase[0]+'_2.png" height="85px">';
+	h_forge_div.innerHTML += '<img id="f_w2" class="f_i f_wea2"style="position:absolute;top: 2px;left: 121px" src="images/forge/'+fbase[1]+'.png" height="65px">';
+	h_forge_div.innerHTML += '<img id="f_b1" class="f_i f_body" style="position:absolute;top: 15px;left: 250px" src="images/forge/бр_'+dataTable[hero_number][25]+'.png" height="85px">';
+	h_forge_div.innerHTML += '<img id="f_h1" class="f_i f_hat" style="position:absolute;top: 193px;left: 72px" src="images/forge/шл_'+dataTable[hero_number][25]+'.png" height="85px">';
+	h_forge_div.innerHTML += '<img id="f_a1" class="f_i f_acc" style="position:absolute;top: 193px;left: 250px" src="images/forge/акс.png" height="85px">';
+	if (dataTable[hero_number][3]!==''){
+		h_forge_div.innerHTML += '<img style="position:absolute;top: 113px;left: 167px" src="images/forge/forge.png" height="65px">';
+	}
+//	h_forge_icon.innerHTML = '('+fbase[0]+')<br><img src="images/forge/'+fbase[0]+'1.png" height="40px">x165   <img src="images/forge/'+fbase[0]+'2.png" height="40px">x108   <img src="images/forge/'+fbase[0]+'3.png" height="40px">x60<br><img src="images/forge/best1.png" height="40px">x130 <img src="images/forge/best2.png" height="40px">x28 <img src="images/forge/best3.png" height="40px">x9';
+}
 
 var sold_pic = document.getElementById('sold_pic');
 var sold_text = document.getElementById('sold_text');
