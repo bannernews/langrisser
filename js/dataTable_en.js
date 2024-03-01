@@ -134,7 +134,7 @@ var dataTable = [
         "Джессика",
         "Юная Джессика",
         "Люгнер,Мариэль",
-        "Эльма,Сюзетт,Джейси",
+        "Эльма,Сюзетт,Джесс",
         "",
         "60,85",
         "",
@@ -2755,14 +2755,14 @@ var dataTable = [
         ""
     ],
     [
-        "Джейси",
+        "Джесс",
         "ИС,ГЙ,ТАИР",
         "SSR",
         "",
         "",
         "Т",
         "Hope in a Wandering World",
-        "INT increases by (10,13,16,20)%. <br><br>At the end of the action, the block on which you stand receives an “Arcane Traces”: ATK and DEF of allies within a radius of 2 cells +10%, MDEF of enemies within a radius of 2 cells -10%, duration 2 turns. <br><br>After an attack, you can remove 1 Arcane Traces and teleport to its place. Arcane Scar has higher terrain priority.",
+        "INT increases by (10,13,16,20)%. <br><br>At the end of the action, the block on which you stand receives an “Arcane Traces”: ATK and INT of allies within a radius of 2 cells +10%, MDEF of enemies within a radius of 2 cells -10%, duration 2 turns. <br><br>After an attack, you can remove 1 Arcane Traces and teleport to its place. Arcane Scar has higher terrain priority.",
         "",
         "",
         "",
@@ -3395,9 +3395,9 @@ var dataTable = [
         "тяжелая",
         "0,2",
         "404,405",
-        "Джейси",
+        "Джесс",
         "Преция",
-        "Джейси",
+        "Джесс",
         "",
         "794",
         "4",
@@ -17902,7 +17902,7 @@ var classStats = [
         ""
     ],
     [
-        "Джейси",
+        "Джесс",
         "",
         "mage",
         "3449",
@@ -17920,7 +17920,7 @@ var classStats = [
         ""
     ],
     [
-        "Джейси",
+        "Джесс",
         "",
         "holy",
         "3614",
@@ -18245,7 +18245,7 @@ var heroList = [
             "Дева Ковчега",
             "Девушка в Доспехах",
             "Джаглер",
-            "Джейси",
+            "Джесс",
             "Джессика",
             "Джо и Конни",
             "Джошуа",
@@ -26493,7 +26493,7 @@ var persSkills = [
         "[Passive] Restores 20% HP when taking lethal damage. When this effect is activated, this skill is replaced with [Counterstrike]. <br><br>[Phys. Damage] Attacks one enemy, dealing 1.5x damage. Before entering battle, you receive [Realm of Darkness]: Reduces the ATK and DEF of all enemy units within a 3 tile radius by 10% and increases their chance to receive a critical hit by 10%. Lasts 2 turns. After use, replaces this skill with \"Counterstrike\"."
     ],
     [
-        "Джейси",
+        "Джесс",
         "",
         "",
         "",
@@ -26514,7 +26514,7 @@ var persSkills = [
     ],
     [
         "Calamitous Light Vortex",
-        "Вихрь света, разрушающий зло",
+        "Губительный световой вихрь",
         "2",
         "1",
         "5",
@@ -26524,7 +26524,7 @@ var persSkills = [
     ],
     [
         "Radiant Judgment",
-        "Правосудие Глоу",
+        "Сияющее суждение",
         "3",
         "1",
         "3",
@@ -26544,7 +26544,7 @@ var persSkills = [
     ],
     [
         "Primordial Soul",
-        "Оригинальная душа",
+        "Первозданная Душа",
         "1",
         "3",
         "on self",
@@ -26554,7 +26554,7 @@ var persSkills = [
     ],
     [
         "Awakened Will",
-        "Пробуждение воли",
+        "Пробужденная воля",
         "2",
         "7",
         "",
@@ -26564,7 +26564,7 @@ var persSkills = [
     ],
     [
         "Will of the World Warden",
-        "Острота Юши",
+        "Воля Мирового Хранителя",
         "3",
         "2",
         "1",
@@ -29991,7 +29991,7 @@ var builds = [
         "Каменный колосс,Чудище-лобстер,Сталегривый оборотень"
     ],
     [
-        "Джейси",
+        "Джесс",
         "Бриз",
         "3",
         "4",
@@ -32095,7 +32095,7 @@ var confession = [
         ""
     ],
     [
-        "Джейси",
+        "Джесс",
         ""
     ],
     [
@@ -33254,7 +33254,7 @@ var startB = [
         ""
     ],
     [
-        "Джейси",
+        "Джесс",
         "",
         "",
         "",
@@ -35337,7 +35337,7 @@ var basicB = [
         ""
     ],
     [
-        "Джейси",
+        "Джесс",
         "",
         "",
         "",
@@ -37636,7 +37636,7 @@ var pveB = [
         ""
     ],
     [
-        "Джейси",
+        "Джесс",
         "",
         "",
         "",
@@ -40605,7 +40605,7 @@ var pvpB = [
         ""
     ],
     [
-        "Джейси",
+        "Джесс",
         "",
         "",
         "",
