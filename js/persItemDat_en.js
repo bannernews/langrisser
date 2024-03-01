@@ -1756,7 +1756,7 @@ var persItemDat = [
         "",
         "",
         "ОЗ и ЗАЩ +5%. Когда сражается с врагом у которого есть [сопротивление смертельнмоу урону], АТК и ЗАЩ войск увеличиваются на 10%. После получения смертельного урона и срабатывании таланта, на клетке героя появится [осколок души]. (Перезарядка того эффекта 3 хода).",
-        "HP and DEF +5%. When fighting an enemy who has [lethal damage resistance], the ATK and DEF of troops increases by 10%. After receiving fatal damage and triggering the talent, a [soul fragment] will appear on the hero’s cell. (Recharge of that effect 3 turns)."
+        "HP and DEF +5%. When fighting an enemy who has [lethal damage resistance], ATK and DEF increases by 10%. After receiving fatal damage and triggering the talent, a [soul fragment] will appear on the hero’s cell. (Recharge of that effect 3 turns)."
     ],
     [
         "Таталия",
