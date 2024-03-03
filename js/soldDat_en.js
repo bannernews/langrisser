@@ -270,7 +270,7 @@ var soldDat = [
     ],
     [
         "Клыкастый страж",
-        "Tusk Guardian",
+        "Fang Guard",
         "40",
         "43",
         "22",
