@@ -1138,7 +1138,7 @@ var heroesDat = [
     ],
     [
         "Оливер",
-        "Oliver",
+        "Olivier",
         "ИМП,МС,ГВ",
         "SR",
         "",
@@ -1147,7 +1147,7 @@ var heroesDat = [
     ],
     [
         "Оливиер",
-        "Olivier",
+        "Oliver",
         "ЛС,МУ,ГЙ",
         "SR",
         "forge",
@@ -1462,7 +1462,7 @@ var heroesDat = [
     ],
     [
         "Соня",
-        "Sonia",
+        "Sonya",
         "АП,ТР",
         "SR",
         "forge",
@@ -1471,7 +1471,7 @@ var heroesDat = [
     ],
     [
         "Соня Бланш",
-        "Sonya",
+        "Sonia Blanche",
         "ЛС,АП,ГВ",
         "SSR",
         "",
