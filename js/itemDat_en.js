@@ -1495,7 +1495,7 @@ var itemDat = [
         "",
         "",
         "АТК и ЗАЩ +1%. При наличии классового преимущества, АТК и ЗАЩ +1%.",
-        "ATK and DEF +1%. If you have a class advantage, ATK and DEF +1%."
+        "ATK and DEF +1%. If you have a Fusion Power effect, ATK and DEF +1%."
     ],
     [
         "Астарот",
