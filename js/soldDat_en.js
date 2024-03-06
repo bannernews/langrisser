@@ -1880,7 +1880,7 @@ var soldDat = [
     ],
     [
         "Солист ветроцвета",
-        "Windbloom Ghanter",
+        "Windbloom Chanter",
         "40",
         "34",
         "22",
