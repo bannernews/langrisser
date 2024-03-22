@@ -32404,7 +32404,7 @@ var confession = [
     ],
     [
         "Патрисия",
-        ""
+        "https://drive.google.com/file/d/1ICL7XjXzlMLNhf0pFpa7-Mlem8e6GBqS/view?usp=sharing"
     ],
     [
         "Патцир",
