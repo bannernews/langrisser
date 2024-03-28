@@ -214,6 +214,21 @@ var persItemDat = [
         "MDEF +10%. After taking action, heals the friendly summoned unit with the lowest remaining HP for 30% of their HP."
     ],
     [
+        "Апофеоз",
+        "Apotheosis",
+        "Глобал - 25.07.2024",
+        "",
+        "hat",
+        "34",
+        "",
+        "",
+        "",
+        "4",
+        "",
+        "ОЗ +10%. При наличии минимум 3 доп. стата от таланта, наложенные [Тёмная магия] и [Магический выбор] невозможно снять. Когда в пределах 3 клеток есть вражеский демон или святой юнит, получает Иммунитет.",
+        "HP +10%. If you have at least 3 extra stats from talent, applied [Dark Magic] and [Magic Choice] cannot be removed. When there is an enemy demon or holy unit within 3 cells, gains Immunity."
+    ],
+    [
         "Арес",
         "Ares",
         "Шлем Блюстителей",
