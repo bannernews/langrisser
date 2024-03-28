@@ -169,6 +169,21 @@ var persItemDat = [
         "DEF +10%. When triggering an act again, buffs on this unit will not decrease in duration. This effect has a 3 turn cooldown."
     ],
     [
+        "Апофеоз",
+        "Apotheosis",
+        "Global - 25.07.2024",
+        "",
+        "hat",
+        "34",
+        "",
+        "",
+        "",
+        "4",
+        "",
+        "ОЗ +10%. При наличии минимум 3 доп. стата от таланта, наложенные [Тёмная магия] и [Магический выбор] невозможно снять. Когда в пределах 3 клеток есть вражеский демон или святой юнит, получает Иммунитет.",
+        "HP +10%. If you have at least 3 extra stats from talent, applied [Dark Magic] and [Magic Choice] cannot be removed. When there is an enemy demon or holy unit within 3 cells, gains Immunity."
+    ],
+    [
         "Архонт Луны",
         "Archon of the Moon",
         "Решимость звездолёта",
