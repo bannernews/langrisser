@@ -456,8 +456,8 @@ var persItemDat = [
     [
         "Элисса",
         "Elisse",
-        "Глобал - 28.03.2024",
-        "Global - 28.03.2024",
+        "",
+        "Key of the Eternal Night",
         "accessoir",
         "",
         "6",
@@ -681,8 +681,8 @@ var persItemDat = [
     [
         "Греншиль",
         "Grenshiel",
-        "Глобал - 28.03.2024",
-        "Global - 28.03.2024",
+        "",
+        "Pride of the Frozen Winter",
         "hat",
         "34",
         "",
