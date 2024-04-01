@@ -746,7 +746,7 @@ var soldDat = [
     ],
     [
         "Золотой рыцарь",
-        "Godlen Knight",
+        "Golden Knight",
         "43",
         "43",
         "22",
@@ -754,7 +754,7 @@ var soldDat = [
         "5",
         "1",
         "Получаемый урон уменьшается на 20%, когда у солдат 100% ОЗ. АТК и ЗАЩ солдат увеличиваются на 30%, когда у героя класс [Кавалерия]",
-        "Damage received is decreased when soldier's HP is 100%. ATK and DEF increases by 30%, when the Hero's class is Cavalry.",
+        "Damage received is decreased by 20% when soldier's HP is 100%. ATK and DEF increases by 30%, when the Hero's class is Cavalry.",
         "cavalry",
         "Скотт,Лэйд,Летисия,Леон,Элвин,Лэндиус,Тогуро,Ашрам,Розалия,Вернер Дайм,Исара,Амадей"
     ],
