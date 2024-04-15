@@ -904,7 +904,7 @@ var persItemDat = [
         "DEF & MDEF +5%. When unit is at 100% HP, +30% SKILL."
     ],
     [
-        "Рыцарь тайн",
+        "Рыцарь Тайн",
         "Knight of Mystery",
         "Клятва защитника",
         "Guardian oath",
