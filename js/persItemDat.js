@@ -1489,7 +1489,7 @@ var persItemDat = [
         "HP +10%. When switching forms, the number of buffs does not decrease. If a unit has [Edge of Insight] and no damage was dealt during the turn, at the end of the turn gains \"Mobility +2\", lasts 1 round. If a unit has [Punishing Light], it can move 2 squares after an attack."
     ],
     [
-        "Рыцарь тайн",
+        "Рыцарь Тайн",
         "Knight of Mystery",
         "Клятва защитника",
         "Guardian oath",
