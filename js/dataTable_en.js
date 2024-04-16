@@ -17383,7 +17383,7 @@ var classStats = [
         "263",
         "319",
         "224",
-        "1",
+        "2",
         "3",
         "полет",
         "When a unit's HP is below 70%, damage taken is reduced by 10% when entering combat.",
