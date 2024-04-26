@@ -1386,7 +1386,7 @@ var persItemDat = [
     [
         "Преция",
         "Precia",
-        "Глобал - 02.05.2024",
+        "Край времен года",
         "",
         "weapon",
         "21",
@@ -1731,7 +1731,7 @@ var persItemDat = [
 [
         "Тормил",
         "Tourmilque",
-        "Глобал 02.05.2024",
+        "Тихая исповедь",
         "",
         "body",
         "34",
@@ -1847,6 +1847,21 @@ var persItemDat = [
         "",
         "ОЗ & ЗАЩ +5%. Экипированные навыки игнорируют ограничение стоимости. При входе в ближний бой, перед боем отключает навыки оружия противника (кроме эффектов макс ОЗ). Когда цель не является героем игрока, эффект меняется на 25% эффект снижения атаки и интелекта. Длится 1 ход.",
         "HP & DEF +5%. Ignore skill cost limit. When entering melee battle, cause the enemy to be afflicted with \"Weapon Skill Disabled (Excluding Max HP effects)\". If the enemy is an NPC, this effect is instead \"ATK/INT -25%\". Lasts 1 turn."
+    ],
+	[
+        "Хофманн",
+        "Hofmann",
+        "Глобал - 22.08.2024",
+        "Global - 22.08.2024",
+        "body",
+        "25",
+        "",
+        "",
+        "6",
+        "",
+        "",
+        "ЗАЩ +5%. При использование Щитом умение обозначения зоны он получает Комманду: \"Когда другие нелетающие союзники проходят через зону щита они дополнительно получают шанс убрать 1 клетку снижения мобильности\". Сам щит получает способность \"Вступает в бой вместо союзников в радиусе 3 клеток\".",
+        "DEF +5%. When using the Shield zone designation skill, it receives Command: “When other non-flying allies pass through the shield zone, they additionally gain a chance to remove 1 cell of mobility reduction.” The shield itself gains the ability “Enter battle instead of allies within a radius of 3 cells.”"
     ],
     [
         "Цубамэ",
