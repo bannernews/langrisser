@@ -27056,7 +27056,7 @@ var persSkills = [
         "5",
         "one target",
         "4",
-        "[Passive] When a talent choice triggers and enters the sleep effect, it can be teleported to other allie within a 5 square radius and designated as [Proxy]: \"Take all attacks from enemies to the caster within a 3 square radius, and ignore class type disadvantages.\" , lasts 2 turns. <br><br>[Active] Actively use it to teleport to other unit. You can move another 3 cells and attack again. When using this skill, 1 [energy] will be consumed for every 1 square between the target and the hero. (After using this skill, the talent selection to enter the sleep effect at the end of the action will not be triggered, and the number of buff rounds will not be reduced)"
+        "[Passive] When a talent choice triggers and enters the sleep effect, it can be teleported to other allie within a 5 square radius and designated target as [Proxy]: \"Take all attacks from enemies to the Archanfel within a 3 square radius and ignore class type disadvantages.\" , lasts 2 turns. <br><br>[Active] Actively use it to teleport to other unit. You can move another 3 cells and attack again. When using this skill, 1 [energy] will be consumed for every 1 square between the target and the hero. (After using this skill, the talent selection to enter the sleep effect at the end of the action will not be triggered, and the number of buff rounds will not be reduced)"
     ],
     [
         "Spatial Cloak",
@@ -27066,7 +27066,7 @@ var persSkills = [
         "on self",
         "one target",
         "4",
-        "[Passive] When [Energy] is at least 5 stacks, the hero cannot die and falls into “sleep” when triggered. (Triggers up to 1 time per battle)<br><br>[Active] Actively use to gain [Command]: “Other friendly units within 2 squares cannot be attacked by enemy skills within 3 blocks; When an enemy moves within the command's range, an additional 1 movement point will be spent.\" Lasts 1 turn."
+        "[Passive] When [Energy] is at least 5 stacks, the hero cannot die and falls into “sleep” when triggered. (Triggers up to 1 time per battle)<br><br>[Active] Actively use to gain [Command]: “Other friendly units within 2 squares cannot be attacked by enemy skills outside of 3 blocks; When an enemy moves within the command's range, an additional 1 movement point will be spent.\" Lasts 1 turn."
     ],
     [
         "Spatial Compression",
