@@ -22196,7 +22196,7 @@ var persSkills = [
         "4",
         "3",
         "5",
-        "[Passive] When attacked and damaged, receives [Moonshadow]: AoE damage taken -25%. After performing an action, dispels 3 debuffs. Lasts 1 turn. When you have [Moonshadow], you cannot be the target of the enemy's normal attacks and skills. ([Activation CD] The cooldown of the Moonshadow effect is 3 turns). <br><br>[Mag. Damage] Teleports to the point where the skill is used, then deals 0.35x AoE damage to enemies within a 3 cell radius, removes 1 buff, and applies 1 powerful debuff. Grants the effect of [Dark Side of the Moon]: All enemies within a 2 cell radius receive \"Healing Received -50%\" for 1 turn."
+        "[Passive] When attacked and damaged, receives [Moonshadow]: AoE damage taken -25%. After performing an action, dispels 3 debuffs. Lasts 1 turn. When you have [Moonshadow], you cannot be the target of the enemy's normal attacks and skills. ([Activation CD] The cooldown of the Moonshadow effect is 3 turns). <br><br>[Mag. Damage] Teleports to the point where the skill is used, then deals 0.35x AoE damage to enemies within a 3 cell radius, steals 1 buff, and applies 1 powerful debuff. Grants the effect of [Dark Side of the Moon]: All enemies within a 2 cell radius receive \"Healing Received -50%\" for 1 turn."
     ],
     [
         "Крис",
