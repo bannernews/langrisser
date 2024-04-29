@@ -5821,7 +5821,7 @@ var dataTable = [
         "",
         "",
         "",
-        "Jaw-Man's Ambitions",
+        "Agito's Ambition",
         "At the end of the action you will receive 1 [Ambition]: ATK and DEF are increased by 6%, which can be accumulated, up to 5 stacks, lasting 3 rounds. When an enemy is killed, all [Ambitions] will be refreshed to their maximum duration. If you have 3 or more [Ambitions], your mobility +2; With 5 [Ambition], the damage done by active attacks is increased by 20%, and after an attack you can move an additional 3 cells.",
         "",
         "",
@@ -7047,7 +7047,7 @@ var dataTable = [
         "Т",
         "Sew in time",
         "When entering battle, ATK and DEF increase by (10,15,20,25)%. At the end of the turn, you can choose one of two skills: <br><br>[Time Flow]: reduces the duration of buffs and debuffs by 1 turn, reduces the cooldown of skills on cooldown by 1 turn. <br><br>[Chrono-break]: the duration of buffs, debuffs and skill cooldowns do not change. <br><br>When using [Chrono-break] in the [Danger Zone], receives [Temporary Link]: having received lethal damage, resurrects with (10,20,30,50)% health. Cannot be dispelled and ignores immunity. Lasts 1 turn. CD [Temporary Link] 3 turns.",
-        "Global - 25.04.2024",
+        "Edge of the Seasons",
         "оружие",
         "21",
         "10",
@@ -9189,7 +9189,7 @@ var dataTable = [
         "М3",
         "Primal Resonance",
         "INT increases by (5,10,15,20)%. Starts with 2 [Perceptual] and 2 [Rational]. <br><br>When [Perception] is greater than or equal to [Rational], the unit's range is increased +1, and after actively attacking and dealing damage, HP is restored equal to (1.5,2,2.5,3)x INT for allies within 3 blocks. <br><br>When [Rational] is greater than or equal to [Perception], the unit's range is increased +1, and at the start of battle, a fixed damage equal to (0.5,0.8,1.1,1.5)x INT is dealt to the enemy once before the battle. <br><br>After an allied unit takes an action, if it actively attacked on its turn, convert 1 [Rational] to [Perceptual]; otherwise converts 1 [Perceptual] to [Rational]. ([Perceptual] and [Rational] cannot be dispelled, ignore immunity, and stacks a total of 4 times.)",
-        "Global - 25.04.2024",
+        "Silent Confession",
         "броня",
         "34",
         "",
@@ -10003,8 +10003,8 @@ var dataTable = [
         "",
         "",
         "",
-        "Forced breeding",
-        "ATK and DEF increases by (10%, 15%, 20%, 25%) At the beginning of the round, randomly receive 1 type of [[Forced Breeding Evolution] that you do not already have, which cannot be dispelled and lasts for 2 rounds. Take advantage of the benefits provided by [Forced Reproduction Evolution] to increase its power and make it a permanent effect. When the upgrade activates, you immediately gain an additional [Forced Breeding Evolution] that you don't already have. <br><br>[Forced Evolution Propagation]: [Gravity Control] Movement +1 (improves when moving at least 5 squares per round: additional movement +1) <br>[Super Resilience] Restores 20% HP after battle (improves when HP exceeds 90% after battle : healing amount doubles) <br>[Super Sense] When attacked, attack before the enemy (upgrades at the end of the action in the danger zone: also effective when attacking actively) <br>[Ultrasonic] Range +1 (Upgrade after battle when you are not hit: range +1 extra ) <br>[High Frequency Wave] Ignores 15% of the enemy's defense (upgrades when successfully destroying the enemy: the effect of ignoring defense is doubled)",
+        "Aggressive Evolution",
+        "ATK and DEF increases by (10%, 15%, 20%, 25%) At the beginning of the round, randomly receive 1 type of [Aggressive Evolution] that you do not already have, which cannot be dispelled and lasts for 2 rounds. Take advantage of the benefits provided by [Aggressive Evolution] to increase its power and make it a permanent effect. When the upgrade activates, you immediately gain an additional [Aggressive Evolution] that you don't already have. <br><br>[Aggressive Evolution Propagation]: [Gravity Control] Movement +1 (improves when moving at least 5 squares per round: additional movement +1) <br>[Super Resilience] Restores 20% HP after battle (improves when HP exceeds 90% after battle : healing amount doubles) <br>[Super Sense] When attacked, attack before the enemy (upgrades at the end of the action in the danger zone: also effective when attacking actively) <br>[Ultrasonic] Range +1 (Upgrade after battle when you are not hit: range +1 extra ) <br>[High Frequency Wave] Ignores 15% of the enemy's defense (upgrades when successfully destroying the enemy: the effect of ignoring defense is doubled)",
         "",
         "",
         "",
@@ -27029,37 +27029,37 @@ var persSkills = [
         ""
     ],
     [
-        "Psychic explosion",
+        "Psychic Blast",
         "Психический взрыв",
         "1",
         "1",
         "2",
         "one target",
         "3",
-        "[Magic Damage] Attacks one enemy, dealing 1.5x damage, increasing soldier damage by 20%. Before the battle, reduces the enemy's ATK and INT by 20% for 2 turns. (This skill is not affected by melee damage reduction)"
+        "[Magic Damage] Attacks one enemy, dealing 1.5x damage, increasing damage to soldiers by 20%. Before the battle, reduces the enemy's ATK and INT by 20% for 2 turns. (This skill is not affected by melee damage reduction)"
     ],
     [
-        "Energy beam reflection",
+        "Energy Beam Deflector",
         "Дефлектор энергетического луча",
         "1",
         "5",
         "",
         "",
         "",
-        "[Passive] When attacking and entering a battle, 2 layers of [Energy] are consumed, the damage received in this battle is reduced by 20%, and 30% of the damage received is reflected."
+        "[Passive] When attacked and entering battle, 2 layers of [Energy] are consumed, the damage received in this battle is reduced by 20%, and 30% of the damage received is reflected."
     ],
     [
-        "Advent",
+        "Descent",
         "Понижение",
         "2",
         "7",
         "5",
         "one target",
         "4",
-        "[Passive] When a talent choice triggers and enters the sleep effect, it can be teleported to other allies within a 5 square radius and designated as [Agent]: \"Withstand all attacks from enemies within a 3 square radius (?), and allies ignore class disadvantages.\" , lasts 2 turns. <br><br>[Active] Actively use it to teleport to other unit. You can move another 3 cells and attack again. When using this skill, 1 [energy] will be consumed for every 1 square between the target and the hero. (After using this skill, the talent selection to enter the sleep effect at the end of the action will not be triggered, and the number of buff rounds will not be reduced)"
+        "[Passive] When a talent choice triggers and enters the sleep effect, it can be teleported to other allie within a 5 square radius and designated as [Proxy]: \"Take all attacks from enemies to the caster within a 3 square radius, and ignore class type disadvantages.\" , lasts 2 turns. <br><br>[Active] Actively use it to teleport to other unit. You can move another 3 cells and attack again. When using this skill, 1 [energy] will be consumed for every 1 square between the target and the hero. (After using this skill, the talent selection to enter the sleep effect at the end of the action will not be triggered, and the number of buff rounds will not be reduced)"
     ],
     [
-        "Space mask",
+        "Spatial Cloak",
         "Пространственный плащ",
         "2",
         "7",
@@ -27069,7 +27069,7 @@ var persSkills = [
         "[Passive] When [Energy] is at least 5 stacks, the hero cannot die and falls into “sleep” when triggered. (Triggers up to 1 time per battle)<br><br>[Active] Actively use to gain [Command]: “Other friendly units within 2 squares cannot be attacked by enemy skills within 3 blocks; When an enemy moves within the command's range, an additional 1 movement point will be spent.\" Lasts 1 turn."
     ],
     [
-        "Space compression",
+        "Spatial Compression",
         "Пространственное сжатие",
         "3",
         "1",
@@ -27089,7 +27089,7 @@ var persSkills = [
         ""
     ],
     [
-        "Sonic explosion",
+        "Sonic Buster",
         "Звуковой взрыв",
         "1",
         "2",
@@ -27099,7 +27099,7 @@ var persSkills = [
         "[Physical Damage] Attacks one enemy, dealing 1x damage, and has a 50% chance to apply a random debuff to the enemy after battle. If carried by a melee soldier, they will attack at the same time. (This skill is not affected by melee damage reduction)"
     ],
     [
-        "High frequency sword",
+        "High-Frequency sword",
         "Высокочастотный меч.",
         "2",
         "2",
@@ -27109,7 +27109,7 @@ var persSkills = [
         "[Physical Damage] Attacks one enemy, dealing 1.3x damage, dispelling 2 buffs from the enemy before battle. This damage ignores 20% of the enemy's DEF."
     ],
     [
-        "Biological heat gun",
+        "Bio Heat Ray",
         "Биологическая тепловая пушка",
         "2",
         "2",
@@ -27119,7 +27119,7 @@ var persSkills = [
         "[Physical Damage] Attacks all enemies in a straight line, dealing 0.33 AoE damage. Before attacking, removes up to 3 debuffs. For each debuff removed, the damage of this skill increases by 10%."
     ],
     [
-        "Chest Particle Cannon",
+        "Mega Smasher",
         "Нагрудная пушка частиц",
         "3",
         "2",
@@ -27139,7 +27139,7 @@ var persSkills = [
         ""
     ],
     [
-        "Protective mask",
+        "Shroud",
         "Пелена",
         "1",
         "5",
@@ -27149,7 +27149,7 @@ var persSkills = [
         "[Passive] Before being attacked and entering combat, gains [Defensive Shield]: \"Withstands 20% of maximum HP damage\" and cannot be dispelled."
     ],
     [
-        "Cap Regeneration",
+        "Guyver Regeneration",
         "Регенерация Гайвера",
         "1",
         "5",
@@ -27159,7 +27159,7 @@ var persSkills = [
         "[Passive] After death, places a [Control Unit] on the square below you. At the start of the next round, Sho Fukamachi will recover from it and enter the Overdefense state: uncontrollable and will not be damaged by an active attack. Cannot be dispelled, lasts 1 turn. After this effect is removed, it can gain 1 additional action. ([Trigger Cooldown] It takes 4 rounds for this effect to trigger again.)"
     ],
     [
-        "High Frequency Sword",
+        "High-Frequency Sword",
         "Высокочастотный меч",
         "2",
         "2",
@@ -27169,14 +27169,14 @@ var persSkills = [
         "[Physical Damage] Attacks one enemy, dealing 1.3x damage, dispelling 2 buffs from the enemy before battle. This damage ignores 20% of the enemy's DEF."
     ],
     [
-        "Chest cannon",
+        "Mega Smasher",
         "Мега Сокрушитель",
         "3",
         "2",
         "2",
         "one target",
         "5",
-        "[Passive] At the end of the duration, if you have 3 or more types of [Forced Reproduction Evolution], the cooldown of all skills will be reduced by 1 turn.<br><br>[Physical Damage] Attacks one enemy, dealing 1.8x damage. Before battle, damage dealt to the enemy increases by 20%. Cannot be dispelled and lasts 2 rounds. Melee soldiers will attack at the same time. (This skill is not affected by melee damage reduction)"
+        "[Passive] At the end of the duration, if you have 3 or more types of [Aggressive Evolution], the cooldown of all skills will be reduced by 1 turn.<br><br>[Physical Damage] Attacks one enemy, dealing 1.8x damage. Before battle, damage dealt to the enemy increases by 20%. Cannot be dispelled and lasts 2 rounds. Melee soldiers will attack at the same time. (This skill is not affected by melee damage reduction)"
     ],
     [
         "Повелительница ледяной бездны",
