@@ -324,7 +324,7 @@ var dataTable = [
         "6",
         "",
         "HP and DEF +5%. When [Duality Ward] is in effect, skill damage +10%. If taking fatal damage while [Duality Ward], [Hard], and [Soft] are in effect, then consume these three effects to restore 50% HP. This effect may only occur once per battle.",
-        "ATK +5%, when using [hard] magic damage dealt by the hero is increased by 10%, when using [soft], physical damage dealt by the hero is increased by 10%",
+        "ATK +5%, when having [hard] magic damage dealt by the hero is increased by 10%, when having [soft], physical damage dealt by the hero is increased by 10%",
         "30",
         "35",
         "20",
