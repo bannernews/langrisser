@@ -27443,8 +27443,8 @@ var persSkills = [
         "Шип казни",
         "1",
         "7",
-        "вся карта",
-        "одна цель",
+        "all",
+        "one target",
         "3",
         "[Passive] Can move again after attacking. The number of cells to move this time is equal to the number of cells the hero moved before the battle.<br><br>[Active] Select an enemy and apply [Poison], which cannot be immune to and can't be dispelled, lasts 2 rounds. After use, the number of turns of the buff effect on the hero will not be reduced. You can move 3 cells and attack again."
     ],
