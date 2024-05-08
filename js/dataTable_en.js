@@ -27426,7 +27426,7 @@ var persSkills = [
         "3",
         "4",
         "4",
-        "[Passive] After using a skill to deal damage, deals [fixed damage] equal to 2x INT of the affected enemy. If the target's HP is 20% or less, this fixed damage cannot be immune.<br><br>[Magic Damage] Attacks multiple enemies within range, dealing 0.33 AoE damage and applying 2 random debuffs. When successfully killing an enemy, a random \"spell preparation\" will be performed at the end of the action."
+        "[Passive] After using a skill to deal damage, deals [fixed damage] equal to 2x INT of the hero. If the target's HP is 20% or less, this fixed damage cannot be immune.<br><br>[Magic Damage] Attacks multiple enemies within range, dealing 0.33 AoE damage and applying 2 random debuffs. When successfully killing an enemy, a random \"spell preparation\" will be performed at the end of the action."
     ],
 	[
         "Серафина",
