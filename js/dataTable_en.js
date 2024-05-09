@@ -18943,7 +18943,7 @@ var heroList_en = [
 	"Hiei",
 	"Hilda",
 	"Himiko",
-	"Hoffman",
+	"Hofmann",
 	"Tsubame",
 	"Shalltear",
 	"Shelfaniel",
