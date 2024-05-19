@@ -10665,7 +10665,7 @@ var dataTable = [
         "SSR",
         "",
         "",
-        "",
+        "М1",
         "Аватар Богини",
         "Урон увеличивается по мере удаления от цели. Урон увеличивается на (2,4,6,8)% за каждую 1 клетку. <br><br>Если в течение этого хода вы остаетесь на месте, после совершения действия вы получаете +(1,1,1,2) к мобильности на 1 ход.",
         "Провидец",
@@ -10716,7 +10716,7 @@ var dataTable = [
         "SSR",
         "",
         "",
-        "М3",
+        "",
         "Сила союзника",
         "Если в радиусе 2 клеток есть союзный юнит, АТК и ЗАЩ увеличиваются (5,8,11,15)%. <br><br>Когда союзный юнит погибает, вы восстанавливаете 30% ОЗ и получаете [Гнев]: Все статы (кроме ОЗ) увеличиваются на 10%, мобильность увеличивается на 1 и дальность юнита увеличивается на 1. Длится (1,2,2,3) хода. (Эффект нельзя снять).",
         "",
@@ -10767,7 +10767,7 @@ var dataTable = [
         "SSR",
         "",
         "",
-        "М1",
+        "М3",
         "Конец Уз",
         "После вступления в бой АТК, ЗАЩ и наносимый урон увеличиваются на (5,8,11,15)%. После совершения действия длительность всех дебаффов уменьшается еще на 1 ход. Когда враг погибает, (1,2,2,3) других случайных врага получают [Отчаяние]: Пассивные навыки отключаются, а против атак Ю'тэма не срабатывает эффект стража. Длится 2 хода.",
         "Повелитель Демонов",
@@ -43316,6 +43316,10 @@ frak.innerHTML += '<img src="images/hero_phone_light.png" height="570px" style="
 var frak2 = document.getElementById('h_frac');
 frak_temp = dataTable[hero_number][1].split(",");
 frak2.innerHTML +='<img style="margin-left:10px;margin-bottom:10px;" src="images/point.png" height="30px" />';
+if (dataTable[hero_number][5]==''){} else {
+	frak2.innerHTML +='<img style="margin-left:10px;margin-bottom:10px;" src="images/hero_filter/chapter/'+dataTable[hero_number][5]+'.png" height="30px" />';
+	frak2.innerHTML +='<img style="margin-left:10px;margin-bottom:10px;" src="images/glow.png" height="30px" />';
+}
 for (i=0;i<frak_temp.length;i++){
 	frak2.innerHTML += '<img style="margin-left:10px;" src="images/hero_filter/factions/' + frak_temp[i] + '.png" height="50px" />   ';
 }
