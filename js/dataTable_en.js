@@ -10665,7 +10665,7 @@ var dataTable = [
         "SSR",
         "",
         "",
-        "",
+        "М1",
         "Avatar of the Goddess",
         "Damage increases as you far away from the target. Damage increases by (2,4,6,8)% for every 1 cell. <br><br>If you remain stationary during this turn, after performing the action you gain +(1,1,1,2) to mobility for 1 turn.",
         "Scryer",
@@ -10716,7 +10716,7 @@ var dataTable = [
         "SSR",
         "",
         "",
-        "М3",
+        "",
         "Ally Strength",
         "If there is an allied unit within a radius of 2 cells, ATK and DEF increase (5,8,11,15)%. <br><br>When an allied unit dies, you restore 30% HP and gain [Wrath]: All stats (except HP) increase by 10%, mobility increases by 1 and unit range increases by 1. Lasts (1,2, 2,3) moves. (The effect cannot be removed.)",
         "",
@@ -10767,7 +10767,7 @@ var dataTable = [
         "SSR",
         "",
         "",
-        "М1",
+        "М3",
         "The end of the Ouse",
         "After entering battle, ATK, DEF and damage dealt increase by (5,8,11,15)%. After taking the action, the duration of all debuffs is reduced by another 1 turn. When an enemy dies, (1,2,2,3) other random enemies receive [Despair]: Passive skills are disabled, and the Guardian effect does not work against Wehttam's attacks. Lasts 2 turns.",
         "Demon overlord",
@@ -43728,6 +43728,10 @@ frak.innerHTML += '<img src="images/hero_phone_light.png" height="570px" style="
 var frak2 = document.getElementById('h_frac');
 frak_temp = dataTable[hero_number][1].split(",");
 frak2.innerHTML +='<img style="margin-left:10px;margin-bottom:10px;" src="images/point.png" height="30px" />';
+if (dataTable[hero_number][5]==''){} else {
+	frak2.innerHTML +='<img style="margin-left:10px;margin-bottom:10px;" src="images/hero_filter/chapter/'+dataTable[hero_number][5]+'.png" height="30px" />';
+	frak2.innerHTML +='<img style="margin-left:10px;margin-bottom:10px;" src="images/glow.png" height="30px" />';
+}
 for (i=0;i<frak_temp.length;i++){
 	frak2.innerHTML += '<img style="margin-left:10px;" src="images/hero_filter/factions/' + frak_temp[i] + '.png" height="50px" />   ';
 }
