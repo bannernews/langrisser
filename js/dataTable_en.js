@@ -26996,7 +26996,7 @@ var persSkills = [
         "on self",
         "one target",
         "3",
-        "[Passive] After attacking and receiving damage, if the unit's health is below 30% and the skill is not in cooldown mode, the skill's active effect will trigger and the skill will go into cooldown mode. <br><br>[Support] Removes 2 debuffs and restores HP equal to 5x Patricia's INT. At the same time, the reload time of all skills is reduced by 2 turns."
+        "[Passive] After being attacked and receiving damage, if the unit's health is below 30% and the skill is not in cooldown mode, the skill's active effect will trigger and the skill will go into cooldown mode. <br><br>[Support] Removes 2 debuffs and restores HP equal to 5x Patricia's INT. At the same time, the reload time of all skills is reduced by 2 turns."
     ],
     [
         "Sky Tornado",
