@@ -20576,7 +20576,7 @@ var persSkills = [
         "4",
         "one target",
         "5",
-        "[Passive] Blocks lethal damage once, restoring 10% HP and activates Wings of Destruction when receiving damage that should have been lethal. Can be activated once per battle. Reduces the damage dealt by this unit by 30% for 1 turn. Impossible to remove. Ignores immunity. <br><br>[Active] Targets an enemy and applies the [Move] effect: flies up to the target and deals 0.3x AoE damage to all enemies within a radius of 3 cells from itself, while dealing fixed damage to itself equal to 30% of the max HP. After using this skill, removes all debuffs and gives yourself [Immunity] for 1 turn. (Movement effects and self-inflicted damage cannot be removed and they ignore immunity)."
+        "[Passive] Blocks lethal damage once, restoring 50% HP and activates Wings of Destruction when receiving damage that should have been lethal. Can be activated once per battle. Reduces the damage dealt by this unit by 30% for 1 turn. Impossible to remove. Ignores immunity. <br><br>[Active] Targets an enemy and applies the [Move] effect: flies up to the target and deals 0.3x AoE damage to all enemies within a radius of 3 cells from itself, while dealing fixed damage to itself equal to 30% of the max HP. After using this skill, removes all debuffs and gives yourself [Immunity] for 1 turn. (Movement effects and self-inflicted damage cannot be removed and they ignore immunity)."
     ],
     [
         "Вираш",
