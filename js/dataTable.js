@@ -43300,6 +43300,9 @@ langu.href = "hero_en.html?name="+heroName;
 if (heroName == 'Метью'){
 	document.location.href = "work.html";
 }
+if (heroName == 'Яркий призыватель'){
+	document.location.href = "ChrisLLR.html";
+}
 var hero_number = heroList.indexOf(heroName)+1;  //Узнаем номер строки героя
 
 var frak = document.getElementById('picture');
