@@ -225,8 +225,8 @@ body{
 }
 
 #htreepic:hover{
-	border:1px solid black;
+	box-shadow: 1px 1px 20px aliceblue;
 }
 #untreepic:hover{
-	border:1px solid black;
+	box-shadow: 1px 1px 20px aliceblue;
 }
