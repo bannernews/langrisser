@@ -208,7 +208,7 @@ var persSkills = [
     ],
     [
         "Ode to Light",
-        "Ода Свету",
+        "Ода свету",
         "3",
         "7",
         "on self",
