@@ -1691,8 +1691,8 @@ var soldDat = [
         "23",
         "5",
         "2",
-        "Физический урон, наносимый обычными атаками, считается магическим уроном. В начале боя АТК солдат увеличивается на 30%. Перед боем есть 100% шанс применить 1 случайных дебафф к противнику",
-        " Normal attacks deals magic damage. When initiating battle, soldier's ATK increases by 30%. There is a 100% chance to apply 1 random debuff to enemy before battle.",
+        "Физический урон, наносимый обычными атаками, считается магическим уроном. В начале боя АТК солдат увеличивается на 40%. Перед боем есть 100% шанс применить 1 случайных дебафф к противнику",
+        " Normal attacks deals magic damage. When initiating battle, soldier's ATK increases by 40%. There is a 100% chance to apply 1 random debuff to enemy before battle.",
         "mage",
         "Эгберт,Феракуа,Бозел,Лана,Рене,Алтина,Айнз,Патцир,Трансцендентный,Кертес,Дева Ковчега,Густав,Девушка в Доспехах,Лео Бек,Пробужденная,Лина,Алканфель"
     ],
@@ -2028,7 +2028,7 @@ var soldDat = [
         "5",
         "2",
         "Физический урон, наносимый обычными атаками, считается магическим уроном. При вступлении в бой АТК увеличивается на 30%. Когда втянуты в бой получают на 15% меньше фзи урона. После боя, если все солдаты были убиты, восстанавливает 45% ОЗ ",
-        "Normal attacks deals magic damage. When attacking, ATK increases by 40%. When attacked, physical damage taken decreases by 15%. After the battle, is soldiers are dead, restores 45% HP.",
+        "Normal attacks deals magic damage. When attacking, ATK increases by 30%. When attacked, physical damage taken decreases by 15%. After the battle, is soldiers are dead, restores 45% HP.",
         "demon",
         "Эгберт,Соня,Феракуа,Бозел,Герольд и Лайла,Рене,Курама,Айнз,Патцир,Трансцендентный,Дева Ковчега,Густав,Лео Бек,Пробужденная,Таталия,Лина,Алканфель"
     ],
