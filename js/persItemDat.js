@@ -438,6 +438,21 @@ var persItemDat = [
         "ЗАЩ +10%. Когда герой активирует эффект, предотвращающий смертельный урон, накладывается 1 случайный бафф.",
         "DEF +10%. When hero triggers an effect that prevents fatal damage, gain 1 random buff."
     ],
+	[
+        "Ганн",
+        "Gunn",
+        "---",
+        "---",
+        "body",
+        "437",
+        "",
+        "",
+        "65",
+        "",
+        "",
+        "ОЗ и ЗАЩ +5%. Каждый раз когда эффект [Месть одинокого волка] снимается, собственное исцеление уменьшается на 5%. [Мощь Лунного Волка] дает дополнительный эффект: В конце хода может выбрать снять эффект [Мощь Лунного Волка] и получить [Месть одинокого волка]. Перезарядка этого триггера 1 ход.",
+        "HP and DEF +5%. Each time [Lone Wolf's Revenge] is removed, your own healing is reduced by 5%. [Luna Wolf Strength] provides an additional effect: At the end of the turn, can choose to remove the effect of [Luna Wolf Strength] and gain [Lone Wolf's Revenge]. The cooldown of this trigger is 1 turn.."
+    ],
     [
         "Герольд и Лайла",
         "Gerold & Layla",
@@ -1262,6 +1277,21 @@ var persItemDat = [
         "",
         "МЗАЩ +10%. Талант героя (активация КД) уменьшается на 1 ход.",
         "MDEF +10%. Hero Talent Cooldown -1."
+    ],
+	[
+        "Неемия",
+        "Nemia",
+        "---",
+        "---",
+        "body",
+        "509",
+        "",
+        "",
+        "59",
+        "",
+        "",
+        "ОЗ +10%. Дальность действия [Таинственное океанское течение] +1. Не удаляет свой эффект местности, когда становится на него. Когда другие союзники в пределах 2 клеток становятся на [Таинственное океанское течение] они получают [Поездка на волне]",
+        "HP +10%. Range of [Mysterious Ocean Current] +1. Does not remove its terrain effect when standing on it. When other allies within 2 squares stand on [Mysterious Ocean Current] they gain [Ride the Wave]."
     ],
     [
         "Нимфа",

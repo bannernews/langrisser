@@ -561,6 +561,19 @@ var itemDat = [
         "\"Все аттрибуты +5%. В начале раунда получает \"\"Иммунитет к 1 дебафу. Восстанавливает 20% ОЗ при срабатывании\"\". Не может быть снят\"",
         "\"All attributes +5%. At the beginning of the round, gains \"\"Immunity to 1 debuff. Restores 20% HP when triggered.\"\" Cannot be removed.\""
     ],
+	[
+        "Акс 3",
+        "--",
+        "accessoir",
+        "",
+        "75",
+        "75",
+        "",
+        "",
+        "",
+        "АТК и ИНТ +5%. При активной атаке и вступлении в бой, заглушает навык аксессуара противника. Если цель неигровой герой - вместо этого эффект заменяется на 'Получаемый урон увеличивается на 10%'",
+        "ATK and INT +5%. When actively attacking and entering battle, it silence the skill of the enemy’s accessory. If the target is a non-player hero, the effect is instead replaced with 'Damage taken increases by 10%'"
+    ],
     [
         "Броня Энея",
         "Aeneas' Armor",
@@ -1029,6 +1042,19 @@ var itemDat = [
         "Если ОЗ юнита выше 50%, ЗАЩ и МЗАЩ +8%. Если ОЗ ниже 50%, сила исцеления и получаемое исцеление +8%.",
         "If the unit's HP is above 50%, DEF and MDEF +8%. If HP is below 50%, healing power and received healing +8%."
     ],
+	[
+        "Броня 3",
+        "--",
+        "body",
+        "509",
+        "",
+        "",
+        "59",
+        "",
+        "",
+        "ОЗ +10%. При активной атаке и вступлении в бой, получаемый урон в бою снижается на 6% за каждую клетку перемещённую перед боем (до 18%).",
+        "HP +10%. When actively attacking and entering battle, the damage received in battle is reduced by 6% for each cell moved before the battle (up to 18%)."
+    ],
     [
         "Шлем Энея",
         "Aeneas' Helmet",
@@ -1483,6 +1509,19 @@ var itemDat = [
         "",
         "\"ОЗ +10%. Если в конце действия в пределах 2 блоков нет врагов, получает \"\"Урон умений увеличивается на 5%\"\" и \"\"АоЕ урон увеличивается на 10%\"\", длится 1 ход.\"",
         "\"HP +10%. If at the end of the action there are no enemies within 2 blocks, receives \"\"Skill damage increased by 5%\"\" and \"\"AoE damage increased by 10%\"\", lasts 1 turn.\""
+    ],
+	[
+        "Головной убор 3",
+        "--",
+        "hat",
+        "583",
+        "",
+        "",
+        "",
+        "48",
+        "",
+        "ОЗ +5%. Когда атакован врагом ОЗ которого равно или ниже вашего, ЗАЩ +10% в бою.",
+        "HP +5%. When attacked by an enemy whose HP is equal to or lower than yours, DEF +10% in battle."
     ],
     [
         "Меч клятвы",
@@ -2172,6 +2211,19 @@ var itemDat = [
         "4",
         "\"АТК +10%. Перед вступлением в бой, если ОЗ цели выше 80%, на врага будет наложен дебафф \"\"ЗАЩ -30%\"\" на 1 ход.\"",
         "\"ATK +10%. Before entering battle, if the target's HP is above 80%, the enemy will be afflicted with the \"\"DEF -30%\"\" debuff for 1 turn.\""
+    ],
+	[
+        "Оружие 3",
+        "--",
+        "weapon",
+        "437",
+        "",
+        "107",
+        "",
+        "",
+        "",
+        "ОЗ +5%. После применения навыка на враге, 100% шанс наложить 1 случайный дебафф.",
+        "HP +5%. After using a skill on an enemy, there is a 100% chance to apply 1 random debuff."
     ]
 ]
 

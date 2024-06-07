@@ -34,7 +34,7 @@ var heroesDat = [
         "Autokrato",
         "ИМП,РЕ,М",
         "SSR",
-        "",
+        "forge",
         "",
         "РЕИ"
     ],
@@ -925,7 +925,7 @@ var heroesDat = [
         "Lisa",
         "ГГ,МУ,ГЙ,Ж",
         "SR",
-        "",
+        "forge",
         "",
         "М3"
     ],
@@ -970,7 +970,7 @@ var heroesDat = [
         "Lostham",
         "ИС,МС,МУ,М",
         "SSR",
-        "",
+        "forge",
         "",
         "М3"
     ],
@@ -979,7 +979,7 @@ var heroesDat = [
         "Lucretia",
         "АП,ИМП,РЕ,Ж",
         "SSR",
-        "",
+        "forge",
         "",
         "РЕИ"
     ],
@@ -988,7 +988,7 @@ var heroesDat = [
         "Luna",
         "ИС,АП,МС,ФБ,Ж",
         "SSR",
-        "",
+        "forge",
         "",
         "Л13"
     ],
@@ -1195,7 +1195,7 @@ var heroesDat = [
         "Parn",
         "ГГ,ИС,ГВ,М",
         "SR",
-        "",
+        "forge",
         "",
         ""
     ],
@@ -1798,7 +1798,7 @@ var heroesDat = [
         "Elwin",
         "ГГ,ЛС,ИМП,ФБ,М",
         "SSR",
-        "",
+        "forge",
         "SP",
         "Л13"
     ],
@@ -1906,9 +1906,18 @@ var heroesDat = [
         "Wehttam",
         "ГГ,ТР,ТАИР,М",
         "SSR",
-        "",
+        "forge",
         "",
         "М3"
+    ],
+	[
+        "Яркий призыватель",
+        "Brightsummoner",
+        "ЛС,АП,ТАИР,ФБ,Ж",
+        "LLR",
+        "",
+        "",
+        ""
     ]
 ]
 
