@@ -10779,7 +10779,7 @@ var dataTable = [
         "5",
         "",
         "HP +10%, When entering the battle, if the target has [Despair], the damage dealt by the hero will be increased by 10%, and if a skill is used, the cooldown time of the skill will be -1.",
-        "When summoned [Shadow of Alhazard] dies and Wehttam is within a radius of 3 cells from him, then when it dies, deals 0.15x AoE damage to enemies in a radius of 3 cells and applies [Despair] to them. If Wehttam  ends his turn outside a radius of 3 cells from the sword, he can teleport within a radius of 2 cells from it (clarification needed).",
+        "When summoned [Shadow of Alhazard] dies and Wehttam is within a radius of 3 cells from him, then when it dies, deals 0.15x AoE damage to enemies in a radius of 3 cells and applies [Despair] to them. If Wehttam is outside a radius of 3 cells from the sword, then at the end of its action the sword can teleport within a radius of 2 cells from it",
         "35",
         "35",
         "15",
