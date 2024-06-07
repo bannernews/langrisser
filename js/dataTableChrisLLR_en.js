@@ -135,7 +135,7 @@ var classStats = [
         "150",
         "2",
         "3",
-        "ходьба",
+        "полет",
         "When a unit has 100% HP, damage taken is reduced by 10%.",
         "If a unit has 5 or more buffs, the damage increases by 10% after entering battle.",
         "A",
@@ -153,7 +153,7 @@ var classStats = [
         "166",
         "2",
         "3",
-        "ходьба",
+        "парение",
         "When fighting an enemy whose HP% is lower than this unit's, the damage taken is reduced by 10%.​",
         "All damage dealt is increased by 10% when the unit's HP is above 80%.​",
         "C",
@@ -214,7 +214,7 @@ var persSkills = [
         "on self",
         "all",
         "3",
-        "[Passive] By summoning a unicorn or actively using this skill, all Legion of Glory allies on the battlefield will have their offensive and defensive capabilities greatly improved, and the damage dealt during battle will be increased by 15%. When entering battle, they will restore HP to the ally with the lowest HP after the battle. The amount of HP restored is 2x of the caster's INT, lasting 4 rounds. (This effect cannot be combined with other Fusion Power skills).<br><br><b>(Holy class):</b> [Active] Power up the Shining Unicorn (if the Unicorn doesn't exist, it will be summoned first) so that it can gain [Brilliant Grace and Merciful Rain]: 'At the end of the action, restore HP to the friendly unit with the lowest HP within 3 cells around once. Heal equals 2x caster's INT, dispels 1 debuff and applies 1 random strong buff, repeats again when you have a debuff, repeats again when you have more than 5 buffs,' lasts 1 round and restores the cooldown of all skills. Once used, this skill is replaced by [Benevolence], lasting 3 rounds.<br><b>(Mage class):</b> [Active] Strengthens the Holy Thunder Unicorn summoned by you (when the unicorn does not exist, it will be summoned first), enhance the following use of [Court of Holy Thunder]: The skill multiplier is increased by 1.5x; if the target is on the same line, this skill ignores guard. When the enemy is not killed, Brightsummoner can act again. Restores the cooldown of all his skills. Once used, this skill is replaced by [Benevolence], lasting 3 rounds."
+        "[Passive] By summoning a unicorn or actively using this skill, all Legion of Glory allies on the battlefield will have their offensive and defensive capabilities greatly improved, and the damage dealt during battle will be increased by 15%. When entering battle, they will restore HP to the ally with the lowest HP after the battle. The amount of HP restored is 2x of the caster's INT, lasting 4 rounds. (This effect cannot be combined with other Fusion Power skills).<br><br><b>(Holy class):</b> [Active] Power up the Shining Unicorn (if the Unicorn doesn't exist, it will be summoned first) so that it can gain [Brilliant Grace and Merciful Rain]: 'At the end of the action, restore HP to the friendly unit with the lowest HP within 3 cells around once. Heal equals 2x caster's INT, dispels 1 debuff and applies 1 random strong buff, repeats again when you have a debuff, repeats again when you have more than 5 buffs,' lasts 1 round and restores the cooldown of all skills. Once used, this skill is replaced by [Benevolence] (3C SR Chris with the passive part preserved), lasting 3 rounds.<br><b>(Mage class):</b> [Active] Strengthens the Holy Thunder Unicorn summoned by you (when the unicorn does not exist, it will be summoned first), enhance the following use of [Court of Holy Thunder]: The skill multiplier is increased by 1.5x; if the target is on the same line, this skill ignores guard. When the enemy is not killed, Brightsummoner can act again. Restores the cooldown of all his skills. Once used, this skill is replaced by [Benevolence] (3C SR Chris with the passive part preserved), lasting 3 rounds."
     ]
 ]
 
