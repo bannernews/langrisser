@@ -478,7 +478,7 @@ tal_pic.innerHTML += '<img src="images/heroes/talent/' + dataTable[hero_number][
 tal_pic.innerHTML += '<img src="images/hero_filter/range/' + dataTable[hero_number][2] + '.png" height="25px" />   ';
 
 var talant = document.getElementById('talant_text');
-talant.innerHTML = '<span style="display:inline-block;margin-bottom:10px;">Талант: <b>'+dataTable[hero_number][6]+'</b></span><br>'+dataTable[hero_number][7];
+talant.innerHTML = '<span style="display:inline-block;margin-bottom:10px;">Talent: <b>'+dataTable[hero_number][6]+'</b></span><br>'+dataTable[hero_number][7];
 
 
 if (dataTable[hero_number][8]==''){
