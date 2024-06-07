@@ -43707,6 +43707,9 @@ langu.href = "hero.html?name="+heroName;
 if (heroName == 'Метью'){
 	document.location.href = "work_en.html";
 }
+if (heroName == 'Яркий призыватель'){
+	document.location.href = "ChrisLLR_en.html";
+}
 var hero_number = heroList.indexOf(heroName)+1;  //Узнаем номер строки героя
 hero_en = heroList_en[hero_number-1];
 	var titleName = document.getElementById('title_name');
