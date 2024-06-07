@@ -223,3 +223,10 @@ body{
 	text-shadow: 0 0 10px #e4d3ba;
 	cursor:pointer;
 }
+
+#htreepic:hover{
+	border:1px solid black;
+}
+#untreepic:hover{
+	border:1px solid black;
+}
