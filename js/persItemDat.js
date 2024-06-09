@@ -1669,7 +1669,7 @@ var persItemDat = [
         "HP +5%. When casting skills on allies, also grant: \"ATK, INT +15%\" and \"MDEF +20%\". Lasts 2 turns."
     ],
     [
-        "Странствующий дуэлянт",
+        "Странствующий Дуэлянт",
         "Wandering Dualist",
         "Одеяние дуэлянта",
         "Duelist's garb",
