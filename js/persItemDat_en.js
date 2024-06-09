@@ -1984,7 +1984,7 @@ var persItemDat = [
         "DEF +10%. When hero triggers an effect that prevents fatal damage, gain 1 random buff."
     ],
     [
-        "Странствующий дуэлянт",
+        "Странствующий Дуэлянт",
         "Wandering Dualist",
         "Одеяние дуэлянта",
         "Duelist's garb",
