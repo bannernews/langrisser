@@ -6937,13 +6937,13 @@ var dataTable = [
         ""
     ],
     [
-        "Повелительница ледяной бездны",
+        "Суверен ледяной бездны",
         "ИМП,МС,ГВ",
         "LLR",
         "",
         "",
         "",
-        "Queen of the Ice Abyss",
+        "Queen of the Frigid Abyss",
         "Damage dealt increased by (10%, 15%, 20%, 25%), unaffected by melee damage reduction.<br>At end, can deal 0.1x AoE magic damage to 2 allies and cast [Chain Whip]: attack abilities increase, cannot be dispelled, lasts 2 rounds. ([Cooldown Trigger] This effect requires an interval of (3, 3, 2, 2) rounds before it can trigger again)<br>After the hero initiates an attack and enters combat, casts [Bone Cold] on the enemy , to which cannot gain immunity and dispel: “When this effect is obtained again, the enemy receives [Freeze]; when fighting the Queen of the Frozen Abyss, all attributes except HP will be reduced by 20%”, lasts 2 rounds. When an enemy with [Bone Cold] dies, the cooldown of all skills is reduced by 2 turns.<br><br>[Chain Whip]: [Support] Deal 0.1x AoE magic damage to 2 allies and cast [Chain Whip] : \"Damage dealt, fixed damage, crit chance, crit damage, INT, ATK, SKILL increased by 10%\", cannot be dispelled, lasts 2 rounds. (Cooldown: - / Range: 5 blocks / Area: Single target)",
         "",
         "",
@@ -7608,7 +7608,7 @@ var dataTable = [
         "Т",
         "Sword of Holy Radiance",
         "INT increases by (10,13,16,20)%. After using a skill and performing an action, (10,13,16,20)% of the unit's HP is restored. <br><br>At the beginning of the battle, it takes on a different form depending on the hero's class type: <br><br>If the class type is [Saints], gains [Edge of Insight]: adds 10% INT to DEF. At the beginning of the battle, before the battle, removes 2 enemy buffs. <br><br>If the class type is [Mage], they receive [Punishing Light]: when using the skill, the unit's range of action increases +2. After an active attack and dealing damage, applies 2 random debuffs to the enemy. <br><br>([Edge of Insight] and [Punishing Light] ignore immunity and cannot be dispelled.)",
-        "Global - 23.05.2024",
+        "Clanderstine Dawn",
         "броня",
         "34",
         "",
@@ -18268,7 +18268,7 @@ var classStats = [
         ""
     ],
     [
-        "Повелительница ледяной бездны",
+        "Суверен ледяной бездны",
         "",
         "cavalry_LLR",
         "4523",
@@ -18286,7 +18286,7 @@ var classStats = [
         "A"
     ],
     [
-        "Повелительница ледяной бездныи",
+        "Суверен ледяной бездныи",
         "",
         "fly_LLR",
         "4204",
@@ -18675,7 +18675,7 @@ var heroList = [
             "Патриция",
             "Патцир",
             "Пиротесс",
-			"Повелительница ледяной бездны",
+			"Суверен ледяной бездны",
             "Полиал",
             "Преция",
             "Пробужденная",
@@ -27179,7 +27179,7 @@ var persSkills = [
         "[Passive] At the end of the duration, if you have 3 or more types of [Aggressive Evolution], the cooldown of all skills will be reduced by 1 turn.<br><br>[Physical Damage] Attacks one enemy, dealing 1.8x damage. Before battle, damage dealt to the enemy increases by 20%. Cannot be dispelled and lasts 2 rounds. Melee soldiers will attack at the same time. (This skill is not affected by melee damage reduction)"
     ],
     [
-        "Повелительница ледяной бездны",
+        "Суверен ледяной бездны",
         "",
         "",
         "",
@@ -27189,8 +27189,8 @@ var persSkills = [
         ""
     ],
     [
-        "Extreme Ice Chain",
-        "Экстремальная ледяная цепь",
+        "Gracial Shackles",
+        "Ледяные кандалы",
         "1",
         "1",
         "4",
@@ -27199,8 +27199,8 @@ var persSkills = [
         "[Magic Damage] Deals 0.1x AoE damage to a single target and can cause 1 [Displacement] effect: <br> Transcendence: Pull yourself towards the target (movement while moving is treated as flying);<br> Pull: Pull the target towards you .<br> After use, the number of buff rounds will not be reduced. Can move another 3 cells and attack again."
     ],
     [
-        "Lin Yu",
-        "Лин Юй",
+        "Icebound Vice",
+        "Ледяной порок",
         "2",
         "1",
         "2",
@@ -27209,14 +27209,14 @@ var persSkills = [
         "[Magic Damage] Attacks one enemy, dealing 1.6x damage. If the target has [Bone Cold], the hero attacks before the enemy in this battle. If there are melee soldiers, they will also attack. When an enemy is successfully destroyed, cast [Bone Cold] on two nearby enemies."
     ],
     [
-        "Power over the Icy Abyss",
-        "Власть над ледяной бездной",
+        "Might of the Frigid Abyss",
+        "Мощь ледяной бездны",
         "3",
         "1",
         "6",
         "line",
         "4",
-        "[Passive] Immune to damage dealt to you when using [Chain Whip]. After use, your own ATK and INT will increase by 20% for 2 turns. <br><br>[Magic Damage] Attacks all enemies in 3 straight lines, dealing 0.3x AoE damage, and teleports itself and allies with [Chain Whip] in 3 surrounding cells to the cell with the longest range of the skill. At the same time, a special effect [Icicle] is randomly applied to an empty space in the path for 1 round: “After an enemy unit passes through, at the end of the action they will receive [fixed damage] equal to 1.5x the caster’s INT, they cannot be immune to him and receives [Bone Cold]; enemy non-flying units moving through it consume an additional 1 movement point.\" After use, the skill is replaced by [Ice Prison of the Cold Abyss]<br><br>Cooldown: - / Range: self / Area: 3 cells<br><br>[Passive] Immune to damage dealt to you when using [Chain Whip] ]. After use, own ATK and INT increase by 20%, lasting 2 rounds.<br><br>[Magic Damage] Deals 0.36x AoE damage to all enemies within a 3 block radius around itself and applies a special effect [Icicle] for 1 round on the edge skill range: “After an enemy unit passes through, at the end of the action they will take [Fixed Damage] equal to 1.5x the caster's INT, they cannot be immune to it and gain [Bone Cold]; enemy non-flying units moving through it consume an additional 1 movement point.\" After use, gains the [Cold Abyss Ice Prison] effect: \"[Command] Enemies within 3 blocks around will not be able to trigger the effect of the second action\", which lasts 2 rounds. After use, the skill is replaced with [Power over the Icy Abyss]."
+        "[Passive] Immune to damage dealt to you when using [Chain Whip]. After use, your own ATK and INT will increase by 20% for 2 turns. <br><br>[Magic Damage] Attacks all enemies in 3 straight lines, dealing 0.3x AoE damage, and teleports itself and allies with [Chain Whip] in 3 surrounding cells to the cell with the longest range of the skill. At the same time, a special effect [Icicle] is randomly applied to an empty space in the path for 1 round: “After an enemy unit passes through, at the end of the action they will receive [fixed damage] equal to 1.5x the caster’s INT, they cannot be immune to him and receives [Bone Cold]; enemy non-flying units moving through it consume an additional 1 movement point.\" After use, the skill is replaced by [Abyssal Ice Prison]<br><br>Cooldown: - / Range: self / Area: 3 cells<br><br>[Passive] Immune to damage dealt to you when using [Chain Whip] ]. After use, own ATK and INT increase by 20%, lasting 2 rounds.<br><br>[Magic Damage] Deals 0.36x AoE damage to all enemies within a 3 block radius around itself and applies a special effect [Icicle] for 1 round on the edge skill range: “After an enemy unit passes through, at the end of the action they will take [Fixed Damage] equal to 1.5x the caster's INT, they cannot be immune to it and gain [Bone Cold]; enemy non-flying units moving through it consume an additional 1 movement point.\" After use, gains the [Abyssal Ice Prison] effect: \"[Command] Enemies within 3 blocks around will not be able to trigger the effect of the second action\", which lasts 2 rounds. After use, the skill is replaced with [Might of the Frigid Abyss]."
     ],
 	[
         "Табрис",
@@ -31409,7 +31409,7 @@ var builds = [
         "Конный лучник эльфов,Темный эльф-снайпер,Безликий,Шиноби"
     ],
 	[
-        "Повелительница ледяной бездны",
+        "Суверен ледяной бездны",
         "Магия,Бриз",
         "3",
         "4",
@@ -32993,7 +32993,7 @@ var confession = [
         ""
     ],
 	[
-        "Повелительница ледяной бездны",
+        "Суверен ледяной бездны",
         ""
     ],
     [
@@ -34660,7 +34660,7 @@ var startB = [
         ""
     ],
     [
-        "Повелительница ледяной Бездны",
+        "Суверен ледяной Бездны",
         "",
         "",
         "",
@@ -36783,7 +36783,7 @@ var basicB = [
         ""
     ],
     [
-        "Повелительница ледяной Бездны",
+        "Суверен ледяной Бездны",
         "",
         "",
         "",
@@ -39450,7 +39450,7 @@ var pveB = [
         ""
     ],
     [
-        "Повелительница ледяной Бездны",
+        "Суверен ледяной Бездны",
         "",
         "",
         "",
@@ -42557,7 +42557,7 @@ var pvpB = [
         ""
     ],
     [
-        "Повелительница ледяной Бездны",
+        "Суверен ледяной Бездны",
         "",
         "",
         "",
