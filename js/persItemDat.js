@@ -1401,7 +1401,7 @@ var persItemDat = [
     [
         "Полиал",
         "Polyal",
-        "Глобал - 29.02.2024",
+        "Шепот духа предков",
         "Whispers of the Ancestral Spirit",
         "hat",
         "583",
@@ -1416,7 +1416,7 @@ var persItemDat = [
     [
         "Преция",
         "Precia",
-        "Глобал - 25.04.2024",
+        "Край времен года",
         "Edge of the Seasons",
         "weapon",
         "364",
@@ -1425,8 +1425,8 @@ var persItemDat = [
         "",
         "",
         "",
-        "АТК +10%. [Поток времени] дополнительно снижает КД на 1. [Хроно-брейк] больше не имеет КД. Наносимый урон увеличивается на 5% за каждый навык, который находится не в перезарядке.",
-        "ATK +10%. [Time Flux] additionally reduces CD by 1. [Chrono Break] no longer has CD. Damage dealt increases by 5% for each skill that is not on cooldown."
+        "АТК +10%. [Поток времени] дополнительно снижает все [перезарядки триггеров] на 1. [Хроно-брейк] больше не имеет КД. Наносимый урон увеличивается на 5% за каждый навык, который находится не в перезарядке.",
+        "ATK +10%. [Time Flux] additionally reduces all triggers CD by 1. [Chrono Break] no longer has CD. Damage dealt increases by 5% for each skill that is not on cooldown."
     ],
     [
         "Рейнфорс",
@@ -1506,7 +1506,7 @@ var persItemDat = [
     [
         "Роланд",
         "Roland",
-        "Глобал - 23.05.2024",
+        "Тайный рассвет",
         "Global - 23.05.2024",
         "body",
         "583",
@@ -1761,7 +1761,7 @@ var persItemDat = [
     [
         "Тормил",
         "Tourmilque",
-        "Глобал 25.04.2024",
+        "Тихая исповедь",
         "Silent Confession",
         "body",
         "364",
