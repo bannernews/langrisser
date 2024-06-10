@@ -7055,7 +7055,7 @@ var dataTable = [
         "",
         "",
         "",
-        "ATK +10%. [Time Flux] additionally reduces CD by 1. [Chrono Break] no longer has CD. Damage dealt increases by 5% for each skill that is not on cooldown.",
+        "ATK +10%. [Time Flux] additionally reduces all triggers CD by 1. [Chrono Break] no longer has CD. Damage dealt increases by 5% for each skill that is not on cooldown.",
         "",
         "30",
         "40",
