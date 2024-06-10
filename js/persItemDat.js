@@ -1221,7 +1221,7 @@ var persItemDat = [
     [
         "Меч Света и Тьмы",
         "Sword of Light and Shadow",
-        "Глобал - 29.02.2024",
+        "Переплетенный желания",
         "Intertwined Wishes",
         "body",
         "437",
