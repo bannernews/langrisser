@@ -549,7 +549,7 @@ var itemDat = [
         "All attributes +5%. At the end of the action, if the hero has not dealt any damage, there is a 100% chance to gain +2 mobility. Lasts 1 round. (If there is already another mobility boost, gives Mobility +3)"
     ],
     [
-        "Акс2",
+        "Лазурная брошь-бабочка",
         "---",
         "accessoir",
         "",
@@ -1030,7 +1030,7 @@ var itemDat = [
         "MDEF +8%, DEF +8%."
     ],
     [
-        "Броня2",
+        "Тайная дань",
         "---",
         "body",
         "583",
@@ -1498,7 +1498,7 @@ var itemDat = [
         "HP +10%. After taking action, grants 1 friendly unit near you (not including this unit) 20% extra MDEF and negates stun, buff block and speed decrease effects for 1 turn."
     ],
     [
-        "Шлем2",
+        "Тень ночной совы",
         "---",
         "hat",
         "437",
@@ -2200,7 +2200,7 @@ var itemDat = [
         "DEF +10%. In battle, ignores 15% of enemy's DEF."
     ],
     [
-        "Оружие2",
+        "Звездный пронзитель",
         "---",
         "weapon",
         "",
