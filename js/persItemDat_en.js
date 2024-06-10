@@ -1581,8 +1581,8 @@ var persItemDat = [
     [
         "Роланд",
         "Roland",
-        "Глобал - 23.05.2024",
-        "Global - 23.05.2024",
+        "23.05.2024",
+        "Clandestine Dawn",
         "body",
         "583",
         "",
