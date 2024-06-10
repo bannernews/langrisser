@@ -550,7 +550,7 @@ var itemDat = [
     ],
     [
         "Лазурная брошь-бабочка",
-        "---",
+        "Cerulean Butterfly Brooch",
         "accessoir",
         "",
         "",
@@ -1031,7 +1031,7 @@ var itemDat = [
     ],
     [
         "Тайная дань",
-        "---",
+        "Arcane Tribute",
         "body",
         "583",
         "",
@@ -1499,7 +1499,7 @@ var itemDat = [
     ],
     [
         "Тень ночной совы",
-        "---",
+        "Shadow of the Night Owl",
         "hat",
         "437",
         "",
@@ -2201,7 +2201,7 @@ var itemDat = [
     ],
     [
         "Звездный пронзитель",
-        "---",
+        "Starstrung Impaler",
         "weapon",
         "",
         "107",
