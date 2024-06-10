@@ -1516,7 +1516,7 @@ var persItemDat = [
         "",
         "",
         "АТК +10%. [Поток времени] дополнительно снижает КД на 1. [Хроно-брейк] больше не имеет КД. Наносимый урон увеличивается на 5% за каждый навык, который находится не в перезарядке.",
-        "ATK +10%. [Time Flux] additionally reduces CD by 1. [Chrono Break] no longer has CD. Damage dealt increases by 5% for each skill that is not on cooldown."
+        "ATK +10%. [Time Flux] additionally reduces all triggers CD by 1. [Chrono Break] no longer has CD. Damage dealt increases by 5% for each skill that is not on cooldown."
     ],
     [
         "Рэйчел",
