@@ -18889,7 +18889,7 @@ var heroList_en = [
 	"Patricia",
 	"Patsyr",
 	"Pirotess",
-	"Queen of the Frozen Abyss",
+	"Sovereign of the Ice Abyss",
 	"Polyal",
 	"Precia",
 	"Awakened One",
