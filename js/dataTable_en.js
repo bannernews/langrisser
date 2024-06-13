@@ -26666,7 +26666,7 @@ var persSkills = [
         "2",
         "3",
         "7",
-        "[Passive] In battle with holy units, ATK, DEF and MDEF increase by 15% (by 60% if the hero type is demon). [Phys. damage] Deals 0.15x AoE damage to all enemies within 3 squares of the target and summons \"Shadow of Alhazard\". Also increases the unit's ATK by 20% and gives [Immunity]. Lasts 2 turns. After use, the unit can move another 3 cells and attack again."
+        "[Passive] In battle with holy units, ATK, DEF and MDEF increase by 15% (by 60% if the hero type is demon). <br>[Phys. damage] Deals 0.15x AoE damage to all enemies within 3 squares of the target and summons \"Shadow of Alhazard\". Also increases the unit's ATK by 20% and gives [Immunity]. Lasts 2 turns. After use, the unit can move another 3 cells and attack again."
     ],
     [
         "Юлия",
