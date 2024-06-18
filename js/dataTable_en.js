@@ -27657,7 +27657,7 @@ var persSkills = [
         ""
     ],
 	[
-        "When attacked with a ranged attack, the damage is increased by 10% after entering combat.",
+        "Glory to the Divine Sword",
         "Слава божественному мечу",
         "2",
         "2",
@@ -28846,7 +28846,7 @@ var commonSkills = [
         "-",
         "-",
         "-",
-        "[Passive] Before battle, has a 50% chance to reduce the enemy's DEF by 25%. Lasts 1 turn.",
+        "[Passive] Before battle, has a 50% chance to reduce the enemy's DEF by 20%. Lasts 1 turn.",
         "DEF Break"
     ],
     [
