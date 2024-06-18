@@ -10765,7 +10765,7 @@ var dataTable = [
         "Юная Джессика",
         "ЛС,ИС,ТАИР",
         "SSR",
-        "",
+        "forge",
         "",
         "М1",
         "Avatar of the Goddess",
