@@ -32870,7 +32870,7 @@ var confession = [
     ],
 	[
         "Суверен ледяной бездны",
-        ""
+        "https://drive.google.com/file/d/14sZ5w6V8PcBUsxMFcOkqmOWRUD7gI9Yh/view?usp=sharing"
     ],
     [
         "Полиал",
