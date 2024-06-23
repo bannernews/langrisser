@@ -13830,8 +13830,8 @@ var classStats = [
         "полет",
         "When attacking and entering battle, the damage taken by unit is reduced by 10%.​",
         "When actively attacking and entering battle, damage dealt increases by 10%.",
-        "B",
-        "B"
+        "C",
+        "C"
     ],
     [
         "Крис",
