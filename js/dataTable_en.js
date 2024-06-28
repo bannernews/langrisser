@@ -25834,7 +25834,7 @@ var persSkills = [
         "",
         "",
         "",
-        "[Passive] When an enemy dies, gains 1 [Battle Strategy] and increases all stats (except HP) of all allied units by 2%. (Cannot be removed and is not immune to it. Can increase stats by up to 10%.)"
+        "[Passive] When an enemy dies, gains 1 [Battle Strategy] and increases all stats (except HP) of all soldiers of allied units by 2%. (Cannot be removed and is not immune to it. Can increase stats by up to 10%.)"
     ],
     [
         "Chaotic Strategy",
