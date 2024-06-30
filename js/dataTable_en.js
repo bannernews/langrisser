@@ -25494,7 +25494,7 @@ var persSkills = [
         "3",
         "one target",
         "3",
-        "[Passive] At the beginning of the battle, you cannot kill with a lethal attack. Can work once per battle. If there is an enemy with [Evil Awareness] within 3 blocks, takes 15% less damage. <br><br>[Physical Damage] Critical hit chance increases by 30%. Attacks one enemy, dealing damage that ignores guard. When the hero has ranged soldiers, they will also attack. The damage multiplier is equivalent to the maximum target damage multiplier for single target skills (minimum 1.3x, maximum 2x). After the battle, restores HP by an amount equal to 30% of the damage dealt."
+        "[Passive] When initiating battle, cannot be killed by deadly attacks. Can trigger once per battle. If there is an enemy with [Evil Awareness] within 3 blocks, takes 15% less damage. <br><br>[Physical Damage] Critical hit chance increases by 30%. Attacks one enemy, dealing damage that ignores guard. When the hero has ranged soldiers, they will also attack. The damage multiplier is equivalent to the maximum target damage multiplier for single target skills (minimum 1.3x, maximum 2x). After the battle, restores HP by an amount equal to 30% of the damage dealt."
     ],
     [
         "Теон",
