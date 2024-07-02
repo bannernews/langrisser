@@ -22434,7 +22434,7 @@ var persSkills = [
         "",
         "",
         "",
-        "[Passive] When there are at least 3 units on the battlefield, gain the \"Command\" effect, causing allied units within a 2 cell radius to take 20% less damage from ranged attacks and reducing their chance of receiving critical damage by 10%. When there are at least 2 female units on the battlefield, receives the “Command” effect, causing allied units within a 2-cell radius to take 15% less magic damage."
+        "[Passive] When there are at least 3 units on the battlefield, gain the \"Command\" effect, causing allied units within a 2 cell radius to take 10% less damage from ranged attacks and reducing their chance of receiving critical damage by 20%. When there are at least 2 female units on the battlefield, receives the “Command” effect, causing allied units within a 2-cell radius to take 15% less magic damage."
     ],
     [
         "Lady of the Flowers",
