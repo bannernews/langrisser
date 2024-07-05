@@ -3885,7 +3885,7 @@ var dataTable = [
         "М3",
         "Sea Route Explorer",
         "When there is an ally within 3 cells, ATK +(15, 20, 25, 30)%. After the end of the action, you can select 1 cell and apply the [Journey Destination] effect: \"This cell has [command]: Allies who ended the action within a radius of 2 cells restore 15% HP. All no [fly] allies passing within a radius of 2 cells around the cell have 1 chance to remove the reduction mobility. Lasts 1 turn.\" <br><br>After use, you need to wait (3, 2, 2, 1) round to use it again.",
-        "Global - 27.06.2024",
+        "Black Cat Captain's Hat",
         "шапка",
         "25",
         "",
@@ -8779,8 +8779,8 @@ var dataTable = [
         "",
         "",
         "T",
-        "Darkwing Rebel",
-        "ATK and DEF increases by (10, 15, 20, 25)%.<br><br>After actively dealing damage, applies (1,1,2,2) stacks of [Dark Feathers] to the enemy for 3 turns. (Can be stacked up to 3 times, with each cast the duration of all [Dark Feathers] on the target will be updated).<br><br>If the enemy has 1 stack of [Dark Feather], the damage received when fighting Tabres will be increased by 20%.<br>When an enemy has 2 stacks of [Dark Feather], they can be targeted by Tabres skills within the entire field, after which Tabres will teleport to an empty space near the target and cast skills on the target.<br>When the opponent has 3 stacks of [Dark Feather], he cannot counterattack when attacked by Tabres.",
+        "Dark Wings of Determination",
+        "ATK and DEF increases by (10, 15, 20, 25)%.<br><br>After actively dealing damage, applies (1,1,2,2) stacks of [Shadow Feathers] to the enemy for 3 turns. (Can be stacked up to 3 times, with each cast the duration of all [Shadow Feathers] on the target will be updated).<br><br>If the enemy has 1 stack of [Shadow Feather], the damage received when fighting Tabres will be increased by 20%.<br>When an enemy has 2 stacks of [Shadow Feather], they can be targeted by Tabres skills within the entire field, after which Tabres will teleport to an empty space near the target and cast skills on the target.<br>When the opponent has 3 stacks of [Shadow Feather], he cannot counterattack when attacked by Tabres.",
         "",
         "",
         "",
@@ -9034,8 +9034,8 @@ var dataTable = [
         "",
         "",
         "Т",
-        "First King's Decision",
-        "Damage taken is reduced by (10%, 15%, 20%, 25%).<br><br>At the end of the action, select an enemy and cast [Seal of Dominance]: \"Enemy attacks later during combat.\" Cannot be immunized and cannot be dispelled. Lasts 3 turns. ([Trigger Cooldown] This effect requires an interval of 2 turns to trigger again.) When an enemy with [Sorrow of Domination] is within 3 squares around Tyrantel, ATK and DEF are reduced by (10%, 13%, 16%, 20%).<br><br>Upon death, the [Imperial Will] unit appears on the death cell. Can choose to cast [Echo of Battle Will] on an unsummoned ally, allowing them to gain all of [Tyrantel's] abilities and act immediately. (This effect can only trigger once per battle.)<br><br>[Imperial Will] inherits 100% of its attributes and is considered a summoned object with independent action rounds.<br>[Echo of Battle Will] Choose unsummon ally unit within 7 cells, the target must be the player's unit, and it doesn't matter if they have already taken any actions.",
+        "The First King's Resolve",
+        "Damage taken is reduced by (10%, 15%, 20%, 25%).<br><br>At the end of the action, select an enemy and cast [Seal of Supremacy]: \"Enemy attacks later during combat.\" Cannot be immunized and cannot be dispelled. Lasts 3 turns. ([Trigger Cooldown] This effect requires an interval of 2 turns to trigger again.) When an enemy with [Seal of Supremacy] is within 3 squares around Tyrantel, ATK and DEF are reduced by (10%, 13%, 16%, 20%).<br><br>Upon death, the [Imperial Will] unit appears on the death cell. Can choose to cast [Battle Echo] on an unsummoned ally, allowing them to gain all of [Tyrantel]'s abilities and act immediately. (This effect can only trigger once per battle.)<br><br>[Imperial Will] inherits 100% of its attributes and is considered a summoned object with independent action rounds.<br>[Battle Echo] Choose unsummon ally unit within 7 cells, the target must be the player's unit, and it doesn't matter if they have already taken any actions.",
         "",
         "",
         "",
@@ -27397,7 +27397,7 @@ var persSkills = [
         "[Passive] Immune to damage dealt to you when using [Chain Whip]. After use, your own ATK and INT will increase by 20% for 2 turns. <br><br>[Magic Damage] Attacks all enemies in 3 straight lines, dealing 0.3x AoE damage, and teleports itself and allies with [Chain Whip] in 3 surrounding cells to the cell with the longest range of the skill. At the same time, a special effect [Icicle] is randomly applied to an empty space in the path for 1 round: “After an enemy unit passes through, at the end of the action they will receive [fixed damage] equal to 1.5x the caster’s INT, they cannot be immune to him and receives [Bone Cold]; enemy non-flying units moving through it consume an additional 1 movement point.\" After use, the skill is replaced by [Abyssal Ice Prison]<br><br>Cooldown: - / Range: self / Area: 3 cells<br><br>[Passive] Immune to damage dealt to you when using [Chain Whip] ]. After use, own ATK and INT increase by 20%, lasting 2 rounds.<br><br>[Magic Damage] Deals 0.36x AoE damage to all enemies within a 3 block radius around itself and applies a special effect [Icicle] for 1 round on the edge skill range: “After an enemy unit passes through, at the end of the action they will take [Fixed Damage] equal to 1.5x the caster's INT, they cannot be immune to it and gain [Bone Cold]; enemy non-flying units moving through it consume an additional 1 movement point.\" After use, gains the [Abyssal Ice Prison] effect: \"[Command] Enemies within 3 blocks around will not be able to trigger the effect of the second action\", which lasts 2 rounds. After use, the skill is replaced with [Might of the Frigid Abyss]."
     ],
 	[
-        "Табрис",
+        "Табрес",
         "",
         "",
         "",
@@ -27407,34 +27407,34 @@ var persSkills = [
         ""
     ],
 	[
-        "Shadow highlighting",
-        "Подсветка тени",
+        "Eclipsing Shadows",
+        "Затмевающие тени",
         "1",
         "7",
         "3",
         "one target",
         "4",
-        "[Active] Actively used. Gives one ally the effect “After an active attack deals damage, apply 1 stack of [Dark Feather] to the enemy”, which lasts for 2 turns; after this, Tabres additionally gains [Shadow Illumination]: \"If a unit's HP is 80% or higher, it cannot be targeted by attacks and skills,\" lasts 2 rounds."
+        "[Active] Actively used. Gives one ally the effect “After an active attack deals damage, apply 1 stack of [Shadow Feather] to the enemy”, which lasts for 2 turns; after this, Tabres additionally gains [Eclipsing Shadows]: \"If a unit's HP is 80% or higher, it cannot be targeted by attacks and skills,\" lasts 2 rounds."
     ],
 	[
-        "Hidden ambitions",
-        "Скрытые амбиции",
+        "Ambition's Edge",
+        "Клинок амбиции",
         "2",
         "2",
         "1",
         "one target",
         "3",
-        "[Physical Damage] Attacks one enemy, dealing 1.6x damage. When there are fewer allies on the battlefield (excluding non-player units and summons) than the enemy, this attack ignores guards. If the target has at least 2 stacks of [Dark Feathers], this attack will directly damage the hero.<br>If you successfully destroy an enemy, the number of buff turns will not be reduced (this effect only applies in PvP mode)."
+        "[Physical Damage] Attacks one enemy, dealing 1.6x damage. When there are fewer allies on the battlefield (excluding non-player units and summons) than the enemy, this attack ignores guards. If the target has at least 2 stacks of [Shadow Feathers], this attack will directly damage the hero.<br>If you successfully destroy an enemy, the number of buff turns will not be reduced (this effect only applies in PvP mode)."
     ],
 	[
-        "Dawn of the Heavy Dawn",
-        "Рассвет тяжелой зари",
+        "Dawnlight Rebirth",
+        "Возрождение Бастиона надежды",
         "3",
         "2",
         "2",
         "3",
         "5",
-        "[Passive] When an ally dies, the source of damage gains 2 stacks of [Dark Feathers].<br><br>[Physical Damage] Deals 0.15x AoE damage to enemies within a 3 cell radius and restores 30% of the maximum HP of all allies in the radius. After this, she receives [Dawn of Heavy Light]: “Before entering combat, deals damage in a radius of 1 ring around itself. \"Deals 0.1x AoE damage to all enemies\", cannot be dispelled and lasts 2 turns. After use, can move another 3 cells and attack again."
+        "[Passive] When an ally dies, the source of damage gains 2 stacks of [Shadow Feathers].<br><br>[Physical Damage] Deals 0.15x AoE damage to enemies within a 3 cell radius and restores 30% of the maximum HP of all allies in the radius. After this, she receives [Dawnlight Rebirth]: “Before entering combat, deals damage in a radius of 1 ring around itself. \"Deals 0.1x AoE damage to all enemies\", cannot be dispelled and lasts 2 turns. After use, can move another 3 cells and attack again."
     ],
 	[
         "Тирантир",
@@ -27447,18 +27447,18 @@ var persSkills = [
         ""
     ],
 	[
-        "The Greatness of the King",
-        "Величие короля",
+        "Sovereign Majesty",
+        "Величие повелителя",
         "1",
         "5",
         "",
         "",
         "",
-        "[Passive] Damage dealt by normal attacks is increased by 20%. When actively attacking and entering battle, if your own ATK is higher than that of the enemy, the enemy's ATK and INT in this battle will be reduced by 15%."
+        "[Passive] Damage dealt by normal attacks is increased by 20%. When attacked and forced into battle, if your own ATK is higher than that of the enemy, the enemy's ATK and INT in this battle will be reduced by 15%."
     ],
 	[
-        "Throne of the Lord",
-        "Трон Повелителя",
+        "Tyrant's Throne",
+        "Трон тирана",
         "2",
         "7",
         "on self",
@@ -27467,8 +27467,8 @@ var persSkills = [
         "[Passive] Enters battle instead of nearby allies.<br>[Active] Adds 15% ATK to DEF and MDEF. Can counterattack attacks from 2 cells and cannot be dispelled. Guard range is increased to 2 cells, and damage taken is reduced by 15% for 2 rounds."
     ],
 	[
-        "Determined Judgment",
-        "Предначертанный приговор",
+        "Fate's Decree",
+        "Указ судьбы",
         "2",
         "2",
         "1",
@@ -27477,14 +27477,14 @@ var persSkills = [
         "[Passive] Damage dealt increases, the increased value is equivalent to the talent's damage reduction effect.<br><br>[Physical Damage] Attacks one enemy, dealing 1.5x damage. Damage received in this battle is reduced by 15%. After the battle, HP will be restored by 30% of the damage dealt by the unit."
     ],
 	[
-        "Oath of Watch",
-        "Клятва дозора",
+        "Oath of Vigilance",
+        "Клятва бдительности",
         "3",
         "7",
         "on self",
         "one target",
         "",
-        "[Passive] Enters battle instead of nearby allies. Immunity to displacement effects, immunity to “fixed damage”.<br><br>[Active] Adds 15% ATK to DEF and MDEF. Can counter ranged attacks from 2 cells, cannot be dispelled. Guard range increased to 2 cells, and offensive and defensive capabilities greatly improved, lasts 4 rounds. After use, the skill is replaced with [Destruction of lies], which lasts 3 rounds. If you are affected by [Echo of Battle Will], the number of buff rounds will not be reduced, and can move another 3 squares and attack again.<br><br>[Destruction of lies]<br>Cooldown: 5 turns / Range: 1 cell / Area: one target<br><br>[Passive] Enters battle instead of nearby allies. Immunity to displacement effects, immunity to “fixed damage”.<br><br>[Physical Damage] Attacks one enemy, dealing 1.8x damage, and dispels 5 buffs before battle. When the number of other allies on the field is less than or equal to 2, the damage dealt to the enemy with [Seal of Dominance] is increased by 20%. If the enemy is successfully destroyed, the cooldown of the skill is reset."
+        "[Passive] Enters battle instead of nearby allies. Immunity to displacement effects, immunity to “fixed damage”.<br><br>[Active] Adds 15% ATK to DEF and MDEF. Can counter ranged attacks from 2 cells, cannot be dispelled. Guard range increased to 2 cells, and offensive and defensive capabilities greatly improved, lasts 4 rounds. After use, the skill is replaced with [Illusion's Fall], which lasts 3 rounds. If you are affected by [Battle Echo], the number of buff rounds will not be reduced, and can move another 3 squares and attack again.<br><br>[Illusion's Fall]<br>Cooldown: 5 turns / Range: 1 cell / Area: one target<br><br>[Passive] Enters battle instead of nearby allies. Immunity to displacement effects, immunity to “fixed damage”.<br><br>[Physical Damage] Attacks one enemy, dealing 1.8x damage, and dispels 5 buffs before battle. When the number of other allies on the field is less than or equal to 2, the damage dealt to the enemy with [Seal of Supremacy] is increased by 20%. If the enemy is successfully destroyed, the trigger cooldown of the talent is reset."
     ],
 	[
         "Селика",
