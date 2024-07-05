@@ -322,7 +322,7 @@ var persItemDat = [
         "Капитан Джек",
         "Captain Mack",
         "Глобал - 27.06.2024",
-        "Global - 27.06.2024",
+        "Black Cat Captain's Hat",
         "hat",
         "437",
         "",
