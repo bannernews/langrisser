@@ -308,6 +308,15 @@ var heroesDat = [
         "",
         ""
     ],
+	[
+        "Капитан Коммандо и Гений-малыш",
+        "Captain Commando and Baby Genius",
+        "ГГ,МС,ГВ,М",
+        "SSR",
+        "",
+        "",
+        ""
+    ],
     [
         "Капитан Джек",
         "Captain Jack",
@@ -610,7 +619,7 @@ var heroesDat = [
         "Grenshiel",
         "ИС,АП,МС,ФБ,Ж",
         "SSR",
-        "",
+        "forge",
         "",
         "М3"
     ],
@@ -628,7 +637,7 @@ var heroesDat = [
         "Gustaf",
         "ТР,ТАИР,РЕ,Ж",
         "SSR",
-        "",
+        "forge",
         "",
         "РЕИ"
     ],
@@ -637,7 +646,7 @@ var heroesDat = [
         "Hein",
         "ЛС,ИМП,М",
         "SR",
-        "",
+        "forge",
         "SP",
         "Л13"
     ],
@@ -881,6 +890,15 @@ var heroesDat = [
         "АП,ГЙ,ГВ,Ж",
         "SR",
         "forge",
+        "",
+        ""
+    ],
+	[
+        "Нож Марк и Ниндзя Гиндзу",
+        "Knife Mark and Ninja Ginzu",
+        "ГГ,МУ,ГВ,М",
+        "SSR",
+        "",
         "",
         ""
     ],
@@ -1267,7 +1285,7 @@ var heroesDat = [
         "Olivier",
         "ИМП,МС,ГВ,М",
         "SR",
-        "",
+        "forge",
         "",
         ""
     ],
@@ -1955,7 +1973,8 @@ function heroesView () {
 			} else {f2 = "her";}
 		hreff = ('hero_en.html?name='+ heroesDat[i][0]).replace(/ /g,"%20");
 		
-		sd.innerHTML += '<div description="' + heroesDat[i][0] + '" class="' + f2 + ' ' + heroesDat[i][3] + ' ' + heroesDat[i][4] + ' ' + heroesDat[i][5] + ' ' + heroesDat[i][6] + '" style="display:block;height:135px;width:109px;float:left;"><div class="imgglow" style="display:block;"><a href ="'+hreff+'"><img height="100px" src="images/head/' + heroesDat[i][0] + '.png" title="' + heroesDat[i][1] + '"></a></div><div style="white-space:normal;font-size:12px;width:95px;text-align:center;margin-top:-5px;">' + heroesDat[i][1] + '</div></div>';
+		if(heroesDat[i][0]=='Капитан Коммандо и Гений-малыш'){f = 'font-size:9px;'}else{f = 'font-size:12px;'}
+		sd.innerHTML += '<div description="' + heroesDat[i][0] + '" class="' + f2 + ' ' + heroesDat[i][3] + ' ' + heroesDat[i][4] + ' ' + heroesDat[i][5] + ' ' + heroesDat[i][6] + '" style="display:block;height:135px;width:109px;float:left;"><div class="imgglow" style="display:block;"><a href ="'+hreff+'"><img height="100px" src="images/head/' + heroesDat[i][0] + '.png" title="' + heroesDat[i][1] + '"></a></div><div style="white-space:normal;'+f+'width:95px;text-align:center;margin-top:-5px;">' + heroesDat[i][1] + '</div></div>';
 //		}
 	}
 }

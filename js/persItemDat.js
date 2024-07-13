@@ -1383,6 +1383,21 @@ var persItemDat = [
         "ОЗ +10%. Дальность обычной атаки +1. После инициирования боя накладывает «слепящий свет» на цель и цели в радиусе 1 блока. Длится 1 ход.",
         "HP +10%. Unit's normal attack range+1. After actively attacking in battle, create [Dazzling Light] terrain on the tile the target is on, as well as tiles within 1 block. Lasts 1 turn."
     ],
+	[
+        "Патриция",
+        "Patricia",
+        "Глобал - 14.11.2024",
+        "Global - 14.11.2024",
+        "weapon",
+        "437",
+        "",
+        "107",
+        "",
+        "",
+        "",
+        "ИНТ +10%. Продолжительность действия [Сжигающая душу чума] +1. После того как активно атакует врага, 100% шанс наложить еще 1 стак [Сжигающая душу чума].",
+        "INT +10%. Duration of [Soulburning Plague] +1. After actively attacking an enemy, there is a 100% chance to inflict 1 more stack of [Soulburning Plague]."
+    ],
     [
         "Патцир",
         "Patsyr",

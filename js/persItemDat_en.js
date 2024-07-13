@@ -1473,6 +1473,21 @@ var persItemDat = [
         "ОЗ +10%. Убийство врага с помощью активного навыка уменьшает КД этого навыка на 2 хода. После совершения действия получает «НАВЫК +20%» и мобильность +2 на 1 ход.",
         "HP +10%. After using a skill to defeat an enemy, CD-2 for that skill and gain 'Skill +20%' and 'Movement +2' for 1 turn."
     ],
+	[
+        "Патриция",
+        "Patricia",
+        "Глобал - 14.11.2024",
+        "Global - 14.11.2024",
+        "weapon",
+        "437",
+        "",
+        "107",
+        "",
+        "",
+        "",
+        "ИНТ +10%. Продолжительность действия [Сжигающая душу чума] +1. После того как активно атакует врага, 100% шанс наложить еще 1 стак [Сжигающая душу чума].",
+        "INT +10%. Duration of [Soulburning Plague] +1. After actively attacking an enemy, there is a 100% chance to inflict 1 more stack of [Soulburning Plague]."
+    ],
     [
         "Патцир",
         "Patsyr",
