@@ -1840,7 +1840,7 @@ var heroesDat = [
     ],
 	[
         "Вирелия",
-        "Vielia",
+        "Virelia",
         "ЛС,АП,ГЙ,Ж",
         "SSR",
         "",
