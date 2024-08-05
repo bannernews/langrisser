@@ -4751,7 +4751,7 @@ var dataTable = [
         "",
         "Л13",
         "Combat Mastery",
-        "In battles against aces and cavalry, ATK and DEF are increase by (10,15,20,25,30)%.",
+        "In battles against flyers and cavalry, ATK and DEF are increase by (10,15,20,25,30)%.",
         "Crown of Kalxath",
         "шапка",
         "34",
@@ -6791,7 +6791,7 @@ var dataTable = [
         "",
         "М2",
         "Guardian of the World",
-        "When an allied unit is within (1,2,2,3) squares, INT increases by (10,13,16,20)%. <br><br>Reducing melee damage does not affect the unit's attack. When a hero dies, removes all debuffs from allies within a radius of (3,4,4,5) cells. Also applies the [Blinding Light] effect to all affected squares for 4 turns: When enemy units with the movement types [Aces] or [Cavalry] or enemies who consider all traversable terrain to be plains step on such a square, they spend 1 additional mobility point. When allied units with the [Infantry] or [Swimmers] movement types step on such a square, they can move an additional 2 squares after the attack.",
+        "When an allied unit is within (1,2,2,3) squares, INT increases by (10,13,16,20)%. <br><br>Reducing melee damage does not affect the unit's attack. When a hero dies, removes all debuffs from allies within a radius of (3,4,4,5) cells. Also applies the [Blinding Light] effect to all affected squares for 4 turns: When enemy units with the movement types [Flyers] or [Cavalry] or enemies who consider all traversable terrain to be plains step on such a square, they spend 1 additional mobility point. When allied units with the [Infantry] or [Swimmers] movement types step on such a square, they can move an additional 2 squares after the attack.",
         "Ancient belt",
         "шапка",
         "21",
@@ -19572,7 +19572,7 @@ var persSkills = [
         "on self",
         "5",
         "5",
-        "[Mag. Damage] Deals 0.32x AoE damage to all enemies within a 5 block radius. Effective against [aces]. The higher the target's mobility, the more damage you will deal. Every 1 mobility increases damage by 5% (up to 25%)."
+        "[Mag. Damage] Deals 0.32x AoE damage to all enemies within a 5 block radius. Effective against [flyers]. The higher the target's mobility, the more damage you will deal. Every 1 mobility increases damage by 5% (up to 25%)."
     ],
     [
         "Advanced Teleport",
@@ -19852,7 +19852,7 @@ var persSkills = [
         "2",
         "one target",
         "3",
-        "[Phys. damage] Attacks one enemy, dealing 1.3x damage, with a bonus against aces. Before the battle, removes up to 3 debuffs. Receives 10% extra damage for every 1 debuff removed; after the battle, applies all removed debuffs to the target."
+        "[Phys. damage] Attacks one enemy, dealing 1.3x damage, with a bonus against flyers. Before the battle, removes up to 3 debuffs. Receives 10% extra damage for every 1 debuff removed; after the battle, applies all removed debuffs to the target."
     ],
     [
         "Jade Storm",
@@ -19862,7 +19862,7 @@ var persSkills = [
         "2",
         "one target",
         "5",
-        "[Phys. Damage] Attacks one enemy, dealing 1.3x damage. Effective against [aces]. Before battle, turns 2 enemy buffs into random debuffs. Gives a 20% increase in damage for every 1 buff converted. After the battle, the area below you will be considered a [Forest]. Lasts 1 turn."
+        "[Phys. Damage] Attacks one enemy, dealing 1.3x damage. Effective against [flyers]. Before battle, turns 2 enemy buffs into random debuffs. Gives a 20% increase in damage for every 1 buff converted. After the battle, the area below you will be considered a [Forest]. Lasts 1 turn."
     ],
     [
         "Альбедо",
@@ -20692,7 +20692,7 @@ var persSkills = [
         "3",
         "3",
         "2",
-        "[Phys. Damage] Attacks multiple enemy units within range, dealing 0.33x AoE damage. Particularly effective against [aces]. Also dispels 2 buffs and causes the enemy to take 10% more AoE damage for 2 turns. After the battle, can move another 3 cells."
+        "[Phys. Damage] Attacks multiple enemy units within range, dealing 0.33x AoE damage. Particularly effective against [flyers]. Also dispels 2 buffs and causes the enemy to take 10% more AoE damage for 2 turns. After the battle, can move another 3 cells."
     ],
     [
         "Ватару",
@@ -22722,7 +22722,7 @@ var persSkills = [
         "2",
         "one target",
         "3",
-        "[Mag. Damage] Attacks one enemy, dealing 1.5x damage. Before entering battle, the soldier's range increases by 1. After the battle, the unit is healed by 30% of the damage dealt. Extremely effective against [Infantry], [Cavalry], [Lancers] and [Aces]."
+        "[Mag. Damage] Attacks one enemy, dealing 1.5x damage. Before entering battle, the soldier's range increases by 1. After the battle, the unit is healed by 30% of the damage dealt. Extremely effective against [Infantry], [Cavalry], [Lancers] and [Flyers]."
     ],
     [
         "Ланс",
@@ -23882,7 +23882,7 @@ var persSkills = [
         "2",
         "one target",
         "4",
-        "[Passive] Damage increases by 10%. After the battle, gets a chance to move another 2 cells. <br><br>[Phys. Damage] Attacks one enemy, dealing 1.6x damage, with a bonus in battles against [Aces]. Before entering the battle, ignores the effect of the guard if the target's mobility is less than 2. After the battle, it silences the enemies' active and passive skills. Lasts 2 turns. Impossible to remove."
+        "[Passive] Damage increases by 10%. After the battle, gets a chance to move another 2 cells. <br><br>[Phys. Damage] Attacks one enemy, dealing 1.6x damage, with a bonus in battles against [Flyers]. Before entering the battle, ignores the effect of the guard if the target's mobility is less than 2. After the battle, it silences the enemies' active and passive skills. Lasts 2 turns. Impossible to remove."
     ],
     [
         "Неемия",
@@ -24202,7 +24202,7 @@ var persSkills = [
         "3",
         "line",
         "2",
-        "[Mag. Damage] Attacks multiple enemy units within range, dealing 0.2x AoE damage. Also applies the [Dazzling Light] effect to all affected squares for 2 turns: When enemy units with the movement types [Aces] or [Cavalry] or enemies who consider all traversable terrain to be plains step on such a square, they spend 1 additional mobility point. When allied units with the [Infantry] or [Swimmers] movement types step on such a square, they can move an additional 2 squares after the attack."
+        "[Mag. Damage] Attacks multiple enemy units within range, dealing 0.2x AoE damage. Also applies the [Dazzling Light] effect to all affected squares for 2 turns: When enemy units with the movement types [Flyers] or [Cavalry] or enemies who consider all traversable terrain to be plains step on such a square, they spend 1 additional mobility point. When allied units with the [Infantry] or [Swimmers] movement types step on such a square, they can move an additional 2 squares after the attack."
     ],
     [
         "Divine Incarnation",
@@ -24232,7 +24232,7 @@ var persSkills = [
         "5",
         "line",
         "5",
-        "[Command] All allied units within a 2 cell radius have their damage taken from ranged attacks reduced by 15%, their chance to receive a critical hit reduced by 30%, and the effectiveness of healing effects increased by 15%. <br><br>[Mag. damage] Attacks all enemies in 3 straight lines, dealing 0.36x AoE damage. Inflicts [Move]: Pushes all targets back 2 squares. Also applies the [Dazzling Light] effect to all affected squares for 2 turns: When enemy units with the movement types [Aces] or [Cavalry] or enemies who consider all traversable terrain to be plains step on such a square, they spend 1 additional. mobility point. When allied units with the [Infantry] or [Swimmers] movement types step on such a square, they can move an additional 2 squares after the attack."
+        "[Command] All allied units within a 2 cell radius have their damage taken from ranged attacks reduced by 15%, their chance to receive a critical hit reduced by 30%, and the effectiveness of healing effects increased by 15%. <br><br>[Mag. damage] Attacks all enemies in 3 straight lines, dealing 0.36x AoE damage. Inflicts [Move]: Pushes all targets back 2 squares. Also applies the [Dazzling Light] effect to all affected squares for 2 turns: When enemy units with the movement types [Flyers] or [Cavalry] or enemies who consider all traversable terrain to be plains step on such a square, they spend 1 additional. mobility point. When allied units with the [Infantry] or [Swimmers] movement types step on such a square, they can move an additional 2 squares after the attack."
     ],
     [
         "Парн",
@@ -24332,7 +24332,7 @@ var persSkills = [
         "2",
         "one target",
         "3",
-        "[Phys. Damage] Attacks one enemy, dealing 1.3x damage. Effective against [aces]. If before the battle your SKILL is higher than that of the enemy, then the enemy's mobility is reduced by 2 after the battle. Otherwise, the enemy's ATK and INT are reduced by 30%. Lasts 1 turn. (The effect cannot be removed.)"
+        "[Phys. Damage] Attacks one enemy, dealing 1.3x damage. Effective against [flyers]. If before the battle your SKILL is higher than that of the enemy, then the enemy's mobility is reduced by 2 after the battle. Otherwise, the enemy's ATK and INT are reduced by 30%. Lasts 1 turn. (The effect cannot be removed.)"
     ],
     [
         "Dark Thorn",
@@ -25312,7 +25312,7 @@ var persSkills = [
         "all",
         "one target",
         "4",
-        "[Active] Active skill. Inflicts [Ranger's Mark]: Damage taken from Sigma is increased by 15%. (Cannot be removed. Ignores immunity. After Sigma actively damages a target with [Ranger's Mark], \"Ranger's Mark\" disappears) The skill is replaced by [Windsear Strike]: [Phys. damage] Attacks one enemy unit, dealing 1.5x damage. Particularly effective against [aces]. Once used, this skill changes to [Ranger's Eye]."
+        "[Active] Active skill. Inflicts [Ranger's Mark]: Damage taken from Sigma is increased by 15%. (Cannot be removed. Ignores immunity. After Sigma actively damages a target with [Ranger's Mark], \"Ranger's Mark\" disappears) The skill is replaced by [Windsear Strike]: [Phys. damage] Attacks one enemy unit, dealing 1.5x damage. Particularly effective against [flyers]. Once used, this skill changes to [Ranger's Eye]."
     ],
     [
         "Синпати",
@@ -25862,7 +25862,7 @@ var persSkills = [
         "2",
         "one target",
         "2",
-        "[Phys. damage] Attacks one enemy, dealing 1.4x damage. Particularly effective against aces. Before the battle, removes 2 buffs from the target. When the “Arms of Strata” status is present, after the battle deals fixed damage equal to 1x the hero’s ATK once."
+        "[Phys. damage] Attacks one enemy, dealing 1.4x damage. Particularly effective against flyers. Before the battle, removes 2 buffs from the target. When the “Arms of Strata” status is present, after the battle deals fixed damage equal to 1x the hero’s ATK once."
     ],
     [
         "Ultra Ballistic Heaven's Shockwave",
@@ -25872,7 +25872,7 @@ var persSkills = [
         "7",
         "line",
         "5",
-        "[Phys. damage] Attacks all enemies in a straight line, dealing 0.36x AoE damage. Particularly effective against aces. Removes 2 buffs. When the “Arms of Strata” status is present, after the battle deals fixed damage equal to 1x the hero’s ATK once. If this skill hits at least 3 units, the CD is reduced by 3 turns."
+        "[Phys. damage] Attacks all enemies in a straight line, dealing 0.36x AoE damage. Particularly effective against flyers. Removes 2 buffs. When the “Arms of Strata” status is present, after the battle deals fixed damage equal to 1x the hero’s ATK once. If this skill hits at least 3 units, the CD is reduced by 3 turns."
     ],
     [
         "Тормил",
@@ -27182,7 +27182,7 @@ var persSkills = [
         "2",
         "one target",
         "5",
-        "[Phys. Damage] Attacks one enemy unit, dealing 1.3x damage in combat. Particularly effective against [aces]. Before battle, damage dealt increases by 30%. After the battle, prevents the enemy from receiving buffs. Lasts 2 turns. (The effect cannot be removed).​"
+        "[Phys. Damage] Attacks one enemy unit, dealing 1.3x damage in combat. Particularly effective against [flyers]. Before battle, damage dealt increases by 30%. After the battle, prevents the enemy from receiving buffs. Lasts 2 turns. (The effect cannot be removed).​"
     ],
     [
         "Ашрам",
@@ -28304,7 +28304,7 @@ var commonSkills = [
         "5",
         "Straight line",
         "5",
-        "[Magic Damage] Attacks all enemies in 3 lines, dealing 0.36x AoE damage. Deals additional damage to aces. In addition, reduces the enemy's ATK and INT by 20%. Lasts 2 turns.",
+        "[Magic Damage] Attacks all enemies in 3 lines, dealing 0.36x AoE damage. Deals additional damage to flyers. In addition, reduces the enemy's ATK and INT by 20%. Lasts 2 turns.",
         "White Dragon Breath"
     ],
     [
@@ -28414,7 +28414,7 @@ var commonSkills = [
         "2",
         "Single",
         "2",
-        "[Phys. damage] Attacks an enemy unit, dealing 1.4x damage. Particularly effective against aces. After the battle, reduces the enemy's Mobility by 1 and prevents him from using the guard effect for 1 turn. (Cannot be removed)",
+        "[Phys. damage] Attacks an enemy unit, dealing 1.4x damage. Particularly effective against flyers. After the battle, reduces the enemy's Mobility by 1 and prevents him from using the guard effect for 1 turn. (Cannot be removed)",
         "Snare"
     ],
     [
@@ -28524,7 +28524,7 @@ var commonSkills = [
         "2",
         "Single",
         "1",
-        "[Mag Damage] Attacks one enemy, dealing 1.5x damage. Inflicts additional damage on the aces",
+        "[Mag Damage] Attacks one enemy, dealing 1.5x damage. Inflicts additional damage on the flyers",
         "Wind Blade"
     ],
     [
@@ -28694,7 +28694,7 @@ var commonSkills = [
         "2",
         "Single",
         "2",
-        "[Phys. damage] Attacks one enemy, dealing 1.4x damage, with a bonus in battles against [aces]. After the battle, has a 50% chance to silence the enemy's active skills for 1 turn. (The effect cannot be removed.)",
+        "[Phys. damage] Attacks one enemy, dealing 1.4x damage, with a bonus in battles against [flyers]. After the battle, has a 50% chance to silence the enemy's active skills for 1 turn. (The effect cannot be removed.)",
         "Snipe"
     ],
     [
@@ -29434,7 +29434,7 @@ var commonSkills = [
         "3",
         "3",
         "3",
-        "[Magic Damage] Attacks multiple enemies within range, dealing 0.3x AoE damage. Applies additional damage to aces. In addition, reduces the enemy's ATK and INT by 20%. Lasts 2 turns.",
+        "[Magic Damage] Attacks multiple enemies within range, dealing 0.3x AoE damage. Applies additional damage to flyers. In addition, reduces the enemy's ATK and INT by 20%. Lasts 2 turns.",
         "Tornado"
     ],
     [
@@ -29464,7 +29464,7 @@ var commonSkills = [
         "3",
         "3",
         "2",
-        "[Phys. damage] Deals 0.3x AoE damage to all enemies within range. Inflicts additional damage to aces. Removes 1 buff. After an attack, it gives you a chance to move another 3 cells.",
+        "[Phys. damage] Deals 0.3x AoE damage to all enemies within range. Inflicts additional damage to flyers. Removes 1 buff. After an attack, it gives you a chance to move another 3 cells.",
         "Thousand Arrows"
     ],
     [
@@ -29744,7 +29744,7 @@ var commonSkills = [
         "3",
         "4",
         "5",
-        "[Mag. damage] Deals 0.4x AoE damage to multiple enemies in a wide radius. Does not affect [aces]. Also reduces the enemy's ATK, INT and DEF by 20% for 2 turns.​",
+        "[Mag. damage] Deals 0.4x AoE damage to multiple enemies in a wide radius. Does not affect [flyers]. Also reduces the enemy's ATK, INT and DEF by 20% for 2 turns.​",
         "Earthquake"
     ],
     [
@@ -30158,7 +30158,7 @@ var SPskills = [
         "2",
         "single",
         "3",
-        "[Phys. Damage] Attacks one enemy, dealing 1.4x damage. Particularly effective against aces. Ignores the Guard effect if the target is an Ace. After the battle, prevents enemies from performing a second action for 1 turn. (The effect cannot be removed.)"
+        "[Phys. Damage] Attacks one enemy, dealing 1.4x damage. Particularly effective against flyers. Ignores the Guard effect if the target is an Ace. After the battle, prevents enemies from performing a second action for 1 turn. (The effect cannot be removed.)"
     ],
     [
         "Сигма",
