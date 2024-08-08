@@ -8933,7 +8933,7 @@ var dataTable = [
         "",
         "М3",
         "Talons of Justice",
-        "At the beginning of the battle, the ATK and critical strike chance is +(10,13,16,20)%. After battle, deals [Fixed Damage] once for an amount equal to (0.5.1,1.5,2)x ATK, and also applies 1 random debuff to the target and all enemies within 1 diagonal block. <br><br>After performing an action, you can apply [Evil Awareness] to the enemy: when using the skill on an allied unit, it applies 1 random debuff. Evil Awareness ignores immunity, cannot be dispelled, and lasts 3 turns. This skill can trigger again after 3 turns.",
+        "At the beginning of the battle, the ATK and critical strike chance is +(10,13,16,20)%. After battle, deals [Fixed Damage] once for an amount equal to (0.5.1,1.5,2)x ATK, and also applies (1,2,3,3) random debuff to the target and all enemies within 1 diagonal block. <br><br>After performing an action, you can apply [Evil Awareness] to the enemy: when using the skill on an allied unit, it applies 1 random debuff. Evil Awareness ignores immunity, cannot be dispelled, and lasts 3 turns. This skill can trigger again after 3 turns.",
         "Vigilante's Visage",
         "шапка",
         "25",
