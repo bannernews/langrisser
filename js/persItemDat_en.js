@@ -172,7 +172,7 @@ var persItemDat = [
         "Апофеоз",
         "Apotheosis",
         "Глобал - 25.07.2024",
-        "Global - 25.07.2024",
+        "Abyssal Revelation",
         "hat",
         "583",
         "",

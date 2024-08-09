@@ -1232,8 +1232,8 @@ var dataTable = [
         "",
         "М3",
         "Source of Chaos",
-        "Ignores class disadvantages. ATK +(15, 20, 25, 30)%. At the end of the action, restores (10, 13, 16, 20)% of the Unit's HP and adds (5, 6, 8, 10)% of ATK to a random hero stat (except for HP). After actively damaging an enemy, you have a (50, 60, 80, 100)% chance to cast [Dark Magic] or [Magic Choice] on them. <br><br>[Dark Magic]: Loses control of the unit. Duration 1 round. (outside the arena it is replaced by \"Damage dealt -30%\"). <br><br>[Magic choice]: Unit type becomes demon. Lasts 1 round.",
-        "Global - 25.07.2024",
+        "Ignores class disadvantages. ATK +(15, 20, 25, 30)%. At the end of the action, restores (10, 13, 16, 20)% of the Unit's HP and adds (5, 6, 8, 10)% of ATK to a random hero stat (except for HP). After actively damaging an enemy, you have a (50, 60, 80, 100)% chance to cast [Nightmare] or [Demoniac] on them. <br><br>[Nightmare]: Loses control of the unit. Duration 1 round. (outside the arena it is replaced by \"Damage dealt -30%\"). <br><br>[Demoniac]: Unit type becomes demon. Lasts 1 round.",
+        "Abyssal Revelation",
         "шапка",
         "34",
         "",
@@ -1241,7 +1241,7 @@ var dataTable = [
         "",
         "4",
         "",
-        "HP +10%. If you have at least 3 extra stats from talent, applied [Dark Magic] and [Magic Choice] cannot be removed. When there is an enemy demon or holy unit within 3 cells, gains Immunity.",
+        "HP +10%. If you have at least 3 extra stats from talent, applied [Nightmare] and [Demoniac] cannot be removed. When there is an enemy demon or holy unit within 3 cells, gains Immunity.",
         "",
         "20",
         "40",
@@ -3577,8 +3577,8 @@ var dataTable = [
         "",
         "",
         "М3",
-        "Shackles of Extreme Will",
-        "Damage dealt increases by 30% when entering battle.<br><br>At the start of the battle, has [Flail of Glory]: \"Reduces damage received by 30%, immunity to all debuffs\". Gain [Rage Surge] when immune triggered: \"Critical Strike Chance increased by 15%\" can stack and cannot be dispelled.<br><br>If you have [Flail of Glory] at the end of the turn, and if [Rage Surge] has 4 stacks or more and is in the [Danger Zone], removes [Flail of Glory], the number of buff rounds it carries will not be reduced, and will act again. [Flail of Glory] cannot be dispelled.<br><br>If you don't have [Flail of Glory], if the opponent's defense is greater than or equal to their magic defense when entering a battle, that battle will deal magic damage.<br><br>At the end of the action, removes all [Rage Surges] and gains [Flail of Glory].",
+        "Shackles of Supreme Will",
+        "Damage dealt increases by (15,20,25,30)% when entering battle.<br><br>At the start of the battle, has [Radiant Shackles]: \"Reduces damage received by (15,20,25,30)%, immunity to all debuffs\". Gain [Raging Surge] when immune triggered: \"Critical Strike Chance increased by 15%\" can stack and cannot be dispelled.<br><br>If you have [Radiant Shackles] at the end of the turn, and if [Raging Surge] has 4 stacks or more and is in the [Danger Zone], removes [Radiant Shackles], the number of buff rounds it carries will not be reduced, and will act again. [Radiant Shackles] cannot be dispelled.<br><br>If you don't have [Radiant Shackles], if the opponent's defense is greater than or equal to their magic defense when entering a battle, that battle will deal magic damage.<br><br>At the end of the action, removes all [Raging Surge] and gains [Radiant Shackles].",
         "",
         "",
         "",
@@ -8116,8 +8116,8 @@ var dataTable = [
         "",
         "",
         "М3",
-        "Legacy of Alchemy",
-        "INT increases by (10%, 13%, 16%, 20%).<br><br>The cooldown time for using healing and support skills is reduced by 1 turn.<br><br>At the end of the action, you can replace the skill used this round with 1 of (2, 2, 3, 3) random skills.<br><br>Range of skills that can be obtained randomly depending on the skills used:<br><br>1C Skills: Healing, Phantom Healing (same effect as Crystal Healing), Increase ATK, Shield, Magic Resistance, Equivalent Replacement, Fireball, Lightning Strike, Freeze Strike, Wind Blade.<br><br>2C Skills: Group Healing, Group Phantom Healing (Same Effect as Group Crystal Healing), Armor Affinity, Healing (Same Effect as Holy Healing), Ice Dragon Breath, Blessing, Miracle.",
+        "Alchemical Legacy",
+        "INT increases by (10%, 13%, 16%, 20%).<br><br>The cooldown time for using healing and assist skills is reduced by 1 turn.<br><br>At the end of the action, you can replace the skill used this round with 1 of (2, 2, 3, 3) random skills.<br><br>Range of skills that can be obtained randomly depending on the skills used:<br><br>1C Skills: Healing, Phantom Healing (same effect as Crystal Healing), Increase ATK, Shield, Magic Resistance, Equivalent Exchange, Fireball, Lightning Strike, Freeze Strike, Wind Blade.<br><br>2C Skills: Group Healing, Group Phantom Healing (Same Effect as Group Crystal Healing), Armor Affinity, Ice Dragon Breath, Blessing, Miracle.",
         "",
         "",
         "",
@@ -20242,7 +20242,7 @@ var persSkills = [
         "",
         "",
         "",
-        "[Command]: All enemies within 3 squares at the end of the action have a 30% chance of receiving [Magic Choice]."
+        "[Command]: All enemies within 3 squares at the end of the action have a 30% chance of receiving [Demoniac]."
     ],
     [
         "Dark Tremor",
@@ -27675,8 +27675,8 @@ var persSkills = [
         ""
     ],
 	[
-        "Equivalent replacement",
-        "Эквивалентная замена",
+        "Equivalent Exchange",
+        "Эквивалентный Обмен",
         "1",
         "3",
         "3",
@@ -27686,7 +27686,7 @@ var persSkills = [
     ],
 	[
         "Armor Affinity",
-        "Сродство брони",
+        "Связь с Броней",
         "2",
         "3",
         "3",
@@ -27695,14 +27695,14 @@ var persSkills = [
         "[Assist] Actively used to the target to gain 3 layers of [Armor Affinity]: \"The chance of equipment resonance effect triggering increases by 15%; When the buff is dispelled, [Armor Affinity] will be dispelled first\", up to 5 stacks can be accumulated."
     ],
 	[
-        "Alchemy of Creation",
-        "Алхимия созидания",
+        "Concoction of Creation",
+        "Творение Зелья",
         "3",
         "7",
         "3",
         "one target",
         "2",
-        "[Passive] After using support or healing skills on ally also cast it again on ally with [Spirit of Mana]; When she has [Spirit of Mana], the unit's range will be +2, and the damage dealt will increase by 30%.<br><br>[Active] Actively used by casting [Spirit of Mana] on a single target: “Restores HP equal to 2.5 times the caster's Intelligence, and the duration of buffs from the caster is +1; cannot die from a fatal blow. \"Instead of dying, restores 20% of the unit's HP, while removing [Spirit of Mana] and decreasing the cooldown of [Alchemy of Creation] by 1.\" May act again after use. ([Spirit of Mana] has a unique effect, cannot be immunized and cannot be dispelled; using this skill will not activate the talent's replacement effect).<br>[Spirit of Mana] can only be active only on 1 unit at the same time."
+        "[Passive] After using support or healing skills on ally also cast it again on ally with [Mana Essence]; When she has [Mana Essence], the unit's range will be +2, and the damage dealt will increase by 30%.<br><br>[Active] Actively used by casting [Mana Essence] on a single target: “Before battle restores HP equal to 2.5 times the caster's Intelligence, and the duration of buffs from the caster is +1; cannot die from a fatal blow. \"Instead of dying, restores 20% of the unit's HP, while removing [Mana Essence] and increase the cooldown of [Concoction of Creation] by 1.\" May act again after use. ([Mana Essence] has a unique effect, cannot be immunized and cannot be dispelled; using this skill will not activate the talent's replacement effect).<br>[Mana Essence] can only be active only on 1 unit at the same time."
     ],
 	[
         "Имир",
@@ -27715,34 +27715,34 @@ var persSkills = [
         ""
     ],
 	[
-        "Protection of the Holy Door",
-        "Защита Святой Двери",
+        "Sacred Portal Ward",
+        "Опека Священного Портала",
         "1",
         "7",
         "on self",
         "one target",
         "4",
-        "[Command] Other friendly units within a 3 cell radius dispel 1 debuff at the end of the effect. When successfully dispelled, the user of this skill gains 1 layer of [Rage Surges].<br><br>[Active] Use it actively to restore 30% of your max HP and gain 4 random buffs and 4 random debuffs. For each level of [Rage Surges] you have, the cooldown time of this skill and the amount of each effect received are reduced by 1."
+        "[Command] Other friendly units within a 3 cell radius dispel 1 debuff at the end of the effect. When successfully dispelled, the user of this skill gains 1 layer of [Raging Surge].<br><br>[Active] Use it actively to restore 30% of your max HP and gain 4 random buffs and 4 random debuffs. For each level of [Raging Surge] you have, the cooldown time of this skill and the amount of each effect received are reduced by 1."
     ],
 	[
-        "Bloody Justice",
-        "Кровавое правосудие",
+        "Infernal Judgment",
+        "Адское Решение",
         "2",
         "2",
         "1",
         "one target",
         "2",
-        "[Physical Damage] Attacks one enemy, dealing 1.5x damage. If the enemy has a debuff, the unit's attack will be increased by 20%. Before engaging in combat, apply random debuffs to your opponent equal to the number of [Rage Surges] you have (up to 4)."
+        "[Physical Damage] Attacks one enemy, dealing 1.5x damage. If the enemy has a debuff, the unit's attack will be increased by 20%. Before engaging in combat, apply random debuffs to your opponent equal to the number of [Raging Surge] you have (up to 4)."
     ],
 	[
-        "Punishment of Evil",
-        "Наказание зла",
+        "Retrabution of the Damned",
+        "Призыв Возмездия Проклятых",
         "3",
         "2",
         "1",
         "one target",
         "4",
-        "[Passive] Mobility +2 if you don't have [Flail of Glory]. At the end of the effect, 10% HP will be restored for each level of [Rage Surges].<br><br>[Physical Damage] Attacks one enemy, dealing 1.7x damage. If the enemy has a debuff, the enemy cannot activate the [Fatal Damage Resistance] effect in this battle. For each level of [Rage Surges] you have, one of the enemy's pre-battle buffs is converted into a random debuff. If the enemy doesn't die, gain 4 layers of [Rage Surges] at the start of the next round (gained immediately when have [Flail of Glory]); otherwise, can move another 3 squares. (The effect of being unable to withstand lethal damage only applies in competitive mode)."
+        "[Passive] Mobility +2 if you don't have [Radiant Shackles]. At the end of the effect, 10% HP will be restored for each level of [Raging Surge].<br><br>[Physical Damage] Attacks one enemy, dealing 1.7x damage. If the enemy has a debuff, the enemy cannot activate the [Fatal Damage Resistance] effect in this battle. For each level of [Raging Surge] you have, one of the enemy's pre-battle buffs is converted into a random debuff. If the enemy doesn't die, gain 4 layers of [Raging Surge] at the start of the next round (gained immediately when have [Radiant Shackles]); otherwise, can move another 3 squares. (The effect of being unable to withstand lethal damage only applies in competitive mode)."
     ],
 	[
         "Вирелия",
