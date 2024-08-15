@@ -1,6 +1,6 @@
 // itemDat.length  -  колл-во всех солдат
 // sitemDat[0].length  -  колл-во элементов у солдат
-// 0 - имя рус, 1 - имя англ., 2 - тип вещи, 3 - ОЗ, 4 - атк, 5 - инт, 6 - защ, 7 - мзащ, 8 - навык, 9 - описание рус, 10 - описание англ.
+// 0 - имя рус, 1 - имя англ., 2 - тип вещи, 3 - ОЗ, 4 - атк, 5 - инт, 6 - защ, 7 - мзащ, 8 - навык, 9 - описание рус, 10 - описание англ., 11 - тип
 var itemDat = [
     [
         "NAME (RUS)",
@@ -13,7 +13,8 @@ var itemDat = [
         "MDEF",
         "SKILL",
         "DESCRIPTION (RUS)",
-        "DESCRIPTION (ENG)"
+        "DESCRIPTION (ENG)",
+        "TYPE"
     ],
     [
         "Перо ангела",
@@ -26,7 +27,8 @@ var itemDat = [
         "43",
         "",
         "ОЗ +10%. Эффекты исцеления +10%. Иммунитет к оглушению.",
-        "HP +10%. Healing effects +10%. Grants immunity to stun."
+        "HP +10%. Healing effects +10%. Grants immunity to stun.",
+        "accs"
     ],
     [
         "Апексовые сапоги",
@@ -39,7 +41,8 @@ var itemDat = [
         "43",
         "",
         "АТК +5%. Мобильность +1.",
-        "ATK +5%. Mobility +1."
+        "ATK +5%. Mobility +1.",
+        "accs"
     ],
     [
         "Ангел бедствия",
@@ -52,7 +55,8 @@ var itemDat = [
         "",
         "",
         "АТК и ИНТ +5%. При активной атаке и вступлении в бой есть 100% шанс снизить случайный атрибут врага на 30% (кроме ОЗ). Длится 1 раунд. Если это несмешанная армия, этот эффект нельзя снять.",
-        "ATK and INT +5%. When actively attacking and entering battle, there is a 100% chance to reduce a random enemy attribute by 30% (except HP). Lasts 1 round. If it's an unmixed army, this effect cannot be removed."
+        "ATK and INT +5%. When actively attacking and entering battle, there is a 100% chance to reduce a random enemy attribute by 30% (except HP). Lasts 1 round. If it's an unmixed army, this effect cannot be removed.",
+        "accs"
     ],
     [
         "Пакт крови",
@@ -65,7 +69,8 @@ var itemDat = [
         "",
         "",
         "ОЗ +15%. Иммунитет к отмене исцеления и запрету на баффы.",
-        "HP +15%. Grantes immunity to effects that prevent you from being healed or buffed."
+        "HP +15%. Grantes immunity to effects that prevent you from being healed or buffed.",
+        "accs"
     ],
     [
         "Кровопьющий шип",
@@ -78,7 +83,8 @@ var itemDat = [
         "",
         "",
         "АТК +8%. Иммунитет к безмолвию активного умения.",
-        "ATK +8%. Immune to active skill silence."
+        "ATK +8%. Immune to active skill silence.",
+        "accs"
     ],
     [
         "Узы Араши",
@@ -91,7 +97,8 @@ var itemDat = [
         "",
         "",
         "Все характеристики +5%. Иммунитет к оглушению и безмолвию пассивного умения.",
-        "All stats +5%. Immune to stun and passive skill silence."
+        "All stats +5%. Immune to stun and passive skill silence.",
+        "accs"
     ],
     [
         "Ядро хитрости",
@@ -104,7 +111,8 @@ var itemDat = [
         "43",
         "",
         "Все характеристики +5%. Когда втянуты в бой, ЗАЩ или МЗАЩ ( что ниже) увеличивается на 5%.",
-        "All stats +5%. When forced into battle, DEF or MDEF (whichever is lower) increases by 5%."
+        "All stats +5%. When forced into battle, DEF or MDEF (whichever is lower) increases by 5%.",
+        "accs"
     ],
     [
         "Ползучий прилив",
@@ -117,7 +125,8 @@ var itemDat = [
         "",
         "",
         "ИНТ +8%. После атаки и нанесения урона 70% шанс снизить МЗАЩ врага на 20% на 1 ход.",
-        "INT +8%. After attacking and dealing damage, 70% chance to reduse enemy's MDEF for 20% by 1 turn."
+        "INT +8%. After attacking and dealing damage, 70% chance to reduse enemy's MDEF for 20% by 1 turn.",
+        "accs"
     ],
     [
         "Бриллиант измерения",
@@ -130,7 +139,8 @@ var itemDat = [
         "",
         "",
         "ИНТ +8%. При активном нанесении урона навыком есть 30% шанс снизить перезарядку навыка на 1 ход.",
-        "INT +8%. When attacking with a skill, 30% chance t reduce cooldown by 1"
+        "INT +8%. When attacking with a skill, 30% chance t reduce cooldown by 1",
+        "accs"
     ],
     [
         "Божественные сапоги",
@@ -143,7 +153,8 @@ var itemDat = [
         "",
         "",
         "ЗАЩ +8%. Мобильность +1",
-        "DEF +8%. Mobility +1."
+        "DEF +8%. Mobility +1.",
+        "accs"
     ],
     [
         "Драупнир",
@@ -156,7 +167,8 @@ var itemDat = [
         "43",
         "",
         "ИНТ +8%. Подвергнувшись дальней атаке, юнит отражает 30% полученного урона.",
-        "INT +8%. When attacked with a ranged attack, reflects damage taken this time by 30%."
+        "INT +8%. When attacked with a ranged attack, reflects damage taken this time by 30%.",
+        "accs"
     ],
     [
         "Эльфийский пояс",
@@ -169,7 +181,8 @@ var itemDat = [
         "",
         "",
         "Когда подвергаетесь дальней атаке, ЗАЩ и МЗАЩ увеличиваются в бою на 10%.",
-        "When attacked with a ranged attack, DEF and MDEF increase by 10% in battle."
+        "When attacked with a ranged attack, DEF and MDEF increase by 10% in battle.",
+        "accs"
     ],
     [
         "Эльфийское кольцо",
@@ -182,7 +195,8 @@ var itemDat = [
         "",
         "",
         "Когда атакуете, АТК и ЗАЩ увеличиваются на 8%.",
-        "When attacking, ATK and DEF increase by 8%."
+        "When attacking, ATK and DEF increase by 8%.",
+        "accs"
     ],
     [
         "Око смотрящего",
@@ -195,7 +209,8 @@ var itemDat = [
         "43",
         "",
         "ИНТ +8%. Когда атакуете, после боя дает 50% шанс снизить наносимый врагом урон на 15%. Длится 1 ход.",
-        "INT +8%. When attacking, after battle, grants a 50% chance to reduce enemy's damage dealt to 15%. Lasts 1 turn."
+        "INT +8%. When attacking, after battle, grants a 50% chance to reduce enemy's damage dealt to 15%. Lasts 1 turn.",
+        "accs"
     ],
     [
         "Пояс великана",
@@ -208,7 +223,8 @@ var itemDat = [
         "",
         "",
         "Когда подвергаетесь ближней атаке, ЗАЩ и МЗАЩ увеличиваются в бою на 10%.",
-        "When attacked with a melee attack, DEF and MDEF increase by 10% in battle."
+        "When attacked with a melee attack, DEF and MDEF increase by 10% in battle.",
+        "accs"
     ],
     [
         "Слеза богини",
@@ -221,7 +237,8 @@ var itemDat = [
         "43",
         "",
         "Эффекты исцеления +15%. После завершения действия снимает 2 дебафф с 2 дружественного юнита в радиусе 2 клеток.",
-        "Healing effects +15%. After taking action, dispels 2 debuff from 2 nearby friendly unit within 2 blocks (not including this unit)."
+        "Healing effects +15%. After taking action, dispels 2 debuff from 2 nearby friendly unit within 2 blocks (not including this unit).",
+        "accs"
     ],
     [
         "Сердце Геи",
@@ -234,7 +251,8 @@ var itemDat = [
         "",
         "",
         "Все статы увеличиваются на 5%. Иммунитет к ранящему проклятию (получаемое исцеление превращается в урон) и отмене исцеления (применяемое исцеление превращается в урон).",
-        "All stats increase by 5%. Immune to Curse of Wounding (healing received is converted into damage) and Heal Reversal (healing applied is converted into damage)."
+        "All stats increase by 5%. Immune to Curse of Wounding (healing received is converted into damage) and Heal Reversal (healing applied is converted into damage).",
+        "accs"
     ],
     [
         "Сердце искупления",
@@ -247,7 +265,8 @@ var itemDat = [
         "43",
         "",
         "Эффекты исцеления +15%. Иммунитет к фиксированному урону.",
-        "Healing effects +15%. Immune to fixed damage."
+        "Healing effects +15%. Immune to fixed damage.",
+        "accs"
     ],
     [
         "Священный ковчег",
@@ -260,7 +279,8 @@ var itemDat = [
         "48",
         "",
         "ОЗ +8%. Когда подвергаетесь ближней атаке, отражается 30% урона.",
-        "HP +8%. When attacked with a melee attack, reflects 30% damage."
+        "HP +8%. When attacked with a melee attack, reflects 30% damage.",
+        "accs"
     ],
     [
         "Святой грааль",
@@ -273,7 +293,8 @@ var itemDat = [
         "43",
         "",
         "ИНТ +5%. При нанесении урона восстанавливает 15% ОЗ остальным дружественным юнитам в радиусе 1 клетки после совершения действия.",
-        "INT +5%. When dealing damage, restores 15% HP of other friendly unit 1 block adjacent to you after taking action."
+        "INT +5%. When dealing damage, restores 15% HP of other friendly unit 1 block adjacent to you after taking action.",
+        "accs"
     ],
     [
         "Святое кольцо",
@@ -286,7 +307,8 @@ var itemDat = [
         "43",
         "",
         "ИНТ +8%. Иммунитет к безмолвию активного умения.",
-        "INT +8%. Immune to active skill silence."
+        "INT +8%. Immune to active skill silence.",
+        "accs"
     ],
     [
         "Кулон заговора",
@@ -299,7 +321,8 @@ var itemDat = [
         "",
         "37",
         "Все статы увеличиваются на 5%. При вступлении в бой крит увеличивается на 5%.",
-        "All stats increase by 5%. When entering battle, crit increases by 5%."
+        "All stats increase by 5%. When entering battle, crit increases by 5%.",
+        "accs"
     ],
     [
         "Талисман судьи",
@@ -312,7 +335,8 @@ var itemDat = [
         "",
         "",
         "АТК +8%. В сражениях со святыми АТК увеличивается ещё на 12%.",
-        "ATK +8%. When battling against Holy units, ATK increases by an extra 12%."
+        "ATK +8%. When battling against Holy units, ATK increases by an extra 12%.",
+        "accs"
     ],
     [
         "Плюшевый Джаглер",
@@ -325,7 +349,8 @@ var itemDat = [
         "",
         "",
         "Эффект исцеления +15%. Если вы применяете навык поддержки на 1 юнита, эффект длится +1 ход.",
-        "Heal effect +15%. When you use a single unit assist skill, the effect lasts +1 turn."
+        "Heal effect +15%. When you use a single unit assist skill, the effect lasts +1 turn.",
+        "accs"
     ],
     [
         "Амулет короля",
@@ -338,7 +363,8 @@ var itemDat = [
         "",
         "",
         "Если в радиусе 2 клеток есть союзник, ЗАЩ и МЗАЩ в бою увеличиваются на 10%.",
-        "When a friendly unit is within 2 blocks, in battle, DEF and MDEF is increase by 10%."
+        "When a friendly unit is within 2 blocks, in battle, DEF and MDEF is increase by 10%.",
+        "accs"
     ],
     [
         "Закон созидания",
@@ -351,7 +377,8 @@ var itemDat = [
         "",
         "",
         "ИНТ +8%. При атаке и вступлении в бой, если используемый навык особо эффективен против врага, то герой наносит на 10% больше магического урона.",
-        "INT +8%. When attacking and entering battle, if the skill used is super effective against the enemy hero, than the hero deals 10% increased magic damage."
+        "INT +8%. When attacking and entering battle, if the skill used is super effective against the enemy hero, than the hero deals 10% increased magic damage.",
+        "accs"
     ],
     [
         "Браслет одинокой звезды",
@@ -364,7 +391,8 @@ var itemDat = [
         "",
         "",
         "Если в радиусе 2 клеток нет союзников, АТК и ЗАЩ во время боя повышаются на 10%.",
-        "When no friendly units within 2 blocks, ATK and DEF increase by 10% during combat."
+        "When no friendly units within 2 blocks, ATK and DEF increase by 10% during combat.",
+        "accs"
     ],
     [
         "Значок повелителя",
@@ -377,7 +405,8 @@ var itemDat = [
         "",
         "",
         "Все характеристики +5%. Иммунитет к снижению ЗАЩ и МЗАЩ, снижению АТК и ИНТ, снижению мобильности.",
-        "All stats +5%. Grants immunity to DEF and MDEF reduction, ATK and INT reduction, mobility reduction."
+        "All stats +5%. Grants immunity to DEF and MDEF reduction, ATK and INT reduction, mobility reduction.",
+        "accs"
     ],
     [
         "Сокровище узника",
@@ -390,7 +419,8 @@ var itemDat = [
         "",
         "",
         "АТК +8%. В сражении с кавалерией АТК увеличивается дополнительно на 12%.",
-        "ATK +8%. When battling against Cavalry, increases ATK by an additional 12%."
+        "ATK +8%. When battling against Cavalry, increases ATK by an additional 12%.",
+        "accs"
     ],
     [
         "Эмблема истребителя",
@@ -403,7 +433,8 @@ var itemDat = [
         "",
         "",
         "АТК +8%. В боях против асов АТК увеличивается на 12%.",
-        "ATK +8%. When battling against Fliers, ATK increases by extra 12%."
+        "ATK +8%. When battling against Fliers, ATK increases by extra 12%.",
+        ""
     ],
     [
         "Ботинки духа",
@@ -416,7 +447,8 @@ var itemDat = [
         "",
         "",
         "ЗАЩ +8%. После атаки можно передвинуться ещё на 2 клетки.",
-        "DEF +8%. Can move 2 blocks after attacking a target."
+        "DEF +8%. Can move 2 blocks after attacking a target.",
+        "accs"
     ],
     [
         "Звёздные серьги",
@@ -429,7 +461,8 @@ var itemDat = [
         "",
         "",
         "ИНТ +8%. В боях против лучников и убийц ЗАЩ увеличивается на 30%.",
-        "INT +8%. When battling against Assassin and Archer DEF increases by 30%."
+        "INT +8%. When battling against Assassin and Archer DEF increases by 30%.",
+        "accs"
     ],
     [
         "Медаль кузнеца",
@@ -442,7 +475,8 @@ var itemDat = [
         "43",
         "",
         "Все статы +5%. Иммунитет к фиксированному урону и эффектам, оглушающим активные навыки.",
-        "All stats +5%. Immune to fixed damage and effects that silence active skills."
+        "All stats +5%. Immune to fixed damage and effects that silence active skills.",
+        "accs"
     ],
     [
         "Лезвие воспоминаний",
@@ -455,7 +489,8 @@ var itemDat = [
         "",
         "",
         "АТК +8%. При атаке с умением, наносящим урон, есть 30% шанс снизить перезарядку этого умения на 1-2 хода случайно.",
-        "ATK +8%. When entering battle with a damage-dealing skill, 30% chance to reduce that skill's cooldown by 1-2 at random."
+        "ATK +8%. When entering battle with a damage-dealing skill, 30% chance to reduce that skill's cooldown by 1-2 at random.",
+        "accs"
     ],
     [
         "Ожерелье Тора",
@@ -468,7 +503,8 @@ var itemDat = [
         "",
         "",
         "АТК +5%. При инициировании боя может с 50% шансом нанести один раз фиксированный урон врагу после боя (урон - 1хАТК героя).",
-        "ATK +5%. When initiating battle, has a 50% chance to deal fixed damage once to the enemy unit after battle. This damage is equal to 1x the hero's attack."
+        "ATK +5%. When initiating battle, has a 50% chance to deal fixed damage once to the enemy unit after battle. This damage is equal to 1x the hero's attack.",
+        "accs"
     ],
     [
         "Истинный крест",
@@ -481,7 +517,8 @@ var itemDat = [
         "",
         "",
         "Эффекты исцеления +15%. В боях против демонов и магов ИНТ, ЗАЩ и МЗАЩ увеличиваются на 20%.",
-        "Healing effects +15%. When battling against Demons and Mages, INT, DEF and MDEF increase by 20%."
+        "Healing effects +15%. When battling against Demons and Mages, INT, DEF and MDEF increase by 20%.",
+        "accs"
     ],
     [
         "Сумеречная звезда",
@@ -494,7 +531,8 @@ var itemDat = [
         "",
         "",
         "АТК и ИНТ +5%. Перед инициированием боя наносит фиксированный урон в 1хАТК или ИНТ (смотря, что ниже). Если вражеский юнит состоит из смешанных войск, он не получает иммунитет к наносимому в этот раз урону.",
-        "ATK and INT +5%. Before initiating battle, deales fixed damage to the enemy 1 time, equal to 1x of hero's ATK of INT (whichever is lowest). If the enemy is formed of mixed units, they will not be unvulnerable to damage dealed this time."
+        "ATK and INT +5%. Before initiating battle, deales fixed damage to the enemy 1 time, equal to 1x of hero's ATK of INT (whichever is lowest). If the enemy is formed of mixed units, they will not be unvulnerable to damage dealed this time.",
+        "accs"
     ],
     [
         "Пелена света",
@@ -507,7 +545,8 @@ var itemDat = [
         "48",
         "",
         "МЗАЩ +8%.Иммунитет к снижению ЗАЩ и МЗАЩ.",
-        "MDEF +8%. Immune to DEF and MDEF reduction."
+        "MDEF +8%. Immune to DEF and MDEF reduction.",
+        "accs"
     ],
     [
         "Роза Видара",
@@ -520,7 +559,8 @@ var itemDat = [
         "43",
         "",
         "ИНТ +8%. При активном нанесении урона имеет 50% шанс снять с врага 1 бафф.",
-        "INT +8%. When dealing damage on your turn is 50% chance to dispell 1 buff from the enemy."
+        "INT +8%. When dealing damage on your turn is 50% chance to dispell 1 buff from the enemy.",
+        "accs"
     ],
     [
         "Крылатые щитки на голень",
@@ -533,7 +573,8 @@ var itemDat = [
         "",
         "",
         "АТК +8%. Когда атакованы, ЗАЩ увеличивается на 10%.",
-        "ATK +8%. When attacked, DEF increases by 10%."
+        "ATK +8%. When attacked, DEF increases by 10%.",
+        "accs"
     ],
     [
         "Крылья скрытого великолепия",
@@ -546,7 +587,8 @@ var itemDat = [
         "",
         "",
         "Все аттрибуты +5%. В конце действия, если герой не нанёс никакого урона, 100% шанс получить мобильность +2. Длится 1 раунд. (Если уже есть другое повышение мобильности, дает Мобильность +3)",
-        "All attributes +5%. At the end of the action, if the hero has not dealt any damage, there is a 100% chance to gain +2 mobility. Lasts 1 round. (If there is already another mobility boost, gives Mobility +3)"
+        "All attributes +5%. At the end of the action, if the hero has not dealt any damage, there is a 100% chance to gain +2 mobility. Lasts 1 round. (If there is already another mobility boost, gives Mobility +3)",
+        "accs"
     ],
     [
         "Лазурная брошь-бабочка",
@@ -559,7 +601,8 @@ var itemDat = [
         "43",
         "",
         "Все аттрибуты +5%. В начале раунда получает 'Иммунитет к 1 дебафу. Восстанавливает 20% ОЗ при срабатывании'. Не может быть снят'",
-        "All attributes +5%. At the beginning of the round, gains 'Immunity to 1 debuff. Restores 20% HP when triggered.' Cannot be removed.'"
+        "All attributes +5%. At the beginning of the round, gains 'Immunity to 1 debuff. Restores 20% HP when triggered.' Cannot be removed.'",
+        "accs"
     ],
     [
         "Акс 3",
@@ -572,7 +615,8 @@ var itemDat = [
         "",
         "",
         "АТК и ИНТ +5%. При активной атаке и вступлении в бой, заглушает навык аксессуара противника. Если цель неигровой герой - вместо этого эффект заменяется на 'Получаемый урон увеличивается на 10%'",
-        "ATK and INT +5%. When actively attacking and entering battle, it silence the skill of the enemy’s accessory. If the target is a non-player hero, the effect is instead replaced with 'Damage taken increases by 10%'"
+        "ATK and INT +5%. When actively attacking and entering battle, it silence the skill of the enemy’s accessory. If the target is a non-player hero, the effect is instead replaced with 'Damage taken increases by 10%'",
+        "accs"
     ],
     [
         "Броня Энея",
@@ -585,7 +629,8 @@ var itemDat = [
         "",
         "",
         "ЗАЩ +10%, получаемый эффект исцеления +10%.",
-        "DEF +10%. Received Heal Effect +10%."
+        "DEF +10%. Received Heal Effect +10%.",
+        "heavy"
     ],
     [
         "Боевая броня Эола",
@@ -598,7 +643,8 @@ var itemDat = [
         "",
         "",
         "ОЗ и ЗАЩ +5%. Подвергнувшись дальней атаке с 30% шансом снижает весь получаемый вашим юнитом урон в этой битве на 30%.",
-        "HP and DEF +5%. When under ranged attack, has a 30% chance to lower damage taken by your unit in this battle by 30%."
+        "HP and DEF +5%. When under ranged attack, has a 30% chance to lower damage taken by your unit in this battle by 30%.",
+        "heavy"
     ],
     [
         "Одеяния Альянса",
@@ -611,7 +657,8 @@ var itemDat = [
         "",
         "",
         "ОЗ +10%. ЗАЩ и МЗАЩ героев увеличивается на 8%, если они не состоят из смешанных сил.",
-        "HP +10%. Hero DEF and MDEF inrease by 8%, when not composed of mixed force."
+        "HP +10%. Hero DEF and MDEF inrease by 8%, when not composed of mixed force.",
+        "light"
     ],
     [
         "Древний доспех",
@@ -624,7 +671,8 @@ var itemDat = [
         "",
         "",
         "Защита повышается на 10%. Получаемый фиксированный урон снижается на 10%.",
-        "DEF +10%. Fixed damage taken decreased by 10%."
+        "DEF +10%. Fixed damage taken decreased by 10%.",
+        "heavy"
     ],
     [
         "Таинственный боевой доспех",
@@ -637,7 +685,8 @@ var itemDat = [
         "",
         "",
         "ОЗ и МЗАЩ +5%. При инициировании атаки наносит фиксированный урон врагу после атаки (урон - 1,5хМЗАЩ героя).",
-        "HP and MDEF +5%. When attacking, after battle deals fixed damage once to the enemy (Damage - 1,5x Hero's MDEF)."
+        "HP and MDEF +5%. When attacking, after battle deals fixed damage once to the enemy (Damage - 1,5x Hero's MDEF).",
+        "heavy"
     ],
     [
         "Костюм штурма",
@@ -650,7 +699,8 @@ var itemDat = [
         "",
         "",
         "ОЗ +5%. Когда атакуете, ЗАЩ и МЗАЩ увеличиваются на 10%.",
-        "HP +5%. When attacking, increases DEF and MDEF by 10%."
+        "HP +5%. When attacking, increases DEF and MDEF by 10%.",
+        "light"
     ],
     [
         "Лазаревая легенда",
@@ -663,7 +713,8 @@ var itemDat = [
         "",
         "",
         "ОЗ +10%. Когда ОЗ выше 50%, ЗАЩ увеличивается на 10%. Когда ОЗ ниже 50%, МЗАЩ увеличивается на 10%.",
-        "HP +10%. When unit HP is above 50%, DEF increases by 10%. When unit HP is below 50%, MDEF increases by 10%."
+        "HP +10%. When unit HP is above 50%, DEF increases by 10%. When unit HP is below 50%, MDEF increases by 10%.",
+        "light"
     ],
     [
         "Белая мантия Бальдра",
@@ -676,7 +727,8 @@ var itemDat = [
         "",
         "",
         "МЗАЩ +10%. Перед вынужденным вступлением в ближний бой с 20% шансом отменяет снижение урона в ближнем бою.",
-        "MDEF +10%. Before being forced into battle through melee attack, 20% chance that the unit's damage will not e reduced in melee battle."
+        "MDEF +10%. Before being forced into battle through melee attack, 20% chance that the unit's damage will not e reduced in melee battle.",
+        "cloth"
     ],
     [
         "Броня родовой магии",
@@ -689,7 +741,8 @@ var itemDat = [
         "",
         "",
         "ОЗ и ЗАЩ +5%. Подвергнувшись ближней атаке с 30% шансом снижает весь получаемый вашим юнитом урон в этой битве на 30%.",
-        "HP and DEF +5%. When under melee attack, has a 30% chance to lower damage taken by your unit in this battle by 30%."
+        "HP and DEF +5%. When under melee attack, has a 30% chance to lower damage taken by your unit in this battle by 30%.",
+        "heavy"
     ],
     [
         "Углеродная броня",
@@ -702,7 +755,8 @@ var itemDat = [
         "",
         "",
         "Когда ОЗ юнита выше 50%, ЗАЩ и МЗАЩ увеличиваются на 8%. Когда ОЗ юнита ниже 50%, АТК и Навык увеличиваются на 8%.",
-        "When unit HP is about 50%, DEF and MDEF increase by 8%. When unit HP is below 50%, ATK and SKILL increase by 8%."
+        "When unit HP is about 50%, DEF and MDEF increase by 8%. When unit HP is below 50%, ATK and SKILL increase by 8%.",
+        "heavy"
     ],
     [
         "Плащ неповиновения",
@@ -715,7 +769,8 @@ var itemDat = [
         "",
         "",
         "ЗАЩ и МЗАЩ +5%. Перед вступлением в навязанный в результате дальней атаки бой наносит врагу фиксированный урон (Урон - 1,5х МЗАЩ заклинателя).",
-        "DEF and MDEF +5%. When attacked with a range attack, deals fixed damage to enemy (damage = 1,5x Hero's MDEF)"
+        "DEF and MDEF +5%. When attacked with a range attack, deals fixed damage to enemy (damage = 1,5x Hero's MDEF)",
+        "light"
     ],
     [
         "Тёмная мантия",
@@ -728,7 +783,8 @@ var itemDat = [
         "",
         "",
         "ОЗ +5%. Когда подвергаетесь дальней атаке, ЗАЩ и МЗАЩ увеличиваются на 15%.",
-        "HP +5%. When attacked with a range attack, DEF and MDEF increase by 15%."
+        "HP +5%. When attacked with a range attack, DEF and MDEF increase by 15%.",
+        "cloth"
     ],
     [
         "Мантия смерти",
@@ -741,7 +797,8 @@ var itemDat = [
         "",
         "",
         "Крит снижается на 40%. Когда атакованы, с 30% шансом повышает получаемый врагом урон на 20%. Длится 2 хода.",
-        "Chance of being criically hit is reduced by 40%. When attacked, 30% chance to increase enemy's damage taken by 20%. Lasts 2 turn."
+        "Chance of being criically hit is reduced by 40%. When attacked, 30% chance to increase enemy's damage taken by 20%. Lasts 2 turn.",
+        "cloth"
     ],
     [
         "Кожа ящерицы - демона",
@@ -754,7 +811,8 @@ var itemDat = [
         "",
         "",
         "ОЗ +10%. Когда атакованы, с 50% шансом накладывает один мощный дебафф.",
-        "HP +10%. When attacked, 50% to deal one random debuff"
+        "HP +10%. When attacked, 50% to deal one random debuff",
+        "light"
     ],
     [
         "Доспехи хранителя",
@@ -767,7 +825,8 @@ var itemDat = [
         "",
         "",
         "ЗАЩ и МЗАЩ +5%. Когда вступает в навязанный бой, может с 30% шансом уменьшить урон, получаемый в этом бою, на 20%.",
-        "DEF and MDEF +5%. When forced into battle, has a 30% chance to reduce unit damage taken in this battle by 20%."
+        "DEF and MDEF +5%. When forced into battle, has a 30% chance to reduce unit damage taken in this battle by 20%.",
+        "heavy"
     ],
     [
         "Броня пограничного авангарда",
@@ -780,7 +839,8 @@ var itemDat = [
         "",
         "",
         "ЗАЩ и МЗАЩ +5%. При обороне ЗАЩ и МЗАЩ увеличиваются еще на 10%.",
-        "DEF and MDEF +5%. When guarding, DEF and MDEF increase by a futher 10%."
+        "DEF and MDEF +5%. When guarding, DEF and MDEF increase by a futher 10%.",
+        "heavy"
     ],
     [
         "Крылья Хугина",
@@ -793,7 +853,8 @@ var itemDat = [
         "",
         "",
         "ОЗ +5%. Будучи атакованным в ближнем бою, юнит получает +15% к ЗАЩ и МЗАЩ.",
-        "HP +5%. When melee attacked, DEF and MDEF +15%."
+        "HP +5%. When melee attacked, DEF and MDEF +15%.",
+        "cloth"
     ],
     [
         "Броня Геи",
@@ -806,7 +867,8 @@ var itemDat = [
         "",
         "",
         "Когда атакованы, ЗАЩ увеличивается на 15%. При ОЗ больше 80% получаемый магический урон снижен на 10%.",
-        "When attacked, DEF increases by 15%. When unit's HP is above 80%, Mdamage taken decreases by 10%."
+        "When attacked, DEF increases by 15%. When unit's HP is above 80%, Mdamage taken decreases by 10%.",
+        "heavy"
     ],
     [
         "Галактический плащ",
@@ -819,7 +881,8 @@ var itemDat = [
         "",
         "",
         "МЗАЩ +10%, ОЗ +5%.",
-        "MDEF +10%, HP +5%."
+        "MDEF +10%, HP +5%.",
+        "cloth"
     ],
     [
         "Куртка горгульи",
@@ -832,7 +895,8 @@ var itemDat = [
         "",
         "",
         "ОЗ +5%. Когда атакованы, ЗАЩ увеличивается на 15%.",
-        "HP +5%. When attacked, DEF increases by 15%."
+        "HP +5%. When attacked, DEF increases by 15%.",
+        "light"
     ],
     [
         "Решимость гиганта",
@@ -845,7 +909,8 @@ var itemDat = [
         "",
         "",
         "ЗАЩ +10%. Шанс получения крита -20%.",
-        "DEF +10%. Chance of being critically hit -20%."
+        "DEF +10%. Chance of being critically hit -20%.",
+        "heavy"
     ],
     [
         "Ряса Богини",
@@ -858,7 +923,8 @@ var itemDat = [
         "",
         "",
         "ЗАЩ +10%. Получаемый эффект исцеления +10%.",
-        "DEF +10%. Received Heal Effect +10%."
+        "DEF +10%. Received Heal Effect +10%.",
+        "cloth"
     ],
     [
         "Охотничьи угодья",
@@ -871,7 +937,8 @@ var itemDat = [
         "",
         "",
         "ОЗ и ЗАЩ +5%. При вступлении в бой, если НАВЫК выше, чем у противника, есть шанс 30% снижения получаемого урона на 20%.",
-        "HP and DEF +5%. When entering battle, if the SKILL is higher than the enemy, there is a 30% chance of reducing damage taken by 20%."
+        "HP and DEF +5%. When entering battle, if the SKILL is higher than the enemy, there is a 30% chance of reducing damage taken by 20%.",
+        "light"
     ],
     [
         "Последние обряды",
@@ -884,7 +951,8 @@ var itemDat = [
         "",
         "",
         "ЗАЩ +10%. Когда ОЗ этого юнита равно 100% снижает весь получаемый урон на 40%.",
-        "DEF +10%. When HP of this unit is on 100%, lowers all damage taken by 40%."
+        "DEF +10%. When HP of this unit is on 100%, lowers all damage taken by 40%.",
+        "light"
     ],
     [
         "Зеркальная броня",
@@ -897,7 +965,8 @@ var itemDat = [
         "",
         "",
         "ОЗ и ЗАЩ +5%. Когда атакованы, наносит врагу фиксированный урон (Урон - 1,5х ЗАЩ заклинателя).",
-        "HP and DEF +5%. Before attacked with a melee attack, deals fixed damage to enemy (damage - 1,5x Hero's DEF)"
+        "HP and DEF +5%. Before attacked with a melee attack, deals fixed damage to enemy (damage - 1,5x Hero's DEF)",
+        "heavy"
     ],
     [
         "Жилет Короля обезьян",
@@ -910,7 +979,8 @@ var itemDat = [
         "",
         "",
         "Когда атакованы, АТК и крит увеличиваются на 15%.",
-        "When attacked, ATK and Crit increase by 15%."
+        "When attacked, ATK and Crit increase by 15%.",
+        "light"
     ],
     [
         "Мрачные одеяния",
@@ -923,7 +993,8 @@ var itemDat = [
         "",
         "",
         "ОЗ +10%. При инициировании боя получаемый отраженный урон снижается на 30%.",
-        "HP +10%. When initiating battle, reflect demage taken is reduced by 30%."
+        "HP +10%. When initiating battle, reflect demage taken is reduced by 30%.",
+        "cloth"
     ],
     [
         "Благородная броня",
@@ -936,7 +1007,8 @@ var itemDat = [
         "",
         "",
         "ЗАЩ +10%. Уменьшает АоЕ урон на 10%.",
-        "DEF +10%. Reduce AoE damage by 10%."
+        "DEF +10%. Reduce AoE damage by 10%.",
+        "heavy"
     ],
     [
         "Ритуал замешательства",
@@ -949,7 +1021,8 @@ var itemDat = [
         "",
         "",
         "Получаемый АоЕ урон снижен на 15%, эффекты лечения +10%.",
-        "AoE damage taken decreases by 15% and healing effects +10%."
+        "AoE damage taken decreases by 15% and healing effects +10%.",
+        "cloth"
     ],
     [
         "Сияющие латы",
@@ -962,7 +1035,8 @@ var itemDat = [
         "",
         "",
         "Получаемый АоЕ урон снижен на 20%. Когда втянуты в бой, с 50% шансом снижает АТК и ИНТ врага на 20%. Длится 1 ход.",
-        "AoE damage taken decreases by 20%. When forced into battle, 50% chance to reduce enemy's ATK and INT by 20% before battle. Lasts 1 turn."
+        "AoE damage taken decreases by 20%. When forced into battle, 50% chance to reduce enemy's ATK and INT by 20% before battle. Lasts 1 turn.",
+        "light"
     ],
     [
         "Мантия Теннио",
@@ -975,7 +1049,8 @@ var itemDat = [
         "",
         "",
         "ОЗ +10%. Когда атакованы, с 30% шансом снимает с противника 1 бафф и накладывает 1 случайный дебафф.",
-        "HP +10%. When attacked, 30% chance to dispel 1 enemy's buff and inflict 1 random debuff to the enemy."
+        "HP +10%. When attacked, 30% chance to dispel 1 enemy's buff and inflict 1 random debuff to the enemy.",
+        "cloth"
     ],
     [
         "Новое одеяние жнеца",
@@ -988,7 +1063,8 @@ var itemDat = [
         "",
         "",
         "Вероятность критического удара уменьшается на 40%. Вступая в навязанный бой, 30% шанс уменьшить наносимый противником урон на 20%. Длится 2 хода.",
-        "Chance of being critically hit is redused by 40%. Before forced into battle, 30% chance to reduse enemy's damage dealt by 20%. Lasts 2 turn."
+        "Chance of being critically hit is redused by 40%. Before forced into battle, 30% chance to reduse enemy's damage dealt by 20%. Lasts 2 turn.",
+        "cloth"
     ],
     [
         "Благословение Тиамат",
@@ -1001,7 +1077,8 @@ var itemDat = [
         "",
         "",
         "ОЗ и МЗАЩ +5%. Юниты получают на 20% меньше магического урона, когда у них Смешанные войска.",
-        "HP and MDEF +5%. Unit takes 20% less Magic Damage when in mixed units."
+        "HP and MDEF +5%. Unit takes 20% less Magic Damage when in mixed units.",
+        "heavy"
     ],
     [
         "Сумеречный страж",
@@ -1014,7 +1091,8 @@ var itemDat = [
         "",
         "",
         "МЗАЩ +10%. Эффекты исцеления увеличиваются на 10%.",
-        "MDEF +10%. Healing effect increased by 10%."
+        "MDEF +10%. Healing effect increased by 10%.",
+        "cloth"
     ],
     [
         "Сумеречная броня",
@@ -1027,7 +1105,8 @@ var itemDat = [
         "",
         "",
         "МЗАЩ +8%, ЗАЩ +8%.",
-        "MDEF +8%, DEF +8%."
+        "MDEF +8%, DEF +8%.",
+        "light"
     ],
     [
         "Тайная дань",
@@ -1040,7 +1119,8 @@ var itemDat = [
         "",
         "",
         "Если ОЗ юнита выше 50%, ЗАЩ и МЗАЩ +8%. Если ОЗ ниже 50%, сила исцеления и получаемое исцеление +8%.",
-        "If the unit's HP is above 50%, DEF and MDEF +8%. If HP is below 50%, healing power and received healing +8%."
+        "If the unit's HP is above 50%, DEF and MDEF +8%. If HP is below 50%, healing power and received healing +8%.",
+        "cloth"
     ],
     [
         "Броня 3",
@@ -1053,7 +1133,8 @@ var itemDat = [
         "",
         "",
         "ОЗ +10%. При активной атаке и вступлении в бой, получаемый урон в бою снижается на 6% за каждую клетку перемещённую перед боем (до 18%).",
-        "HP +10%. When actively attacking and entering battle, the damage received in battle is reduced by 6% for each cell moved before the battle (up to 18%)."
+        "HP +10%. When actively attacking and entering battle, the damage received in battle is reduced by 6% for each cell moved before the battle (up to 18%).",
+        "light"
     ],
     [
         "Шлем Энея",
@@ -1066,7 +1147,8 @@ var itemDat = [
         "48",
         "",
         "ОЗ +10%, ЗАЩ +5%.",
-        "HP +10%, DEF +5%."
+        "HP +10%, DEF +5%.",
+        "heavy"
     ],
     [
         "Шапка штурма",
@@ -1079,7 +1161,8 @@ var itemDat = [
         "59",
         "",
         "ОЗ +5%. Когда атакуете, ЗАЩ и МЗАЩ увеличиваются на 10%.",
-        "HP +5%. When attacking, increases DEF and MDEF by 10%."
+        "HP +5%. When attacking, increases DEF and MDEF by 10%.",
+        "light"
     ],
     [
         "Благословение Коронет",
@@ -1092,7 +1175,8 @@ var itemDat = [
         "65",
         "",
         "ОЗ +10%. После совершения действия дает одному смежному союзному юниту иммунитет к превращению лечения в урон и запрету на баффы на 1 ход.",
-        "HP +10%. After taking action, grants 1 adjacent ally 20% increased DEF and immunity to Curse of Wounding (converts healing received into damage) and buff block for 1 turn."
+        "HP +10%. After taking action, grants 1 adjacent ally 20% increased DEF and immunity to Curse of Wounding (converts healing received into damage) and buff block for 1 turn.",
+        "cloth"
     ],
     [
         "Углеродный Шлем",
@@ -1105,7 +1189,8 @@ var itemDat = [
         "48",
         "",
         "Когда ОЗ юнита выше 50%, ЗАЩ и МЗАЩ увеличиваются на 8%. Когда ОЗ юнита ниже 50%, АТК и Навык увеличиваются на 8%.",
-        "When unit HP is above 50%, DEF and MDEF increase by 8%. When unit HP is below 50%, ATK and SKILL increase 8%."
+        "When unit HP is above 50%, DEF and MDEF increase by 8%. When unit HP is below 50%, ATK and SKILL increase 8%.",
+        "heavy"
     ],
     [
         "Харон",
@@ -1118,7 +1203,8 @@ var itemDat = [
         "65",
         "",
         "ЗАЩ +10%. В конце хода есть 50% шанс на увеличение всего получаемого урона на 15% у 1 врага в радиусе 3 клеток. Длится 1 ход.",
-        "DEF +10%. After taking action has a 50% chance to increase all damage received by 15% for 1 enemy within 3 blocks. Lasts 1 turn."
+        "DEF +10%. After taking action has a 50% chance to increase all damage received by 15% for 1 enemy within 3 blocks. Lasts 1 turn.",
+        "cloth"
     ],
     [
         "Шлем правителя",
@@ -1131,7 +1217,8 @@ var itemDat = [
         "48",
         "",
         "ОЗ +10%. После совершения действия дает одному смежному союзному юниту (не себе) дополнительно 20% ЗАЩ и запрещает эффекты снижения ЗАЩ, МЗАЩ и запрета на исцеление на 1 ход.",
-        "HP+10%. After taking action grants 1 adjacent ally (not including this unit) 20% extra DEF and negates DEF and MDEF reduction effects and effects that prevent them from being healed for 1 turn."
+        "HP+10%. After taking action grants 1 adjacent ally (not including this unit) 20% extra DEF and negates DEF and MDEF reduction effects and effects that prevent them from being healed for 1 turn.",
+        "heavy"
     ],
     [
         "Тёмная корона",
@@ -1144,7 +1231,8 @@ var itemDat = [
         "65",
         "",
         "МЗАЩ +10%, ОЗ +5%.",
-        "MDEF +10%, HP +5%."
+        "MDEF +10%, HP +5%.",
+        "cloth"
     ],
     [
         "Взгляд демона дракона",
@@ -1157,7 +1245,8 @@ var itemDat = [
         "59",
         "",
         "ОЗ +5%. Когда герой вынужден вступить в бой под дальней атакой, ЗАЩ +15%.",
-        "HP +5%. When forced into battle by a ranged attack, Hero DEF increses by 15%."
+        "HP +5%. When forced into battle by a ranged attack, Hero DEF increses by 15%.",
+        "light"
     ],
     [
         "Вестник Судного дня",
@@ -1170,7 +1259,8 @@ var itemDat = [
         "59",
         "",
         "МЗАЩ +10%, После совершения действия может с 50% шансом наложить на 1 вражеского юнита в пределах 2 клеток запрет на получение лечения. Длится 1 ход.",
-        "MDEF +10%. After taking action has a 50% chance to render 1 enemy unit within 2 blocks unable to receive healing. Lasts 1 turn."
+        "MDEF +10%. After taking action has a 50% chance to render 1 enemy unit within 2 blocks unable to receive healing. Lasts 1 turn.",
+        "light"
     ],
     [
         "Повелитель разрядов",
@@ -1183,7 +1273,8 @@ var itemDat = [
         "65",
         "",
         "ОЗ+10%. После совершения действия, если рядом стоит союзник, наносит на 10% больше урон контратаки и получает иммунитет к перемещению на 1 ход.",
-        "HP +10%. After taking action, if another friendly unit is adjacent, then both the hero and 1 adjacent friendly unit deal 10% increased counterattack damage and gain immunity for displacement for 1 turn."
+        "HP +10%. After taking action, if another friendly unit is adjacent, then both the hero and 1 adjacent friendly unit deal 10% increased counterattack damage and gain immunity for displacement for 1 turn.",
+        "cloth"
     ],
     [
         "Шляпа с цветком",
@@ -1196,7 +1287,8 @@ var itemDat = [
         "59",
         "",
         "ОЗ +10%. После совершения действия, если ОЗ юнита меньше 50%, исцеляет 20% ОЗ.",
-        "HP+10%. After taking action, if this unit HP is below than 50%, heals 20% of HP."
+        "HP+10%. After taking action, if this unit HP is below than 50%, heals 20% of HP.",
+        "light"
     ],
     [
         "Корона ледяного пламени",
@@ -1209,7 +1301,8 @@ var itemDat = [
         "65",
         "",
         "МЗАЩ +10%. При инициировании боя полученный урон снижается на 10%.",
-        "MDEF +10%. When initiating battle, damage taken is reduces by 10%."
+        "MDEF +10%. When initiating battle, damage taken is reduces by 10%.",
+        "cloth"
     ],
     [
         "Ярость Тюра",
@@ -1222,7 +1315,8 @@ var itemDat = [
         "48",
         "",
         "ЗАЩ +10%. Если после совершения действия вы не нанесли урон, урон навыка повышается на 10%, урон контратаки повышается на 10% на 1 ход.",
-        "DEF +10%. After taking action, if you haven't dealt damage, skill damage is increased by 10% and counterattack damage increases by 10% for 1 turn."
+        "DEF +10%. After taking action, if you haven't dealt damage, skill damage is increased by 10% and counterattack damage increases by 10% for 1 turn.",
+        "heavy"
     ],
     [
         "Шлем Геи",
@@ -1235,7 +1329,8 @@ var itemDat = [
         "48",
         "",
         "Когда атакованы, МЗАЩ +15%. При ОЗ выше 80% получаемый физический урон снижен на 10%.",
-        "When attacked, MDEF increases by 15%. When unit HP is above 80%, physical damage taken is reduced by 10%."
+        "When attacked, MDEF increases by 15%. When unit HP is above 80%, physical damage taken is reduced by 10%.",
+        "heavy"
     ],
     [
         "Сияние мира",
@@ -1248,7 +1343,8 @@ var itemDat = [
         "65",
         "",
         "ОЗ +10%. Перед тем, как быть втянутым в бой, восстанавливает 10% ОЗ цели, если юнит состоит из смешанного войска. Блокирует смертельные удары, вызванные фиксированным уроном (активируется только 1 раз за бой).",
-        "HP +10%. Before being forced into battle, heals 10% of HP if unit is formed of mixed units. Blocks fatal strikes caused by fixed damage (only triggers 1 time per battle)."
+        "HP +10%. Before being forced into battle, heals 10% of HP if unit is formed of mixed units. Blocks fatal strikes caused by fixed damage (only triggers 1 time per battle).",
+        "cloth"
     ],
     [
         "Око Ермунганда",
@@ -1261,7 +1357,8 @@ var itemDat = [
         "59",
         "",
         "ОЗ и ЗАЩ +5%. После завершения действия есть 50% шанс на снижение наносимого урона на 15% у 1 врага в радиусе 2 клеток. Длится 1 ход.",
-        "HP and Def +5%. After taking action, 50% chance to decrease damage dealt by 15% for 1 enemy within 2 blocks. Lasts 1 turn."
+        "HP and Def +5%. After taking action, 50% chance to decrease damage dealt by 15% for 1 enemy within 2 blocks. Lasts 1 turn.",
+        "light"
     ],
     [
         "Королевская корона",
@@ -1274,7 +1371,8 @@ var itemDat = [
         "59",
         "",
         "ОЗ и МЗАЩ +5%. После завершения действия дает 1 смежному союзному юниту (не себе) 20% дополнительного урона на 1 ход.",
-        "HP and MDEF +5%. After taking damage, grants 1 adjacent friendly unit (not including this unit) 20% extra damage for 1 turn)."
+        "HP and MDEF +5%. After taking damage, grants 1 adjacent friendly unit (not including this unit) 20% extra damage for 1 turn).",
+        "light"
     ],
     [
         "Маска Локи",
@@ -1287,7 +1385,8 @@ var itemDat = [
         "59",
         "",
         "ОЗ +5%. Когда подвергаетесь ближней атаке, ЗАЩ увеличивается на 15%.",
-        "HP +5%. When attacked with a melee attack, DEF increases by 15%."
+        "HP +5%. When attacked with a melee attack, DEF increases by 15%.",
+        "light"
     ],
     [
         "Перьевая корона Ньорда",
@@ -1300,7 +1399,8 @@ var itemDat = [
         "59",
         "",
         "ОЗ +10%. В битвах против юнитов с меньшим ОЗ ЗАЩ и МЗАЩ увеличиваются на 15%.",
-        "HP +10%. When battling unit with les HP, DEF and MDEF increase by 15%."
+        "HP +10%. When battling unit with les HP, DEF and MDEF increase by 15%.",
+        "light"
     ],
     [
         "Боевой шлем Одина",
@@ -1313,7 +1413,8 @@ var itemDat = [
         "65",
         "",
         "МЗАЩ +10%. В случае уничтожения врага на этом ходу снимает 5 бафф с 1 врага в радиусе 3 клеток после совершения действия.",
-        "MDEF +10%. When eliminating an enemy on this turn, dispels 5 buff from 1 enemy within 3 blocks after taking action."
+        "MDEF +10%. When eliminating an enemy on this turn, dispels 5 buff from 1 enemy within 3 blocks after taking action.",
+        "cloth"
     ],
     [
         "Дыхание жнеца",
@@ -1326,7 +1427,8 @@ var itemDat = [
         "48",
         "",
         "ОЗ +10%. Уничтожив врага на этом ходу, после завершения действия наносит один фиксированный урон по врагам в радиусе 2 клеток (урон - 20% от максимального ОЗ).",
-        "HP +10%. When eliminating enemy on this turn, after taking action, deals fixed damage once to enemies within 2 blocks at the end of your next turn (damage = 20% of max HP)."
+        "HP +10%. When eliminating enemy on this turn, after taking action, deals fixed damage once to enemies within 2 blocks at the end of your next turn (damage = 20% of max HP).",
+        "heavy"
     ],
     [
         "Шлем Виндлера",
@@ -1339,7 +1441,8 @@ var itemDat = [
         "48",
         "",
         "ОЗ +10%. Урон контратаки +15% при защите союзников.",
-        "HP +10%. Increases counterattack damage by 15% when guarding allies."
+        "HP +10%. Increases counterattack damage by 15% when guarding allies.",
+        "heavy"
     ],
     [
         "Снежная шапочка",
@@ -1352,7 +1455,8 @@ var itemDat = [
         "59",
         "",
         "ОЗ +10%. При нападении и принуждении к битве 50% шанс увеличить ЗАЩ на 20%.",
-        "HP +10%. When attacked and forced into battle, 50% to increase DEF by 20%."
+        "HP +10%. When attacked and forced into battle, 50% to increase DEF by 20%.",
+        "light"
     ],
     [
         "Головной убор похитителя душ",
@@ -1365,7 +1469,8 @@ var itemDat = [
         "65",
         "",
         "МЗАЩ +10%. После завершения действия с 50% шансом деактивирует активные навыки 1 врага в радиусе 3 клеток. Длится 1 ход.",
-        "MDEF +10%. After taking action, 50% chance to silence active skills of 1 enemy within 3 blocks. Lasts 1 turn."
+        "MDEF +10%. After taking action, 50% chance to silence active skills of 1 enemy within 3 blocks. Lasts 1 turn.",
+        "cloth"
     ],
     [
         "Завеса звезд",
@@ -1378,7 +1483,8 @@ var itemDat = [
         "65",
         "",
         "ОЗ +10%. Если ОЗ юнита >80%, после исцеления другими дружественными войсками, получает 'урон умений увеличен на 10%' и 'АТК +10%', длится 1 раунд.",
-        "HP +10%. If a unit's HP >80%, after being healed by other friendly units, receives 'skill damage increased by 10%' and 'ATK +10%', lasts 1 round."
+        "HP +10%. If a unit's HP >80%, after being healed by other friendly units, receives 'skill damage increased by 10%' and 'ATK +10%', lasts 1 round.",
+        "cloth"
     ],
     [
         "Головной убор Теннио",
@@ -1391,7 +1497,8 @@ var itemDat = [
         "65",
         "",
         "ОЗ +10%. После совершения действия с 100% шансом накладывает 1 случайный бафф на 1 союзника в радиусе 2 клеток.",
-        "HP +10%. After taking action, 100% chance to grant 1 random buff to 1 friendly unit within 2 blocks (not including this unit)."
+        "HP +10%. After taking action, 100% chance to grant 1 random buff to 1 friendly unit within 2 blocks (not including this unit).",
+        "cloth"
     ],
     [
         "Тиара",
@@ -1404,7 +1511,8 @@ var itemDat = [
         "65",
         "",
         "Когда у юнита 100% ОЗ, ЗАЩ и МЗАЩ увеличиваются на 15%.",
-        "When unit HP is at 100%, MDEF and DEF increase by 15%."
+        "When unit HP is at 100%, MDEF and DEF increase by 15%.",
+        "cloth"
     ],
     [
         "Сумеречный шлем",
@@ -1417,7 +1525,8 @@ var itemDat = [
         "59",
         "",
         "МЗАЩ +8%, ЗАЩ +8%.",
-        "MDEF +8%, DEF +8%."
+        "MDEF +8%, DEF +8%.",
+        "light"
     ],
     [
         "Меховые наушники",
@@ -1430,7 +1539,8 @@ var itemDat = [
         "65",
         "",
         "ОЗ +10%. После совершения действия 1 расположенного рядом союзника получать на 15% меньше урона и дает иммунитет к фиксированному урону. Длится 1 ход.",
-        "HP +10%. After taking action makes 1 adjacent ally take 15% less damage and become immune to fixed damage for 1 turn."
+        "HP +10%. After taking action makes 1 adjacent ally take 15% less damage and become immune to fixed damage for 1 turn.",
+        "cloth"
     ],
     [
         "Маска вампира",
@@ -1443,7 +1553,8 @@ var itemDat = [
         "48",
         "",
         "ЗАЩ +10%. После совершения действия может с 50% шансом снизить ЗАЩ 1 врага в радиусе 2 клеток на 20%. Длится 1 ход.",
-        "DEF +10%. After taking action has a 50% chance to reduce the DEF of 1 enemy within 2 blocks by 20%. Lasts 1 turn."
+        "DEF +10%. After taking action has a 50% chance to reduce the DEF of 1 enemy within 2 blocks by 20%. Lasts 1 turn.",
+        "heavy"
     ],
     [
         "Крылатый шлем сумерек",
@@ -1456,7 +1567,8 @@ var itemDat = [
         "48",
         "",
         "ОЗ +10%. Перед активным вступлением в бой, добавляет к ЗАЩ или МЗАЩ (смотря какой ниже) 8% аттрибуты который выше.",
-        "HP +10%. Before actively entering battle, adds 8% of the higher attribute of DEF or MDEF to lower."
+        "HP +10%. Before actively entering battle, adds 8% of the higher attribute of DEF or MDEF to lower.",
+        "heavy"
     ],
     [
         "Отголосок ведьмы",
@@ -1469,7 +1581,8 @@ var itemDat = [
         "65",
         "",
         "ОЗ +10%. После совершения действия НАВЫК 1 ближайшего союзного юнита увеличивается на 20%. Получает иммунитет к отмене исцеления (получаемое исцеление превращается в урон) и эффектам, запрещающим Повторное действие на 1 ход.",
-        "HP +10%. After taking action, increses SKILL of 1 nearby friendly unit by 20%. Grants immunity to heal reversal (healing dealt is converted into damage) and effectsthat stop you from acting again for 1 turn."
+        "HP +10%. After taking action, increses SKILL of 1 nearby friendly unit by 20%. Grants immunity to heal reversal (healing dealt is converted into damage) and effectsthat stop you from acting again for 1 turn.",
+        "cloth"
     ],
     [
         "Гнев Иерофанта",
@@ -1482,7 +1595,8 @@ var itemDat = [
         "48",
         "",
         "ОЗ +10%. Когда атакован, АТК увеличивается на 8%.",
-        "HP +10%. When attacked, ATK increases by 8%."
+        "HP +10%. When attacked, ATK increases by 8%.",
+        "heavy"
     ],
     [
         "Венок Иггдрасиля",
@@ -1495,7 +1609,8 @@ var itemDat = [
         "65",
         "",
         "ОЗ+10%. После совершения действия дает одному союзнику рядом (не себе) 20% дополнительной МЗАЩ, а также иммунитет к оглушению, блокированию баффов и замедлению на 1 ход.",
-        "HP +10%. After taking action, grants 1 friendly unit near you (not including this unit) 20% extra MDEF and negates stun, buff block and speed decrease effects for 1 turn."
+        "HP +10%. After taking action, grants 1 friendly unit near you (not including this unit) 20% extra MDEF and negates stun, buff block and speed decrease effects for 1 turn.",
+        "cloth"
     ],
     [
         "Тень ночной совы",
@@ -1508,7 +1623,8 @@ var itemDat = [
         "59",
         "",
         "ОЗ +10%. Если в конце действия в пределах 2 блоков нет врагов, получает 'Урон умений увеличивается на 5%' и 'АоЕ урон увеличивается на 10%', длится 1 ход.",
-        "HP +10%. If at the end of the action there are no enemies within 2 blocks, receives 'Skill damage increased by 5' and 'AoE damage increased by 10', lasts 1 turn."
+        "HP +10%. If at the end of the action there are no enemies within 2 blocks, receives 'Skill damage increased by 5' and 'AoE damage increased by 10', lasts 1 turn.",
+        "light"
     ],
     [
         "Головной убор 3",
@@ -1521,7 +1637,8 @@ var itemDat = [
         "48",
         "",
         "ОЗ +5%. Когда атакован врагом ОЗ которого равно или ниже вашего, ЗАЩ +10% в бою.",
-        "HP +5%. When attacked by an enemy whose HP is equal to or lower than yours, DEF +10% in battle."
+        "HP +5%. When attacked by an enemy whose HP is equal to or lower than yours, DEF +10% in battle.",
+        "heavy"
     ],
     [
         "Меч клятвы",
@@ -1534,7 +1651,8 @@ var itemDat = [
         "",
         "",
         "АТК и ЗАЩ +5%. При наличии классового преимущества, АТК и ЗАЩ +5%.",
-        "ATK and DEF +5%. If you have a Fusion Power effect, ATK and DEF +5%."
+        "ATK and DEF +5%. If you have a Fusion Power effect, ATK and DEF +5%.",
+        "sword"
     ],
     [
         "Астарот",
@@ -1547,7 +1665,8 @@ var itemDat = [
         "",
         "",
         "Во время боя с врагами, пораженными дебаффами, ИНТ увеличивается на 15%. Перед атакой, с 30% шансом оглушает врага после боя. Длится 1 ход.",
-        "When battling enemies afflicted by debuff, INT increases by 15%. When attacking, 30% chance to stun the enemy after battle. Lasts 1 turn"
+        "When battling enemies afflicted by debuff, INT increases by 15%. When attacking, 30% chance to stun the enemy after battle. Lasts 1 turn",
+        "staff"
     ],
     [
         "Сбалансированный клинок",
@@ -1560,7 +1679,8 @@ var itemDat = [
         "",
         "43",
         "ЗАЩ и МЗАЩ +5%. Дальность действия АоЕ - навыков +1. (Не может быть использовано с навыками дальностью 1. Не увеличивает ширину линейных АоЕ навыков).",
-        "DEF and MDEF +5%. AoE - skill effective range +1. (Cannot be used on AoE-skills with a range of 1. Does not increase width of linear AoE-skills)."
+        "DEF and MDEF +5%. AoE - skill effective range +1. (Cannot be used on AoE-skills with a range of 1. Does not increase width of linear AoE-skills).",
+        "sword"
     ],
     [
         "Соблазнительница Баттори",
@@ -1573,7 +1693,8 @@ var itemDat = [
         "",
         "54",
         "Крит увеличивается на 10%. После нанесения критического удара в бою наносит врагу фиксированный урон 1 раз (урон - 1х собственная АТК).",
-        "Crit increases by 10%. After landing a critical hit in battle, deals fixed damage once to the enemy (damage = 1x own ATK)."
+        "Crit increases by 10%. After landing a critical hit in battle, deals fixed damage once to the enemy (damage = 1x own ATK).",
+        "dagger"
     ],
     [
         "Кровавый меч Хрунтинг",
@@ -1586,7 +1707,8 @@ var itemDat = [
         "",
         "43",
         "АТК +5%. После активного нанесения урона с 50% шансом наносит дополнительный фиксированный урон (урон - 1хАТК героя).",
-        "ATK +5%. Has 50% chance to deal extra fixed damage after actively dealing damage (Damage = 1x Hero's ATK)."
+        "ATK +5%. Has 50% chance to deal extra fixed damage after actively dealing damage (Damage = 1x Hero's ATK).",
+        "sword"
     ],
     [
         "Кровавая мелодия",
@@ -1599,7 +1721,8 @@ var itemDat = [
         "",
         "43",
         "АТК +10%, ЗАЩ +5%.",
-        "ATK +10%, DEF + 5%."
+        "ATK +10%, DEF + 5%.",
+        "bow"
     ],
     [
         "Синяя луна",
@@ -1612,7 +1735,8 @@ var itemDat = [
         "",
         "",
         "ИНТ +10%, МЗАЩ +5%.",
-        "INT +10%, MDEF +5%."
+        "INT +10%, MDEF +5%.",
+        "staff"
     ],
     [
         "Синяя звезда",
@@ -1625,7 +1749,8 @@ var itemDat = [
         "",
         "",
         "Перед битвой АТК, ЗАЩ и МЗАЩ увеличиваются на 5% за каждую 1 пройденную клетку (до 15%).",
-        "ATK, DEF and MDEF increase by 5% for every 1 block moved before battle (up to 15%)."
+        "ATK, DEF and MDEF increase by 5% for every 1 block moved before battle (up to 15%).",
+        "lance"
     ],
     [
         "Костедробящий молот",
@@ -1638,7 +1763,8 @@ var itemDat = [
         "",
         "",
         "АТК +10%. Перед вступлением в инициированный бой сводит на нет все навыки вражеской брони (кроме эффектов от максимального ОЗ). Если цель - герой, не являющийся игроком, то эффект вместо этого снизит ЗАЩ на 15% на 1 ход.",
-        "ATK +10%. When initiating battle and before battle, nullifies all enemy armor skill (aside from max HP effects). If the target is a non-player hero, the effect will instead reduce DEF by 15%. Lasts 1 turn."
+        "ATK +10%. When initiating battle and before battle, nullifies all enemy armor skill (aside from max HP effects). If the target is a non-player hero, the effect will instead reduce DEF by 15%. Lasts 1 turn.",
+        "hammer"
     ],
     [
         "Разбитая звезда",
@@ -1651,7 +1777,8 @@ var itemDat = [
         "",
         "",
         "АТК +10%, ЗАЩ +5%.",
-        "ATK+10%, DEF+5%."
+        "ATK+10%, DEF+5%.",
+        "hammer"
     ],
     [
         "Копье Разрушителя заряда",
@@ -1664,7 +1791,8 @@ var itemDat = [
         "",
         "",
         "АТК +10%. При вынужденном вступлении в бой, ЗАЩ увеличивается на 2% за каждый перемещенную противником клетку (до 10%).",
-        "ATK +10%. When forced into battle, DEF increases by 2% for each cell moved by the enemy (up to 10%)."
+        "ATK +10%. When forced into battle, DEF increases by 2% for each cell moved by the enemy (up to 10%).",
+        "lance"
     ],
     [
         "Кристальное жало",
@@ -1677,7 +1805,8 @@ var itemDat = [
         "",
         "53",
         "Крит шанс и крит урон увеличиваются на 10%. Если перед боем ваш Навык выше, чем у врага, в этом бою вы игнорируете 20% ЗАЩ врага.",
-        "Crit and Crit damage increased by 10%. If your SKILL is higher then the enemy's before battle, you ignore 20% of enemy's DEF in this battle."
+        "Crit and Crit damage increased by 10%. If your SKILL is higher then the enemy's before battle, you ignore 20% of enemy's DEF in this battle.",
+        "dagger"
     ],
     [
         "Проклятое копье",
@@ -1690,7 +1819,8 @@ var itemDat = [
         "",
         "",
         "Когда атакуете, ЗАЩ увеличивается на 15%, МЗАЩ увеличивается на 15%. После боя с 50% деактивирует активные навыки врагов, не давая им исцелиться. Длится 1 ход.",
-        "When attacking, DEF and MDEF +15%. After battle, 50% chance to silence enemy's active skills and prevent them from being healed. Lasts 1 turn."
+        "When attacking, DEF and MDEF +15%. After battle, 50% chance to silence enemy's active skills and prevent them from being healed. Lasts 1 turn.",
+        "lance"
     ],
     [
         "Убийца демонов",
@@ -1703,7 +1833,8 @@ var itemDat = [
         "",
         "43",
         "АТК и Навык +8%. При нанесении критического урона снимает с врага 1 бафф и накладывает 1 дебафф.",
-        "ATK and SKILL +8%. When attack results in a critical, dispels 1 enemy buff and apply 1 debuff."
+        "ATK and SKILL +8%. When attack results in a critical, dispels 1 enemy buff and apply 1 debuff.",
+        "sword"
     ],
     [
         "Дьявольский топор",
@@ -1716,7 +1847,8 @@ var itemDat = [
         "",
         "",
         "ОЗ +5%, АТК +5%. Когда атакуете, наносит врагу фиксированный урон один раз (урон - 1хАТК героя) после боя.",
-        "HP +5%, ATK +5%. When attacking, after battle deals fixed damage once to the enemy (damage = 1x Hero's ATK)."
+        "HP +5%, ATK +5%. When attacking, after battle deals fixed damage once to the enemy (damage = 1x Hero's ATK).",
+        "axe"
     ],
     [
         "Драконоборец Грам",
@@ -1729,7 +1861,8 @@ var itemDat = [
         "",
         "",
         "АТК и ОЗ +8%. В битвах против драконов АТК, ЗАЩ и МЗАЩ увеличиваются на 10%.",
-        "ATK and HP +8%. When battling against dragons, ATK, DEF and MDEF is increase by 10%."
+        "ATK and HP +8%. When battling against dragons, ATK, DEF and MDEF is increase by 10%.",
+        "sword"
     ],
     [
         "Экстремально магический лук",
@@ -1742,7 +1875,8 @@ var itemDat = [
         "",
         "43",
         "АТК +10%. Урон юнита в ближнем бою не снижается.",
-        "ATK +10%. Unit's damage in not reduced in melee battles."
+        "ATK +10%. Unit's damage in not reduced in melee battles.",
+        "bow"
     ],
     [
         "Метёлка из перьев",
@@ -1755,7 +1889,8 @@ var itemDat = [
         "",
         "",
         "Наносимый урон снижается на 10%. Дальность обычной атаки героя +1.",
-        "Reduced damage dealt by 10%. Hero's normal attack range +1."
+        "Reduced damage dealt by 10%. Hero's normal attack range +1.",
+        "lance"
     ],
     [
         "Морозное лезвие",
@@ -1768,7 +1903,8 @@ var itemDat = [
         "",
         "43",
         "АТК +10%. Когда атакуете, с 50% шансом снижает мобильность врага на 2 клетки после боя. Длится 1 ход после боя.",
-        "ATK +10%. When attacking, 50% chance to reduce enemy's mobility by 2 blocks after battle. Lasts 1 turn."
+        "ATK +10%. When attacking, 50% chance to reduce enemy's mobility by 2 blocks after battle. Lasts 1 turn.",
+        "sword"
     ],
     [
         "Врата истины",
@@ -1781,7 +1917,8 @@ var itemDat = [
         "",
         "",
         "Когда атакуете, увеличивает ИНТ, ЗАЩ, и МЗАЩ на 15%.",
-        "When attacking, increases iNT, DEF and MDEF by 15%."
+        "When attacking, increases iNT, DEF and MDEF by 15%.",
+        "hammer"
     ],
     [
         "Дар вечной жизни",
@@ -1794,7 +1931,8 @@ var itemDat = [
         "",
         "",
         "ИНТ +5%. После атаки исцеляет дружеского юнита с наименьшим ОЗ (3х ИНТ заклинателя).",
-        "INT +5%. When attacking,after battle heals friendly unit with the lowest HP (3x caster's INT)."
+        "INT +5%. When attacking,after battle heals friendly unit with the lowest HP (3x caster's INT).",
+        "hammer"
     ],
     [
         "Левая рука богини",
@@ -1807,7 +1945,8 @@ var itemDat = [
         "",
         "",
         "Эффекты исцеления +15%. Когда атакуете, с 100% шансом снижает мобильность врага на 2 клетки после боя. Длится 1 ход.",
-        "Healing Effects +15%. When attacking, after battle grants a 100% chance to reduce enemy's mobility by 2 blocks. Lasts 1 turn."
+        "Healing Effects +15%. When attacking, after battle grants a 100% chance to reduce enemy's mobility by 2 blocks. Lasts 1 turn.",
+        "staff"
     ],
     [
         "Очищение сердца",
@@ -1820,7 +1959,8 @@ var itemDat = [
         "",
         "",
         "ИНТ +10%. При инициировании боя имеет 100% шанс наложить запрет баффов на 1 ход.",
-        "INT +10%. When actively entering battle, has a 100% chance of preventing enemy from receiving buffs for 1 turn."
+        "INT +10%. When actively entering battle, has a 100% chance of preventing enemy from receiving buffs for 1 turn.",
+        "staff"
     ],
     [
         "Лук гидры",
@@ -1833,7 +1973,8 @@ var itemDat = [
         "",
         "43",
         "АТК +10%. Перед атакой с 50% шансом уменьшает наносимый врагом урон на 20%. Длится 1 ход.",
-        "ATK +10%. Before attacking, 50% chance to reduce enemy's damage dealt by 20%. Last 1 turn."
+        "ATK +10%. Before attacking, 50% chance to reduce enemy's damage dealt by 20%. Last 1 turn.",
+        "bow"
     ],
     [
         "Последний рыцарь",
@@ -1846,7 +1987,8 @@ var itemDat = [
         "",
         "",
         "АТК +10%. Когда атакуете, с 50% шансом снижает АТК и ИНТ врага на 20%. Длится 1 ход.",
-        "ATK +10%. When attackng, 50% to reduce enemy's ATK and INT by 20%. Lasts 1 turn."
+        "ATK +10%. When attackng, 50% to reduce enemy's ATK and INT by 20%. Lasts 1 turn.",
+        "lance"
     ],
     [
         "Жало скрытня",
@@ -1859,7 +2001,8 @@ var itemDat = [
         "",
         "43",
         "Шанс критического удара +10%, ОЗ +5%. Если перемещается меньше 3 блоков, получает +1 дальность действия при использовании навыка физического урона для вступления в бой.",
-        "Crit chance +10%, HP +5%. If moving fewer than 3 blocks, gains +1 unit range when using a physical damage skill to enter battle."
+        "Crit chance +10%, HP +5%. If moving fewer than 3 blocks, gains +1 unit range when using a physical damage skill to enter battle.",
+        "bow"
     ],
     [
         "Молот Мимира",
@@ -1872,7 +2015,8 @@ var itemDat = [
         "",
         "",
         "АТК +10%. Атаковав и убив врага, или потеряв союзника, вы можете снять с себя 1 дебафф и восстановить 20% ОЗ, при этом получая +20% к урону героя в течение 1 хода.",
-        "ATK +10%. After attacking and killing an enemy, or whenever the ally dies, dispel 1 debuff from youself and restore 20% HP, while also gaining Hero Damage +20% for 1 turn."
+        "ATK +10%. After attacking and killing an enemy, or whenever the ally dies, dispel 1 debuff from youself and restore 20% HP, while also gaining Hero Damage +20% for 1 turn.",
+        "hammer"
     ],
     [
         "Чудесный посох",
@@ -1885,7 +2029,8 @@ var itemDat = [
         "",
         "",
         "Урон АоЕ навыка увеличивается на 15%. При нанесении урона есть 30% шанс получения врагом дебаффа.",
-        "AoE skill damage increases by 15%. When dealing damage, there is 30% chance the enemy will receive a debuff."
+        "AoE skill damage increases by 15%. When dealing damage, there is 30% chance the enemy will receive a debuff.",
+        "staff"
     ],
     [
         "Омела",
@@ -1898,7 +2043,8 @@ var itemDat = [
         "",
         "",
         "Эффекты исцеления +15%. Когда атакуете, наносимый врагом урон снижается на 20% после боя. Длится 1 ход.",
-        "Healing effects +15%. When attacking, after battle enemy's damage dealt decreases by 20%. Lasts 1 turn."
+        "Healing effects +15%. When attacking, after battle enemy's damage dealt decreases by 20%. Lasts 1 turn.",
+        "staff"
     ],
     [
         "Мьельнир",
@@ -1911,7 +2057,8 @@ var itemDat = [
         "",
         "",
         "АТК +10%. Перед атакой с 100% шансом снимает с врага 1 бафф.",
-        "ATK +10%. Before attacking, 100% chance to dispel 1 buff from the enemy."
+        "ATK +10%. Before attacking, 100% chance to dispel 1 buff from the enemy.",
+        "hammer"
     ],
     [
         "Цветок ночи",
@@ -1924,7 +2071,8 @@ var itemDat = [
         "",
         "",
         "ИНТ +10%. Рассеивает 1 дебафф, когда применяет навыки к союзным юнитам.",
-        "INT +10%. Dispels 1 debuff whn casting skills on friendly units."
+        "INT +10%. Dispels 1 debuff whn casting skills on friendly units.",
+        "staff"
     ],
     [
         "Козодой",
@@ -1937,7 +2085,8 @@ var itemDat = [
         "",
         "54",
         "АТК +10%, МЗАЩ +5%.",
-        "ATK +10%, MDEF +5%."
+        "ATK +10%, MDEF +5%.",
+        "dagger"
     ],
     [
         "Клятва справедливости",
@@ -1950,7 +2099,8 @@ var itemDat = [
         "",
         "",
         "ЗАЩ +8%, МЗАЩ +8%.",
-        "DEF +8%, MDEF +8%."
+        "DEF +8%, MDEF +8%.",
+        "hammer"
     ],
     [
         "Посох Олвера",
@@ -1963,7 +2113,8 @@ var itemDat = [
         "",
         "",
         "Эффекты исцеления +15%. Когда атакуете, после боя дает 50% шанс на увеличение получаемого врагом урона на 20%. Длится 1 ход.",
-        "Healing effects +15%. When attacking, after battle grants a 50% chance to increases enemy's damage taken by 20%. Lasts 1 turn."
+        "Healing effects +15%. When attacking, after battle grants a 50% chance to increases enemy's damage taken by 20%. Lasts 1 turn.",
+        "staff"
     ],
     [
         "Блеклый посох",
@@ -1976,7 +2127,8 @@ var itemDat = [
         "",
         "",
         "Урон увеличивается на 15% при использовании навыка, поражающего одну цель. После активного вступления в битву с 50% шансом накладывает на врага дебафф Уязвимость. Длится 1 ход.",
-        "Damage increases by 15% when casting single-target skills. When actively entering battle, has 50% chance of afflicting the enemy with a random debuff. Lasts for 1 turn."
+        "Damage increases by 15% when casting single-target skills. When actively entering battle, has 50% chance of afflicting the enemy with a random debuff. Lasts for 1 turn.",
+        "staff"
     ],
     [
         "Миротворец",
@@ -1989,7 +2141,8 @@ var itemDat = [
         "",
         "",
         "АТК +10%. Перед атакой с 50% шансом отключает пассивные навыки врага. Длится 2 хода.",
-        "ATK +10%. Before attacking, 50% chance to nullify enemy's passive skills. Lasts 2 turns."
+        "ATK +10%. Before attacking, 50% chance to nullify enemy's passive skills. Lasts 2 turns.",
+        "axe"
     ],
     [
         "Призмовый разрушитель",
@@ -2002,7 +2155,8 @@ var itemDat = [
         "",
         "43",
         "АТК +10%, урон по площади +10%.",
-        "ATK +10%, AoE damage +10%."
+        "ATK +10%, AoE damage +10%.",
+        "bow"
     ],
     [
         "Чистилище",
@@ -2015,7 +2169,8 @@ var itemDat = [
         "",
         "",
         "ИНТ +5%. При нанесении урона враг получает фиксированный урон один раз (урон - 2хИНТ героя) в конце следующего хода.",
-        "INT +5%. When attacking, at the end of the next turn the enemy takes the fixed damage once (Damage = 2x Hero's INT)."
+        "INT +5%. When attacking, at the end of the next turn the enemy takes the fixed damage once (Damage = 2x Hero's INT).",
+        "staff"
     ],
     [
         "Скипетр королевы",
@@ -2028,7 +2183,8 @@ var itemDat = [
         "",
         "",
         "Когда ОЗ юнита выше 80%, ИНТ увеличивается на 15%.",
-        "When unit HP is about 80%, INT increases by 15%."
+        "When unit HP is about 80%, INT increases by 15%.",
+        "hammer"
     ],
     [
         "Рагнарёк",
@@ -2041,7 +2197,8 @@ var itemDat = [
         "",
         "",
         "АТК +10%. Перед атакой с 100% шансом наносит врагу фиксированный урон один раз (урон - 1хАТК героя)",
-        "ATK +10%. Before attacking, 100% chance to deal fixed damage once to the enemy (damage = 1x Hero's ATK)."
+        "ATK +10%. Before attacking, 100% chance to deal fixed damage once to the enemy (damage = 1x Hero's ATK).",
+        "axe"
     ],
     [
         "Красная луна",
@@ -2054,7 +2211,8 @@ var itemDat = [
         "",
         "",
         "ИНТ +10%, ОЗ +5%.",
-        "INT +10%, HP +5%."
+        "INT +10%, HP +5%.",
+        "staff"
     ],
     [
         "Копье сокрушения",
@@ -2067,7 +2225,8 @@ var itemDat = [
         "",
         "",
         "АТК +10%. Наносимый урон увеличивается на 2% за каждую клетку, пройденную до инициирования боя (до 10%). При прохождении 3 и более клеток враг не сможет применять эффект стража в течение 1 хода после боя.",
-        "ATK +10%. Damage dealt is increased by 2% for each block, moved before initiating battle (up to 10%). When moving 3 or more blocks, the enemy's Guard is disabled for 1 turn after battle."
+        "ATK +10%. Damage dealt is increased by 2% for each block, moved before initiating battle (up to 10%). When moving 3 or more blocks, the enemy's Guard is disabled for 1 turn after battle.",
+        "lance"
     ],
     [
         "Алый жнец",
@@ -2080,7 +2239,8 @@ var itemDat = [
         "",
         "",
         "АТК +10%, Если перед активным нанесением урона ОЗ врага меньше 100%, то наносимый урон в этот раз повышается на 5%, а после нанесения урона наносит фиксированный урон, равный АТК героя х0,5 1 раз.",
-        "ATK +10%. Before actively dealing damage, if the enemy's HP is less then 100%, damage dealt this time is increased by 5%, and after dealing damage, deals fixed damage 1 time equal to Hero's ATKx0,5."
+        "ATK +10%. Before actively dealing damage, if the enemy's HP is less then 100%, damage dealt this time is increased by 5%, and after dealing damage, deals fixed damage 1 time equal to Hero's ATKx0,5.",
+        "axe"
     ],
     [
         "Божественный скипетр",
@@ -2093,7 +2253,8 @@ var itemDat = [
         "",
         "",
         "ОЗ +5%. Когда юнит находится на местности без бонуса к защите и использует дальние навыки для иницирования боя, его дальность увеличивается на 1 (этот эффект перекрывает эффект, который игнорирует снижение ближнего урона)",
-        "HP +5%. When on terrain with no defensive bonus and using ranged skills to initiate battle, unit range is increased by 1. (Skills that ignored melee penalty override this effect)."
+        "HP +5%. When on terrain with no defensive bonus and using ranged skills to initiate battle, unit range is increased by 1. (Skills that ignored melee penalty override this effect).",
+        "staff"
     ],
     [
         "Страж печати",
@@ -2106,7 +2267,8 @@ var itemDat = [
         "",
         "",
         "АТК +10%, ЗАЩ +5%.",
-        "ATK +10%, DEF + 5%."
+        "ATK +10%, DEF + 5%.",
+        "sword"
     ],
     [
         "Печать бури",
@@ -2119,7 +2281,8 @@ var itemDat = [
         "",
         "",
         "ЗАЩ +10%. Вступая в ближний бой, есть 100% шанс нанести врагу один раз фиксированный урон, равный 1хЗАЩ героя.",
-        "DEF +10%. Before initiating battle with a melee attack, has 100% chance to deal fixed damage once to the enemy equal to 1x Hero's DEF."
+        "DEF +10%. Before initiating battle with a melee attack, has 100% chance to deal fixed damage once to the enemy equal to 1x Hero's DEF.",
+        "lance"
     ],
     [
         "Дух печали",
@@ -2132,7 +2295,8 @@ var itemDat = [
         "",
         "54",
         "Когда атакуете, увеличивает крит на 15% и уменьшает получаемый урон на 30%.",
-        "When attacking, increases Crit by 15% and reduses damage taken by 30%."
+        "When attacking, increases Crit by 15% and reduses damage taken by 30%.",
+        "dagger"
     ],
     [
         "Страж трона",
@@ -2145,7 +2309,8 @@ var itemDat = [
         "",
         "",
         "АТК +10%, ОЗ +5%.",
-        "ATK +10%, HP +5%."
+        "ATK +10%, HP +5%.",
+        "axe"
     ],
     [
         "Лук Уллра",
@@ -2158,7 +2323,8 @@ var itemDat = [
         "",
         "43",
         "Физический урон снижен на 10%. Дальность юнита увеличивается на 1.",
-        "Physical damage decreases by 10%. Unit range increases by 1."
+        "Physical damage decreases by 10%. Unit range increases by 1.",
+        "bow"
     ],
     [
         "Рыцарь ветра",
@@ -2171,7 +2337,8 @@ var itemDat = [
         "",
         "",
         "АТК +10%. Когда инициирует бой против врага, имеющего 100% ОЗ, АТК, ЗАЩ и МЗАЩ юнита увеличиваются на 5%.",
-        "ATK +10%. When initiating battle against the enemy that has 100% HP, ATK, DEF and MDEF increase by 5%."
+        "ATK +10%. When initiating battle against the enemy that has 100% HP, ATK, DEF and MDEF increase by 5%.",
+        "sword"
     ],
     [
         "Кинжал режущий ветер",
@@ -2184,7 +2351,8 @@ var itemDat = [
         "",
         "54",
         "АТК +10%. При инициировании боя дает 50% шанс на снижение ЗАЩ врага на 20% после боя. Длится 1 ход.",
-        "ATK +10%. When initiating battle, has a 50% chance to reduce the enemy's DEF by 20% after battle. Lasts 1 turn."
+        "ATK +10%. When initiating battle, has a 50% chance to reduce the enemy's DEF by 20% after battle. Lasts 1 turn.",
+        "dagger"
     ],
     [
         "Ветвь Иггдрасиля",
@@ -2197,7 +2365,8 @@ var itemDat = [
         "",
         "",
         "ЗАЩ +10%. В бою игнорирует 15% ЗАЩ врага.",
-        "DEF +10%. In battle, ignores 15% of enemy's DEF."
+        "DEF +10%. In battle, ignores 15% of enemy's DEF.",
+        "lance"
     ],
     [
         "Звездный пронзитель",
@@ -2210,7 +2379,8 @@ var itemDat = [
         "",
         "43",
         "АТК +10%. Перед вступлением в бой, если ОЗ цели выше 80%, на врага будет наложен дебафф 'ЗАЩ -30%' на 1 ход.",
-        "ATK +10%. Before entering battle, if the target's HP is above 80%, the enemy will be afflicted with the 'DEF -30%' debuff for 1 turn."
+        "ATK +10%. Before entering battle, if the target's HP is above 80%, the enemy will be afflicted with the 'DEF -30%' debuff for 1 turn.",
+        "bow"
     ],
     [
         "Оружие 3",
@@ -2223,15 +2393,51 @@ var itemDat = [
         "",
         "",
         "ОЗ +5%. После применения навыка на враге, 100% шанс наложить 1 случайный дебафф.",
-        "HP +5%. After using a skill on an enemy, there is a 100% chance to apply 1 random debuff."
+        "HP +5%. After using a skill on an enemy, there is a 100% chance to apply 1 random debuff.",
+        "staff"
     ]
 ]
 
 function itemView (itemType) {
+	ss='';
+	var it_type = document.querySelectorAll('.it_type');
+	for (var ii = 0; ii < it_type.length; ii++) {
+		it_type[ii].chosen = false;
+		if (it_type[ii].classList.contains('active_i')){it_type[ii].className = it_type[ii].className.replace(" active_i", "")}
+	}
 	var id = document.getElementById('item_data');
 	id.innerHTML = '';
+	if (itemType=='body' || itemType=='hat'){
+		typeb = document.getElementById('typeb');
+		typew = document.getElementById('typew');
+		if (typeb.classList.contains('display_none')){
+			typeb.className = typeb.className.replace("display_none", "display_inline_block")
+		}
+		if (typew.classList.contains('display_inline_block')){
+			typew.className = typew.className.replace("display_inline_block", "display_none")
+		}
+	}
+	if (itemType=='weapon'){
+		typew = document.getElementById('typew');
+		if (typew.classList.contains('display_none')){
+			typew.className = typew.className.replace("display_none", "display_inline_block")
+		}
+		if (typeb.classList.contains('display_inline_block')){
+			typeb.className = typeb.className.replace("display_inline_block", "display_none")
+		}
+	}
+	if (itemType=='accessoir'){
+		typew = document.getElementById('typew');
+		if (typew.classList.contains('display_inline_block')){
+			typew.className = typew.className.replace("display_inline_block", "display_none")
+		}
+		if (typeb.classList.contains('display_inline_block')){
+			typeb.className = typeb.className.replace("display_inline_block", "display_none")
+		}
+	}
 	//id.innerHTML = itemDat[111][8];
 	var i;
+	
 	for (i=1;i<itemDat.length;i++){
 		if (itemDat[i][2]==itemType){
 			if (itemDat[i][3]!=''){var oz='<img src="images/sold_stats.png" height="23px" /><span style="font-size:20px;vertical-align:super;margin-right:10px;">HP: ' + itemDat[i][3] + '</span>'}else{var oz=''};
@@ -2240,7 +2446,7 @@ function itemView (itemType) {
 			if (itemDat[i][6]!=''){var def='<img src="images/sold_stats.png" height="23px" /><span style="font-size:20px;vertical-align:super;margin-right:10px;">DEF: ' + itemDat[i][6] + '</span>'}else{var def=''};
 			if (itemDat[i][7]!=''){var mdef='<img src="images/sold_stats.png" height="23px" /><span style="font-size:20px;vertical-align:super;margin-right:10px;">MDEF: ' + itemDat[i][7] + '</span>'}else{var mdef=''};
 			if (itemDat[i][8]!=''){var crit='<img src="images/sold_stats.png" height="23px" /><span style="font-size:20px;vertical-align:super;margin-right:10px;">SKILL: ' + itemDat[i][8] + '</span>'}else{var crit=''};
-			id.innerHTML += '<div style="display:block;width:95%;height:140px;"><div style="display:block;width:150px;float:left;"><img src="images/itemIcons/all/' + itemDat[i][0] + 
+			id.innerHTML += '<div class="all ' +itemDat[i][11]+ '" style="display:block;width:95%;height:140px;"><div style="display:block;width:150px;float:left;"><img src="images/itemIcons/all/' + itemDat[i][0] + 
 			'.png" height="120px" /></div><div style="display:block;width:700px;float:left;"><b style="font-size: 23px;margin-right: 50px;float:left;">' + itemDat[i][1]+ 			'</b>' +
 //			'<img src="images/Move_Walk.png" height="23px" /><span style="font-size:20px;vertical-align:super;margin: 0 10px;">' + soldDat[i][6] + 
 //			'</span> <img src="images/Icon_Range.png" height="23px" /><span style="font-size:20px;vertical-align:super;margin: 0 10px;">' + soldDat[i][7] + 
