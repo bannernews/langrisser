@@ -39,6 +39,9 @@ a:visited{
 	background-repeat: no-repeat;
 	background-size:90%;
 }
+.active_i{
+	filter: drop-shadow(1px 1px 5px white);
+}
 /* .active_item{
 	background-image: url(../images/active_f.png);
 	background-position:bottom -4px right;
@@ -215,6 +218,9 @@ body{
 .display_block{
 	display:block;
 }
+.display_inline_block{
+	display:inline-block;
+}
 .box_shadow{
 	box-shadow: 0 0 26px white;
 }
@@ -229,4 +235,16 @@ body{
 }
 #untreepic:hover{
 	box-shadow: 1px 1px 20px aliceblue;
+}
+.it_type{
+	width: 150px;
+	height: 30px;
+	margin-left: 100px;
+	margin-bottom: 20px;
+}
+.it_type_b{
+	width: 150px;
+	height: 30px;
+	margin-left: 100px;
+	margin-bottom: 20px;
 }
