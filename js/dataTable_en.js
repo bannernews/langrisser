@@ -10883,7 +10883,7 @@ var dataTable = [
         "HP +10%. When the hero activates the revive effect of her talent, gain \"Before entering battle, deals fixed damage equal to 2x INT and heal self for 2x INT.\" Lasts 1 turn.",
         "",
         "15",
-        "10",
+        "40",
         "10",
         "35",
         "Элитная пехота,Тяжелая пехота,Служанка в маске,Галантный дуэлянт,Амазонка,Амазонка-чемпион,Паладин,Рыцарь-тамплиер,Небесный страж,Единорог,Осквернитель пламени,Монах,Экзорцист,Фанатик",
