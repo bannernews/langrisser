@@ -28913,7 +28913,7 @@ var commonSkills = [
         "-",
         "-",
         "-",
-        "[Passive] When HP is below 50%, damage taken is reduced by 15%.",
+        "[Passive] When HP is above 50%, damage taken is reduced by 15%.",
         "Windride"
     ],
     [
