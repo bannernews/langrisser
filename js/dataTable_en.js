@@ -2200,8 +2200,8 @@ var dataTable = [
         "",
         "",
         "Т",
-        "Heart of the Creator",
-        "Damage increases by (15%, 20%, 25%, 30%)<br><br>At the end of the action, if the hero did not attack, can perform a “Spell Preparation” to strengthen the next skill ([Annihilation] to focus damage, [Gathered Energy] to increase range, [Catalyst] to reduce cooldown). The number of buff rounds will not decrease, and can move another 2 squares and attack again. ([Trigger Cooldown] Spell Preparation requires an interval of (3, 3, 2, 2) turns before it can be activated again). After each \"Spell Preparation\" different from the previous one, the unit's range is +1 (maximum +2).<br><br>[Annihilation]: [Active] Gains [Annihilation]: “When using skills to attack, you can attack again, and the damage dealt by the second attack is halved; When using long-range skills, the skill's range is reduced by -1\", cannot be immune, cannot be dispelled, and lasts until the next skill attack.<br><br>[Collected Energy]: [Active] Gains [Collected Energy]: “When using skills to attack, the unit's attack range is +2; can only move in a straight line\", cannot be immunized, cannot be dispelled, and lasts until the next use of the skill.<br><br>[Catalyst]: [Active] Receives [Catalyst]: “After using a skill to attack, the cooldown of the skill is -3; after other \"spell preparations\" [trigger cooldown] will be increased by 1 more round\", cannot be immunized, cannot be dispelled, lasts until the next skill attack.",
+        "Heart of the Molder",
+        "Damage increases by (15%, 20%, 25%, 30%)<br><br>At the end of the action, if the hero did not attack, can perform a “Spell Preparation” to strengthen the next skill ([Eradicate] to focus damage, [Agglomerate] to increase range, [Catalyze] to reduce cooldown). The number of buff rounds will not decrease, and can move another 2 squares and attack again. ([Trigger Cooldown] Spell Preparation requires an interval of (3, 3, 2, 2) turns before it can be activated again). After each \"Spell Preparation\" different from the previous one, the unit's range is +1 (maximum +2).<br><br>[Annihilation]: [Active] Gains [Annihilation]: “When using skills to attack, you can attack again, and the damage dealt by the second attack is halved; When using long-range skills, the skill's range is reduced by -1\", cannot be immune, cannot be dispelled, and lasts until the next skill attack.<br><br>[Collected Energy]: [Active] Gains [Collected Energy]: “When using skills to attack, the unit's attack range is +2; can only move in a straight line\", cannot be immunized, cannot be dispelled, and lasts until the next use of the skill.<br><br>[Catalyst]: [Active] Receives [Catalyst]: “After using a skill to attack, the cooldown of the skill is -3; after other \"spell preparations\" [trigger cooldown] will be increased by 1 more round\", cannot be immunized, cannot be dispelled, lasts until the next skill attack.",
         "",
         "",
         "",
@@ -8218,8 +8218,8 @@ var dataTable = [
         "",
         "",
         "Т",
-        "Mark of Excommunication",
-        "Attack and crit chance are increased by (10%, 15%, 20%, 25%), and the reduction in melee damage does not affect the unit's attack.<br><br>When moving, it ignores obstacles in the form of enemy units and does not spend movement points when passing through them. Applies [Poison] to passing enemies: “Debuffs received last +1 turn, and the chance of receiving a critical hit is increased by 20%; when this effect is obtained again, the duration is updated and increased to [Deadly Erosion] and the additional effects are obtained: If at the end of the action the unit has at least 4 debuffs, dies immediately (in PVE mode it will be replaced with \"Deals [fixed damage] equal to 5x atk)\"). (Both [Poison] and [Deadly Erosion] have no immunity and cannot be dispelled, lasts 2 rounds).",
+        "Inexorable Brand",
+        "Attack and crit chance are increased by (10%, 15%, 20%, 25%), and the reduction in melee damage does not affect the unit's attack.<br><br>When moving, it ignores obstacles in the form of enemy units and does not spend movement points when passing through them. Applies [Cunning Toxin] to passing enemies: “Debuffs received last +1 turn, and the chance of receiving a critical hit is increased by 20%; when this effect is obtained again, the duration is updated and increased to [Death's Erosion] and the additional effects are obtained: If at the end of the action the unit has at least 4 debuffs, dies immediately (in PVE mode it will be replaced with \"Deals [fixed damage] equal to 5x atk)\"). (Both [Cunning Toxin] and [Death's Erosion] have no immunity and cannot be dispelled, lasts 2 rounds).",
         "",
         "",
         "",
@@ -9852,7 +9852,7 @@ var dataTable = [
         "Т",
         "Planned countershield",
         "ATK and DEF increases by (15%, 20%, 25%, 30%). <br><br>At the end of the action, can summon [Kingdom Shield] within a radius of 4 blocks (which inherits the hero type and the corresponding attributes (60%, 70%, 80%, 90%)); if there is already a [Kingdom Shield] summoned on the field, it can teleport it within 2 blocks around itself. ([Trigger Cooldown] requires an interval of (4, 3, 2, 2) rounds before it can be activated again). <br><br>Kingdom Shield: <br><br>Talent: unable to move, attack or move, cannot be healed, immune to all debuffing effects. Once the defense range is specified, the Kingdom Shield cannot be controlled and lasts for 3 rounds. <br><br>[Formation Guard of Glory] (range: 7 blocks): <br><br>[Active] Can designate a 3-line defense zone, and receive: “[Command] ATK and INT of enemies within the defense radius will be reduced by 15%.\" Lasts 4 rounds and cannot be dispelled.",
-        "Global - 22.08.2024",
+        "Glory and Decay",
         "броня",
         "25",
         "",
@@ -27844,8 +27844,8 @@ var persSkills = [
         ""
     ],
 	[
-        "The power of rethinking",
-        "Сила переосмысления",
+        "Power of Reinvention",
+        "Мощь преображения",
         "1",
         "5",
         "",
@@ -27864,8 +27864,8 @@ var persSkills = [
         "[Magic Damage] Attacks one enemy, dealing 1.5x damage. For each Spell Preparation you have, this damage will be increased by 15%. After the attack, all [Trigger Cooldowns] will be reduced by 1 turn."
     ],
 	[
-        "Punishment Scythe",
-        "Коса наказания",
+        "Scythe of Retribution",
+        "Коса Возмездия",
         "3",
         "1",
         "3",
@@ -27884,34 +27884,34 @@ var persSkills = [
         ""
     ],
 	[
-        "Execution Spike",
+        "Thorns of Execution",
         "Шип казни",
         "1",
         "7",
         "all",
         "one target",
         "3",
-        "[Passive] Can move again after attacking. The number of cells to move this time is equal to the number of cells the hero moved before the battle.<br><br>[Active] Select an enemy and apply [Poison], which cannot be immune to and can't be dispelled, lasts 2 rounds. After use, the number of turns of the buff effect on the hero will not be reduced. You can move 3 cells and attack again."
+        "[Passive] Can move again after attacking. The number of cells to move this time is equal to the number of cells the hero moved before the battle.<br><br>[Active] Select an enemy and apply [Cunning Toxin], which cannot be immune to and can't be dispelled, lasts 2 rounds. After use, the number of turns of the buff effect on the hero will not be reduced. You can move 3 cells and attack again."
     ],
 	[
-        "Violent Corrosion",
-        "Яростная коррозия",
+        "Vicious Corruption",
+        "Порочная порча",
         "2",
         "2",
         "4",
         "straight-line",
         "3",
-        "[Physical Damage] Attacks all enemies in a straight line, dealing 0.3x AoE damage and applies [Poison] to enemies, cannot be immune or dispelled. Lasts 2 rounds, and also applies a random strong debuff. After a critical hit with this skill, an additional powerful debuff will be applied to the enemy."
+        "[Physical Damage] Attacks all enemies in a straight line, dealing 0.3x AoE damage and applies [Cunning Toxin] to enemies, cannot be immune or dispelled. Lasts 2 rounds, and also applies a random strong debuff. After a critical hit with this skill, an additional powerful debuff will be applied to the enemy."
     ],
 	[
-        "Wedge's Sharp Thorn",
-        "Острый шип Веджа",
+        "Wedge Sting",
+        "Жало клинка",
         "3",
         "2",
         "2",
         "one target",
         "3",
-        "[Passive] After an active attack and entering battle, deals 1 time [fixed damage] to other enemies within 1 circle around the target (enemies with [Poison] or [Deadly Erosion] are not immune), and the damage value is equal to the damage in the current battle x0.2 (up to a maximum of 10 times the size of your own attack).<br><br>[Physical Damage] Attacks one enemy, dealing 1.5x damage. [Fixed Damage] dealt by the passive effect after an attack is doubled. When wearing a melee soldier, the soldiers will also attack at the same time. If the enemy already has [Poison] or [Deadly Erosion], the enemy will be [Stunned] before the fight lasts 1 turn. After dealing damage, cast [Deadly Erosion] on a target that cannot be immune or dispelled, lasting 2 turns."
+        "[Passive] After an active attack and entering battle, deals 1 time [fixed damage] to other enemies within 1 circle around the target (enemies with [Cunning Toxin] or [Death's Erosion] are not immune), and the damage value is equal to the damage in the current battle x0.2 (up to a maximum of 10 times the size of your own attack).<br><br>[Physical Damage] Attacks one enemy, dealing 1.5x damage. [Fixed Damage] dealt by the passive effect after an attack is doubled. When wearing a melee soldier, the soldiers will also attack at the same time. If the enemy already has [Cunning Toxin] or [Death's Erosion], the enemy will be [Stunned] before the fight lasts 1 turn. After dealing damage, cast [Deadly Erosion] on a target that cannot be immune or dispelled, lasting 2 turns."
     ],
 	[
         "Шион",
