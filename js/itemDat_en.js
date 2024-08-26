@@ -1482,8 +1482,8 @@ var itemDat = [
         "",
         "65",
         "",
-        "ОЗ +10%. Если ОЗ юнита >80%, после исцеления другими дружественными войсками, получает 'урон умений увеличен на 10%' и 'АТК +10%', длится 1 раунд.",
-        "HP +10%. If a unit's HP >80%, after being healed by other friendly units, receives 'skill damage increased by 10%' and 'ATK +10%', lasts 1 round.",
+        "ОЗ +10%. Если ОЗ юнита >80%, после исцеления другими дружественными войсками, получает 'урон умений увеличен на 10%' и 'урон от обычных атак +10%', длится 1 раунд.",
+        "HP +10%. If a unit's HP >80%, after being healed by other friendly units, receives 'skill damage increased by 10%' and 'normal atack damage +10%', lasts 1 round.",
         "cloth"
     ],
     [
