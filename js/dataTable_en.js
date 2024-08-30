@@ -25561,7 +25561,7 @@ var persSkills = [
         "7",
         "one target",
         "1",
-        "[Active] Casts [Duel] on 1 target enemy: \"Cannot use skills or normal attacks against any unit other than the caster.\" Cannot be dispelled. Lasts 2 turns. In competitive mode, this effect is changed to: Deals 30% less damage.\" After using a skill, this unit's ATK and DEF are increased by 20% for 2 turns, and they receive [Bait]: [Duel], the chance of getting a critical hit is reduced by 100% blow.\" Cannot be dispelled, ignores immunities, and lasts 2 turns. When this unit has [Bait], the skill is replaced with [Zan Spark]."
+        "[Active] Casts [Duel] on 1 target enemy: \"Cannot use skills or normal attacks against any unit other than the caster.\" Cannot be dispelled. Lasts 2 turns. In non-PVP mode, this effect is changed to: Deals 30% less damage.\" After using a skill, this unit's ATK and DEF are increased by 20% for 2 turns, and they receive [Bait]: [Duel], the chance of getting a critical hit is reduced by 100% blow.\" Cannot be dispelled, ignores immunities, and lasts 2 turns. When this unit has [Bait], the skill is replaced with [Zan Spark]."
     ],
     [
         "София",
