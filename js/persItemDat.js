@@ -1728,6 +1728,21 @@ var persItemDat = [
         "ATK +10%. Может получать преимущества от эффекта «энергии слияния» [Легиона Света]. Навыки с АОЕ-уроном становятся одиночными, шанс крита героя увеличивается на 3% за каждую 1 клетку расстояния до цели (до 15%).",
         "ATK +10%. May receive 'Legion of Glory' Fusion Power effects. AoE skills now target tiles. The further this unit is from its targets, the greater the critical hit rate, giving +3% critical hit rate per block (up to 15%)."
     ],
+	[
+        "Табрес",
+        "Tabres",
+        "Глобал - 09.01.2025",
+        "Global - 09.01.2025",
+        "hat",
+        "583",
+        "",
+        "",
+        "",
+        "48",
+        "",
+        "ОЗ +10%. Когда враг атакует союзника и наносит ему урон, этот враг получает 1 слой [Тёмных перьев]. При использования навыка для инициирования боя, время восстановления этого навыка уменьшается на 1 ход за каждый слой [Тёмных перьев] у врага.",
+        "HP +10%. When an enemy attacks and damages an ally, that enemy gains 1 layer of [Shadow Feathers]. When using a skill to initiate combat, the cooldown time of this skill is reduced by 1 turn for each layer of [Shadow Feathers] the enemy has."
+    ],
     [
         "Таталия",
         "Tatalia",

@@ -1584,6 +1584,20 @@ var soldDat = [
         "assasin",
         "Зерида,Сигма,Омега,Хией,Курама,Оливиер,Цубамэ,Вернер,Лостхэм,Таталия,Лиза"
     ],
+	[
+        "Шип темного пера",
+        "Dark feather thorn",
+        "38",
+        "43",
+        "20",
+        "20",
+        "3",
+        "2",
+        "АТК увеличена на 15%, шанс критического удара увеличен на 30%. Если в конце действия юнит находится в опасной зоне, АТК и критический урон увеличиваются на 20% на 1 ход.",
+        "ATK increased by 15%, critical strike chance increased by 30%. If at the end of the action unit is in the danger zone, ATK and critical damage are increased by 20% for 1 turn.",
+        "assasin",
+        "Зерида,Феракуа,Сигма,Омега,Эпсилон,Вернер,Джулиан,Таталия,Серафина,Нож Марк и Ниндзя Гиндзу"
+    ],
     [
         "Чернокнижник",
         "Warlock",
@@ -1919,6 +1933,20 @@ var soldDat = [
         "All physical damage is considered as magical damage. The hero's healing effects are increased by 15%. When a hero use a skill on an ally, there is a 100% chance to reduce the cooldown of a random damage-dealing skill by -1.",
         "holy",
         "Альмеда,Джессика,София,Анжелика,Лиана,Тиарис,Аватар Света,Юная Джессика,Мю,Сисси Уайт,Люгнер,Нимфа,Яркий призыватель,Эния"
+    ],
+	[
+        "Сияющий святой",
+        "Shining Saint",
+        "38",
+        "40",
+        "22",
+        "22",
+        "3",
+        "2",
+        "«Физический урон», нанесенный обычными атаками, считается как «Магический урон». Атака солдата увеличивается на 30%. Дополнительно Атака увеличивается на 5% за каждый 1 блок, пройденный перед атакой, а солдаты восстанавливаются 5% от максимального здоровья (максимум до 15%)",
+        "'Physical Damage' dealt by normal attacks is counted as 'Magic Damage'. Soldier's ATK is increased by 30%. Additionally, ATK is increased by 5% for every 1 block passed before the attack, and soldiers recover 5% of their maximum HP (up to 15%)",
+        "holy",
+        "Ламбда,Юная Джессика,Мю,Аватар Света,Лукреция,Мариандель,Кагуя,Аданкельмо,Кирика,Тормил,Джесс,Илия"
     ],
     [
         "Солдат - скелет",

@@ -1848,6 +1848,21 @@ var persItemDat = [
         "ОЗ и ЗАЩ +5%. Когда сражается с врагом у которого есть [сопротивление смертельнмоу урону], АТК и ЗАЩ войск увеличиваются на 10%. После получения смертельного урона и срабатывании таланта, на клетке героя появится [осколок души]. (Перезарядка того эффекта 3 хода).",
         "HP and DEF +5%. When fighting an enemy who has [lethal damage resistance], ATK and DEF increases by 10%. After receiving fatal damage and triggering the talent, a [soul fragment] will appear on the hero’s cell. (Recharge of that effect 3 turns)."
     ],
+	[
+        "Табрес",
+        "Tabres",
+        "Глобал - 09.01.2025",
+        "Global - 09.01.2025",
+        "hat",
+        "583",
+        "",
+        "",
+        "",
+        "48",
+        "",
+        "ОЗ +10%. Когда враг атакует союзника и наносит ему урон, этот враг получает 1 слой [Тёмных перьев]. При использования навыка для инициирования боя, время восстановления этого навыка уменьшается на 1 ход за каждый слой [Тёмных перьев] у врага.",
+        "HP +10%. When an enemy attacks and damages an ally, that enemy gains 1 layer of [Shadow Feathers]. When using a skill to initiate combat, the cooldown time of this skill is reduced by 1 turn for each layer of [Shadow Feathers] the enemy has."
+    ],
     [
         "Таталия",
         "Tatalia",

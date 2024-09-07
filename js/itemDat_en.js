@@ -618,6 +618,20 @@ var itemDat = [
         "ATK and INT +5%. When actively attacking and entering battle, it silence the skill of the enemy’s accessory. If the target is a non-player hero, the effect is instead replaced with 'Damage taken increases by 10%'",
         "accs"
     ],
+	[
+        "Акс 4",
+        "---",
+        "accessoir",
+        "509",
+        "",
+        "75",
+        "",
+        "",
+        "",
+        "Сила исцеления +10%, ОЗ +5%. Каждый раз когда союзник получает урон от навыка, герой получает 1 стак: 'В конце действия или при получении урона, восстанавливает ОЗ союзников у которых ОЗ меньше 80% в радиусе 2 клеток на 1.5х ИНТ и снимает этот эффект'. Максимум 5 стаков",
+        "Healing power +10%, HP +5%. Each time an ally receives damage from a skill, the hero receives 1 stack: “At the end of the action or when receiving damage, restores the HP of allies whose HP is less than 80% within a radius of 2 cells by 1.5x INT and remove this effect.” Maximum 5 stacks",
+        "accs"
+    ],
     [
         "Броня Энея",
         "Aeneas' Armor",
@@ -1136,6 +1150,20 @@ var itemDat = [
         "HP +10%. When actively attacking and entering battle, the damage received in battle is reduced by 6% for each cell moved before the battle (up to 18%).",
         "light"
     ],
+	[
+        "Броня 4",
+        "---",
+        "body",
+        "437",
+        "",
+        "",
+        "65",
+        "",
+        "",
+        "ОЗ и ЗАЩ +5%. Когда подвергается атаке и втянут в бой, 100% шанс развеять 1 бафф у врага.",
+        "HP and DEF +5%. When attacked by enemy and enter into battle, has a 100% chance to dispel 1 buff from the enemy.",
+        "heavy"
+    ],
     [
         "Шлем Энея",
         "Aeneas' Helmet",
@@ -1639,6 +1667,20 @@ var itemDat = [
         "ОЗ +5%. Когда атакован врагом ОЗ которого равно или ниже вашего, ЗАЩ +10% в бою.",
         "HP +5%. When attacked by an enemy whose HP is equal to or lower than yours, DEF +10% in battle.",
         "heavy"
+    ],
+	[
+        "Головной убор 4",
+        "---",
+        "hat",
+        "364",
+        "",
+        "",
+        "",
+        "65",
+        "",
+        "ОЗ +10%. В конце действия, если рядом есть союзник, герой и случайный союзник рядом получают 'АоЕ урон уменьшается на 15%' и иммунитет к запрету активных навыков на 1 ход.",
+        "HP +10%. At the end of the action, if there is an ally nearby, the hero and a random ally nearby receive 'AoE damage reduced by 15%' and immunity to active skill ban for 1 turn.",
+        "cloth"
     ],
     [
         "Меч клятвы",
@@ -2395,6 +2437,20 @@ var itemDat = [
         "ОЗ +5%. После применения навыка на враге, 100% шанс наложить 1 случайный дебафф.",
         "HP +5%. After using a skill on an enemy, there is a 100% chance to apply 1 random debuff.",
         "staff"
+    ],
+	[
+        "Оружие 4",
+        "---",
+        "weapon",
+        "",
+        "96",
+        "",
+        "",
+        "",
+        "53",
+        "АТК +10%. При активной атаке и вступлении в бой, шанс критического удара и критический урон увеличиваются на 5% за каждую клетку перемещённую перед атакой (до 15%)",
+        "ATK +10%. When actively attacking and entering battle, the chance of a critical hit and critical damage increase by 5% for each cell moved before the attack (up to 15%)",
+        "dagger"
     ]
 ]
 
