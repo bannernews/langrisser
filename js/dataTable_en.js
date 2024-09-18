@@ -21679,7 +21679,7 @@ var persSkills = [
         "on self",
         "3",
         "3",
-        "[Active]: Allies within the radius receive ATK/INT +20%. Lasts 2 rounds. If this unit is within 2 cells of [Route Marker], also gives a special effect to cavalry and flying units: \"When in water, the unit's movement type becomes [waterman].\" Lasts 4 turns."
+        "[Active]: Allies within the radius receive ATK/INT +20%. Lasts 4 rounds. If this unit is within 2 cells of [Route Marker], also gives a special effect to cavalry and flying units: \"When in water, the unit's movement type becomes [waterman].\" Lasts 4 turns."
     ],
     [
         "Plunderpuss",
