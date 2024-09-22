@@ -29,6 +29,15 @@ var heroesDat = [
         "",
         "М3"
     ],
+	[
+        "Макишима Агито",
+        "Agito Makishima",
+        "МС,ГЙ,ГВ,М",
+        "SSR",
+        "",
+        "",
+        ""
+    ],
     [
         "Агнес",
         "Agnes",
@@ -40,7 +49,7 @@ var heroesDat = [
     ],
     [
         "Айнз",
-        "Ainz",
+        "Ainz Ooal Gown",
         "ТР,РЕ,ГВ,М",
         "SSR",
         "",
@@ -220,7 +229,7 @@ var heroesDat = [
     ],
     [
         "Арианход",
-        "Arianhod",
+        "Arianrhod",
         "ТАИР,РЕ,ГВ,Ж",
         "SSR",
         "",
@@ -247,7 +256,7 @@ var heroesDat = [
     ],
     [
         "Автократо",
-        "Autokrato",
+        "Autokrato IV",
         "ИМП,РЕ,М",
         "SSR",
         "forge",
@@ -319,7 +328,7 @@ var heroesDat = [
     ],
 	[
         "Капитан Коммандо и Гений-малыш",
-        "Captain Commando and Baby Genius",
+        "Captain Commando and Baby Head",
         "ГГ,МС,ГВ,М",
         "SSR",
         "",
@@ -328,7 +337,7 @@ var heroesDat = [
     ],
     [
         "Капитан Джек",
-        "Captain Jack",
+        "Captain Mack",
         "ЛС,МУ,ГЙ,М",
         "SSR",
         "",
@@ -544,7 +553,7 @@ var heroesDat = [
     ],
     [
         "Эксела",
-        "Excela",
+        "Excella",
         "ИМП,МС,ГВ,Ж",
         "SSR",
         "forge",
@@ -589,7 +598,7 @@ var heroesDat = [
     ],
     [
         "Гинтоки",
-        "Gintoki",
+        "Gintoki Sakata",
         "ГГ,ГЙ,ГВ,М",
         "SSR",
         "",
@@ -652,7 +661,7 @@ var heroesDat = [
     ],
     [
         "Густав",
-        "Gustaf",
+        "Gustav",
         "ТР,ТАИР,РЕ,Ж",
         "SSR",
         "forge",
@@ -697,7 +706,7 @@ var heroesDat = [
     ],
     [
         "Химико",
-        "Himiko",
+        "Himiko Shinobibe",
         "МУ,ГЙ,ГВ,Ж",
         "SSR",
         "",
@@ -706,7 +715,7 @@ var heroesDat = [
     ],
     [
         "Хофманн",
-        "Hoffman",
+        "Hofmann",
         "ЛС,МС,МУ,М",
         "SSR",
         "",
@@ -796,7 +805,7 @@ var heroesDat = [
     ],
     [
         "Джо и Конни",
-        "Joa & Connie",
+        "Joa & Conny",
         "ИМП,МС,РЕ,Ж",
         "SSR",
         "",
@@ -859,7 +868,7 @@ var heroesDat = [
     ],
     [
         "Кадзума",
-        "Kazuma",
+        "Kazuma Kuwabara",
         "ЛС,МУ,ГВ,М",
         "SR",
         "forge",
@@ -917,15 +926,6 @@ var heroesDat = [
         "АП,ГЙ,ГВ,Ж",
         "SR",
         "forge",
-        "",
-        ""
-    ],
-	[
-        "Нож Марк и Ниндзя Гиндзу",
-        "Knife Mark and Ninja Ginzu",
-        "ГГ,МУ,ГВ,М",
-        "SSR",
-        "",
         "",
         ""
     ],
@@ -1172,6 +1172,15 @@ var heroesDat = [
         "",
         "Л13"
     ],
+	[
+        "Нож Марк и Ниндзя Гиндзу",
+        "Mack the Knife and Ginzu the Ninja",
+        "ГГ,МУ,ГВ,М",
+        "SSR",
+        "",
+        "",
+        ""
+    ],
     [
         "Майя",
         "Maiya",
@@ -1180,15 +1189,6 @@ var heroesDat = [
         "forge",
         "",
         "РЕИ"
-    ],
-    [
-        "Макишима Агито",
-        "Makishima Agito",
-        "МС,ГЙ,ГВ,М",
-        "SSR",
-        "",
-        "",
-        ""
     ],
     [
         "Мариандель",
@@ -1480,7 +1480,7 @@ var heroesDat = [
     ],
     [
         "Рё",
-        "Ryo",
+        "Ryo Sanada",
         "ГГ,ГЙ,ГВ,М",
         "SSR",
         "",
@@ -1507,7 +1507,7 @@ var heroesDat = [
     ],
     [
         "Дева Ковчега",
-        "Saint of the Ark",
+        "Saintess of the Ark",
         "ГГ,АП,ТАИР,Ж",
         "SSR",
         "",
@@ -1579,7 +1579,7 @@ var heroesDat = [
     ],
     [
         "Сибараку",
-        "Shibaraku",
+        "Shibaraku Tsurugibe",
         "ГЙ,ГВ,М",
         "SR",
         "",
@@ -1678,7 +1678,7 @@ var heroesDat = [
     ],
     [
         "Суверен ледяной бездны",
-        "Sovereign of the Frozen Abyss",
+        "Sovereign of the Ice Abyss",
         "ИМП,МС,ГВ,Ж",
         "LLR",
         "",
@@ -1687,7 +1687,7 @@ var heroesDat = [
     ],
     [
         "Сумире",
-        "Sumire",
+        "Sumire Kanzaki",
         "АП,ИМП,ГВ,Ж",
         "SSR",
         "forge",
@@ -1730,6 +1730,15 @@ var heroesDat = [
         "",
         "М3"
     ],
+	[
+        "Трансцендентный",
+        "The Transcender",
+        "ТР,ГЙ,ТАИР,М",
+        "SSR",
+        "forge",
+        "",
+        "М2"
+    ],
     [
         "Теон",
         "Theon",
@@ -1768,7 +1777,7 @@ var heroesDat = [
     ],
     [
         "Тома",
-        "Toma",
+        "Toma Hashiba",
         "МС,ГВ,М",
         "SR",
         "forge",
@@ -1792,15 +1801,6 @@ var heroesDat = [
         "forge",
         "",
         "РЕИ"
-    ],
-    [
-        "Трансцендентный",
-        "Transcender",
-        "ТР,ГЙ,ТАИР,М",
-        "SSR",
-        "forge",
-        "",
-        "М2"
     ],
     [
         "Цубамэ",
@@ -1885,7 +1885,7 @@ var heroesDat = [
     ],
     [
         "Ватару",
-        "Wataru",
+        "Wataru Ikusabe",
         "ГГ,ГЙ,ГВ,М",
         "SSR",
         "",
@@ -1957,7 +1957,7 @@ var heroesDat = [
     ],
     [
         "Юске",
-        "Yusuke",
+        "Yusuke Urameshi",
         "ГГ,ТАИР,ГВ,ФБ,М",
         "SSR",
         "",
