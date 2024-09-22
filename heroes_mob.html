@@ -1,0 +1,146 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>Герои список</title>  <!--название странички на вкладке сайта-->
+    <link rel="icon" type="image/png" href="favicon.png">  <!--иконка на вкладке сайта-->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+<!--    <link rel="stylesheet" href="assets/css/main.css" /> -->
+    <link rel="stylesheet" href="css/main_mob.css" />
+</head>
+
+<script type="text/javascript" src="jq/jquery.js"></script>
+<script type="text/javascript" src="jq/jquery-ui-1.10.4.custom.min.js"></script>
+<script type="text/javascript" src="jq/jquery.cookie.js"></script>
+
+<body style="background-color: #629786;">
+<div id="top" style="display:block;width:425px;margin:0 auto;">
+	<div style="text-align:left;font-size: 13px;">Русский | <a href="heroes_en_mob.html" style="color: antiquewhite;">English</a></div>
+	<div id="logo" style="display:inline-block;text-decoration:none;line-height: 3px;float:right;margin-right:2%;margin-top: -17px;"><a href="index_mob.html"><img src="images/headpanel.png" style="vertical-align:sub" height="20px" /><span style="font-size: 16px;vertical-align: 0px;text-shadow: 1px 1px #d8c2a9;">Banner News</span><img src="images/headpanel.png" style="vertical-align:sub" height="20px" /></a></div>
+	<hr noshade style="border-color: #d8c2a9;">
+	<div class="menu menumore"">Герои
+		<div class="dropdown-content2">
+			<a style="margin-top: -30px;background-color: unset;" href="#"></a>
+			<a id="mp12" href="heroes_mob.html">Список<img class="menu_point12" src="images/point.png" height="20px" style="vertical-align:-3px;" /></a>
+		</div>
+	</div>
+	<div class="menu menumore">Снаряжение
+		<div class="dropdown-content">
+			<a style="margin-top: -30px;background-color: unset;" href="#"></a>
+			<a id="mp1" href="items_mob.html">Общее<img class="menu_point1" src="images/point.png" height="20px" style="vertical-align:-3px;" /></a>
+			<a id="mp2" href="pers_items_mob.html">Личное<img class="menu_point2" src="images/point.png" height="20px" style="vertical-align:-3px;" /></a>
+		</div>
+	</div>
+	<div class="menu"><a href="soldiers_mob.html">Солдаты</a></div>
+	<div class="menu"><a href="https://docs.google.com/spreadsheets/d/1mqOkMylobD4VkGctr_ZMOGvCirGKt6uqPJugNtLYKtQ/edit#gid=0" target="_blank">Календарь</a></div>
+<!--	<div class="menu">Календарь</div>
+	<div class="menu">Донат</div>-->
+	
+<!--	<div id="logo" style="display:inline-block;text-decoration:none;line-height: 3px;float:right;margin-right:2%;margin-top: -10px;"><a href="index.html"><img src="images/headpanel.png" height="60px" /><span style="font-size: 40px;vertical-align: 15px;text-shadow: 1px 1px #d8c2a9;">Banner News</span><img src="images/headpanel.png" height="60px" /></a></div>
+	<br>-->
+	<hr noshade style="border-color: #d8c2a9;">
+
+
+<script type="text/javascript">
+
+function openLeft(){
+	target = document.getElementById('left_filter').style.visibility;
+	if (target == 'hidden'){
+		document.getElementById('left_filter').style.visibility = 'visible';
+	}
+	else{
+		document.getElementById('left_filter').style.visibility = 'hidden';
+	}
+}
+
+</script>
+<span style="position:absolute;top:5px;left:200px;"><a href="heroes.html"><img src="images/pc.png" height="20px"></a></span>
+<div id="middle" style="width:425px;margin:0 auto;padding-top:7px;white-space: nowrap;">
+	<span id="title" style="display:block;width:100px;margin:0 auto;font-size: 30px;color:#d8c2a9;margin-top:-10px;margin-bottom:5px;">Герои</span>
+	<div title="Фильтр" id="open" style="position:fixed;display:block;width:40px; height:40px;top:81px;z-index:100;left:363px;"><img src="images/open.png" onclick="openLeft(); return false" height="30px"></div>
+	
+	<div id="heroes_data_mob" style="width:425px;display: inline-block;margin-left:3px;">
+		
+	</div>
+	
+	<div id="left_filter" style="background: url(&quot;images/filter-back.png&quot;);border-radius: 20px;visibility: hidden;display: block;width: 320px;vertical-align: top;margin-left: 15px;position: fixed;top: 75px;left: 3px;z-index: 101;padding: 14px;padding-bottom: 42px;"><input style="color:black;border: none;margin-left: 40px;height: 20px;font-size: 20px;width: 230px;margin-top:85px;background-color:rgb(0,0,0,0);border-radius:20px;border: 1px solid #67828b;" placeholder="Поиск:" type="text" id="hero_find" size="30"/><br><img src="images/shadow.png" height="30px" width="320px" />
+	<table border='0' style="margin-top:-15px;"><tr><td class="filt_h" title="ГГ" width='56px'><img src="images/hero_filter/factions/ГГ.png" height="45px" /></td>
+			<td class="filt_h" title="ЛС" width='56px'><img src="images/hero_filter/factions/ЛС.png" height="45px" /></td>
+			<td class="filt_h" title="ИМП" width='56px'><img src="images/hero_filter/factions/ИМП.png" height="45px" /></td>
+			<td class="filt_h" title="АП" width='56px'><img src="images/hero_filter/factions/АП.png" height="45px" /></td>
+			<td class="filt_h" title="ИС" width='56px'><img src="images/hero_filter/factions/ИС.png" height="45px" /></td>
+			<td class="filt_h" title="МС" width='56px'><img src="images/hero_filter/factions/МС.png" height="45px" /></td></tr>
+			<tr><td class="filt_h" title="ТР" width='56px'><img src="images/hero_filter/factions/ТР.png" height="45px" /></td>
+			<td class="filt_h" title="ГЙ" width='56px'><img src="images/hero_filter/factions/ГЙ.png" height="45px" /></td>
+			<td class="filt_h" title="МУ" width='56px'><img src="images/hero_filter/factions/МУ.png" height="45px" /></td>
+			<td class="filt_h" title="ТАИР" width='56px'><img src="images/hero_filter/factions/ТАИР.png" height="45px" /></td>
+			<td class="filt_h" title="РЕ" width='56px'><img src="images/hero_filter/factions/РЕ.png" height="45px" /></td>
+			<td class="filt_h" title="ГВ" width='56px'><img src="images/hero_filter/factions/ГВ.png" height="45px" /></td></tr></table>
+			<img src="images/shadow.png" height="30px" width="320px" />
+	<table border='0' style="margin-top:-15px;"><tr><td class="filt_h" title="Л13" width='63px'><img src="images/hero_filter/chapter/Л13.png" height="45px" /></td>
+			<td class="filt_h" title="Л45" width='63px'><img src="images/hero_filter/chapter/Л45.png" height="45px" /></td>
+			<td class="filt_h" title="РЕИ" width='63px'><img src="images/hero_filter/chapter/РЕИ.png" width="45px" /></td>
+			<td width='63px' class="filt_h" title="Т"><img src="images/hero_filter/chapter/Т.png" height="35px" /></td>
+			<td width='63px' class="filt_h" title="Мил"><img src="images/hero_filter/chapter/Мил.png" height="35px" /></td></tr>
+			<tr><td colspan='5' style="padding-bottom:0;"><img src="images/hero_filter/chapter/мобайл.png" width="65px" /></td></tr>
+			<tr style="font-size:21px;"><td width='63px'></td><td class="filt_h" title="М1" style="padding-top:0;">CH1</td><td class="filt_h" title="М2" style="padding-top:0;">CH2</td><td class="filt_h" title="М3" style="padding-top:0;">CH3</td><td width='63px'></td></tr></table>
+			<img src="images/shadow.png" height="30px" width="320px" />
+	<table border='0' style="margin-top:-15px;"><tr><td width='53px' class="filt_h" title="N"><img src="images/hero_filter/range/N.png" height="30px" /></td>
+		<td class="filt_h" title="R" width='53px'><img src="images/hero_filter/range/R.png" width="27px" /></td>
+		<td class="filt_h" title="SR" width='63px'><img src="images/hero_filter/range/SR.png" width="45px" /></td>
+		<td class="filt_h" title="SSR" width='73px'><img src="images/hero_filter/range/SSR.png" width="60px" /></td>
+		<td class="filt_h" title="LLR" width='73px'><img src="images/hero_filter/range/LLR.png" width="60px" /></td></tr></table>
+			<img src="images/shadow.png" height="30px" width="320px" />
+	<table border='0' style="margin-top:-15px;"><tr><td width='63px'></td><td class="filt_h" title="forge" width='63px'><img src="images/hero_filter/range/forge.png" height="40px" /></td>
+			<td class="filt_h" title="ФБ" width='63px'><img src="images/hero_filter/ФБ.png" height="40px" /></td>
+			<td class="filt_h" title="SP" width='63px'><img src="images/hero_filter/range/SP.png" height="35px" /></td><td width='63px'></td></tr>
+<!--			<td width='20px'><img src="images/glow.png" height="50px" /></td>-->
+			<tr><td width='63px'></td><td class="filt_h" title="М" width='63px'><img src="images/hero_filter/М.png" height="40px" /></td>
+			<td width='20px'><img src="images/glow.png" height="50px" /></td>
+			<td class="filt_h" title="Ж" width='63px'><img src="images/hero_filter/Ж.png" height="40px" /></td><td width='63px'></td>
+			</tr></table>
+			
+			
+	</div>
+	
+	
+
+</div>
+<div id="bottom">
+
+</div>
+
+
+<!--			<script src="js/jquery.min.js"></script>
+			<script src="js/browser.min.js"></script>
+			<script src="js/breakpoints.min.js"></script>
+			<script src="js/util.js"></script> -->
+		<script src="js/heroesDat.js"></script>
+		<script src="js/heroesDat_mob.js"></script>
+		<script src="js/main_mob.js"></script>
+	<script type="text/javascript">
+		window.onload = heroesView();   //при загрузке страницы автоматически фильтр по мечникам
+	</script>
+<script type="text/javascript">
+	$.extend($.expr[":"], {
+  "containsIgnoreCase": function(elem, i, match, array) {
+     return (elem.textContent || elem.innerText || "").toLowerCase().indexOf((match[3] || "").toLowerCase()) >= 0;
+}});
+	
+	$('#hero_find').change(function(){
+		var filter = $(this).val();
+        if (filter) {
+			$matches = $('#heroes_data_mob').find(':containsIgnoreCase(' + $('#hero_find')[0].value + ')');
+			$('div[description]','#heroes_data_mob').not($matches).hide();
+			$matches.slideDown();
+        } else {
+			$('#heroes_data_mob').find('div').show();
+        } return false;
+		})
+		.keyup( function () {
+			$(this).change();
+		});
+</script>
+</body>
+</html>
