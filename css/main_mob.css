@@ -53,6 +53,7 @@ a:visited{
 }
 body{
 	font-family: 'CENTURY GOTHIC';
+	width:425px;
 }
 .hero_face{
 	display:none;
