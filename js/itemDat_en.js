@@ -1077,7 +1077,7 @@ var itemDat = [
         "",
         "",
         "Вероятность критического удара уменьшается на 40%. Вступая в навязанный бой, 30% шанс уменьшить наносимый противником урон на 20%. Длится 2 хода.",
-        "Chance of being critically hit is redused by 40%. Before forced into battle, 30% chance to reduse enemy's damage dealt by 20%. Lasts 2 turn.",
+        "Chance of being critically hit is redused by 40%. Before being forced into battle, 30% chance to reduse enemy's damage dealt by 20%. Lasts 2 turn.",
         "cloth"
     ],
     [
