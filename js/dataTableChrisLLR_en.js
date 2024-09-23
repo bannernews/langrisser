@@ -187,18 +187,18 @@ var persSkills = [
         ""
     ],
     [
-        "Contract call",
-        "Контрактный призыв",
+        "Contract summon",
+        "Призыв по контракту",
         "1",
         "8",
         "on self",
         "3 cells",
         "2",
-        "[Summon] Summons a unicorn of the hero class to the nearest position within 3 cells around you (the unicorn inherits equipment stats and 90% of the Summoner's main attributes. When used, this skill is replaced by [Recall]).<br><br>Recall<br>[Active] Can choose 1 Recall Skill. The cooldown of this skill inherits the cooldown of the skill being used:<br>[Return of the Holy Envoy] Teleports to the unicorn. Can move another 2 cells and attack again. (After using this skill, the number of buff turns will not be reduced)<br>[Unicorn Return] Teleports the unicorn to you."
+        "[Summon] Summons a unicorn of the hero class to the nearest position within 3 cells around you (the unicorn inherits equipment stats and 90% of the Summoner's main attributes. When used, this skill is replaced by [Recall]).<br><br>Recall<br>[Active] Can choose 1 Recall Skill. The cooldown of this skill inherits the cooldown of the skill being used:<br>[Holy recall] Teleports to the unicorn. Can move another 2 cells and attack again. (After using this skill, the number of buff turns will not be reduced)<br>[Unicorn Recall] Teleports the unicorn to you."
     ],
     [
-        "Holy prayer for purity",
-        "Святая молитва о чистоте",
+        "Hallowed Invocation",
+        "Священный вызов",
         "2",
         "9",
         "on self",
@@ -207,14 +207,14 @@ var persSkills = [
         "[Fusion Power] The offensive and defensive capabilities of all Legion of Glory allies on the battlefield will be greatly improved, and the damage dealt during battle will be increased by 8%. With 5 or more buffs, the damage will be increased by an additional 4% for 4 rounds. (This effect cannot be combined with other Fusion Powers)"
     ],
     [
-        "Ode to Light",
-        "Ода свету",
+        "Hymn of Light",
+        "Гимн света",
         "3",
         "7",
         "on self",
         "all",
         "3",
-        "[Passive] By summoning a unicorn or actively using this skill, all Legion of Glory allies on the battlefield will have their offensive and defensive capabilities greatly improved, and the damage dealt during battle will be increased by 15%. When entering battle, they will restore HP to the ally with the lowest HP after the battle. The amount of HP restored is 2x of the caster's INT, lasting 4 rounds. (This effect cannot be combined with other Fusion Power skills).<br><br><b>(Holy class):</b> [Active] Power up the Shining Unicorn (if the Unicorn doesn't exist, it will be summoned first) so that it can gain [Brilliant Grace and Merciful Rain]: 'At the end of the action, restore HP to the friendly unit with the lowest HP within 3 cells around once. Heal equals 2x caster's INT, dispels 1 debuff and applies 1 random strong buff, repeats again when you have a debuff, repeats again when you have more than 5 buffs,' lasts 1 round and restores the cooldown of all skills. Once used, this skill is replaced by [Benevolence] (3C SR Chris with the passive part preserved), lasting 3 rounds.<br><b>(Mage class):</b> [Active] Strengthens the Holy Thunder Unicorn summoned by you (when the unicorn does not exist, it will be summoned first), enhance the following use of [Court of Holy Thunder]: The skill multiplier is increased by 1.5x; if the target is on the same line, this skill ignores guard. When the enemy is not killed, Brightsummoner can act again. Restores the cooldown of all his skills. Once used, this skill is replaced by [Benevolence] (3C SR Chris with the passive part preserved), lasting 3 rounds."
+        "[Passive] By summoning a unicorn or actively using this skill, all Legion of Glory allies on the battlefield will have their offensive and defensive capabilities greatly improved, and the damage dealt during battle will be increased by 15%. When entering battle, they will restore HP to the ally with the lowest HP after the battle. The amount of HP restored is 2x of the caster's INT, lasting 4 rounds. (This effect cannot be combined with other Fusion Power skills).<br><br><b>(Holy class):</b> [Active] Power up the Radiant Unicorn (if the Unicorn doesn't exist, it will be summoned first) so that it can gain [Radiant blessing]: 'At the end of the action, restore HP to the friendly unit with the lowest HP within 3 cells around once. Heal equals 2x caster's INT, dispels 1 debuff and applies 1 random strong buff, repeats again when you have a debuff, repeats again when you have more than 5 buffs,' lasts 1 round and restores the cooldown of all of unicorn skills. Once used, this skill is replaced by [Aurorean Prayer] (3C SR Chris with the passive part preserved), lasting 3 rounds.<br><b>(Mage class):</b> [Active] Strengthens the Holy Thunder Unicorn summoned by you (when the unicorn does not exist, it will be summoned first), enhance the following use of [Court of Holy Thunder]: The skill multiplier is increased by 1.5x; if the target is on the same line, this skill ignores guard. When the enemy is not killed, Brightsummoner can act again. Restores the cooldown of all unicorn skills. Once used, this skill is replaced by [Aurorean Prayer] (3C SR Chris with the passive part preserved), lasting 3 rounds."
     ]
 ]
 
