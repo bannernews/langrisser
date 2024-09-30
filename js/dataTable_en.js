@@ -25729,7 +25729,7 @@ var persSkills = [
         "on self",
         "one target",
         "3",
-        "[Passive] Takes all attacks instead of adjacent allied units and is immune to displacement effects. <br><br>[Active] Defense range increases to 2 squares, 20% ATK is added to DEF and gains [Guard]: When allied units within 2 squares fight enemies outside the team's range, they take 10% less damage \" for 3 turns."
+        "[Passive] Takes all attacks instead of adjacent allied units and is immune to displacement effects. <br><br>[Active] Defense range increases to 2 squares, 20% ATK is added to DEF and gains [Command]: When allied units within 2 squares fight enemies outside of command range, they take 10% less damage \" for 3 turns."
     ],
     [
         "Awakening Duel Invitation",
