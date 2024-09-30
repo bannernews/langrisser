@@ -782,7 +782,7 @@ var soldDat = [
         "5",
         "1",
         "Атака солдат увеличивается на 30%. Когда ОЗ солдат выше 80%, АТК и ЗАЩ вражеских солдат в пределах 2 клеток будут снижены на 15%",
-        "When a soldier's HP is above 80%, the ATK and DEF of enemy soldiers within 2 cells will be reduced by 15%",
+        "Soldier's ATK increase by 30%. When a soldier's HP is above 80%, the ATK and DEF of enemy soldiers within 2 cells will be reduced by 15%",
         "cavalry",
         "Леон,Скотт,Эмерик,Фрейя,Левин,Лэйд,Юлия,Андриола,Алтемюллер,Ленфорд,Ашрам,Арес,Рикки,Бернхардт,Макишима Агито,Тирантир,Серафина"
     ],
