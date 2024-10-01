@@ -16,7 +16,7 @@ function heroesView () {
 					f2 += ' ' + fact[j];
 				}
 			} else {f2 = "her";}
-		hreff = ('hero.html?name='+ heroesDat[i][0]).replace(/ /g,"%20");
+		hreff = ('hero_mob.html?name='+ heroesDat[i][0]).replace(/ /g,"%20");
 		if(heroesDat[i][0]=='Трансцендентный' || heroesDat[i][0]=='Повелительница ледяной бездны'){f = 'font-size:8px;'}else{f = 'font-size:9px;'}
 		sd.innerHTML += '<div description="' + heroesDat[i][0] + '" class="' + f2 + ' ' + heroesDat[i][3] + ' ' + heroesDat[i][4] + ' ' + heroesDat[i][5] + ' ' + heroesDat[i][6] + '" style="display:block;height:80px;width:69px;float:left;"><div class="imgglow" style="display:block;"><a href="'+hreff+'"><img style="cursor:pointer;" height="60px" src="images/head/' + heroesDat[i][0] + '.png" title="' + heroesDat[i][0] + '"></a></div><div style="white-space:normal;' + f + 'width:60px;text-align:center;margin-top:-5px;">' + heroesDat[i][0] + '</div></div>';
 //		}
