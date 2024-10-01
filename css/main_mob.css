@@ -28,9 +28,7 @@ a:visited{
 	margin-top:70px;
 }
 .active_f{
-	background-image: url(../images/active_f2.png);
-	background-position:bottom 5px left;
-	background-repeat: no-repeat;
+	filter: drop-shadow(1px 1px 5px blue);
 }
 .active_h{
 	background-image: url(../images/active_f2.png);
