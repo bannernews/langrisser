@@ -1,0 +1,100 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>Личное Снаряжение</title>  <!--название странички на вкладке сайта-->
+    <link rel="icon" type="image/png" href="favicon.png">  <!--иконка на вкладке сайта-->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, user-scalable=yes" />
+<!--    <link rel="stylesheet" href="assets/css/main.css" /> -->
+    <link rel="stylesheet" href="css/main_mob.css" />
+</head>
+
+<script type="text/javascript" src="jq/jquery.js"></script>
+<script type="text/javascript" src="jq/jquery-ui-1.10.4.custom.min.js"></script>
+<script type="text/javascript" src="jq/jquery.cookie.js"></script>
+
+<body style="background-color: #629786;">
+<div id="top" style="display:block;width:425px;margin:0 auto;">
+	<div style="text-align:left;font-size: 13px;">Русский | <a href="pers_items_en_mob.html" style="color: antiquewhite;">English</a></div>
+	<div id="logo" style="display:inline-block;text-decoration:none;line-height: 3px;float:right;margin-right:2%;margin-top: -17px;"><a href="index_mob.html"><img src="images/headpanel.png" style="vertical-align:sub" height="20px" /><span style="font-size: 16px;vertical-align: 0px;text-shadow: 1px 1px #d8c2a9;">Banner News</span><img src="images/headpanel.png" style="vertical-align:sub" height="20px" /></a></div>
+	<hr noshade style="border-color: #d8c2a9;">
+	<div class="menu menumore">Герои
+		<div class="dropdown-content2">
+			<a style="margin-top: -30px;background-color: unset;" href="#"></a>
+			<a id="mp12" href="heroes_mob.html">Список<img class="menu_point12" src="images/point.png" height="20px" style="vertical-align:-3px;" /></a>
+		</div>
+	</div>
+	<div class="menu menumore">Снаряжение
+		<div class="dropdown-content">
+			<a style="margin-top: -30px;background-color: unset;" href="#"></a>
+			<a id="mp1" href="items_mob.html">Общее<img class="menu_point1" src="images/point.png" height="20px" style="vertical-align:-3px;" /></a>
+			<a id="mp2" href="pers_items_mob.html">Личное<img class="menu_point2" src="images/point.png" height="20px" style="vertical-align:-3px;" /></a>
+		</div>
+	</div>
+	<div class="menu"><a href="soldiers_mob.html">Солдаты</a></div>
+	<div class="menu"><a href="https://docs.google.com/spreadsheets/d/1mqOkMylobD4VkGctr_ZMOGvCirGKt6uqPJugNtLYKtQ/edit#gid=0" target="_blank">Календарь</a></div>
+<!--	<div class="menu">Календарь</div>
+	<div class="menu">Донат</div>-->
+	
+<!--	<div id="logo" style="display:inline-block;text-decoration:none;line-height: 3px;float:right;margin-right:2%;margin-top: -10px;"><a href="index.html"><img src="images/headpanel.png" height="60px" /><span style="font-size: 40px;vertical-align: 15px;text-shadow: 1px 1px #d8c2a9;">Banner News</span><img src="images/headpanel.png" height="60px" /></a></div>
+	<br>-->
+	<hr noshade style="border-color: #d8c2a9;">
+
+
+<script type="text/javascript">
+
+function openLeft(){
+	target = document.getElementById('left_filter').style.visibility;
+	if (target == 'hidden'){
+		document.getElementById('left_filter').style.visibility = 'visible';
+	}
+	else{
+		document.getElementById('left_filter').style.visibility = 'hidden';
+	}
+}
+
+</script>
+<span style="position:absolute;top:5px;left:200px;"><a href="pers_items.html"><img src="images/pc.png" height="20px"></a></span>
+<div id="middle" style="width:425px;margin:0 auto;padding-top:7px;white-space: nowrap;">
+	<span id="title" style="display:block;width:260px;margin:0 auto;font-size: 25px;color:#d8c2a9;margin-top:-10px;margin-bottom:5px;">Личное снаряжение</span>
+	<div title="Фильтр" id="open" style="position:fixed;display:block;width:40px; height:40px;top:81px;z-index:100;left:363px;"><img src="images/open.png" onclick="openLeft(); return false" height="30px"></div>
+	
+	<div id="item_data" style="width:425px;display: inline-block;margin-left:3px;">
+		
+	</div>
+	
+	<div id="left_filter" style="background: url(&quot;images/pers_it.png&quot;) no-repeat;border-radius: 20px;visibility: hidden;display: block;width: 200px;vertical-align: top;position: fixed;top: 75px;left: 160px;z-index: 101;padding-left:15px;">
+		<table border='0' style="padding:36px 0 10px 0;margin:0 0 0 10px;"><tr>
+		<td class="filt_i weapony active_item" onclick=persItemView('weapon') style="float: left;padding:0;"><img id="weaponi" src="images/itemIcons/weapon_active.png" height="55px"/></td>
+		<td class="filt_i bodyy" onclick=persItemView('body') style="float: right;padding:0;"><img id="bodyi" src="images/item_type/body.png" height="55px" /></td></tr>
+<!--			<div class="filt" onclick=soldView('lance') style="margin: 0 auto;padding-top: 56px;"><img src="images/classes/lance.png" height="70px" /></div> -->
+		<tr><td class="filt_i haty" onclick=persItemView('hat') style="float: left;margin-top:0px;padding:0;"><img id="hati" src="images/item_type/head.png" height="55px" /></td>
+		<td class="filt_i accy" onclick=persItemView('accessoir') style="float: right;margin-top:0px;padding:0;"><img id="acci" src="images/item_type/accessoir.png" height="55px" /></td></tr></table>
+<!--		<div class="filt" onclick=soldView('bow') style="float: left;margin-top:10px;"><img src="images/classes/bow.png" height="70px" /></div>
+		<div class="filt" onclick=soldView('holy') style="float: right;margin-top:10px;"><img src="images/classes/holy.png" height="70px" /></div><br>
+			<div class="filt" onclick=soldView('mage') style="margin: 0 auto;padding-top: 143px;"><img src="images/classes/mage.png" height="70px" /></div>
+		<div class="filt" onclick=soldView('assasin') style="float: left;"><img src="images/classes/assasin.png" height="70px" /></div>
+		<div class="filt" onclick=soldView('demon') style="float: right;"><img src="images/classes/demon.png" height="70px" /></div>
+<!--		<br><br><div class="disable_all" style="width:180px;display:block;margin-top:50px;">Очистить</div>-->
+	</div>
+
+
+</div>
+<div id="bottom">
+
+</div>
+
+
+<!--			<script src="js/jquery.min.js"></script>
+			<script src="js/browser.min.js"></script>
+			<script src="js/breakpoints.min.js"></script>
+			<script src="js/util.js"></script> -->
+		<script src="js/persItemDat.js"></script>
+		<script src="js/persItemDat_mob.js"></script>
+		<script src="js/main_mob.js"></script>
+	<script type="text/javascript">
+		window.onload = persItemView('weapon');   //при загрузке страницы автоматически фильтр по оружию
+	</script>
+</body>
+</html>
