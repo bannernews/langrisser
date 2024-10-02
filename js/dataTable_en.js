@@ -25732,14 +25732,14 @@ var persSkills = [
         "[Passive] Takes all attacks instead of adjacent allied units and is immune to displacement effects. <br><br>[Active] Defense range increases to 2 squares, 20% ATK is added to DEF and gains [Command]: When allied units within 2 squares fight enemies outside of command range, they take 10% less damage \" for 3 turns."
     ],
     [
-        "Awakening Duel Invitation",
+        "Duel Invitation",
         "Против притяжения",
         "3",
         "7",
         "7",
         "one target",
         "1",
-        "[Active] Casts [Duel] on 1 target enemy: \"Cannot use skills or normal attacks against any unit other than the caster.\" Cannot be dispelled. Lasts 2 turns. In non-PVP mode, this effect is changed to: Deals 30% less damage.\" After using a skill, this unit's ATK and DEF are increased by 20% for 2 turns, and they receive [Bait]: [Duel], the chance of getting a critical hit is reduced by 100% blow.\" Cannot be dispelled, ignores immunities, and lasts 2 turns. When this unit has [Bait], the skill is replaced with [Zan Spark]."
+        "[Active] Casts [Duel] on 1 target enemy: \"Cannot use skills or normal attacks against any unit other than the caster.\" Cannot be dispelled. Lasts 2 turns. In non-PVP mode, this effect is changed to: Deals 30% less damage.\" After using a skill, this unit's ATK and DEF are increased by 20% for 2 turns, and they receive [Bait]: [Duel], the chance of getting a critical hit is reduced by 100% blow.\" Cannot be dispelled, ignores immunities, and lasts 2 turns. When this unit has [Bait], the skill is replaced with [Zan Spark].<br><br>Zan ​​Spark: Cooldown: 3, Range: 3, Area: 2<br>[Active] Teleports to the target cell and deals 0.25x AoE damage to all enemies within 2 cells. This damage is considered as magic damage. Has a 50% chance of placing 1 debuff on targeted enemies. If this skill hits an enemy with [Duel], then the hero can move 2 more cells after using it and attack again (can only work once per turn, the number of buff turns on the hero is not reduced).<br>When the hero loses [Bait], this skill is replaced back to [Duel Invitation]."
     ],
     [
         "София",
