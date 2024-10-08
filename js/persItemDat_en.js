@@ -1968,6 +1968,21 @@ var persItemDat = [
         "ОЗ+10%. Наносимый урон увеличивается на 10%. Получаемый АОЕ-урон снижается на 10%. Когда у этого героя имеется эффект «скрытая тень» крит урон увеличивается на 15%. После совершения действия получает эффект [гонка]: мобильность +1. Может накладываться 2 раза. Длится 2 хода.",
         "HP +10%. Damage dealt +10%, AoE damage taken -10%. When this unit has [Hide], critical hit rate +15%, and after taking action, gain [Haste]: 'Movement +1. Can be stacked up to 2 times.' Lasts 2 turns."
     ],
+	[
+        "Тирантир",
+        "Tyrantel",
+        "Глобал - 06.02.2024",
+        "Global - 06.02.2024",
+        "hat",
+        "483",
+        "",
+        "",
+        "",
+        "48",
+        "",
+        "ОЗ +10%. Рассеивает 1 бафф с врага перед сражением если на нём есть [Печать превосходства] и восстанавливает 30% ОЗ от нанесённого урона после битвы. Если враг с [Печать превосходства] умрет, получает 'Может выбрать дополнительную цель при следующем использовании [Печать превосходства]', не может быть заимунено и снято.",
+        "HP +10%. Dispels 1 buff from the enemy before the battle if enemy has [Seal of Superiority] and restores 30% of HP from the damage dealt after the battle. If an enemy with [Seal of Superiority] dies, gains 'Can choose an additional target the next time you use [Seal of Superiority]', cannot be immunized and removed."
+    ],
     [
         "Варгас",
         "Vargas",

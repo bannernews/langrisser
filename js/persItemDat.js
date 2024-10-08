@@ -1788,6 +1788,21 @@ var persItemDat = [
         "ОЗ +10%. При использовании умения на одиночную цель союзника, он также получает эффект: наносит на 30% больше урона и получает только половину урона в бою. Длится 1 ход.",
         "HP +10%. After using single target skills on allies, also grant 'When attacking and entering battle, damage dealt +30%, and damage taken is reduced by half.' Lasts 1 turn."
     ],
+	[
+        "Тирантир",
+        "Tyrantel",
+        "Глобал - 06.02.2024",
+        "Global - 06.02.2024",
+        "hat",
+        "483",
+        "",
+        "",
+        "",
+        "48",
+        "",
+        "ОЗ +10%. Рассеивает 1 бафф с врага перед сражением если на нём есть [Печать превосходства] и восстанавливает 30% ОЗ от нанесённого урона после битвы. Если враг с [Печать превосходства] умрет, получает 'Может выбрать дополнительную цель при следующем использовании [Печать превосходства]', не может быть заимунено и снято.",
+        "HP +10%. Dispels 1 buff from the enemy before the battle if enemy has [Seal of Superiority] and restores 30% of HP from the damage dealt after the battle. If an enemy with [Seal of Superiority] dies, gains 'Can choose an additional target the next time you use [Seal of Superiority]', cannot be immunized and removed."
+    ],
     [
         "Това",
         "Towa",

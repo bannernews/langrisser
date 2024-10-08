@@ -520,6 +520,20 @@ var soldDat = [
         "lance",
         "Аарон,Железный Воитель,Автократо,Хофманн,Оборо,Хильда,Полиал,Мишель,Лэндиус,Преция,Король Красной Луны,Бетти,Вернер,Альфа,Капитан Коммандо и Гений-малыш"
     ],
+	[
+        "Призыватель приливов",
+        "Tidecaller",
+        "45",
+        "43",
+        "23",
+        "20",
+        "3",
+        "1",
+        "Дополнительно получает эффекты от технологии водников: [Упреждающий удар] [Водный рейд] [Тренировка пловцов] [Защита эльфа воды]. ЗАЩ войск увеличивается на 20%. После боя существует 100% вероятность того, что местность противника будет считаться «водой» на 1 раунд.",
+        "Additionally receives the effects of the Aquatic technology: [Preemptive Strike] [Amphibious Raid] [Aquatic Training] [Water Elf Warding]. DEF of troops increases by 20%. After combat, there is a 100% chance that the enemy's terrain will be considered 'water' for 1 round.",
+        "lance",
+        "Левин,Фрейя,Лэндиус,Вираш,Илюсия,Альфа,Кристиан,Арианход,Архонт Луны,Странствующий Дуэлянт,Рикки,Светоносец,Капитан Джек,Джаглер,Норнорин"
+    ],
     [
         "Кавалерия",
         "Cavalry",
@@ -2101,8 +2115,23 @@ var soldDat = [
         "When a soldier's health is above 80%, ATK, DEF and MDEF are increased by 20%. With a ranged attack, damage taken is reduced by 20%.",
         "demon",
         "Соня,Сибараку,Зерида,Листелл,Шалтир,Винсент,Эпсилон,Ютем,Апофеоз"
+    ],
+	[
+        "Адское демоническое ядро",
+        "Hellish Demonic Core",
+        "48",
+        "40",
+        "20",
+        "23",
+        "5",
+        "1",
+        "Когда не в воде, АТК увеличивается на 40%. В конце действия врагам в пределах 2 клеток вокруг него будет нанесен [фиксированный урон], равный 15% от текущего здоровья Адского демонического ядра; враги в пределах 2 клеток вокруг него также получат этот урон после своего действия.",
+        "When not in water, ATK increases by 40%. At the end of the action, enemies within 2 cells around will be dealt [Fixed Damage] equal to 15% of the Infernal Demonic Core's current health; Enemies within 2 cells around will also take this damage after their action.",
+        "demon",
+        "Варгас,Леон,Бернхардт,Листелл,Тогуро,Винсент,Эпсилон,Альбедо,Ютем,Меч Света и Тьмы,Апофеоз"
     ]
 ]
+
 function soldView (soldClas) {
 	var sd = document.getElementById('sold_data');
 	sd.innerHTML = '';
