@@ -6681,6 +6681,57 @@ var dataTable = [
         "",
         ""
     ],
+	[
+        "Норнорин",
+        "ЛС,МС,МУ",
+        "SSR",
+        "",
+        "",
+        "Т",
+        "Tide Blade",
+        "Damage dealt increases by (15%, 20%, 25%, 30%). At the end of the action, if in water, recover HP to yourself equal to (1, 1.5, 2, 2.5)x of ATK. If this healing exceeds Max HP, it can be converted into a [Shield] that cannot be dispelled. (up to 25% of Max HP)<br><br>At the end of the action, can select any cell within 5 squares around to activate [Summon Tidal Wave]: Pushes enemies and the caster up to 3 cells away in 3 straight lines for 2 cells, and causes the affected cells to receive the effect of [Full Tide] for 2 rounds: When you and the enemy are on such cells, the current terrain is considered as 'water'. If this skill successfully activates the effect of [Displacement], the number of buff rounds will not be reduced, and can attack again (cannot move). ([Trigger Recharge] requires a 4, 3, 3, 2 turn interval before it can be activated again.)",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "30",
+        "35",
+        "25",
+        "15",
+        "Элитная пехота,Страж-пехотинец,Королевский страж,Элитный копейщик,Амазонка,Амазонка-чемпион,Фаланга,Призыватель приливов,Элитный тритон,Мастер приливов,Элементаль льда,Посол острова",
+        "",
+        "топор,молот",
+        "легкая",
+        "0,2",
+        "444,445",
+        "Преция",
+        "",
+        "",
+        "",
+        "885",
+        "51",
+        "",
+        "15",
+        "",
+        "",
+        "886",
+        "",
+        "",
+        "22,27",
+        "",
+        "",
+        "",
+        "175,13",
+        "887",
+        "",
+        ""
+    ],
     [
         "Оборо",
         "ИС,ГЙ,ТАИР",
@@ -8106,6 +8157,57 @@ var dataTable = [
         "",
         "53,74",
         "575",
+        "",
+        ""
+    ],
+	[
+        "Сафрин",
+        "ИС,ТАИР,РЕ",
+        "SSR",
+        "",
+        "",
+        "Т",
+        "Natural Resonance",
+        "INT increases by (10%, 13%, 16%, 20%).<br>Has [Elemental Affinity]: For each ally with [Elemental Affinity], the unit's range is +1 (maximum +3), and damage dealt increases by 10% (maximum increase is 30%).<br>After actively using the skill, 1 [Coordination Spirit] will be summoned at the end of the action. ([Coordination Spirit] inherits the skill used this turn and 100% of the current attributes, can be up to 2 at a time).<br>If no damage is dealt at the end of the duration, can actively recycle 1 of its [Coordination Spirit] and remove the cooldown of the skill it inherited. The duration of the buffs will not be reduced after use, and can attack again (cannot move and cannot summon [Coordination Spirit]). ([Trigger Recharge] requires a 2, 2, 1, 1 round interval before it can be used again.)",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "20",
+        "40",
+        "15",
+        "25",
+        "Чудотворец,Ведьма,Колдун,Колдунья,Маг - ядовитая летучая мышь,Заклинатель,Монах,Экзорцист,Маг Святой Стражи,Сияющий святой,Эльф,Эльф-мастер,Небесный лучник",
+        "",
+        "посох,молот",
+        "тканевая",
+        "0,2",
+        "446,447",
+        "Вирелия",
+        "",
+        "",
+        "",
+        "",
+        "148,142",
+        "890",
+        "",
+        "",
+        "",
+        "889",
+        "",
+        "",
+        "8,20",
+        "",
+        "",
+        "",
+        "65,62",
+        "891",
         "",
         ""
     ],
@@ -19145,6 +19247,78 @@ var classStats = [
 		"When actively attacking an enemy with a higher HP %, damage dealt increases by 10% after entering combat.",
         "C",
         ""
+    ],
+	[
+        "Норнорин",
+        "",
+        "sword",
+        "4786",
+        "588",
+        "249",
+        "335",
+        "281",
+        "158",
+        "1",
+        "3",
+        "пловец",
+        "When attacking an enemy who has a higher % of HP than the unit, the damage received after entering the battle is reduced by 10%.",
+		"When in water, physical damage dealt is increased by 10%.",
+        "A",
+        ""
+    ],
+	[
+        "Норнорин",
+        "",
+        "water",
+        "4439",
+        "588",
+        "226",
+        "358",
+        "261",
+        "132",
+        "1",
+        "3",
+        "пловец",
+        "When in water, physical damage taken is reduced by 10%.",
+		"When attacked by an enemy in melee, the damage dealt increases by 10% after entering combat.",
+        "C",
+        ""
+    ],
+	[
+        "Сафрин",
+        "",
+        "mage",
+        "3655",
+        "313",
+        "589",
+        "262",
+        "352",
+        "100",
+        "1",
+        "3",
+        "ходьба",
+        "When a unit's HP is below 70%, damage taken after entering combat is reduced by 10%.",
+		"AoE damage increased by 10%.",
+        "A",
+        ""
+    ],
+	[
+        "Сафрин",
+        "",
+        "holy",
+        "3958",
+        "313",
+        "589",
+        "280",
+        "326",
+        "150",
+        "1",
+        "3",
+        "ходьба",
+        "When a unit's HP is 100%, damage taken is reduced by 10%.",
+		"When fighting with an enemy whose HP % is lower than the unit, the damage dealt in battle increases by 10%.",
+        "C",
+        ""
     ]
 ]
 
@@ -19279,6 +19453,7 @@ var heroList = [
             "Нимфа",
 			"Нож Марк и Ниндзя Гиндзу",
             "Ноэми",
+			"Норнорин",
             "Оборо",
             "Оливер",
             "Оливиер",
@@ -19307,6 +19482,7 @@ var heroList = [
             "Рэйчел",
             "Сагани",
             "Сакура",
+			"Сафрин",
             "Светоносец",
             "Селина",
 			"Селика",
@@ -19500,6 +19676,7 @@ var heroList_en = [
 	"Nymph",
 	"Mack the Knife and Ginzu the Ninja",
 	"Noemi",
+	"Nornorin",
 	"Oboro",
 	"Olivier",
 	"Oliver",
@@ -19528,6 +19705,7 @@ var heroList_en = [
 	"Rachel",
 	"Sagani",
 	"Sakura",
+	"Safreen",
 	"Lightbringer",
 	"Serene",
 	"Celica",
@@ -28420,6 +28598,86 @@ var persSkills = [
         "one target",
         "3",
         "[Passive] Allies DEF and MDEF within 2 cells around [Angel of Justice] are increased by 15%; the hero himself will not die when receiving fatal damage, instead, his HP will be restored by 30%, and his [Angel of Justice] and all [Psychic Perception] will be removed. (Only triggers once per battle).<br><br>[Magic Damage] Attacks one enemy, dealing 1.6x damage. When successful destruction of the enemy, gains 1 layer of [Psychic Perception]. At the end of the skill release action, all allies within the [Angel of Justice]'s range will gain 2 layers of [Hui's Blessing]: 'Immunity to debuff', which can be stacked up to 5 layers and cannot be dispelled."
+    ],
+	[
+        "Норнорин",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+    ],
+	[
+        "Tide Evolution Technique",
+        "Техника эволюции прилива",
+        "1",
+        "7",
+        "on self",
+        "one target",
+        "4",
+        "[Active] Actively used, and gains 'When passing through 'water', 'swamp' and terrain with the friendly effect of [full tide], can gain 2 cells to avoid mobility reduction' which lasts for 2 rounds. Can move another 2 cells and attack again. (After using this skill, [Summon Tidal Wave] cannot be released at the end of the action, and the number of buff rounds will not be reduced)."
+    ],
+	[
+        "Tide Realm",
+        "Царство приливов",
+        "2",
+        "2",
+        "on self",
+        "2",
+        "3",
+        "[Physical Damage] Deals 0.36x AoE damage to enemies within 2 cells around itself, preventing enemies from receiving the 'repeat action' effect that lasts for 2 rounds, and applies special terrain [full Tide] to cells for 2 rounds."
+    ],
+	[
+        "Crashing Waves",
+        "Разбивающиеся волны",
+        "3",
+        "2",
+        "1",
+        "one target",
+        "3",
+        "[Passive] Ignores 20% of the enemy's DEF when fighting in 'water', and after dealing damage, the enemy's armor skills are disabled (except for max HP) for 2 rounds. When the target is an NPC, the effect is replaced with '25% DEF Reduction', which lasts for 2 rounds.<br>[Physical Damage] Deals 1.6x physical damage to one enemy and gains [Command] before battle: 'Enemies in 'water' within 3 blocks have all attributes reduced by 10% except HP, and will attack later', lasts for 2 rounds, cannot be dispelled, and deals 0.1x AoE damage to all enemies in a circle around itself. While in 'water', the damage and range of this effect are doubled."
+    ],
+	[
+        "Сафрин",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+    ],
+	[
+        "Magic Environment",
+        "Волшебное окружение",
+        "1",
+        "3",
+        "3",
+        "one target",
+        "2",
+        "[Passive] After using active skills, can swap positions with a friendly unit with [Elemental Affinity].<br>[Assist] actively used to allow a friendly unit with [Elemental Affinity] to gain [Shield]: 'Can withstand damage equal to 3x the caster's INT, lasts 2 turns', and cannot be dispelled."
+    ],
+	[
+        "Natural Extraction",
+        "Естественное извлечение",
+        "2",
+        "1",
+        "2",
+        "one target",
+        "2",
+        "[Magic Damage] attacks one enemy, dealing 1.4x damage. For each ally with [Elemental Affinity], ignores 10% of the enemy's MDEF (maximum 30%). After the battle, gain [Shield]: 'Withstands damage equal to 3x the caster's INT, lasts for 2 turns', which cannot be dispelled. When carrying meele soldier, soldiers will also attack (this skill is not affected by melee damage reduction)."
+    ],
+	[
+        "Elemental Destruction",
+        "Стихийное уничтожение",
+        "3",
+        "1",
+        "5",
+        "on straight",
+        "5",
+        "[Magic Damage] Attacks all enemies in 3 straight lines, dealing 0.36x AoE damage and applying a special terrain effect to the affected cells that lasts for 2 rounds. [Elemental Distortion]: If an enemy unit on this terrain is in 'Forest' or 'Plains', it cannot receive the effect of 'Repeat Movement'; when a friendly [Coordination Spirit] passes through this terrain, it has a chance to avoid the mobility reduction of 1 cell."
     ]
 ]
 
@@ -32306,6 +32564,17 @@ var builds = [
         "Звёздные серьги,Бриллиант измерения,Роза Видара",
         "Колдунья,Фея-ворожея,Паучий эльф-демон"
     ],
+	[
+        "Норнорин",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+    ],
     [
         "Оборо",
         "Полнолуние,Сталь",
@@ -32613,6 +32882,17 @@ var builds = [
         "Ярость Тюра,Шлем Энея",
         "Апексовые сапоги,Медаль кузнеца",
         "Тяжелая пехота,Костяной дино,Фанатик"
+    ],
+	[
+        "Сафрин",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
     ],
     [
         "Светоносец",
@@ -34002,6 +34282,10 @@ var confession = [
         "Ноэми",
         "https://drive.google.com/file/d/1LQyv1rEA4PUBZoNxfZhSCv0cKNoT9s_I/view?usp=sharing"
     ],
+	[
+        "Норнорин",
+        ""
+    ],
     [
         "Оборо",
         ""
@@ -34112,6 +34396,10 @@ var confession = [
     ],
     [
         "Сакура",
+        ""
+    ],
+	[
+        "Сафрин",
         ""
     ],
     [
@@ -35667,6 +35955,16 @@ var startB = [
         "",
         ""
     ],
+	[
+        "Норнорин",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+    ],
     [
         "Оборо",
         "",
@@ -35939,6 +36237,16 @@ var startB = [
     ],
     [
         "Сакура",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+    ],
+	[
+        "Сафрин",
         "",
         "",
         "",
@@ -37860,6 +38168,16 @@ var basicB = [
         "",
         ""
     ],
+	[
+        "Норнорин",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+    ],
     [
         "Оборо",
         "",
@@ -38132,6 +38450,16 @@ var basicB = [
     ],
     [
         "Сакура",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+    ],
+	[
+        "Сафрин",
         "",
         "",
         "",
@@ -40577,6 +40905,20 @@ var pveB = [
         "",
         ""
     ],
+	[
+        "Норнорин",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+    ],
     [
         "Оборо",
         "",
@@ -40957,6 +41299,20 @@ var pveB = [
     ],
     [
         "Сакура",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+    ],
+	[
+        "Сафрин",
         "",
         "",
         "",
@@ -43777,6 +44133,21 @@ var pvpB = [
         "",
         ""
     ],
+	[
+        "Норнорин",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+    ],
     [
         "Оборо",
         "",
@@ -44184,6 +44555,21 @@ var pvpB = [
     ],
     [
         "Сакура",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+    ],
+	[
+        "Сафрин",
         "",
         "",
         "",
