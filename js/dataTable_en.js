@@ -2304,7 +2304,7 @@ var dataTable = [
         "Т",
         "Will of the White Wolf King",
         "Damage dealt increases by (15%, 20%, 25%, 30%) and restores HP after battle by (15%, 20%, 25%, 30%) of the damage dealt. <br><br>Has [Luna Wolf Strength]: \"Mobility +2, will not die when receiving lethal damage, but restores 20% of health, removes this effect and receives [Lone Wolf's Revenge]: 'When actively attacking and entering battle the hero can attack 1 additional time, the unit will not be subject to counterattacks and damage received from reflection is reduced by 100%, it cannot be healed by other friendly units. At the end of the turn, if the unit's HP is at least 80%, this effect will be removed, and [Luna Wolf's Power] will be gained.\" Each time the effect of [Lone Wolf's Revenge] is removed, its own healing effect will be reduced by 30%, may stack (The above effects are not immune and cannot be dispelled)",
-        "---",
+        "Pilgrim's Robe",
         "броня",
         "437",
         "",
@@ -9238,8 +9238,8 @@ var dataTable = [
         "",
         "",
         "Мил",
-        "Last Guardian",
-        "Attack and defense are increased by (10%, 15%, 20%, 25%), and there is no melee damage penalty.<br><br>At action end, can target an unsummoned ally to give [Guardian], cannot be immunized, and cannot be dispelled. When an ally with [Guardian] is within 3 squares, whenever he makes a normal attack or is attacked, Tiana will instead enter the battle and can attack from a distance, all attributes of both units except HP will be increased by (5%, 8%, 11%, 15%); does not die if it takes lethal damage, instead unit HP will recover to the level before that damage. ([Trigger Cooldown] The effect requires an interval of (4, 3, 2, 2) rounds before it can be activated again; the effect of improving the attributes of team skills and similar team skills cannot operate simultaneously)",
+        "Last Protection",
+        "ATK and DEF are increased by (10%, 15%, 20%, 25%), and there is no melee damage penalty.<br><br>At action end, can target an unsummoned ally to give [Protect], cannot be immunized, and cannot be dispelled. When an ally with [Protect] is within 3 squares, whenever he makes a normal attack or is attacked, Tiana will instead enter the battle and can attack from a distance, all attributes of both units except HP will be increased by (5%, 8%, 11%, 15%); Tiana does not die if it takes lethal damage, instead unit HP will recover to the level before that damage. ([Trigger Cooldown] The effect requires an interval of (4, 3, 2, 2) rounds before it can be activated again; the effect of improving the attributes of command skills and similar command skills cannot operate simultaneously)",
         "",
         "",
         "",
@@ -9260,9 +9260,9 @@ var dataTable = [
         "тяжелая",
         "0,2",
         "432,433",
-        "Шион",
+        "Зион",
         "",
-        "Шион",
+        "Зион",
         "",
         "857",
         "108",
@@ -10354,14 +10354,14 @@ var dataTable = [
         ""
     ],
 	[
-        "Шион",
+        "Зион",
         "ГГ,ЛС,ГЙ",
         "SSR",
         "",
         "",
         "Мил",
-        "Sword of Forgiveness",
-        "Attack increases by (10%, 15%, 20%, 25%).<br><br>At the end of the action, if the hero fought this round without committing a kill, he receives [King's Command]: 'The next active attack will deal (10%, 13%, 16%, 20%) increased damage when entering combat, and the unit will attack before the enemy,' lasts 2 rounds.<br><br>When actively attacking and entering into battle, if a fatal blow is dealt to the enemy, you can forgive the enemy, depriving him of the ability to move, defend, attack or use skills in the next round, and apply [Sluggish Combat] to him: 'Damage dealt and healing effect received is reduced by 30%.' Has no immunity, cannot be dispelled, lasts 2 rounds. When forgiving an enemy, restores 100% of the unit's HP.",
+        "Sword of Mercy",
+        "ATK increases by (10%, 15%, 20%, 25%).<br><br>At the end of the action, if the hero fought this round without committing a kill, he receives [Royal Fate]: 'The next active attack will deal (10%, 13%, 16%, 20%) increased damage when entering combat, and the unit will attack before the enemy,' lasts 2 rounds.<br><br>When actively attacking and entering into battle, if a fatal blow is dealt to the enemy, you can forgive the enemy, depriving him of the ability to move, guard, attack or use skills in the next round, and apply [Reluctant Battle] to him: 'Damage dealt and healing effect received is reduced by 30%.' Has no immunity, cannot be dispelled, lasts 2 rounds. When forgiving an enemy, restores 100% of the unit's HP.",
         "",
         "",
         "",
@@ -18997,7 +18997,7 @@ var classStats = [
         ""
     ],
 	[
-        "Шион",
+        "Зион",
         "",
         "sword",
         "4968",
@@ -19015,7 +19015,7 @@ var classStats = [
         "A"
     ],
 	[
-        "Шион",
+        "Зион",
         "",
         "cavalry",
         "4617",
@@ -19525,7 +19525,7 @@ var heroList = [
             "Шельфаниэль",
             "Шери",
             "Шилинка",
-			"Шион",
+			"Зион",
 			"Шо Фукамачи",
             "Эгберт",
             "Эксела",
@@ -28270,7 +28270,7 @@ var persSkills = [
         "[Passive] After an active attack and entering battle, deals 1 time [fixed damage] to other enemies within 1 circle around the target (enemies with [Cunning Toxin] or [Death's Erosion] are not immune), and the damage value is equal to the damage in the current battle x0.2 (up to a maximum of 10 times the size of your own attack).<br><br>[Physical Damage] Attacks one enemy, dealing 1.5x damage. [Fixed Damage] dealt by the passive effect after an attack is doubled. When wearing a melee soldier, the soldiers will also attack at the same time. If the enemy already has [Cunning Toxin] or [Death's Erosion], the enemy will be [Stunned] before the fight lasts 1 turn. After dealing damage, cast [Deadly Erosion] on a target that cannot be immune or dispelled, lasting 2 turns."
     ],
 	[
-        "Шион",
+        "Зион",
         "",
         "",
         "",
@@ -28280,18 +28280,18 @@ var persSkills = [
         ""
     ],
 	[
-        "Glory to the Divine Sword",
-        "Слава божественному мечу",
+        "Holy Sword of Light",
+        "Святой меч света",
         "2",
         "2",
         "2",
         "one target",
         "2",
-        "[Physical Damage] Attacks one enemy, dealing 1.4x damage. When entering melee combat, removes 3 buffs from the enemy. After the battle, can move another 3 cells; When killed, the cooldown of this skill will be -1. If equipped with melee soldiers, they will attack at the same time. (This skill is not affected by melee damage reduction)"
+        "[Physical Damage] Attacks one enemy, dealing 1.4x damage. When entering melee combat, removes 3 buffs from the enemy. After the battle, can move another 3 cells; When entering battle with a range attack, the cooldown of this skill will be -1. If equipped with melee soldiers, they will attack at the same time. (This skill is not affected by melee damage reduction)"
     ],
 	[
-        "Determination to restore the country",
-        "Решимость восстановить страну",
+        "Revivalist's Resolve",
+        "Решимость возродителя",
         "2",
         "9",
         "on self",
@@ -28300,24 +28300,24 @@ var persSkills = [
         "[Fusion Power] When actively used, the offensive and defensive capabilities of all 'Protagonist' allies within range will be greatly improved. When using a skill aimed at one target, the damage will be increased by 12%. When using a skill aimed at one target, but without killing the enemy, the cooldown time of this skill will be reduced by 1 turn. Lasts 4 rounds. (This effect cannot be combined with other Fusion Power skills)"
     ],
 	[
-        "Fast attack",
-        "Быстрая атака",
+        "Speed Strike",
+        "Скоростной удар",
         "1",
         "2",
         "on self",
         "one target",
         "4",
-        "[Passive] If there is an enemy within 3 blocks around with the effect of [Sluggish Combat], then when receiving fatal damage, the hero will damage him (the damage dealt by this skill will not exceed 5 times his maximum HP), and at the same time he will restore 20% of your own HP. ([Trigger Cooldown] This effect requires an interval of 2 rounds to trigger again.)<br><br>[Active] When active, this unit recovers 30% HP and gains the [King's Life] effect that lasts for 2 rounds. He can move another 3 cells and attack again. (After using this skill, the number of buff turns will not be reduced)"
+        "[Passive] If there is an enemy within 3 blocks around with the effect of [Reluctant Battle], then when receiving fatal damage, the hero will damage him (the damage dealt by this will not exceed 5 times his maximum HP), and at the same time he will restore 20% of own HP. ([Trigger Cooldown] This effect requires an interval of 2 rounds to trigger again.)<br><br>[Active] When active, this unit recovers 30% HP and gains the [Royal Fate] effect that lasts for 2 rounds. Can move another 3 cells and attack again. (After using this skill, the number of buff turns will not be reduced)"
     ],
 	[
-        "Holy Sword of Heroes",
-        "Святой меч героев",
+        "Holy Holy Sword",
+        "Героический святой меч",
         "3",
         "2",
         "1",
         "one target",
         "5",
-        "[Passive] At the end of the first action and after actively using this skill, all 'Protagonist' allies on the battlefield will have their offensive and defensive capabilities significantly improved, and the damage dealt during battle will be increased by 15%. When using one skill, no By killing an enemy, the cooldown of this skill is reduced by 1 turn. Lasts 4 rounds. (This effect cannot be combined with other Fusion Energy skills)<br><br>[Physical Damage] Attacks one enemy, dealing 1.8x damage, and dispels 5 enemy buffs before combat. If at least 2 friendly units are killed, a [Fate] will be obtained before the battle: 'When entering battle during an active attack, the damage dealt will be increased by 30%, and will attack before the enemy. When you receive [King's Life], the duration of this effect will be +1', lasts for 2 rounds and cannot be dispelled. If you fail to kill the enemy with this skill, you will be able to act again. ([Trigger Cooldown] The effect requires an interval to trigger again in 2 rounds.)"
+        "[Passive] At the end of the first action and after actively using this skill, all 'Protagonist' allies on the battlefield will have their offensive and defensive capabilities significantly improved, and the damage dealt during battle will be increased by 15%. When using one skill, no By killing an enemy, the cooldown of this skill is reduced by 1 turn. Lasts 4 rounds. (This effect cannot be combined with other Fusion Energy skills)<br><br>[Physical Damage] Attacks one enemy, dealing 1.8x damage, and dispels 5 enemy buffs before combat. If at least 2 friendly units are killed, a [Destiny] will be obtained before the battle: 'When entering battle during an active attack, the damage dealt will be increased by 30%, and will attack before the enemy. When you receive [Royal Fate], the duration of this effect will be +1', lasts for 2 rounds and cannot be dispelled. If you fail to kill the enemy with this skill, you will be able to act again. ([Trigger Cooldown] The effect requires an interval to trigger again in 2 rounds.)"
     ],
 	[
         "Тиана",
@@ -28330,34 +28330,34 @@ var persSkills = [
         ""
     ],
 	[
-        "Personal security",
-        "Личная охрана",
+        "Escort",
+        "Эскорт",
         "1",
         "7",
         "on self",
         "one target",
         "3",
-        "[Passive] If there are no allies with [Guardian] within a radius of 3 cells, the unit's mobility +2.<br><br>[Active] Used actively to restore 30% of a unit's HP and gain [Defender]: 'The next time you attack an enemy as a [Guardian] and engage in combat, if you have already acted this round, you can act again', which lasts 3 rounds. Cannot be dispelled. Once used, the number of buff rounds will not be reduced. Can move another 3 cells and attack again."
+        "[Passive] If there are no allies with [Protect] within a radius of 3 cells, the unit's mobility +2.<br><br>[Active] Used actively to restore 30% of a unit's HP and gain [Escort]: 'The next time you entering combat with an enemy insted of unit with [Protect], if you have already acted this round, you can act again', which lasts 3 rounds. Cannot be dispelled. Once used, the number of buff rounds will not be reduced. Can move another 3 cells and attack again."
     ],
 	[
-        "Preventive blade attack",
-        "Превентивная атака клинком",
+        "Preemptive Blade Strike",
+        "Удар упреждающего клинка",
         "2",
         "2",
         "all field",
         "on straight",
         "1",
-        "[Physical Damage] Attacks the first enemy in a straight line, dealing 0.3x AoE damage. After using it, gains [Preventive Blade Attack]: 'When entering battle, the damage dealt by the unit will be increased by 20% and will attack before the enemy, and 20% of the unit's HP will be restored before the battle,' which lasts for 2 rounds."
+        "[Physical Damage] Attacks the first enemy in a straight line, dealing 0.3x AoE damage. After using it, gains [Preemptive Blade Strike]: 'When entering battle, the damage dealt by the unit will be increased by 20% and will attack before the enemy, and 20% of the unit's HP will be restored before the battle,' which lasts for 2 rounds."
     ],
 	[
-        "Guards battle",
-        "Гвардейский бой",
+        "Guardian Clash",
+        "Стычка стражи",
         "3",
         "2",
         "2",
         "one target",
         "5",
-        "[Passive] After dealing damage, the enemy will be inflicted with [Loneliness]. It cannot be invulnerable and cannot be dispelled. Lasts 2 rounds. When fighting an enemy with [Loneliness], it ignores guards and directly deals damage to the hero.<br><br>[Physical Damage] Attacks one enemy, dealing 1.8x damage. Gains [Attack] and [Tenacity] before a battle that lasts 2 rounds. Melee soldiers will also attack. If there is a [Guardian] ally within 3 blocks, the cooldown time of this skill after combat will be -5, otherwise you can teleport to any position within 3 blocks of a [Guardian] ally. ([Trigger); Cooldown] This effect requires 2 rounds to trigger again)"
+        "[Passive] After dealing damage, the enemy will be inflicted with [Solo Striker]. It cannot be invulnerable and cannot be dispelled. Lasts 2 rounds. When fighting an enemy with [Solo Striker], it ignores guards and directly deals damage to the hero.<br><br>[Physical Damage] Attacks one enemy, dealing 1.8x damage. Gains [Boost] and [Tenacity] before a battle that lasts 2 rounds. Melee soldiers will also attack. If there is a [Protect] ally within 3 blocks, the cooldown time of this skill after combat will be -5, otherwise you can teleport to any position within 3 blocks of a [Protect] ally. ([Trigger); Cooldown] This effect requires 2 rounds to trigger again)"
     ],
 	[
         "Капитан Коммандо и Гений-малыш",
@@ -33357,7 +33357,7 @@ var builds = [
         "Тяжелая пехота,Снайпер-подстрекатель,Безликий,Рыцарь-скелет"
     ],
 	[
-        "Шион",
+        "Зион",
         "Бриз,Часы",
         "3",
         "3",
@@ -34571,7 +34571,7 @@ var confession = [
         "https://drive.google.com/file/d/1mvTMOxq6grF-DG7137O-9nMrzi6iyZeE/view?usp=sharing"
     ],
 	[
-        "Шион",
+        "Зион",
         ""
     ],
 	[
@@ -36676,7 +36676,7 @@ var startB = [
         ""
     ],
 	[
-        "Шион",
+        "Зион",
         "",
         "",
         "",
@@ -38889,7 +38889,7 @@ var basicB = [
         ""
     ],
 	[
-        "Шион",
+        "Зион",
         "",
         "",
         "",
@@ -41914,7 +41914,7 @@ var pveB = [
         ""
     ],
 	[
-        "Шион",
+        "Зион",
         "",
         "",
         "",
@@ -45214,7 +45214,7 @@ var pvpB = [
         ""
     ],
 	[
-        "Шион",
+        "Зион",
         "",
         "",
         "",

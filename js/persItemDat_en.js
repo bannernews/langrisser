@@ -697,7 +697,7 @@ var persItemDat = [
         "Ганн",
         "Gunn",
         "---",
-        "---",
+        "Pilgrim's Robe",
         "body",
         "437",
         "",
