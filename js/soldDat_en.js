@@ -760,7 +760,7 @@ var soldDat = [
     ],
     [
         "Золотой рыцарь",
-        "Godlen Knight",
+        "Golden Knight",
         "43",
         "43",
         "22",
