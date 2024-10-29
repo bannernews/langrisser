@@ -773,7 +773,7 @@ var dataTable = [
         "",
         "М1",
         "Forest spirits",
-        "For every 1 cell passed, damage and critical chance increase by (1,2,3,4)%. (Up to (5,10,15,20%).) <br><br>Passing through terrain with protective effects, gets a chance to remove (1,2,3,4) mobility reduction block.",
+        "For every 1 cell passed, damage and critical chance increase by (1,2,3,4)%. (Up to (5,10,15,20%).) <br><br>When passing through defensive terrain during this turn, mitigate the first (1,2,3,4) mobility cost.",
         "Wind plume",
         "шапка",
         "25",
