@@ -518,7 +518,7 @@ var dataTable = [
         "",
         "",
         "Reconnaissance in force",
-        "ATK increases by (10,12,15,20)%. While moving, can pass through enemy units and perceives all traversable terrain as plains. When it passes through enemies and 1 adjacent cell, it has a chance to remove (2,2,3,3) mobility reduction blocks. For every 1 enemy unit passed through this turn, before using an AoE skill or entering combat, receives the [Intelligence Report] effect: Damage dealt increases by 8% and damage taken decreases by 20%. The effect is cumulative. Lasts 1 turn. Cannot be removed (stacks up to 2 times). [CD Activation] The effect can only be activated again after 3 turns.",
+        "ATK increases by (10,12,15,20)%. While moving, can pass through enemy units and perceives all traversable terrain as plains. When it passes any units (both enemies and allies) and 1 adjacent cell, it has a chance to remove (2,2,3,3) mobility reduction blocks. For every 1 enemy unit passed through this turn, before using an AoE skill or entering combat, receives the [Intelligence Report] effect: Damage dealt increases by 8% and damage taken decreases by 20%. The effect is cumulative. Lasts 1 turn. Cannot be removed (stacks up to 2 times). [CD Activation] The effect can only be activated again after 3 turns.",
         "",
         "",
         "",
