@@ -1082,7 +1082,7 @@ var itemDat = [
     ],
     [
         "Благословение Тиамат",
-        "Tiamaat's Blessing",
+        "Tiamat's Blessing",
         "body",
         "437",
         "",
@@ -1096,7 +1096,7 @@ var itemDat = [
     ],
     [
         "Сумеречный страж",
-        "Twiight Guard",
+        "Twilight Guard",
         "body",
         "583",
         "",
