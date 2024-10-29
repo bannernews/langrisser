@@ -8423,7 +8423,7 @@ var dataTable = [
         "",
         "Т",
         "Inexorable Brand",
-        "Attack and crit chance are increased by (10%, 15%, 20%, 25%), and the reduction in melee damage does not affect the unit's attack.<br><br>When moving, it ignores obstacles in the form of enemy units and does not spend movement points when passing through them. Applies [Cunning Toxin] to passing enemies: “Debuffs received last +1 turn, and the chance of receiving a critical hit is increased by 20%; when this effect is obtained again, the duration is updated and increased to [Death's Erosion] and the additional effects are obtained: If at the end of the action the unit has at least 4 debuffs, dies immediately (in PVE mode it will be replaced with \"Deals [fixed damage] equal to 5x atk)\"). (Both [Cunning Toxin] and [Death's Erosion] have no immunity and cannot be dispelled, lasts 2 rounds).",
+        "ATK and crit chance are increased by (10%, 15%, 20%, 25%), and the reduction in melee damage does not affect the unit's attack.<br><br>When moving, it ignores obstacles in the form of enemy units and does not spend movement points when passing through them and allied units. Applies [Cunning Toxin] to enemies she passed through: “Debuffs received last +1 turn, and the chance of receiving a critical hit is increased by 20%; when this effect is obtained again, the duration is updated and increased to [Death's Erosion] and the additional effects are obtained: If at the end of the action the unit has at least 4 debuffs, dies immediately (in PVE mode it will be replaced with \"Deals [fixed damage] equal to 5x atk)\"). (Both [Cunning Toxin] and [Death's Erosion] have no immunity and cannot be dispelled, lasts 2 rounds).",
         "",
         "",
         "",
