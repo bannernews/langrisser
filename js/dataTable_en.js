@@ -19748,7 +19748,7 @@ var heroList_en = [
 	"Shelfaniel",
 	"Cherie",
 	"Shilinka",
-	"Shion",
+	"Zion",
 	"Sho Fukamachi",
 	"Egbert",
 	"Excella",
