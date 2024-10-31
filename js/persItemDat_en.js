@@ -31,7 +31,7 @@ var persItemDat = [
         "",
         "",
         "ОЗ +10%. Когда дружественный отряд заканчивают действие на [двери], он получат «АТК/ИНТ +20%», длится 2 раунда. Все вражеские войска, способ передвижения которых не [полет], проходя через местность в 2 клетках от [двери], потребляют дополнительно 1 очко движения.",
-        "HP +10%. When a friendly unit ends on [door], they will receive 'ATK / INT + 20%', lasts 2 rounds. All enemy troops that has non [flying] move, while passing through terrain within 2 squares of the [door] consume an additional 1 movement point."
+        "HP +10%. When a friendly unit ends on [door], they will receive 'ATK / INT + 20%', lasts 2 rounds. All enemy troops that has non [flying] move, while passing through terrain within 2 tiles of the [door] consume an additional 1 movement point."
     ],
     [
         "Ака",
@@ -841,7 +841,7 @@ var persItemDat = [
         "59",
         "",
         "ОЗ +10%. Когда Джоа находится в пределах 3 блоков, урон от атаки Конни увеличивается на 15%. Когда Джоа использует помехи канала, он так же может дополнительно получить: «[Команда] Вражеские войска в пределах 2 клеток вокруг него не могут быть охраняемы, когда их атакует Конни », длится 2 раунда.",
-        "HP +10%. When Joa is within 3 blocks, Connie's attack damage is increased by 15%. When Joa uses channel jamming, she can additionally gain: '[Command] Enemy troops within 2 squares around cannot be defended when attacked by Connie', lasts 2 rounds."
+        "HP +10%. When Joa is within 3 blocks, Connie's attack damage is increased by 15%. When Joa uses channel jamming, she can additionally gain: '[Command] Enemy troops within 2 tiles cannot be defended when attacked by Connie', lasts 2 rounds."
     ],
     [
         "Джаглер",
@@ -1411,7 +1411,7 @@ var persItemDat = [
         "",
         "",
         "ОЗ +10%. Дальность действия [Таинственное океанское течение] +1. Не удаляет свой эффект местности, когда становится на него. Когда другие союзники в пределах 2 клеток становятся на [Таинственное океанское течение] они получают [Поездка на волне]",
-        "HP +10%. Range of [Mysterious Ocean Current] +1. Does not remove its terrain effect when standing on it. When other allies within 2 squares stand on [Mysterious Ocean Current] they gain [Ride the Wave]."
+        "HP +10%. Range of [Mysterious Ocean Current] +1. Does not remove its terrain effect when standing on it. When other allies within 2 tiles stand on [Mysterious Ocean Current] they gain [Ride the Wave]."
     ],
     [
         "Ноэми",
@@ -1621,7 +1621,7 @@ var persItemDat = [
         "",
         "",
         "ОЗ +10%.  При переключении формы, количество ходов баффов не уменьшается. Если у юнита есть [Грань проницательности] и за ход не был нанесен урон, в конце хода получает 'Мобильность +2', длится 1 раунд. Если у юнита есть [Карающий свет], может передвинуться на 2 клетки после атаки.",
-        "HP +10%. When switching forms, the number of buffs does not decrease. If a unit has [Edge of Insight] and no damage was dealt during the turn, at the end of the turn gains 'Mobility +2', lasts 1 round. If a unit has [Punishing Light], it can move 2 squares after an attack."
+        "HP +10%. When switching forms, the number of buffs does not decrease. If a unit has [Edge of Insight] and no damage was dealt during the turn, at the end of the turn gains 'Mobility +2', lasts 1 round. If a unit has [Punishing Light], it can move 2 tiles after an attack."
     ],
     [
         "Розалия",
@@ -1651,7 +1651,7 @@ var persItemDat = [
         "65",
         "",
         "ОЗ +10%. За каждый слой кристаллического барьера, который у вас есть, лечебный эффект увеличивается на 3%. Когда герой умирает, восстанавливает жизнь другим союзникам в пределах 2 клеток на 2х ИНТ.",
-        "HP +10%. For each layer of Crystall Barrier you have, the healing effect is increased by 3%. When a hero dies, restores HP to other allies within 2 squares for 2x INT."
+        "HP +10%. For each layer of Crystall Barrier you have, the healing effect is increased by 3%. When a hero dies, restores HP to other allies within 2 tiles for 2x INT."
     ],
     [
         "Отшельник",
@@ -1681,7 +1681,7 @@ var persItemDat = [
         "",
         "",
         "ОЗ +10%. Снежную сову можно переместить +1 дополнительный раз. Когда в радиусе 6 клеток от Сагани есть снежная сова, при получении фатального урона не умирает (1 раз за бой)",
-        "HP +10%. After releasing [Cold Sharp Eyes], you can choose to move the 'Snowy Owl' +1 times. When there is a 'Snowy Owl' released by itself within 6 squares, it cannot be fatally hit (it can be triggered once per battle at most)."
+        "HP +10%. After releasing [Cold Sharp Eyes], you can choose to move the 'Snowy Owl' +1 times. When there is a 'Snowy Owl' released by itself within 6 tiles, it cannot be fatally hit (it can be triggered once per battle at most)."
     ],
     [
         "Дева ковчега",
@@ -1876,7 +1876,7 @@ var persItemDat = [
         "59",
         "",
         "ОЗ, ЗАЩ +5%. Когда сражается с врагом и в радиусе 3 клеток от него есть враг с [восприятием зла], наносимый урон увеличивается на 10%. После того как Темное пожирание (3С) убьёт врага, в конце действия получает 'Когда ОЗ 70% и выше, персонажа нельзя выбрать целью атаки или умения'. Действует 1 раунд",
-        "HP DEF +5%. When fighting with enemies within 3 squares of the enemy unit with [Evil Thought Perception], the damage dealt is increased by 10%. After using [Evil Thought Devour] (3С) to kill the enemy, at the end of the action, you will get 'When the unit's HP is above 70%, it cannot be targeted by the enemy's normal attack and skills', which lasts for 1 round."
+        "HP DEF +5%. When fighting with enemies within 3 tiles of the enemy unit with [Evil Thought Perception], the damage dealt is increased by 10%. After using [Evil Thought Devour] (3С) to kill the enemy, at the end of the action, you will get 'When the unit's HP is above 70%, it cannot be targeted by the enemy's normal attack and skills', which lasts for 1 round."
     ],
     [
         "Теон",
@@ -1891,7 +1891,7 @@ var persItemDat = [
         "59",
         "",
         "ОЗ +10%. После восстановления вращающегося лезвия получаемый урон будет уменьшен на 20%, длится 1 раунд. В конце действия вращающееся лезвие будет сгенерировано в случайном месте врага в пределах 10 клеток. (Перезарядка 2 раунда. В ПВП режиме диапазон генерации увеличивается до всего поля).",
-        "Life +10%. After recovering the whirling blade, the received damage is reduced by 20%, which lasts for 1 round. At the end of the action, a [Whirling Blade] will be generated randomly at the position of an enemy within 10 squares. ([Trigger cooldown] This effect can only be triggered again after an interval of 2 rounds. In the competitive mode, the generation range is increased to the whole field)"
+        "Life +10%. After recovering the whirling blade, the received damage is reduced by 20%, which lasts for 1 round. At the end of the action, a [Whirling Blade] will be generated randomly at the position of an enemy within 10 tiles. ([Trigger cooldown] This effect can only be triggered again after an interval of 2 rounds. In the competitive mode, the generation range is increased to the whole field)"
     ],
     [
         "Тиарис",
