@@ -272,7 +272,7 @@ var dataTable = [
         "5",
         "",
         "",
-        "HP +10%. When a friendly unit ends turn on [door] he receive \"ATK/INT + 20%\", lasts 2 rounds. All enemy that has non [flying] move, while passing through terrain within 2 cells of the [door] consume an additional 1 movement point.",
+        "HP +10%. When a friendly unit ends turn on [door] he receive \"ATK/INT + 20%\", lasts 2 rounds. All enemy that has non [flying] move, while passing through terrain within 2 tiles of the [door] consume an additional 1 movement point.",
         "",
         "20",
         "40",
@@ -569,7 +569,7 @@ var dataTable = [
         "",
         "Мил",
         "Lucky Chapter",
-        "Damage dealt increases by (15%, 20%, 25%, 30%).<br>Initially, the hero has 3 types of “lucky effects”: [Luck]: “When the action ends, heals nearby allies in 2 cells equal to 1x INT”, [Strong Luck]: “Atk +10%, Intelligence +10%”, [Luck2]: 'Get 1 random buff at the end of the effect', each type of effect can last for a maximum of 3 stacks at a time and cannot be dispelled.<br>At the start of the round you will receive 1 random 'lucky effect'. If a hero has 2 or more 'lucky effects' of the same type, the unit's range will be +2, if the hero has 3 of the same type, the cooldown of all damage skills the hero uses will be updated.",
+        "Damage dealt increases by (15%, 20%, 25%, 30%).<br>Initially, the hero has 3 types of “lucky effects”: [Luck]: “When the action ends, heals nearby allies in 2 tiles equal to 1x INT”, [Strong Luck]: “Atk +10%, Intelligence +10%”, [Luck2]: 'Get 1 random buff at the end of the effect', each type of effect can last for a maximum of 3 stacks at a time and cannot be dispelled.<br>At the start of the round you will receive 1 random 'lucky effect'. If a hero has 2 or more 'lucky effects' of the same type, the unit's range will be +2, if the hero has 3 of the same type, the cooldown of all damage skills the hero uses will be updated.",
         "",
         "",
         "",
@@ -722,7 +722,7 @@ var dataTable = [
         "",
         "",
         "Intelligence Analysis",
-        "After performing action, reduces the DEF or MDEF (whichever is higher) of (2,2,3,3,4) enemy units within a radius of (1,2,2,3,3) cells by 10%. Lasts 1 turn. <br><br>Increases the DEF or MDEF (whichever is lower) of (2,3,3,4,4) allied units within a radius of (1,1,2,2,3) cells by 10%.",
+        "After performing action, reduces the DEF or MDEF (whichever is higher) of (2,2,3,3,4) enemy units within a radius of (1,2,2,3,3) tiles by 10%. Lasts 1 turn. <br><br>Increases the DEF or MDEF (whichever is lower) of (2,3,3,4,4) allied units within a radius of (1,1,2,2,3) tiles by 10%.",
         "",
         "",
         "",
@@ -824,7 +824,7 @@ var dataTable = [
         "",
         "",
         "Commander of the Guards",
-        "When there is an allied unit within 2 cells, damage taken is reduced by (10,15,20,25)%. <br><br>Takes upon itself all attacks aimed at allied units within a radius of 1 ring. Before being forced into battle, replaces ATK by 1.6x DEF and increases damage dealt by (50,55,60,75)%.",
+        "When there is an allied unit within 2 tiles, damage taken is reduced by (10,15,20,25)%. <br><br>Takes upon itself all attacks aimed at allied units within a radius of 1 ring. Before being forced into battle, replaces ATK by 1.6x DEF and increases damage dealt by (50,55,60,75)%.",
         "",
         "",
         "",
@@ -1292,7 +1292,7 @@ var dataTable = [
         "",
         "4",
         "",
-        "HP +10%. If you have at least 3 extra stats from talent, applied [Nightmare] and [Demoniac] cannot be removed. When there is an enemy demon or holy unit within 3 cells, gains Immunity.",
+        "HP +10%. If you have at least 3 extra stats from talent, applied [Nightmare] and [Demoniac] cannot be removed. When there is an enemy demon or holy unit within 3 tiles, gains Immunity.",
         "",
         "20",
         "40",
@@ -1589,7 +1589,7 @@ var dataTable = [
         "SP",
         "Л13",
         "Will of the Lord",
-        "After entering battle, damage dealt increases by (10,13,16,20)%. All enemy units within a radius of 2 cells receive (-5, -8, -11, -15)% ATK and DEF.",
+        "After entering battle, damage dealt increases by (10,13,16,20)%. All enemy units within a radius of 2 tiles receive (-5, -8, -11, -15)% ATK and DEF.",
         "Overlord's armor",
         "броня",
         "25",
@@ -2048,7 +2048,7 @@ var dataTable = [
         "",
         "РЕИ",
         "Mechanical Commander",
-        "After performing actions (2,3,3,4) other allied units in a radius of (1,2,3,3), the cells receive +1 to mobility and the [Partisan] effect: When passing through terrain with protective effects, the unit has a chance to remove 1 block decreased mobility. Lasts 1 turn.",
+        "After performing actions (2,3,3,4) other allied units in a radius of (1,2,3,3), the tiles receive +1 to mobility and the [Partisan] effect: When passing through terrain with protective effects, the unit has a chance to remove 1 block decreased mobility. Lasts 1 turn.",
         "Blade of mobile mayhem",
         "оружие",
         "25",
@@ -2150,7 +2150,7 @@ var dataTable = [
         "",
         "М2",
         "Wings of Destruction",
-        "AoE damage increases by (2,3,4,6)% (up to (10,15,20,30)%) for each square passed. <br><br>If hero is killed, deals 0.3x AoE damage to all enemies within a radius of 3 cells from itself.",
+        "AoE damage increases by (2,3,4,6)% (up to (10,15,20,30)%) for each square passed. <br><br>If hero is killed, deals 0.3x AoE damage to all enemies within a radius of 3 tiles from itself.",
         "Wings of war",
         "броня",
         "29",
@@ -2568,7 +2568,7 @@ var dataTable = [
         "4",
         "",
         "HP +10%. If fighting with a unit whose mobility is lower, the enemy cannot attack first. When actively attacking with a skill and entering battle, if the enemy has a mobility reduction effect, the cooldown of this skill will be reduced by 4 turns. (Cooldown trigger: can only be trigged again after 2 turns)",
-        "Before entering combat, converts the effects of increasing the enemy's mobility into decreasing mobility. [Cold Shield] additionally receives [command]: 'All allies within a radius of 2 cells receive ATK/INT +10%'",
+        "Before entering combat, converts the effects of increasing the enemy's mobility into decreasing mobility. [Cold Shield] additionally receives [command]: 'All allies within a radius of 2 tiles receive ATK/INT +10%'",
         "30",
         "40",
         "15",
@@ -2864,7 +2864,7 @@ var dataTable = [
         "",
         "Т",
         "Hope in a Wandering World",
-        "INT increases by (10,13,16,20)%. <br><br>At the end of the action, the block on which you stand receives an “Arcane Traces”: ATK and INT of allies within a radius of 2 cells +10%, MDEF of enemies within a radius of 2 cells -10%, duration 2 turns. <br><br>After an attack, you can remove 1 Arcane Traces and teleport to its place. Arcane Scar has higher terrain priority.",
+        "INT increases by (10,13,16,20)%. <br><br>At the end of the action, the block on which you stand receives an “Arcane Traces”: ATK and INT of allies within a radius of 2 tiles +10%, MDEF of enemies within a radius of 2 tiles -10%, duration 2 turns. <br><br>After an attack, you can remove 1 Arcane Traces and teleport to its place. Arcane Scar has higher terrain priority.",
         "Global - 12.12.2024",
         "шапка",
         "364",
@@ -3629,7 +3629,7 @@ var dataTable = [
         "",
         "Л13",
         "Queen's Gauntlets",
-        "Unit damage increases by (10,12,14,17,20)%. After the action ends, casts [Iron Hand] on (1,2,2,3,4) friendly units within a radius of (1,1,2,2,2) cells (not excluding this unit): All hero damage is increased by 20% , but he loses 10% HP after the battle.",
+        "Unit damage increases by (10,12,14,17,20)%. After the action ends, casts [Iron Hand] on (1,2,2,3,4) friendly units within a radius of (1,1,2,2,2) tiles (not excluding this unit): All hero damage is increased by 20% , but he loses 10% HP after the battle.",
         "Gorgeous red",
         "шапка",
         "21",
@@ -3986,7 +3986,7 @@ var dataTable = [
         "",
         "М3",
         "Sea Route Explorer",
-        "When there is an ally within 3 cells, ATK +(15, 20, 25, 30)%. After the end of the action, you can select 1 cell and apply the [Journey Destination] effect: \"This cell has [command]: Allies who ended the action within a radius of 2 cells restore 15% HP. All no [fly] allies passing within a radius of 2 cells around the cell have 1 chance to remove the reduction mobility. Lasts 1 turn.\" <br><br>After use, you need to wait (3, 2, 2, 1) round to use it again.",
+        "When there is an ally within 3 cells, ATK +(15, 20, 25, 30)%. After the end of the action, you can select 1 cell and apply the [Journey Destination] effect: \"This cell has [command]: Allies who ended the action within a radius of 2 tiles restore 15% HP. All no [fly] allies passing within a radius of 2 tiles around the cell have 1 chance to remove the reduction mobility. Lasts 1 turn.\" <br><br>After use, you need to wait (3, 2, 2, 1) round to use it again.",
         "Black Cat Captain's Hat",
         "шапка",
         "25",
@@ -4598,7 +4598,7 @@ var dataTable = [
         "",
         "Л13",
         "Present",
-        "Damage dealt increases by (10,12,14,17,20)%. After the action ends, removes 1 debuff from (1,2,2,3,4) friendly units within a radius of (1,1,2,2,2) cells (excluding this unit) and adds 1 random buff.",
+        "Damage dealt increases by (10,12,14,17,20)%. After the action ends, removes 1 debuff from (1,2,2,3,4) friendly units within a radius of (1,1,2,2,2) tiles (excluding this unit) and adds 1 random buff.",
         "Maiden's praise",
         "шапка",
         "25",
@@ -5006,7 +5006,7 @@ var dataTable = [
         "SP",
         "Л45",
         "Integrity",
-        "Increases the stats of allies within a radius of 2 cells by (5,8,11,15)% (except for HP). The effect does not stack with the effects of the \"Command\" skill.",
+        "Increases the stats of allies within a radius of 2 tiles by (5,8,11,15)% (except for HP). The effect does not stack with the effects of the \"Command\" skill.",
         "Lanford's second election",
         "шапка",
         "34",
@@ -5261,7 +5261,7 @@ var dataTable = [
         "",
         "Л13",
         "Love support",
-        "If, when entering battle, there is a friendly unit within a radius of 2 cells, ATK and DEF increase by (5,7,9,12,15)%. After the action ends, the mobility of (1,2,2,3,4) friendly units within a radius of (1,1,1,2,2) cells (not excluding this unit) increases by 1. Lasts 1 turn.",
+        "If, when entering battle, there is a friendly unit within a radius of 2 cells, ATK and DEF increase by (5,7,9,12,15)%. After the action ends, the mobility of (1,2,2,3,4) friendly units within a radius of (1,1,1,2,2) tiles (not excluding this unit) increases by 1. Lasts 1 turn.",
         "",
         "",
         "",
@@ -5312,7 +5312,7 @@ var dataTable = [
         "",
         "Л13",
         "Holy sister",
-        "After the action is completed, removes (1,1,1,2) debuff from friendly units within a radius of (1,2,2,2) cells (excluding this unit) and restores ((1.5,2,2.5,3)x own INT) HP.",
+        "After the action is completed, removes (1,1,1,2) debuff from friendly units within a radius of (1,2,2,2) tiles (excluding this unit) and restores ((1.5,2,2.5,3)x own INT) HP.",
         "Flawless tribute",
         "броня",
         "34",
@@ -5414,7 +5414,7 @@ var dataTable = [
         "",
         "РЕИ",
         "Might of the Demon God",
-        "Healing effectiveness increases by (10,13,16,20)%. AoE skills apply the [Breath of Life] effect to the affected cells for (1,1,1,2) turns: When an allied unit steps on such a cell, after performing an action, 1 debuff is dispelled from it, and then this unit is healed. The amount of healing is equal to Licorice's INT x1.",
+        "Healing effectiveness increases by (10,13,16,20)%. AoE skills apply the [Breath of Life] effect to the affected tiles for (1,1,1,2) turns: When an allied unit steps on such a cell, after performing an action, 1 debuff is dispelled from it, and then this unit is healed. The amount of healing is equal to Licorice's INT x1.",
         "Young monarch",
         "шапка",
         "21",
@@ -6077,7 +6077,7 @@ var dataTable = [
         "",
         "М3",
         "Rhythm of Mana",
-        "Gains 1 [Mana Energy] effect for each unit within a (2,3,3,4) cell radius (except the caster) that used an active skill: INT and skill damage increase by (2,3,4,5)%, stacks to 4 times. Impossible to remove. Ignores immunity. When the caster has the [Mana Energy] effect, then if he used an active skill this turn, all [Mana Energy] effects are consumed after performing the action and all allied units within a radius of (2,3,3,4) cells restore HP in the amount (1.5,2,2.5,3)x from the caster's INT.",
+        "Gains 1 [Mana Energy] effect for each unit within a (2,3,3,4) cell radius (except the caster) that used an active skill: INT and skill damage increase by (2,3,4,5)%, stacks to 4 times. Impossible to remove. Ignores immunity. When the caster has the [Mana Energy] effect, then if he used an active skill this turn, all [Mana Energy] effects are consumed after performing the action and all allied units within a radius of (2,3,3,4) tiles restore HP in the amount (1.5,2,2.5,3)x from the caster's INT.",
         "Smile of the Holy Tree",
         "шапка",
         "21",
@@ -6179,7 +6179,7 @@ var dataTable = [
         "",
         "М2",
         "Princess",
-        "When an allied unit is within 2 cells of you, INT and DEF are increased by (10,12,14,17,20)%. <br><br>When other heroes guard Melania, they restore HP equal to 3x Melania's INT.",
+        "When an allied unit is within 2 tiles of you, INT and DEF are increased by (10,12,14,17,20)%. <br><br>When other heroes guard Melania, they restore HP equal to 3x Melania's INT.",
         "Strength summoner",
         "оружие",
         "25",
@@ -6230,7 +6230,7 @@ var dataTable = [
         "SP",
         "М1",
         "Bonds of friendship",
-        "If there is an ally within 3 cells when entering battle, gives (30,50,50,60,80,100)% chance to increase ATK and DEF by (10,10,15,15,15,20)%.",
+        "If there is an ally within 3 tiles when entering battle, gives (30,50,50,60,80,100)% chance to increase ATK and DEF by (10,10,15,15,15,20)%.",
         "Kizuna band",
         "акс",
         "29",
@@ -6689,7 +6689,7 @@ var dataTable = [
         "",
         "Т",
         "Tide Blade",
-        "Damage dealt increases by (15%, 20%, 25%, 30%). At the end of the action, if in water, recover HP to yourself equal to (1, 1.5, 2, 2.5)x of ATK. If this healing exceeds Max HP, it can be converted into a [Shield] that cannot be dispelled. (up to 25% of Max HP)<br><br>At the end of the action, can select any cell within 5 squares around to activate [Summon Tidal Wave]: Pushes enemies and the caster up to 3 cells away in 3 straight lines for 2 cells, and causes the affected cells to receive the effect of [Full Tide] for 2 rounds: When you and the enemy are on such cells, the current terrain is considered as 'water'. If this skill successfully activates the effect of [Displacement], the number of buff rounds will not be reduced, and can attack again (cannot move). ([Trigger Recharge] requires a 4, 3, 3, 2 turn interval before it can be activated again.)",
+        "Damage dealt increases by (15%, 20%, 25%, 30%). At the end of the action, if in water, recover HP to yourself equal to (1, 1.5, 2, 2.5)x of ATK. If this healing exceeds Max HP, it can be converted into a [Shield] that cannot be dispelled. (up to 25% of Max HP)<br><br>At the end of the action, can select any cell within 5 squares around to activate [Summon Tidal Wave]: Pushes enemies and the caster up to 3 tiles away in 3 straight lines for 2 cells, and causes the affected tiles to receive the effect of [Full Tide] for 2 rounds: When you and the enemy are on such cells, the current terrain is considered as 'water'. If this skill successfully activates the effect of [Displacement], the number of buff rounds will not be reduced, and can attack again (cannot move). ([Trigger Recharge] requires a 4, 3, 3, 2 turn interval before it can be activated again.)",
         "",
         "",
         "",
@@ -6791,7 +6791,7 @@ var dataTable = [
         "",
         "",
         "Amber love",
-        "When a unit's HP is 100%, ATK increases by (10,15,20,25,30)%. <br><br>After the action ends, the damage received by (1,2,3,4,5) allies within a radius of (1,1,2,2,3) cells is reduced by 10%. This effect lasts for 2 turns.",
+        "When a unit's HP is 100%, ATK increases by (10,15,20,25,30)%. <br><br>After the action ends, the damage received by (1,2,3,4,5) allies within a radius of (1,1,2,2,3) tiles is reduced by 10%. This effect lasts for 2 turns.",
         "",
         "",
         "",
@@ -6842,7 +6842,7 @@ var dataTable = [
         "",
         "М2",
         "Lone Hero",
-        "All stats (except HP) increase by (5,10,15,20,25)%. For every 1 allied unit within a radius of 2 cells from you, all stats (except HP) are reduced by 5%. (Max. (5,10,15,20,25)%.) <br><br>Before entering the battle, you can take away 1 buff from the enemy if your SKILL is higher than his.",
+        "All stats (except HP) increase by (5,10,15,20,25)%. For every 1 allied unit within a radius of 2 tiles from you, all stats (except HP) are reduced by 5%. (Max. (5,10,15,20,25)%.) <br><br>Before entering the battle, you can take away 1 buff from the enemy if your SKILL is higher than his.",
         "Handicraft hero lesson",
         "шапка",
         "25",
@@ -8015,7 +8015,7 @@ var dataTable = [
         "",
         "Л45",
         "Mystical vessel",
-        "Increases damage dealt by (10,15,20,30)%. <br><br>After dealing damage, removes (1,1,1,2) debuff from all allies within a radius of 3 cells and heals for a number of HP equal to (1.5,2,2.5,3)x Rachel's INT.",
+        "Increases damage dealt by (10,15,20,30)%. <br><br>After dealing damage, removes (1,1,1,2) debuff from all allies within a radius of 3 tiles and heals for a number of HP equal to (1.5,2,2.5,3)x Rachel's INT.",
         "Protective rune suit",
         "броня",
         "34",
@@ -8372,7 +8372,7 @@ var dataTable = [
         "",
         "",
         "Azure Kingdom",
-        "Crit chance and crit. damage increases by (15,20,25,30)%. <br><br>Enemies within a radius of (2,3,4,5) cells receive a fixed damage of (0.5,1,1,1.5)x from Selvaria's ATK once if they have 100% HP after performing the action.",
+        "Crit chance and crit. damage increases by (15,20,25,30)%. <br><br>Enemies within a radius of (2,3,4,5) tiles receive a fixed damage of (0.5,1,1,1.5)x from Selvaria's ATK once if they have 100% HP after performing the action.",
         "",
         "",
         "",
@@ -9851,7 +9851,7 @@ var dataTable = [
         "",
         "М2",
         "Shining Lady Knight",
-        "For every 1 cell passed, the damage dealt increases by (1,2,3,4)% (up to (5,10,15,20)%). When there are no allies within 2 cells, DEF increases by (10,15,20,25)%. <br><br>After performing an action, all cells passed this turn receive the [Unshakable Crystals] effect for 1 turn: when the enemy player's heroes step on such a square, after performing an action they have a 100% chance of receiving a random effect that disables equipment skills (except for effects that affect max HP). Lasts 2 turns. When the target is a non-player hero, this effect is replaced with \"random stat is reduced by 25% for 1 turn.\" <br><br>When crossing terrain with an allied effect of [Unshakable Crystals], mobility is not consumed (does not apply when moving again). While moving, ignores obstacles in the form of enemies.",
+        "For every 1 cell passed, the damage dealt increases by (1,2,3,4)% (up to (5,10,15,20)%). When there are no allies within 2 cells, DEF increases by (10,15,20,25)%. <br><br>After performing an action, all tiles passed this turn receive the [Unshakable Crystals] effect for 1 turn: when the enemy player's heroes step on such a square, after performing an action they have a 100% chance of receiving a random effect that disables equipment skills (except for effects that affect max HP). Lasts 2 turns. When the target is a non-player hero, this effect is replaced with \"random stat is reduced by 25% for 1 turn.\" <br><br>When crossing terrain with an allied effect of [Unshakable Crystals], mobility is not consumed (does not apply when moving again). While moving, ignores obstacles in the form of enemies.",
         "Mooncrystal armor",
         "броня",
         "25",
@@ -10973,7 +10973,7 @@ var dataTable = [
         "",
         "",
         "Maiden of Light",
-        "Receives all physical attacks instead of adjacent allied units. After actively dealing damage, receives the following effects: ATK and DEF increase by (5,8,11,15)%. The range of the guardian's effect increases by 2 cells for 2 turns. <br><br>After performing an action, increases the damage deal by (1,2,3,4) allied units (except this unit) within a radius of (1,1,2,3) cells by 10% for 2 turns.",
+        "Receives all physical attacks instead of adjacent allied units. After actively dealing damage, receives the following effects: ATK and DEF increase by (5,8,11,15)%. The range of the guardian's effect increases by 2 tiles for 2 turns. <br><br>After performing an action, increases the damage deal by (1,2,3,4) allied units (except this unit) within a radius of (1,1,2,3) tiles by 10% for 2 turns.",
         "",
         "",
         "",
@@ -11238,7 +11238,7 @@ var dataTable = [
         "5",
         "",
         "HP +10%, When entering the battle, if the target has [Despair], the damage dealt by the hero will be increased by 10%, and if a skill is used, the cooldown time of the skill will be -1.",
-        "When Wehttam is within a radius of 3 cells from summoned [Shadow of Alhazard], then when he dies, deals 0.15x AoE damage to enemies in a radius of 3 cells and applies [Despair] to them. If Wehttam is outside a radius of 3 cells from the sword, then at the end of its action the sword can teleport within a radius of 2 cells from it",
+        "When Wehttam is within a radius of 3 tiles from summoned [Shadow of Alhazard], then when he dies, deals 0.15x AoE damage to enemies in a radius of 3 tiles and applies [Despair] to them. If Wehttam is outside a radius of 3 tiles from the sword, then at the end of its action the sword can teleport within a radius of 2 tiles from it",
         "35",
         "35",
         "15",
@@ -19807,7 +19807,7 @@ var persSkills = [
         "2",
         "one target",
         "2",
-        "[Mag. Damage] Attacks one enemy, dealing 1.5x damage. Deals additional damage to demons. After the battle, applies a special effect [Holly Illumination] to the affected cells and cells within a radius of 1 cell for 2 turns: When enemy units enter this location, 1 buff is removed from them after they perform an action."
+        "[Mag. Damage] Attacks one enemy, dealing 1.5x damage. Deals additional damage to demons. After the battle, applies a special effect [Holly Illumination] to the affected tiles and tiles within a radius of 1 cell for 2 turns: When enemy units enter this location, 1 buff is removed from them after they perform an action."
     ],
     [
         "Light's Embrace",
@@ -19937,7 +19937,7 @@ var persSkills = [
         "2",
         "one target",
         "2",
-        "[Magic Damage] Deals 1.6x damage to one enemy. If there is an allied [Portal] within 2 cells, this damage is increased by 20%. Restores HP equal to 20% of damage dealt and teleports to any location within 2 cells after combat."
+        "[Magic Damage] Deals 1.6x damage to one enemy. If there is an allied [Portal] within 2 cells, this damage is increased by 20%. Restores HP equal to 20% of damage dealt and teleports to any location within 2 tiles after combat."
     ],
     [
         "Dimensional Explosion",
@@ -19947,7 +19947,7 @@ var persSkills = [
         "all",
         "4",
         "4",
-        "[Passive] After taking an action, if the hero did not attack this turn and is on an allied [Portal], he can move an additional 2 cells and attack again, and all current buffs do not reduce the time counter. ([Cooldown Trigger] This effect can only trigger once after 3 turns.)<br>[Magic Damage] Used on yourself or [Portal]. Deals 0.4x AoE damage to all enemies within 4 blocks and applies 2 random Debuffs and [Illusions]: If enemies are within 3 blocks of your [Portal] after performing the action, they will receive 2 random Debuffs. [Illusions] cannot be dispelled. Lasts 2 turns. If this skill hits 3 or more enemy units, its cooldown is reduced by 2."
+        "[Passive] After taking an action, if the hero did not attack this turn and is on an allied [Portal], he can move an additional 2 tiles and attack again, and all current buffs do not reduce the time counter. ([Cooldown Trigger] This effect can only trigger once after 3 turns.)<br>[Magic Damage] Used on yourself or [Portal]. Deals 0.4x AoE damage to all enemies within 4 blocks and applies 2 random Debuffs and [Illusions]: If enemies are within 3 blocks of your [Portal] after performing the action, they will receive 2 random Debuffs. [Illusions] cannot be dispelled. Lasts 2 turns. If this skill hits 3 or more enemy units, its cooldown is reduced by 2."
     ],
     [
         "Азуса",
@@ -20087,7 +20087,7 @@ var persSkills = [
         "4",
         "4",
         "5",
-        "[Healing] Active skill. Teleports you to any square within range and heals all allied units within a 4 square radius (healing amount equal to 3x your INT) and dispels 3 debuffs. Also applies the effect on you: After performing the action, heals all allied units within a radius of 2 cells at 2.5x from your INT and removes 1 debuff. Lasts 3 turns."
+        "[Healing] Active skill. Teleports you to any square within range and heals all allied units within a 4 square radius (healing amount equal to 3x your INT) and dispels 3 debuffs. Also applies the effect on you: After performing the action, heals all allied units within a radius of 2 tiles at 2.5x from your INT and removes 1 debuff. Lasts 3 turns."
     ],
     [
         "Ака",
@@ -20107,7 +20107,7 @@ var persSkills = [
         "on self",
         "one target",
         "5",
-        "[Assist] Active skill. Your ATK or INT (whichever is lower) increases by 50% for 3 turns. After use, can move an additional 2 cells and attack again."
+        "[Assist] Active skill. Your ATK or INT (whichever is lower) increases by 50% for 3 turns. After use, can move an additional 2 tiles and attack again."
     ],
     [
         "Bestial Outbreak",
@@ -20127,7 +20127,7 @@ var persSkills = [
         "spirit",
         "one target",
         "3",
-        "[Active] Can be used if there is a Wolf Spirit on the battlefield. Kills the Wolf Spirit and grants all allies within a radius of 3 cells +2 to mobility, and also increases ATK and INT by 30% for 2 turns."
+        "[Active] Can be used if there is a Wolf Spirit on the battlefield. Kills the Wolf Spirit and grants all allies within a radius of 3 tiles +2 to mobility, and also increases ATK and INT by 30% for 2 turns."
     ],
     [
         "Death Howl",
@@ -20167,7 +20167,7 @@ var persSkills = [
         "on self",
         "one target",
         "1",
-        "[Assist] After use, removes 1 debuff from the unit and restores 50% HP, allowing the unit to move another 2 cells and attack again. (After using this skill, the number of turns for applied buffs is retained. Can be used: 3 times)"
+        "[Assist] After use, removes 1 debuff from the unit and restores 50% HP, allowing the unit to move another 2 tiles and attack again. (After using this skill, the number of turns for applied buffs is retained. Can be used: 3 times)"
     ],
     [
         "Gunfire Barrage",
@@ -20547,7 +20547,7 @@ var persSkills = [
         "3",
         "one target",
         "3",
-        "[Assist] Active skill. Triggers [Move]: Pulls an allied unit and switches your positions. Allows you to move 2 extr. cells and perform a repeated action.​"
+        "[Assist] Active skill. Triggers [Move]: Pulls an allied unit and switches your positions. Allows you to move 2 extr. tiles and perform a repeated action.​"
     ],
     [
         "Breath of the Tides",
@@ -20577,7 +20577,7 @@ var persSkills = [
         "on self",
         "one target",
         "4",
-        "[Passive] When there is an ally within 3 cells with [Oath of Loyalty], Andriola will not die from taking lethal damage, but will restore 20% HP (can only trigger once per battle). <br><br>[Active] Used actively, gains [Immunity] and \"Movement ignores blocking by enemy units\" for 2 rounds, and can move another 3 cells and attack again. (After using this skill, the number of buff rounds will not be reduced)"
+        "[Passive] When there is an ally within 3 tiles with [Oath of Loyalty], Andriola will not die from taking lethal damage, but will restore 20% HP (can only trigger once per battle). <br><br>[Active] Used actively, gains [Immunity] and \"Movement ignores blocking by enemy units\" for 2 rounds, and can move another 3 tiles and attack again. (After using this skill, the number of buff rounds will not be reduced)"
     ],
     [
         "Blood-Boiling Charge",
@@ -20697,7 +20697,7 @@ var persSkills = [
         "on self",
         "2",
         "3",
-        "[Physical Damage] Deals 0.4x AoE damage to enemies within a radius of 2 cells from itself. Damage increases by 20% against demons and saints. Places DEF -20% on affected enemies for 2 rounds."
+        "[Physical Damage] Deals 0.4x AoE damage to enemies within a radius of 2 tiles from itself. Damage increases by 20% against demons and saints. Places DEF -20% on affected enemies for 2 rounds."
     ],
     [
         "The End is Nigh",
@@ -20707,7 +20707,7 @@ var persSkills = [
         "on self",
         "one target",
         "3",
-        "[Transformation]: Transforms into Chaos Form: \"Talent debuffs cannot be removed. When entering combat, damage dealt +20% and damage taken -20%. When using [Dark Tremor], all demon enemies receive [Nightmare] This unit cannot die from fatal damage, instead losing Chaos Form and regaining 30% HP.\" After using this skill, it is replaced with [Judgment of the Abyss], can move another 3 cells and attack again. Chaos Form cannot be immunized or dispelled. When using this skill, the number of buff turns on the unit does not decrease. <br><br>[Judgment of the Abyss]: <br><br>[Passive]: When fighting saints and demons, ATK +15%. The effect of [Abyssal Erosion] is increased to 60%. <br><br>[Phys. Damage]: Attacks one enemy, dealing 1.6x damage. Before the battle, turns 3 enemy buffs into debuffs and applies \"Wounding Curse 50%\" for 2 turns. Cannot be removed. When defeating an enemy, Skill Cooldown -2 and casts [Nightmare] and [Demoniac] on one random enemy. When Chaos Form ends, this skill turns into [The End is Nigh]."
+        "[Transformation]: Transforms into Chaos Form: \"Talent debuffs cannot be removed. When entering combat, damage dealt +20% and damage taken -20%. When using [Dark Tremor], all demon enemies receive [Nightmare] This unit cannot die from fatal damage, instead losing Chaos Form and regaining 30% HP.\" After using this skill, it is replaced with [Judgment of the Abyss], can move another 3 tiles and attack again. Chaos Form cannot be immunized or dispelled. When using this skill, the number of buff turns on the unit does not decrease. <br><br>[Judgment of the Abyss]: <br><br>[Passive]: When fighting saints and demons, ATK +15%. The effect of [Abyssal Erosion] is increased to 60%. <br><br>[Phys. Damage]: Attacks one enemy, dealing 1.6x damage. Before the battle, turns 3 enemy buffs into debuffs and applies \"Wounding Curse 50%\" for 2 turns. Cannot be removed. When defeating an enemy, Skill Cooldown -2 and casts [Nightmare] and [Demoniac] on one random enemy. When Chaos Form ends, this skill turns into [The End is Nigh]."
     ],
     [
         "Арес",
@@ -20877,7 +20877,7 @@ var persSkills = [
         "3",
         "one target",
         "3",
-        "[Active] When used, applies a displacement effect: pulls an ally to your side and gives 1 random buff to the target, yourself and [dance partner]. Can move 2 additional cells and attack again after use (after using this skill, the number of turns for current buffs is not reduced)."
+        "[Active] When used, applies a displacement effect: pulls an ally to your side and gives 1 random buff to the target, yourself and [dance partner]. Can move 2 additional tiles and attack again after use (after using this skill, the number of turns for current buffs is not reduced)."
     ],
     [
         "Dance of the Heart",
@@ -21047,7 +21047,7 @@ var persSkills = [
         "on self",
         "one target",
         "5",
-        "[Passive] When receiving AoE damage, gains the effects of the [Paragon of Elegance] talent. <br><br>[Assist] Active skill. Increases a unit's ATK by 20% and damage dealt by 10%. While moving, ignores obstacles in the form of enemy units and receives the effects of [ATK Break] and [DEF Break]. Lasts 2 turns. Apply 1 effect of [Paragon of Elegance]. Allows you to move 3 extra cells and perform a repeat action. (After using this skill and after performing an action, the number of turns for applied buffs is retained.)"
+        "[Passive] When receiving AoE damage, gains the effects of the [Paragon of Elegance] talent. <br><br>[Assist] Active skill. Increases a unit's ATK by 20% and damage dealt by 10%. While moving, ignores obstacles in the form of enemy units and receives the effects of [ATK Break] and [DEF Break]. Lasts 2 turns. Apply 1 effect of [Paragon of Elegance]. Allows you to move 3 extra tiles and perform a repeat action. (After using this skill and after performing an action, the number of turns for applied buffs is retained.)"
     ],
     [
         "Ван",
@@ -21167,7 +21167,7 @@ var persSkills = [
         "3",
         "one target",
         "4",
-        "[Active] Active skill. Prevents the target from moving and using the Guardian effect for 1 turn. After use, it can move another 2 cells and make another attack. (After using this skill, any buffs you have do not consume your turn counter and cannot be removed if the target hero's current HP is higher than Wataru Ikusabe's.)"
+        "[Active] Active skill. Prevents the target from moving and using the Guardian effect for 1 turn. After use, it can move another 2 tiles and make another attack. (After using this skill, any buffs you have do not consume your turn counter and cannot be removed if the target hero's current HP is higher than Wataru Ikusabe's.)"
     ],
     [
         "Flying Dragon Fist",
@@ -21377,7 +21377,7 @@ var persSkills = [
         "4",
         "one target",
         "5",
-        "[Passive] Blocks lethal damage once, restoring 50% HP and activates Wings of Destruction when receiving damage that should have been lethal. Can be activated once per battle. Reduces the damage dealt by this unit by 30% for 1 turn. Impossible to remove. Ignores immunity. <br><br>[Active] Targets an enemy and applies the [Move] effect: flies up to the target and deals 0.3x AoE damage to all enemies within a radius of 3 cells from itself, while dealing fixed damage to itself equal to 30% of the max HP. After using this skill, removes all debuffs and gives yourself [Immunity] for 1 turn. (Movement effects and self-inflicted damage cannot be removed and they ignore immunity)."
+        "[Passive] Blocks lethal damage once, restoring 50% HP and activates Wings of Destruction when receiving damage that should have been lethal. Can be activated once per battle. Reduces the damage dealt by this unit by 30% for 1 turn. Impossible to remove. Ignores immunity. <br><br>[Active] Targets an enemy and applies the [Move] effect: flies up to the target and deals 0.3x AoE damage to all enemies within a radius of 3 tiles from itself, while dealing fixed damage to itself equal to 30% of the max HP. After using this skill, removes all debuffs and gives yourself [Immunity] for 1 turn. (Movement effects and self-inflicted damage cannot be removed and they ignore immunity)."
     ],
     [
         "Вираш",
@@ -21467,7 +21467,7 @@ var persSkills = [
         "on self",
         "one target",
         "4",
-        "[Transformation] Active skill. When used, Layla transfers all her power to the Herald (turning into a single unit - the Dark Knight Cavalryman), and this unit receives a \"Grand Augmentation\": The hero's damage is considered physical, and 50% INT is added to ATK. Lasts 2 turns. Allows you to move 3 extra cells and perform a repeat action. When used, this skill is replaced by \"Guardianship of the Herald\": [Transformation] Active skill. When used, the Herald gives all its power to Layla (turning into a single unit - Layla), and this unit receives the \"Arcane Expertise\" effect: The hero's damage is considered magical, and 50% of your ATK is added to INT. Lasts 2 turns. Allows you to move 3 extra cells and perform a repeat action. After use, replaces this skill with \"Layla's Blessing\". (The effects of this skill cannot be removed and there is no immunity against them.)"
+        "[Transformation] Active skill. When used, Layla transfers all her power to the Herald (turning into a single unit - the Dark Knight Cavalryman), and this unit receives a \"Grand Augmentation\": The hero's damage is considered physical, and 50% INT is added to ATK. Lasts 2 turns. Allows you to move 3 extra tiles and perform a repeat action. When used, this skill is replaced by \"Guardianship of the Herald\": [Transformation] Active skill. When used, the Herald gives all its power to Layla (turning into a single unit - Layla), and this unit receives the \"Arcane Expertise\" effect: The hero's damage is considered magical, and 50% of your ATK is added to INT. Lasts 2 turns. Allows you to move 3 extra tiles and perform a repeat action. After use, replaces this skill with \"Layla's Blessing\". (The effects of this skill cannot be removed and there is no immunity against them.)"
     ],
     [
         "Гизаров",
@@ -21857,7 +21857,7 @@ var persSkills = [
         "on self",
         "3",
         "3",
-        "[Active]: Allies within the radius receive ATK/INT +20%. Lasts 4 rounds. If this unit is within 2 cells of [Route Marker], also gives a special effect to cavalry and flying units: \"When in water, the unit's movement type becomes [waterman].\" Lasts 4 turns."
+        "[Active]: Allies within the radius receive ATK/INT +20%. Lasts 4 rounds. If this unit is within 2 tiles of [Route Marker], also gives a special effect to cavalry and flying units: \"When in water, the unit's movement type becomes [waterman].\" Lasts 4 turns."
     ],
     [
         "Plunderpuss",
@@ -22147,7 +22147,7 @@ var persSkills = [
         "on self",
         "one target",
         "4",
-        "[Active] Use to gain [Command]: For allied units within 3 squares, the chance of receiving critical hit is reduced by 20% and fixed damage by 35% (lasts 2 turns). After use, it can move another 3 cells and attack again. (After using this skill, the number of turns for applied buffs is retained.)"
+        "[Active] Use to gain [Command]: For allied units within 3 squares, the chance of receiving critical hit is reduced by 20% and fixed damage by 35% (lasts 2 turns). After use, it can move another 3 tiles and attack again. (After using this skill, the number of turns for applied buffs is retained.)"
     ],
     [
         "Commander's Ferocity",
@@ -22427,7 +22427,7 @@ var persSkills = [
         "on self",
         "2",
         "6",
-        "[Phys. damage] Deals 0.44x AoE damage to all enemies within 2 squares and applies the effect [Shocked] to them: Receives a fixed damage equal to 0.5x of the attacker's ATK for every 1 square moved before the attack (up to 3x). Also cannot heal. Lasts 1 turn. After using this skill, damage taken is reduced by 20%. ATK and INT of allied units within a radius of 2 cells increase by 10%. Lasts 2 turns. (Cannot be removed)."
+        "[Phys. damage] Deals 0.44x AoE damage to all enemies within 2 squares and applies the effect [Shocked] to them: Receives a fixed damage equal to 0.5x of the attacker's ATK for every 1 square moved before the attack (up to 3x). Also cannot heal. Lasts 1 turn. After using this skill, damage taken is reduced by 20%. ATK and INT of allied units within a radius of 2 tiles increase by 10%. Lasts 2 turns. (Cannot be removed)."
     ],
     [
         "Исара",
@@ -22917,7 +22917,7 @@ var persSkills = [
         "on self",
         "one target",
         "4",
-        "[Assist] Adds 15% ATK to INT. Lasts 4 turns. Allows you to move 2 extra cells and perform a repeat action. (After using this skill and after performing an action, the number of turns for applied buffs is retained.)"
+        "[Assist] Adds 15% ATK to INT. Lasts 4 turns. Allows you to move 2 extra tiles and perform a repeat action. (After using this skill and after performing an action, the number of turns for applied buffs is retained.)"
     ],
     [
         "Pyromancy",
@@ -22937,7 +22937,7 @@ var persSkills = [
         "on self",
         "one target",
         "4",
-        "[Assist] Places Immolation this unit: After actively dealing damage, deals additional fixed damage 1 time in the amount of (INT+ATK) Clother x1. Lasts 4 turns. Allows you to move 2 extra cells and perform a repeat action. (After using this skill and after performing an action, the number of turns for applied buffs is retained.)"
+        "[Assist] Places Immolation this unit: After actively dealing damage, deals additional fixed damage 1 time in the amount of (INT+ATK) Clother x1. Lasts 4 turns. Allows you to move 2 extra tiles and perform a repeat action. (After using this skill and after performing an action, the number of turns for applied buffs is retained.)"
     ],
     [
         "Incinerating Slash",
@@ -23137,7 +23137,7 @@ var persSkills = [
         "on self",
         "one target",
         "4",
-        "[Passive] All traversable terrain is considered \"forest\". The unit is not affected by terrain mobility penalties. <br><br>[Active] Gives self [Command]: All allies within a radius of 2 cells receive the “Sacred Tree Shield” effect. Lasts 2 turns."
+        "[Passive] All traversable terrain is considered \"forest\". The unit is not affected by terrain mobility penalties. <br><br>[Active] Gives self [Command]: All allies within a radius of 2 tiles receive the “Sacred Tree Shield” effect. Lasts 2 turns."
     ],
     [
         "Sacred Tree Aura",
@@ -23147,7 +23147,7 @@ var persSkills = [
         "on self",
         "5",
         "5",
-        "[Passive] In terrain, the “forest” becomes immune to ATK and INT reduction effects, as well as effects that mute active skills. <br><br>[Mag. Damage] Deals 0.35x damage to all enemies within a 5 cell radius and reduces the damage they deal when initiating combat by 20%. Lasts 2 turns. In addition, affected cells receive a special effect [Peaceful Aura] for 1 turn: Reduces the crit of enemy units standing in that area by 30%."
+        "[Passive] In terrain, the “forest” becomes immune to ATK and INT reduction effects, as well as effects that mute active skills. <br><br>[Mag. Damage] Deals 0.35x damage to all enemies within a 5 cell radius and reduces the damage they deal when initiating combat by 20%. Lasts 2 turns. In addition, affected tiles receive a special effect [Peaceful Aura] for 1 turn: Reduces the crit of enemy units standing in that area by 30%."
     ],
     [
         "Лана",
@@ -23217,7 +23217,7 @@ var persSkills = [
         "3",
         "4",
         "5",
-        "[Passive] Immune to [Wounding Curse] and [Heal Cancel]. <br><br>[Phys. damage] Attacks multiple enemies within range, dealing 0.36x AoE damage. Particularly effective against demons. Applies a special effect [Hallowed Ground] to all affected cells for 2 turns. If enemy units move to this location, after performing the action, 1 buff is removed from them, after which they receive a fix damage equal to 1x the caster's ATK."
+        "[Passive] Immune to [Wounding Curse] and [Heal Cancel]. <br><br>[Phys. damage] Attacks multiple enemies within range, dealing 0.36x AoE damage. Particularly effective against demons. Applies a special effect [Hallowed Ground] to all affected tiles for 2 turns. If enemy units move to this location, after performing the action, 1 buff is removed from them, after which they receive a fix damage equal to 1x the caster's ATK."
     ],
     [
         "Ледин",
@@ -23517,7 +23517,7 @@ var persSkills = [
         "on self",
         "one target",
         "5",
-        "[Active] Natural Covenant Form gains talent effects of all forms that last 2 turns (cannot be removed, ignores immunity). After use, it can move another 2 cells and attack again. While in natural covenant form, you cannot use talent form. After the natural covenant ends, you can choose a talent form at the end of your next turn. (After using this skill, the number of buffs does not decrease after the action ends)."
+        "[Active] Natural Covenant Form gains talent effects of all forms that last 2 turns (cannot be removed, ignores immunity). After use, it can move another 2 tiles and attack again. While in natural covenant form, you cannot use talent form. After the natural covenant ends, you can choose a talent form at the end of your next turn. (After using this skill, the number of buffs does not decrease after the action ends)."
     ],
     [
         "Polymorphic Choice",
@@ -23677,7 +23677,7 @@ var persSkills = [
         "3",
         "3",
         "4",
-        "[Mag. Damage] Attacks multiple units within range, dealing 0.3x AoE damage, and all healing received by enemy units is converted into damage equal to 35% of the healing amount. Lasts 1 turn. (Cannot be removed.) Places [Blood Bog] on all affected cells for 1 turn: When enemy units step on such cells, they will receive [Wounding Curse] upon completion of the action (based on the talent's effect)."
+        "[Mag. Damage] Attacks multiple units within range, dealing 0.3x AoE damage, and all healing received by enemy units is converted into damage equal to 35% of the healing amount. Lasts 1 turn. (Cannot be removed.) Places [Blood Bog] on all affected tiles for 1 turn: When enemy units step on such cells, they will receive [Wounding Curse] upon completion of the action (based on the talent's effect)."
     ],
     [
         "Лиффани",
@@ -23817,7 +23817,7 @@ var persSkills = [
         "on self",
         "one target",
         "3",
-        "[Assist] Replaces ATK with 1.5x MDEF. Lasts 4 turns. After use, it can move another 3 additional cells and perform a second action."
+        "[Assist] Replaces ATK with 1.5x MDEF. Lasts 4 turns. After use, it can move another 3 additional tiles and perform a second action."
     ],
     [
         "Queen's Ascension",
@@ -23887,7 +23887,7 @@ var persSkills = [
         "on self",
         "one target",
         "3",
-        "[Command] All friendly units within a 2 cell radius receive 15% less damage from ranged attacks, 30% reduced chance of receiving critical hits, and increased healing effects by 15%. <br><br>[Active] The range of the guard increases by 2 cells, and the range of the Command by 3. All enemy units within a radius of 2 cells cannot use re-action effects. Lasts 3 turns."
+        "[Command] All friendly units within a 2 cell radius receive 15% less damage from ranged attacks, 30% reduced chance of receiving critical hits, and increased healing effects by 15%. <br><br>[Active] The range of the guard increases by 2 cells, and the range of the Command by 3. All enemy units within a radius of 2 tiles cannot use re-action effects. Lasts 3 turns."
     ],
     [
         "Люгнер",
@@ -24077,7 +24077,7 @@ var persSkills = [
         "on self",
         "one target",
         "3",
-        "[Assist] Dispels up to 2 debuffs from you and restores this unit to 30% of its HP. Allows you to move 2 extra cells and perform a repeat action."
+        "[Assist] Dispels up to 2 debuffs from you and restores this unit to 30% of its HP. Allows you to move 2 extra tiles and perform a repeat action."
     ],
     [
         "God King's Aegis",
@@ -24177,7 +24177,7 @@ var persSkills = [
         "all",
         "one target",
         "5",
-        "[Active] Use on an allied unit or [Soul Shard] to teleport next to it, gaining [immunity] and a 20% increase in ATK for 2 turns. Can move an additional 3 cells and attack again."
+        "[Active] Use on an allied unit or [Soul Shard] to teleport next to it, gaining [immunity] and a 20% increase in ATK for 2 turns. Can move an additional 3 tiles and attack again."
     ],
     [
         "Edge Drop Slash",
@@ -24217,7 +24217,7 @@ var persSkills = [
         "2",
         "one target",
         "3",
-        "[Active] Places a copy of itself in the specified location for 2 turns. Allows you to move another 2 cells and attack again. The copy uses the skill at the same time when using the AoE skill. The attacked enemy will only receive damage once. (Only one copy can exist at a time. After using this skill, any buffs you have do not lose your turn counter.)​"
+        "[Active] Places a copy of itself in the specified location for 2 turns. Allows you to move another 2 tiles and attack again. The copy uses the skill at the same time when using the AoE skill. The attacked enemy will only receive damage once. (Only one copy can exist at a time. After using this skill, any buffs you have do not lose your turn counter.)​"
     ],
     [
         "Scorching Lance",
@@ -24447,7 +24447,7 @@ var persSkills = [
         "2",
         "one target",
         "1",
-        "[Mag. Damage] Attacks one enemy, dealing 1.5x damage. Particularly effective against [infantry]. After the battle, applies a special effect [Ember] to the affected cell and to cells within a radius of 1 cell for 2 turns: When an enemy steps on such a cell, after performing the action, he receives fixed damage in the amount of 15% of the max. HP."
+        "[Mag. Damage] Attacks one enemy, dealing 1.5x damage. Particularly effective against [infantry]. After the battle, applies a special effect [Ember] to the affected cell and to tiles within a radius of 1 cell for 2 turns: When an enemy steps on such a cell, after performing the action, he receives fixed damage in the amount of 15% of the max. HP."
     ],
     [
         "Ice Lance",
@@ -24457,7 +24457,7 @@ var persSkills = [
         "2",
         "one target",
         "1",
-        "[Mag. Damage] Attacks one enemy, dealing 1.5x damage. Particularly effective against [lancer]. After the battle, the affected cells receive a special effect [Frozen realm] for 2 turns: When enemy units enter this location, their mobility is reduced by 2 after taking the action. Lasts 1 turn."
+        "[Mag. Damage] Attacks one enemy, dealing 1.5x damage. Particularly effective against [lancer]. After the battle, the affected tiles receive a special effect [Frozen realm] for 2 turns: When enemy units enter this location, their mobility is reduced by 2 after taking the action. Lasts 1 turn."
     ],
     [
         "Summon Arachnid",
@@ -24587,7 +24587,7 @@ var persSkills = [
         "2",
         "one target",
         "4",
-        "[Phys. damage] Attacks the enemy, ignoring the guard's effect, dealing 1.3x damage and increasing SKILL by 30%. After the battle, steals up to 2 buffs from the enemy. After destroying the enemy, he can move another 3 cells and the CD of this skill is reduced by 3 turns."
+        "[Phys. damage] Attacks the enemy, ignoring the guard's effect, dealing 1.3x damage and increasing SKILL by 30%. After the battle, steals up to 2 buffs from the enemy. After destroying the enemy, he can move another 3 tiles and the CD of this skill is reduced by 3 turns."
     ],
     [
         "Омега",
@@ -24887,7 +24887,7 @@ var persSkills = [
         "2",
         "one target",
         "4",
-        "[Active] Active skill. Applies the effect to one target. <br><br>When the target is an allied unit, applies 2 random buffs and the [Displacement] effect: changes positions with the target. If the target is an enemy unit, apply 2 random debuffs. <br><br>If the enemy has a [Spellbound], the [Displacement] effect is also applied: swaps places with the target. <br><br>Can move an additional 2 cells and attack again after use. (After using this skill, any buffs on the hero do not lose their turn counter.)"
+        "[Active] Active skill. Applies the effect to one target. <br><br>When the target is an allied unit, applies 2 random buffs and the [Displacement] effect: changes positions with the target. If the target is an enemy unit, apply 2 random debuffs. <br><br>If the enemy has a [Spellbound], the [Displacement] effect is also applied: swaps places with the target. <br><br>Can move an additional 2 tiles and attack again after use. (After using this skill, any buffs on the hero do not lose their turn counter.)"
     ],
     [
         "Cursed Oracle",
@@ -24897,7 +24897,7 @@ var persSkills = [
         "2",
         "one target",
         "2",
-        "[Magic Damage] Attacks one enemy, dealing 1.6x damage. If the target is hit by [Spellbound], this damage is increased by 20%. Restores HP equal to 20% of damage dealt and teleports to any cell within 2 cells after combat."
+        "[Magic Damage] Attacks one enemy, dealing 1.6x damage. If the target is hit by [Spellbound], this damage is increased by 20%. Restores HP equal to 20% of damage dealt and teleports to any cell within 2 tiles after combat."
     ],
     [
         "Time and Space Catastrophe",
@@ -25457,7 +25457,7 @@ var persSkills = [
         "4",
         "1",
         "1",
-        "[Active] Casts Snowy Owl on the selected square within range for 2 turns. After use, it can move an additional 2 cells and attack again. (Only one Snowy Owl can exist at a time. After using this skill, any current buffs do not lose the turn counter.) Once used, this skill is replaced with [Snow Owl Sence]."
+        "[Active] Casts Snowy Owl on the selected square within range for 2 turns. After use, it can move an additional 2 tiles and attack again. (Only one Snowy Owl can exist at a time. After using this skill, any current buffs do not lose the turn counter.) Once used, this skill is replaced with [Snow Owl Sence]."
     ],
     [
         "Biting Cold",
@@ -25567,7 +25567,7 @@ var persSkills = [
         "on self",
         "all",
         "3",
-        "[Passive] Receives all attacks instead of nearby allies. Immune to displacement, healing cancel, and curse of wounding. [Command] All allied units within 2 cells have a -20% chance to receive critical damage, and allies with the [Holy] class receive a 10% increase in DEF. [Active] Defense range increases to 2 squares, command range increases to 3 squares and 15% INT is added to DEF and MDEF. The unit can counterattack against ranged attacks within 2 squares, and the unit itself and all other allies with the [Holy] class on the battlefield significantly increase their attack and defense stats. Lasts 4 turns."
+        "[Passive] Receives all attacks instead of nearby allies. Immune to displacement, healing cancel, and curse of wounding. [Command] All allied units within 2 tiles have a -20% chance to receive critical damage, and allies with the [Holy] class receive a 10% increase in DEF. [Active] Defense range increases to 2 squares, command range increases to 3 squares and 15% INT is added to DEF and MDEF. The unit can counterattack against ranged attacks within 2 squares, and the unit itself and all other allies with the [Holy] class on the battlefield significantly increase their attack and defense stats. Lasts 4 turns."
     ],
     [
         "Селина",
@@ -25777,7 +25777,7 @@ var persSkills = [
         "",
         "",
         "",
-        "[Passive] At the start of battle, damage taken is reduced by 20%. If no enemies are killed, after the battle causes the [Displacement] effect: moves 3 cells away from the enemy. (This effect ignores immunity.)​"
+        "[Passive] At the start of battle, damage taken is reduced by 20%. If no enemies are killed, after the battle causes the [Displacement] effect: moves 3 tiles away from the enemy. (This effect ignores immunity.)​"
     ],
     [
         "Shinpachi's Presence",
@@ -25917,7 +25917,7 @@ var persSkills = [
         "7",
         "one target",
         "1",
-        "[Active] Casts [Duel] on 1 target enemy: \"Cannot use skills or normal attacks against any unit other than the caster.\" Cannot be dispelled. Lasts 2 turns. In non-PVP mode, this effect is changed to: Deals 30% less damage.\" After using a skill, this unit's ATK and DEF are increased by 20% for 2 turns, and they receive [Bait]: [Duel], the chance of getting a critical hit is reduced by 100% blow.\" Cannot be dispelled, ignores immunities, and lasts 2 turns. When this unit has [Bait], the skill is replaced with [Zan Spark].<br><br>Zan ​​Spark: Cooldown: 3, Range: 3, Area: 2<br>[Active] Teleports to the target cell and deals 0.25x AoE damage to all enemies within 2 cells. This damage is considered as magic damage. Has a 50% chance of placing 1 debuff on targeted enemies. If this skill hits an enemy with [Duel], then the hero can move 2 more cells after using it and attack again (can only work once per turn, the number of buff turns on the hero is not reduced).<br>When the hero loses [Bait], this skill is replaced back to [Duel Invitation]."
+        "[Active] Casts [Duel] on 1 target enemy: \"Cannot use skills or normal attacks against any unit other than the caster.\" Cannot be dispelled. Lasts 2 turns. In non-PVP mode, this effect is changed to: Deals 30% less damage.\" After using a skill, this unit's ATK and DEF are increased by 20% for 2 turns, and they receive [Bait]: [Duel], the chance of getting a critical hit is reduced by 100% blow.\" Cannot be dispelled, ignores immunities, and lasts 2 turns. When this unit has [Bait], the skill is replaced with [Zan Spark].<br><br>Zan ​​Spark: Cooldown: 3, Range: 3, Area: 2<br>[Active] Teleports to the target cell and deals 0.25x AoE damage to all enemies within 2 cells. This damage is considered as magic damage. Has a 50% chance of placing 1 debuff on targeted enemies. If this skill hits an enemy with [Duel], then the hero can move 2 more tiles after using it and attack again (can only work once per turn, the number of buff turns on the hero is not reduced).<br>When the hero loses [Bait], this skill is replaced back to [Duel Invitation]."
     ],
     [
         "София",
@@ -26157,7 +26157,7 @@ var persSkills = [
         "6",
         "line",
         "5",
-        "[Passive] When hitting 3 enemy units with AoE skill, 1 additional stack of [Fracture] is applied. <br><br>[Physical Damage] Attacks all enemies in 3 straight lines, increasing critical strike chance by 30% and dealing 0.3x AoE damage. Applies 1 random debuff to the target. If the target has 3 stacks of [Fracture] or more, also reduces their ATK and INT by 25% for 2 turns. After the attack, another 3 cells can move."
+        "[Passive] When hitting 3 enemy units with AoE skill, 1 additional stack of [Fracture] is applied. <br><br>[Physical Damage] Attacks all enemies in 3 straight lines, increasing critical strike chance by 30% and dealing 0.3x AoE damage. Applies 1 random debuff to the target. If the target has 3 stacks of [Fracture] or more, also reduces their ATK and INT by 25% for 2 turns. After the attack, another 3 tiles can move."
     ],
     [
         "Тиарис",
@@ -26207,7 +26207,7 @@ var persSkills = [
         "3",
         "one target",
         "4",
-        "[Active] Copies up to 3 dispel buffs from this unit and applies to an allied target. Lasts up to 2 turns. After use, can move another 2 cells and perform a second action. (After using this skill, the number of turns for buffs applied to the unit is retained)."
+        "[Active] Copies up to 3 dispel buffs from this unit and applies to an allied target. Lasts up to 2 turns. After use, can move another 2 tiles and perform a second action. (After using this skill, the number of turns for buffs applied to the unit is retained)."
     ],
     [
         "Supremacy Strike",
@@ -26227,7 +26227,7 @@ var persSkills = [
         "",
         "",
         "",
-        "[Passive] Is immune to effects that prevent this unit from receiving buffs. When this unit has [Stratagem: Militarism] or [Stratagem: Stoicism], the physical damage taken by soldiers is reduced by 35%. <br><br>[Active] Selects 1 skill to activate: <br><br>[Stratagem: Militarism]: [Assist] This unit receives [Stratagem: Militarism]: [Command] ATK and INT of allied units in radius 3 cells increases by 15%. Before initiating combat, deals fixed damage equal to Tova's ATK x0.5 once. After killing an enemy with an active skill, reduces the cooldown of that skill by 1 turn. Lasts 3 turns. Impossible to remove. <br><br>[Stratagem: Stoicism]: [Assist] This unit receives [Stratagem: Stoicism]: [Command] DEF of allied units within 3 cells increases by 15%. Immunity to fixed damage. Cannot be moved. Lasts 3 turns. Impossible to remove. <br><br>When one of the skills described above is used, this unit can move 3 squares one more time and perform a second action. The CD of \"Archaic Ascension\" becomes equal to 5 turns."
+        "[Passive] Is immune to effects that prevent this unit from receiving buffs. When this unit has [Stratagem: Militarism] or [Stratagem: Stoicism], the physical damage taken by soldiers is reduced by 35%. <br><br>[Active] Selects 1 skill to activate: <br><br>[Stratagem: Militarism]: [Assist] This unit receives [Stratagem: Militarism]: [Command] ATK and INT of allied units in radius 3 tiles increases by 15%. Before initiating combat, deals fixed damage equal to Tova's ATK x0.5 once. After killing an enemy with an active skill, reduces the cooldown of that skill by 1 turn. Lasts 3 turns. Impossible to remove. <br><br>[Stratagem: Stoicism]: [Assist] This unit receives [Stratagem: Stoicism]: [Command] DEF of allied units within 3 tiles increases by 15%. Immunity to fixed damage. Cannot be moved. Lasts 3 turns. Impossible to remove. <br><br>When one of the skills described above is used, this unit can move 3 squares one more time and perform a second action. The CD of \"Archaic Ascension\" becomes equal to 5 turns."
     ],
     [
         "Тогуро",
@@ -26257,7 +26257,7 @@ var persSkills = [
         "on self",
         "one target",
         "6",
-        "[Transformation] Active skill. Gives 3 extra cells for mobility and additional attack, while activating the [120%] condition: All stats (except HP) increase by 20% (cannot be combined with Fusion Power). For every 1 cell passed before the attack, ATK increases by 5%. (Max 15%.) Restores 20% HP when taking lethal damage. (Triggers 1 time during this effect.) After an attack, allows you to move another 5 squares. Lasts 2 turns. When this effect ends, it removes 90% of your remaining HP. (The special effects of this skill cannot be removed; there is no immunity against them.)"
+        "[Transformation] Active skill. Gives 3 extra tiles for mobility and additional attack, while activating the [120%] condition: All stats (except HP) increase by 20% (cannot be combined with Fusion Power). For every 1 cell passed before the attack, ATK increases by 5%. (Max 15%.) Restores 20% HP when taking lethal damage. (Triggers 1 time during this effect.) After an attack, allows you to move another 5 squares. Lasts 2 turns. When this effect ends, it removes 90% of your remaining HP. (The special effects of this skill cannot be removed; there is no immunity against them.)"
     ],
     [
         "Finger Shot",
@@ -26547,7 +26547,7 @@ var persSkills = [
         "2",
         "2",
         "5",
-        "[Mag. Damage] Attacks multiple enemy units within range, dealing 0.2x AoE damage. Also applies the [Runic Ruins] effect to all cells for 2 turns: When enemy units enter this location, their mobility is reduced by 2 after taking the action. Lasts 1 turn. The more levels of the [Gained Knowledge] talent Hein receives, the greater the range of his skills and the greater their span (up to 4 cells of range and up to 4 cells of span)."
+        "[Mag. Damage] Attacks multiple enemy units within range, dealing 0.2x AoE damage. Also applies the [Runic Ruins] effect to all tiles for 2 turns: When enemy units enter this location, their mobility is reduced by 2 after taking the action. Lasts 1 turn. The more levels of the [Gained Knowledge] talent Hein receives, the greater the range of his skills and the greater their span (up to 4 tiles of range and up to 4 tiles of span)."
     ],
     [
         "Хелена",
@@ -26587,7 +26587,7 @@ var persSkills = [
         "1",
         "one target",
         "5",
-        "[Phys. damage] Deals 1.6x damage to 1 enemy. After the battle, neutralizes the skills of enemy weapons for 2 turns. Impossible to remove. When targeted by a non-player hero, this effect instead reduces damage dealt by 30% for 2 turns. Impossible to remove. After combat, deals 0.2x AoE damage to all enemies within a 2 cell radius of you and applies the [Ironwall] special effect to affected cells for 1 turn. (This effect is similar to the effect of the talent [Ironwall])."
+        "[Phys. damage] Deals 1.6x damage to 1 enemy. After the battle, neutralizes the skills of enemy weapons for 2 turns. Impossible to remove. When targeted by a non-player hero, this effect instead reduces damage dealt by 30% for 2 turns. Impossible to remove. After combat, deals 0.2x AoE damage to all enemies within a 2 cell radius of you and applies the [Ironwall] special effect to affected tiles for 1 turn. (This effect is similar to the effect of the talent [Ironwall])."
     ],
     [
         "Хией",
@@ -26677,7 +26677,7 @@ var persSkills = [
         "2",
         "line",
         "2",
-        "[Passive] Receives all attacks instead of adjacent allied units. <br><br>[Phys. damage] Attacks enemies in 5 straight lines, dealing 0.1x AoE damage, increasing your guardian effect range to 2 cells and reducing your chance to get a crit. hit by 20%. Lasts 2 turns. Also applies a special effect [Sinkhole] to all affected cells for 2 turns: When enemy units step on such terrain, they cannot receive the effects of “Repeat Movement” or “Repeat Action”."
+        "[Passive] Receives all attacks instead of adjacent allied units. <br><br>[Phys. damage] Attacks enemies in 5 straight lines, dealing 0.1x AoE damage, increasing your guardian effect range to 2 tiles and reducing your chance to get a crit. hit by 20%. Lasts 2 turns. Also applies a special effect [Sinkhole] to all affected tiles for 2 turns: When enemy units step on such terrain, they cannot receive the effects of “Repeat Movement” or “Repeat Action”."
     ],
     [
         "Light of Rebirth",
@@ -26697,7 +26697,7 @@ var persSkills = [
         "",
         "",
         "",
-        "[Passive] Receives all attacks instead of adjacent allied units, and is also immune to mobility reduction effects. <br><br>[Command] All allied units within a radius of 2 cells cannot be moved, and they also receive 35% less fixed damage. <br><br>[Active] Select 1 type of skill to use: <br><br>Order: Noble Spear: [Active] Guardian mode range increases to 2 squares. The command range increases to 3 cells, the hero's class type becomes [lancers]. Before being forced into battle, the damage taken by the enemy increases by 10% for each square passed (up to 50%). Lasts 3 turns. <br><br>Order: Mounted Charge: [Active] Guard mode range increases to 2 cells. The command range increases to 3 cells, the hero's class type becomes [cavalry]. Damage dealt to infantry in battle increases by additional 20%. Lasts 3 turns. <br><br>After using any of these skills, the Crimson Command's CD becomes equal to 3 turns."
+        "[Passive] Receives all attacks instead of adjacent allied units, and is also immune to mobility reduction effects. <br><br>[Command] All allied units within a radius of 2 tiles cannot be moved, and they also receive 35% less fixed damage. <br><br>[Active] Select 1 type of skill to use: <br><br>Order: Noble Spear: [Active] Guardian mode range increases to 2 squares. The command range increases to 3 cells, the hero's class type becomes [lancers]. Before being forced into battle, the damage taken by the enemy increases by 10% for each square passed (up to 50%). Lasts 3 turns. <br><br>Order: Mounted Charge: [Active] Guard mode range increases to 2 cells. The command range increases to 3 cells, the hero's class type becomes [cavalry]. Damage dealt to infantry in battle increases by additional 20%. Lasts 3 turns. <br><br>After using any of these skills, the Crimson Command's CD becomes equal to 3 turns."
     ],
     [
         "Химико",
@@ -26977,7 +26977,7 @@ var persSkills = [
         "2",
         "one target",
         "3",
-        "[Phys. damage] Attacks one enemy, dealing 1.4x damage. If you have melee soldiers, they will also take part in the attack. (Melee damage reduction does not affect this skill.) If there are no allied units within a radius of 3 cells from you, then this attack ignores the effects of the guard and after destroying the enemy you can move another 2 cells."
+        "[Phys. damage] Attacks one enemy, dealing 1.4x damage. If you have melee soldiers, they will also take part in the attack. (Melee damage reduction does not affect this skill.) If there are no allied units within a radius of 3 tiles from you, then this attack ignores the effects of the guard and after destroying the enemy you can move another 2 cells."
     ],
     [
         "Bloody Grip",
@@ -26987,7 +26987,7 @@ var persSkills = [
         "2",
         "one target",
         "5",
-        "[Phys. damage] Attacks one enemy, dealing 1.6x damage. Melee soldiers will also attack. (Melee damage reduction does not affect this skill.) After the battle, restores HP in an amount equal to 30% of the damage. This attack ignores 20% DEF for each enemy near the target (up to 40%). If there are no enemies within a radius of 2 cells from the target, then after defeating the enemy you can perform a second action. (This repeated action can only be activated once per turn.)"
+        "[Phys. damage] Attacks one enemy, dealing 1.6x damage. Melee soldiers will also attack. (Melee damage reduction does not affect this skill.) After the battle, restores HP in an amount equal to 30% of the damage. This attack ignores 20% DEF for each enemy near the target (up to 40%). If there are no enemies within a radius of 2 tiles from the target, then after defeating the enemy you can perform a second action. (This repeated action can only be activated once per turn.)"
     ],
     [
         "Эгберт",
@@ -27157,7 +27157,7 @@ var persSkills = [
         "on self",
         "2",
         "3",
-        "[Physical Damage] Deals 0.36x AoE damage in a radius of 2 cells and applies \"DEF reduced by 20%\" and \"MDEF reduced by 30%\" for 2 turns."
+        "[Physical Damage] Deals 0.36x AoE damage in a radius of 2 tiles and applies \"DEF reduced by 20%\" and \"MDEF reduced by 30%\" for 2 turns."
     ],
     [
         "Guardian of the Night",
@@ -27167,7 +27167,7 @@ var persSkills = [
         "2",
         "one target",
         "4",
-        "[Passive] When the effect of the talent “Repeat Action” is triggered, it restores 30% of the unit’s health and receives “deals +20% damage” for 1 turn. <br><br>[Physical Damage] Attacks one enemy in a straight line, dealing 1.6x damage. This attack ignores 30% of the enemy's DEF. When there are melee soldiers, they will also attack. After the battle, causes a [displacement] effect: pushes the enemy back by 2 cells and reduces mobility by 2 for 1 turn. Cannot be dispelled. If an enemy is pushed towards another unit or inaccessible area, he is stunned for 1 turn. Cannot be dispelled. After the attack, can move another 2 squares in a straight line and receives “receives 20% damage reduction” for 1 turn."
+        "[Passive] When the effect of the talent “Repeat Action” is triggered, it restores 30% of the unit’s health and receives “deals +20% damage” for 1 turn. <br><br>[Physical Damage] Attacks one enemy in a straight line, dealing 1.6x damage. This attack ignores 30% of the enemy's DEF. When there are melee soldiers, they will also attack. After the battle, causes a [displacement] effect: pushes the enemy back by 2 tiles and reduces mobility by 2 for 1 turn. Cannot be dispelled. If an enemy is pushed towards another unit or inaccessible area, he is stunned for 1 turn. Cannot be dispelled. After the attack, can move another 2 squares in a straight line and receives “receives 20% damage reduction” for 1 turn."
     ],
     [
         "Эльма",
@@ -27247,7 +27247,7 @@ var persSkills = [
         "on self",
         "one target",
         "4",
-        "[Passive] Receives all attacks instead of adjacent allied units. After activating the \"Unflinching\" effect, heals the hero by 100% HP and applies the [Superhuman Bravery] effect: The higher the unit's HP, the more physical damage received is reduced. Damage received may be reduced to 30%. Lasts 3 turns. <br><br>[Command]: Crit. Damage taken by all allied units within a 2 cell radius is reduced by 30%, and fixed damage taken is reduced by 20%. <br><br>[Active] The range of the guardian effect increases to 2 cells, the range of the command increases to 3 cells and you get the effect \"Advanced Holy Guard\": Increases ATK by 1.6x your MDEF. When attacked within 2 squares, you can counterattack. Lasts 4 turns. (The effect cannot be removed)"
+        "[Passive] Receives all attacks instead of adjacent allied units. After activating the \"Unflinching\" effect, heals the hero by 100% HP and applies the [Superhuman Bravery] effect: The higher the unit's HP, the more physical damage received is reduced. Damage received may be reduced to 30%. Lasts 3 turns. <br><br>[Command]: Crit. Damage taken by all allied units within a 2 cell radius is reduced by 30%, and fixed damage taken is reduced by 20%. <br><br>[Active] The range of the guardian effect increases to 2 cells, the range of the command increases to 3 tiles and you get the effect \"Advanced Holy Guard\": Increases ATK by 1.6x your MDEF. When attacked within 2 squares, you can counterattack. Lasts 4 turns. (The effect cannot be removed)"
     ],
     [
         "Эпсилон",
@@ -27467,7 +27467,7 @@ var persSkills = [
         "2",
         "3",
         "7",
-        "[Passive] In battle with holy units, ATK, DEF and MDEF increase by 15% (by 60% if the hero type is demon). <br>[Phys. damage] Deals 0.15x AoE damage to all enemies within 3 squares of the target and summons \"Shadow of Alhazard\". Also increases the unit's ATK by 20% and gives [Immunity]. Lasts 2 turns. After use, the unit can move another 3 cells and attack again."
+        "[Passive] In battle with holy units, ATK, DEF and MDEF increase by 15% (by 60% if the hero type is demon). <br>[Phys. damage] Deals 0.15x AoE damage to all enemies within 3 squares of the target and summons \"Shadow of Alhazard\". Also increases the unit's ATK by 20% and gives [Immunity]. Lasts 2 turns. After use, the unit can move another 3 tiles and attack again."
     ],
     [
         "Юлия",
@@ -27667,7 +27667,7 @@ var persSkills = [
         "5",
         "1",
         "3",
-        "[Active] Use on yourself, defensive terrain, or a friendly [Arcane Traces] to teleport to the target area. After use, it can move 2 additional cells and attack again. (After using this skill, the number of buff turns will not be reduced)"
+        "[Active] Use on yourself, defensive terrain, or a friendly [Arcane Traces] to teleport to the target area. After use, it can move 2 additional tiles and attack again. (After using this skill, the number of buff turns will not be reduced)"
     ],
     [
         "Calamitous Light Vortex",
@@ -27717,7 +27717,7 @@ var persSkills = [
         "",
         "",
         "",
-        "[Active] You can release a skill awakened by \"Will\". The cooldown time of this skill is equal to the cooldown time of the skill used: <br><br>[Solitary Journey]: Dragon Soul Blade <br><br>Cooldown: 2 turns / Range: 2 cells / Range: one target <br><br> [Physical Damage] Attacks one enemy, dealing 1.4x damage. This damage is treated as magic damage. If you are carrying melee soldiers, they will also attack. (This skill is not affected by melee damage reduction.) Can move an additional 3 blocks after an attack. <br><br>[Resistance]: Realm of the Nightmare Dragon <br><br>Cooldown: 3 rounds / Range: Self / Range: 2 cells <br><br>[Physical Damage] Deals 0.36x AoE damage to all enemies within 2 blocks around itself and applies \"cannot receive buff\" and \"cannot to trigger [lethal damage resistance] effects\" for 2 rounds. (The effect of not being able to activate [lethal Damage Resistance] only applies in competitive mode.) <br><br>[Sustenance]: Draconic Rejuvenescence <br><br>Cooldown: 3 rounds / Range: Self / Range: 3 cells <br ><br>[Assist] Restores 30% HP to all allies in range, and also applies [Regeneration] and \"reduce damage taken by 15%\" for 2 rounds."
+        "[Active] You can release a skill awakened by \"Will\". The cooldown time of this skill is equal to the cooldown time of the skill used: <br><br>[Solitary Journey]: Dragon Soul Blade <br><br>Cooldown: 2 turns / Range: 2 tiles / Range: one target <br><br> [Physical Damage] Attacks one enemy, dealing 1.4x damage. This damage is treated as magic damage. If you are carrying melee soldiers, they will also attack. (This skill is not affected by melee damage reduction.) Can move an additional 3 blocks after an attack. <br><br>[Resistance]: Realm of the Nightmare Dragon <br><br>Cooldown: 3 rounds / Range: Self / Range: 2 tiles <br><br>[Physical Damage] Deals 0.36x AoE damage to all enemies within 2 blocks around itself and applies \"cannot receive buff\" and \"cannot to trigger [lethal damage resistance] effects\" for 2 rounds. (The effect of not being able to activate [lethal Damage Resistance] only applies in competitive mode.) <br><br>[Sustenance]: Draconic Rejuvenescence <br><br>Cooldown: 3 rounds / Range: Self / Range: 3 tiles <br ><br>[Assist] Restores 30% HP to all allies in range, and also applies [Regeneration] and \"reduce damage taken by 15%\" for 2 rounds."
     ],
     [
         "Will of the World Warden",
@@ -27857,7 +27857,7 @@ var persSkills = [
         "5",
         "one target",
         "4",
-        "[Passive] When a talent choice triggers and enters the sleep effect, it can be teleported to other allie within a 5 square radius and designated target as [Proxy]: \"Take all attacks from enemies to the Archanfel within a 3 square radius and ignore class type disadvantages.\" , lasts 2 turns. <br><br>[Active] Actively use it to teleport to other unit. You can move another 3 cells and attack again. When using this skill, 1 [energy] will be consumed for every 1 square between the target and the hero. (After using this skill, the talent selection to enter the sleep effect at the end of the action will not be triggered, and the number of buff rounds will not be reduced)"
+        "[Passive] When a talent choice triggers and enters the sleep effect, it can be teleported to other allie within a 5 square radius and designated target as [Proxy]: \"Take all attacks from enemies to the Archanfel within a 3 square radius and ignore class type disadvantages.\" , lasts 2 turns. <br><br>[Active] Actively use it to teleport to other unit. You can move another 3 tiles and attack again. When using this skill, 1 [energy] will be consumed for every 1 square between the target and the hero. (After using this skill, the talent selection to enter the sleep effect at the end of the action will not be triggered, and the number of buff rounds will not be reduced)"
     ],
     [
         "Spatial Cloak",
@@ -27877,7 +27877,7 @@ var persSkills = [
         "3",
         "4",
         "5",
-        "[Passive] At the start of the turn, for every 5 layers of [Energy] you have, the damage dealt that turn will be increased by 10%. (up to 40%)<br><br>[Magic Damage] Attacks multiple enemies within range, dealing 0.4 AoE damage and causing a [Teleportation] effect, causing the location of the affected enemies to change. At the same time, the special effect [Unstable Space] is applied to the center of the target for 1 round: “[Command] Enemies within 2 cells around have a 30% chance of being randomly teleported to an adjacent cell at the end of the action.” ([Unstable Space] has higher priority for terrain coverage)"
+        "[Passive] At the start of the turn, for every 5 layers of [Energy] you have, the damage dealt that turn will be increased by 10%. (up to 40%)<br><br>[Magic Damage] Attacks multiple enemies within range, dealing 0.4 AoE damage and causing a [Teleportation] effect, causing the location of the affected enemies to change. At the same time, the special effect [Unstable Space] is applied to the center of the target for 1 round: “[Command] Enemies within 2 tiles around have a 30% chance of being randomly teleported to an adjacent cell at the end of the action.” ([Unstable Space] has higher priority for terrain coverage)"
     ],
     [
         "Макишима Агито",
@@ -27997,7 +27997,7 @@ var persSkills = [
         "4",
         "1",
         "4",
-        "[Magic Damage] Deals 0.1x AoE damage to a single target and can cause 1 [Displacement] effect: <br> Transcendence: Pull yourself towards the target (movement while moving is treated as flying);<br> Pull: Pull the target towards you .<br> After use, the number of buff rounds will not be reduced. Can move another 3 cells and attack again."
+        "[Magic Damage] Deals 0.1x AoE damage to a single target and can cause 1 [Displacement] effect: <br> Transcendence: Pull yourself towards the target (movement while moving is treated as flying);<br> Pull: Pull the target towards you .<br> After use, the number of buff rounds will not be reduced. Can move another 3 tiles and attack again."
     ],
     [
         "Icebound Vice",
@@ -28017,7 +28017,7 @@ var persSkills = [
         "6",
         "line",
         "4",
-        "[Passive] Immune to damage dealt to you when using [Chain Whip]. After use, your own ATK and INT will increase by 20% for 2 turns. <br><br>[Magic Damage] Attacks all enemies in 3 straight lines, dealing 0.3x AoE damage, and teleports itself and allies with [Chain Whip] in 3 surrounding cells to the cell with the longest range of the skill. At the same time, a special effect [Icicle] is randomly applied to an empty space in the path for 1 round: “After an enemy unit passes through, at the end of the action they will receive [fixed damage] equal to 1.5x the caster’s INT, they cannot be immune to him and receives [Bone Cold]; enemy non-flying units moving through it consume an additional 1 movement point.\" After use, the skill is replaced by [Abyssal Ice Prison]<br><br>Cooldown: - / Range: self / Area: 3 cells<br><br>[Passive] Immune to damage dealt to you when using [Chain Whip] ]. After use, own ATK and INT increase by 20%, lasting 2 rounds.<br><br>[Magic Damage] Deals 0.36x AoE damage to all enemies within a 3 block radius around itself and applies a special effect [Icicle] for 1 round on the edge skill range: “After an enemy unit passes through, at the end of the action they will take [Fixed Damage] equal to 1.5x the caster's INT, they cannot be immune to it and gain [Bone Cold]; enemy non-flying units moving through it consume an additional 1 movement point.\" After use, gains the [Abyssal Ice Prison] effect: \"[Command] Enemies within 3 blocks around will not be able to trigger the effect of the second action\", which lasts 2 rounds. After use, the skill is replaced with [Might of the Frigid Abyss]."
+        "[Passive] Immune to damage dealt to you when using [Chain Whip]. After use, your own ATK and INT will increase by 20% for 2 turns. <br><br>[Magic Damage] Attacks all enemies in 3 straight lines, dealing 0.3x AoE damage, and teleports itself and allies with [Chain Whip] in 3 surrounding tiles to the cell with the longest range of the skill. At the same time, a special effect [Icicle] is randomly applied to an empty space in the path for 1 round: “After an enemy unit passes through, at the end of the action they will receive [fixed damage] equal to 1.5x the caster’s INT, they cannot be immune to him and receives [Bone Cold]; enemy non-flying units moving through it consume an additional 1 movement point.\" After use, the skill is replaced by [Abyssal Ice Prison]<br><br>Cooldown: - / Range: self / Area: 3 cells<br><br>[Passive] Immune to damage dealt to you when using [Chain Whip] ]. After use, own ATK and INT increase by 20%, lasting 2 rounds.<br><br>[Magic Damage] Deals 0.36x AoE damage to all enemies within a 3 block radius around itself and applies a special effect [Icicle] for 1 round on the edge skill range: “After an enemy unit passes through, at the end of the action they will take [Fixed Damage] equal to 1.5x the caster's INT, they cannot be immune to it and gain [Bone Cold]; enemy non-flying units moving through it consume an additional 1 movement point.\" After use, gains the [Abyssal Ice Prison] effect: \"[Command] Enemies within 3 blocks around will not be able to trigger the effect of the second action\", which lasts 2 rounds. After use, the skill is replaced with [Might of the Frigid Abyss]."
     ],
 	[
         "Табрес",
@@ -28057,7 +28057,7 @@ var persSkills = [
         "2",
         "3",
         "5",
-        "[Passive] When an ally dies, the source of damage gains 2 stacks of [Shadow Feathers].<br><br>[Physical Damage] Deals 0.15x AoE damage to enemies within a 3 cell radius and restores 30% of the maximum HP of all allies in the radius. After this, she receives [Dawnlight Rebirth]: “Before entering combat, deals damage in a radius of 1 ring around itself. \"Deals 0.1x AoE damage to all enemies\", cannot be dispelled and lasts 2 turns. After use, can move another 3 cells and attack again."
+        "[Passive] When an ally dies, the source of damage gains 2 stacks of [Shadow Feathers].<br><br>[Physical Damage] Deals 0.15x AoE damage to enemies within a 3 cell radius and restores 30% of the maximum HP of all allies in the radius. After this, she receives [Dawnlight Rebirth]: “Before entering combat, deals damage in a radius of 1 ring around itself. \"Deals 0.1x AoE damage to all enemies\", cannot be dispelled and lasts 2 turns. After use, can move another 3 tiles and attack again."
     ],
 	[
         "Тирантир",
@@ -28087,7 +28087,7 @@ var persSkills = [
         "on self",
         "one target",
         "2",
-        "[Passive] Enters battle instead of nearby allies.<br>[Active] Adds 15% ATK to DEF and MDEF. Can counterattack attacks from 2 cells and cannot be dispelled. Guard range is increased to 2 cells, and damage taken is reduced by 15% for 2 rounds."
+        "[Passive] Enters battle instead of nearby allies.<br>[Active] Adds 15% ATK to DEF and MDEF. Can counterattack attacks from 2 tiles and cannot be dispelled. Guard range is increased to 2 cells, and damage taken is reduced by 15% for 2 rounds."
     ],
 	[
         "Fate's Decree",
@@ -28247,7 +28247,7 @@ var persSkills = [
         "all",
         "one target",
         "3",
-        "[Passive] Can move again after attacking. The number of cells to move this time is equal to the number of cells the hero moved before the battle.<br><br>[Active] Select an enemy and apply [Cunning Toxin], which cannot be immune to and can't be dispelled, lasts 2 rounds. After use, the number of turns of the buff effect on the hero will not be reduced. You can move 3 cells and attack again."
+        "[Passive] Can move again after attacking. The number of tiles to move this time is equal to the number of tiles the hero moved before the battle.<br><br>[Active] Select an enemy and apply [Cunning Toxin], which cannot be immune to and can't be dispelled, lasts 2 rounds. After use, the number of turns of the buff effect on the hero will not be reduced. You can move 3 tiles and attack again."
     ],
 	[
         "Vicious Corruption",
@@ -28307,7 +28307,7 @@ var persSkills = [
         "on self",
         "one target",
         "4",
-        "[Passive] If there is an enemy within 3 blocks around with the effect of [Reluctant Battle], then when receiving fatal damage, the hero will damage him (the damage dealt by this will not exceed 5 times his maximum HP), and at the same time he will restore 20% of own HP. ([Trigger Cooldown] This effect requires an interval of 2 rounds to trigger again.)<br><br>[Active] When active, this unit recovers 30% HP and gains the [Royal Fate] effect that lasts for 2 rounds. Can move another 3 cells and attack again. (After using this skill, the number of buff turns will not be reduced)"
+        "[Passive] If there is an enemy within 3 blocks around with the effect of [Reluctant Battle], then when receiving fatal damage, the hero will damage him (the damage dealt by this will not exceed 5 times his maximum HP), and at the same time he will restore 20% of own HP. ([Trigger Cooldown] This effect requires an interval of 2 rounds to trigger again.)<br><br>[Active] When active, this unit recovers 30% HP and gains the [Royal Fate] effect that lasts for 2 rounds. Can move another 3 tiles and attack again. (After using this skill, the number of buff turns will not be reduced)"
     ],
 	[
         "Holy Holy Sword",
@@ -28337,7 +28337,7 @@ var persSkills = [
         "on self",
         "one target",
         "3",
-        "[Passive] If there are no allies with [Protect] within a radius of 3 cells, the unit's mobility +2.<br><br>[Active] Used actively to restore 30% of a unit's HP and gain [Escort]: 'The next time you entering combat with an enemy insted of unit with [Protect], if you have already acted this round, you can act again', which lasts 3 rounds. Cannot be dispelled. Once used, the number of buff rounds will not be reduced. Can move another 3 cells and attack again."
+        "[Passive] If there are no allies with [Protect] within a radius of 3 cells, the unit's mobility +2.<br><br>[Active] Used actively to restore 30% of a unit's HP and gain [Escort]: 'The next time you entering combat with an enemy insted of unit with [Protect], if you have already acted this round, you can act again', which lasts 3 rounds. Cannot be dispelled. Once used, the number of buff rounds will not be reduced. Can move another 3 tiles and attack again."
     ],
 	[
         "Preemptive Blade Strike",
@@ -28407,7 +28407,7 @@ var persSkills = [
         "on self",
         "3",
         "3",
-        "[Passive] At the end of the action, if all movement is used up this round, gain 1 layer of [Battle Enthusiasm].<br><br>[Physical Damage] Attacks all enemies within 3 cells around it, dealing 0.3x AoE damage and dealing 0.1x AoE damage to nearby enemies. After the attack, applies [Electric Strike] to all units hit: “Before using the skill, receives [fixed damage] equal to 0.5x ATK of the caster. The cooldown of this skill will be increased by an additional 0.5 times every 1 round.' Lasts 2 rounds."
+        "[Passive] At the end of the action, if all movement is used up this round, gain 1 layer of [Battle Enthusiasm].<br><br>[Physical Damage] Attacks all enemies within 3 tiles, dealing 0.3x AoE damage and dealing 0.1x AoE damage to nearby enemies. After the attack, applies [Electric Strike] to all units hit: “Before using the skill, receives [fixed damage] equal to 0.5x ATK of the caster. The cooldown of this skill will be increased by an additional 0.5 times every 1 round.' Lasts 2 rounds."
     ],
 	[
         "Нож Марк и Ниндзя Гиндзу",
@@ -28577,7 +28577,7 @@ var persSkills = [
         "3",
         "one target",
         "4",
-        "[Assist] Actively used, allowing one unit to gain 1 layer of [Hui's Blessing]: 'Immunity to 1 debuff'. For each stack of [Psychic Perception] the hero has, an additional layer will be applied, up to 5 layers. Stacks up to 5 layers, cannot be dispelled. After use, can move another 2 cells and attack again. (After using this skill, the number of buff turns will not be reduced)"
+        "[Assist] Actively used, allowing one unit to gain 1 layer of [Hui's Blessing]: 'Immunity to 1 debuff'. For each stack of [Psychic Perception] the hero has, an additional layer will be applied, up to 5 layers. Stacks up to 5 layers, cannot be dispelled. After use, can move another 2 tiles and attack again. (After using this skill, the number of buff turns will not be reduced)"
     ],
 	[
         "Determination to Retreat from Evil",
@@ -28597,7 +28597,7 @@ var persSkills = [
         "2",
         "one target",
         "3",
-        "[Passive] Allies DEF and MDEF within 2 cells around [Angel of Justice] are increased by 15%; the hero himself will not die when receiving fatal damage, instead, his HP will be restored by 30%, and his [Angel of Justice] and all [Psychic Perception] will be removed. (Only triggers once per battle).<br><br>[Magic Damage] Attacks one enemy, dealing 1.6x damage. When successful destruction of the enemy, gains 1 layer of [Psychic Perception]. At the end of the skill release action, all allies within the [Angel of Justice]'s range will gain 2 layers of [Hui's Blessing]: 'Immunity to debuff', which can be stacked up to 5 layers and cannot be dispelled."
+        "[Passive] Allies DEF and MDEF within 2 tiles around [Angel of Justice] are increased by 15%; the hero himself will not die when receiving fatal damage, instead, his HP will be restored by 30%, and his [Angel of Justice] and all [Psychic Perception] will be removed. (Only triggers once per battle).<br><br>[Magic Damage] Attacks one enemy, dealing 1.6x damage. When successful destruction of the enemy, gains 1 layer of [Psychic Perception]. At the end of the skill release action, all allies within the [Angel of Justice]'s range will gain 2 layers of [Hui's Blessing]: 'Immunity to debuff', which can be stacked up to 5 layers and cannot be dispelled."
     ],
 	[
         "Норнорин",
@@ -28617,7 +28617,7 @@ var persSkills = [
         "on self",
         "one target",
         "4",
-        "[Active] Actively used, and gains 'When passing through 'water', 'swamp' and terrain with the friendly effect of [full tide], can gain 2 cells to avoid mobility reduction' which lasts for 2 rounds. Can move another 2 cells and attack again. (After using this skill, [Summon Tidal Wave] cannot be released at the end of the action, and the number of buff rounds will not be reduced)."
+        "[Active] Actively used, and gains 'When passing through 'water', 'swamp' and terrain with the friendly effect of [full tide], can gain 2 tiles to avoid mobility reduction' which lasts for 2 rounds. Can move another 2 tiles and attack again. (After using this skill, [Summon Tidal Wave] cannot be released at the end of the action, and the number of buff rounds will not be reduced)."
     ],
 	[
         "Tide Realm",
@@ -28627,7 +28627,7 @@ var persSkills = [
         "on self",
         "2",
         "3",
-        "[Physical Damage] Deals 0.36x AoE damage to enemies within 2 cells around itself, preventing enemies from receiving the 'repeat action' effect that lasts for 2 rounds, and applies special terrain [full Tide] to cells for 2 rounds."
+        "[Physical Damage] Deals 0.36x AoE damage to enemies within 2 tiles around itself, preventing enemies from receiving the 'repeat action' effect that lasts for 2 rounds, and applies special terrain [full Tide] to tiles for 2 rounds."
     ],
 	[
         "Crashing Waves",
@@ -28677,7 +28677,7 @@ var persSkills = [
         "5",
         "on straight",
         "5",
-        "[Magic Damage] Attacks all enemies in 3 straight lines, dealing 0.36x AoE damage and applying a special terrain effect to the affected cells that lasts for 2 rounds. [Elemental Distortion]: If an enemy unit on this terrain is in 'Forest' or 'Plains', it cannot receive the effect of 'Repeat Movement'; when a friendly [Coordination Spirit] passes through this terrain, it has a chance to avoid the mobility reduction of 1 cell."
+        "[Magic Damage] Attacks all enemies in 3 straight lines, dealing 0.36x AoE damage and applying a special terrain effect to the affected tiles that lasts for 2 rounds. [Elemental Distortion]: If an enemy unit on this terrain is in 'Forest' or 'Plains', it cannot receive the effect of 'Repeat Movement'; when a friendly [Coordination Spirit] passes through this terrain, it has a chance to avoid the mobility reduction of 1 cell."
     ]
 ]
 
@@ -28769,7 +28769,7 @@ var commonSkills = [
         "Self",
         "1",
         "2",
-        "[Assist] After use, your unit's SKILL increases by 30%. Lasts 2 turns. Allows you to move 2 extra cells and perform a repeat action.",
+        "[Assist] After use, your unit's SKILL increases by 30%. Lasts 2 turns. Allows you to move 2 extra tiles and perform a repeat action.",
         "Quick Step"
     ],
     [
@@ -28819,7 +28819,7 @@ var commonSkills = [
         "Self",
         "2",
         "3",
-        "[Mag. damage] Deals 0.3x AoE damage to all enemies within 2 cells and removes 2 buffs",
+        "[Mag. damage] Deals 0.3x AoE damage to all enemies within 2 tiles and removes 2 buffs",
         "Retribution"
     ],
     [
@@ -28909,7 +28909,7 @@ var commonSkills = [
         "-",
         "-",
         "-",
-        "[Passive] After dealing damage with this unit, deals damage to enemies within a radius of 2 cells (0.1x hero's ATK). Has a 50% chance to apply a random debuff to each target.",
+        "[Passive] After dealing damage with this unit, deals damage to enemies within a radius of 2 tiles (0.1x hero's ATK). Has a 50% chance to apply a random debuff to each target.",
         "Wind Pressure"
     ],
     [
@@ -29089,7 +29089,7 @@ var commonSkills = [
         "-",
         "-",
         "-",
-        "[Passive] After performing an action, reduces the ATK and INT of all enemies within a radius of 2 cells by 15%. Lasts 1 turn.",
+        "[Passive] After performing an action, reduces the ATK and INT of all enemies within a radius of 2 tiles by 15%. Lasts 1 turn.",
         "ATK Intimidate"
     ],
     [
@@ -29099,7 +29099,7 @@ var commonSkills = [
         "-",
         "-",
         "-",
-        "[Passive] After performing an action, reduces the DEF of all enemies within a radius of 2 cells by 15%. Lasts 1 turn.",
+        "[Passive] After performing an action, reduces the DEF of all enemies within a radius of 2 tiles by 15%. Lasts 1 turn.",
         "DEF Intimidate"
     ],
     [
@@ -29109,7 +29109,7 @@ var commonSkills = [
         "-",
         "-",
         "-",
-        "[Passive] After performing an action, reduces the MDEF of all enemies within a radius of 3 cells by 20%. Lasts 1 turn.",
+        "[Passive] After performing an action, reduces the MDEF of all enemies within a radius of 3 tiles by 20%. Lasts 1 turn.",
         "MDEF Intimidate"
     ],
     [
@@ -29149,7 +29149,7 @@ var commonSkills = [
         "-",
         "-",
         "-",
-        "[Passive] After performing an action, the SKILL of all enemy units within a radius of 3 cells is reduced by 20% for 1 turn.",
+        "[Passive] After performing an action, the SKILL of all enemy units within a radius of 3 tiles is reduced by 20% for 1 turn.",
         "Skill Swagger"
     ],
     [
@@ -29159,7 +29159,7 @@ var commonSkills = [
         "-",
         "-",
         "-",
-        "[Command] Increases the SKILL of all friendly units within 3 cells by 20%.",
+        "[Command] Increases the SKILL of all friendly units within 3 tiles by 20%.",
         "Skill Command"
     ],
     [
@@ -29219,7 +29219,7 @@ var commonSkills = [
         "-",
         "-",
         "-",
-        "[Command] All allies within 2 cells receive +10% ATK and INT.",
+        "[Command] All allies within 2 tiles receive +10% ATK and INT.",
         "ATK Command"
     ],
     [
@@ -29239,7 +29239,7 @@ var commonSkills = [
         "-",
         "-",
         "-",
-        "[Command] MDEF of all allies within a radius of 2 cells increases by 15%.",
+        "[Command] MDEF of all allies within a radius of 2 tiles increases by 15%.",
         "MDEF Command"
     ],
     [
@@ -29519,7 +29519,7 @@ var commonSkills = [
         "-",
         "-",
         "-",
-        "[Passive] When combat is initiated by you, damage dealt increases by 10%. Can move another 2 cells after the battle. [Activate CD] The CD of this repeat move is 1 turn.",
+        "[Passive] When combat is initiated by you, damage dealt increases by 10%. Can move another 2 tiles after the battle. [Activate CD] The CD of this repeat move is 1 turn.",
         "Roundabout"
     ],
     [
@@ -29739,7 +29739,7 @@ var commonSkills = [
         "Self",
         "Single",
         "3",
-        "[Assist] After casting, all passable terrain is consider as water. Lasts 2 turns. After use, can move another 2 cells and attack.",
+        "[Assist] After casting, all passable terrain is consider as water. Lasts 2 turns. After use, can move another 2 tiles and attack.",
         "Tidal Surge"
     ],
     [
@@ -29749,7 +29749,7 @@ var commonSkills = [
         "Self",
         "Single",
         "2",
-        "[Assist] Increases unit damage by 10%. Lasts 1 turn. After use, can move another 2 cells and attack.",
+        "[Assist] Increases unit damage by 10%. Lasts 1 turn. After use, can move another 2 tiles and attack.",
         "Aim"
     ],
     [
@@ -29819,7 +29819,7 @@ var commonSkills = [
         "1",
         "Single",
         "3",
-        "[Phys. damage] Attacks one enemy, dealing 1x damage. Inflicts [Displacement]: Pushes the target 2 cells back and prevents it from taking an action on the next turn.",
+        "[Phys. damage] Attacks one enemy, dealing 1x damage. Inflicts [Displacement]: Pushes the target 2 tiles back and prevents it from taking an action on the next turn.",
         "Rout"
     ],
     [
@@ -29899,7 +29899,7 @@ var commonSkills = [
         "Self",
         "Single",
         "4",
-        "[Assist] Active skill. Increases a unit's ATK by 30%. Gives [Explosion] [Reinforcement] and immunity to debuffs. Explosion: When attacking, if the unit's HP is greater than 80%, damage taken is reduced by 30%. Reinforcement: Upon completion of the action, restores 20% of your units' HP. Lasts 2 turns. After casting, you can move another 3 cells and attack.",
+        "[Assist] Active skill. Increases a unit's ATK by 30%. Gives [Explosion] [Reinforcement] and immunity to debuffs. Explosion: When attacking, if the unit's HP is greater than 80%, damage taken is reduced by 30%. Reinforcement: Upon completion of the action, restores 20% of your units' HP. Lasts 2 turns. After casting, you can move another 3 tiles and attack.",
         "Chivalry"
     ],
     [
@@ -30049,7 +30049,7 @@ var commonSkills = [
         "1",
         "Single",
         "2",
-        "[Phys. damage] Attacks one enemy, dealing 1.2x damage. Inflicts [Displacement] effect: Pushes the target 2 cells back, reducing its mobility by 2. Cannot be guarded by a guard. Lasts 1 turn.",
+        "[Phys. damage] Attacks one enemy, dealing 1.2x damage. Inflicts [Displacement] effect: Pushes the target 2 tiles back, reducing its mobility by 2. Cannot be guarded by a guard. Lasts 1 turn.",
         "Ram"
     ],
     [
@@ -30179,7 +30179,7 @@ var commonSkills = [
         "Self",
         "Single",
         "3",
-        "[Assist] Active skill. Increases ATK and INT by 20%. Lasts 1 turn. After casting, you can move another 3 cells and attack.",
+        "[Assist] Active skill. Increases ATK and INT by 20%. Lasts 1 turn. After casting, you can move another 3 tiles and attack.",
         "Strike"
     ],
     [
@@ -30259,7 +30259,7 @@ var commonSkills = [
         "Self",
         "Single",
         "2",
-        "[Assist] After using, crit and crit damage of unit increases by 15%. Lasts 2 turns. After use, can move another 2 cells and attack.",
+        "[Assist] After using, crit and crit damage of unit increases by 15%. Lasts 2 turns. After use, can move another 2 tiles and attack.",
         "Cold Blood"
     ],
     [
@@ -30523,7 +30523,7 @@ var SPskills = [
         "self",
         "2 rings",
         "5",
-        "[Phys. damage] Deals 0.1x AoE damage to all enemies within 2 rings. After the battle, receives the [Wind Rider] effect for 1 turn. After dealing damage, relocate all enemies in the area to cells near you. If you have the Fusion Energy special effect and at least 3 enemies are near you, you can attack again, but not move or move again. [Activate CD] The CD of the \"Repeat Action\" effect is 3 turns. When using \"Repeat Action\", the number of turns for applied buffs is preserved."
+        "[Phys. damage] Deals 0.1x AoE damage to all enemies within 2 rings. After the battle, receives the [Wind Rider] effect for 1 turn. After dealing damage, relocate all enemies in the area to tiles near you. If you have the Fusion Energy special effect and at least 3 enemies are near you, you can attack again, but not move or move again. [Activate CD] The CD of the \"Repeat Action\" effect is 3 turns. When using \"Repeat Action\", the number of turns for applied buffs is preserved."
     ],
     [
         "Альмеда",
@@ -30543,7 +30543,7 @@ var SPskills = [
         "",
         "",
         "",
-        "[Active] Can choose 1 spell from three: [Heart of Praise♂], [Goddess Loves You~] or [I am Bozel?]. At the end of the effect, the cooldown time of all support skills is reduced by 1 turn. \n[Heart of Praise ♂] Target: Self \n[Active] When actively used, healing effects in this round will be increased by 50% . At the end of the action, the talent will trigger 1 additional time. \n[Goddess loves you] Target: single | Range: 3 cells \n[Assist] Grants one ally: “When actively attacking and entering combat, applies 2 debuffs to the enemy before the battle,” lasts 2 rounds. \n[I am Bozel?] Target: single | Range: 3 cells \n[Magic Damage] Directly deals 0.2x AoE damage to one enemy on the battlefield and applies 1 random strong debuff."
+        "[Active] Can choose 1 spell from three: [Heart of Praise♂], [Goddess Loves You~] or [I am Bozel?]. At the end of the effect, the cooldown time of all support skills is reduced by 1 turn. \n[Heart of Praise ♂] Target: Self \n[Active] When actively used, healing effects in this round will be increased by 50% . At the end of the action, the talent will trigger 1 additional time. \n[Goddess loves you] Target: single | Range: 3 tiles \n[Assist] Grants one ally: “When actively attacking and entering combat, applies 2 debuffs to the enemy before the battle,” lasts 2 rounds. \n[I am Bozel?] Target: single | Range: 3 tiles \n[Magic Damage] Directly deals 0.2x AoE damage to one enemy on the battlefield and applies 1 random strong debuff."
     ],
     [
         "Almeda Never Bows",
@@ -30573,7 +30573,7 @@ var SPskills = [
         "",
         "",
         "",
-        "[Passive]: After using this skill, you can change it to [Sword Dance], [Shield Bash] or [Crusade of the Damned]  if this skill is not available. Lasts 2 rounds. \n[Active]: Gain [Rupture] for 3 rounds. Cannot be removed. After use, it can move another 3 cells and attack again. When using this skill, the number of buff rounds does not decrease."
+        "[Passive]: After using this skill, you can change it to [Sword Dance], [Shield Bash] or [Crusade of the Damned]  if this skill is not available. Lasts 2 rounds. \n[Active]: Gain [Rupture] for 3 rounds. Cannot be removed. After use, it can move another 3 tiles and attack again. When using this skill, the number of buff rounds does not decrease."
     ],
     [
         "Crusade of the Damned",
@@ -30903,7 +30903,7 @@ var SPskills = [
         "self",
         "single",
         "4",
-        "[Passive] When you activate the effect of [Grandmaster], the damage dealt is increased by 50%. Applies additional fixed damage equal to (1x the caster's INT). \n[Assist] Active skill. Cast [Magic Barrier] on self: When you receive magical damage for the first time, damage taken is reduced by 30%. Lasts 3 turns. After using this skill, can move another 2 cells and perform the action again. (After using this skill, the number of turns for buffs applied to the unit is retained)."
+        "[Passive] When you activate the effect of [Grandmaster], the damage dealt is increased by 50%. Applies additional fixed damage equal to (1x the caster's INT). \n[Assist] Active skill. Cast [Magic Barrier] on self: When you receive magical damage for the first time, damage taken is reduced by 30%. Lasts 3 turns. After using this skill, can move another 2 tiles and perform the action again. (After using this skill, the number of turns for buffs applied to the unit is retained)."
     ],
     [
         "Arcane Tome",
@@ -31033,7 +31033,7 @@ var SPtalent = [
     [
         "Бернхардт",
         "Infernal Overlord",
-        "Ignores skill cost limit. When entering combat, damage dealt and DEF are increased by (10, 13, 16, 20)%. All enemies within a radius of 2 cells receive ATK and DEF -(5, 8, 11, 15)% and lose 1 buff at the end of the action.",
+        "Ignores skill cost limit. When entering combat, damage dealt and DEF are increased by (10, 13, 16, 20)%. All enemies within a radius of 2 tiles receive ATK and DEF -(5, 8, 11, 15)% and lose 1 buff at the end of the action.",
         "Infernal Overlord"
     ],
     [
@@ -31069,7 +31069,7 @@ var SPtalent = [
     [
         "Леон",
         "Возвращение Синего дракона",
-        "Ignores skill cost limit. The hero's physical damage is increased by (10,15,20,30)%. Reduces physical damage taken by the hero by (10,15,20,30)%. This effect is doubled during an active attack. Ignores obstacles of enemy units when moving. After an attack can move another 3 cells. After taking an action, all cells moved this turn receive a special effect [Nether Flame] for 2 turns: When an enemy unit ends its turn on such cell, after taking action it receives [Fixed Damage] equal to 1x ATK and deals 20% less damage for 2 turns.",
+        "Ignores skill cost limit. The hero's physical damage is increased by (10,15,20,30)%. Reduces physical damage taken by the hero by (10,15,20,30)%. This effect is doubled during an active attack. Ignores obstacles of enemy units when moving. After an attack can move another 3 cells. After taking an action, all tiles moved this turn receive a special effect [Nether Flame] for 2 turns: When an enemy unit ends its turn on such cell, after taking action it receives [Fixed Damage] equal to 1x ATK and deals 20% less damage for 2 turns.",
         "Return of the Blue Dragon"
     ],
     [
@@ -31093,7 +31093,7 @@ var SPtalent = [
     [
         "Фрейя",
         "Распустившаяся роза",
-        "Damage taken is reduced by (5,7,9,12,15)%. Risk of getting critical impact is reduced by (15,18,22,26,30)%. Before enemies within 2 cells deal damage, has a (50,60,70,80,100)% chance to deal fixed damage equal to Freya's (DEF+MDEF) x1 once. If the enemy unit is a mixed forces, this damage ignores immunity.",
+        "Damage taken is reduced by (5,7,9,12,15)%. Risk of getting critical impact is reduced by (15,18,22,26,30)%. Before enemies within 2 tiles deal damage, has a (50,60,70,80,100)% chance to deal fixed damage equal to Freya's (DEF+MDEF) x1 once. If the enemy unit is a mixed forces, this damage ignores immunity.",
         "Blossoming Rose"
     ],
     [
