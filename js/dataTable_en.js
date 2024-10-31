@@ -28407,7 +28407,7 @@ var persSkills = [
         "on self",
         "3",
         "3",
-        "[Passive] At the end of the action, if all movement is used up this round, gain 1 layer of [Battle Enthusiasm].<br><br>[Physical Damage] Attacks all enemies within 3 squares around it, dealing 0.3x AoE damage and dealing 0.1x AoE damage to nearby enemies. After the attack, applies [Electric Strike] to all units hit: “Before using the skill, receives [fixed damage] equal to 0.5x ATK of the caster. The cooldown of this skill will be increased by an additional 0.5 times every 1 round.' Lasts 2 rounds."
+        "[Passive] At the end of the action, if all movement is used up this round, gain 1 layer of [Battle Enthusiasm].<br><br>[Physical Damage] Attacks all enemies within 3 cells around it, dealing 0.3x AoE damage and dealing 0.1x AoE damage to nearby enemies. After the attack, applies [Electric Strike] to all units hit: “Before using the skill, receives [fixed damage] equal to 0.5x ATK of the caster. The cooldown of this skill will be increased by an additional 0.5 times every 1 round.' Lasts 2 rounds."
     ],
 	[
         "Нож Марк и Ниндзя Гиндзу",
