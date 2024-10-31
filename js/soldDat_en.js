@@ -992,7 +992,7 @@ var soldDat = [
         "5",
         "1",
         "АТК, ЗАЩ и МЗАЩ солдат увеличиваются на 25%. Когда солдат перед атакой перемещается более чем на 3 клетки, наносимый солдатом урон увеличивается на 15%.",
-        "ATK, DEF and MDEF of soldiers increase by 25%. When a soldier moves more than 3 squares before attacking, the damage the soldier deals is increased by 15%.",
+        "ATK, DEF and MDEF of soldiers increase by 25%. When a soldier moves more than 3 tiles before attacking, the damage the soldier deals is increased by 15%.",
         "fly",
         "Элвин,Шери,Варна,Эксела,Элисса,Эйшин,Хофманн,Луна,Кларетт,Хелена,Това,Розалия,Элейн,Изольда,Табрес"
     ],
