@@ -629,7 +629,7 @@ var itemDat = [
         "",
         "",
         "Сила исцеления +10%, ОЗ +5%. Каждый раз когда союзник получает урон от навыка, герой получает 1 стак: 'В конце действия или при получении урона, восстанавливает ОЗ союзников у которых ОЗ меньше 80% в радиусе 2 клеток на 1.5х ИНТ и снимает этот эффект'. Максимум 5 стаков",
-        "Healing power +10%, HP +5%. Each time an ally receives damage from a skill, the hero receives 1 stack: “At the end of the action or when receiving damage, restores the HP of allies whose HP is less than 80% within a radius of 2 cells by 1.5x INT and remove this effect.” Maximum 5 stacks",
+        "Healing power +10%, HP +5%. Each time an ally receives damage from a skill, the hero receives 1 stack: “At the end of the action or when receiving damage, restores the HP of allies whose HP is less than 80% within a radius of 2 tiles by 1.5x INT and remove this effect.” Maximum 5 stacks",
         "accs"
     ],
     [
