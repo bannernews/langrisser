@@ -796,7 +796,7 @@ var soldDat = [
         "5",
         "1",
         "Атака солдат увеличивается на 30%. Когда ОЗ солдат выше 80%, АТК и ЗАЩ вражеских солдат в пределах 2 клеток будут снижены на 15%",
-        "When a soldier's HP is above 80%, the ATK and DEF of enemy soldiers within 2 cells will be reduced by 15%",
+        "When a soldier's HP is above 80%, the ATK and DEF of enemy soldiers within 2 tiles will be reduced by 15%",
         "cavalry",
         "Леон,Скотт,Эмерик,Фрейя,Левин,Лэйд,Юлия,Андриола,Алтемюллер,Ленфорд,Ашрам,Арес,Рикки,Бернхардт,Макишима Агито,Тирантир,Серафина"
     ],
@@ -2126,7 +2126,7 @@ var soldDat = [
         "5",
         "1",
         "Когда не в воде, АТК увеличивается на 40%. В конце действия врагам в пределах 2 клеток вокруг него будет нанесен [фиксированный урон], равный 15% от текущего здоровья Адского демонического ядра; враги в пределах 2 клеток вокруг него также получат этот урон после своего действия.",
-        "When not in water, ATK increases by 40%. At the end of the action, enemies within 2 cells around will be dealt [Fixed Damage] equal to 15% of the Infernal Demonic Core's current health; Enemies within 2 cells around will also take this damage after their action.",
+        "When not in water, ATK increases by 40%. At the end of the action, enemies within 2 tiles around will be dealt [Fixed Damage] equal to 15% of the Infernal Demonic Core's current health; Enemies within 2 tiles around will also take this damage after their action.",
         "demon",
         "Варгас,Леон,Бернхардт,Листелл,Тогуро,Винсент,Эпсилон,Альбедо,Ютем,Меч Света и Тьмы,Апофеоз"
     ]
