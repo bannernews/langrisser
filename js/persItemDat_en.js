@@ -1698,6 +1698,21 @@ var persItemDat = [
         "ОЗ +10%. Когда в радиусе 1 кольца есть 2 и более других союзных юнитов [конвергенция света] больше не наносит урон союзникам, а получаемые лечебные эффекты усиливаются на 8%.",
         "HP +10%. When there are at least 2 allies within 1 ring, Darklight Synthesis will not deal damage to allies, and recieved healing effects +8%."
     ],
+	[
+        "Серафина",
+        "Seraphina",
+        "Глобал - 06.03.2025",
+        "Global - 06.03.2025",
+        "body",
+        "437",
+        "",
+        "",
+        "65",
+        "",
+        "",
+        "ОЗ +10%. При прохождении сквозь врагов, накладывает на них 1 дебафф; при использовании умения накладывает 1 мощный дебафф на врагов, которым умение нанесло урон (включая фиксированный урон).",
+        "HP +10%. When passing through enemies, applies 1 debuff to them; when using a skill, applies 1 powerful debuff to enemies that were damaged by the skill (including fixed damage)."
+    ],
     [
         "Селина",
         "Serene",

@@ -1623,6 +1623,21 @@ var persItemDat = [
         "ЗАЩ +10%. Все союзные юниты, у которых менее 80% ОЗ, в радиусе 3 клеток считаются «павшими солдатами».",
         "DEF +10%. Allies within 3 blocks with under 80% HP are considered as having no soldiers."
     ],
+	[
+        "Серафина",
+        "Seraphina",
+        "Глобал - 06.03.2025",
+        "Global - 06.03.2025",
+        "body",
+        "437",
+        "",
+        "",
+        "65",
+        "",
+        "",
+        "ОЗ +10%. При прохождении сквозь врагов, накладывает на них 1 дебафф; при использовании умения накладывает 1 мощный дебафф на врагов, которым умение нанесло урон (включая фиксированный урон).",
+        "HP +10%. When passing through enemies, applies 1 debuff to them; when using a skill, applies 1 powerful debuff to enemies that were damaged by the skill (including fixed damage)."
+    ],
     [
         "Серебряный Волк",
         "Silver Wolf",

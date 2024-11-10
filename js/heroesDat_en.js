@@ -52,7 +52,7 @@ var heroesDat = [
         "Ainz Ooal Gown",
         "ТР,РЕ,ГВ,М",
         "SSR",
-        "",
+        "forge",
         "",
         ""
     ],
@@ -433,6 +433,15 @@ var heroesDat = [
         "",
         "",
         "Л13"
+    ],
+	[
+        "Драконоборец",
+        "Dragonslayer",
+        "ИМП,ТР,ГЙ,М",
+        "LLR",
+        "",
+        "",
+        ""
     ],
     [
         "Эгберт",
@@ -835,7 +844,7 @@ var heroesDat = [
         "Julian",
         "ТР,МУ,РЕ,М",
         "SSR",
-        "",
+        "forge",
         "",
         "М3"
     ],
@@ -970,7 +979,7 @@ var heroesDat = [
         "Lana",
         "АП,ТР,Ж",
         "SSR",
-        "",
+        "forge",
         "SP",
         "Л13"
     ],
@@ -1681,7 +1690,7 @@ var heroesDat = [
         "Sophia",
         "ИС,АП,ТАИР,Ж",
         "SR",
-        "",
+        "forge",
         "",
         "Л13"
     ],
