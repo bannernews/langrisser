@@ -27816,7 +27816,7 @@ var persSkills = [
         "1",
         "one target",
         "5",
-        "[Passive] After activating the talent to gain Will, as well as activating the talent and then performing an action, all Mythic Reality allies on the battlefield will have their offensive and defensive capabilities significantly improved. Damage during melee attacks will be increased by 15%; Retaliatory damage will be reduced by 30% for 4 rounds. (This effect cannot be combined with other faction buffs) <br><br>[Physical Damage] Attacks one enemy, dealing 1.6x damage. If you have 2 or more types of \"will\", the enemy will not be able to attack in this battle. After combat, deals 0.3x AoE damage to the target and enemies located in the furthest three blocks in three straight lines behind it. When an enemy is successfully destroyed, it randomly receives 1 “Will” that does not yet exist."
+        "[Passive] After activating the talent to gain Will, as well as activating the talent and then performing an action, all Mythic Reality allies on the battlefield will have their offensive and defensive capabilities significantly improved. Damage during melee attacks will be increased by 15%; reflect damage will be reduced by 30% for 4 rounds. (This effect cannot be combined with other faction buffs) <br><br>[Physical Damage] Attacks one enemy, dealing 1.6x damage. If you have 2 or more types of \"will\", the enemy will not be able to attack in this battle. After combat, deals 0.3x AoE damage to the target and enemies located in the furthest three blocks in three straight lines behind it. When an enemy is successfully destroyed, it randomly receives 1 “Will” that does not yet exist."
     ],
     [
         "Ганн",
