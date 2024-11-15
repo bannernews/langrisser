@@ -1401,8 +1401,8 @@ var persItemDat = [
 	[
         "Патриция",
         "Patricia",
-        "Глобал - 14.11.2024",
-        "Global - 14.11.2024",
+        "Багровое дыхание",
+        "Crimson Breath",
         "weapon",
         "437",
         "",

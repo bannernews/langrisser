@@ -4087,8 +4087,8 @@ var dataTable = [
         "",
         "",
         "",
-        "Assault Elite",
-        "The damage dealt by AoE skills increases by (15%, 20%, 25%, 30%), and when fighting enemies without soldiers - up to (150%, 200%, 250%, 300%).<br><br>When actively attacking, gains 1 [Battle Enthusiasm]: 'Mobility +1, ATK and DEF increase by 10%', accumulates, up to 3 stacks, cann't be removed, lasts 2 rounds.<br><br>At the end of the action, if the amount of [Battle Enthusiasm] you have has reached the upper limit, the number of buff rounds will not be reduced, and one additional action may be taken. ([Trigger Cooldown] It takes an interval of 4, 3, 2, and 2 rounds for the reaction effect to trigger again.)",
+        "Trooper Elite",
+        "The damage dealt by AoE skills increases by (15%, 20%, 25%, 30%), and when fighting enemies without soldiers - up to (150%, 200%, 250%, 300%).<br><br>When actively attacking, gains 1 [Passion for Battle]: 'Mobility +1, ATK and DEF increase by 10%', accumulates, up to 3 stacks, cann't be removed, lasts 2 rounds.<br><br>At the end of the action, if the amount of [Passion for Battle] you have has reached the upper limit, the number of buff rounds will not be reduced, and can act again once. ([Trigger Cooldown] It takes an interval of 4, 3, 2, 2 rounds for the reaction effect to trigger again.)",
         "",
         "",
         "",
@@ -6637,8 +6637,8 @@ var dataTable = [
         "",
         "",
         "",
-        "Evil Hunter",
-        "Attack and critical hit chance increased by (10%, 15%, 20%, 25%), unit attack range +1.<br><br>Originally in [Walking Mode]: 'Damage dealt increases by 15%, ignores guard when entering combat.' At the end of the action, for every 1 mobility square expended this round, the next round's mobility will be +1 (maximum +5, cannot be dispelled if all mobility was expended this round); At the same time, [Running Mode] will be entered: 'When actively attacking and engaging in battle, if the enemy is successfully destroyed, can attack again (cannot move)', otherwise will enter [Walking Mode].<br><br>([Walking Mode] and [Running Mode] cannot coexist at the same time, cannot be dispelled)",
+        "Evil Exterminator",
+        "ATK and critical hit chance increased by (10%, 15%, 20%, 25%), unit attack range +1.<br><br>Originally in [Walk Mode]: 'Damage dealt increases by 15%, ignores guard when entering combat.' At the end of the action, for every 1 mobility block used this round, the next round's mobility will be +1 (maximum +5, cannot be dispelled); If all mobility was consumed this round, [Sprint Mode] will be activated: 'When actively attacking and entering battle, if the enemy is not destroyed, can attack again (cannot move)', otherwise will enter [Walk Mode].<br><br>([Walk Mode] and [Sprint Mode] cannot exist at the same time, cannot be dispelled)",
         "",
         "",
         "",
@@ -7098,7 +7098,7 @@ var dataTable = [
         "Т",
         "Ever-burning red flame",
         "The higher the unit's HP, the higher the damage dealt, maximum increase by (15%, 20%, 25%, 30%). <br><br>After an active attack deals damage, [Soulburning Plague] will be applied to the enemy 3 times, with a chance of each application (40%, 50%, 60%, 70%). <br><br>([Soulburning Plague]: \"At the end of the effect, you will receive [Fixed Damage] equal to 0.7x Patricia's INT. When the debuff is dispelled, [Soulburning Plague] will be dispelled first.\" can be apply up to 5 stacks, lasts 2 rounds)",
-        "Global - 14.11.2024",
+        "Crimson Breath",
         "оружие",
         "437",
         "",
@@ -28459,44 +28459,44 @@ var persSkills = [
         ""
     ],
 	[
-        "Combat technique",
-        "Техника боя",
+        "Combat Technique",
+        "Боевая техника",
         "1",
         "2",
         "1",
         "1",
         "2",
-        "[Physical Damage] Attacks one enemy in an adjacent position, dealing 0.2x AoE damage. When the amount of [Battle Enthusiasm] exceeds 1, each additional stack will deal 1 additional damage and the cooldown of this skill will be reduced by 1 round."
+        "[Physical Damage] Attacks one enemy in an adjacent position, dealing 0.2x AoE damage. When the amount of [Passion for Battle] exceeds 1, each additional stack will deal 1 additional damage and the cooldown of this skill will be reduced by 1 round."
     ],
 	[
-        "Fire Jet",
-        "Огненный поток",
+        "Captain Cannon",
+        "Капитанская пушка",
         "2",
         "2",
         "3",
         "1",
         "3",
-        "[Physical Damage] Teleports to the target area and attacks all enemies within the three furthest blocks in three straight lines, dealing 0.3x AoE damage and increasing the damage taken by the enemy by 20% for 2 rounds. When this skill hits 2 or more enemies, an additional level of [Battle Enthusiasm] will be gained."
+        "[Physical Damage] Teleports to the target area and attacks all enemies within the three furthest blocks in 3 straight lines, dealing 0.3x AoE damage and increasing the damage taken to the enemy by 20% for 2 rounds. When this skill hits 2 or more enemies, an additional level of [Passion for Battle] will be gained."
     ],
 	[
-        "Strong head throw",
-        "Сильный бросок головы",
+        "Rolling Punch",
+        "Крушающий удар",
         "2",
         "2",
         "1",
         "1",
         "3",
-        "[Physical Damage] Directly deals 0.3x AoE damage to one enemy on the battlefield and causes the effect of [Displacement]: randomly moves the enemy to other empty spaces within 1 square around him and prevents him from moving in the next turn."
+        "[Physical Damage] Directly deals 0.3x AoE damage to one enemy and causes the effect of [Displacement]: randomly moves the enemy to other empty spaces within 1 tile around hero and prevents him from moving in the next turn."
     ],
 	[
-        "Soaring Strike and Thunder Net",
-        "Парящий удар и громовая сеть",
+        "Knee Rocket and Captain Corridor",
+        "Ракета с колена и Капитанский коридор",
         "3",
         "2",
         "on self",
         "3",
         "3",
-        "[Passive] At the end of the action, if all movement is used up this round, gain 1 layer of [Battle Enthusiasm].<br><br>[Physical Damage] Attacks all enemies within 3 tiles, dealing 0.3x AoE damage and dealing 0.1x AoE damage to nearby enemies. After the attack, applies [Electric Strike] to all units hit: “Before using the skill, receives [fixed damage] equal to 0.5x ATK of the caster. The cooldown of this skill will be increased by an additional 0.5 times every 1 round.' Lasts 2 rounds."
+        "[Passive] At the end of the action, if all movement is used up this round, gain 1 layer of [Passion for Battle].<br><br>[Physical Damage] Attacks all enemies within 3 tiles, dealing 0.3x AoE damage and dealing 0.1x AoE damage to enemies which is adjant to targeted enemy. After the attack, applies [Electric Shock] to all units hit: “Before using the skill, receives [fixed damage] equal to 0.5x ATK of the caster; the damage multiplier of this [fixed damage] will be increased by an additional 0.5 for each 1 round of cooldown of used skill.' Lasts 2 rounds."
     ],
 	[
         "Нож Марк и Ниндзя Гиндзу",
@@ -28509,8 +28509,8 @@ var persSkills = [
         ""
     ],
 	[
-        "Chop into pieces",
-        "Порубить на кусочки",
+        "Slice and Dice",
+        "Резка и Далекие кости",
         "1",
         "5",
         "",
@@ -28519,34 +28519,34 @@ var persSkills = [
         "[Passive] When dealing [Fixed Damage], restores HP equal to the fixed damage dealt. After an active attack deals damage, it will deal another [Fixed Damage] equal to 2x ATK."
     ],
 	[
-        "Erosion Strike",
-		"Эрозионный удар",
+        "Double Trouble",
+		"Большие неприятности",
         "2",
         "2",
         "2",
         "one target",
         "2",
-        "[Physical Damage] Attacks one enemy, dealing 1.3x damage, and applies [Melting Husk] to the enemy before battle: “The buff effect received is converted into a random debuff effect. When you die, the [Corrosion] special effect will be applied to your location for 2 rounds. [Corrosion]: 'At the beginning of the round, it spreads to 1 adjacent block, the enemy who stands on such a square at the end of the action receives [Melting Husk].' In [Running Mode], an additional [Fixed Damage] equal to 1x ATK will be dealt before this attack."
+        "[Physical Damage] Attacks one enemy, dealing 1.3x damage, and applies [Shell Meltdown] to the enemy before battle: “The buff effect received is converted into a random debuff effect. When you die, the [Biochemical Corrosion] special effect will be applied to your location for 2 rounds. [Biochemical Corrosion]: 'At the beginning of the round, it spreads to 1 adjacent block, the enemy who stands on such square at the end of the action receives [Shell Meltdown].' In [Sprint Mode], an additional [Fixed Damage] equal to 1x ATK will be dealt before this attack."
     ],
 	[
-        "Shining Ninja Dart",
-        "Сверкающий дротик ниндзя",
+        "Iaizuki",
+        "Иайзуки",
         "2",
         "2",
         "5",
         "on straight",
         "2",
-        "[Physical Damage] Attacks all enemies in 3 straight lines, increases critical strike chance by 20%, deals 0.33x AoE damage and steals 1 buff. In [Running Mode], after an attack, can move another 3 cells."
+        "[Physical Damage] Attacks all enemies in 3 straight lines, increases critical strike chance of this skill by 20%, deals 0.33x AoE damage and steals 1 buff. In [Sprint Mode], after an attack, can move another 3 tiles."
     ],
 	[
-        "Rotating kick and smoke explosion",
-		"Вращающийся удар и взрыв дыма",
+        "Spinning Attack and Smoke Bomb",
+		"Вращающайся атака и Дымовая шашка",
         "3",
         "2",
         "2",
         "one target",
         "5",
-        "[Passive] In [Running Mode], when passing through defensive terrain, you can gain 2 mobility reduction blocks.<br><br>[Physical Damage] Attacks one enemy, dealing 1.6x damage and increasing critical strike chance by 30%. If you are in [Walk Mode], you will attack before the enemy in this battle. After the battle, the cell you are in will receive a special effect [Smoke] for 1 round: “Disperses when attacked by enemy AoE skills. [Command] When friendly forces within 1 circle enter battle, there is a 30% chance that the enemy will lose the target and will not be able to attack (the chance increases to 100% in PVP mode). When successfully destroying an enemy, the cooldown of this skill is reduced by 3 turns ."
+        "[Passive] In [Sprint Mode], when passing through defensive terrain, you can gain 2 mobility reduction blocks.<br><br>[Physical Damage] Attacks one enemy, dealing 1.6x damage and increasing critical strike chance of this skill by 30%. If you are in [Walk Mode], you will attack before the enemy in this battle. After the battle, the tile you are in will receive a special effect [Smoke] for 1 round: “Disperses when attacked by enemy AoE skills. [Command]: When friendly units within 1 circle enter battle, there is a 30% chance that the enemy will lose the target and will not be able to attack (the chance increases to 100% in PVP mode). When successfully destroying an enemy, the cooldown of this skill is reduced by 3 turns."
     ],
 	[
         "Эния",
