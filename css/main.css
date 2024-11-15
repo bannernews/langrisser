@@ -248,3 +248,7 @@ body{
 	margin-left: 100px;
 	margin-bottom: 20px;
 }
+#sold_hero_click:hover{
+	box-shadow: 0 0 20px white;
+	cursor:pointer;
+}
