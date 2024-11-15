@@ -2334,7 +2334,7 @@ function soldView (soldClas) {
 			'.png" height="150px" /></div><div style="display:block;width:700px;float:left;"><b style="font-size: 23px;margin-right: 50px;vertical-align:super;">' + soldDat[i][1]+ 
 			'</b> <img src="images/'+soldDat[i][12]+'.png" height="23px" /><span style="font-size:20px;vertical-align:super;margin: 0 10px;">' + soldDat[i][6] + 
 			'</span> <img src="images/Icon_Range.png" height="23px" /><span style="font-size:20px;vertical-align:super;margin: 0 10px;">' + soldDat[i][7] + 
-			'</span> <img onclick=iconHeroOpen("' + NA.replace(/ /g,"") + '") src="images/icon.png" height="25px" /></div><br><br><div><img src="images/sold_stats.png" height="23px" /><span style="font-size:20px;vertical-align:super;margin-right:30px;">HP: ' + soldDat[i][2]  + 
+			'</span> <img id="sold_hero_click" onclick=iconHeroOpen("' + NA.replace(/ /g,"") + '") src="images/icon.png" height="25px" /><span style="vertical-align:super;font-size:small;">(click to see heroes)</span></div><br><br><div><img src="images/sold_stats.png" height="23px" /><span style="font-size:20px;vertical-align:super;margin-right:30px;">HP: ' + soldDat[i][2]  + 
 			'</span><img src="images/sold_stats.png" height="23px" /><span style="font-size:20px;vertical-align:super;margin-right:30px;">ATK: ' + soldDat[i][3]  + 
 			'</span><img src="images/sold_stats.png" height="23px" /><span style="font-size:20px;vertical-align:super;margin-right:30px;">DEF: ' + soldDat[i][4]  + 
 			'</span><img src="images/sold_stats.png" height="23px" /><span style="font-size:20px;vertical-align:super;margin-right:30px;">MDEF: ' + soldDat[i][5]  + 
