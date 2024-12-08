@@ -663,6 +663,21 @@ var persItemDat = [
         "ОЗ +5%. После совершения действия, если в радиусе 2 клеток нет союзных юнитов, восстанавливает 20% ОЗ и снимает 1 дебафф.",
         "HP +5%. After taking action, if no friendly units are within 2 blocks, restore 20% HP and dispel 1 debuff."
     ],
+	[
+        "Зион",
+        "Zion",
+        "Глобал - 03.04.2025",
+        "Global - 03.04.2025",
+        "weapon",
+        "437",
+        "107",
+        "",
+        "",
+        "",
+        "",
+        "АТК +10%. В начале битвы получает [Королевская судьба]. Если у героя есть [Королевская судьба] или [Судьба] (от 3С), его нельзя убить одним ударом когда активно атакует и вступает в бой. Тип движения становится мастер-партизан.",
+        "ATK +10%. At the beginning of the battle, gains [Royal fate]. If the hero has [Royal fate] or [Destiny] (from 3C), he cannot be killed in one hit when actively attacking and entering battle. The move type becomes Terrain Master."
+    ],
     [
         "Злой Бог Крюгер",
         "Evil God Kreuger",
