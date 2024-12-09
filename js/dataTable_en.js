@@ -2456,7 +2456,7 @@ var dataTable = [
         "",
         "Т",
         "Soul Vision",
-        "[Passive] At the start of the round, 2 adjacent random allies gain the effect of 'At the end of the effect, cast a non-immune and undispellable [See Through] effect on enemies with [Vision] within 2 blocks around them for 2 rounds.', which lasts for 1 round.<br>[Physical Damage] Attacks all enemies in a straight line, dealing 0.2x AoE damage and applying [Vision]. Can move 3 tiles after the battle. When on defensive terrain or 'in water', the range of this skill is +2.",
+        "ATK and Critical Hit Rate +(10%, 15%, 20%, 25%).<br>At the end of the duration, cast [Vision] on the nearest enemy in a straight line: 'After using skills, gain (15%, 20%, 25%, 30%) skill damage reduction' and [See Through] (cannot be dispelled and immune): 'Unable to be guarded when Hibiscus attack', both last for 2 rounds. ([Vision] has no immunity, cannot be dispelled, and is removed at the beginning of the second turn after acquisition or after being triggered)",
         "",
         "",
         "",
