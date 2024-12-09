@@ -31578,7 +31578,7 @@ var SPtalent = [
 	[
         "Тиарис",
         "Вечная ода",
-        "After the end of action, grants other allies within 3 tiles (except for yourself) [Healing]: After battle, (50, 60, 80, 100)% chance to restore HP by 2.5x Tiaris's INT.<br>When using the skill on an ally, gives him [Healing Shield]: Can block damage equal to 3x from the caster's INT. (This effect cannot be removed.) Also, after using any skill on allies, the cooldown of the Tiaris skill with the longest current cooldown is reduced by 1 for each ally hit by the skill (maximum of 3).",
+        "After the end of action, grants other allies within 3 tiles (except for yourself) [Healing]: After receiving damage, (50, 60, 80, 100)% chance to restore HP by 2.5x Tiaris's INT.<br>When using the skill on an ally, gives him [Healing Shield]: Can block damage equal to 3x from the caster's INT. (This effect cannot be removed.) Also, after using any skill on allies, the cooldown of the Tiaris skill with the longest current cooldown is reduced by 1 for each ally hit by the skill (maximum of 3).",
 		"Eternal Ode"
     ]
 ]
