@@ -2456,7 +2456,7 @@ var dataTable = [
         "",
         "Т",
         "Soul Vision",
-        "ATK and Critical Hit Rate +(10%, 15%, 20%, 25%).<br>At the end of the duration, cast [Vision] on the nearest enemy in a straight line: 'After using skills, gain (15%, 20%, 25%, 30%) skill damage reduction' and [See Through] (cannot be dispelled and immune): 'Unable to be guarded when Hibiscus attack', both last for 2 rounds. ([Vision] has no immunity, cannot be dispelled, and is removed at the beginning of the second turn after acquisition or after being triggered)",
+        "ATK and Critical Hit Rate +(10%, 15%, 20%, 25%).<br>At the end of the action, cast [Vision] on the nearest enemy in a straight line: 'After using skills, gain (15%, 20%, 25%, 30%) skill damage reduction' and [See Through] (cannot be dispelled and immune): 'Unable to be guarded when Hibiscus attack', both last for 2 rounds. ([Vision] has no immunity, cannot be dispelled, and is removed at the beginning of the second turn after acquisition or after being triggered)",
         "",
         "",
         "",
