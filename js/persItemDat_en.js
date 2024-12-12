@@ -1684,7 +1684,7 @@ var persItemDat = [
         "HP +10%. After releasing [Cold Sharp Eyes], you can choose to move the 'Snowy Owl' +1 times. When there is a 'Snowy Owl' released by itself within 6 tiles, it cannot be fatally hit (it can be triggered once per battle at most)."
     ],
     [
-        "Дева ковчега",
+        "Дева Ковчега",
         "Saint of the Ark",
         "Корона рассвета",
         "Crown of dawn",

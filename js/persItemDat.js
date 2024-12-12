@@ -529,7 +529,7 @@ var persItemDat = [
         "HP +10%. When this unit has skills on cooldown, hero damage dealt +10% and before being forced into battle by a ranged attack, deal 1x This Unit's INT as fixed damage."
     ],
     [
-        "Дева ковчега",
+        "Дева Ковчега",
         "Saint of the Ark",
         "Корона рассвета",
         "Crown of dawn",

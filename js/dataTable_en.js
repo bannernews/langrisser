@@ -2755,7 +2755,7 @@ var dataTable = [
         ""
     ],
     [
-        "Дева ковчега",
+        "Дева Ковчега",
         "ГГ,АП,ТАИР",
         "SSR",
         "",
@@ -5539,7 +5539,7 @@ var dataTable = [
         "196,197",
         "Арес",
         "Бозел",
-        "Густав,Кертес,Лукреция,Полиал,Рената,Дева ковчега",
+        "Густав,Кертес,Лукреция,Полиал,Рената,Дева Ковчега",
         "Флоренция,Патцир",
         "",
         "64,85",
@@ -8394,7 +8394,7 @@ var dataTable = [
         "0,2,3,6",
         "296,297",
         "Император Ловина",
-        "Дева ковчега",
+        "Дева Ковчега",
         "",
         "",
         "578",
@@ -9875,7 +9875,7 @@ var dataTable = [
         "Цубамэ",
         "Ликорис",
         "",
-        "Ашемар,Кристиан,Хильда,Железный Воитель,Дева ковчега,Цубамэ",
+        "Ашемар,Кристиан,Хильда,Железный Воитель,Дева Ковчега,Цубамэ",
         "",
         "169,49",
         "",
@@ -13210,7 +13210,7 @@ var classStats = [
         ""
     ],
     [
-        "Дева ковчега",
+        "Дева Ковчега",
         "Колдун",
         "mage",
         "3528",
@@ -13228,7 +13228,7 @@ var classStats = [
         ""
     ],
     [
-        "Дева ковчега",
+        "Дева Ковчега",
         "Посланница Света и Тьмы",
         "demon",
         "4017",
@@ -21965,7 +21965,7 @@ var persSkills = [
         "[Passive] Unit range increases by 2 when your skills are on cooldown. <br><br>[Mag. Damage]: Attacks multiple enemies within range, dealing 0.4x AoE damage. Applies 2 random debuffs and “increases the CD of all skills by 1” (lasts 1 turn, cannot be removed). After using this skill, you get [Shield of Time]: Damage taken is reduced by 10%, and blocks the enemy's CD reduction buff for the Resonance Clock buff (lasts 2 turns, cannot be removed)."
     ],
     [
-        "Дева ковчега",
+        "Дева Ковчега",
         "",
         "",
         "",
@@ -32179,7 +32179,7 @@ var builds = [
         "Кристальный чародей,Колдунья,Рыцарь-скелет"
     ],
     [
-        "Дева ковчега",
+        "Дева Ковчега",
         "Бриз,Магия",
         "2",
         "2",
@@ -34480,7 +34480,7 @@ var confession = [
         "https://drive.google.com/file/d/1_jhBtZAK1YOM0W4yeyTDHWN_64v7dci9/view?usp=sharing"
     ],
     [
-        "Дева ковчега",
+        "Дева Ковчега",
         "https://drive.google.com/file/d/1kZARdAbH2m-TEN5mu-g2V13n0u7nMO4v/view?usp=sharing"
     ],
     [
@@ -35703,7 +35703,7 @@ var startB = [
         ""
     ],
     [
-        "Дева ковчега",
+        "Дева Ковчега",
         "",
         "",
         "",
@@ -37946,7 +37946,7 @@ var basicB = [
         ""
     ],
     [
-        "Дева ковчега",
+        "Дева Ковчега",
         "",
         "",
         "",
@@ -40405,7 +40405,7 @@ var pveB = [
         ""
     ],
     [
-        "Дева ковчега",
+        "Дева Ковчега",
         "",
         "",
         "",
@@ -43598,7 +43598,7 @@ var pvpB = [
         ""
     ],
     [
-        "Дева ковчега",
+        "Дева Ковчега",
         "",
         "",
         "",
