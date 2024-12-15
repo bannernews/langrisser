@@ -28882,7 +28882,7 @@ var persSkills = [
         "2",
         "one target",
         "3",
-        "[Passive] Allies DEF and MDEF within 2 tiles around [Angel of Justice] are increased by 15%; the hero will not die when receiving fatal damage, instead, his HP will be restored by 30%, and [Angel of Justice] and all [Psychic Perception] will be removed. (Only triggers once per battle).<br><br>[Magic Damage] Attacks one enemy, dealing 1.6x damage. When successful destruction of the enemy, gains 1 layer of [Psychic Perception]. At the end of the skill release action, all allies within the [Angel of Justice]'s range will gain 2 layers of [Hui's Blessing]: 'Immunity to debuff', which can be stacked up to 5 layers and cannot be dispelled."
+        "[Passive] Allies DEF and MDEF within 2 tiles around [Angel of Justice] are increased by 15%; the hero will not die when receiving fatal damage, instead HP will be restored by 30%, and [Angel of Justice] and all [Psychic Perception] will be removed. (Only triggers once per battle).<br><br>[Magic Damage] Attacks one enemy, dealing 1.6x damage. When successful destruction of the enemy, gains 1 layer of [Psychic Perception]. At the end of the skill release action, all allies within the [Angel of Justice]'s range will gain 2 layers of [Hui's Blessing]: 'Immunity to debuff', which can be stacked up to 5 layers and cannot be dispelled."
     ],
 	[
         "Норнорин",
