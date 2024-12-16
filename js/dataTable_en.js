@@ -3323,7 +3323,7 @@ var dataTable = [
         "",
         "",
         "Endless Fury",
-        "Receives a class advantage instead of a class disadvantage. Damage taken is reduced by (15, 20, 25, 30)%.<br>When any unit dies within 3 tiles, gains [Fury]: Cannot die from fatal damage, instead restores HP to the level before that damage and reduces the duration of the [Fury] buff by 1 turn, while the hero's maximum HP is reduced by (30, 25, 20, 15)%; when the enemy ends the action within 3 tiles, they are automatically attacked by this hero and cannot be guarded. Lasts 2 turns.<br>If the unit's HP before the battle is higher than the enemy's, it attacks earlier and restores 30% of its HP from the damage dealt in battle.",
+        "Receives a class advantage instead of a class disadvantage. Damage taken is reduced by (15, 20, 25, 30)%.<br>When any unit dies within 3 tiles, gains [Fury]: Cannot die from fatal damage, instead restores HP to the level before that damage and reduces the duration of the [Fury] buff by 1 turn, while the hero's maximum HP is reduced by (30, 25, 20, 15)%; when the enemy ends the action within 3 tiles, they are automatically attacked by this hero and cannot be guarded. Lasts 2 turns and can't be dispel.<br>If the unit's HP before the battle is higher than the enemy's, it attacks earlier and restores 30% of its HP from the damage dealt in battle.",
         "",
         "",
         "",
