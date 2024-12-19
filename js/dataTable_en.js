@@ -27052,7 +27052,7 @@ var persSkills = [
         "",
         "",
         "",
-        "[Passive] After actively damaging an enemy, randomly cast [Incite] or [Divide and Conquer] on the enemy: <br><br>[Incite]: “The unit's range is reduced by -1, and before actively attacking and engaging in combat, it takes away 30% of your maximum health\", lasts 1 round. <br><br>[Divide and Conquer]: \"The hero's movement range is reduced by -1 and he can no longer act,\" lasts 1 round."
+        "[Passive] After actively damaging an enemy, randomly cast [Incite] or [Divide and Conquer] on the enemy: <br><br>[Incite]: “Soldier's range is reduced by -1, and before actively attacking and engaging in combat, it takes away 30% of maximum health\", lasts 1 round. <br><br>[Divide and Conquer]: \"The hero's movement range is reduced by -1 and he can no longer act,\" lasts 1 round."
     ],
     [
         "Chaotic Strategy",
