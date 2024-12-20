@@ -8422,7 +8422,7 @@ var dataTable = [
         "forge",
         "",
         "Л45",
-        "Brave mrash",
+        "Brave march",
         "When a unit has at least (90,85,80,70,60)% HP, all damage taken is reduced by (15,18,22,26,30)%. <br><br>Takes on attacks aimed at allies who have lost all soldiers within a radius of (1,1,2,2,3) cells.",
         "Dawnguard",
         "броня",
