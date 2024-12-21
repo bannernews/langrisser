@@ -1098,16 +1098,16 @@ var soldDat = [
         "полет"
     ],
     [
-        "Тёмный кристальный дракон",
-        "Dark crystall dragon",
+        "Всадник Эклиптического Дракона",
+        "Ecliptic Dragon Rider",
         "45",
         "45",
         "23",
         "22",
         "5",
         "1",
-        "Атака и защита солдат увеличиваются на 20%. При сражении с врагом, процент здоровья которого ниже или равен юниту, атака и защита будут увеличены еще на 20%.",
-        "Soldiers' attack and defense increases by 20%. When fighting an enemy whose health percentage is lower than or equal to the unit's, attack and defense will be increased by another 20%.",
+        "АТК и ЗАЩ солдат увеличиваются на 20%. При сражении с врагом, процент здоровья которого ниже или равен юниту, АТК и ЗАЩ будут увеличены еще на 20%.",
+        "Soldiers' ATK and DEF increases by 20%. When fighting an enemy whose HP equal or lower than the unit's, ATK and DEF will be increased by additional 20%.",
         "fly",
         "Ланс,Соня,Ашрам,Эпсилон,Арес,Алтемюллер,Ютем,Ленфорд,Император Ловина,Бренда,Леон,Эксела,Апофеоз,Андриола,Тирантир,Драконоборец",
         "полет"
@@ -1758,7 +1758,7 @@ var soldDat = [
         "ходьба"
     ],
     [
-        "Разбойник-получеловек",
+        "Получеловек-странник",
         "Half-Human Rogue ",
         "36",
         "45",
@@ -1773,8 +1773,8 @@ var soldDat = [
         "ходьба"
     ],
     [
-        "Шип темного пера",
-        "Dark feather thorn",
+        "Клинок сумереченого крыла",
+        "Duskwing Blade",
         "38",
         "43",
         "20",
@@ -1923,7 +1923,7 @@ var soldDat = [
         "полет"
     ],
     [
-        "Огненная ведьма",
+        "Расплавленный колдун",
         "Fire Witch",
         "43",
         "40",
@@ -1938,16 +1938,16 @@ var soldDat = [
         "ходьба"
     ],
     [
-        "Заклинатель",
-        "Spellcaster",
+        "Фокусник",
+        "Conjurer",
         "40",
         "37",
         "20",
         "24",
         "3",
         "2",
-        "Весь «физический урон», нанесенный обычными атаками, считается «магическим уроном». Если за ход не был нанесен урон, в конце хода 30% ОЗ солдат будет восстановлено. В начале следующего хода, при вступлении в бой атака солдата будет увеличено на 20%, а получаемый урон уменьшен на 25%.",
-        "All 'physical damage' dealt by normal attacks counts as 'magic damage'. If no damage was dealt during the turn, 30% of the soldier's HP will be restored at the end of the turn. At the start of the next turn, when entering battle, soldier's attack will be increased by 20% and received damage will be reduced by 25%.",
+        "Весь «физический урон», нанесенный обычными атаками, считается «магическим уроном». Если за ход не был нанесен урон, в конце хода 30% ОЗ солдат будет восстановлено и при вступлении в следующий бой АТК солдата будет увеличена на 20%, а получаемый урон уменьшен на 25%.",
+        "All 'physical damage' dealt by normal attacks is treated as 'magic damage'. If no damage was dealt during the turn, 30% of the soldier's HP will be restored at the end of the turn and when entering next battle, soldier's attack will be increased by 20% and received damage will be reduced by 25%.",
         "mage",
         "Джессика,Лиффани,Хейн,Злой Бог Крюгер,Густав,Шельфаниэль,Кагуя,Вилер,Агнес,Ламбда,Юная Джессика,Зелгадис,Роланд,Патриция,Вирелия,Эния,Илия,Сафрин",
         "ходьба"
@@ -2148,16 +2148,16 @@ var soldDat = [
         "ходьба"
     ],
     [
-        "Сияющий святой",
-        "Shining Saint",
+        "Сияющий проповедник",
+        "Radiant Preacher",
         "38",
         "40",
         "22",
         "22",
         "3",
         "2",
-        "«Физический урон», нанесенный обычными атаками, считается как «Магический урон». Атака солдата увеличивается на 30%. Дополнительно Атака увеличивается на 5% за каждый 1 блок, пройденный перед атакой, а солдаты восстанавливаются 5% от максимального здоровья (максимум до 15%)",
-        "'Physical Damage' dealt by normal attacks is counted as 'Magic Damage'. Soldier's ATK is increased by 30%. Additionally, ATK is increased by 5% for every 1 block passed before the attack, and soldiers recover 5% of their maximum HP (up to 15%)",
+        "«Физический урон», нанесенный обычными атаками, считается как «Магический урон». Атака солдата увеличивается на 30%. Дополнительно АТК увеличивается на 5% за каждый 1 блок между юнитом и целью, а солдаты восстанавливаются 5% от максимального здоровья (оба максимум до 15%)",
+        "'Physical Damage' dealt by normal attacks is treated as 'Magic Damage'. Soldier's ATK is increased by 30%. Additionally, ATK is increased by 5% and soldiers recover 5% of their maximum HP (each up to 15%) for every 1 block between unit and target.",
         "holy",
         "Ламбда,Юная Джессика,Мю,Аватар Света,Лукреция,Мариандель,Кагуя,Аданкельмо,Кирика,Тормил,Джесс,Илия,Сафрин",
         "ходьба"

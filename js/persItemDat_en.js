@@ -861,8 +861,8 @@ var persItemDat = [
 	[
         "Джесс",
         "Jayce",
-        "Глобал - 12.12.2024",
-        "Global - 12.12.2024",
+        "Рассветный бриз",
+        "Daybreak Breeze",
         "hat",
         "364",
         "",
@@ -871,7 +871,7 @@ var persItemDat = [
         "65",
         "",
         "ОЗ +10%. В конце действия, если за ход был нанесён урон, время восстановления навыка с самым низким оставшимся временем восстановления будет снижено на 1. За каждый союзный [Чародейский след] этот юнит игнорирует 5% МЗАЩ противника (до 20%).",
-        "HP +10%. At the end of the action, if damage was dealt during the turn, the cooldown of the skill with the lowest remaining cooldown will be reduced by 1. For each allied [Arcane Mark], this unit ignores 5% of the enemy's MDEF (up to 20%)."
+        "HP +10%. At the end of the action, if damage was dealt during the turn, the cooldown of the skill with the lowest remaining cooldown will be reduced by 1. For each allied [Arcane Traces], this unit ignores 5% of the enemy's MDEF (up to 20%)."
     ],
     [
         "Джулиан",

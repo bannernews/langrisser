@@ -434,7 +434,7 @@ var itemDat = [
         "",
         "АТК +8%. В боях против асов АТК увеличивается на 12%.",
         "ATK +8%. When battling against Fliers, ATK increases by extra 12%.",
-        ""
+        "accs"
     ],
     [
         "Ботинки духа",
@@ -605,8 +605,8 @@ var itemDat = [
         "accs"
     ],
     [
-        "Акс 3",
-        "---",
+        "Небесный планисферий",
+        "Celestial Planisphere",
         "accessoir",
         "",
         "75",
@@ -619,8 +619,8 @@ var itemDat = [
         "accs"
     ],
 	[
-        "Акс 4",
-        "---",
+        "Флакон Океанической Эссенции",
+        "Oceanic Essence Vial",
         "accessoir",
         "509",
         "",
@@ -628,8 +628,8 @@ var itemDat = [
         "",
         "",
         "",
-        "Сила исцеления +10%, ОЗ +5%. Каждый раз когда союзник получает урон от навыка, герой получает 1 стак: 'В конце действия или при получении урона, восстанавливает ОЗ союзников у которых ОЗ меньше 80% в радиусе 2 клеток на 1.5х ИНТ и снимает этот эффект'. Максимум 5 стаков",
-        "Healing power +10%, HP +5%. Each time an ally receives damage from a skill, the hero receives 1 stack: “At the end of the action or when receiving damage, restores the HP of allies whose HP is less than 80% within a radius of 2 tiles by 1.5x INT and remove this effect.” Maximum 5 stacks",
+        "Сила исцеления +10%, ОЗ +5%. Когда используется умение, за каждого задетого союзника герой получает 1 стак: 'В конце действия или при атаке и получении урона, восстанавливает ОЗ союзников у которых ОЗ меньше 80% в радиусе 2 клеток на 1.5х ИНТ и снимает этот эффект'. Максимум 5 стаков",
+        "Healing power +10%, HP +5%. When casting skills, for each allied unit hit, the hero receives 1 stack: “At the end of the action or when being attacked and receiving damage, restores the HP of allies whose HP is less than 80% within a radius of 2 tiles by 1.5x INT and remove this effect.” Maximum 5 stacks",
         "accs"
     ],
     [
@@ -1137,8 +1137,8 @@ var itemDat = [
         "cloth"
     ],
     [
-        "Броня 3",
-        "---",
+        "Дар глубин",
+        "Gift of the Depths",
         "body",
         "509",
         "",
@@ -1151,8 +1151,8 @@ var itemDat = [
         "light"
     ],
 	[
-        "Броня 4",
-        "---",
+        "Кольчуга Солнечного Поклонника",
+        "Sun Praiser`s Chainmail",
         "body",
         "437",
         "",
@@ -1655,8 +1655,8 @@ var itemDat = [
         "light"
     ],
     [
-        "Головной убор 3",
-        "---",
+        "Шлем Заключенного леса",
+        "Forbidden Forest Helm",
         "hat",
         "583",
         "",
@@ -1669,8 +1669,8 @@ var itemDat = [
         "heavy"
     ],
 	[
-        "Головной убор 4",
-        "---",
+        "Шляпа Охотника на демонов",
+        "Demon Hunter`s Hat",
         "hat",
         "364",
         "",
@@ -1678,8 +1678,8 @@ var itemDat = [
         "",
         "65",
         "",
-        "ОЗ +10%. В конце действия, если рядом есть союзник, герой и случайный союзник рядом получают 'АоЕ урон уменьшается на 15%' и иммунитет к запрету активных навыков на 1 ход.",
-        "HP +10%. At the end of the action, if there is an ally nearby, the hero and a random ally nearby receive 'AoE damage reduced by 15%' and immunity to active skill ban for 1 turn.",
+        "ОЗ +10%. В конце действия, если рядом есть союзник, герой и случайный союзник рядом получают 'Получаемый АоЕ урон уменьшается на 15%' и иммунитет к запрету активных навыков на 1 ход.",
+        "HP +10%. At the end of the action, if there is an ally adjacent, the hero and a random ally nearby receive 'AoE damage taken reduced by 15%' and immunity to active skill silence for 1 turn.",
         "cloth"
     ],
     [
@@ -2425,8 +2425,8 @@ var itemDat = [
         "bow"
     ],
     [
-        "Оружие 3",
-        "---",
+        "Ткач зла",
+        "Vileweaver",
         "weapon",
         "437",
         "",
@@ -2439,8 +2439,8 @@ var itemDat = [
         "staff"
     ],
 	[
-        "Оружие 4",
-        "---",
+        "Серебрянные Быстрые Клинки",
+        "Silverswift Blades",
         "weapon",
         "",
         "96",
@@ -2448,8 +2448,8 @@ var itemDat = [
         "",
         "",
         "53",
-        "АТК +10%. При активной атаке и вступлении в бой, шанс критического удара и критический урон увеличиваются на 5% за каждую клетку перемещённую перед атакой (до 15%)",
-        "ATK +10%. When actively attacking and entering battle, the chance of a critical hit and critical damage increase by 5% for each cell moved before the attack (up to 15%)",
+        "АТК +10%. При активной атаке и вступлении в бой, шанс критического удара и критический урон увеличиваются на 5% за каждую клетку между юнитом и противником (до 15%)",
+        "ATK +10%. When actively attacking and entering battle, the chance of a critical hit and critical damage increase by 5% for each tile between unit and enemy (up to 15%)",
         "dagger"
     ]
 ]
