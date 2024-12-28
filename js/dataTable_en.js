@@ -14710,7 +14710,7 @@ var classStats = [
         "When forced into battle, magic damage taken is reduced by 10%.",
         "When a unit's HP is below 70%, damage dealt increases by 10%",
         "A",
-        ""
+        "A"
     ],
     [
         "Ланс",
@@ -14728,7 +14728,7 @@ var classStats = [
         "When a unit has 100% HP, damage taken is reduced by 10%.",
         "When this unit has 100% HP, damage dealt increases by 10%.",
         "B",
-        ""
+        "B"
     ],
     [
         "Левин",
