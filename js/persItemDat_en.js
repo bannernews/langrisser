@@ -1908,6 +1908,21 @@ var persItemDat = [
         "ОЗ +10%. После восстановления вращающегося лезвия получаемый урон будет уменьшен на 20%, длится 1 раунд. В конце действия вращающееся лезвие будет сгенерировано в случайном месте врага в пределах 10 клеток. (Перезарядка 2 раунда. В ПВП режиме диапазон генерации увеличивается до всего поля).",
         "Life +10%. After recovering the whirling blade, the received damage is reduced by 20%, which lasts for 1 round. At the end of the action, a [Whirling Blade] will be generated randomly at the position of an enemy within 10 tiles. ([Trigger cooldown] This effect can only be triggered again after an interval of 2 rounds. In the competitive mode, the generation range is increased to the whole field)"
     ],
+	[
+        "Тиана",
+        "Tiana",
+        "Глобал - 08.05.2025",
+        "Global - 08.05.2025",
+        "hat",
+        "437",
+        "",
+        "",
+        "",
+        "59",
+        "",
+        "ОЗ +10%. Когда вступает в бой вместо союзника с [Защита], получает эффект [Удар упреждающего клинка] на 2 хода. Когда враг с эффектом [Одинокий воин] погибает, накладывает эффект [Одинокий воин] на случайного врага в радиусе 2 клеток от него.",
+        "HP +10%. When entering battle instead of an ally with [Protect], gains the [Preemptive Blade Strike] effect for 2 turns. When an enemy with the [Solo Striker] effect dies, grants the [Solo Striker] effect to a random enemy within 2 tiles of them."
+    ],
     [
         "Тиарис",
         "Tiaris",

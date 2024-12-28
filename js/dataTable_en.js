@@ -1298,11 +1298,11 @@ var dataTable = [
         "40",
         "25",
         "15",
-        "Орк,Орк-берсерк,Воин-варвар,Рогатый дино,Костяной дино,Адский пес,Малый бес,Летучая мышь-вампир,Железокрылый воин,Воин-скелет,Рыцарь-скелет,Сталегривый оборотень,Контрактная Тень,Всадник Эклиптического Дракона,Адское демоническое ядро",
+        "Орк,Орк-берсерк,Воин-варвар,Рогатый дино,Костяной дино,Адский пес,Малый бес,Летучая мышь-вампир,Железокрылый воин,Воин-скелет,Рыцарь-скелет,Сталегривый оборотень,Контрактная Тень,Всадник Эклиптического Дракона,Адское демоническое ядро,Солдат-драконианец SP",
         "",
         "меч,молот",
         "тяжелая",
-        "0,2",
+        "0,2,6",
         "46,47",
         "",
         "Маклейн",
@@ -1655,7 +1655,7 @@ var dataTable = [
         "25",
         "35",
         "20",
-        "Элитная пехота,Орк,Горец-воин,Орк-берсерк,Страж-пехотинец,Клыкастый страж,Элитный копейщик,Горный голем,Каменный колосс,Темный центурион,Ваятель кристаллов,Эгида Гард,Элитная кавалерия,Рогатый дино,Драгун,Страж-кавалерист",
+        "Элитная пехота,Орк,Горец-воин,Орк-берсерк,Страж-пехотинец,Клыкастый страж,Элитный копейщик,Горный голем,Каменный колосс,Темный центурион,Ваятель кристаллов,Эгида Гард,Элитная кавалерия,Рогатый дино,Драгун,Страж-кавалерист,Служанка в маске SP",
         "",
         "меч,нож",
         "тяжелая",
@@ -1789,7 +1789,7 @@ var dataTable = [
         "Ван",
         "ГГ,ГЙ,ГВ",
         "SSR",
-        "",
+        "forge",
         "",
         "",
         "Crushing Fist",
@@ -1803,7 +1803,7 @@ var dataTable = [
         "",
         "",
         "",
-        "",
+        "ATK and DEF +5%. [Chain Strikes] duration +1. When [Chain Strikes] is cast on an enemy, there is a 50% chance to cast an additional stack of [Chain Strikes].",
         "25",
         "35",
         "25",
@@ -2758,7 +2758,7 @@ var dataTable = [
         "Дева Ковчега",
         "ГГ,АП,ТАИР",
         "SSR",
-        "",
+        "forge",
         "",
         "М3",
         "Inner Demon",
@@ -2772,7 +2772,7 @@ var dataTable = [
         "6",
         "",
         "HP +10%. When there are at least 2 allies within 1 ring, Darklight Synthesis will not deal damage to allies, and recieved healing effects +8%.",
-        "",
+        "INT +10%. After using 'Light Convergence', can move 2 more tiles and attack again.",
         "30",
         "15",
         "20",
@@ -3338,7 +3338,7 @@ var dataTable = [
         "30",
         "30",
         "10",
-        "Воин-скелет,Рыцарь-скелет,Сталегривый оборотень,Зомби-гигант,Адское демоническое ядро,Всадник-грифон,Малый бес,Рыцарь-грифон,Летучая мышь-вампир,Горгулья,Всадник Эклиптического Дракона,Лобстер,Чудище-лобстер",
+        "Воин-скелет,Рыцарь-скелет,Сталегривый оборотень,Зомби-гигант,Адское демоническое ядро,Всадник-грифон,Малый бес,Рыцарь-грифон,Летучая мышь-вампир,Горгулья,Всадник Эклиптического Дракона,Лобстер,Чудище-лобстер,Солдат-драконианец SP",
         "",
         "копье,топор",
         "легкая",
@@ -4974,7 +4974,7 @@ var dataTable = [
         "",
         "копье,топор",
         "легкая",
-        "0,4",
+        "0,4,7",
         "174,175",
         "Нарм",
         "Шери",
@@ -5276,7 +5276,7 @@ var dataTable = [
         "20",
         "25",
         "35",
-        "Элитная пехота,Воин,Горец-воин,Темный страж,Горный голем,Тяжелый центурион,Копейщик авангарда,Темный центурион,Паладин,Страж-кавалерист,Королевская кавалерия",
+        "Элитная пехота,Воин,Горец-воин,Темный страж,Горный голем,Тяжелый центурион,Копейщик авангарда,Темный центурион,Паладин,Страж-кавалерист,Королевская кавалерия,Служанка в маске SP",
         "",
         "меч,нож",
         "тяжелая",
@@ -5735,7 +5735,7 @@ var dataTable = [
         "35",
         "20",
         "10",
-        "Элитная пехота,Тяжелая пехота,Воин-варвар,Наемник пустыни,Элитный копейщик,Копейщик авангарда,Солдат фаланги,Темный эльф,Темный эльф-снайпер,Засадный боец,Бандит,Безликий,Шиноби,Экспедиция по природе,Получеловек-странник",
+        "Элитная пехота,Тяжелая пехота,Воин-варвар,Наемник пустыни,Элитный копейщик,Копейщик авангарда,Солдат фаланги,Темный эльф,Темный эльф-снайпер,Засадный боец,Бандит,Безликий,Шиноби,Экспедиция по природе,Получеловек-странник,Служанка в маске SP",
         "",
         "меч,нож",
         "тяжелая",
@@ -7983,7 +7983,7 @@ var dataTable = [
         "",
         "посох,молот",
         "тканевая",
-        "0,2,5,6",
+        "0,2,5,6,31",
         "283,284",
         "Ленфорд",
         "Клотэр",
@@ -8132,7 +8132,7 @@ var dataTable = [
         "35",
         "20",
         "25",
-        "Элитная кавалерия,Небесный страж,Единорог,Всадник-пегас,Святой пегас,Железокрылый воин,Меткий стрелок,Рейнджер вихря,Гоблин-рыцарь,Ведьма,Колдунья",
+        "Элитная кавалерия,Небесный страж,Единорог,Всадник-пегас,Святой пегас,Железокрылый воин,Меткий стрелок,Рейнджер вихря,Гоблин-рыцарь,Ведьма,Колдунья,Солдат-драконианец SP",
         "",
         "посох,молот",
         "тяжелая",
@@ -8591,7 +8591,7 @@ var dataTable = [
         "40",
         "25",
         "10",
-        "Элитная пехота,Тяжелая пехота,Клыкастый страж,Элитная кавалерия,Страж-кавалерист,Осквернитель пламени,Баллиста,Катапульта,Палубный стрелок,Танцующая в тумане,Гоблин-рыцарь,Безликий,Монах,Клинок сумереченого крыла",
+        "Элитная пехота,Тяжелая пехота,Клыкастый страж,Элитная кавалерия,Страж-кавалерист,Осквернитель пламени,Баллиста,Катапульта,Палубный стрелок,Танцующая в тумане,Гоблин-рыцарь,Безликий,Монах,Клинок сумереченого крыла,Служанка в маске SP",
         "",
         "меч,нож",
         "тяжелая",
@@ -9254,7 +9254,7 @@ var dataTable = [
         "40",
         "15",
         "15",
-        "Элитная пехота,Тяжелая пехота,Галантный дуэлянт,Элитная кавалерия,Страж-кавалерист,Единорог,Всадник-грифон,Всадник-пегас,Рыцарь-грифон,Ангел,Святой пегас,Железокрылый воин,Пегас звездной призмы,Боящийся клыков",
+        "Элитная пехота,Тяжелая пехота,Галантный дуэлянт,Элитная кавалерия,Страж-кавалерист,Единорог,Всадник-грифон,Всадник-пегас,Рыцарь-грифон,Ангел,Святой пегас,Железокрылый воин,Пегас звездной призмы,Боящийся клыков,Солдат-драконианец SP",
         "",
         "копье,топор",
         "легкая",
@@ -9393,15 +9393,15 @@ var dataTable = [
         "Мил",
         "Last Protection",
         "ATK and DEF are increased by (10%, 15%, 20%, 25%), and there is no melee damage penalty.<br><br>At action end, can target an unsummoned ally to give [Protect], cannot be immunized, and cannot be dispelled. When an ally with [Protect] is within 3 squares, whenever he makes a normal attack or is attacked, Tiana will instead enter the battle and can attack from a distance, all attributes of both units except HP will be increased by (5%, 8%, 11%, 15%); Tiana does not die if it takes lethal damage, instead unit HP will recover to the level before that damage. ([Trigger Cooldown] The effect requires an interval of (4, 3, 2, 2) rounds before it can be activated again; the effect of improving the attributes of command skills and similar command skills cannot operate simultaneously)",
+        "Global - 08.05.2025",
+        "шапка",
+        "437",
         "",
         "",
         "",
+        "59",
         "",
-        "",
-        "",
-        "",
-        "",
-        "",
+        "HP +10%. When entering battle instead of an ally with [Protect], gains the [Preemptive Blade Strike] effect for 2 turns. When an enemy with the [Solo Striker] effect dies, grants the [Solo Striker] effect to a random enemy within 2 tiles of them.",
         "",
         "20",
         "35",
@@ -9917,7 +9917,7 @@ var dataTable = [
         "10",
         "40",
         "10",
-        "Элитная пехота,Страж-пехотинец,Темный страж,Королевский страж,Клыкастый страж,Элитный копейщик,Фаланга,Тяжелый центурион,Элитная кавалерия,Осквернитель пламени,Меткий стрелок,Монах,Экзорцист,Маг Святой Стражи,Призыватель приливов",
+        "Элитная пехота,Страж-пехотинец,Темный страж,Королевский страж,Клыкастый страж,Элитный копейщик,Фаланга,Тяжелый центурион,Элитная кавалерия,Осквернитель пламени,Меткий стрелок,Монах,Экзорцист,Маг Святой Стражи,Призыватель приливов,Служанка в маске SP",
         "Избавитель",
         "топор,копье",
         "тяжелая",
@@ -10019,7 +10019,7 @@ var dataTable = [
         "35",
         "15",
         "10",
-        "Элитная пехота,Горец-воин,Страж-пехотинец,Элитная кавалерия,Рогатый дино,Костяной дино,Страж-кавалерист,Королевская кавалерия,Гигантский всадник-ящерица,Всадник-пегас,Святой пегас,Ангел,Пегас звездной призмы",
+        "Элитная пехота,Горец-воин,Страж-пехотинец,Элитная кавалерия,Рогатый дино,Костяной дино,Страж-кавалерист,Королевская кавалерия,Гигантский всадник-ящерица,Всадник-пегас,Святой пегас,Ангел,Пегас звездной призмы,Солдат-драконианец SP",
         "",
         "меч,копье",
         "тяжелая",
@@ -10529,7 +10529,7 @@ var dataTable = [
         "40",
         "15",
         "20",
-        "Элитная пехота,Воин,Тяжелая пехота,Берсерк,Галантный дуэлянт,Всадник-грифон,Рыцарь-грифон,Рыцарь на механическом драконе,Железокрылый воин,Элитная кавалерия,Тяжелая кавалерия,Золотой рыцарь,Гигантский всадник-ящерица,Боящийся клыков",
+        "Элитная пехота,Воин,Тяжелая пехота,Берсерк,Галантный дуэлянт,Всадник-грифон,Рыцарь-грифон,Рыцарь на механическом драконе,Железокрылый воин,Элитная кавалерия,Тяжелая кавалерия,Золотой рыцарь,Гигантский всадник-ящерица,Боящийся клыков,Солдат-драконианец SP",
         "",
         "меч,копье",
         "тяжелая",
@@ -11043,7 +11043,7 @@ var dataTable = [
         "",
         "посох,молот",
         "тканевая",
-        "0,2",
+        "0,2,5",
         "438,439",
         "",
         "",
@@ -11421,6 +11421,159 @@ var dataTable = [
         "767,768",
         "",
         "770",
+        "",
+        ""
+    ],
+	[
+        "Мари Роуз",
+        "АП,МУ,ГВ",
+        "SSR",
+        "",
+        "",
+        "",
+        "System",
+        "ATK and DEF increase by (10%, 15%, 20%, 25%).<br>After using the skill to attack the enemy, [Displacement] will be applied to the enemy, knocking the target back 3 blocks. If there are other troops or inaccessible terrain in the way of the knockback, [Displacement] will be applied again, knocking the target back by the remaining knockback blocks. Each time [Displacement] is applied to a unit, it gains 1 layer of [Dance Preparation], which will be removed at the beginning of the round.<br>At the end of the effect, 1 layer of [Dance Preparation] is consumed, the number of buff rounds is not reduced, and it can move an additional (2, 2, 3, 3) tiles and attack again. (If the effect has already been triggered this round, the amount of [Dance Preparation] spent will double each time it is triggered, and it can be triggered up to 5 times per round.)",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "30",
+        "40",
+        "20",
+        "10",
+        "Элитная пехота,Служанка,Служанка в маске,Наемник пустыни,Клыкастый страж,Цепной танцор в джунглях,Малый бес,Горгулья,Железокрылый воин",
+        "",
+        "меч,нож",
+        "тяжелая",
+        "0,2",
+        "455",
+        "",
+        "",
+        "",
+        "",
+        "906,907",
+        "119,81,22",
+        "",
+        "",
+        "",
+        "41",
+        "",
+        "",
+        "",
+        "",
+        "908,909",
+        "",
+        "",
+        "",
+        "910",
+        "",
+        ""
+    ],
+	[
+        "Ниотэнгу",
+        "АП,ТАИР,ГВ",
+        "SSR",
+        "",
+        "",
+        "",
+        "Flying Dance",
+        "ATK and DEF increase by (10%, 15%, 20%, 25%).<br>If on defensive terrain at the end of the effect or skills used this round, restore HP by (15%, 20%, 25%, 30%) and gain [Flying Dance]: 'Mobility +2, ignores enemy units while moving and reduces damage taken by 50%. This effect will be lost after the hero is attacked, enters combat and takes damage (after losing it this way, it can be gained again after an interval of 1 round).' Lasts 2 rounds and cannot be removed.",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "20",
+        "40",
+        "15",
+        "25",
+        "Элитная кавалерия,Тяжелая кавалерия,Гигантский всадник-ящерица,Всадник-грифон,Рыцарь-грифон,Солдат-драконианец,Рыцарь на механическом драконе,Боевой сокол",
+        "",
+        "копье,топор",
+        "легкая",
+        "0,2",
+        "456",
+        "",
+        "",
+        "",
+        "",
+        "912,913",
+        "182,71,75",
+        "",
+        "",
+        "914",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "4,164",
+        "",
+        "",
+        "915",
+        "",
+        ""
+    ],
+	[
+        "Касуми",
+        "ГГ,МУ,ГВ",
+        "SSR",
+        "",
+        "",
+        "",
+        "Zogen Tenjin Style",
+        "ATK and DEF increase by (10%, 15%, 20%, 25%). Not affected by melee damage reduction.<br>After dealing damage, casts [Toughness] on the enemy: unable to defend and unable to attack before the enemy, lasting 2 rounds. (cannot be removed).<br>When actively attacking and entering combat, if the enemy has the Kasumi talant effect, he cannot counterattack and will be [Stunned] for 1 round after the battle.",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "25",
+        "35",
+        "20",
+        "20",
+        "Эльф,Эльф-мастер,Палубный стрелок,Экспедиция по природе,Куноити,Самурай,Танцующая в тумане,Убийца из Ковчега,Клинок сумереченого крыла",
+        "",
+        "лук,нож",
+        "легкая",
+        "0",
+        "457",
+        "",
+        "",
+        "",
+        "",
+        "917",
+        "140,19,129,141",
+        "",
+        "",
+        "",
+        "86",
+        "",
+        "",
+        "",
+        "",
+        "918",
+        "82",
+        "",
+        "",
+        "919",
         "",
         ""
     ]
@@ -19598,6 +19751,60 @@ var classStats = [
 		"When actively attacks an enemy whose HP% is lower than this unit, the damage dealt in battle increases by 10%.",
         "C",
         "C"
+    ],
+	[
+        "Мари Роуз",
+        "",
+        "sword",
+        "4552",
+        "590",
+        "267",
+        "343",
+        "276",
+        "175",
+        "1",
+        "3",
+        "ходьба",
+        "When actively attacking, damage taken in battle is reduced by 10%.",
+		"When actively attacking, the damage dealt in battle is increased by 10%.",
+        "",
+        ""
+    ],
+	[
+        "Ниотэнгу",
+        "",
+        "fly",
+        "4406",
+        "607",
+        "222",
+        "307",
+        "329",
+        "161",
+        "1",
+        "5",
+        "полет",
+        "When fighting with an enemy whose HP is lower than hero, the damage received in battle is reduced by 10%.",
+		"When HP is 100%, damage increases by 10%.",
+        "",
+        ""
+    ],
+	[
+        "Касуми",
+        "",
+        "assasin",
+        "4201",
+        "560",
+        "244",
+        "315",
+        "280",
+        "252",
+        "1",
+        "3",
+        "ходьба",
+        "When actively attacking, physical damage taken in battle is reduced by 10%.",
+		"When actively attacking, the damage dealt in battle is increased by 10%.",
+        "",
+        ""
     ]
 ]
 
@@ -19824,7 +20031,10 @@ var heroList = [
             "Юлия",
             "Юная Джессика",
             "Юске",
-			"Ютем"
+			"Ютем",
+			"Мари Роуз",
+			"Ниотэнгу",
+			"Касуми"
 ];
 
 var heroList_en = [
@@ -20050,7 +20260,10 @@ var heroList_en = [
 	"Yulia",
 	"Young Jessica",
 	"Yusuke Urameshi",
-	"Wehttam"
+	"Wehttam",
+	"Marie Rose",
+	"Nyotengu",
+	"Kasumi"
 ]
 
 var persSkills = [
@@ -29093,6 +29306,156 @@ var persSkills = [
         "one target",
         "3",
         "[Passive] For each enemy on the battlefield that has [See Through], unit mobility +2 and attack range +1. (Maximum 2 layers).<br>[Physical Damage] Attacks one enemy at a straight line, dealing 1.6x damage. When successfully killing an enemy, the cooldown of this skill is reduced by 2 turns. Ranged soldiers will attack together. After attacking, can use the remaining mobility to move again. If the enemy has [Vision] or [See Through], the damage of this skill will be increased by 30%. If the enemy has [See Through], they cannot activate the [Fatal Damage Resistance] effect in this battle. (The inability activate effect [fatal damage resistant] only works in PVP mode)."
+    ],
+	[
+        "Мари Роуз",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+    ],
+	[
+        "Stupid, stupid, stupid",
+        "Глупая, глупая, глупая",
+        "1",
+        "7",
+        "self",
+        "one target",
+        "3",
+        "[Passive] When the [Displacement] effect is applied to the enemy for the first time in each round, at the end of the effect, can teleport to any position within a direct range of 3 tiles, and the teleportation is treated as the effect of [Displacement].<br>[Active] Actively used, restores 30% of max HP. When there are enemies in the surrounding 4 tiles, gains 1 level of [Dance Preparation]."
+    ],
+	[
+        "Wild Rose Buttocks",
+        "Ягодицы дикой розы",
+        "1",
+        "2",
+        "4",
+        "straight",
+        "3",
+        "[Physical Damage] Attacks all enemies in a straight line, dealing 0.1x AoE damage. When attacking, [Teleports] to the skill distance. When hitting an enemy, gains 1 layer of [Dance Preparation]."
+    ],
+	[
+        "Charming as the Autumn Moon",
+        "Очаровательна, как осенняя луна",
+        "2",
+        "2",
+        "self",
+        "1 ring",
+        "3",
+        "[Physical Damage] Deals 0.36x AoE damage to all enemies in a ring around herself. If the enemy's position does not change after the attack, dispels 1 enemy buff (priority to dispel the effect of 'Immunity to [Displacement]'), and applies 'passive skill prohibition' for 2 rounds."
+    ],
+	[
+        "Orange Rose in Full Bloom",
+        "Оранжевая роза в полном цвету",
+        "2",
+        "2",
+        "1",
+        "one target",
+        "3",
+        "[Physical Damage] Attacks one enemy, dealing 1.6x damage. If the hero has [Dance Preparation], the enemy cannot counterattack in this battle. After the battle, the enemy will be stunned for 1 round."
+    ],
+	[
+        "Kungunir",
+        "Кунгунир",
+        "3",
+        "2",
+        "1",
+        "one target",
+        "5",
+        "[Passive] When the [Displacement] effect occurs, if there are other units or inaccessible terrain in the displacement path, it will deal 1 [Fixed Damage]  equal to 1x ATK.<br>[Physical Damage] Attacks one enemy, dealing 1.8x damage, and dispels 5 enemy buffs before battle. If the talent effect is triggered this round, the damage dealt in this battle will be increased by 15% (up to 30%), and the cooldown of all skills is reduced by 1 round (reduced to 2 rounds maximum)."
+    ],
+	[
+        "Ниотэнгу",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+    ],
+	[
+        "Taiwan",
+        "Тайвань",
+        "1",
+        "7",
+        "self",
+        "one target",
+        "4",
+        "[Active] Actively used, gains 'ATK +20%' and [Taiwan]: 'After actively dealing damage, deals 0.1x AoE damage to all enemies in a ring around herself, and causes the effect of [Teleport]: 'Enemy position changed.' Lasts for 2 rounds, can take additional actions after use. The mobility of this additional action is equal to the remaining mobility when using the skill, and can attack again. (After using this skill, the number of buff turns will not be reduced.)"
+    ],
+	[
+        "Putting the Beads",
+        "Перебирать четки",
+        "2",
+        "2",
+        "1",
+        "one target",
+        "3",
+        "[Physical Damage] Attacks one enemy, dealing 1.5x damage. After the battle, damage to the enemy increases by 20% for 2 rounds. If the hero has [Flying Dance], the damage will increase to 1.8x, and the enemy will be stunned for 1 round."
+    ],
+	[
+        "Locust",
+        "Саранча",
+        "2",
+        "2",
+        "4",
+        "straight",
+        "3",
+        "[Physical Damage] Attacks all enemies in a straight line, dealing 0.4 AoE damage. When attacking, the hero teleports to the tile with the longest skill range or in front of the closest enemy in range and causes [Displacement]: Pushes the enemies back 2 tiles. If there are other units or inaccessible terrain on the route, the enemy will be stunned for 1 round."
+    ],
+	[
+        "Kagura Flower",
+        "Цветок Кагура",
+        "3",
+        "2",
+        "1",
+        "one target",
+        "3",
+        "[Physical Damage] Attacks one enemy, dealing 1.7x damage, dispelling 3 enemy buffs before battle, recovering HP equal to 20% of the damage dealt after battle, and gaining [Command]: 'All enemies within 2 tiles have -1 mobility and cannot use the Guard effect', lasts for 2 rounds. If there is [Flying Dance], the damage dealt by this attack is increased by 20%. If the enemy is not killed, the cooldown of all skills will be reduced by 2 rounds, otherwise it can move 4 tiles."
+    ],
+	[
+        "Касуми",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+    ],
+	[
+        "Feng Shen Step",
+        "Шаг Фэн Шэня",
+        "1",
+        "7",
+        "3",
+        "1",
+        "3",
+        "[Active] Actively used on an empty tile or a unit in a forward direction, causing the effect of [Displacement]: Moves to the target position. After use, it can move 2 tiles and attack again. (This move effect cannot be immune. When moving, the movement is treated as flying. After using this skill, the number of buff rounds will not be reduced.)"
+    ],
+	[
+        "God's Palm",
+        "Ладонь Бога",
+        "2",
+        "2",
+        "1",
+        "one target",
+        "3",
+        "[Physical Damage] Attacks one enemy, dealing 1.4x damage and increasing damage taken by 20% for 1 turn. If the target has the [Toughness] effect, the target's DEF after battle will be reduced by 30% for 2 rounds."
+    ],
+	[
+        "Sakura Dance",
+        "Танец Сакуры",
+        "3",
+        "2",
+        "1",
+        "one target",
+        "4",
+        "[Passive] When fighting an enemy with the [Toughness] effect, damage taken is reduced by 30% and ATK is increased by 30%.<br>[Physical Damage] Attacks one enemy, dealing 1.6x damage. If the enemy has the [Toughness] effect, this skill will attack twice in this battle. After the battle, if there are enemies within 3 tiles around, can act again, otherwise the cooldown of this skill will be reduced by 3 turns; ([Trigger Cooldown] These two effects share a trigger cooldown, and it takes 2 rounds to trigger again.)"
     ]
 ]
 
@@ -30906,6 +31269,16 @@ var commonSkills = [
         "5",
         "[Phys. Damage] Attacks one enemy unit, dealing 1.3x damage in combat. Particularly effective against [flyers]. Before battle, damage dealt increases by 30%. After the battle, prevents the enemy from receiving buffs. Lasts 2 turns. (The effect cannot be removed).​",
         "Deadeye"
+    ],
+	[
+        "На крыльях ветра",
+        "1",
+        "passive",
+        "",
+        "",
+        "",
+        "[Passive] Phys. damage increases by 5% for every 1 cell passed before the attack. (Up to 25%).​​​",
+		"Ride the Wind"
     ]
 ]
 
@@ -34047,6 +34420,39 @@ var builds = [
         "Ярость Тюра,Шлем Энея,Королевская корона,Перьевая корона Ньорда",
         "Талисман судьи",
         "Воин-варвар,Летучая мышь-вампир,Горгулья,Сталегривый оборотень"
+    ],
+	[
+        "Мари Роуз",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+    ],
+	[
+        "Ниотэнгу",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+    ],
+	[
+        "Касуми",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
     ]
 ]
 
@@ -34549,7 +34955,7 @@ var confession = [
     ],
 	[
         "Илия",
-        ""
+        "https://drive.google.com/file/d/1nU9K6X9DxHzruMG9gfrHYPCOnw2aDKvI/view?usp=sharing"
     ],
     [
         "Илюсия",
@@ -35157,6 +35563,18 @@ var confession = [
     ],
     [
         "Ютем",
+        ""
+    ],
+    [
+        "Мари Роуз",
+        ""
+    ],
+    [
+        "Ниотэнгу",
+        ""
+    ],
+    [
+        "Касуми",
         ""
     ]
 ]
@@ -37401,6 +37819,36 @@ var startB = [
         "",
         "",
         ""
+    ],
+    [
+        "Мари Роуз",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+    ],
+    [
+        "Ниотэнгу",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+    ],
+    [
+        "Касуми",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
     ]
 ]
 
@@ -39637,6 +40085,36 @@ var basicB = [
     ],
     [
         "Ютем",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+    ],
+    [
+        "Мари Роуз",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+    ],
+    [
+        "Ниотэнгу",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+    ],
+    [
+        "Касуми",
         "",
         "",
         "",
@@ -42772,6 +43250,48 @@ var pveB = [
     ],
     [
         "Ютем",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+    ],
+    [
+        "Мари Роуз",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+    ],
+    [
+        "Ниотэнгу",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+    ],
+    [
+        "Касуми",
         "",
         "",
         "",
@@ -46146,6 +46666,51 @@ var pvpB = [
         "",
         "",
         ""
+    ],
+    [
+        "Мари Роуз",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+    ],
+    [
+        "Ниотэнгу",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+    ],
+    [
+        "Касуми",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
     ]
 ]
 
@@ -46626,7 +47191,7 @@ undw = "125px";
 cli = "235px";
 //1A
 if (dataTable[hero_number][34]=='' && dataTable[hero_number][35]==''){
-	if (heroName == 'Алканфель' || heroName == 'Макишима Агито' || heroName == 'Шо Фукамачи'){
+	if (heroName == 'Алканфель' || heroName == 'Макишима Агито' || heroName == 'Шо Фукамачи' || heroName == 'Мари Роуз' || heroName == 'Ниотэнгу' || heroName == 'Касуми'){
 		cl10.style.display = 'none';
 		cl11.style.width = "100%";
 		cl12.style.width = "0";
@@ -46674,7 +47239,7 @@ if (dataTable[hero_number][34]=='' && dataTable[hero_number][35]==''){
 
 //1B
 if (dataTable[hero_number][36]=='' && dataTable[hero_number][37]==''){
-	if (heroName == 'Алканфель' || heroName == 'Макишима Агито' || heroName == 'Шо Фукамачи'){
+	if (heroName == 'Алканфель' || heroName == 'Макишима Агито' || heroName == 'Шо Фукамачи' || heroName == 'Мари Роуз' || heroName == 'Ниотэнгу' || heroName == 'Касуми'){
 		cl10.style.display = 'none';
 		cl11.style.width = "100%";
 		cl12.style.width = "0";
@@ -46719,7 +47284,7 @@ if (dataTable[hero_number][36]=='' && dataTable[hero_number][37]==''){
 }
 //1C
 if (dataTable[hero_number][38]=='' && dataTable[hero_number][39]==''){
-	if (heroName == 'Алканфель' || heroName == 'Макишима Агито' || heroName == 'Шо Фукамачи'){
+	if (heroName == 'Алканфель' || heroName == 'Макишима Агито' || heroName == 'Шо Фукамачи' || heroName == 'Мари Роуз' || heroName == 'Ниотэнгу' || heroName == 'Касуми'){
 		cl10.style.display = 'none';
 		cl11.style.width = "100%";
 		cl12.style.width = "0";

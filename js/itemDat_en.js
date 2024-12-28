@@ -632,6 +632,20 @@ var itemDat = [
         "Healing power +10%, HP +5%. When casting skills, for each allied unit hit, the hero receives 1 stack: “At the end of the action or when being attacked and receiving damage, restores the HP of allies whose HP is less than 80% within a radius of 2 tiles by 1.5x INT and remove this effect.” Maximum 5 stacks",
         "accs"
     ],
+	[
+        "Акс 5",
+        "---",
+        "accessoir",
+        "",
+        "75",
+        "",
+        "43",
+        "",
+        "",
+        "АТК, НАВЫК +8%. Когда активно атакует врага навыком и вступает в бой, если рядом с целью нет других врагов, после битвы будет восстановлено 15% ОЗ и юнит может телепортироваться в позицию начала раунда, если на ней нет другого юнита. (Перезарядка триггера: Этот эффект можно использовать еще раз только через 3 хода).",
+        "ATK, SKILL +8%. When actively attacks an enemy with a skill and enters battle, if there are no other enemies near the target, 15% HP will be restored after the battle and the unit can teleport to the start position of the turn if there are no other units on it (Trigger Cooldown: This effect can only be used again after 3 turns).",
+        "accs"
+    ],
     [
         "Броня Энея",
         "Aeneas' Armor",
@@ -1164,6 +1178,20 @@ var itemDat = [
         "HP and DEF +5%. When attacked by enemy and enter into battle, has a 100% chance to dispel 1 buff from the enemy.",
         "heavy"
     ],
+	[
+        "Броня 5",
+        "---",
+        "body",
+        "583",
+        "",
+        "",
+        "54",
+        "",
+        "",
+        "ОЗ +10%. Когда 100% ОЗ, шанс получить критический удар снижается на 100%.",
+        "HP +10%. When HP is 100%, the chance of getting a critical hit is reduced by 100%.",
+        "cloth"
+    ],
     [
         "Шлем Энея",
         "Aeneas' Helmet",
@@ -1681,6 +1709,20 @@ var itemDat = [
         "ОЗ +10%. В конце действия, если рядом есть союзник, герой и случайный союзник рядом получают 'Получаемый АоЕ урон уменьшается на 15%' и иммунитет к запрету активных навыков на 1 ход.",
         "HP +10%. At the end of the action, if there is an ally adjacent, the hero and a random ally nearby receive 'AoE damage taken reduced by 15%' and immunity to active skill silence for 1 turn.",
         "cloth"
+    ],
+	[
+        "Головной убор 5",
+        "---",
+        "hat",
+        "437",
+        "",
+        "",
+        "",
+        "59",
+        "",
+        "ОЗ +10%. При получении урона получает 'Урон увеличивается на 15%' на 1 ход.",
+        "HP +10%. When receiving damage, receives 'Damage increases by 15%' for 1 turn. ",
+        "light"
     ],
     [
         "Меч клятвы",
@@ -2451,6 +2493,20 @@ var itemDat = [
         "АТК +10%. При активной атаке и вступлении в бой, шанс критического удара и критический урон увеличиваются на 5% за каждую клетку между юнитом и противником (до 15%)",
         "ATK +10%. When actively attacking and entering battle, the chance of a critical hit and critical damage increase by 5% for each tile between unit and enemy (up to 15%)",
         "dagger"
+    ],
+	[
+        "Оружие 5",
+        "---",
+        "weapon",
+        "437",
+        "107",
+        "",
+        "",
+        "",
+        "",
+        "АТК +10%. При активации повторного действия получает 'Урон навыков увеличен на 10%', длится 1 ход.",
+        "ATK +10%. When activate act again, gains 'Skill damage increased by 10%', lasts 1 turn.",
+        "sword"
     ]
 ]
 
