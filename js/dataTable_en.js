@@ -29365,7 +29365,7 @@ var persSkills = [
         "1",
         "one target",
         "5",
-        "[Passive] When the [Displacement] effect occurs, if there are other units or inaccessible terrain in the displacement path, it will deal 1 [Fixed Damage]  equal to 1x ATK.<br>[Physical Damage] Attacks one enemy, dealing 1.8x damage, and dispels 5 enemy buffs before battle. If the talent effect is triggered this round, the damage dealt in this battle will be increased by 15% (up to 30%), and the cooldown of all skills is reduced by 1 round (reduced to 2 rounds maximum)."
+        "[Passive] When the [Displacement] effect occurs, if there are other units or inaccessible terrain in the displacement path, it will deal 1 [Fixed Damage]  equal to 1x ATK.<br>[Physical Damage] Attacks one enemy, dealing 1.8x damage, and dispels 5 enemy buffs before battle. If the talent effect is triggered this round, hero will attack first, the damage dealt in this battle will be increased by 15% (up to 30%), and the cooldown of all skills is reduced by 1 round (reduced to 2 rounds maximum)."
     ],
 	[
         "Ниотэнгу",
