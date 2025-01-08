@@ -620,7 +620,7 @@ var dataTable = [
         "",
         "",
         "The price of salvation",
-        "Ignores class deficiencies and increases INT (10%, 13%, 16%, 20%). Using the skill will not cause it to recharge. Initially has 15 layers of [Energy]. To use a skill, you need to expend [Energy] equal to the skill's cooldown. At the end of the action, you can choose to go into a “sleep” state: “Unable to attack, move, or use skills. Upon completion, the unit’s HP is restored and (8, 10, 12, 15) layers of [energy] are added.” The sleep lasts 1 round. (Cannot be immune and cannot be removed)",
+        "Ignores class deficiencies and increases INT (10%, 13%, 16%, 20%). Using the skill will not cause it to cooldown. Initially has 15 layers of [Energy]. To use a skill, you need to expend [Energy] equal to the skill's cooldown. At the end of the action, you can choose to go into a “sleep” state: “Unable to attack, move, or use skills. Upon completion, the unit’s HP is restored and (8, 10, 12, 15) layers of [energy] are added.” The sleep lasts 1 round. (Cannot be immune and cannot be removed)",
         "",
         "",
         "",
@@ -2609,7 +2609,7 @@ var dataTable = [
         "",
         "М3",
         "Snowfield frost",
-        "When fighting units whose mobility is not higher than yours, ATK and DEF increase by (12,16,20,25)%. <br><br>After performing an action, if she is in the [Danger Zone], she receives [Snow Guard]: immunity to all negative effects, and when attacked and forced into battle, she receives \"[Command] reduces the mobility of all enemies within 1 block by -2 for 1 turn.\" Can block damage up to (12,16,20,25)% of max HP. Cannot be dispelled. ([Trigger Recharge] When the shield disappears, it can only be restored after 1 turn.)",
+        "When fighting units whose mobility is not higher than yours, ATK and DEF increase by (12,16,20,25)%. <br><br>After performing an action, if she is in the [Danger Zone], she receives [Snow Guard]: immunity to all negative effects, and when attacked and forced into battle, she receives \"[Command] reduces the mobility of all enemies within 1 block by -2 for 1 turn.\" Can block damage up to (12,16,20,25)% of max HP. Cannot be dispelled. ([Trigger cooldown] When the shield disappears, it can only be restored after 1 turn.)",
         "Pride of the Frozen Winter",
         "шапка",
         "34",
@@ -5720,7 +5720,7 @@ var dataTable = [
         "",
         "М3",
         " Hunting on the dunes",
-        "When there is an enemy within 3 blocks, ATK, DEF and SKILL are increased by (10,13,16,20)%, and the unit's attacks are not affected by the melee damage reduction. <br><br>The hero can move an additional 2 blocks after the battle, and can also use [Claws] once after performing an action: when used on defensive terrain or a unit, applies the [Displacement] effect: pulls you to the target's side. (This displacement effect ignores immunity. When displaced, the caster's movement method is treated as Flying.) ([Recharge Trigger] can only fire once after (4,3,3,2) turns.)",
+        "When there is an enemy within 3 blocks, ATK, DEF and SKILL are increased by (10,13,16,20)%, and the unit's attacks are not affected by the melee damage reduction. <br><br>The hero can move an additional 2 blocks after the battle, and can also use [Claws] once after performing an action: when used on defensive terrain or a unit, applies the [Displacement] effect: pulls you to the target's side. (This displacement effect ignores immunity. When displaced, the caster's movement method is treated as Flying.) ([Cooldown Trigger] can only fire once after (4,3,3,2) turns.)",
         "Gladiator of the sands",
         "шапка",
         "25",
@@ -6383,7 +6383,7 @@ var dataTable = [
         "",
         "М3",
         "Soul Drain Blade",
-        "Units ignore class disadvantages and deal (10,15,20,30)% more damage when entering battle. <br><br>At the beginning of the battle, receives [Blade Soul Power]: ATK increases by 10%, gains Mobility +2. In addition, when receiving lethal damage, instead of dying, absorbs this effect and restores (20,30,40,50)% HP (this HP recovery is reduced by 50% with each trigger). [Blade Soul Power] Ignores immunity and cannot be dispelled. Cannot be stacked. <br><br>When an enemy dies, a [Soul Shard] is created in its place. After completion of the action, the Sword of Light and Shadow absorbs 1 allied [Soul Shard] in a ring radius of 1 to recharge [Blade Soul Power]. ([Soul Shard] Priority is given to areas with a higher level)",
+        "Units ignore class disadvantages and deal (10,15,20,30)% more damage when entering battle. <br><br>At the beginning of the battle, receives [Blade Soul Power]: ATK increases by 10%, gains Mobility +2. In addition, when receiving lethal damage, instead of dying, absorbs this effect and restores (20,30,40,50)% HP (this HP recovery is reduced by 50% with each trigger). [Blade Soul Power] Ignores immunity and cannot be dispelled. Cannot be stacked. <br><br>When an enemy dies, a [Soul Shard] is created in its place. After completion of the action, the Sword of Light and Shadow absorbs 1 allied [Soul Shard] in a ring radius of 1 to obtain [Blade Soul Power]. ([Soul Shard] Priority is given to areas with a higher level)",
         "Intertwined Wishes",
         "броня",
         "25",
@@ -6392,7 +6392,7 @@ var dataTable = [
         "6",
         "",
         "",
-        "HP and DEF +5%. When fighting an enemy who has [lethal damage resistance], the ATK and DEF increases by 10%. After receiving fatal damage and triggering the talent, a [soul fragment] will appear on the hero’s cell. (Recharge of that effect 3 turns).",
+        "HP and DEF +5%. When fighting an enemy who has [lethal damage resistance], the ATK and DEF increases by 10%. After receiving fatal damage and triggering the talent, a [soul fragment] will appear on the hero’s cell. (cooldown of that effect 3 turns).",
         "",
         "15",
         "35",
@@ -6587,7 +6587,7 @@ var dataTable = [
         "",
         "Т",
         "Stream of Lost Islands",
-        "ATK increases by (15%, 20%, 25%, 30%). <br><br>At the end of the action, select a location and apply to it and the entire surrounding area (1 block, 1 block, 1 block, 2 blocks) a special terrain effect [Mysterious Ocean Current] for 2 rounds: Terrain effect: additional effects in depending on the target: When it is an ally, it restores 15% HP and receives a random buff; When it is an enemy, it takes [fixed damage] equal to 15% of its maximum HP and gains: \"The terrain it is on is considered 'water'\" for 1 round. <br><br>([Trigger Recharge] can apply the effect of [Mysterious Ocean Current] again after an interval of 1 round). <br><br>When you pass through an area with a friendly effect [Mysterious Ocean Current], you can remove 2 mobility reduction blocks",
+        "ATK increases by (15%, 20%, 25%, 30%). <br><br>At the end of the action, select a location and apply to it and the entire surrounding area (1 block, 1 block, 1 block, 2 blocks) a special terrain effect [Mysterious Ocean Current] for 2 rounds: Terrain effect: additional effects in depending on the target: When it is an ally, it restores 15% HP and receives a random buff; When it is an enemy, it takes [fixed damage] equal to 15% of its maximum HP and gains: \"The terrain it is on is considered 'water'\" for 1 round. <br><br>([Trigger cooldown] can apply the effect of [Mysterious Ocean Current] again after an interval of 1 round). <br><br>When you pass through an area with a friendly effect [Mysterious Ocean Current], you can remove 2 mobility reduction blocks",
         "---",
         "509",
         "",
@@ -6791,7 +6791,7 @@ var dataTable = [
         "",
         "Т",
         "Tide Blade",
-        "Damage dealt increases by (15%, 20%, 25%, 30%). At the end of the action, if in water, recover HP to yourself equal to (1, 1.5, 2, 2.5)x of ATK. If this healing exceeds Max HP, it can be converted into a [Shield] that cannot be dispelled. (up to 25% of Max HP)<br><br>At the end of the action, can select any cell within 5 tiles around to activate [Summon Tidal Wave]: Pushes enemies and the caster up to 3 tiles away in 3 straight lines for 2 cells, and causes the affected tiles to receive the effect of [Full Tide] for 2 rounds: When you and the enemy are on such cells, the current terrain is considered as 'water'. If this skill successfully activates the effect of [Displacement], the number of buff rounds will not be reduced, and can attack again (cannot move). ([Trigger Recharge] requires a 4, 3, 3, 2 turn interval before it can be activated again.)",
+        "Damage dealt increases by (15%, 20%, 25%, 30%). At the end of the action, if in water, recover HP to yourself equal to (1, 1.5, 2, 2.5)x of ATK. If this healing exceeds Max HP, it can be converted into a [Shield] that cannot be dispelled. (up to 25% of Max HP)<br><br>At the end of the action, can select any cell within 5 tiles around to activate [Summon Tidal Wave]: Pushes enemies and the caster up to 3 tiles away in 3 straight lines for 2 cells, and causes the affected tiles to receive the effect of [Full Tide] for 2 rounds: When you and the enemy are on such cells, the current terrain is considered as 'water'. If this skill successfully activates the effect of [Displacement], the number of buff rounds will not be reduced, and can attack again (cannot move). ([Trigger cooldown] requires a 4, 3, 3, 2 turn interval before it can be activated again.)",
         "",
         "",
         "",
@@ -7454,7 +7454,7 @@ var dataTable = [
         "",
         "М3",
         "Coming of Chaos",
-        "Damage dealt is increased by (15,20,25,30)% and unit range is increased by (1,1,2,2). <br><br>After performing an action, casts [Spell] on two selected enemies: the healing applied and received will be reduced by 30%. When moving further than 2 blocks, each additional block consumes 1 additional mobility. Lasts 2 turns. Cannot be dispelled. ([Trigger Recharge] This effect can trigger every (3,3,2,2) turns.) <br><br>After death, places a [Dimension Gate] at the current location. At the beginning of the next turn, summons 1 double from another dimension. The twin's stats are reduced by 30% for all stats except HP. Disappears after 3 turns. If the twin kills an enemy, restores all HP and awakens again as an Awakened One. (This effect can be activated once per battle.)",
+        "Damage dealt is increased by (15,20,25,30)% and unit range is increased by (1,1,2,2). <br><br>After performing an action, casts [Spell] on two selected enemies: the healing applied and received will be reduced by 30%. When moving further than 2 blocks, each additional block consumes 1 additional mobility. Lasts 2 turns. Cannot be dispelled. ([Trigger cooldown] This effect can trigger every (3,3,2,2) turns.) <br><br>After death, places a [Dimension Gate] at the current location. At the beginning of the next turn, summons 1 double from another dimension. The twin's stats are reduced by 30% for all stats except HP. Disappears after 3 turns. If the twin kills an enemy, restores all HP and awakens again as an Awakened One. (This effect can be activated once per battle.)",
         "",
         "",
         "",
@@ -8321,7 +8321,7 @@ var dataTable = [
         "",
         "Т",
         "Natural Resonance",
-        "INT increases by (10%, 13%, 16%, 20%).<br>Has [Elemental Affinity]: For each ally with [Elemental Affinity], the unit's range is +1 (maximum +3), and damage dealt increases by 10% (maximum increase is 30%).<br>After actively using the skill, 1 [Coordination Spirit] will be summoned at the end of the action. ([Coordination Spirit] inherits the skill used this turn and 100% of the current attributes, can be up to 2 at a time).<br>If no damage is dealt at the end of the duration, can actively recycle 1 of its [Coordination Spirit] and remove the cooldown of the skill it inherited. The duration of the buffs will not be reduced after use, and can attack again (cannot move and cannot summon [Coordination Spirit]). ([Trigger Recharge] requires a 2, 2, 1, 1 round interval before it can be used again.)",
+        "INT increases by (10%, 13%, 16%, 20%).<br>Has [Elemental Affinity]: For each ally with [Elemental Affinity], the unit's range is +1 (maximum +3), and damage dealt increases by 10% (maximum increase is 30%).<br>After actively using the skill, 1 [Coordination Spirit] will be summoned at the end of the action. ([Coordination Spirit] inherits the skill used this turn and 100% of the current attributes, can be up to 2 at a time).<br>If no damage is dealt at the end of the duration, can actively recycle 1 of its [Coordination Spirit] and remove the cooldown of the skill it inherited. The duration of the buffs will not be reduced after use, and can attack again (cannot move and cannot summon [Coordination Spirit]). ([Trigger cooldown] requires a 2, 2, 1, 1 round interval before it can be used again.)",
         "",
         "",
         "",
@@ -21035,7 +21035,7 @@ var persSkills = [
         "",
         "",
         "",
-        "[Passive] When entering melee combat, the damage taken by the hero is reduced by 20%. After taking an action, if all your soldiers are killed, you can act again. [Recharge Trigger] This effect can be activated again after 3 turns."
+        "[Passive] When entering melee combat, the damage taken by the hero is reduced by 20%. After taking an action, if all your soldiers are killed, you can act again. [Cooldown Trigger] This effect can be activated again after 3 turns."
     ],
     [
         "Alternate",
@@ -21595,7 +21595,7 @@ var persSkills = [
         "1",
         "one target",
         "3",
-        "[Passive] When starting a battle with an attack skill active, if the enemy has 3 stacks of [Chained Strikes], the cooldown of that skill is reduced by 3 after the battle. ([Trigger Recharge] This effect can be activated again after 1 turn.) <br><br>[Physical Damage] Attacks one enemy, dealing 1.6x damage. Before the battle, applies 1 random debuff to the target. If the target has 3 stacks of [Chained Strikes], this skill deals 40% more damage."
+        "[Passive] When starting a battle with an attack skill active, if the enemy has 3 stacks of [Chained Strikes], the cooldown of that skill is reduced by 3 after the battle. ([Trigger cooldown] This effect can be activated again after 1 turn.) <br><br>[Physical Damage] Attacks one enemy, dealing 1.6x damage. Before the battle, applies 1 random debuff to the target. If the target has 3 stacks of [Chained Strikes], this skill deals 40% more damage."
     ],
     [
         "Варгас",
@@ -26285,7 +26285,7 @@ var persSkills = [
         "on self",
         "one target",
         "3",
-        "[Passive] Has a 20% chance of preventing both sides from attacking before engaging in combat. ([Recharge] This effect can only trigger once per turn.) [Heal] Restores 100% of the unit's HP and makes it unable to be the target of the enemy's normal attacks and skills for 1 turn. (Cannot be dispelled.)​"
+        "[Passive] Has a 20% chance of preventing both sides from attacking before engaging in combat. ([Trigger cooldown] This effect can only trigger once per turn.) [Heal] Restores 100% of the unit's HP and makes it unable to be the target of the enemy's normal attacks and skills for 1 turn. (Cannot be dispelled.)​"
     ],
     [
         "For Otsu!",
@@ -27625,7 +27625,7 @@ var persSkills = [
         "2",
         "one target",
         "4",
-        "[Passive] Mobility +2 when this unit has [Heroism]. When forced into combat with a physical attack, the physical damage taken is reduced based on how much higher this unit's SKILL is compared to the enemy, up to 80%. ([Trigger Recharge] can only be activate once every 2 turns). <br><br>[Physical Damage] Attacks one enemy, dealing 1.8x damage. Melee soldiers will also attack. After combat, deals [fixed damage], which bypasses immunity once, to up to 3 enemy units within 2 squares. Damage is equal to 1x ATK. If an enemy is defeated, gain 4 stacks of [Heroism]. (This skill is not affected by melee damage reduction.)"
+        "[Passive] Mobility +2 when this unit has [Heroism]. When forced into combat with a physical attack, the physical damage taken is reduced based on how much higher this unit's SKILL is compared to the enemy, up to 80%. ([Trigger cooldown] can only be activate once every 2 turns). <br><br>[Physical Damage] Attacks one enemy, dealing 1.8x damage. Melee soldiers will also attack. After combat, deals [fixed damage], which bypasses immunity once, to up to 3 enemy units within 2 squares. Damage is equal to 1x ATK. If an enemy is defeated, gain 4 stacks of [Heroism]. (This skill is not affected by melee damage reduction.)"
     ],
     [
         "Элисса",
