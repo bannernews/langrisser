@@ -34773,7 +34773,7 @@ var confession = [
     ],
 	[
         "Норнорин",
-        ""
+        "https://drive.google.com/file/d/1xZuuk-qhReqC09XltNBEEgzxlZrrqqvu/view?usp=sharing"
     ],
     [
         "Оборо",
