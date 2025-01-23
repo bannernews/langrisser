@@ -24385,7 +24385,7 @@ var persSkills = [
         "on self",
         "one target",
         "3",
-        "[Command] All friendly units within a 2 cell radius receive 15% less damage from ranged attacks, 30% reduced chance of receiving critical hits, and increased healing effects by 15%. <br><br>[Active] The range of the guard increases by 2 cells, and the range of the Command by 3. All enemy units within a radius of 2 tiles cannot use re-action effects. Lasts 3 turns."
+        "[Passive] Takes all attacks instead of allies within 1 cell, cannot be displaced. [Command] All friendly units within a 2 cell radius receive 15% less damage from ranged attacks, 30% reduced chance of receiving critical hits, and increased healing effects by 15%. <br><br>[Active] The range of the guard increases by 2 cells, and the range of the Command by 3. All enemy units within a radius of 2 tiles cannot use re-action effects. Lasts 3 turns."
     ],
     [
         "Люгнер",
