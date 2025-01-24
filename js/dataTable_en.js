@@ -568,8 +568,8 @@ var dataTable = [
         "",
         "",
         "Мил",
-        "Lucky Chapter",
-        "Damage dealt increases by (15%, 20%, 25%, 30%).<br>Initially, the hero has 3 types of “lucky effects”: [Luck]: “When the action ends, heals nearby allies in 2 tiles equal to 1x INT”, [Strong Luck]: “Atk +10%, Intelligence +10%”, [Luck2]: 'Get 1 random buff at the end of the effect', each type of effect can last for a maximum of 3 stacks at a time and cannot be dispelled.<br>At the start of the round you will receive 1 random 'lucky effect'. If a hero has 2 or more 'lucky effects' of the same type, the unit's range will be +2, if the hero has 3 of the same type, the cooldown of all damage skills the hero uses will be updated.",
+        "Chapter of Fortune",
+        "Damage dealt increases by (15%, 20%, 25%, 30%).<br>Initially, the hero has 3 types of “Fortune”: [Spiritual Fortune]: “When the action ends, heals nearby allies in 2 tiles equal to 1x INT”, [Great Fortune]: “ATK +10%, INT +10%”, [Good Fortune]: 'Get 1 random buff at the end of the effect', each type of effect can last for a maximum of 3 stacks at a time and cannot be dispelled.<br>At the start of the round you will receive 1 random 'Fortune'. If a hero has 2 or more 'Fortune' of the same type, the unit's range will be +2, if the hero has 3 of the same type, the cooldown of all damage skills the hero uses will be refreshed.",
         "",
         "",
         "",
@@ -3628,8 +3628,8 @@ var dataTable = [
         "",
         "",
         "Мил",
-        "Priestess of Justice",
-        "Damage increases by (15%, 20%, 25%, 30%).<br>At the end of the effect, can summon [Angel of Justice] to hero location: 'After allies within 3 tiles around [Angel of Justice] enter battle, restore their HP equal to 2x the caster's INT.'; If there is already an allied [Angel of Justice] on the field, can move it to hero location. ([Trigger Cooldown] requires an interval of 2 rounds before it can be used again).<br>It is considered that range of [Angel of Justice] is within the range of hero skills, and ranged soldiers will attack together. At the end of the effect, if in 1 circle around [Angel of Justice], gains 1 layer of [Psychic Perception]: '[Angel of Justice] range +2, intelligence increased by 5%, damage skill recovery time decreased by 1 round (can be stacked, max 3, 4, 5, 5 stacks, cannot be dispelled)'.",
+        "Shrine Maiden of Justice",
+        "Damage increases by (15%, 20%, 25%, 30%).<br>At the end of the effect, can summon [Angel of Justice] to hero location: 'After allies within 3 tiles around [Angel of Justice] enter battle, restore their HP equal to 2x the caster's INT.'; If there is already an allied [Angel of Justice] on the field, can move it to hero location. ([Trigger Cooldown] requires an interval of 2 rounds before it can be used again).<br>It is considered that range of [Angel of Justice] is within the range of hero skills, and ranged soldiers will attack together. At the end of the effect, if in 1 circle around [Angel of Justice], gains 1 layer of [Spiritual Perception]: '[Angel of Justice] range +2, intelligence increased by 5%, damage skill recovery time decreased by 1 round (can be stacked, max 3, 4, 5, 5 stacks, cannot be dispelled)'.",
         "",
         "",
         "",
@@ -9240,7 +9240,7 @@ var dataTable = [
         "T",
         "Dark Wings of Determination",
         "ATK and DEF increases by (10, 15, 20, 25)%.<br><br>After actively dealing damage, applies (1,1,2,2) stacks of [Shadow Feathers] to the enemy for 3 turns. (Can be stacked up to 3 times, with each cast the duration of all [Shadow Feathers] on the target will be updated).<br><br>If the enemy has 1 stack of [Shadow Feather], the damage received when fighting Tabres will be increased by 20%.<br>When an enemy has 2 stacks of [Shadow Feather], they can be targeted by Tabres skills within the entire field, after which Tabres will teleport to an empty space near the target and cast skills on the target.<br>When the opponent has 3 stacks of [Shadow Feather], he cannot counterattack when attacked by Tabres.",
-        "Global - 09.01.2025",
+        "Dark Winged Helm",
         "шапка",
         "583",
         "",
@@ -29028,34 +29028,34 @@ var persSkills = [
         ""
     ],
 	[
-        "Everyone Has Own Day",
-        "У каждого свой день",
+        "Fortune's Turn",
+        "Переворот фортуны",
         "1",
         "7",
         "2",
         "one target",
         "1",
-        "[Active] Choose 1 skill to use on allies, then gain a random other 'lucky effect' equal to the amount of 'luck' spent on the skill:<br><br>[Blessing of Luck]: Recovers 15% HP, consumes up to 3 [Luck], each recovers an additional 15% HP.<br>[Blessing of Strong Luck]: Increases ATK and INT by 15%, lasts for 2 rounds, consumes up to 3 [Strong Luck], each increasing the buff value by 5%.<br>[Blessing of Luck2]: Applies 1 random buff lasting for 2 rounds, consuming up to 3 [Luck2], each applying an additional random buff effect.<br>After using any of the above skills, the number of buff turns will not be reduced, and can perform an additional action. The mobility of this action is the remaining mobility when using the skill, and can attack again."
+        "[Active] Choose 1 skill to use on allies, then gain a random other 'Fortunes' equal to the amount of 'Fortune' spent on the skill:<br><br>[Blessing of Spiritual Fortune]: Recovers 15% HP, consumes up to 3 [Spiritual Fortune], each recovers an additional 15% HP.<br>[Blessing of Great Fortune]: Increases ATK and INT by 15%, lasts for 2 rounds, consumes up to 3 [Great Fortune], each increasing the buff value by 5%.<br>[Blessing of Good Fortune]: Applies 1 random buff lasting for 2 rounds, consuming up to 3 [Good Fortune], each applying an additional random buff effect.<br>After using any of the above skills, the number of buff turns will not be reduced, and can perform an additional action. The mobility of this action is the remaining mobility when using the skill, and can attack again."
     ],
 	[
-        "Lucky Chance",
-        "Счастливый случай",
+        "Lucky Strike",
+        "Счастливый Удар",
         "2",
         "1",
         "2",
         "one target",
         "2",
-        "[Magic Damage] Attacks one enemy, dealing 1.4x damage and recovering 30% of the damage dealt to HP after the battle. If there are 2 or more identical 'lucky effects' in battle, 20% of the enemy's magic defense will be ignored."
+        "[Magic Damage] Attacks one enemy, dealing 1.4x damage and recovering 30% of the damage dealt to HP after the battle. If there are 2 or more identical 'Fortune' in battle, 20% of the enemy's MDEF will be ignored."
     ],
 	[
-        "God's Favorite Judgement",
-        "Суд любимца Божего",
+        "Divine Adjudication",
+        "Божественное Решение",
         "3",
         "1",
         "2",
         "ona target",
         "3",
-        "[Passive] When the hero has 3 or more 'lucky effects' of the same type, when actively attacking, the enemy cannot counterattack in response.<br>[Magic Damage] Attacks one enemy, dealing 1.6x damage. After the battle, can move 1 cell for each 'lucky effect' he has. At the end of the action, can actively choose to gain 1 additional 'luck'. This 'luck' will not be replaced or consumed, lasts for 2 rounds, and cannot be dispelled."
+        "[Passive] When the hero has 3 or more 'Fortunes' of the same type, when actively attacking, the enemy cannot counterattack in response.<br>[Magic Damage] Attacks one enemy, dealing 1.6x damage. After the battle, can move 1 cell for each 1 same type of 'Fortune' she has. At the end of the action, can actively choose to gain 1 additional 'Fortune'. This 'Fortune' will not be replaced or consumed, lasts for 2 rounds, and cannot be dispelled."
     ],
 	[
         "Илия",
@@ -29068,34 +29068,34 @@ var persSkills = [
         ""
     ],
 	[
-        "Glory of Justice",
-        "Слава правосудия",
+        "Eternal Axiom",
+        "Вечная Аксиома",
         "1",
         "3",
         "3",
         "one target",
         "4",
-        "[Assist] Actively used, allowing one unit to gain 1 layer of [Hui's Blessing]: 'Immunity to 1 debuff'. For each stack of [Psychic Perception] the hero has, an additional layer will be applied, up to 5 layers. Stacks up to 5 layers, cannot be dispelled. After use, can move another 2 tiles and attack again. (After using this skill, the number of buff turns will not be reduced)"
+        "[Assist] Actively used, allowing one unit to gain 1 layer of [Luminous Blessing]: 'Immunity to 1 debuff'. For each stack of [Spiritual Perception] the hero has, an additional layer will be applied. Stacks up to 5 layers, cannot be dispelled. After use, can move another 2 tiles and attack again. (After using this skill, the number of buff turns will not be reduced)"
     ],
 	[
-        "Determination to Retreat from Evil",
-        "Решимость отступить от зла",
+        "Sacred Repulsion",
+        "Священное Реактивное Отталкивание",
         "2",
         "1",
         "all field",
         "5",
         "4",
-        "[Passive] If the hero has 2 or more layers of [Psychic Perception], when enemies within the range of [Angel of Justice] move, they will spend an additional 1 movement point.<br>Uses [Magic Damage] on self or [Angel of Justice]. Deals 0.3x AoE damage to all enemies within 5 blocks around the target and causes a [Teleportation] effect after the battle: Teleports the enemy to a position 3 blocks away from the hero or [Angel of Justice]."
+        "[Passive] If the hero has 2 or more layers of [Spiritual Perception], when enemies within the range of [Angel of Justice] move, they will spend an additional 1 movement point.<br>Uses [Magic Damage] on self or [Angel of Justice]. Deals 0.3x AoE damage to all enemies within 5 tiles around the target and causes a [Teleportation] effect after the battle: Teleports the enemy to a position 3 blocks away from the hero or [Angel of Justice]."
     ],
 	[
-        "Archangel's Glory",
-        "Слава Архангела",
+        "Archangel's Radiance",
+        "Сияние Архангела",
         "3",
         "1",
         "2",
         "one target",
         "3",
-        "[Passive] Allies DEF and MDEF within 2 tiles around [Angel of Justice] are increased by 15%; the hero will not die when receiving fatal damage, instead HP will be restored by 30%, and [Angel of Justice] and all [Psychic Perception] will be removed. (Only triggers once per battle).<br><br>[Magic Damage] Attacks one enemy, dealing 1.6x damage. When successful destruction of the enemy, gains 1 layer of [Psychic Perception]. At the end of the skill release action, all allies within the [Angel of Justice]'s range will gain 2 layers of [Hui's Blessing]: 'Immunity to debuff', which can be stacked up to 5 layers and cannot be dispelled."
+        "[Passive] Allies DEF and MDEF within 2 tiles around [Angel of Justice] are increased by 15%; the hero will not die when receiving fatal damage, instead HP will be restored by 30%, and [Angel of Justice] and all [Spiritual Perception] will be removed. (Only triggers once per battle).<br><br>[Magic Damage] Attacks one enemy, dealing 1.6x damage. When successful destruction of the enemy, gains 1 layer of [Spiritual Perception]. At the end of the skill release action, all allies within the [Angel of Justice]'s range will gain 2 layers of [Luminous Blessing]: 'Immunity to 1 debuff', which can be stacked up to 5 layers and cannot be dispelled."
     ],
 	[
         "Норнорин",
