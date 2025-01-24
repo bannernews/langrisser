@@ -6128,7 +6128,7 @@ var dataTable = [
         "",
         "Л45",
         "Device",
-        "In water, ATK and DEF increase by (12,16,20,25)%. AoE skills apply the special effect [Flow] to all affected blocks for (1,1,1,2) turns: When this unit and the enemy are in [Flow], the current terrain is treated as \"water\". When enemy units that are not Ace or Aquatic move here, they consume 1 additional mobility.",
+        "In water, ATK and DEF increase by (12,16,20,25)%. AoE skills apply the special effect [Flow] to all affected blocks for (1,1,1,2) turns: When this unit and the enemy are in [Flow], the current terrain is treated as \"water\". When enemy units that are not Flier or Aquatic move here, they consume 1 additional mobility.",
         "Core metaset",
         "шапка",
         "25",
@@ -23695,7 +23695,7 @@ var persSkills = [
         "1",
         "one target",
         "3",
-        "[Passive] When fighting units with the “ace” or “cavalry” hero classes, restores 20% of the unit’s HP before entering the battle. <br><br>[Phys. damage] Attacks one enemy, dealing 1.5x damage. When a mixed army is formed, after the battle it receives the effects of [Wind Rider] and \"Terrain does not affect mobility\" for 2 turns. Upon successful destruction of an enemy unit, the skill's CD is reduced by 3."
+        "[Passive] When fighting units with the “Flier” or “Cavalry” hero classes, restores 20% of the unit’s HP before entering the battle. <br><br>[Phys. damage] Attacks one enemy, dealing 1.5x damage. When a mixed army is formed, after the battle it receives the effects of [Wind Rider] and \"Terrain does not affect mobility\" for 2 turns. Upon successful destruction of an enemy unit, the skill's CD is reduced by 3."
     ],
     [
         "Левин",
