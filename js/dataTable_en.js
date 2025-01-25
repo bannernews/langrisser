@@ -5921,7 +5921,7 @@ var dataTable = [
         "ГГ,ГЙ",
         "SSR",
         "forge",
-        "",
+        "SP",
         "Л45",
         "Single will",
         "After performing the action, increases ATK by (10,13,16,20)% and adds (5,8,11,15)% ATK to DEF and MDEF if there is an ally within the radius of (1,2,2,3) cells. Lasts 1 turn. <br><br>When forced into battle by a ranged attack, reduces damage taken by (10,14,16,20)% and counterattack within a 2 cell radius.",
