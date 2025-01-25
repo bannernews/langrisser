@@ -941,7 +941,7 @@ var dataTable = [
         "40",
         "25",
         "25",
-        "Орк,Воин,Орк-берсерк,Берсерк,Темный страж,Воин-варвар,Наемник пустыни,Элитный копейщик,Горный голем,Фаланга,Каменный колосс,Лавовый титан,Ваятель кристаллов,Страж государства,Эгида Гард,Гигантский всадник-ящерица,Призыватель приливов,Цепной танцор в джунглях",
+        "Орк,Воин,Орк-берсерк,Берсерк,Темный страж,Воин-варвар,Наемник пустыни,Элитный копейщик,Горный голем,Фаланга,Каменный колосс,Лавовый титан,Ваятель кристаллов,Страж государства,Эгида Гард,Гигантский всадник-ящерица,Призыватель приливов,Цепной танцор в джунглях,Эльфийский метатель копья SP",
         "",
         "меч,копье",
         "тяжелая",
@@ -1094,7 +1094,7 @@ var dataTable = [
         "20",
         "35",
         "25",
-        "Элитная пехота,Берсерк,Элитная кавалерия,Тяжелая кавалерия,Драгун,Единорог,Всадник-грифон,Всадник-пегас,Рыцарь-грифон,Ангел,Рыцарь на механическом драконе,Элитный тритон,Лобстер,Мастер приливов,Чудище-лобстер,Жрец океана,Посол острова",
+        "Элитная пехота,Берсерк,Элитная кавалерия,Тяжелая кавалерия,Драгун,Единорог,Всадник-грифон,Всадник-пегас,Рыцарь-грифон,Ангел,Рыцарь на механическом драконе,Элитный тритон,Лобстер,Мастер приливов,Чудище-лобстер,Жрец океана,Посол острова,Левиафан SP",
         "",
         "топор,копье",
         "легкая",
@@ -2216,7 +2216,7 @@ var dataTable = [
         "40",
         "15",
         "10",
-        "Элитная пехота,Воин,Тяжелая пехота,Берсерк,Наемник пустыни,Элитный копейщик,Амазонка,Амазонка-чемпион,Копейщик авангарда,Страж государства,Элитный тритон,Мастер приливов,Ящер,Монах,Экзорцист,Призыватель приливов",
+        "Элитная пехота,Воин,Тяжелая пехота,Берсерк,Наемник пустыни,Элитный копейщик,Амазонка,Амазонка-чемпион,Копейщик авангарда,Страж государства,Элитный тритон,Мастер приливов,Ящер,Монах,Экзорцист,Призыватель приливов,Левиафан SP",
         "",
         "топор,копье",
         "легкая",
@@ -2675,7 +2675,7 @@ var dataTable = [
         "30",
         "35",
         "10",
-        "Элитная пехота,Тяжелая пехота,Циклоп,Элитный копейщик,Амазонка,Фаланга,Тяжелый центурион,Амазонка-чемпион,Ваятель кристаллов,Элитная кавалерия,Всадник-грифон,Меткий стрелок,Рейнджер вихря,Конный лучник эльфов",
+        "Элитная пехота,Тяжелая пехота,Циклоп,Элитный копейщик,Амазонка,Фаланга,Тяжелый центурион,Амазонка-чемпион,Ваятель кристаллов,Элитная кавалерия,Всадник-грифон,Меткий стрелок,Рейнджер вихря,Конный лучник эльфов,Эльфийский метатель копья SP",
         "Осадная баллиста",
         "топор,лук",
         "тяжелая",
@@ -2879,7 +2879,7 @@ var dataTable = [
         "15",
         "35",
         "10",
-        "Орк,Орк-берсерк,Циклоп,Горный голем,Каменный колосс,Рогатый дино,Костяной дино,Адский пес,Малый бес,Летучая мышь-вампир,Горгулья,Лобстер,Ящер,Чудище-лобстер,Элементаль льда,Жрец океана,Воин-скелет,Рыцарь-скелет,Сталегривый оборотень,Рыцарь-нежить,Призыватель приливов,Прикосновение к преисподней",
+        "Орк,Орк-берсерк,Циклоп,Горный голем,Каменный колосс,Рогатый дино,Костяной дино,Адский пес,Малый бес,Летучая мышь-вампир,Горгулья,Лобстер,Ящер,Чудище-лобстер,Элементаль льда,Жрец океана,Воин-скелет,Рыцарь-скелет,Сталегривый оборотень,Рыцарь-нежить,Призыватель приливов,Прикосновение к преисподней,Левиафан SP",
         "",
         "копье,молот",
         "легкая",
@@ -4107,7 +4107,7 @@ var dataTable = [
         "",
         "топор,молот",
         "легкая",
-        "0,2",
+        "0,2,8",
         "142,143",
         "Рыцарь Тайн",
         "Элвин",
@@ -5327,7 +5327,7 @@ var dataTable = [
         "10",
         "35",
         "10",
-        "Воин,Берсерк,Элитный копейщик,Элитная кавалерия,Всадник-грифон,Элитный тритон,Лобстер,Мастер приливов,Ящер,Чудище-лобстер,Эльф прилива,Морской пират,Элементаль льда,Жрец океана,Посол острова",
+        "Воин,Берсерк,Элитный копейщик,Элитная кавалерия,Всадник-грифон,Элитный тритон,Лобстер,Мастер приливов,Ящер,Чудище-лобстер,Эльф прилива,Морской пират,Элементаль льда,Жрец океана,Посол острова,Левиафан SP",
         "",
         "молот,топор",
         "легкая",
@@ -5940,11 +5940,11 @@ var dataTable = [
         "35",
         "10",
         "Элитная пехота,Служанка,Страж-пехотинец,Темный страж,Элитный копейщик,Амазонка,Тяжелый центурион,Копейщик авангарда,Страж-энт,Эльфийский метатель копья,Эгида Гард,Элитная кавалерия,Паладин,Рыцарь-тамплиер,Страж-кавалерист,Королевская кавалерия,Золотой рыцарь,Призыватель приливов",
-        "",
+        "Клыкастый страж",
         "меч,топор",
         "тяжелая",
-        "0,2,3,5,6,51",
-        "211,212",
+        "0,1,2,3,5,6,51",
+        "211,212,458",
         "",
         "Рэйчел",
         "",
@@ -5964,8 +5964,8 @@ var dataTable = [
         "",
         "",
         "412",
-        "",
-        ""
+        "57,58",
+        "20"
     ],
     [
         "Люгнер",
@@ -6143,7 +6143,7 @@ var dataTable = [
         "35",
         "25",
         "20",
-        "Элитная пехота,Воин,Служанка,Элитный тритон,Мастер приливов,Ящер,Морской пират,Элементаль льда,Жрец океана,Посол острова,Темный эльф,Темный эльф-снайпер,Засадный боец,Бандит,Самурай,Экспедиция по природе,Прикосновение к преисподней",
+        "Элитная пехота,Воин,Служанка,Элитный тритон,Мастер приливов,Ящер,Морской пират,Элементаль льда,Жрец океана,Посол острова,Темный эльф,Темный эльф-снайпер,Засадный боец,Бандит,Самурай,Экспедиция по природе,Прикосновение к преисподней,Левиафан SP",
         "",
         "нож,лук",
         "легкая",
@@ -6532,7 +6532,7 @@ var dataTable = [
         "Нарм",
         "ЛС,АП,МУ",
         "SR",
-        "",
+        "forge",
         "SP",
         "Л13",
         "Sabotage tactics",
@@ -6545,8 +6545,8 @@ var dataTable = [
         "",
         "5",
         "",
-        "",
-        "",
+        "MDEF +10%. The hero's talent (CD of activation) is reduced by 1 turn.",
+        "ATK +10%. If there are enemies with reduced mobility within 6 tiles, Narm can attack them with skills and ranged soldiers will also take part in the battle.",
         "10",
         "40",
         "35",
@@ -6606,7 +6606,7 @@ var dataTable = [
         "",
         "нож,лук",
         "легкая",
-        "0,2",
+        "0,2,5",
         "240,241",
         "Роланд",
         "",
@@ -6857,7 +6857,7 @@ var dataTable = [
         "35",
         "25",
         "30",
-        "Воин,Берсерк,Амазонка,Тяжелый центурион,Амазонка-чемпион,Темный центурион,Эгида Гард,Всадник-грифон,Всадник-пегас,Рыцарь-грифон,Святой пегас,Железокрылый воин,Солдат-драконианец",
+        "Воин,Берсерк,Амазонка,Тяжелый центурион,Амазонка-чемпион,Темный центурион,Эгида Гард,Всадник-грифон,Всадник-пегас,Рыцарь-грифон,Святой пегас,Железокрылый воин,Солдат-драконианец,Эльфийский метатель копья SP",
         "",
         "копье,топор",
         "легкая",
@@ -7455,15 +7455,15 @@ var dataTable = [
         "М3",
         "Coming of Chaos",
         "Damage dealt is increased by (15,20,25,30)% and unit range is increased by (1,1,2,2). <br><br>After performing an action, casts [Spell] on two selected enemies: the healing applied and received will be reduced by 30%. When moving further than 2 blocks, each additional block consumes 1 additional mobility. Lasts 2 turns. Cannot be dispelled. ([Trigger cooldown] This effect can trigger every (3,3,2,2) turns.) <br><br>After death, places a [Dimension Gate] at the current location. At the beginning of the next turn, summons 1 double from another dimension. The twin's stats are reduced by 30% for all stats except HP. Disappears after 3 turns. If the twin kills an enemy, restores all HP and awakens again as an Awakened One. (This effect can be activated once per battle.)",
+        "Global - 05.06.2025",
+        "шапка",
+        "364",
         "",
         "",
         "",
+        "65",
         "",
-        "",
-        "",
-        "",
-        "",
-        "",
+        "HP +10%. When fighting an enemy with [Spell], unit INT and ATK increases by 15%. When a hero dies, casts [Spell] on all enemies within a 1 cell radius of the source of damage.",
         "",
         "20",
         "40",
@@ -7473,7 +7473,7 @@ var dataTable = [
         "",
         "посох",
         "тканевая",
-        "0,2,5,6",
+        "0,2,5,6,3",
         "266,267",
         "Греншиль",
         "Аданкельмо",
@@ -10121,7 +10121,7 @@ var dataTable = [
         "30",
         "40",
         "10",
-        "Воин,Элитный копейщик,Амазонка,Горный голем,Фаланга,Каменный колосс,Ваятель кристаллов,Солдат фаланги,Эгида Гард,Элитная кавалерия,Паладин,Рыцарь-тамплиер,Страж-кавалерист,Королевская кавалерия",
+        "Воин,Элитный копейщик,Амазонка,Горный голем,Фаланга,Каменный колосс,Ваятель кристаллов,Солдат фаланги,Эгида Гард,Элитная кавалерия,Паладин,Рыцарь-тамплиер,Страж-кавалерист,Королевская кавалерия,Эльфийский метатель копья SP",
         "",
         "меч,копье",
         "тяжелая",
@@ -10223,7 +10223,7 @@ var dataTable = [
         "20",
         "30",
         "10",
-        "Элитная пехота,Страж-пехотинец,Королевский страж,Элитный копейщик,Фаланга,Эгида Гард,Элитная кавалерия,Рыцарь-тамплиер,Страж-кавалерист,Всадник-пегас,Святой пегас,Пегас звездной призмы",
+        "Элитная пехота,Страж-пехотинец,Королевский страж,Элитный копейщик,Фаланга,Эгида Гард,Элитная кавалерия,Рыцарь-тамплиер,Страж-кавалерист,Всадник-пегас,Святой пегас,Пегас звездной призмы,Эльфийский метатель копья SP",
         "",
         "топор,копье",
         "тяжелая",
@@ -10408,7 +10408,7 @@ var dataTable = [
         "Шери",
         "ЛС,АП,МУ",
         "SSR",
-        "",
+        "forge",
         "SP",
         "Л13",
         "Wild Princess",
@@ -10422,7 +10422,7 @@ var dataTable = [
         "",
         "",
         "DEF and MDEF +5%. When taking fatal damage while attacking and entering battle, this unit will not die, instead restoring 100% HP. This effect has a 4 turn cooldown.",
-        "",
+        "ATK +10%. When a repeated action from the talent is triggered, the number of turns of buffs on the hero does not decrease, and the cooldown time of all skills will be reduced by 1.",
         "10",
         "20",
         "35",
@@ -10431,7 +10431,7 @@ var dataTable = [
         "Единорог",
         "копье,топор",
         "легкая",
-        "0,1,2,3,5,8,32,51,52",
+        "0,1,2,3,5,8,32,51,52,81",
         "368,369,370",
         "Кит",
         "Хейн",
@@ -11574,6 +11574,57 @@ var dataTable = [
         "",
         "",
         "919",
+        "",
+        ""
+    ],
+	[
+        "Силрна",
+        "ТР,ИС,ГЙ",
+        "SSR",
+        "",
+        "",
+        "Т",
+        "Dream Master",
+        "Damage dealt is increased by (15%, 20%, 25%, 30%), unaffected by melee damage reduction. At the end of the duration, can summon 'Dream Rift'. After summoning, can take an additional action with the remaining mobility and attack again. When within 2 tiles of 'Dream Rift', Sylrna cannot be targeted by enemy normal attacks and skills, is immune to AoE damage, and will not consume mobility when moving within the radius of 'Dream Rift', and will ignore enemy unit obstacles. ([Trigger Cooldown] requires an interval of (5, 4, 3, 3) rounds before it can be activated again; 'Dream Rift' inherits 80% of the attributes when summoned, and disappears at the beginning of the second round after being summoned.)",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "30",
+        "40",
+        "20",
+        "15",
+        "Ведьма,Колдунья,Фея-ворожея,Маг - ядовитая летучая мышь,Темный эльф,Темный эльф-снайпер,Палубный стрелок,Лобстер,Левиафан,Элементаль льда,Скелет-лучник,Лучник адского пламени,Паучий эльф-демон",
+        "",
+        "посох,молот",
+        "тканевая",
+        "0,2",
+        "459,460",
+        "",
+        "",
+        "",
+        "",
+        "921",
+        "139",
+        "",
+        "85",
+        "",
+        "",
+        "",
+        "148",
+        "922,923",
+        "",
+        "",
+        "",
+        "924",
+        "161",
+        "925",
         "",
         ""
     ]
@@ -19805,6 +19856,60 @@ var classStats = [
 		"When actively attacking, the damage dealt in battle is increased by 10%.",
         "",
         ""
+    ],
+	[
+        "Лэндиус СП",
+        "",
+        "cavalry",
+        "5494",
+        "581",
+        "247",
+        "330",
+        "267",
+        "135",
+        "1",
+        "5",
+        "всадник",
+        "When unit has 100% HP, damage taken is reduced by 10%.",
+		"When unit has 5 or more buffs, the damage dealt in battle increases by 10%.",
+        "1",
+        "SP"
+    ],
+	[
+        "Силрна",
+        "",
+        "demon",
+        "4301",
+        "256",
+        "601",
+        "265",
+        "375",
+        "130",
+        "2",
+        "3",
+        "ходьба",
+        "When attacked by a unit that has a debuff and enters battle, damage taken is reduced by 10%.",
+		"When entering battle with a unit that has a debuff, the damage dealt in battle is increased by 10%.",
+        "A",
+        ""
+    ],
+	[
+        "Силрна",
+        "",
+        "mage",
+        "3968",
+        "256",
+        "601",
+        "246",
+        "375",
+        "99",
+        "2",
+        "3",
+        "ходьба",
+        "When actively attacking and entering battle, the damage received is reduced by 10%.",
+		"When attacked and enters combat, damage dealt in combat increases by 10%.",
+        "C",
+        ""
     ]
 ]
 
@@ -20034,7 +20139,8 @@ var heroList = [
 			"Ютем",
 			"Мари Роуз",
 			"Ниотэнгу",
-			"Касуми"
+			"Касуми",
+			"Силрна"
 ];
 
 var heroList_en = [
@@ -20263,7 +20369,8 @@ var heroList_en = [
 	"Wehttam",
 	"Marie Rose",
 	"Nyotengu",
-	"Kasumi"
+	"Kasumi",
+	"Sylrna"
 ]
 
 var persSkills = [
@@ -29456,6 +29563,66 @@ var persSkills = [
         "one target",
         "4",
         "[Passive] When fighting an enemy with the [Toughness] effect, damage taken is reduced by 30% and ATK is increased by 30%.<br>[Physical Damage] Attacks one enemy, dealing 1.6x damage. If the enemy has the [Toughness] effect, this skill will attack twice in this battle. After the battle, if there are enemies within 3 tiles around, can act again, otherwise the cooldown of this skill will be reduced by 3 turns; ([Trigger Cooldown] These two effects share a trigger cooldown, and it takes 2 rounds to trigger again.)"
+    ],
+	[
+        "Силрна",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+    ],
+	[
+        "Sleep Rules",
+        "Правила сна",
+        "1",
+        "5",
+        "",
+        "",
+        "",
+        "[Passive] When a friendly 'Dream Rift' is within 2 tiles around the hero, the enemy will not be able to counterattack after hero actively attacking and entering battle. After the battle, the talent trigger's cooldown will be reduced by 1 turn."
+    ],
+	[
+        "Brand of Punishment",
+        "Клеймо наказания",
+        "1",
+        "5",
+        "",
+        "",
+        "",
+        "[Passive] When any unsummoned ally on the field dies, Sylrna's talent [Trigger Cooldown] is reduced by 1 round, and the damage source is given [Brand of Punishment], which ignores immunity and cannot be removed, lasts for 2 rounds. When fighting an enemy with [Brand of Punishment], the target cannot activate the [Fatal Damage Resistance] effect, and all attributes except HP will be reduced by 20%. When successfully defeating the enemy, the target will summon a phantom of the ally killed by the enemy. (The effect of not being able to activate [Fatal Damage Resistance] only works in PVP mode; 'Phantom' has the original unit state and is considered as Dark Reincarnation unit).<br><i>Note: When Sylrna has this skill, Enya cannot make a copy of her.</i>"
+    ],
+	[
+        "Dark Dream Reincarnation",
+        "Реинкарнация Темного сна",
+        "2",
+        "9",
+        "self",
+        "all",
+        "3",
+        "[Fusion Power] The offensive and defensive capabilities of all 'Dark Reincarnation' allies on the battlefield will be greatly improved. When actively attacking and entering battle, the damage dealt will be increased by 8%. Each time a unit dies, the damage will be increased by another 2%, up to a maximum of 8%, lasting for 4 rounds. (This effect cannot be combined with other Fusion Power skills)."
+    ],
+	[
+        "Blessing of Sleep",
+        "Благословение сна",
+        "2",
+        "3",
+        "3",
+        "one target",
+        "2",
+        "[Assist] When used actively, can reduce the cooldown of all skills of the target ally by 3 turns, restore HP equal to 5x the caster's INT, and at the same time apply [Blessing of Dreams]: ''When within 2 tiles of a friendly 'Dream Rift', cannot be targeted by enemy normal attacks and skills, and is immune to AoE damage.'' Lasts for 2 rounds and cannot be dispelled."
+    ],
+	[
+        "Sea of ​​Final Dream",
+        "Море последней мечты",
+        "3",
+        "1",
+        "2",
+        "one target",
+        "4",
+        "[Passive] After summoning 'Dream Rift', all allies of 'Dark Reincarnation' on the battlefield will have their offensive and defensive capabilities greatly improved. The damage dealt by active attacks will increase by 15%. When passing through a friendly 'Dream Rift', does not consume 1 tile of mobility, lasts for 4 rounds. (This effect cannot be combined with other Fusion Energy effects).<br>[Magic Damage] Attacks one enemy, dealing 1.7x damage, applies 'damage taken increased by 20%' and 'cannot be guarded, cannot be targeted by other friendly skills, and is not affected by other friendly skills (PVP mode only)', lasts for 2 rounds and cannot be dispelled. If there is a friendly Dream Rift within 2 blocks of the enemy, the Guard's effect will be ignored for this battle. After the battle, can teleport to any location within 2 cells of a friendly Dream Rift."
     ]
 ]
 
@@ -31832,6 +31999,36 @@ var SPskills = [
         "3",
         "2",
         "[Command] All allies within 3 tiles are immune to mobility-reducing effects and take 35% less fixed damage.<br>[Healing] Active use: Removes 1 debuff from allies within the skill range and restores their HP by 3x Tiaris's INT. Additionally imposes a special effect [Realm of Peace] on the area in the center of the skill: [Command] All allies within 3 tiles gain +15% DEF and MDEF. At the end of the action, they restore HP equal to 3x the caster's INT. Lasts 2 turns."
+    ],
+	[
+        "Лэндиус",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+    ],
+	[
+        "Glory Guard",
+        "Страж Славы",
+        "2",
+        "7",
+        "3",
+        "one target",
+        "1",
+        "[Passive] After using [Tranquility] or [Peace of Mind], at the end of the turn, all Yeless Legends allies on the field will increase their defensive and offensive abilities. Damage dealt increases by 8%. When fighting an enemy without advantage, damage dealt is further increased by 8%. Lasts for 4 turns.<br>[Active] Use actively. Grants the target ally 1 layer of [Glory Resonance]: 'Ranged damage taken is reduced by 10% and reflects 10% of damage taken when attacked and entered battle'. Can be stacked up to 3 times, lasts for 2 turns."
+    ],
+	[
+        "Knight's Wrath",
+        "Гнев Рыцарей",
+        "2",
+        "7",
+        "self",
+        "one target",
+        "2",
+        "[Passive] Damage taken when melee attacked and entering combat is reduced by 10%. For each layer of [Glory Resonance], damage is further reduced by 5%.<br>[Active] Use actively. For each ally within 3 tiles, gain [Knight's Wrath]: 'When attacked and entering combat, attack range +1. When displeling buffs, [Knight's Wrath] has dispel priority. Can be stacked up to 5 times, lasts 2 turns'."
     ]
 ]
 
@@ -31953,6 +32150,12 @@ var SPtalent = [
         "Вечная ода",
         "After the end of action, grants other allies within 3 tiles (except for yourself) [Healing]: After receiving damage, (50, 60, 80, 100)% chance to restore HP by 2.5x Tiaris's INT.<br>When using the skill on an ally, gives him [Healing Shield]: Can block damage equal to 3x from the caster's INT. (This effect cannot be removed.) Also, after using any skill on allies, the cooldown of the Tiaris skill with the longest current cooldown is reduced by 1 for each ally hit by the skill (maximum of 3).",
 		"Eternal Ode"
+    ],
+	[
+        "Лэндиус",
+        "Волшебный Святой барьер",
+        "No skill cost limit. ATK increases by (10, 13, 16, 20)% and adds (5, 8, 11, 15)% of ATK to DEF and MDEF. Does not die when receiving fatal damage, instead restores (20, 30, 40, 50)% of HP. Can only trigger once per battle.<br>At the end of the action, if there is an ally within 3 tiles, gains 1 layer of [Glory Resonance]: 'Received ranged damage is reduced by 10% and reflects 10% of received damage when attacked and entered battle'. Can be stacked up to 3 times, lasts 2 turns.",
+		"Magic Holy Barrier"
     ]
 ]
 
@@ -34453,6 +34656,17 @@ var builds = [
         "Тень ночной совы,Головной убор 5,Око Ермунганда",
         "Акс 5,Лезвие воспоминаний",
         "Кристальный чародей,Экспедиция по природе"
+    ],
+    [
+        "Силрна",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
     ]
 ]
 
@@ -34665,6 +34879,17 @@ var SPbuilds = [
         "Головной убор Теннио,Повелитель разрядов,Шляпа Охотника на демонов",
         "Святое кольцо,Медаль кузнеца,Слеза богини",
         "Фея-ворожея,Святой рыцарь SP,Солист ветроцвета,Рейнджер вихря"
+    ],
+	[
+        "Лэндиус",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
     ]
 ]
 
@@ -35575,6 +35800,10 @@ var confession = [
     ],
     [
         "Касуми",
+        ""
+    ],
+    [
+        "Силрна",
         ""
     ]
 ]
@@ -37849,6 +38078,16 @@ var startB = [
         "",
         "",
         ""
+    ],
+    [
+        "Силрна",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
     ]
 ]
 
@@ -40115,6 +40354,16 @@ var basicB = [
     ],
     [
         "Касуми",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+    ],
+    [
+        "Силрна",
         "",
         "",
         "",
@@ -43292,6 +43541,20 @@ var pveB = [
     ],
     [
         "Касуми",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+    ],
+    [
+        "Силрна",
         "",
         "",
         "",
@@ -46699,6 +46962,21 @@ var pvpB = [
     ],
     [
         "Касуми",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+    ],
+    [
+        "Силрна",
         "",
         "",
         "",

@@ -1548,6 +1548,21 @@ var persItemDat = [
         "АТК +10%. [Поток времени] дополнительно снижает КД на 1. [Хроно-брейк] больше не имеет КД. Наносимый урон увеличивается на 5% за каждый навык, который находится не в перезарядке.",
         "ATK +10%. [Time Flux] additionally reduces all triggers CD by 1. [Chrono Break] no longer has CD. Damage dealt increases by 5% for each skill that is not on cooldown."
     ],
+	[
+        "Пробужденная",
+        "Awakened One",
+        "Глобал - 05.06.2025",
+        "Global - 05.06.2025",
+        "hat",
+        "364",
+        "",
+        "",
+        "",
+        "65",
+        "",
+        "ОЗ +10%. В бою с врагом, на котором есть [Заклинание], ИНТ и АТК юнита увеличивается на 15%. Когда герой умирает, накладывает [Заклинание] на всех врагов в радиусе 1 клетки от источника урона.",
+        "HP +10%. When fighting an enemy with [Spell], unit INT and ATK increases by 15%. When a hero dies, casts [Spell] on all enemies within a 1 cell radius of the source of damage."
+    ],
     [
         "Рэйчел",
         "Rachel",
