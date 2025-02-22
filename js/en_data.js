@@ -6790,8 +6790,8 @@ var dataTable = [
         "",
         "",
         "Т",
-        "Tide Blade",
-        "Damage dealt increases by (15%, 20%, 25%, 30%). At the end of the action, if in water, recover HP to yourself equal to (1, 1.5, 2, 2.5)x of ATK. If this healing exceeds Max HP, it can be converted into a [Shield] that cannot be dispelled. (up to 25% of Max HP)<br><br>At the end of the action, can select any cell within 5 tiles around to activate [Summon Tidal Wave]: Pushes enemies and the caster up to 3 tiles away in 3 straight lines for 2 cells, and causes the affected tiles to receive the effect of [Full Tide] for 2 rounds: When you and the enemy are on such cells, the current terrain is considered as 'water'. If this skill successfully activates the effect of [Displacement], the number of buff rounds will not be reduced, and can attack again (cannot move). ([Trigger cooldown] requires a 4, 3, 3, 2 turn interval before it can be activated again.)",
+        "Tidal Blade",
+        "Damage dealt increases by (15%, 20%, 25%, 30%). At the end of the action, if in water, recover HP to yourself equal to (1, 1.5, 2, 2.5)x of ATK. If this healing exceeds Max HP, it can be converted into a [Shield] that cannot be dispelled. (up to 25% of Max HP)<br><br>At the end of the action, can select any cell within 5 tiles around to activate [Wavecall]: Pushes enemies and the caster up to 3 tiles away in 3 straight lines for 2 cells, and causes the affected tiles to receive the effect of [High Tide] for 2 rounds: When you and the enemy are on such cells, the current terrain is considered as 'water'. If this skill successfully activates the effect of [Displacement], the number of buff rounds will not be reduced, and can attack again (cannot move). ([Trigger cooldown] requires a 4, 3, 3, 2 turn interval before it can be activated again.)",
         "",
         "",
         "",
@@ -8321,7 +8321,7 @@ var dataTable = [
         "",
         "Т",
         "Natural Resonance",
-        "INT increases by (10%, 13%, 16%, 20%).<br>Has [Elemental Affinity]: For each ally with [Elemental Affinity], the unit's range is +1 (maximum +3), and damage dealt increases by 10% (maximum increase is 30%).<br>After actively using the skill, 1 [Coordination Spirit] will be summoned at the end of the action. ([Coordination Spirit] inherits the skill used this turn and 100% of the current attributes, can be up to 2 at a time).<br>If no damage is dealt at the end of the duration, can actively recycle 1 of its [Coordination Spirit] and remove the cooldown of the skill it inherited. The duration of the buffs will not be reduced after use, and can attack again (cannot move and cannot summon [Coordination Spirit]). ([Trigger cooldown] requires a 2, 2, 1, 1 round interval before it can be used again.)",
+        "INT increases by (10%, 13%, 16%, 20%).<br>Has [Elemental Affinity]: For each ally with [Elemental Affinity], the unit's range is +1 (maximum +3), and damage dealt increases by 10% (maximum increase is 30%).<br>After actively using the skill, 1 [Harmonic Spirit] will be summoned at the end of the action. ([Harmonic Spirit] inherits the skill used this turn and 100% of the current attributes, can be up to 2 at a time).<br>If no damage is dealt at the end of the duration, can actively recycle 1 of its [Harmonic Spirit] and remove the cooldown of the skill it inherited. The duration of the buffs will not be reduced after use, and can attack again (cannot move and cannot summon [Harmonic Spirit]). ([Trigger cooldown] requires a 2, 2, 1, 1 round interval before it can be used again.)",
         "",
         "",
         "",
@@ -9495,7 +9495,7 @@ var dataTable = [
         "Т",
         "The First King's Resolve",
         "Damage taken is reduced by (10%, 15%, 20%, 25%).<br><br>At the end of the action, select an enemy and cast [Seal of Supremacy]: \"Enemy attacks later during combat.\" Cannot be immunized and cannot be dispelled. Lasts 3 turns. ([Trigger Cooldown] This effect requires an interval of 2 turns to trigger again.) When an enemy with [Seal of Supremacy] is within 3 tiles around Tyrantel, ATK and DEF are reduced by (10%, 13%, 16%, 20%).<br><br>Upon death, the [Imperial Will] unit appears on the death cell. Can choose to cast [Battle Echo] on an unsummoned ally, allowing them to gain all of [Tyrantel]'s abilities and act immediately. (This effect can only trigger once per battle.)<br><br>[Imperial Will] inherits 100% of its attributes and is considered a summoned object with independent action rounds.<br>[Battle Echo] Choose unsummon ally unit within 7 cells, the target must be the player's unit, and it doesn't matter if they have already taken any actions.",
-        "Global - 06.02.2024",
+        "First King's Helm",
         "шапка",
         "583",
         "",
@@ -29215,28 +29215,28 @@ var persSkills = [
         ""
     ],
 	[
-        "Tide Evolution Technique",
-        "Техника эволюции прилива",
+        "Tidal Mastery",
+        "Приливное мастерство",
         "1",
         "7",
         "on self",
         "one target",
         "4",
-        "[Active] Actively used, and gains 'When passing through 'water', 'swamp' and terrain with the friendly effect of [full tide], can gain 2 tiles to avoid mobility reduction' which lasts for 2 rounds. Can move another 2 tiles and attack again. (After using this skill, [Summon Tidal Wave] cannot be released at the end of the action, and the number of buff rounds will not be reduced)."
+        "[Active] Actively used, and gains 'When passing through 'water', 'swamp' and terrain with the friendly effect of [High tide], can gain 2 tiles to avoid mobility reduction' which lasts for 2 rounds. Can move another 2 tiles and attack again. (After using this skill, [Wavecall] cannot be released at the end of the action, and the number of buff rounds will not be reduced)."
     ],
 	[
-        "Tide Realm",
-        "Царство приливов",
+        "Tidesurge Domain",
+        "Область приливной волны",
         "2",
         "2",
         "on self",
         "2",
         "3",
-        "[Physical Damage] Deals 0.36x AoE damage to enemies within 2 tiles around itself, preventing enemies from receiving the 'repeat action' effect that lasts for 2 rounds, and applies special terrain [full Tide] to tiles for 2 rounds."
+        "[Physical Damage] Deals 0.36x AoE damage to enemies within 2 tiles around itself, preventing enemies from receiving the 'repeat action' effect that lasts for 2 rounds, and applies special terrain [High Tide] to tiles for 2 rounds."
     ],
 	[
-        "Crashing Waves",
-        "Разбивающиеся волны",
+        "Tide Cleaver",
+        "Раскалыватель волн",
         "3",
         "2",
         "1",
@@ -29255,8 +29255,8 @@ var persSkills = [
         ""
     ],
 	[
-        "Magic Environment",
-        "Волшебное окружение",
+        "Mystic Aura",
+        "Мистическая аура",
         "1",
         "3",
         "3",
@@ -29265,8 +29265,8 @@ var persSkills = [
         "[Passive] After using active skills, can swap positions with a friendly unit with [Elemental Affinity].<br>[Assist] actively used to allow a friendly unit with [Elemental Affinity] to gain [Shield]: 'Can withstand damage equal to 3x the caster's INT, lasts 2 turns', and cannot be dispelled."
     ],
 	[
-        "Natural Extraction",
-        "Естественное извлечение",
+        "Natural Absorption",
+        "Природное поглощение",
         "2",
         "1",
         "2",
@@ -29275,14 +29275,14 @@ var persSkills = [
         "[Magic Damage] attacks one enemy, dealing 1.4x damage. For each ally with [Elemental Affinity], ignores 10% of the enemy's MDEF (maximum 30%). After the battle, gain [Shield]: 'Withstands damage equal to 3x the caster's INT, lasts for 2 turns', which cannot be dispelled. When carrying meele soldier, soldiers will also attack (this skill is not affected by melee damage reduction)."
     ],
 	[
-        "Elemental Destruction",
-        "Стихийное уничтожение",
+        "Elemental Annihilation",
+        "Элементальное уничтожение",
         "3",
         "1",
         "5",
         "on straight",
         "5",
-        "[Magic Damage] Attacks all enemies in 3 straight lines, dealing 0.36x AoE damage and applying a special terrain effect to the affected tiles that lasts for 2 rounds. [Elemental Distortion]: If an enemy unit on this terrain is in 'Forest' or 'Plains', it cannot receive the effect of 'Repeat Movement'; when a friendly [Coordination Spirit] passes through this terrain, it has a chance to avoid the mobility reduction of 1 cell."
+        "[Magic Damage] Attacks all enemies in 3 straight lines, dealing 0.36x AoE damage and applying a special terrain effect to the affected tiles that lasts for 2 rounds. [Elemental Distortion]: If an enemy unit on this terrain is in 'Forest' or 'Grassland', it cannot receive the effect of 'Repeat Movement'; when a friendly [Harmonic Spirit] passes through this terrain, it has a chance to avoid the mobility reduction of 1 cell."
     ],
 	[
         "Драконоборец",
