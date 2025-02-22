@@ -1852,7 +1852,7 @@ var persItemDat = [
         "Тирантир",
         "Tyrantel",
         "Шлем первого короля",
-        "Global - 06.02.2024",
+        "First King's Helm",
         "hat",
         "483",
         "",
