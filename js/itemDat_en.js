@@ -1427,7 +1427,7 @@ var itemDat = [
         "59",
         "",
         "ОЗ и МЗАЩ +5%. После завершения действия дает 1 смежному союзному юниту (не себе) 20% дополнительного урона на 1 ход.",
-        "HP and MDEF +5%. After taking damage, grants 1 adjacent friendly unit (not including this unit) 20% extra damage for 1 turn).",
+        "HP and MDEF +5%. After taking action, grants 1 adjacent friendly unit (not including this unit) 20% extra damage for 1 turn).",
         "light"
     ],
     [
