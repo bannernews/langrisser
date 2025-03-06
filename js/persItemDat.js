@@ -198,6 +198,21 @@ var persItemDat = [
         "ЗАЩ +10%. При активации эффектов, позволяющих вам совершить повторное действие, это не защитывается в счетчике ходов всех наложенных на вас баффов. ([Активация КД] эффект можно активировать только 1 раз за 3 хода).",
         "DEF +10%. When triggering an act again, buffs on this unit will not decrease in duration. This effect has a 3 turn cooldown."
     ],
+	[
+        "Андриола",
+        "Andriole",
+        "Глобал - 10.07.2025",
+        "Global - 10.07.2025",
+        "body",
+        "437",
+        "",
+        "",
+        "65",
+        "",
+        "",
+        "ОЗ +10%. После активации [Клятвы Верности] персонаж дополнительно получает все фракции цели. При перемещении через любого юнита получает возможность игнорировать снижение мобильности на 1 клетку. Когда союзник под эффектом [Клятвы Верности] инициирует атаку, но не добивает врага, персонаж получает [Враждебность] на 2 хода.",
+        "HP +10%. After activating [Oath of Allegiance], the character additionally receives all factions of the target. When moving through any unit, gains the ability to ignore mobility reduction by 1 . When an ally under the effect of [Oath of Allegiance] initiates an attack but does not kill the enemy, Andriole receives [Hostility] for 2 turns."
+    ],
     [
         "Анжелика",
         "Angelica",

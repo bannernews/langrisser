@@ -138,6 +138,21 @@ var persItemDat = [
         "Атака, Защита +5%. За каждый стак [Доспехов священного дерева] урон увеличивается на 5%. Когда ОЗ юнита выше 40%, его нельзя убить одним ударом, вместо этого его ОЗ восстановится на 20%, и он получит 4 стака [Доспеха священного дерева]. (Эффект может срабатывать до 2 раз за бой)",
         "Attack, Defense +5%. For each stack of [Armor of the Sacred Tree] Damage increase by 5%. When a unit's HP is above 40%, it cannot be killed at a hit, instead it will recover 20% HP and gain 4 stacks of [Armor of the Sacred Tree]. (Effect can trigger up to 2 times per battle)"
     ],
+	[
+        "Андриола",
+        "Andriole",
+        "Глобал - 10.07.2025",
+        "Global - 10.07.2025",
+        "body",
+        "437",
+        "",
+        "",
+        "65",
+        "",
+        "",
+        "ОЗ +10%. После активации [Клятвы Верности] персонаж дополнительно получает все фракции цели. При перемещении через любого юнита получает возможность игнорировать снижение мобильности на 1 клетку. Когда союзник под эффектом [Клятвы Верности] инициирует атаку, но не добивает врага, персонаж получает [Враждебность] на 2 хода.",
+        "HP +10%. After activating [Oath of Allegiance], the character additionally receives all factions of the target. When moving through any unit, gains the ability to ignore mobility reduction by 1 . When an ally under the effect of [Oath of Allegiance] initiates an attack but does not kill the enemy, Andriole receives [Hostility] for 2 turns."
+    ],
     [
         "Анжелика",
         "Angelica",
