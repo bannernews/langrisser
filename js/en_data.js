@@ -1997,7 +1997,7 @@ var dataTable = [
         "",
         "М3",
         "Blades of Choice",
-        "When entering battle, crit increases by (10,13,16,20)%. <br><br>If you did not attack this turn, after taking the action you can decide whether to enter a fighting stance for 1 turn. Impossible to remove. Ignores Immunity: <br><br>Attack Stance: Mobility +1 and Skill Range +2. Damage increases by 20%. The effect of the guard is ignored. <br><br>Retaliation Stance: Mobility +1. When there are no allied units within a radius of 2 cells, the unit takes 35% less damage, counterattack damage increases by 50%, and can also counterattack ranged attacks. After being attacked and damaged, restores 35% HP and ignores the guard's effect for 1 turn.",
+        "When entering battle, ATK and crit chance increases by (10,13,16,20)%. <br><br>If you did not attack this turn, after taking the action you can decide whether to enter a fighting stance for 1 turn. Impossible to remove. Ignores Immunity: <br><br>Attack Stance: Mobility +1 and Skill Range +2. Damage increases by 20%. The effect of the guard is ignored. <br><br>Retaliation Stance: Mobility +1. When there are no allied units within a radius of 2 cells, the unit takes 35% less damage, counterattack damage increases by 50%, and can also counterattack ranged attacks. After being attacked and damaged, restores 35% HP and ignores the guard's effect for 1 turn.",
         "Windwalker's cloak",
         "шапка",
         "25",
