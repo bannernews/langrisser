@@ -3323,7 +3323,7 @@ var dataTable = [
         "",
         "",
         "Endless Fury",
-        "Receives a class advantage instead of a class disadvantage. Damage taken is reduced by (15, 20, 25, 30)%.<br>When any unit dies within 3 tiles, gains [Fury]: Cannot die from fatal damage, instead restores HP to the level before that damage and reduces the duration of the [Fury] buff by 1 turn, while the hero's maximum HP is reduced by (30, 25, 20, 15)%; when the enemy ends the action within 3 tiles, they are automatically attacked by this hero and cannot be guarded. Lasts 2 turns and can't be dispel.<br>If the unit's HP before the battle is higher than the enemy's, it attacks earlier and restores 30% of its HP from the damage dealt in battle.",
+        "Receives a class advantage instead of a class disadvantage. Damage taken is reduced by (15, 20, 25, 30)%.<br>When any unit dies within 3 tiles, gains [Fury]: Cannot die from fatal damage, instead restores HP to the level before that damage and reduces the duration of the [Fury] buff by 1 turn, while the hero's maximum HP is reduced by (30, 25, 20, 15)%; when the enemy ends the action within 3 tiles, they are automatically attacked by this hero and cannot be guarded. Lasts 2 turns and can't be dispel.<br>If the unit's HP before the battle is higher than the enemy's, it attacks earlier, otherwise restores 30% of its HP from the damage dealt in battle.",
         "",
         "",
         "",
@@ -8577,7 +8577,7 @@ var dataTable = [
         "Т",
         "Inexorable Brand",
         "ATK and crit chance are increased by (10%, 15%, 20%, 25%), and the reduction in melee damage does not affect the unit's attack.<br><br>Ignores obstructions from enemy units when moving. Does not consume Mobility when passing through any units (both enemies and allies). Applies [Cunning Toxin] to enemies she passed through: “Debuffs received last +1 turn, and the chance of receiving a critical hit is increased by 20%; when this effect is obtained again, the duration is updated and increased to [Death's Erosion] and the additional effects are obtained: If at the end of the action the unit has at least 4 debuffs, dies immediately (in PVE mode it will be replaced with \"Deals [fixed damage] equal to 5x atk)\"). (Both [Cunning Toxin] and [Death's Erosion] have no immunity and cannot be dispelled, lasts 2 rounds).",
-        "Global - 06.03.2025",
+        "Death Blade's Embrace",
         "броня",
         "437",
         "",
@@ -29473,8 +29473,8 @@ var persSkills = [
         ""
     ],
 	[
-        "Wrath of the Burning Soul",
-        "Гнев Пылающей Души",
+        "Blazing Bloodrage",
+        "Пылающая Кровавая Ярость",
         "1",
         "3",
         "on self",
@@ -29483,7 +29483,7 @@ var persSkills = [
         "[Passive] Does not die after receiving fatal damage, but restores HP by 50%. This effect can only be triggered once per battle.<br>[Assist] Used actively, greatly improves one's own offensive and defensive capabilities, lasts for 2 rounds, and gain [Rage]. If there is already an effect of [Rage], when using it, can move another 3 tiles and attack again."
     ],
 	[
-        "Dragon's Contempt",
+        "Disdain of the Dragons",
         "Презрение Дракона",
         "2",
         "7",
@@ -29493,14 +29493,14 @@ var persSkills = [
         "[Passive] Joins battle instead of allies within 1 tile, reduces the chance of being critically hit by 30%, and is immune to displacement effects.<br>[Active] Can counterattack ranged attacks within 2 tiles, adds 20% DEF to ATK that cannot be removed. The range of guard range increases to 2 tiles, and if there is a [Rage] effect, it increases by additionall 1 tile. Lasts 3 rounds."
     ],
 	[
-        "Heaven-Breaking Dragon",
-        "Разрывающий Небеса Дракон",
+        "Skyshatter Dragon",
+        "Дракон Разрушитель небес",
         "3",
         "7",
         "3",
         "3",
         "2",
-        "[Active] Targets a tile in a straight line. At the start of the next round, gains the effect of [Rage] and enters the [Dragon's Rage] state: '[Heaven-Breaking Dragon] skill is replaced by [Fiendish Flame Field]; damage dealt increases by 30%, the number of buff rounds will not be reduced at the end of the effect,' and then teleports to the target location and deals 0.3x AoE damage (the above effect is triggered immediately if the hero already has [Rage]). After use, it can act again, the mobility of this action is equal to the remaining mobility. ([Dragon's Rage] cannot be imbued or removed, and coexists with the [Rage] state.) .<br><br>[Fiendish Flame Field]:<br>Cooldown: 5 turns / Range: 1 tile / Area: Single target<br><br>[Passive] Received [fixed damage] is converted into healing; the cooldown of all damage skills after battle is -1.<br>[Command] Enemies within 3 tiles around cannot receive the 'repeat move' effect; when going beyond the range of the command, an additional 1 mobility point will be spent.<br>[Physical Damage] Attacks one enemy, dealing 1.7x damage. Before battle, all equipped skills of the enemy will be disabled (except for Max HP), when the target is an NPC, the effect is replaced by reducing all attributes by 30%. Lasts 2 turns, cannot be removed. After battle, a description of the enemy's equipment and skills will be obtained (up to 2 pieces for each part, the same equipment cannot be obtained twice, except for Max HP); When the target is a non-player hero, the effect is replaced with an increase to all attributes by 30%, lasts for 2 turns."
+        "[Active] Select a tile in a straight line. At the start of the next round gains the effect of [Rage] and enters the [Dragon's Rage] state: '[Skyshatter Dragon] skill is replaced by [Flame Domain]; damage dealt increases by 30%, the number of buff rounds will not be reduced at the end of the effect,' and then teleports to the target location and deals 0.3x AoE damage (the above effect is triggered immediately if the hero already has [Rage]). After use, it can act again, the mobility of this action is equal to the remaining mobility. ([Dragon's Rage] cannot be imbued or removed, and coexists with the [Rage] state.) .<br><br>[Fiendish Flame Field]:<br>Cooldown: 5 turns / Range: 1 tile / Area: Single target<br><br>[Passive] Received [fixed damage] is converted into healing; the cooldown of all damage skills after battle is -1.<br>[Command] Enemies within 3 tiles around cannot receive the 'repeat move' effect; when going beyond the range of the command, an additional 1 mobility point will be spent.<br>[Physical Damage] Attacks one enemy, dealing 1.7x damage. Before battle, all skills of equipment of the enemy will be disabled (except for Max HP), when the target is an NPC, the effect is replaced by reducing all attributes by 30%. Lasts 2 turns, cannot be removed. After battle, a description of the enemy's skills of equipment will be obtained (up to 2 pieces for each part, the same equipment cannot be obtained twice, except for Max HP); When the target is a non-player hero, the effect is replaced with an increase to all attributes by 30%, lasts for 2 turns."
     ],
 	[
         "Рандель",

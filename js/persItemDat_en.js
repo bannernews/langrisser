@@ -1731,8 +1731,8 @@ var persItemDat = [
 	[
         "Серафина",
         "Seraphina",
-        "Глобал - 06.03.2025",
-        "Global - 06.03.2025",
+        "Объятие клинка смерти",
+        "Death Blade's Embrace",
         "body",
         "437",
         "",
