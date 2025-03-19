@@ -19809,7 +19809,7 @@ var classStats = [
         "121",
         "1",
         "5",
-        "парение",
+        "полет",
         "When actively attacking and entering combat, damage taken is reduced by 10%.",
 		"When fighting an enemy with a debuff, damage dealt increases by 10%.",
         "C",
