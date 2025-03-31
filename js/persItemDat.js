@@ -559,7 +559,7 @@ var persItemDat = [
         "HP +10%. When there are at least 2 allies within 1 ring, Darklight Synthesis will not deal damage to allies, and recieved healing effects +8%."
     ],
     [
-        "Девушка в доспехах",
+        "Девушка в Доспехах",
         "Girl in the Shell",
         "Исходное ядро",
         "Source core",
