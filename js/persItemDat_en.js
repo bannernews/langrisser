@@ -649,7 +649,7 @@ var persItemDat = [
         "ATK & INT +10%. Hero's normal attack range +1. After actively attacking in battle, restore HP to the ally with the lowest HP equal to Hero's ATK+INT x1. When using act again effects, buffs on this unit will not decrease in duration."
     ],
     [
-        "Девушка в Доспехах",
+        "Девушка в доспехах",
         "Girl in the Shell",
         "Исходное ядро",
         "Source core",
