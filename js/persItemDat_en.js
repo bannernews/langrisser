@@ -2226,8 +2226,8 @@ var persItemDat = [
 	[
         "Зион",
         "Zion",
-        "Глобал - 03.04.2025",
-        "Global - 03.04.2025",
+        "Роковой Меч Короля",
+        "Fated King's Sword",
         "weapon",
         "437",
         "107",
@@ -2241,7 +2241,7 @@ var persItemDat = [
 ]
 
 function persItemView (itemType) {
-	console.log('kjljk');
+	//console.log('kjljk');
 	var id = document.getElementById('item_data');
 	id.innerHTML = '';
 	//id.innerHTML = persItemDat[111][8];

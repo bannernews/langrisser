@@ -2449,14 +2449,14 @@ var dataTable = [
         ""
     ],
 	[
-        "Гибискус",
+        "Птица с поломанным крылом",
         "ТР,МУ,ТАИР",
         "SSR",
         "",
         "",
         "Т",
-        "Soul Vision",
-        "ATK and Critical Hit Rate +(10%, 15%, 20%, 25%).<br>At the end of the action, cast [Vision] on the nearest enemy in a straight line: 'After using skills, gain (15%, 20%, 25%, 30%) skill damage reduction' and [See Through] (cannot be dispelled and immune): 'Unable to be guarded when Hibiscus attack', both last for 2 rounds. ([Vision] has no immunity, cannot be dispelled, and is removed at the beginning of the second turn after acquisition or after being triggered)",
+        "Soulsight",
+        "ATK and Critical Hit Rate +(10%, 15%, 20%, 25%).<br>At the end of the action, cast [Gaze] on the nearest enemy in a straight line: 'After using skills, gain (15%, 20%, 25%, 30%) skill damage reduction' and [Penetrate] (cannot be dispelled and immune): 'Unable to be guarded when Broken-winged Bird attack', both last for 2 rounds. ([Gaze] has no immunity, cannot be dispelled, and is removed at the beginning of the second turn after acquisition or after being triggered)",
         "",
         "",
         "",
@@ -2477,9 +2477,9 @@ var dataTable = [
         "легкая",
         "0,2",
         "453,454",
-        "Рандель",
+        "Ланделл",
         "Серафина",
-        "Рандель",
+        "Ланделл",
         "",
         "",
         "68,40",
@@ -7549,14 +7549,14 @@ var dataTable = [
         ""
     ],
 	[
-        "Рандель",
+        "Ланделл",
         "ТР,МС,ГЙ",
         "SSR",
         "",
         "",
         "Т",
-        "Chest Tome",
-        "Damage dealt increases by (15%, 20%, 25%, 30%), unit attack range + (1, 1, 2, 2).<br>At the start of battle, gain (1, 2, 3, 3) layers of [Chaos Fragment]. At the end of the action, if unit moved 3 or more tiles in a round, gain 1 layer of [Chaos Fragment], and the maximum number of layers is 5.<br>At the end of the action, can spend multiple [Chaos Fragments] to cast [Dream Sleep] on the same number of enemies: 'At the end of the action, if you move 3 or more cells in a round, the mobility in the next round will be -2, and the cooldown of the current skill with the shortest cooldown +1, cannot be dispelled, and lasts 1 round.'",
+        "Book of the Box",
+        "Damage dealt increases by (15%, 20%, 25%, 30%), unit attack range + (1, 1, 2, 2).<br>At the start of battle, gain (1, 2, 3, 3) layers of [Chaos Excerpt]. At the end of the action, if unit moved 3 or more tiles in a round, gain 1 layer of [Chaos Excerpt], and the maximum number of layers is 5.<br>At the end of the action, can spend multiple [Chaos Excerpts] to cast [Box Dream Descent] on the same number of enemies: 'At the end of the action, if you move 3 or more cells in a round, the mobility in the next round will be -2, and the cooldown of the current skill with the shortest cooldown +1, cannot be dispelled, and lasts 1 round.'",
         "",
         "",
         "",
@@ -7577,9 +7577,9 @@ var dataTable = [
         "тканевая",
         "0,2",
         "451,452",
-        "Гибискус",
+        "Птица с поломанным крылом",
         "маг",
-        "Гибискус",
+        "Птица с поломанным крылом",
         "",
         "897,899",
         "",
@@ -8600,7 +8600,7 @@ var dataTable = [
         "Патриция",
         "Андриола",
         "",
-        "Гибискус",
+        "Птица с поломанным крылом",
         "848",
         "118",
         "",
@@ -10515,7 +10515,7 @@ var dataTable = [
         "Мил",
         "Sword of Mercy",
         "ATK increases by (10%, 15%, 20%, 25%).<br><br>At the end of the action, if the hero fought this round without committing a kill, he receives [Royal Fate]: 'The next active attack will deal (10%, 13%, 16%, 20%) increased damage when entering combat, and the unit will attack before the enemy,' lasts 2 rounds.<br><br>When actively attacking and entering into battle, if a fatal blow is dealt to the enemy, you can forgive the enemy, depriving him of the ability to move, guard, attack or use skills in the next round, and apply [Reluctant Battle] to him: 'Damage dealt and healing effect received is reduced by 30%.' Has no immunity, cannot be dispelled, lasts 2 rounds. When forgiving an enemy, restores 100% of the unit's HP.",
-        "Global - 03.04.2025",
+        "Fated King's Sword",
         "оружие",
         "437",
         "107",
@@ -19834,7 +19834,7 @@ var classStats = [
         ""
     ],
 	[
-        "Рандель",
+        "Ланделл",
         "",
         "mage",
         "4159",
@@ -19852,7 +19852,7 @@ var classStats = [
         ""
     ],
 	[
-        "Рандель",
+        "Ланделл",
         "",
         "demon",
         "4492",
@@ -19870,7 +19870,7 @@ var classStats = [
         ""
     ],
 	[
-        "Гибискус",
+        "Птица с поломанным крылом",
         "",
         "bow",
         "3852",
@@ -19888,7 +19888,7 @@ var classStats = [
         "A"
     ],
 	[
-        "Гибискус",
+        "Птица с поломанным крылом",
         "",
         "assasin",
         "3852",
@@ -20135,7 +20135,7 @@ var heroList = [
             "Ганн",
             "Гаури",
             "Герольд и Лайла",
-			"Гибискус",
+			"Птица с поломанным крылом",
             "Гизаров",
             "Гинтоки",
             "Греншиль",
@@ -20235,7 +20235,7 @@ var heroList = [
             "Преция",
             "Пробужденная",
             "Пьер",
-			"Рандель",
+			"Ланделл",
             "Рё",
             "Рейнфорс",
             "Рената",
@@ -20367,7 +20367,7 @@ var heroList_en = [
 	"Gunn",
 	"Gourry",
 	"Gerold & Layla",
-	"Hibiscus",
+	"Broken-winged Bird",
 	"Gizarof",
 	"Gintoki Sakata",
 	"Grenshiel",
@@ -29503,7 +29503,7 @@ var persSkills = [
         "[Active] Select a tile in a straight line. At the start of the next round gains the effect of [Rage] and enters the [Dragon's Rage] state: '[Skyshatter Dragon] skill is replaced by [Flame Domain]; damage dealt increases by 30%, the number of buff rounds will not be reduced at the end of the effect,' and then teleports to the target location and deals 0.3x AoE damage (the above effect is triggered immediately if the hero already has [Rage]). After use, it can act again, the mobility of this action is equal to the remaining mobility. ([Dragon's Rage] cannot be imbued or removed, and coexists with the [Rage] state.) .<br><br>[Flame Domain]:<br>Cooldown: 5 turns / Range: 1 tile / Area: Single target<br><br>[Passive] Received [fixed damage] is converted into healing; the cooldown of all damage skills after battle is -1.<br>[Command] Enemies within 3 tiles around cannot receive the 'repeat move' effect; when going beyond the range of the command, an additional 1 mobility point will be spent.<br>[Physical Damage] Attacks one enemy, dealing 1.7x damage. Before battle, all skills of equipment of the enemy will be disabled (except for Max HP), when the target is an NPC, the effect is replaced by reducing all attributes by 30%. Lasts 2 turns, cannot be removed. After battle, a description of the enemy's skills of equipment will be obtained (up to 2 pieces for each part, the same equipment cannot be obtained twice, except for Max HP); When the target is a non-player hero, the effect is replaced with an increase to all attributes by 30%, lasts for 2 turns."
     ],
 	[
-        "Рандель",
+        "Ланделл",
         "",
         "",
         "",
@@ -29513,47 +29513,47 @@ var persSkills = [
         ""
     ],
 	[
-        "Realm of the Dark Chest",
-        "Царство темного ларца",
+        "Dark Realm of the Box",
+        "Темное измерение ящика",
         "1",
         "7",
         "on self",
         "one target",
         "-",
-        "[Passive] Adds 25% of own MDEF to INT. When the talent skill effect is triggered, at the end of the action, it can additionally absorb 1 layer of [Chaos Fragment] and restore the ally's HP by 3x INT and give a 15% damage reduction for 2 rounds.<br>[Active] Consumes 1 layer of [Chaos Fragment] to switch this skill to [Scroll Chest]."
+        "[Passive] Adds 25% of own MDEF to INT. When the talent skill effect is triggered, at the end of the action, it can additionally absorb 1 layer of [Chaos Excerpt] and restore the ally's HP by 3x INT and give a 15% damage reduction for 2 rounds.<br>[Active] Consumes 1 layer of [Chaos Excerpt] to switch this skill to [Scroll of the Box]."
     ],
 	[
-        "Scroll Chest",
-        "Ларец со свитками",
+        "Scroll of the Box",
+        "Свиток из ящика",
         "1",
         "7",
         "on self",
         "one target",
         "-",
-        "[Passive] Guard magic attacks on adjacent allies. When the skill effect is triggered at the end of the talent's activating action, can use an extra layer of [Chaos Fragment] and increase the guard range to 2 tiles. When the hero is attacked and enters battle, can attack before the enemy and can counter with long-range attacks. Duration is 2 rounds.<br>[Active] Consumes 1 layer of [Chaos Fragment] to switch this skill to 【Realm of the Dark Chest】.."
+        "[Passive] Guard magic attacks on adjacent allies. When the skill effect is triggered at the end of the talent's activating action, can use an extra layer of [Chaos Excerpt] and increase the guard range to 2 tiles. When the hero is attacked and enters battle, can attack before the enemy and can counter with long-range attacks. Duration is 2 rounds.<br>[Active] Consumes 1 layer of [Chaos Excerpt] to switch this skill to 【Dark Realm of the Box】.."
     ],
 	[
-        "Dark Domain Wanderer",
-        "Странник Темного Домена",
+        "Dark Realm Walker",
+        "Темный ходок измерения",
         "2",
         "7",
         "2",
         "one target",
         "3",
-        "[Active] Gain 2 layers of [Chaos Fragment], teleport an ally up to 2 tiles around hero, guard all attacks for him within 3 tiles, and ignore melee damage reduction when attacking, lasting for 2 rounds. At the same time, gain 'the next damage taken is reduced by 80% and cannot be dispelled.'"
+        "[Active] Gain 2 layers of [Chaos Excerpt], teleport an ally up to 2 tiles around hero, guard all attacks for him within 3 tiles, and ignore melee damage reduction when attacking, lasting for 2 rounds. At the same time, gain 'the next damage taken is reduced by 80% and cannot be dispelled.'"
     ],
 	[
-        "Rampage of Devouring Order",
-        "Буйство пожирающего порядка",
+        "Devouring Torrent",
+        "Пожирающий поток воды",
         "3",
         "1",
         "2",
         "one target",
         "3",
-        "[Passive] At the end of the effect, if a total of 2 layers of [Chaos Fragment] are consumed this round, the number of rounds of the buff effect carried by the hero will not be reduced, and can move 2 additional tiles and attack again. ([Trigger Cooldown] requires an interval of 2 rounds before it can be activated again.)<br>[Magic Damage] Attacks one enemy, dealing 1.6x damage. Each time the target's skill is on cooldown, the damage dealt increases by 10% after the battle, [Dream Sleep] will be applied to the target;. If the enemy target is killed, [Dream Sleep] will be additionally applied to 3 random enemies."
+        "[Passive] At the end of the effect, if a total of 2 layers of [Chaos Excerpt] are consumed this round, the number of rounds of the buff effect carried by the hero will not be reduced, and can move 2 additional tiles and attack again. ([Trigger Cooldown] requires an interval of 2 rounds before it can be activated again.)<br>[Magic Damage] Attacks one enemy, dealing 1.6x damage. Each time the target's skill is on cooldown, the damage dealt increases by 10% after the battle, [Box Dream Descent] will be applied to the target;. If the enemy target is killed, [Box Dream Descent] will be additionally applied to 3 random enemies."
     ],
 	[
-        "Гибискус",
+        "Птица с поломанным крылом",
         "",
         "",
         "",
@@ -29563,34 +29563,34 @@ var persSkills = [
         ""
     ],
 	[
-        "Wind Spirit Eye",
+        "Eye of the Wind Spirit",
         "Глаз Духа Ветра",
         "1",
         "2",
         "7",
         "straight",
         "2",
-        "[Passive] At the start of the round, 2 adjacent random allies gain the effect 'At the end of the action, cast a non-immune and undispellable [See Through] effect on enemies with [Vision] within 2 blocks around them for 2 rounds.', which lasts for 1 round.<br>[Physical Damage] Attacks all enemies in a straight line, dealing 0.2x AoE damage and applying [Vision]. Can move 3 tiles after the battle. When on defensive terrain or 'in water', the range of this skill is +2."
+        "[Passive] At the start of the round, 2 adjacent random allies gain the effect 'At the end of the action, cast a non-immune and undispellable [Penetrate] effect on enemies with [Gaze] within 2 blocks around them for 2 rounds.', which lasts for 1 round.<br>[Physical Damage] Attacks all enemies in a straight line, dealing 0.2x AoE damage and applying [Gaze]. Can move 3 tiles after the battle. When on defensive terrain or 'in water', the range of this skill is +2."
     ],
 	[
-        "Storm Feather Blade",
-        "Клинок штормового пера",
+        "Stormfeather Blade",
+        "Штормовой перьевой клинок",
         "2",
         "2",
         "2",
         "one target",
         "2",
-        "[Physical Damage] Attacks one enemy, dealing 1.5x damage. Before entering combat, applies '25% Critical Chance Increase' and '25% Critical Damage Increase' to the enemy, which lasts for 2 rounds."
+        "[Physical Damage] Attacks one enemy, dealing 1.5x damage. Before entering combat, applies 'chance of being critically hit increased by 25%' and '25% Critical Damage taken Increase' to the enemy, which lasts for 2 rounds."
     ],
 	[
-        "Soul Hunt Assassination",
-        "Убийство в охоте за душами",
+        "Soul Hunt Execution",
+        "Исполнение охоты на души",
         "3",
         "2",
         "4",
         "one target",
         "3",
-        "[Passive] For each enemy on the battlefield that has [See Through], unit mobility +2 and attack range +1. (Maximum 2 layers).<br>[Physical Damage] Attacks one enemy at a straight line, dealing 1.6x damage. When successfully killing an enemy, the cooldown of this skill is reduced by 2 turns. Ranged soldiers will attack together. After attacking, can use the remaining mobility to move again. If the enemy has [Vision] or [See Through], the damage of this skill will be increased by 30%. If the enemy has [See Through], they cannot activate the [Fatal Damage Resistance] effect in this battle. (The inability activate effect [fatal damage resistant] only works in PVP mode)."
+        "[Passive] For each enemy on the battlefield that has [Penetrate], unit mobility +2 and attack range +1. (Maximum 2 layers).<br>[Physical Damage] Attacks one enemy at a straight line, dealing 1.6x damage. When successfully killing an enemy, the cooldown of this skill is reduced by 2 turns. Ranged soldiers will attack together. After attacking, can use the remaining mobility to move again. If the enemy has [Gaze] or [Penetrate], the damage of this skill will be increased by 30%. If the enemy has [Penetrate], they cannot activate the [Fatal Damage Resistance] effect in this battle. (The inability activate effect [fatal damage resistant] only works in PVP mode)."
     ],
 	[
         "Мари Роуз",
@@ -32957,7 +32957,7 @@ var builds = [
         "Колдунья"
     ],
 	[
-        "Гибискус",
+        "Птица с поломанным крылом",
         "Бриз,Метеор,Палящее солнце",
         "3",
         "3",
@@ -34057,7 +34057,7 @@ var builds = [
         ""
     ],
 	[
-        "Рандель",
+        "Ланделл",
         "Полнолуние,Часы",
         "4",
         "4",
@@ -35377,7 +35377,7 @@ var confession = [
         ""
     ],
 	[
-        "Гибискус",
+        "Птица с поломанным крылом",
         ""
     ],
     [
@@ -35777,7 +35777,7 @@ var confession = [
         ""
     ],
 	[
-        "Рандель",
+        "Ланделл",
         ""
     ],
     [
@@ -36580,7 +36580,7 @@ var startB = [
         ""
     ],
 	[
-        "Гибискус",
+        "Птица с поломанным крылом",
         "",
         "",
         "",
@@ -37580,7 +37580,7 @@ var startB = [
         ""
     ],
 	[
-        "Рандель",
+        "Ланделл",
         "",
         "",
         "",
@@ -38883,7 +38883,7 @@ var basicB = [
         ""
     ],
 	[
-        "Гибискус",
+        "Птица с поломанным крылом",
         "",
         "",
         "",
@@ -39883,7 +39883,7 @@ var basicB = [
         ""
     ],
 	[
-        "Рандель",
+        "Ланделл",
         "",
         "",
         "",
@@ -41378,7 +41378,7 @@ var pveB = [
         ""
     ],
 	[
-        "Гибискус",
+        "Птица с поломанным крылом",
         "",
         "",
         "",
@@ -42778,7 +42778,7 @@ var pveB = [
         ""
     ],
 	[
-        "Рандель",
+        "Ланделл",
         "",
         "",
         "",
@@ -44649,7 +44649,7 @@ var pvpB = [
         ""
     ],
 	[
-        "Гибискус",
+        "Птица с поломанным крылом",
         "",
         "",
         "",
@@ -46149,7 +46149,7 @@ var pvpB = [
         ""
     ],
 	[
-        "Рандель",
+        "Ланделл",
         "",
         "",
         "",
