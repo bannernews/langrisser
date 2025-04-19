@@ -452,6 +452,15 @@ var heroesDat = [
         "",
         ""
     ],
+	[
+        "Глаз обмана",
+        "Gazesuccubus",
+        "ТР,МУ,ТАИР,Ж",
+        "LLR",
+        "",
+        "",
+        ""
+    ],
     [
         "Греншиль",
         "Grenshiel",
@@ -493,7 +502,7 @@ var heroesDat = [
         "Girl in the Shell",
         "АП,ТР,РЕ,Ж",
         "SSR",
-        "",
+        "forge",
         "",
         "М3"
     ],
@@ -682,7 +691,7 @@ var heroesDat = [
         "Emperor Lovina",
         "ГГ,МС,РЕ,ФБ,М",
         "SSR",
-        "",
+        "forge",
         "",
         "М3"
     ],

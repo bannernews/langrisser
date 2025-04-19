@@ -63,6 +63,21 @@ var persItemDat = [
         "ATK +8%. Если перед боем вражеский герой не является плавцом, то он считает любую поверхность водой в течении 1 ходов. Если у вашего героя 100% ОЗ, то местность на которой он стоит считается водой. Длится 1 ход. [Активация КД] вы можете считать водой местность, на которой стоите лишь еще раз после 2 ходов.",
         "ATK +8%. Before entering battle, if the enemy hero is not an Aquatic unit, the terrain they are on is treated as Water for 1 turn. If this unit is at 100% HP, the terrain this unit is on is treated as Water. Lasts 1 turn. The effect of making this unit treat terrain as water has a 2 turn cooldown."
     ],
+	[
+        "Алия",
+        "Alia",
+        "Глобал - 07.08.2025",
+        "Global - 07.08.2025",
+        "body",
+        "583",
+        "",
+        "",
+        "54",
+        "",
+        "",
+        "ОЗ +10%. При наличии 2 и более одинаковых 'богатств' мобильность +1 (при трёх одинаковых +2, при четырёх +3). Если у героя есть 3 и более одинаковых 'богатств' он не может быть убит одним ударом (перезарядка этого эффекта 4 хода)",
+        "HP +10%. If there are 2 or more identical 'fortunes', mobility +1 (with three identical +2, with four +3). If the hero has 3 or more identical 'fortunes', she cannot be killed with one blow (the cooldown of this effect is 4 turns)"
+    ],
     [
         "Альмеда",
         "Almeda",

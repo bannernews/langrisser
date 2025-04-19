@@ -93,6 +93,21 @@ var persItemDat = [
         "ATK/ИНТ +10%. После совершения действия призывает [дух волка], который получает 75% текущих статов Аки. (Одновременно может существовать лишь 1 дух волка, и этот эффект можно активировать лишь 1 раз за бой).",
         "ATK/INT +10%. After taking action, summon one [Wolf Soul] adjacent to self. This Wolf Soul will inherit 75% of Aka's stats. (You may only have 1 Wolf Soul at once. This effect can only occur once per battle)"
     ],
+	[
+        "Алия",
+        "Alia",
+        "Глобал - 07.08.2025",
+        "Global - 07.08.2025",
+        "body",
+        "583",
+        "",
+        "",
+        "54",
+        "",
+        "",
+        "ОЗ +10%. При наличии 2 и более одинаковых 'богатств' мобильность +1 (при трёх одинаковых +2, при четырёх +3). Если у героя есть 3 и более одинаковых 'богатств' он не может быть убит одним ударом (перезарядка этого эффекта 4 хода)",
+        "HP +10%. If there are 2 or more identical 'fortunes', mobility +1 (with three identical +2, with four +3). If the hero has 3 or more identical 'fortunes', she cannot be killed with one blow (the cooldown of this effect is 4 turns) "
+    ],
     [
         "Алтемюллер",
         "Altemuller",
