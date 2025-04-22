@@ -29679,7 +29679,7 @@ var persSkills = [
         "4",
         "one target",
         "3",
-        "[Passive] For each enemy on the battlefield that has [Penetrate], unit mobility +2 and attack range +1. (Maximum 2 layers).<br>[Physical Damage] Attacks one enemy at a straight line, dealing 1.6x damage. When successfully killing an enemy, the cooldown of this skill is reduced by 2 turns. Ranged soldiers will attack together. After attacking, can use the remaining mobility to move again. If the enemy has [Gaze] or [Penetrate], the damage of this skill will be increased by 30%. If the enemy has [Penetrate], they cannot activate the [Fatal Damage Resistance] effect in this battle. (The inability activate effect [fatal damage resistant] only works in PVP mode)."
+        "[Passive] For each enemy on the battlefield that has [Penetrate], unit mobility +2 and attack range +1. (Maximum 2 layers).<br>[Physical Damage] Attacks one enemy at a straight line, dealing 1.6x damage. When successfully killing an enemy, the cooldown of this skill is reduced by 2 turns. Ranged soldiers will attack together. After attacking, can use the remaining mobility to move again. If the enemy has [Gaze] or [Penetrate], ATK will be increased by 30%. If the enemy has [Penetrate], they cannot activate the [Fatal Damage Resistance] effect in this battle. (The inability activate effect [fatal damage resistant] only works in PVP mode)."
     ],
 	[
         "Мари Роуз",
