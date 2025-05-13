@@ -36,7 +36,18 @@
 	<hr noshade style="border-color: #d8c2a9;">
 </div>
 <div id="middle" style="width:1320px;margin:0 auto;padding-top:7px;white-space: nowrap;">
-	<span id="title" style="display:block;width:200px;margin:0 auto;font-size: 30px;color:#d8c2a9;">Heroes</span><br>
+
+	<div class="menumore-sort"><img id="filt_arr" src="images/filter_arrow.svg" style="position:absolute;top:2px;left:-18px;"><span id="ss0">Sort by </span>
+		<div class="dropdown-content-sort">
+			<a style="background-color: unset;"></a>
+			<div style="cursor: pointer;/*! border: 1px solid #6e6e6e; */margin-left: -18px;padding: 9px;background-color: #d8c2a9bd;filter: drop-shadow(0px 0px 15px #d8c2a9);border-radius: 5px;">
+				<a id="ss1"><span onclick="heroesView2()" style="display:block;">By release</span></a>
+				<a id="ss2"><span onclick="heroesView()" style="display:block;">By alphabet</span></a>
+			</div>
+		</div>
+	</div>
+	
+	<span id="title" style="display:block;width:100px;margin:0 auto;font-size: 30px;color:#d8c2a9;margin-top:-5px;margin-bottom:10px;">Heroes</span>
 	<div id="left_filter" style="display:inline-block;width:200px;vertical-align: top;margin-left: 15px;position:sticky;top:10px;"><input style="color:black;background-color: #629786;border: none;margin-left: 10px;height: 20px;font-size: 20px;width: 150px;" placeholder="Search:" type="text" id="hero_find" size="20"/><br><img src="images/shadow.png" height="30px" width="190px" />
 	<table border='0' style="margin-top:-15px;"><tr><td class="filt_h" title="ГГ" width='56px'><img src="images/hero_filter/factions/ГГ.png" height="45px" /></td>
 			<td class="filt_h" title="ЛС" width='56px'><img src="images/hero_filter/factions/ЛС.png" height="45px" /></td>
@@ -73,7 +84,7 @@
 			<td width='56px'><img src="images/glow.png" height="50px" /></td>
 			<td class="filt_h" title="Ж" width='56px'><img src="images/hero_filter/Ж.png" height="50px" /></td></tr></table>
 	</div>
-	<div id="heroes_data" style="width:1070px;display: inline-block;margin-left:30px;">
+	<div id="heroes_data" style="width:1090px;display: inline-block;margin-left:0px;">
 		
 	</div>
 
