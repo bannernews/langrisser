@@ -633,8 +633,8 @@ var itemDat = [
         "accs"
     ],
 	[
-        "Акс 5",
-        "---",
+        "Колокол эха Хексен",
+        "Bell of Hexen Echoes",
         "accessoir",
         "",
         "75",
@@ -1179,8 +1179,8 @@ var itemDat = [
         "heavy"
     ],
 	[
-        "Броня 5",
-        "---",
+        "Царственные регалии",
+        "Regal Regalia",
         "body",
         "583",
         "",
@@ -1711,8 +1711,8 @@ var itemDat = [
         "cloth"
     ],
 	[
-        "Головной убор 5",
-        "---",
+        "Зов вечности",
+        "Call of Eternity",
         "hat",
         "437",
         "",
@@ -2495,8 +2495,8 @@ var itemDat = [
         "dagger"
     ],
 	[
-        "Оружие 5",
-        "---",
+        "Кипящая чешуя",
+        "Seething Scale",
         "weapon",
         "437",
         "107",

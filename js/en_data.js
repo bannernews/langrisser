@@ -9393,7 +9393,7 @@ var dataTable = [
         "Мил",
         "Last Protection",
         "ATK and DEF are increased by (10%, 15%, 20%, 25%), and there is no melee damage penalty.<br><br>At action end, can target an unsummoned ally to give [Protect], cannot be immunized, and cannot be dispelled. When an ally with [Protect] is within 3 squares, whenever he makes a normal attack or is attacked, Tiana will instead enter the battle and can attack from a distance, all attributes of both units except HP will be increased by (5%, 8%, 11%, 15%); Tiana does not die if it takes lethal damage, instead unit HP will recover to the level before that damage. ([Trigger Cooldown] The effect requires an interval of (4, 3, 2, 2) rounds before it can be activated again; the effect of improving the attributes of command skills and similar command skills cannot operate simultaneously)",
-        "Global - 08.05.2025",
+        "Lone Knight's Resolve",
         "шапка",
         "437",
         "",
@@ -11431,7 +11431,7 @@ var dataTable = [
         "",
         "",
         "",
-        "System",
+        "Systema",
         "ATK and DEF increase by (10%, 15%, 20%, 25%).<br>After using the skill to attack the enemy, [Displacement] will be applied to the enemy, knocking the target back 3 blocks. If there are other troops or inaccessible terrain in the way of the knockback, [Displacement] will be applied again, knocking the target back by the remaining knockback blocks. Each time [Displacement] is applied to a unit, it gains 1 layer of [Dance Preparation], which will be removed at the beginning of the round.<br>At the end of the effect, 1 layer of [Dance Preparation] is consumed, the number of buff rounds is not reduced, and it can move an additional (2, 2, 3, 3) tiles and attack again. (If the effect has already been triggered this round, the amount of [Dance Preparation] spent will double each time it is triggered, and it can be triggered up to 5 times per round.)",
         "",
         "",
@@ -11482,8 +11482,8 @@ var dataTable = [
         "",
         "",
         "",
-        "Flying Dance",
-        "ATK and DEF increase by (10%, 15%, 20%, 25%).<br>If on defensive terrain at the end of the effect or skills used this round, restore HP by (15%, 20%, 25%, 30%) and gain [Flying Dance]: 'Mobility +2, ignores enemy units while moving and reduces damage taken by 50%. This effect will be lost after the hero is attacked, enters combat and takes damage (after losing it this way, it can be gained again after an interval of 1 round).' Lasts 2 rounds and cannot be removed.",
+        "Hiten-No-Mai",
+        "ATK and DEF increase by (10%, 15%, 20%, 25%).<br>If on defensive terrain at the end of the effect or skills used this round, restore HP by (15%, 20%, 25%, 30%) and gain [Hiten-No-Mai]: 'Mobility +2, ignores enemy units while moving and reduces damage taken by 50%. This effect will be lost after the hero is attacked, enters combat and takes damage (after losing it this way, it can be gained again after an interval of 1 round).' Lasts 2 rounds and cannot be removed.",
         "",
         "",
         "",
@@ -11533,8 +11533,8 @@ var dataTable = [
         "",
         "",
         "",
-        "Zogen Tenjin Style",
-        "ATK and DEF increase by (10%, 15%, 20%, 25%). Not affected by melee damage reduction.<br>After dealing damage, casts [Toughness] on the enemy: unable to defend and unable to attack before the enemy, lasting 2 rounds. (cannot be removed).<br>When actively attacking and entering combat, if the enemy has the Kasumi talant effect, he cannot counterattack and will be [Stunned] for 1 round after the battle.",
+        "Mugen Tenshin",
+        "ATK and DEF increase by (10%, 15%, 20%, 25%). Not affected by melee damage reduction.<br>After dealing damage, casts [Stagger] on the enemy: unable to defend and unable to attack before the enemy, lasting 2 rounds. (cannot be removed).<br>When actively attacking and entering combat, if the enemy has the Kasumi talant effect, he cannot counterattack and will be [Stunned] for 1 round after the battle.",
         "",
         "",
         "",
@@ -29692,8 +29692,8 @@ var persSkills = [
         ""
     ],
 	[
-        "Stupid, stupid, stupid",
-        "Глупая, глупая, глупая",
+        "Hate you, hate you, hate you!",
+        "Ненавижу, ненавижу, ненавижу!",
         "1",
         "7",
         "self",
@@ -29702,8 +29702,8 @@ var persSkills = [
         "[Passive] When the [Displacement] effect is applied to the enemy for the first time in each round, at the end of the effect, can teleport to any position within a direct range of 3 tiles, and the teleportation is treated as the effect of [Displacement].<br>[Active] Actively used, restores 30% of max HP. When there are enemies in the surrounding 4 tiles, gains 1 level of [Dance Preparation]."
     ],
 	[
-        "Wild Rose Buttocks",
-        "Ягодицы дикой розы",
+        "Rose Hip",
+        "Шиповник",
         "1",
         "2",
         "4",
@@ -29712,8 +29712,8 @@ var persSkills = [
         "[Physical Damage] Attacks all enemies in a straight line, dealing 0.1x AoE damage. When attacking, [Teleports] to the skill distance. When hitting an enemy, gains 1 layer of [Dance Preparation]."
     ],
 	[
-        "Charming as the Autumn Moon",
-        "Очаровательна, как осенняя луна",
+        "Autumnal",
+        "Осенний",
         "2",
         "2",
         "self",
@@ -29722,8 +29722,8 @@ var persSkills = [
         "[Physical Damage] Deals 0.36x AoE damage to all enemies in a ring around herself. If the enemy's position does not change after the attack, dispels 1 enemy buff (priority to dispel the effect of 'Immunity to [Displacement]'), and applies 'passive skill prohibition' for 2 rounds."
     ],
 	[
-        "Orange Rose in Full Bloom",
-        "Оранжевая роза в полном цвету",
+        "Orange Ruffles",
+        "Оранжевые оборки",
         "2",
         "2",
         "1",
@@ -29732,8 +29732,8 @@ var persSkills = [
         "[Physical Damage] Attacks one enemy, dealing 1.6x damage. If the hero has [Dance Preparation], the enemy cannot counterattack in this battle. After the battle, the enemy will be stunned for 1 round."
     ],
 	[
-        "Kungunir",
-        "Кунгунир",
+        "Gungnir",
+        "Гунгнир",
         "3",
         "2",
         "1",
@@ -29752,28 +29752,28 @@ var persSkills = [
         ""
     ],
 	[
-        "Taiwan",
-        "Тайвань",
+        "Nowaki",
+        "Новаки",
         "1",
         "7",
         "self",
         "one target",
         "4",
-        "[Active] Actively used, gains 'ATK +20%' and [Taiwan]: 'After actively dealing damage, deals 0.1x AoE damage to all enemies in a ring around herself, and causes the effect of [Teleport]: 'Enemy position changed.' Lasts for 2 rounds, can take additional actions after use. The mobility of this additional action is equal to the remaining mobility when using the skill, and can attack again. (After using this skill, the number of buff turns will not be reduced.)"
+        "[Active] Actively used, gains 'ATK +20%' and [Nowaki]: 'After actively dealing damage, deals 0.1x AoE damage to all enemies in a ring around herself, and causes the effect of [Teleport]: 'Enemy position changed.' Lasts for 2 rounds, can take additional actions after use. The mobility of this additional action is equal to the remaining mobility when using the skill, and can attack again. (After using this skill, the number of buff turns will not be reduced.)"
     ],
 	[
-        "Putting the Beads",
-        "Перебирать четки",
+        "Juzu-Kumade",
+        "Джузу-Кумадэ",
         "2",
         "2",
         "1",
         "one target",
         "3",
-        "[Physical Damage] Attacks one enemy, dealing 1.5x damage. After the battle, damage to the enemy increases by 20% for 2 rounds. If the hero has [Flying Dance], the damage will increase to 1.8x, and the enemy will be stunned for 1 round."
+        "[Physical Damage] Attacks one enemy, dealing 1.5x damage. After the battle, damage to the enemy increases by 20% for 2 rounds. If the hero has [Hiten-No-Mai], the damage will increase to 1.8x, and the enemy will be stunned for 1 round."
     ],
 	[
-        "Locust",
-        "Саранча",
+        "Koboshi-Inago",
+        "Кабоши-Инаго",
         "2",
         "2",
         "4",
@@ -29782,14 +29782,14 @@ var persSkills = [
         "[Physical Damage] Attacks all enemies in a straight line, dealing 0.4 AoE damage. When attacking, the hero teleports to the tile with the longest skill range or in front of the closest enemy in range and causes [Displacement]: Pushes the enemies back 2 tiles. If there are other units or inaccessible terrain on the route, the enemy will be stunned for 1 round."
     ],
 	[
-        "Kagura Flower",
-        "Цветок Кагура",
+        "Hana-Kagura",
+        "Хана-Кагура",
         "3",
         "2",
         "1",
         "one target",
         "3",
-        "[Physical Damage] Attacks one enemy, dealing 1.7x damage, dispelling 3 enemy buffs before battle, recovering HP equal to 20% of the damage dealt after battle, and gaining [Command]: 'All enemies within 2 tiles have -1 mobility and cannot use the Guard effect', lasts for 2 rounds. If there is [Flying Dance], the damage dealt by this attack is increased by 20%. If the enemy is not killed, the cooldown of all skills will be reduced by 2 rounds, otherwise it can move 4 tiles."
+        "[Physical Damage] Attacks one enemy, dealing 1.7x damage, dispelling 3 enemy buffs before battle, recovering HP equal to 20% of the damage dealt after battle, and gaining [Command]: 'All enemies within 2 tiles have -1 mobility and cannot use the Guard effect', lasts for 2 rounds. If there is [Hiten-No-Mai], the damage dealt by this attack is increased by 20%. If the enemy is not killed, the cooldown of all skills will be reduced by 2 rounds, otherwise it can move 4 tiles."
     ],
 	[
         "Касуми",
@@ -29802,8 +29802,8 @@ var persSkills = [
         ""
     ],
 	[
-        "Feng Shen Step",
-        "Шаг Фэн Шэня",
+        "Hoshinpo",
+        "Хосинпо",
         "1",
         "7",
         "3",
@@ -29812,24 +29812,24 @@ var persSkills = [
         "[Active] Actively used on an empty tile or a unit in a forward direction, causing the effect of [Displacement]: Moves to the target position. After use, it can move 2 tiles and attack again. (This move effect cannot be immune. When moving, the movement is treated as flying. After using this skill, the number of buff rounds will not be reduced.)"
     ],
 	[
-        "God's Palm",
-        "Ладонь Бога",
+        "Tenshin-Sho",
+        "Тэнсин-Шо",
         "2",
         "2",
         "1",
         "one target",
         "3",
-        "[Physical Damage] Attacks one enemy, dealing 1.4x damage and increasing damage taken by 20% for 1 turn. If the target has the [Toughness] effect, the target's DEF after battle will be reduced by 30% for 2 rounds."
+        "[Physical Damage] Attacks one enemy, dealing 1.4x damage and increasing damage taken by 20% for 1 turn. If the target has the [Stagger] effect, the target's DEF after battle will be reduced by 30% for 2 rounds."
     ],
 	[
-        "Sakura Dance",
-        "Танец Сакуры",
+        "Oka-Ranman",
+        "Ока-Ранман",
         "3",
         "2",
         "1",
         "one target",
         "4",
-        "[Passive] When fighting an enemy with the [Toughness] effect, damage taken is reduced by 30% and ATK is increased by 30%.<br>[Physical Damage] Attacks one enemy, dealing 1.6x damage. If the enemy has the [Toughness] effect, this skill will attack twice in this battle. After the battle, if there are enemies within 3 tiles around, can act again, otherwise the cooldown of this skill will be reduced by 3 turns; ([Trigger Cooldown] These two effects share a trigger cooldown, and it takes 2 rounds to trigger again.)"
+        "[Passive] When fighting an enemy with the [Stagger] effect, damage taken is reduced by 30% and ATK is increased by 30%.<br>[Physical Damage] Attacks one enemy, dealing 1.6x damage. If the enemy has the [Stagger] effect, this skill will attack twice in this battle. After the battle, if there are enemies within 3 tiles around, can act again, otherwise the cooldown of this skill will be reduced by 3 turns; ([Trigger Cooldown] These two effects share a trigger cooldown, and it takes 2 rounds to trigger again.)"
     ],
 	[
         "Силрна",
@@ -35036,10 +35036,10 @@ var builds = [
         "Часы,Бриз",
         "3",
         "4",
-        "Сбалансированный клинок,Оружие 5",
+        "Сбалансированный клинок,Кипящая чешуя",
         "Доспехи хранителя,Благословение Тиамат,Углеродная броня",
         "Ярость Тюра,Углеродный Шлем,Маска вампира",
-        "Акс 5,Апексовые сапоги,Крылья скрытого великолепия",
+        "Колокол эха Хексен,Апексовые сапоги,Крылья скрытого великолепия",
         "Наемник пустыни,Служанка в маске SP,Танцор цепей джунглей"
     ],
 	[
@@ -35061,7 +35061,7 @@ var builds = [
         "Кристальное жало,Жало скрытня",
         "Последние обряды",
         "Тень ночной совы,Головной убор 5,Око Ермунганда",
-        "Акс 5,Лезвие воспоминаний",
+        "Колокол эха Хексен,Лезвие воспоминаний",
         "Кристальный чародей,Экспедиция по природе"
     ],
     [
