@@ -2293,7 +2293,7 @@ var heroesDat2 = [
     ],
     [
         "Соня",
-        "Sonia",
+        "Sonya",
         "АП,ТР,ИМП,Ж",
         "SR",
         "forge",
@@ -3724,7 +3724,7 @@ var heroesDat2 = [
     ],
     [
         "Соня Бланш",
-        "Sonya",
+        "Sonia Blanche",
         "ЛС,АП,ГВ,Ж",
         "SSR",
         "forge",
