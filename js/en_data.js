@@ -6886,7 +6886,7 @@ var dataTable = [
         ""
     ],
     [
-        "Оливер",
+        "Оливиер",
         "ИМП,МС,ГВ",
         "SR",
         "forge",
@@ -6937,7 +6937,7 @@ var dataTable = [
         ""
     ],
     [
-        "Оливиер",
+        "Оливер",
         "ЛС,МУ,ГЙ",
         "SR",
         "forge",
@@ -16231,7 +16231,7 @@ var classStats = [
         ""
     ],
     [
-        "Оливер",
+        "Оливиер",
         "",
         "bow",
         "3485",
@@ -16249,7 +16249,7 @@ var classStats = [
         ""
     ],
     [
-        "Оливер",
+        "Оливиер",
         "",
         "bow",
         "3913",
@@ -16267,7 +16267,7 @@ var classStats = [
         ""
     ],
     [
-        "Оливиер",
+        "Оливер",
         "Верховный мастер",
         "assasin",
         "3537",
@@ -16285,7 +16285,7 @@ var classStats = [
         "A"
     ],
     [
-        "Оливиер",
+        "Оливер",
         "Мастер осады",
         "assasin",
         "3273",
@@ -20309,8 +20309,8 @@ var heroList = [
             "Ноэми",
 			"Норнорин",
             "Оборо",
-            "Оливер",
             "Оливиер",
+            "Оливер",
             "Омега",
             "Отшельник",
             "Парн",
@@ -25392,7 +25392,7 @@ var persSkills = [
         "[Passive] For every 1 stack of [Dragon's Valor], this unit deals 25% damage when its talent triggers on death. When attacking and entering battle, if the enemy has no soldiers, it deals 15% more damage. [Physical Damage] Attacks one enemy, dealing 1.5x damage. After combat, deals an additional 0.33x damage to enemies within 1 cell. For every 1 stack of [Dragon's Valor], the area of ​​this damage increases by +1."
     ],
     [
-        "Оливер",
+        "Оливиер",
         "",
         "",
         "",
@@ -25442,7 +25442,7 @@ var persSkills = [
         "[Phys. Damage] Attacks multiple enemies within range, dealing 0.38x AoE damage, and reduces the damage they deal by 20% and increases the damage they take by 20%. Lasts 2 turns. Also has a 15% chance to prevent affected enemy heroes from using normal attacks. Lasts 1 turn. (The effect cannot be removed.)"
     ],
     [
-        "Оливиер",
+        "Оливер",
         "",
         "",
         "",
@@ -34053,7 +34053,7 @@ var builds = [
         "Тяжелый центурион,Железокрылый воин"
     ],
     [
-        "Оливер",
+        "Оливиер",
         "Бриз,Часы,Бурное море",
         "2",
         "2",
@@ -34064,7 +34064,7 @@ var builds = [
         "Служанка в маске,Ангел,Палубный стрелок,Танцующая в тумане,Колдунья"
     ],
     [
-        "Оливиер",
+        "Оливер",
         "Бриз,Полнолуние,Метеор",
         "3",
         "2",
@@ -35875,11 +35875,11 @@ var confession = [
         ""
     ],
     [
-        "Оливер",
+        "Оливиер",
         ""
     ],
     [
-        "Оливиер",
+        "Оливер",
         ""
     ],
     [
@@ -37600,7 +37600,7 @@ var startB = [
         ""
     ],
     [
-        "Оливер",
+        "Оливиер",
         "",
         "",
         "",
@@ -37610,7 +37610,7 @@ var startB = [
         ""
     ],
     [
-        "Оливиер",
+        "Оливер",
         "",
         "",
         "",
@@ -39913,7 +39913,7 @@ var basicB = [
         ""
     ],
     [
-        "Оливер",
+        "Оливиер",
         "",
         "",
         "",
@@ -39923,7 +39923,7 @@ var basicB = [
         ""
     ],
     [
-        "Оливиер",
+        "Оливер",
         "",
         "",
         "",
@@ -42766,7 +42766,7 @@ var pveB = [
         ""
     ],
     [
-        "Оливер",
+        "Оливиер",
         "",
         "",
         "",
@@ -42780,7 +42780,7 @@ var pveB = [
         ""
     ],
     [
-        "Оливиер",
+        "Оливер",
         "",
         "",
         "",
@@ -46138,7 +46138,7 @@ var pvpB = [
         ""
     ],
     [
-        "Оливер",
+        "Оливиер",
         "",
         "",
         "",
@@ -46153,7 +46153,7 @@ var pvpB = [
         ""
     ],
     [
-        "Оливиер",
+        "Оливер",
         "",
         "",
         "",

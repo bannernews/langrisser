@@ -1399,7 +1399,7 @@ var persItemDat = [
         "HP +10%. When using [Focus Elements]. if this unit has a special effect from a Fusion Power, then gain 1 extra stack of Dracomorph. When attacking and entering battle, damage taken and reflect damage taken -30%."
     ],
     [
-        "Оливиер",
+        "Оливер",
         "Oliver",
         "Урок по созданию героя",
         "Handicraft hero lesson",
