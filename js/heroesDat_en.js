@@ -3949,7 +3949,7 @@ var heroesDat2 = [
     ],
     [
         "Тирантир",
-        "Terantel",
+        "Tyrantel",
         "ИМП,ТАИР,РЕ,М",
         "SSR",
         "",
