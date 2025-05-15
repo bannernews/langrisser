@@ -4219,7 +4219,7 @@ function heroesView2 () {
 					f2 += ' ' + fact[j];
 				}
 			} else {f2 = "her";}
-		hreff = ('hero.html?name='+ heroesDat2[i][0]).replace(/ /g,"%20");
+		hreff = ('hero_en.html?name='+ heroesDat2[i][0]).replace(/ /g,"%20");
 		if(heroesDat2[i][0]=='Трансцендентный' || heroesDat2[i][0]=='Суверен ледяной бездны'){f = 'font-size:11px;'}else if(heroesDat2[i][0]=='Капитан Коммандо и Гений-малыш' || heroesDat2[i][0]=='Птица с поломанным крылом'){f = 'font-size:9px;'}else{f = 'font-size:12px;'}
 		sd.innerHTML += '<div description="' + heroesDat2[i][0] + '" class="' + f2 + ' ' + heroesDat2[i][3] + ' ' + heroesDat2[i][4] + ' ' + heroesDat2[i][5] + ' ' + heroesDat2[i][6] + '" style="display:block;height:135px;width:109px;float:left;"><div class="imgglow" style="display:block;"><a href="'+hreff+'"><img style="cursor:pointer;" height="100px" src="images/head/' + heroesDat2[i][0] + '.png" title="' + heroesDat2[i][0] + '"></a></div><div style="white-space:normal;' + f + 'width:95px;text-align:center;margin-top:-5px;">' + heroesDat2[i][1] + '</div></div>';
 //		}
