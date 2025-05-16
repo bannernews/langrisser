@@ -35708,7 +35708,7 @@ var confession = [
     ],
     [
         "Кристиан",
-        "https://drive.google.com/file/d/1dETRYVf5qhVUSD0MFFs5qZ_yPvwWaE0m/view?usp=sharing"
+        "https://drive.google.com/file/d/1QyWaBVPypQQGO1dER6BAw3bhIfCJppF8/view?usp=sharing"
     ],
     [
         "Курама",
@@ -35788,7 +35788,7 @@ var confession = [
     ],
     [
         "Лукреция",
-        "https://drive.google.com/file/d/1IQVFVPS57SEgGrp3N8V_M-gF-hB1nULm/view?usp=sharing"
+        "https://drive.google.com/file/d/1P2-AERc6__WWnbWgnHWSmNLenVjLUQTb/view?usp=sharing"
     ],
     [
         "Луна",
@@ -35844,7 +35844,7 @@ var confession = [
     ],
     [
         "Мю",
-        "https://drive.google.com/file/d/1JG_2V7dhBMqVX6h_wrH0hm_AP-5U7ht0/view?usp=sharing"
+        "https://drive.google.com/file/d/1XKSlLgM8S0BicgagEas6EgnCYpnaKz8Q/view?usp=sharing"
     ],
     [
         "Нарм",
@@ -35928,7 +35928,7 @@ var confession = [
     ],
 	[
         "Ланделл",
-        ""
+        "https://drive.google.com/file/d/1h0xC3SqXtrPlwe-Kdjh9HgaIgt_UrlNr/view?usp=sharing"
     ],
     [
         "Рё",
