@@ -327,7 +327,7 @@ var confession = [
     ],
     [
         "Яркий призыватель",
-        "https://drive.google.com/file/d/1HW_vrRH7GC9gxeERzDMoTOFdmEWWBnfH/view?usp=sharing"
+        "https://drive.google.com/file/d/1eqba3_PACcNkxl-r2hhNvSlMKyw01hCt/view?usp=drive_link"
     ]
 ]
 
