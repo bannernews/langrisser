@@ -446,8 +446,8 @@ var itemDat = [
         "48",
         "",
         "",
-        "ЗАЩ +8%. После атаки можно передвинуться ещё на 2 клетки.",
-        "DEF +8%. Can move 2 blocks after attacking a target.",
+        "ЗАЩ +8%. После атаки можно передвинуться ещё на 2 клетки. (не может быть использовано святыми, демонами и лучниками)",
+        "DEF +8%. Can move 2 blocks after attacking a target. (cannot be equipped by Holy, Demon and Ranged)",
         "accs"
     ],
     [
@@ -642,8 +642,22 @@ var itemDat = [
         "43",
         "",
         "",
-        "АТК, НАВЫК +8%. Когда активно атакует врага навыком и вступает в бой, если рядом с целью нет других врагов, после битвы будет восстановлено 15% ОЗ и юнит может телепортироваться в позицию начала раунда, если на ней нет другого юнита. (Перезарядка триггера: Этот эффект можно использовать еще раз только через 3 хода).",
-        "ATK, SKILL +8%. When actively attacks an enemy with a skill and enters battle, if there are no other enemies near the target, 15% HP will be restored after the battle and the unit can teleport to the start position of the turn if there are no other units on it (Trigger Cooldown: This effect can only be used again after 3 turns).",
+        "АТК, НАВЫК +8%. Когда активно атакует врага навыком и вступает в бой, если рядом с целью нет других врагов, после битвы будет восстановлено 15% ОЗ и юнит может телепортироваться в позицию начала раунда, если на ней нет другого юнита. (Перезарядка триггера: Этот эффект можно использовать еще раз только через 3 хода). (Не может быть использовано святыми, демонами и магами)",
+        "ATK, SKILL +8%. When actively attacks an enemy with a skill and enters battle, if there are no other enemies near the target, 15% HP will be restored after the battle and the unit can teleport to the start position of the turn if there are no other units on it (Trigger Cooldown: This effect can only be used again after 3 turns). (Cannot be equipped by Holy, Demon and Mage)",
+        "accs"
+    ],
+	[
+        "Акс 6",
+        "---",
+        "accessoir",
+        "",
+        "75",
+        "75",
+        "",
+        "",
+        "",
+        "АТК и ИНТ + 8%. При активной атаке урон игнорирует вражеский [щит] (включая фиксированный урон).",
+        "ATK and INT +8%. When active attack, damage ignores enemy [shield] (including fixed damage). ",
         "accs"
     ],
     [
@@ -1192,6 +1206,20 @@ var itemDat = [
         "HP +10%. When HP is 100%, the chance of getting a critical hit is reduced by 100%.",
         "cloth"
     ],
+	[
+        "Броня 6",
+        "---",
+        "body",
+        "509",
+        "",
+        "",
+        "59",
+        "",
+        "",
+        "ОЗ и ЗАЩ +5%. Перед вступлением в бой, с вероятностью 25% местность, на которой находится юнит, будет считаться 'лесом' на 1 ход.",
+        "HP and DEF +5%. Before entering combat, there is a 25% chance that the terrain the unit is on will be considered 'forest' for 1 turn.",
+        "light"
+    ],
     [
         "Шлем Энея",
         "Aeneas' Helmet",
@@ -1723,6 +1751,20 @@ var itemDat = [
         "ОЗ +10%. При получении урона получает 'Урон увеличивается на 15%' на 1 ход.",
         "HP +10%. When receiving damage, receives 'Damage increases by 15%' for 1 turn. ",
         "light"
+    ],
+	[
+        "Головной убор 6",
+        "---",
+        "hat",
+        "583",
+        "",
+        "",
+        "",
+        "48",
+        "",
+        "ЗАЩ +10%. Если юнит был перемещен, телепортирован или завершил действие на защитной местности, получает эффект 'Мобильность +1' и 'Иммунитет к снижению мобильности' на 1 ход.",
+        "DEF +10%. If a unit is moved, teleported, or ends an action on defensive terrain, gains the effect of 'Mobility +1' and 'Immunity to Mobility reduction' for 1 turn.",
+        "heavy"
     ],
     [
         "Меч клятвы",
@@ -2507,6 +2549,20 @@ var itemDat = [
         "АТК +10%. При активации повторного действия получает 'Урон навыков увеличен на 10%', длится 1 ход.",
         "ATK +10%. When activate act again, gains 'Skill damage increased by 10%', lasts 1 turn.",
         "sword"
+    ],
+	[
+        "Оружие 6",
+        "---",
+        "weapon",
+        "583",
+        "85",
+        "",
+        "",
+        "",
+        "",
+        "АТК +10%. При активной атаке и вступлении в бой, если у врага есть эффект [сопротивление смертельному урону], получает 'Урон +20%' на 1 ход.",
+        "ATK +10%. When actively attacking and entering battle, if the enemy has the [Deadly Damage Resistance] effect, gains 'Damage +20%' for 1 turn.",
+        "hammer"
     ]
 ]
 

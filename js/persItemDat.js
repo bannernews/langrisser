@@ -1341,7 +1341,7 @@ var persItemDat = [
     [
         "Неемия",
         "Nemia",
-        "---",
+        "Путь отслеживания",
         "---",
         "body",
         "509",
@@ -1367,6 +1367,21 @@ var persItemDat = [
         "",
         "ИНТ +10%; При применении [Пузыря фантазий] время восстановления всех навыков сокращается на 1 ход. Если у вас есть [Серенада] в начале раунда, вы получите дополнительный уровень стака таланта.",
         "INT +10%. When using [Fantasy Bubble], the cooldown of all skills is reduced by 1 turn. If you have [Serenade] at the beginning of the round, you will gain an additional level of talent stack."
+    ],
+	[
+        "Норнорин",
+        "Nornorin",
+        "Глобал - 04.09.2025",
+        "Global - 04.09.2025",
+        "hat",
+        "437",
+        "",
+        "",
+        "",
+        "59",
+        "",
+        "ОЗ +10%. Если в этот ход был использован активный навык, накладывает [Высокий прилив] на клетки в радиусе 1 кольца. Если персонаж находится в воде или имеет [Щит], получаемый урон снижается на 10%; если оба условия выполняются, получаемый урон снижается на 20%.",
+        "HP +10%. If an active skill was used this turn, casts [High Tide] on tiles within 1 ring. If the character is in water or has [Shield], damage taken is reduced by 10%; if both conditions are met, damage taken is reduced by 20%."
     ],
     [
         "Ноэми",

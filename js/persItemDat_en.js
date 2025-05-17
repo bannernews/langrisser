@@ -1431,7 +1431,7 @@ var persItemDat = [
     [
         "Неемия",
         "Nemia",
-        "---",
+        "Путь отслеживания",
         "---",
         "body",
         "509",
@@ -1457,6 +1457,21 @@ var persItemDat = [
         "",
         "ОЗ +10%. После совершения действия юниты с [магической одеждой] рассеивают с себя 1 дебафф и восстаналивают 5% ОЗ. После использования [Одеяния стратега], этот навык может получить эффект 1 дополнительный раз.",
         "HP +10%. All units with Magic Garments will have 1 debuff dispelled at the end of their turn and restore 5% HP. When using Strategist's Garb, gain 1 extra charge."
+    ],
+	[
+        "Норнорин",
+        "Nornorin",
+        "Глобал - 04.09.2025",
+        "Global - 04.09.2025",
+        "hat",
+        "437",
+        "",
+        "",
+        "",
+        "59",
+        "",
+        "ОЗ +10%. Если в этот ход был использован активный навык, накладывает [Высокий прилив] на клетки в радиусе 1 кольца. Если персонаж находится в воде или имеет [Щит], получаемый урон снижается на 10%; если оба условия выполняются, получаемый урон снижается на 20%.",
+        "HP +10%. If an active skill was used this turn, casts [High Tide] on tiles within 1 ring. If the character is in water or has [Shield], damage taken is reduced by 10%; if both conditions are met, damage taken is reduced by 20%."
     ],
     [
         "Нимфа",

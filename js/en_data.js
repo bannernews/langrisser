@@ -588,7 +588,7 @@ var dataTable = [
         "",
         "посох,молот",
         "тканевая",
-        "0,2",
+        "0,2,5",
         "440,441",
         "Илия",
         "right",
@@ -941,7 +941,7 @@ var dataTable = [
         "40",
         "25",
         "25",
-        "Орк,Воин,Орк-берсерк,Берсерк,Темный страж,Воин-варвар,Наемник пустыни,Элитный копейщик,Горный голем,Фаланга,Каменный колосс,Лавовый титан,Ваятель кристаллов,Страж государства,Эгида Гард,Гигантский всадник-ящерица,Призыватель волн,Танцор цепей джунглей,Эльфийский метатель копья SP",
+        "Орк,Воин,Орк-берсерк,Берсерк,Темный страж,Воин-варвар,Наемник пустыни,Элитный копейщик,Горный голем,Фаланга,Каменный колосс,Лавовый титан,Ваятель кристаллов,Страж государства,Эгида Гард,Гигантский всадник-ящерица,Призыватель волн,Танцор цепей джунглей,Эльфийский метатель копья SP,Темный центурион SP",
         "",
         "меч,копье",
         "тяжелая",
@@ -1279,7 +1279,7 @@ var dataTable = [
         "Апофеоз",
         "ТР,ГЙ,ТАИР",
         "SSR",
-        "",
+        "forge",
         "",
         "М3",
         "Source of Chaos",
@@ -1293,7 +1293,7 @@ var dataTable = [
         "4",
         "",
         "HP +10%. If you have at least 3 extra stats from talent, applied [Nightmare] and [Demoniac] cannot be removed. When there is an enemy demon or holy unit within 3 tiles, gains Immunity.",
-        "",
+        "While in [Chaos] form, if takes fatal damage and does not die, he will place [Nightmare] (loss of control) on the source of the damage. At the end of the turn, for every 2 bonuses from the talent, the cooldown of [The End is Nigh] and [Judgement of the Abyss] is reduced by 1 turn.",
         "20",
         "40",
         "25",
@@ -1400,7 +1400,7 @@ var dataTable = [
         "20",
         "30",
         "35",
-        "Элитный копейщик,Амазонка,Амазонка-чемпион,Копейщик авангарда,Паладин,Тяжелая кавалерия,Рыцарь-тамплиер,Монах,Экзорцист,Фанатик,Маг Святой Стражи,Призыватель волн",
+        "Элитный копейщик,Амазонка,Амазонка-чемпион,Копейщик авангарда,Паладин,Тяжелая кавалерия,Рыцарь-тамплиер,Монах,Экзорцист,Фанатик,Маг Святой Стражи,Призыватель волн,Темный центурион SP",
         "",
         "копье,молот",
         "тяжелая",
@@ -3134,7 +3134,7 @@ var dataTable = [
         "40",
         "15",
         "15",
-        "Баллиста,Темный эльф,Темный эльф-снайпер,Катапульта,Снайпер-подстрекатель,Засадный боец,Бандит,Безликий,Шиноби,Гоблин-рыцарь,Убийца из Ковчега,Скелет-лучник,Лучник адского пламени,Рыцарь-нежить,Клинок сумереченого крыла",
+        "Баллиста,Темный эльф,Темный эльф-снайпер,Катапульта,Снайпер-подстрекатель,Засадный боец,Бандит,Безликий,Шиноби,Гоблин-рыцарь,Убийца из Ковчега,Скелет-лучник,Лучник адского пламени,Рыцарь-нежить,Клинок сумереченого крыла,Киборг-сосуд SP",
         "",
         "нож,лук",
         "легкая",
@@ -3389,7 +3389,7 @@ var dataTable = [
         "40",
         "20",
         "25",
-        "Элитная пехота,Тяжелая пехота,Горец-воин,Амазонка,Амазонка-чемпион,Эгида Гард,Паладин,Рыцарь-тамплиер,Единорог,Монах,Экзорцист,Фанатик",
+        "Элитная пехота,Тяжелая пехота,Горец-воин,Амазонка,Амазонка-чемпион,Эгида Гард,Паладин,Рыцарь-тамплиер,Единорог,Монах,Экзорцист,Фанатик,Киборг-сосуд SP",
         "",
         "посох,молот",
         "тяжелая",
@@ -4409,7 +4409,7 @@ var dataTable = [
         "40",
         "10",
         "10",
-        "Элитная пехота,Воин,Тяжелая пехота,Берсерк,Воин-варвар,Галантный дуэлянт,Клыкастый страж,Фаланга,Элитная кавалерия,Скорпион,Гигантский всадник-ящерица,Эльф,Темный эльф-снайпер,Засадный боец,Бандит,Самурай,Ночной лесной эльф,Безликий SP",
+        "Элитная пехота,Воин,Тяжелая пехота,Берсерк,Воин-варвар,Галантный дуэлянт,Клыкастый страж,Фаланга,Элитная кавалерия,Скорпион,Гигантский всадник-ящерица,Эльф,Темный эльф-снайпер,Засадный боец,Бандит,Самурай,Ночной лесной эльф,Безликий SP,Киборг-сосуд SP",
         "",
         "нож,меч",
         "легкая",
@@ -4613,7 +4613,7 @@ var dataTable = [
         "35",
         "35",
         "15",
-        "Тяжелая пехота,Берсерк,Страж-пехотинец,Темный страж,Наемник пустыни,Воин,Элитная пехота,Копейщик авангарда,Элитный копейщик,Монах,Экзорцист,Фанатик",
+        "Тяжелая пехота,Берсерк,Страж-пехотинец,Темный страж,Наемник пустыни,Воин,Элитная пехота,Копейщик авангарда,Элитный копейщик,Монах,Экзорцист,Фанатик,Киборг-сосуд SP",
         "",
         "меч",
         "тяжелая",
@@ -5582,7 +5582,7 @@ var dataTable = [
         "40",
         "15",
         "25",
-        "Служанка,Страж-пехотинец,Королевский страж,Эльф,Эльф-мастер,Палубный стрелок,Ведьма,Колдунья,Кристальный чародей,Маг - ядовитая летучая мышь,Скелет-лучник,Лучник адского пламени,Призрак тумана",
+        "Служанка,Страж-пехотинец,Королевский страж,Эльф,Эльф-мастер,Палубный стрелок,Ведьма,Колдунья,Кристальный чародей,Маг - ядовитая летучая мышь,Скелет-лучник,Лучник адского пламени,Призрак тумана,Киборг-сосуд SP",
         "",
         "меч,посох",
         "тканевая",
@@ -5819,7 +5819,7 @@ var dataTable = [
         "ИС,АП,МС",
         "SSR",
         "forge",
-        "",
+        "SP",
         "Л13",
         "Wind protection",
         "MDEF increases by (10,13,16,20)%. Friendly units within a 2-cell radius have their magic damage taken reduced by (15,20,25,30)%.",
@@ -5838,11 +5838,11 @@ var dataTable = [
         "10",
         "40",
         "Элитная кавалерия,Паладин,Тяжелая кавалерия,Небесный страж,Всадник-грифон,Всадник-пегас,Рыцарь-грифон,Святой пегас,Рыцарь на механическом драконе,Пегас звездной призмы,Эльф,Эльф-мастер,Рейнджер вихря,Конный лучник эльфов,Ведьма",
-        "",
+        "Боевой сокол",
         "лук,копье",
         "легкая",
-        "0,3,5,51,52,53",
-        "208,209",
+        "0,1,3,5,51,52,53",
+        "208,209,467",
         "Левин",
         "Дихарт",
         "Кларетт",
@@ -5862,8 +5862,8 @@ var dataTable = [
         "",
         "",
         "407",
-        "",
-        ""
+        "60,61",
+        "21"
     ],
     [
         "Лэйд",
@@ -5939,7 +5939,7 @@ var dataTable = [
         "35",
         "35",
         "10",
-        "Элитная пехота,Служанка,Страж-пехотинец,Темный страж,Элитный копейщик,Амазонка,Тяжелый центурион,Копейщик авангарда,Страж-энт,Эльфийский метатель копья,Эгида Гард,Элитная кавалерия,Паладин,Рыцарь-тамплиер,Страж-кавалерист,Королевская кавалерия,Золотой рыцарь,Призыватель волн",
+        "Элитная пехота,Служанка,Страж-пехотинец,Темный страж,Элитный копейщик,Амазонка,Тяжелый центурион,Копейщик авангарда,Страж-энт,Эльфийский метатель копья,Эгида Гард,Элитная кавалерия,Паладин,Рыцарь-тамплиер,Страж-кавалерист,Королевская кавалерия,Золотой рыцарь,Призыватель волн,Темный центурион SP",
         "Клыкастый страж",
         "меч,топор",
         "тяжелая",
@@ -6792,15 +6792,15 @@ var dataTable = [
         "Т",
         "Tidal Blade",
         "Damage dealt increases by (15%, 20%, 25%, 30%). At the end of the action, if in water, recover HP to yourself equal to (1, 1.5, 2, 2.5)x of ATK. If this healing exceeds Max HP, it can be converted into a [Shield] that cannot be dispelled. (up to 25% of Max HP)<br><br>At the end of the action, can select any cell within 5 tiles around to activate [Wavecall]: Pushes enemies and the caster up to 3 tiles away in 3 straight lines for 2 cells, and causes the affected tiles to receive the effect of [High Tide] for 2 rounds: When you and the enemy are on such cells, the current terrain is considered as 'water'. If this skill successfully activates the effect of [Displacement], the number of buff rounds will not be reduced, and can attack again (cannot move). ([Trigger cooldown] requires a 4, 3, 3, 2 turn interval before it can be activated again.)",
+        "Global - 04.09.2025",
+        "шапка",
+        "437",
         "",
         "",
         "",
+        "59",
         "",
-        "",
-        "",
-        "",
-        "",
-        "",
+        "HP +10%. If an active skill was used this turn, casts [High Tide] on tiles within 1 ring. If the character is in water or has [Shield], damage taken is reduced by 10%; if both conditions are met, damage taken is reduced by 20%.",
         "",
         "30",
         "35",
@@ -7367,7 +7367,7 @@ var dataTable = [
         "25",
         "25",
         "10",
-        "Страж-пехотинец,Циклоп,Воин-варвар,Элитный копейщик,Горный голем,Фаланга,Каменный колосс,Страж-энт,Эгида Гард,Монах,Экзорцист,Фанатик,Танцор цепей джунглей",
+        "Страж-пехотинец,Циклоп,Воин-варвар,Элитный копейщик,Горный голем,Фаланга,Каменный колосс,Страж-энт,Эгида Гард,Монах,Экзорцист,Фанатик,Танцор цепей джунглей,Темный центурион SP",
         "",
         "топор,копье",
         "тяжелая",
@@ -8674,7 +8674,7 @@ var dataTable = [
         "Сибараку",
         "ГЙ,ГВ",
         "SR",
-        "",
+        "forge",
         "",
         "",
         "Secret Skill - Wild Bull",
@@ -8688,7 +8688,7 @@ var dataTable = [
         "",
         "",
         "",
-        "",
+        "ATK +5%. When killing an enemy with a skill, gains a talent effect buff.",
         "15",
         "40",
         "25",
@@ -9415,7 +9415,7 @@ var dataTable = [
         "432,433",
         "Зион",
         "убийца",
-        "Зион",
+        "Зион,Абишай",
         "",
         "857",
         "108",
@@ -9917,7 +9917,7 @@ var dataTable = [
         "10",
         "40",
         "10",
-        "Элитная пехота,Страж-пехотинец,Темный страж,Королевский страж,Клыкастый страж,Элитный копейщик,Фаланга,Тяжелый центурион,Элитная кавалерия,Осквернитель пламени,Меткий стрелок,Монах,Экзорцист,Маг Святой Стражи,Призыватель волн,Служанка в маске SP",
+        "Элитная пехота,Страж-пехотинец,Темный страж,Королевский страж,Клыкастый страж,Элитный копейщик,Фаланга,Тяжелый центурион,Элитная кавалерия,Осквернитель пламени,Меткий стрелок,Монах,Экзорцист,Маг Святой Стражи,Призыватель волн,Служанка в маске SP,Темный центурион SP",
         "Избавитель",
         "топор,копье",
         "тяжелая",
@@ -10537,7 +10537,7 @@ var dataTable = [
         "430,431",
         "Тиана",
         "кавалерия",
-        "Тиана",
+        "Тиана,Лукман",
         "",
         "852",
         "111",
@@ -11778,6 +11778,108 @@ var dataTable = [
         "",
         "147,140",
         "939",
+        "",
+        ""
+    ],
+	[
+        "Абишай",
+        "ТР,ГЙ,ТАИР",
+        "SSR",
+        "",
+        "",
+        "Мил",
+        "Slaughter Core",
+        "When using skills they do not cooldown but instead the hero gains a layer of [Overheat] equal to the skill's cooldown time. For each layer of [Overheat], the damage dealt increases by (3, 4, 5, 6)%, up to a maximum of (15, 20, 25, 30)%. Cannot be immune or dispel.<br>At the end of the action, if skills have not been used, loses 1 layer of [Overheat]. When receiving 5 layers of [Overheat], immediately gains [Overload] for 1 turn (cannot be immune or removed): Ignores 15% of the enemy's DEF; when using skills they go on cooldown and also gain [Overheat]. When losing [Overload], 5 layers of [Overheat] will be removed.",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "30",
+        "35",
+        "20",
+        "15",
+        "Элитная пехота,Воин,Тяжелая пехота,Берсерк,Киборг-сосуд,Галантный дуэлянт,Амазонка,Амазонка-чемпион,Солдат фаланги,Воин-скелет,Рыцарь-скелет,Зомби-гигант",
+        "",
+        "меч,нож",
+        "тяжелая",
+        "0,2",
+        "468,469",
+        "Тиана",
+        "",
+        "",
+        "",
+        "941",
+        "117",
+        "",
+        "81",
+        "",
+        "",
+        "",
+        "111",
+        "",
+        "22,118",
+        "",
+        "",
+        "942",
+        "119",
+        "943",
+        "",
+        ""
+    ],
+	[
+        "Лукман",
+        "ЛС,ГЙ,МС",
+        "SSR",
+        "",
+        "",
+        "Мил",
+        "Balance Vision",
+        "ATK and DEF increase by (10, 13, 16, 20)%.<br>Has the effect of [Unity] and [Command]: If an ally with the effect of [Unity] is within 3 tiles of another ally with the effect of [Unity] then for each such ally ATK and INT increase by 10% (up to 20%). Cannot be immune or removed.<br>At the start of the turn, casts [Unity] on nearby allies until there are 3 allies with the effect of [Unity]. At the end of the turn, you can choose any ally with the effect of [Unity] (including yourself) and teleport them to another ally with the effect of [Unity] within 7 tiles of the target. (Cooldown CD: This skill can be used again after (4, 3, 2, 2) turns, and the stat increase effect of the command skill cannot be used simultaneously with other command skills.)",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "20",
+        "35",
+        "25",
+        "20",
+        "Элитная пехота,Тяжелая пехота,Наемник пустыни,Элитный копейщик,Амазонка,Фаланга,Темный центурион,Амазонка-чемпион,Солдат фаланги,Всадник-пегас,Святой пегас,Рыцарь на механическом драконе,Солдат-драконианец",
+        "",
+        "меч,копье",
+        "тяжелая",
+        "0,2",
+        "470,471",
+        "Зион",
+        "",
+        "",
+        "",
+        "946",
+        "119",
+        "945",
+        "",
+        "",
+        "",
+        "",
+        "110",
+        "",
+        "172,27",
+        "",
+        "",
+        "",
+        "175,97",
+        "947",
         "",
         ""
     ]
@@ -20171,6 +20273,96 @@ var classStats = [
 		"When HP is 100%, damage increases by 10%.",
         "C",
         ""
+    ],
+	[
+        "Луна СП",
+        "",
+        "fly",
+        "4842",
+        "478",
+        "315",
+        "335",
+        "420",
+        "148",
+        "1",
+        "5",
+        "полет",
+        "When actively attacking and entering battle, damage received is reduced by 10%.",
+		"When a unit has 5 or more buffs damage dealt in battle is increased by 10%.",
+        "1",
+        "SP"
+    ],
+	[
+        "Абишай",
+        "",
+        "sword",
+        "3800",
+        "584",
+        "242",
+        "290",
+        "232",
+        "149",
+        "1",
+        "3",
+        "ходьба",
+        "When attacked by an enemy with a debuff, damage taken in battle is reduced by 10%.",
+		"When fighting an enemy whose HP is lower than the unit's, damage dealt in battle is increased by 10%.",
+        "A",
+        ""
+    ],
+	[
+        "Абишай",
+        "",
+        "demon",
+        "4108",
+        "615",
+        "220",
+        "301",
+        "261",
+        "125",
+        "1",
+        "3",
+        "ходьба",
+        "When a unit has 100% HP, damage taken is reduced by 10%.",
+		"When actively attacking an enemy whose HP is higher than the unit's, damage dealt in battle increases by 10%.",
+        "C",
+        ""
+    ],
+	[
+        "Лукман",
+        "",
+        "sword",
+        "4733",
+        "582",
+        "265",
+        "343",
+        "292",
+        "152",
+        "1",
+        "3",
+        "ходьба",
+        "If unit's HP is less than 70%, damage received in battle is reduced by 10%.",
+		"If the hero has 5 or more buffs damage dealt in battle increases by 10%.",
+        "A",
+        ""
+    ],
+	[
+        "Лукман",
+        "",
+        "lance",
+        "4405",
+        "582",
+        "265",
+        "370",
+        "257",
+        "178",
+        "1",
+        "3",
+        "ходьба",
+        "When attacked by a ranged attack, damage taken in battle is reduced by 10%.",
+		"If a unit's HP is less than 70%, damage dealt in battle is increased by 10%.",
+        "C",
+        ""
     ]
 ]
 
@@ -20404,7 +20596,9 @@ var heroList = [
 			"Силрна",
 			"Макаера",
 			"Шем",
-			"Глаз обмана"
+			"Глаз обмана",
+			"Абишай",
+			"Лукман"
 ];
 
 var heroList_en = [
@@ -20637,7 +20831,9 @@ var heroList_en = [
 	"Sylrna",
 	"Macaera",
 	"Shem",
-	"Gazesuccubus"
+	"Gazesuccubus",
+	"Abishai",
+	"Lukhmaan"
 ]
 
 var persSkills = [
@@ -30030,6 +30226,86 @@ var persSkills = [
         "one target",
         "3",
         "[Command] All allies units on the field get +10% to the effect of advantage. When fighting an enemy consisting from mixed forces, ignores guard.<br>[Physical damage] Attacks a single enemy, dealing 1.8x damage. Before battle convert 3 enemy buffs into random strong debuffs. If in this battle the hero has advantage over the enemy, target cannot activate effect [Resistance to lethal damage] (only in PVP mode)."
+    ],
+	[
+        "Абишай",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+    ],
+	[
+        "Explosive Drive",
+        "Взрывной привод",
+        "1",
+        "7",
+        "self",
+        "one target",
+        "2",
+        "[Passive] At the end of the action, if an active skill was used and there is no [Overload], can move another 2 cells and attack again.<br>[Active] Used actively, increases ATK and INT by 20% for 2 rounds, and also gets [Shield]: immunity to all debuffs, as well as a shield of 25% of the unit's maximum HP.<br>When using this skill during [Overload], the recovery time of all other skills will be -1, restores 100% HP, the duration of buffs will not be reduced, and [Shield] becomes [Overload Shield]: immunity to all debuffs and a shield of 50% of the unit's maximum HP. [Shield] and [Overload Shield] cannot be dispel."
+    ],
+	[
+        "Energy Flow",
+        "Энергетический поток",
+        "2",
+        "2",
+        "3",
+        "straight",
+        "3",
+        "[Phys. Damage] Attacks all enemies in 3 straight lines, dealing 0.36x AoE damage and placing an 'Accessory Skill Disable' debuff on them for 2 turns. Cannot be dispel. If the target is an NPC, the effect is replaced with 'Increase damage taken by 20%', lasts for 2 turns, and cannot be dispel.<br>When using this skill during [Overload], the affected area is placed under the 'Energy Trap' terrain effect for 2 turns: when the enemy ends the effect on that area, they will take a fixed damage equal to 1x Abishai's ATK."
+    ],
+	[
+        "Life Drain",
+        "Снятие жизней",
+        "3",
+        "2",
+        "1",
+        "one target",
+        "4",
+        "[Passive] For each layer of [Overheat], damage taken is reduced by 6%, up to 30%.<br>[Phys. Damage] Attacks one enemy dealing 1.8x damage. For each layer of [Overheat] removes 1 buff from the target.<br>When using the skill during [Overload], the critical strike chance increases by 100% and after the battle, restores HP equal to 30% of the damage dealt during the battle. If the target is killed, [Overload] is removed after the battle (Cooldown CD: the [Overload] removal effect can be activated again after 5 turns)."
+    ],
+	[
+        "Лукман",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+    ],
+	[
+        "Magic Armor Energy Gathering",
+        "Сбор энергии магической брони",
+        "1",
+        "7",
+        "self",
+        "one target",
+        "4",
+        "[Passive] When actively attacking and entering battle, restores 20% HP of the damage dealt to all allies with the [Unity] effect after the battle; if the enemy is killed in this battle, also reduces the cooldown of all attack skills by 2 turns.<br>[Active] When used actively, gains [Immunity] and 'ATK and INT increased by 20%', lasts for 2 turns. After use, can move another 3 tiles and attack again (after use, the number of buff turns does not decrease)."
+    ],
+	[
+        "Ravine Destruction",
+        "Разрушение ущелья",
+        "2",
+        "2",
+        "2",
+        "one target",
+        "2",
+        "[Phys. Damage] Attacks one enemy, dealing 1.5x damage. Before entering battle, places 'DEF -25%' on the enemy for 2 turns. After battle, allies with the [Unity] effect gain +2 mobility for 2 turns. (Melee soldiers will also attack. This skill is not affected by melee damage reduction.)"
+    ],
+	[
+        "Flash of Light",
+        "Вспышка Света",
+        "3",
+        "2",
+        "1",
+        "one target",
+        "5",
+        "[Command] When an ally with the [Unity] effect passes through another ally with the same effect, they do not spend mobility points.<br>[Passive] For each ally with the [Unity] effect within 3 tiles damage dealt increases by 10% (up to 30%).<br>[Phys. Damage] Attacks one enemy dealing 1.8x damage and removes 5 buffs from the enemy before combat. If there is an ally with the [Unity] effect within 3 tiles, this attack ignores the Guard effect. If an enemy is killed by this skill, the cooldown of the attack skills of enemies within 2 rings around the target will be increased by 2."
     ]
 ]
 
@@ -32436,6 +32712,36 @@ var SPskills = [
         "one target",
         "2",
         "[Passive] Damage taken when melee attacked and entering combat is reduced by 10%. For each layer of [Glory Resonance], damage is further reduced by 5%.<br>[Active] Use actively. For each ally within 3 tiles, gain [Knight's Wrath]: 'When attacked and entering combat, attack range +1. When displeling buffs, [Knight's Wrath] has dispel priority. Can be stacked up to 5 times, lasts 2 turns'."
+    ],
+	[
+        "Луна",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+    ],
+	[
+        "Moon Slide",
+        "Лунное скольжение",
+        "1",
+        "5",
+        "",
+        "",
+        "",
+        "[Passive] If the hero ends the action on a tile with [Moon Shadow] effect, the duration of all buffs on the hero is not reduced, and the cooldown of the longest skill is reduced by 1 turn.<br>[Active] When activated, you can choose 1 command effect for 2 turns: [ATK command], [DEF command] or [MDEF command], and also get 'mobility +3' for 2 turns."
+    ],
+	[
+        "Moonlight Strike",
+        "Лунный натиск",
+        "2",
+        "2",
+        "2",
+        "one target",
+        "5",
+        "[Passive] After act again effect is triggered, all Princess Alliance allies gain an increase in attack and defense stats; when actively attacking, after dealing damage, the enemy additionally receives a fixed damage equal to 15% of their maximum HP. Lasts 4 turns.<br>[Phys. Damage] Attacks one enemy, dealing 1.7x damage. Before the attack, damage increases by 10% for each tile passed (up to 30%). If melee soldiers are equipped, they will also attack. (This skill is not subject to melee damage reduction).<br>After the hero's battle, she gains the [Moonlight] effect: allies within 1 tile when forced into battle have a 50% chance to reduce the enemy's attack range by 1 for 1 turn."
     ]
 ]
 
@@ -32563,6 +32869,12 @@ var SPtalent = [
         "Волшебный Святой барьер",
         "No skill cost limit. ATK increases by (10, 13, 16, 20)% and adds (5, 8, 11, 15)% of ATK to DEF and MDEF. Does not die when receiving fatal damage, instead restores (20, 30, 40, 50)% of HP. Can only trigger once per battle.<br>At the end of the action, if there is an ally within 3 tiles, gains 1 layer of [Glory Resonance]: 'Received ranged damage is reduced by 10% and reflects 10% of received damage when attacked and entered battle'. Can be stacked up to 3 times, lasts 2 turns.",
 		"Magic Holy Barrier"
+    ],
+	[
+        "Луна",
+        "Лунный Покров",
+        "MDEF +(10, 15, 20, 25)%. Allied units within 2 tiles take (10, 13, 16, 20)% less damage from ranged attacks.<br>After using the skill, a [Moon Shadow] is created on the hero's tile for 2 turns: This area is considered the center of all the hero's team effects.",
+		"Lunar cover"
     ]
 ]
 
@@ -35107,6 +35419,28 @@ var builds = [
         "",
         "",
         ""
+    ],
+	[
+        "Абишай",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+    ],
+	[
+        "Лукман",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
     ]
 ]
 
@@ -35330,6 +35664,17 @@ var SPbuilds = [
         "Ярость Тюра,Крылатый шлем сумерек,Шлем Энея",
         "Значок повелителя,Священный ковчег,Пакт крови",
         "Золотой рыцарь,Клыкастый страж,Эльфийский метатель копья"
+    ],
+	[
+        "Луна",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
     ]
 ]
 
@@ -35344,7 +35689,7 @@ var confession = [
     ],
     [
         "Аватар Света",
-        "https://drive.google.com/file/d/1FnnrOwUUKPuYzvVMmNABcbAG_aPqbjEh/view?usp=sharing"
+        "https://drive.google.com/file/d/1P91In5RDc-Pk0fM16XR1h07BY47T9Wpt/view?usp=drive_link"
     ],
     [
         "Автократо",
@@ -35356,11 +35701,11 @@ var confession = [
     ],
     [
         "Аданкельмо",
-        "https://drive.google.com/file/d/1rsTbwzZ0lFqmgNT2C7xg6TiYlJXxYstz/view?usp=sharing"
+        "https://drive.google.com/file/d/1CzF8wAh84VrKK403kXNZVLdpsyqZIXDm/view?usp=drive_link"
     ],
     [
         "Азуса",
-        "https://drive.google.com/file/d/1L7N__B-tKXbXsyzz1TumYlxc9xxnikfh/view?usp=sharing"
+        "https://drive.google.com/file/d/1sujjnhZ3qDs36b4EWy5ZW5ZPtV5n5vP4/view?usp=drive_link"
     ],
     [
         "Айнз",
@@ -35372,7 +35717,7 @@ var confession = [
     ],
     [
         "Ака",
-        "https://drive.google.com/file/d/1J4SV_JqQGggRK4aGZTbQOmgoJeQEASk-/view?usp=sharing"
+        "https://drive.google.com/file/d/1I0jJ1TE6wuntdg5bX2OU3-8_yMH3MwQS/view?usp=drive_link"
     ],
     [
         "Алисия",
@@ -35380,7 +35725,7 @@ var confession = [
     ],
 	[
         "Алия",
-        "https://drive.google.com/file/d/1yNeJ_NGYB4z850awZ3aMzrvN1J-JtIy3/view?usp=sharing"
+        "https://drive.google.com/file/d/1Lrk_gQXK2UJooqmy1ggAeSQWaU6wwQML/view?usp=drive_link"
     ],
 	[
         "Алканфель",
@@ -35396,7 +35741,7 @@ var confession = [
     ],
     [
         "Алустриэль",
-        "https://drive.google.com/file/d/1bcCjRRlBKpuzcf1cIzvUPZu9oQaOfHkT/view?usp=sharing"
+        "https://drive.google.com/file/d/11WLrLcqbj7EHFfrhu-rU-RLy4Xtb3XPS/view?usp=drive_link"
     ],
     [
         "Альбедо",
@@ -35404,11 +35749,11 @@ var confession = [
     ],
     [
         "Альмеда",
-        "https://drive.google.com/file/d/1CBpa7U9BU68iuVD7aekfxgI1UQNg-sm9/view?usp=sharing"
+        "https://drive.google.com/file/d/1NZzK0XxgOSHpesgN6kwC63mAvdHos0Me/view?usp=drive_link"
     ],
     [
         "Альфа",
-        "https://drive.google.com/file/d/1eiBgZxHO-E_KJ-UhBErOtbTGcVVKWTE6/view?usp=sharing"
+        "https://drive.google.com/file/d/1r_K2v6ccRVFWtQ40WPdHtbFv02xSnAS4/view?usp=drive_link"
     ],
     [
         "Альфред",
@@ -35420,7 +35765,7 @@ var confession = [
     ],
     [
         "Анджелина",
-        "https://drive.google.com/file/d/1TAN_iHGLPB5jVs0HElKj0G7a0ubcUNgs/view?usp=sharing"
+        "https://drive.google.com/file/d/15hFoKz72gMpLoo6R9aa_lJ0oPDMTlXvi/view?usp=drive_link"
     ],
     [
         "Андриола",
@@ -35428,11 +35773,11 @@ var confession = [
     ],
     [
         "Анжелика",
-        "https://drive.google.com/file/d/1i4r5zEno0KTpmvzqRAerQfIEIcEI1sA6/view?usp=sharing"
+        "https://drive.google.com/file/d/1GU_xajxb2dwigmF7pTUafd1weaTakHqz/view?usp=drive_link"
     ],
     [
         "Анна",
-        "https://drive.google.com/file/d/1mihxUG3UGhLw2xLfoBUKMabUG1kHucaV/view?usp=sharing"
+        "https://drive.google.com/file/d/1Y-hAh1cSBvORqVNyuCjQZVuDcvNSdSM8/view?usp=drive_link"
     ],
     [
         "Апофеоз",
@@ -35452,7 +35797,7 @@ var confession = [
     ],
     [
         "Ашемар",
-        "https://drive.google.com/file/d/1uzJhfzjOUXKnec7Sk63rQ1hCDoIrw0sI/view?usp=sharing"
+        "https://drive.google.com/file/d/12nQgreYEarw76x-GU48VY-GpOplrsiV4/view?usp=drive_link"
     ],
     [
         "Ашрам",
@@ -35464,7 +35809,7 @@ var confession = [
     ],
     [
         "Бетти",
-        "https://drive.google.com/file/d/1YOPaYdtMZxT17rAXWNuGUB5fleAaCwwc/view?usp=sharing"
+        "https://drive.google.com/file/d/1yLvqMjkyiy443uzlVwGHQ2TfCrSAs-rM/view?usp=drive_link"
     ],
     [
         "Бозел",
@@ -35472,7 +35817,7 @@ var confession = [
     ],
     [
         "Бренда",
-        "https://drive.google.com/file/d/1EyyJSu1gH7jWBOi6W83d5gAtW-zJp0BU/view?usp=sharing"
+        "https://drive.google.com/file/d/17LPNk4bv4dM1JVrN7VB4Oo3Fkn7k3TNL/view?usp=drive_link"
     ],
     [
         "Ван",
@@ -35484,7 +35829,7 @@ var confession = [
     ],
     [
         "Варна",
-        "https://drive.google.com/file/d/1LWZi27_rCl30ufutfTUPLY06wsbkfQnE/view?usp=sharing"
+        "https://drive.google.com/file/d/165JIklwYC5aqCDPgZVoNKe0ucYR_GOj2/view?usp=drive_link"
     ],
     [
         "Ватару",
@@ -35512,7 +35857,7 @@ var confession = [
     ],
 	[
         "Вирелия",
-        "https://drive.google.com/file/d/1dPRbBri4qchO_J1aBl6Jvl_3jaNY-pEU/view?usp=sharing"
+        "https://drive.google.com/file/d/1UIhA-y3uI_Sf56SMlp3lT9V9zW-ROL89/view?usp=drive_link"
     ],
     [
         "Ганн",
@@ -35528,7 +35873,7 @@ var confession = [
     ],
 	[
         "Птица с поломанным крылом",
-        ""
+        "https://drive.google.com/file/d/1D43IXvW7WrOkNEYLH-QTFWh_KXhn4-kD/view?usp=drive_link"
     ],
     [
         "Гизаров",
@@ -35540,7 +35885,7 @@ var confession = [
     ],
     [
         "Греншиль",
-        "https://drive.google.com/file/d/1hnHyBcrO6AkW3nhNwy5IsTjPJykR8Xn-/view?usp=sharing"
+        "https://drive.google.com/file/d/1BNBUh3rKu-9jaB1FaD86m_y6rX5Ox3Oe/view?usp=drive_link"
     ],
     [
         "Гренье",
@@ -35548,15 +35893,15 @@ var confession = [
     ],
     [
         "Густав",
-        "https://drive.google.com/file/d/1_jhBtZAK1YOM0W4yeyTDHWN_64v7dci9/view?usp=sharing"
+        "https://drive.google.com/file/d/1qTjRiHcxKpBX79DHNva7frAJEftN6LVD/view?usp=drive_link"
     ],
     [
         "Дева Ковчега",
-        "https://drive.google.com/file/d/1kZARdAbH2m-TEN5mu-g2V13n0u7nMO4v/view?usp=sharing"
+        "https://drive.google.com/file/d/1E7dILa74mTlOYorNXkquIWecB8xTtwO-/view?usp=drive_link"
     ],
     [
         "Девушка в доспехах",
-        "https://drive.google.com/file/d/1xDIjrfJiMMBa3VdtMq64SJTYYbmKd8He/view?usp=sharing"
+        "https://drive.google.com/file/d/1vWk0sjAod0n5D2XUZgnKB1g4yoE4dgj2/view?usp=drive_link"
     ],
     [
         "Джаглер",
@@ -35568,7 +35913,7 @@ var confession = [
     ],
     [
         "Джессика",
-        "https://drive.google.com/file/d/1oH0P6yGMOsFYv-qAZeQloX8GwkjtUrRF/view?usp=sharing"
+        "https://drive.google.com/file/d/15WLjEvQ-x-L776oJNgLmU_OOxxezLefC/view?usp=drive_link"
     ],
     [
         "Джо и Конни",
@@ -35600,7 +35945,7 @@ var confession = [
     ],
     [
         "Железный Воитель",
-        "https://drive.google.com/file/d/1wM7M7BZ2UE0CS48iAA6Htz8XRxbwZxZb/view?usp=sharing"
+        "https://drive.google.com/file/d/1qaj6Nne2ZlN64m_SGoqs8Ij5XdM7xE5g/view?usp=drive_link"
     ],
     [
         "Зелгадис",
@@ -35608,7 +35953,7 @@ var confession = [
     ],
     [
         "Зерида",
-        "https://drive.google.com/file/d/1iZ_1Ez0ijTU3DVLVPMg18H7phMrjLGP0/view?usp=sharing"
+        "https://drive.google.com/file/d/1xk3L-lav-f4d020kN6rXWVZYBnbuEwcj/view?usp=drive_link"
     ],
     [
         "Злой Бог Крюгер",
@@ -35616,19 +35961,19 @@ var confession = [
     ],
     [
         "Изольда",
-        "https://drive.google.com/file/d/1ZeR5V6XbwgvOZrb3nbYyOvdOshXi9ijh/view?usp=sharing"
+        "https://drive.google.com/file/d/1TnjS4-QRowArUkWTdRoY9BDtgYmifv90/view?usp=drive_link"
     ],
 	[
         "Илия",
-        "https://drive.google.com/file/d/1nU9K6X9DxHzruMG9gfrHYPCOnw2aDKvI/view?usp=sharing"
+        "https://drive.google.com/file/d/1i4pVOB5ITrJsYVtvWc648DoO_S7FlCWW/view?usp=drive_link"
     ],
     [
         "Илюсия",
-        "https://drive.google.com/file/d/1HcXY-azop3Odr-618zlqmygvV_FjbmA0/view?usp=sharing"
+        "https://drive.google.com/file/d/1eoGtnEsE81SNr6rkYSIna_pgiCGGCg9K/view?usp=drive_link"
     ],
     [
         "Имельда",
-        "https://drive.google.com/file/d/1ZsCQQGa86xD2G23BeqXlJAhBmM0ohbu_/view?usp=sharing"
+        "https://drive.google.com/file/d/1T1jNuA-0wtT5mPRQgbJpqJtAFQvYlbep/view?usp=drive_link"
     ],
 	[
         "Имир",
@@ -35648,7 +35993,7 @@ var confession = [
     ],
     [
         "Кагуя",
-        "https://drive.google.com/file/d/1qEHjNSe3hRiEAl8BM4IHlNwsgXJoyx_r/view?usp=sharing"
+        "https://drive.google.com/file/d/1eM9oGsvfwt-Y-JL9BcOmTIuQ_2W8XjM1/view?usp=drive_link"
     ],
     [
         "Кадзума ",
@@ -35664,7 +36009,7 @@ var confession = [
     ],
     [
         "Каролина",
-        "https://drive.google.com/file/d/19MFJhsC39HFEBgD3YU1hti_x-DDkSRSw/view?usp=sharing"
+        "https://drive.google.com/file/d/14D44pizl2JMWFNQPpiyRj-qE-fRtkXvG/view?usp=drive_link"
     ],
     [
         "Каюра",
@@ -35688,7 +36033,7 @@ var confession = [
     ],
     [
         "Кларетт",
-        "https://drive.google.com/file/d/1PqEZ3wEz_Av1Ddou4F21y-kBAi-KCKVW/view?usp=sharing"
+        "https://drive.google.com/file/d/1ElCuTj-fPiVqy-2A5LxXo0Z7c5SMsGd2/view?usp=drive_link"
     ],
     [
         "Клозе",
@@ -35704,11 +36049,11 @@ var confession = [
     ],
     [
         "Крис",
-        "https://drive.google.com/file/d/1G-sapChgRc4Is3ven7mgSvqeFkgfuyZo/view?usp=sharing"
+        "https://drive.google.com/file/d/1HLgCNK2b2-PW_NLYF6TtIPk4SbJZSIWH/view?usp=drive_link"
     ],
     [
         "Кристиан",
-        "https://drive.google.com/file/d/1QyWaBVPypQQGO1dER6BAw3bhIfCJppF8/view?usp=sharing"
+        "https://drive.google.com/file/d/11iN478msSFEiqpV_wfHHUkJuujIx9Iz2/view?usp=drive_link"
     ],
     [
         "Курама",
@@ -35716,11 +36061,11 @@ var confession = [
     ],
     [
         "Ламбда",
-        "https://drive.google.com/file/d/1-PWeixUiRmG2uIS__eSd-olJrkLGWtPm/view?usp=sharing"
+        "https://drive.google.com/file/d/1BCJPMU-oprFGfA7z8oSUqKgihBqJVRd-/view?usp=drive_linkg"
     ],
     [
         "Лана",
-        "https://drive.google.com/file/d/16cTi1c78E3CL43vcmalGBbOMNdvJQYMr/view?usp=sharing"
+        "https://drive.google.com/file/d/1BbDSkGYVr1OJcyCZAcbhnWBFFcEhXBC8/view?usp=drive_link"
     ],
     [
         "Ланс",
@@ -35756,19 +36101,19 @@ var confession = [
     ],
     [
         "Летисия",
-        "https://drive.google.com/file/d/1smbPjAlLHlpq5KZAh5xMfzRxD2g9uUiB/view?usp=sharing"
+        "https://drive.google.com/file/d/1CJiBJTqtS2rGCzfh_zoIrJQ-BzXgTrOB/view?usp=drive_link"
     ],
     [
         "Лиана",
-        "https://drive.google.com/file/d/1XgFZ_42cFupXESWfpHgoCq0xwMmRokic/view?usp=sharing"
+        "https://drive.google.com/file/d/1XHa8ZqM8gjnUM5I76K8h4mLGRwABng-0/view?usp=drive_link"
     ],
     [
         "Лиза",
-        "https://drive.google.com/file/d/1Bwb62h4iwfZTlA6tuHSOPqXBD18wSf6T/view?usp=sharing"
+        "https://drive.google.com/file/d/1NKypBJeZfpouRmLu30WP5KAD1qAh1f9y/view?usp=drive_link"
     ],
     [
         "Ликорис",
-        "https://drive.google.com/file/d/10sdNXKJQNvR4evxNwZCPB8p-YeoZCwH9/view?usp=sharing"
+        "https://drive.google.com/file/d/1QkvlohGh3TRnxf1n2s1561tcfQLbWDHx/view?usp=drive_link"
     ],
     [
         "Лина",
@@ -35776,11 +36121,11 @@ var confession = [
     ],
     [
         "Листелл",
-        "https://drive.google.com/file/d/1MFv5HOwniSDorMyWY55w0X_pk2r0aUd8/view?usp=sharing"
+        "https://drive.google.com/file/d/1mKGyiQYAxi3ffHOgT1Y6Jx-dv7P8DOdN/view?usp=drive_link"
     ],
     [
         "Лиффани",
-        "https://drive.google.com/file/d/1YoHcs57BL22mt197K6V1usg6hjeL-u1e/view?usp=sharing"
+        "https://drive.google.com/file/d/1bkm9PqMDuU1AELkAzTLpsmiLmpODouZh/view?usp=drive_link"
     ],
     [
         "Лостхэм",
@@ -35788,11 +36133,11 @@ var confession = [
     ],
     [
         "Лукреция",
-        "https://drive.google.com/file/d/1P2-AERc6__WWnbWgnHWSmNLenVjLUQTb/view?usp=sharing"
+        "https://drive.google.com/file/d/1jm3ZgVadeQvV-dYZvRb4k2hR1Sj5YK2h/view?usp=drive_link"
     ],
     [
         "Луна",
-        "https://drive.google.com/file/d/1KOns5zdpIbheSeMjqigkEHSg0QS8zGA7/view?usp=sharing"
+        "https://drive.google.com/file/d/1-UcrPguAH5AvBiOSOmnz_fdbefE9I5aL/view?usp=drive_link"
     ],
     [
         "Лэйд",
@@ -35808,7 +36153,7 @@ var confession = [
     ],
     [
         "Майя",
-        "https://drive.google.com/file/d/1cjf23rq4K8eXczv08AjkmloaXZrnvk_t/view?usp=sharing"
+        "https://drive.google.com/file/d/14OjvU8rl_4vdmRGcfql3SV5zSwdPyESb/view?usp=drive_link"
     ],
 	[
         "Макишима Агито",
@@ -35820,15 +36165,15 @@ var confession = [
     ],
     [
         "Мариандель",
-        "https://drive.google.com/file/d/1B99DkQtlNmONY_iKpNmFq17607FKe3xb/view?usp=sharing"
+        "https://drive.google.com/file/d/1gH6sBPPIUSV9FMZ1nnqWV6hqc2DQPml9/view?usp=drive_link"
     ],
     [
         "Мариэль",
-        "https://drive.google.com/file/d/1umROd-PuTRaOU7MlhWVCVKg_gpOdOh5B/view?usp=sharing"
+        "https://drive.google.com/file/d/1UNAgYzcG7xQ0KMxOMz1QN78Ka3okWSpE/view?usp=drive_link"
     ],
     [
         "Мелания",
-        "https://drive.google.com/file/d/12FfdZeBW-T8R8BLwzKQMeUJetm_QoHet/view?usp=sharing"
+        "https://drive.google.com/file/d/10UlBIwVnFSVZiUzeVm26odR6LCWXDiBk/view?usp=drive_link"
     ],
     [
         "Метью",
@@ -35836,27 +36181,27 @@ var confession = [
     ],
     [
         "Меч Света и Тьмы",
-        "https://drive.google.com/file/d/1q54euKlXcPSPcNk0cz7sXZiQZlxXBXDY/view?usp=sharing"
+        "https://drive.google.com/file/d/1JQCXNs5I2ixUFTCdVC8STIuP2nFZXtSf/view?usp=drive_link"
     ],
     [
         "Мишель",
-        "https://drive.google.com/file/d/1zogmrvmKRFatkB97yETJ4s_SR_Sc6PXk/view?usp=sharing"
+        "https://drive.google.com/file/d/1UJlZ7rg8r64xDYflVFYZ4iw3KS5EKatv/view?usp=sharing"
     ],
     [
         "Мю",
-        "https://drive.google.com/file/d/1XKSlLgM8S0BicgagEas6EgnCYpnaKz8Q/view?usp=sharing"
+        "https://drive.google.com/file/d/1Qwf7ADf-ODkw-v9I0FXvAWwDYyS0wvtY/view?usp=drive_link"
     ],
     [
         "Нарм",
-        "https://drive.google.com/file/d/1-TNIRxGzz7Nd3QwwCrLRhHBhyWlON3lU/view?usp=sharing"
+        "https://drive.google.com/file/d/1m5BFIox7RkUuH6nKxt-GyrL3CN1KzOjf/view?usp=drive_link"
     ],
     [
         "Неемия",
-        "https://drive.google.com/file/d/1bhkf-S-oT5LDps8Dlavh26EQM7wyuQH1/view?usp=sharing"
+        "https://drive.google.com/file/d/1rPpFCMBXZ5IYIW4vEyFJx_u9SW6halVs/view?usp=drive_link"
     ],
     [
         "Нимфа",
-        "https://drive.google.com/file/d/1ysbvBh3bFFsSDjOiJLqltbTTvRmnC7Ja/view?usp=sharing"
+        "https://drive.google.com/file/d/1gEmweViDSAuWQHR52_2_zNRDesqaewFc/view?usp=drive_link"
     ],
 	[
         "Нож Марк и Ниндзя Гиндзу",
@@ -35864,11 +36209,11 @@ var confession = [
     ],
     [
         "Ноэми",
-        "https://drive.google.com/file/d/1LQyv1rEA4PUBZoNxfZhSCv0cKNoT9s_I/view?usp=sharing"
+        "https://drive.google.com/file/d/1CMOEBMsQqWyy4lNhVhHccQcz5EhJFg2S/view?usp=drive_link"
     ],
 	[
         "Норнорин",
-        "https://drive.google.com/file/d/1xZuuk-qhReqC09XltNBEEgzxlZrrqqvu/view?usp=sharing"
+        "https://drive.google.com/file/d/1fMIsSzkSjeHwiwRg1xXTdKrwWpDekaO1/view?usp=drive_link"
     ],
     [
         "Оборо",
@@ -35896,11 +36241,11 @@ var confession = [
     ],
     [
         "Патриция",
-        "https://drive.google.com/file/d/1ICL7XjXzlMLNhf0pFpa7-Mlem8e6GBqS/view?usp=sharing"
+        "https://drive.google.com/file/d/1dYvxVysGlDK4agg_vJKp57k22p9ANG0b/view?usp=drive_link"
     ],
     [
         "Патцир",
-        "https://drive.google.com/file/d/1NzGBCeeMFqVAxLWCKiTxoBjNNUfTz3g9/view?usp=sharing"
+        "https://drive.google.com/file/d/11F0WfnWTwR1uXZ2ITbqoMTTIHJpBOxkY/view?usp=drive_link"
     ],
     [
         "Пиротесс",
@@ -35908,19 +36253,19 @@ var confession = [
     ],
 	[
         "Суверен ледяной бездны",
-        "https://drive.google.com/file/d/14sZ5w6V8PcBUsxMFcOkqmOWRUD7gI9Yh/view?usp=sharing"
+        "https://drive.google.com/file/d/1atsuRwphjD5mQ8bh1NcIs7i2j-R1GP8q/view?usp=drive_link"
     ],
     [
         "Полиал",
-        "https://drive.google.com/file/d/1iLG9XIoglnP9MVf77Z_Kjv2IyudL5QS4/view?usp=sharing"
+        "https://drive.google.com/file/d/1L11WmF2MH-HHfD_et6byUZ4hVVlVQm6c/view?usp=drive_link"
     ],
     [
         "Преция",
-        "https://drive.google.com/file/d/1EFmBQAtzSp_A2bGbakEue106YKKkQO4Q/view?usp=sharing"
+        "https://drive.google.com/file/d/1PrjEu5JEn_UKLkt_PG0F_RbjSCXXf37M/view?usp=drive_link"
     ],
     [
         "Пробужденная",
-        "https://drive.google.com/file/d/1-8Py-CDCX0xK3Z9jPHwxVUN4pSyTSjFH/view?usp=sharing"
+        "https://drive.google.com/file/d/1M9wJwt3B3Kke9hcXg5crsJmrzbY88a6q/view?usp=drive_link"
     ],
     [
         "Пьер",
@@ -35928,7 +36273,7 @@ var confession = [
     ],
 	[
         "Ланделл",
-        "https://drive.google.com/file/d/1h0xC3SqXtrPlwe-Kdjh9HgaIgt_UrlNr/view?usp=sharing"
+        "https://drive.google.com/file/d/1u-fJwxvrx-hN2tUAbyqKG_UKTB1Shlgz/view?usp=drive_link"
     ],
     [
         "Рё",
@@ -35940,7 +36285,7 @@ var confession = [
     ],
     [
         "Рената",
-        "https://drive.google.com/file/d/1D_JV_JtgS7HXiunja5kkdGM9ZvbhRlhS/view?usp=sharing"
+        "https://drive.google.com/file/d/1AYAAVRI35Zk4CgUfZftxT44jG6ygmZoJ/view?usp=drive_link"
     ],
     [
         "Рене",
@@ -35956,11 +36301,11 @@ var confession = [
     ],
     [
         "Розалия",
-        "https://drive.google.com/file/d/1UAl18uthrNqd-jXu8hCWvHYbRbWwan1L/view?usp=sharing"
+        "https://drive.google.com/file/d/1vJ4v-tB_QLNxXc9iTmP9QY8aTcWfSDY-/view?usp=drive_link"
     ],
     [
         "Розенцель",
-        "https://drive.google.com/file/d/1bjD5FXeXHapyzkf1Xy6SFe0c8fq9mOVv/view?usp=sharing"
+        "https://drive.google.com/file/d/16D8wkge1QVdJSCAYAT1D_vr4osvumauo/view?usp=drive_link"
     ],
     [
         "Роланд",
@@ -35972,11 +36317,11 @@ var confession = [
     ],
     [
         "Рыцарь тайн",
-        "https://drive.google.com/file/d/1mbvgT85Hs9toyowa1tUCvoyrr7wH-gzo/view?usp=sharing"
+        "https://drive.google.com/file/d/1AkTgnrn7jsp-SPUTCRCG3FBqoQEudkOo/view?usp=drive_link"
     ],
     [
         "Рэйчел",
-        "https://drive.google.com/file/d/1bB9fnsNwA4pKlZP7DM2u8j0Zj8FAdSCk/view?usp=sharing"
+        "https://drive.google.com/file/d/16ayQQo9Y0YsAbshv3DaYu0FGw8Uyx3Me/view?usp=drive_link"
     ],
     [
         "Сагани",
@@ -35988,19 +36333,19 @@ var confession = [
     ],
 	[
         "Сафрин",
-        "https://drive.google.com/file/d/1YvuNDLBnNgUl_XNM4Im5eJr2NuQdmztg/view?usp=sharing"
+        "https://drive.google.com/file/d/1ObmaQuKtD0fj4YdD7etwUTIXsRAeEcmJ/view?usp=drive_link"
     ],
     [
         "Светоносец",
-        "https://drive.google.com/file/d/1zsGCodgUb4gepNcnBkF4BkpoSOrtOX-h/view?usp=sharing"
+        "https://drive.google.com/file/d/1OaxyOmF2STH_OOB3n8Mofv44XX5ZTUJ4/view?usp=drive_link"
     ],
     [
         "Селина",
-        "https://drive.google.com/file/d/1ct_tRgQ1SG1m6-2TW8uVmxYoAq9WZ21f/view?usp=sharing"
+        "https://drive.google.com/file/d/1iuoFtxBKZtvRNP4ybOnbKTJLaTrqSlrY/view?usp=drive_link"
     ],
 	[
         "Селика",
-        "https://drive.google.com/file/d/1i0FjtAR9GqVzS1rA4687alIwZ1yuSit2/view?usp=sharing"
+        "https://drive.google.com/file/d/1QxHzbvipJrqASlAKwlzlPVFWI1jYWph_/view?usp=drive_link"
     ],
     [
         "Сельвария",
@@ -36008,7 +36353,7 @@ var confession = [
     ],
 	[
         "Серафина",
-        "https://drive.google.com/file/d/18H3FFVl777QCG2noWv2Jyb7FPc0cmAFG/view?usp=sharing"
+        "https://drive.google.com/file/d/1-yQo8TQKGi0ddgkR_CbAZkuS33DpCszj/view?usp=drive_link"
     ],
     [
         "Серебряный Волк",
@@ -36028,7 +36373,7 @@ var confession = [
     ],
     [
         "Сисси Уайт",
-        "https://drive.google.com/file/d/1NumAk_92UJeMH-hD57GmLb1S0uZusEev/view?usp=sharing"
+        "https://drive.google.com/file/d/1LsG1h_Khlc74qJUXKBq93DH6rTMHeLFF/view?usp=drive_link"
     ],
     [
         "Скотт",
@@ -36036,7 +36381,7 @@ var confession = [
     ],
     [
         "Соня",
-        "https://drive.google.com/file/d/1msJtA91mFEjxvkiMajnXxgE7NB36tkE1/view?usp=sharing"
+        "https://drive.google.com/file/d/1hW4h-JJCkoHN_jDZaDN2Rs3VNE3w5OH-/view?usp=drive_link"
     ],
     [
         "Соня Бланш",
@@ -36044,11 +36389,11 @@ var confession = [
     ],
     [
         "София",
-        "https://drive.google.com/file/d/1vGgsZFLVFfFVxgwE-HRmGyzwv-8KQ70z/view?usp=sharing"
+        "https://drive.google.com/file/d/1bGtGg68SILwI1QECsdR4rGg1w7hoZ1PQ/view?usp=drive_link"
     ],
     [
         "Странствующий дуэлянт",
-        "https://drive.google.com/file/d/1M3XSYrFvc38c3Ymm9067Z-lAQxYdxEIK/view?usp=sharing"
+        "https://drive.google.com/file/d/1bQQEu93rPlGjpqXGwZ2Ne92ur0pT0XpI/view?usp=drive_link"
     ],
     [
         "Сумире",
@@ -36060,11 +36405,11 @@ var confession = [
     ],
 	[
         "Табрес",
-        ""
+        "https://drive.google.com/file/d/1wJT7FnttiaQdUvIT7MgaYM01kq-YjJwc/view?usp=drive_link"
     ],
     [
         "Таталия",
-        "https://drive.google.com/file/d/1hndIR7a572Ot-wG5wiSVb00bbK01K4wN/view?usp=sharing"
+        "https://drive.google.com/file/d/1m9YjbdFV1dzwmTpAr4y5RU2xm-QEFpJW/view?usp=drive_link"
     ],
     [
         "Теон",
@@ -36072,11 +36417,11 @@ var confession = [
     ],
 	[
         "Тиана",
-        ""
+        "https://drive.google.com/file/d/1_yRZ9zupjVOYztpTF-UmEjPRg9b6URbh/view?usp=drive_link"
     ],
     [
         "Тиарис",
-        "https://drive.google.com/file/d/1RllpKc3IXHeK6hRNFY149ldsyddFGATx/view?usp=sharing"
+        "https://drive.google.com/file/d/1a1vLIIICmUmacH2H1G8e2Z0feP2M58ys/view?usp=drive_link"
     ],
 	[
         "Тирантир",
@@ -36084,7 +36429,7 @@ var confession = [
     ],
     [
         "Това",
-        "https://drive.google.com/file/d/1XznbwhD4Cdqlkw1moU8o8E88ofQdpi6v/view?usp=sharing"
+        "https://drive.google.com/file/d/1JcgoNqen0Qyc2f_RCWLaSoQ1rcfe5flp/view?usp=drive_link"
     ],
     [
         "Тогуро",
@@ -36096,7 +36441,7 @@ var confession = [
     ],
     [
         "Тормил",
-        "https://drive.google.com/file/d/1WdSUYbdHj4cGQfXruGUXGGr6O2t64KEE/view?usp=sharing"
+        "https://drive.google.com/file/d/18sa_JqcieCfbuSCWvA3eD_bJuwj3B7yO/view?usp=drive_link"
     ],
     [
         "Трансцендентный",
@@ -36104,15 +36449,15 @@ var confession = [
     ],
     [
         "Феракуа",
-        "https://drive.google.com/file/d/12iJee8wup9sx1Fd2ApSSxsmbwY-xcm5K/view?usp=sharing"
+        "https://drive.google.com/file/d/1iZ40HgLONaJIpYWwSLUXJfaZIdWxyGrb/view?usp=drive_link"
     ],
     [
         "Флоренция",
-        "https://drive.google.com/file/d/1BTYiQUoL4gJR5X2PiPTwLC3rK3NOSid6/view?usp=sharing"
+        "https://drive.google.com/file/d/17nd_T8mFh6XVxc8lSJfj-nAXEAakT5u1/view?usp=drive_link"
     ],
     [
         "Фрейя",
-        "https://drive.google.com/file/d/1DJWsa1r30sJIoAYJpsukjxUTGZqgL-hL/view?usp=sharing"
+        "https://drive.google.com/file/d/10IdlxVvubIcQ-Ti8oiyzJMSUZSc-8gm1/view?usp=drive_link"
     ],
     [
         "Хейн",
@@ -36120,7 +36465,7 @@ var confession = [
     ],
     [
         "Хелена",
-        "https://drive.google.com/file/d/13tTSazHX7YeKXq6o-lX_WQD7ASrC5wBj/view?usp=sharing"
+        "https://drive.google.com/file/d/1XOeXnlTGgsK8fESmwjJLHQuiU4OUE2RS/view?usp=drive_link"
     ],
     [
         "Хией",
@@ -36128,7 +36473,7 @@ var confession = [
     ],
     [
         "Хильда",
-        "https://drive.google.com/file/d/1D3LPIAS4oL0FB1tfwzqQxHxU7N2i46G-/view?usp=sharing"
+        "https://drive.google.com/file/d/1LHIJxf8Jf5cyR445Hd7HdX_LFNHoq4FL/view?usp=drive_link"
     ],
     [
         "Химико",
@@ -36140,7 +36485,7 @@ var confession = [
     ],
     [
         "Цубамэ",
-        "https://drive.google.com/file/d/1Vp8pjNp1jP26D4Kz_rCEqhKTk1ol3qz0/view?usp=sharing"
+        "https://drive.google.com/file/d/1ivL71NalVyHo65nLmpHO8eZFdWVGZ_cR/view?usp=drive_link"
     ],
     [
         "Шалтир",
@@ -36148,15 +36493,15 @@ var confession = [
     ],
     [
         "Шельфаниэль",
-        "https://drive.google.com/file/d/17V0SJ87w0PMr84tUp9lF3Mdr3R6HIzRb/view?usp=sharing"
+        "https://drive.google.com/file/d/1HoOYmpRPluBknE0iR18WO0PSzkSROvxw/view?usp=drive_link"
     ],
     [
         "Шери",
-        "https://drive.google.com/file/d/1cv7cDd8pFpT-4WMb2mKpl0XIlNPgk0hZ/view?usp=sharing"
+        "https://drive.google.com/file/d/1NGubPDt6nv9XCrYANpnkx-j2t8SgN7IJ/view?usp=drive_link"
     ],
     [
         "Шилинка",
-        "https://drive.google.com/file/d/1mvTMOxq6grF-DG7137O-9nMrzi6iyZeE/view?usp=sharing"
+        "https://drive.google.com/file/d/1AL3DWy5PZBM-eMdfiL2udWZ_18p_cCnq/view?usp=drive_link"
     ],
 	[
         "Зион",
@@ -36184,11 +36529,11 @@ var confession = [
     ],
     [
         "Элисса",
-        "https://drive.google.com/file/d/1XMHtZElhSk93fUT8yqvRktbjhqSBKO9z/view?usp=sharing"
+        "https://drive.google.com/file/d/1Ii5Oi2UfWulklgJ08s-oPs9g6S7_vS61/view?usp=drive_link"
     ],
     [
         "Эльма",
-        "https://drive.google.com/file/d/1jrbZgyv-w8bt4lirljKbB64CD2VLxn0z/view?usp=sharing"
+        "https://drive.google.com/file/d/1YccsXfWTGvOpuH2hJ_XEAvTRBKA0hyJ3/view?usp=drive_link"
     ],
     [
         "Эмерик",
@@ -36196,11 +36541,11 @@ var confession = [
     ],
     [
         "Эмилия",
-        "https://drive.google.com/file/d/14V890c_NaQf4GhsSBZxbpIJ6jJlz6ldc/view?usp=sharing"
+        "https://drive.google.com/file/d/1zB0JQjt1S6qfrLmkSJQUyvuSLnnxJp4_/view?usp=drive_link"
     ],
     [
         "Эния",
-        "https://drive.google.com/file/d/1i7dN5UF7cGwXP_tzIOBvnzVK4GuJy8sm/view?usp=sharing"
+        "https://drive.google.com/file/d/1lYhrZE-o2CaZJ5bKmH9QKeb140-HOCrl/view?usp=drive_link"
     ],
     [
         "Эпсилон",
@@ -36212,15 +36557,15 @@ var confession = [
     ],
     [
         "Эйшин",
-        "https://drive.google.com/file/d/1ikIyw4lqjNMbOQtekk4gGFX9c3fGHhnb/view?usp=sharing"
+        "https://drive.google.com/file/d/1MG0tJ_Rk0FLBlOvjB8dejrj_mYF1E9Ij/view?usp=drive_link"
     ],
     [
         "Юлия",
-        "https://drive.google.com/file/d/1AE81bT28ENxviCsC7Adt93VhMmuBRmnO/view?usp=sharing"
+        "https://drive.google.com/file/d/1kTrH8h3BsvCEKVDIgwOcdv04ND2eEhgV/view?usp=drive_link"
     ],
     [
         "Юная Джессика",
-        "https://drive.google.com/file/d/1ZZCImivzfSIJWFpWdwTMvwNPhY7Dj3me/view?usp=sharing"
+        "https://drive.google.com/file/d/1-jtdQyhBR6Yj5YZOkVsn_nqqDt01rkb_/view?usp=drive_link"
     ],
     [
         "Юске",
@@ -36245,7 +36590,28 @@ var confession = [
     [
         "Силрна",
         ""
+    ],
+	[
+        "Макаера",
+        ""
+    ],
+	[
+        "Шем",
+        ""
+    ],
+	[
+        "Глаз обмана",
+        ""
+    ],
+	[
+        "Абишай",
+        ""
+    ],
+	[
+        "Лукман",
+        ""
     ]
+	
 ]
 
 var startB = [
@@ -38551,6 +38917,26 @@ var startB = [
     ],
     [
         "Глаз обмана",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+    ],
+    [
+        "Абишай",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+    ],
+    [
+        "Лукман",
         "",
         "",
         "",
@@ -40864,6 +41250,26 @@ var basicB = [
     ],
     [
         "Глаз обмана",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+    ],
+    [
+        "Абишай",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+    ],
+    [
+        "Лукман",
         "",
         "",
         "",
@@ -44097,6 +44503,34 @@ var pveB = [
     ],
     [
         "Глаз обмана",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+    ],
+    [
+        "Абишай",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+    ],
+    [
+        "Лукман",
         "",
         "",
         "",
@@ -47565,6 +47999,34 @@ var pvpB = [
     [
         "Глаз обмана",
         "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+    ],
+    [
+        "Абишай",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+    ],
+    [
+        "Лукман",
         "",
         "",
         "",

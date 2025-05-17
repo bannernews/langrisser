@@ -293,3 +293,6 @@ body{
 	box-shadow: 0 0 20px white;
 	cursor:pointer;
 }
+#conf-syl:visited{
+	color:blue;
+}
