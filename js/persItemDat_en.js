@@ -1608,6 +1608,21 @@ var persItemDat = [
         "ОЗ +10%. В бою с врагом, на котором есть [Заклинание], ИНТ и АТК юнита увеличивается на 15%. Когда герой умирает, накладывает [Заклинание] на всех врагов в радиусе 1 клетки от источника урона.",
         "HP +10%. When fighting an enemy with [Spell], unit INT and ATK increases by 15%. When a hero dies, casts [Spell] on all enemies within a 1 cell radius of the source of damage."
     ],
+	[
+        "Ланделл",
+        "Randele",
+        "Глобал - 02.10.2025",
+        "Global - 02.10.2025",
+        "body",
+        "583",
+        "",
+        "",
+        "54",
+        "",
+        "",
+        "МЗАЩ +10%. Когда у героя есть умение [Темное измерение ящика], в конце хода может выбрать использовать несколько слоев [Отрывок Хаоса] чтоб применить [Темное измерение ящика] к такому же количеству союзников. При получении [Отрывок Хаоса], если их количество достигло верхнего предела, снижает перезарядку умения с самым большим временем перезарядки на 1.",
+        "MDEF +10%. When the hero has the [Dark Realm of the Box] skill, at the end of the turn can choose to use multiple layers of [Chaos Excerpt] to apply [Dark Realm of the Box] to the same number of allies. Before receiving [Chaos Excerpt], if their number has reached the upper limit, reduces the cooldown of the skill with the longest cooldown by 1."
+    ],
     [
         "Рэйчел",
         "Rachel",

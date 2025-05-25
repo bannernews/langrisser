@@ -2420,7 +2420,7 @@ var dataTable = [
         "35",
         "35",
         "15",
-        "Рогатый дино,Костяной дино,Механический рыцарь,Малый бес,Летучая мышь-вампир,Темный эльф,Темный эльф-снайпер,Ведьма,Колдун,Колдунья,Темный алхимик,Фея-ворожея,Святой рыцарь,Рыцарь-нежить,Паучий эльф-демон,Призрак тумана",
+        "Рогатый дино,Костяной дино,Механический рыцарь,Малый бес,Летучая мышь-вампир,Темный эльф,Темный эльф-снайпер,Ведьма,Колдун,Колдунья,Темный алхимик,Фея-ворожея,Святой рыцарь,Рыцарь-нежить,Паучий эльф-демон,Призрак тумана,Рыцарь-тамплиер SP",
         "",
         "посох",
         "тяжелая",
@@ -3013,7 +3013,7 @@ var dataTable = [
         "Джо и Конни",
         "ИМП,МС,РЕ",
         "SSR",
-        "",
+        "forge",
         "",
         "М3",
         "AI Friends",
@@ -3027,7 +3027,7 @@ var dataTable = [
         "5",
         "",
         "HP +10%. When Joa is within 3 blocks, Connie's attack damage is increased by 15%. When Joa uses channel jamming, she can additionally gain: \"[Command] Enemy troops within 2 tiles around cannot be guarded when attacked by Connie\", lasts 2 rounds.",
-        "",
+        "Critical Damage +15%. When using [Code Refactoring], the cooldown of other skills is reduced by 2. If Joa is dead, he will be summoned again.",
         "20",
         "30",
         "30",
@@ -3134,7 +3134,7 @@ var dataTable = [
         "40",
         "15",
         "15",
-        "Баллиста,Темный эльф,Темный эльф-снайпер,Катапульта,Снайпер-подстрекатель,Засадный боец,Бандит,Безликий,Шиноби,Гоблин-рыцарь,Убийца из Ковчега,Скелет-лучник,Лучник адского пламени,Рыцарь-нежить,Клинок сумереченого крыла,Киборг-сосуд SP",
+        "Баллиста,Темный эльф,Темный эльф-снайпер,Катапульта,Снайпер-подстрекатель,Засадный боец,Бандит,Безликий,Шиноби,Гоблин-рыцарь,Убийца из Ковчега,Скелет-лучник,Лучник адского пламени,Рыцарь-нежить,Клинок сумереченого крыла,Киборг-сосуд SP,Рейнджер вихря SP",
         "",
         "нож,лук",
         "легкая",
@@ -3287,7 +3287,7 @@ var dataTable = [
         "35",
         "35",
         "10",
-        "Элитная пехота,Воин,Элитная кавалерия,Тяжелая кавалерия,Драгун,Небесный страж,Единорог,Всадник-грифон,Рыцарь-грифон,Меткий стрелок,Охотник на демонов,Конный лучник эльфов,Засадный боец,Бандит,Безликий,Шиноби,Ночной лесной эльф,Фея-ворожея",
+        "Элитная пехота,Воин,Элитная кавалерия,Тяжелая кавалерия,Драгун,Небесный страж,Единорог,Всадник-грифон,Рыцарь-грифон,Меткий стрелок,Охотник на демонов,Конный лучник эльфов,Засадный боец,Бандит,Безликий,Шиноби,Ночной лесной эльф,Фея-ворожея,Рейнджер вихря SP",
         "Гоблин-рыцарь",
         "нож,топор",
         "тяжелая",
@@ -3848,7 +3848,7 @@ var dataTable = [
         "40",
         "30",
         "10",
-        "Элитная пехота,Воин,Тяжелая пехота,Берсерк,Наемник пустыни,Элитная кавалерия,Тяжелая кавалерия,Единорог,Гигантский всадник-ящерица,Всадник-грифон,Рыцарь-грифон,Ангел,Рыцарь на механическом драконе,Боевой сокол,Всадник Эклиптического Дракона",
+        "Элитная пехота,Воин,Тяжелая пехота,Берсерк,Наемник пустыни,Элитная кавалерия,Тяжелая кавалерия,Единорог,Гигантский всадник-ящерица,Всадник-грифон,Рыцарь-грифон,Ангел,Рыцарь на механическом драконе,Боевой сокол,Всадник Эклиптического Дракона,Рыцарь-тамплиер SP",
         "",
         "меч,копье",
         "тяжелая",
@@ -5123,7 +5123,7 @@ var dataTable = [
         "40",
         "10",
         "10",
-        "Воин,Берсерк,Страж-пехотинец,Воин-варвар,Галантный дуэлянт,Клыкастый страж,Амазонка,Амазонка-чемпион,Копейщик авангарда,Страж государства,Осквернитель пламени,Всадник-грифон,Малый бес,Рыцарь-грифон,Железокрылый воин,Рыцарь на механическом драконе,Всадник Эклиптического Дракона,Покоритель клыков,Королевская кавалерия SP",
+        "Воин,Берсерк,Страж-пехотинец,Воин-варвар,Галантный дуэлянт,Клыкастый страж,Амазонка,Амазонка-чемпион,Копейщик авангарда,Страж государства,Осквернитель пламени,Всадник-грифон,Малый бес,Рыцарь-грифон,Железокрылый воин,Рыцарь на механическом драконе,Всадник Эклиптического Дракона,Покоритель клыков,Королевская кавалерия SP,Рыцарь-тамплиер SP",
         "Пегас звездной призмы",
         "меч,нож",
         "тяжелая",
@@ -7557,15 +7557,15 @@ var dataTable = [
         "Т",
         "Book of the Box",
         "Damage dealt increases by (15%, 20%, 25%, 30%), unit attack range + (1, 1, 2, 2).<br>At the start of battle, gain (1, 2, 3, 3) layers of [Chaos Excerpt]. At the end of the action, if unit moved 3 or more tiles in a round, gain 1 layer of [Chaos Excerpt], and the maximum number of layers is 5.<br>At the end of the action, can spend multiple [Chaos Excerpts] to cast [Box Dream Descent] on the same number of enemies: 'At the end of the action, if you move 3 or more cells in a round, the mobility in the next round will be -2, and the cooldown of the current skill with the shortest cooldown +1, cannot be dispelled, and lasts 1 round.'",
+        "Global - 02.10.2025",
+        "броня",
+        "583",
         "",
         "",
+        "54",
         "",
         "",
-        "",
-        "",
-        "",
-        "",
-        "",
+        "MDEF +10%. When the hero has the [Dark Realm of the Box] skill, at the end of the turn can choose to use multiple layers of [Chaos Excerpt] to apply [Dark Realm of the Box] to the same number of allies. Before receiving [Chaos Excerpt], if their number has reached the upper limit, reduces the cooldown of the skill with the longest cooldown by 1.",
         "",
         "30",
         "30",
@@ -7575,7 +7575,7 @@ var dataTable = [
         "",
         "посох,молот",
         "тканевая",
-        "0,2",
+        "0,2,3",
         "451,452",
         "Птица с поломанным крылом",
         "маг",
@@ -7807,7 +7807,7 @@ var dataTable = [
         "Рикки",
         "ГГ,ЛС,ГЙ",
         "SSR",
-        "",
+        "forge",
         "",
         "Л45",
         "Self-proclaimed hero",
@@ -7821,7 +7821,7 @@ var dataTable = [
         "4",
         "",
         "HP and DEF +5%. When battling enemies in this unit's defense direction, Hero Damage Dealt +10%. If there is an allied unit named \"Shelfaniel\" on the map, both units gain Skill Damage +5%.",
-        "",
+        "ATK and DEF +5%. When using a talent skill and selecting a defense direction, gains [command]: When allies in the defense direction receive damage from a ranged attack, they deal [fixed damage] equal to 1x Ricky's ATK to the enemy.",
         "25",
         "35",
         "30",
@@ -8340,7 +8340,7 @@ var dataTable = [
         "",
         "посох,молот",
         "тканевая",
-        "0,2",
+        "0,2,5",
         "446,447",
         "Вирелия",
         "маг",
@@ -9262,7 +9262,7 @@ var dataTable = [
         "418,419",
         "Эйшин",
         "Хофманн",
-        "",
+        "Элвис",
         "",
         "827",
         "153",
@@ -9305,7 +9305,7 @@ var dataTable = [
         "35",
         "30",
         "20",
-        "Темный эльф,Темный эльф-снайпер,Снайпер-подстрекатель,Засадный боец,Куноити,Бандит,Безликий,Танцующая в тумане,Гоблин-рыцарь,Ночной лесной эльф,Скелет-лучник,Лучник адского пламени,Призрак тумана,Получеловек-странник,Клинок сумереченого крыла",
+        "Темный эльф,Темный эльф-снайпер,Снайпер-подстрекатель,Засадный боец,Куноити,Бандит,Безликий,Танцующая в тумане,Гоблин-рыцарь,Ночной лесной эльф,Скелет-лучник,Лучник адского пламени,Призрак тумана,Получеловек-странник,Клинок сумереченого крыла,Рейнджер вихря SP",
         "",
         "нож,лук",
         "легкая",
@@ -9356,7 +9356,7 @@ var dataTable = [
         "25",
         "30",
         "15",
-        "Эльф,Темный эльф,Эльф-мастер,Темный эльф-снайпер,Снайпер-подстрекатель,Засадный боец,Куноити,Бандит,Танцующая в тумане,Гоблин-рыцарь,Ночной лесной эльф,Убийца из Ковчега",
+        "Эльф,Темный эльф,Эльф-мастер,Темный эльф-снайпер,Снайпер-подстрекатель,Засадный боец,Куноити,Бандит,Танцующая в тумане,Гоблин-рыцарь,Ночной лесной эльф,Убийца из Ковчега,Рейнджер вихря SP",
         "",
         "нож,лук",
         "легкая",
@@ -9407,7 +9407,7 @@ var dataTable = [
         "35",
         "30",
         "15",
-        "Служанка,Служанка в маске,Королевский страж,Амазонка,Амазонка-чемпион,Солдат фаланги,Темный эльф,Темный эльф-снайпер,Экспедиция по природе,Куноити,Танцующая в тумане,Безликий",
+        "Служанка,Служанка в маске,Королевский страж,Амазонка,Амазонка-чемпион,Солдат фаланги,Темный эльф,Темный эльф-снайпер,Экспедиция по природе,Куноити,Танцующая в тумане,Безликий,Рейнджер вихря SP",
         "",
         "копье,нож",
         "тяжелая",
@@ -9509,7 +9509,7 @@ var dataTable = [
         "35",
         "20",
         "20",
-        "Элитная пехота,Страж-пехотинец,Клыкастый страж,Элитный копейщик,Фаланга,Элитная кавалерия,Страж-кавалерист,Осквернитель пламени,Всадник-грифон,Рыцарь-грифон,Железокрылый воин,Солдат-драконианец,Рыцарь на механическом драконе,Всадник Эклиптического Дракона,Покоритель клыков,Королевская кавалерия SP",
+        "Элитная пехота,Страж-пехотинец,Клыкастый страж,Элитный копейщик,Фаланга,Элитная кавалерия,Страж-кавалерист,Осквернитель пламени,Всадник-грифон,Рыцарь-грифон,Железокрылый воин,Солдат-драконианец,Рыцарь на механическом драконе,Всадник Эклиптического Дракона,Покоритель клыков,Королевская кавалерия SP,Рыцарь-тамплиер SP",
         "",
         "меч,топор",
         "тяжелая",
@@ -10231,7 +10231,7 @@ var dataTable = [
         "360,361",
         "мечник",
         "Эйшин",
-        "Эйшин",
+        "Эйшин,Лея",
         "Табрес",
         "700",
         "22",
@@ -10529,7 +10529,7 @@ var dataTable = [
         "40",
         "15",
         "20",
-        "Элитная пехота,Воин,Тяжелая пехота,Берсерк,Галантный дуэлянт,Всадник-грифон,Рыцарь-грифон,Рыцарь на механическом драконе,Железокрылый воин,Элитная кавалерия,Тяжелая кавалерия,Золотой рыцарь,Гигантский всадник-ящерица,Покоритель клыков,Солдат-драконианец SP,Королевская кавалерия SP",
+        "Элитная пехота,Воин,Тяжелая пехота,Берсерк,Галантный дуэлянт,Всадник-грифон,Рыцарь-грифон,Рыцарь на механическом драконе,Железокрылый воин,Элитная кавалерия,Тяжелая кавалерия,Золотой рыцарь,Гигантский всадник-ящерица,Покоритель клыков,Солдат-драконианец SP,Королевская кавалерия SP,Рыцарь-тамплиер SP",
         "",
         "меч,копье",
         "тяжелая",
@@ -11880,6 +11880,108 @@ var dataTable = [
         "",
         "175,97",
         "947",
+        "",
+        ""
+    ],
+	[
+        "Лея",
+        "ЛС,МС,МУ",
+        "SSR",
+        "",
+        "",
+        "Т",
+        "Glory of the Dawn",
+        "ATK and DEF increase by (10, 15, 20, 25)%.<br>Before using an active skill, gains [Radiance]: immunity and reflection to 'unable to use active skills' effect, lasts 1 turn, cannot be dispell. When gaining [Radiance] again, its duration is refreshed and the duration is increased by 1 turn (maximum 5).If the skill deals damage to an enemy, the duration of the buffs on the hero does not decrease and can move another 3 tiles and attack again. (Cooldown: the effect of the repeated action can occur again after (4, 3, 2, 2) turns).",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "30",
+        "30",
+        "20",
+        "20",
+        "Служанка,Служанка в маске,Королевский страж,Элитная кавалерия,Королевская кавалерия,Рыцарь-тамплиер,Всадник-грифон,Всадник-пегас,Рыцарь-грифон,Ангел,Святой пегас,Железокрылый воин,Рыцарь на механическом драконе",
+        "",
+        "меч,копье",
+        "тяжелая",
+        "0,2",
+        "472,473",
+        "Хофманн",
+        "",
+        "",
+        "",
+        "949",
+        "71",
+        "",
+        "23",
+        "",
+        "",
+        "950",
+        "",
+        "",
+        "164,4",
+        "",
+        "",
+        "",
+        "153,117",
+        "951",
+        "",
+        ""
+    ],
+	[
+        "Элвис",
+        "ЛС,ТР,МУ",
+        "SSR",
+        "",
+        "",
+        "Т",
+        "Sins of the Dead",
+        "ATK increases by (10, 15, 20, 25)%.<br>At the end of the turn, if hero is in the [danger zone], he gets 'ignores the guard effect when actively attacking' and [death contract] for 1 turn: cannot be targeted by normal attacks and enemy skills. This effect is removed by taking damage or entering combat. When removed, a repeated action is received and the number of turns of buffs on the hero does not decrease. The repeated action is triggered only once per round. Both received effects cannot be removed. (trigger cooldown: can be triggered again after (4, 3, 2, 2) turns).",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "25",
+        "40",
+        "10",
+        "25",
+        "Орк,Орк-берсерк,Воин-варвар,Галантный дуэлянт,Рогатый дино,Костяной дино,Гигантский всадник-ящерица,Малый бес,Горгулья,Солдат-драконианец,Воин-скелет,Рыцарь-скелет,Сталегривый оборотень",
+        "",
+        "копье,топор",
+        "легкая",
+        "0,2",
+        "474,475",
+        "Табрес",
+        "",
+        "",
+        "",
+        "953",
+        "119",
+        "",
+        "118",
+        "",
+        "",
+        "954",
+        "",
+        "",
+        "6,27",
+        "",
+        "",
+        "",
+        "110,4",
+        "955",
         "",
         ""
     ]
@@ -20363,6 +20465,78 @@ var classStats = [
 		"If a unit's HP is less than 70%, damage dealt in battle is increased by 10%.",
         "C",
         ""
+    ],
+	[
+        "Лея",
+        "",
+        "fly",
+        "4106",
+        "600",
+        "220",
+        "301",
+        "321",
+        "185",
+        "1",
+        "5",
+        "полет",
+        "When actively attack and entering battle, received damage in the battle is reduced by 10%.",
+		"For each tile moved before the attack, damage dealt increases by 3% (up to a maximum of 15%).",
+        "A",
+        "A"
+    ],
+	[
+        "Лея",
+        "",
+        "sword",
+        "4411",
+        "600",
+        "242",
+        "301",
+        "286",
+        "237",
+        "1",
+        "3",
+        "ходьба",
+        "When attacked in close combat, received damage in combat is reduced by 10%.",
+		"АоЕ damage increase by 10%.",
+        "C",
+        "C"
+    ],
+	[
+        "Элвис",
+        "",
+        "demon",
+        "4549",
+        "602",
+        "265",
+        "350",
+        "292",
+        "161",
+        "1",
+        "3",
+        "ходьба",
+        "Received АоЕ damage decrease by 10%.",
+		"When attacking an enemy with a high HP, damage dealt in battle increases by 10%.",
+        "A",
+        "A"
+    ],
+	[
+        "Элвис",
+        "",
+        "fly",
+        "4222",
+        "602",
+        "265",
+        "323",
+        "292",
+        "161",
+        "1",
+        "5",
+        "полет",
+        "When in a dangerous zone, chance of receiving a critical hit is reduced by 10%.",
+		"When hero has 5 or more buffs, damage dealt in battle increases by 10%.",
+        "C",
+        "C"
     ]
 ]
 
@@ -20598,8 +20772,10 @@ var heroList = [
 			"Шем",
 			"Глаз обмана",
 			"Абишай",
-			"Лукман"
-];
+			"Лукман",
+			"Лея",
+			"Элвис"
+]
 
 var heroList_en = [
 	"Aaron",
@@ -20833,7 +21009,9 @@ var heroList_en = [
 	"Shem",
 	"Gazesuccubus",
 	"Abishai",
-	"Lukhmaan"
+	"Lukhmaan",
+	"Reah",
+	"Elvis"
 ]
 
 var persSkills = [
@@ -30306,6 +30484,86 @@ var persSkills = [
         "one target",
         "5",
         "[Command] When an ally with the [Unity] effect passes through another ally with the same effect, they do not spend mobility points.<br>[Passive] For each ally with the [Unity] effect within 3 tiles damage dealt increases by 10% (up to 30%).<br>[Phys. Damage] Attacks one enemy dealing 1.8x damage and removes 5 buffs from the enemy before combat. If there is an ally with the [Unity] effect within 3 tiles, this attack ignores the Guard effect. If an enemy is killed by this skill, the cooldown of the attack skills of enemies within 2 rings around the target will be increased by 2."
+    ],
+    [
+        "Лея",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+    ],
+    [
+        "Oath of the Eternal Day",
+        "Клятва вечного дня",
+        "1",
+        "7",
+        "on self",
+        "one target",
+        "4",
+        "[Active] Used actively, applied the effect of [Oath of the Eternal Day]: When using AoE skills, their span is +1. Lasts 2 turns, cannot be removed.<br>If the character has no debuffs (including debuffs from auras), after use can perform an additional action. Mobility is equal to the remaining mobility at the time of using the skill. (after use, the duration of buffs does not decrease)."
+    ],
+    [
+        "Dark Blade: Flash",
+        "Темный клинок - вспышка",
+        "2",
+        "2",
+        "3",
+        "straight",
+        "",
+        "[Phys. Damage] Attacks all enemies in 3 straight lines, dealing 0.15x AoE damage and disabling enemy armor skills (except max HP) for 2 turns. If the target is an NPC, the effect is replaced with 'DEF -25%', lasts 2 turns. After use, the skill switches to [Dark Blade: Slash].<br><br>Dark Blade: Slash<br>cooldown: -, range: 3, span: straight<br>[Phys. Damage] Attacks all enemies in a straight line, dealing 0.15x AoE damage. When attacking, the unit is teleported to the farthest point in the skill's range and [Sword Dance] skill is automatically used. If this skill hits an enemy, an additional layer of [Radiance] will be gained. After use switches to [Dark Blade: Flash]."
+    ],
+    [
+        "Star Rainbow of Unity",
+        "Звездная Радуга Единства",
+        "3",
+        "2",
+        "on self",
+        "1 ring",
+        "5",
+        "[Passive] When [Radiance] is in effect, this unit will attack first when forced into battle. After battle, restores HP by 20% of the damage dealt during battle.<br>[Phys. Damage] Deals 0.36x AoE damage within a radius of 1 ring. Before dealing damage, steals 1 buff from each enemy hit for each remaining turn of [Radiance] (max 3). If the remaining duration of [Radiance] is 5 or more, the maximum duration of [Radiance] is reset to 1 turn; the hero gains the effect of 'instantly kills enemies with HP less than 15% after dealing damage', lasting for 2 turns (in PVE mode, this is replaced by 'deals a fixed damage equal to 20% of the missing HP, not exceeding 5x the hero's ATK')."
+    ],
+    [
+        "Элвис",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+    ],
+    [
+        "Soul Eater",
+        "Пожиратель душ",
+        "1",
+        "5",
+        "",
+        "",
+        "",
+        "[Passive] After an active attack and killing an enemy, restores 50% of HP and receives 3 dispell enemy buffs."
+    ],
+    [
+        "Soul Destroyer",
+        "Разрушитель душ",
+        "2",
+        "2",
+        "2",
+        "one target",
+        "2",
+        "[Phys. Damage] Attacks one enemy, dealing 1.5x damage. After combat, applies 'unable to use active skills' on the enemy for 2 turns. If this attack is not protected by Guard, the target is stunned for 1 turn. Melee soldiers will also participate in the attack. This skill is not affected by melee damage reduction."
+    ],
+    [
+        "Eternal Night",
+        "Вечная ночь",
+        "3",
+        "2",
+        "2",
+        "one target",
+        "3",
+        "[Passive] When the unit's HP is 100%, mobility is increased by 2 and AoE damage taken is reduced by 80%.<br>[Phys. Damage] Attacks one enemy, dealing 1.7x damage. After killing, gains 'ignores guard effect when actively attacking' and [death contract] for 1 turn, which cannot be immune or removed. If this attack is not protected by a guard, damage dealt increases by 30% and the cooldown of damage-dealing skills is reduced by 1 turn after the battle. Melee soldiers will also participate in the attack. This skill is not affected by melee damage reduction."
     ]
 ]
 
@@ -34349,7 +34607,7 @@ var builds = [
         "3",
         "Сбалансированный клинок,Алый жнец,Рагнарёк,Страж печати",
         "Благословение Тиамат,Доспехи хранителя,Последние обряды,Таинственный боевой доспех",
-        "Ярость Тюра,Перьевая корона Ньорда,Тень ночной совы",
+		"Ярость Тюра,Перьевая корона Ньорда,Тень ночной совы",
         "Апексовые сапоги,Крылья скрытого великолепия,Ботинки духа",
         "Призыватель волн,Посол острова"
     ],
@@ -34679,7 +34937,7 @@ var builds = [
         "3",
         "Красная луна,Чудесный посох,Дар вечной жизни",
         "Мантия Теннио,Ритуал замешательства",
-        "Завеса звезд,Головной убор Теннио,Повелитель разрядов",
+		"Завеса звезд,Головной убор Теннио,Повелитель разрядов",
         "Святое кольцо,Ползучий прилив",
         "Маг - ядовитая летучая мышь,Колдунья,Фокусник,Маг Святой Стражи"
     ],
@@ -35374,7 +35632,7 @@ var builds = [
         "Последние обряды",
         "Тень ночной совы,Зов вечности,Око Ермунганда",
         "Колокол эха Хексен,Лезвие воспоминаний",
-        "Кристальный чародей,Экспедиция по природе"
+        "Палубный стрелок,Экспедиция по природе"
     ],
     [
         "Силрна",
@@ -35433,6 +35691,28 @@ var builds = [
     ],
 	[
         "Лукман",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+    ],
+	[
+        "Лея",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+    ],
+	[
+        "Элвис",
         "",
         "",
         "",
@@ -35753,7 +36033,7 @@ var confession = [
     ],
     [
         "Альфа",
-        "https://drive.google.com/file/d/1r_K2v6ccRVFWtQ40WPdHtbFv02xSnAS4/view?usp=drive_link"
+        "https://drive.google.com/file/d/18G1cCQMkmOcGq1veyH8JQHI6jGzI86I7/view?usp=sharing"
     ],
     [
         "Альфред",
@@ -36165,7 +36445,7 @@ var confession = [
     ],
     [
         "Мариандель",
-        "https://drive.google.com/file/d/1gH6sBPPIUSV9FMZ1nnqWV6hqc2DQPml9/view?usp=drive_link"
+        "https://drive.google.com/file/d/1qUPWMXhwJVn9D5_xEeb79rg71TpsvDhX/view?usp=sharing"
     ],
     [
         "Мариэль",
@@ -36401,7 +36681,7 @@ var confession = [
     ],
     [
         "Сюзетт",
-        "https://drive.google.com/file/d/1j4uHAAiCG8NziLimsgc7sldM0t-Q9zVV/view?usp=sharing"
+        "https://drive.google.com/file/d/1zAtHibIMHmNcn3lceZE2F-xXSwpp9f77/view?usp=sharing"
     ],
 	[
         "Табрес",
@@ -36533,7 +36813,7 @@ var confession = [
     ],
     [
         "Эльма",
-        "https://drive.google.com/file/d/1YccsXfWTGvOpuH2hJ_XEAvTRBKA0hyJ3/view?usp=drive_link"
+        "https://drive.google.com/file/d/17A6DbCsqA-W_OAbmvg8uOo5TFillSOmP/view?usp=sharing"
     ],
     [
         "Эмерик",
@@ -36609,6 +36889,14 @@ var confession = [
     ],
 	[
         "Лукман",
+        ""
+    ],
+	[
+        "Лея",
+        ""
+    ],
+	[
+        "Элвис",
         ""
     ]
 	
@@ -38944,6 +39232,26 @@ var startB = [
         "",
         "",
         ""
+    ],
+    [
+        "Лея",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+    ],
+    [
+        "Элвис",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
     ]
 ]
 
@@ -41270,6 +41578,26 @@ var basicB = [
     ],
     [
         "Лукман",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+    ],
+    [
+        "Лея",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+    ],
+    [
+        "Элвис",
         "",
         "",
         "",
@@ -44531,6 +44859,34 @@ var pveB = [
     ],
     [
         "Лукман",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+    ],
+    [
+        "Лея",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+    ],
+    [
+        "Элвис",
         "",
         "",
         "",
@@ -48027,6 +48383,34 @@ var pvpB = [
     ],
     [
         "Лукман",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+    ],
+    [
+        "Лея",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+    ],
+    [
+        "Элвис",
         "",
         "",
         "",
