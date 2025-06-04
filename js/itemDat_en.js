@@ -522,7 +522,7 @@ var itemDat = [
     ],
     [
         "Сумеречная звезда",
-        "Twiight Star",
+        "Twilight Star",
         "accessoir",
         "",
         "75",
@@ -530,8 +530,8 @@ var itemDat = [
         "",
         "",
         "",
-        "АТК и ИНТ +5%. Перед инициированием боя наносит фиксированный урон в 1хАТК или ИНТ (смотря, что ниже). Если вражеский юнит состоит из смешанных войск, он не получает иммунитет к наносимому в этот раз урону.",
-        "ATK and INT +5%. Before initiating battle, deales fixed damage to the enemy 1 time, equal to 1x of hero's ATK of INT (whichever is lowest). If the enemy is formed of mixed units, they will not be unvulnerable to damage dealed this time.",
+        "АТК и ИНТ +5%. Перед инициированием боя наносит фиксированный урон в 1х АТК или ИНТ (смотря, что ниже). Если вражеский юнит состоит из смешанных войск, он не получает иммунитет к наносимому в этот раз урону.",
+        "ATK and INT +5%. Before initiating battle, deales fixed damage to the enemy 1 time, equal to 1x of hero's ATK or INT (whichever is lowest). If the enemy is formed of mixed units, they will not be unvulnerable to damage dealed this time.",
         "accs"
     ],
     [
