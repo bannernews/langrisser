@@ -7455,7 +7455,7 @@ var dataTable = [
         "М3",
         "Coming of Chaos",
         "Damage dealt is increased by (15,20,25,30)% and unit range is increased by (1,1,2,2). <br><br>After performing an action, casts [Spell] on two selected enemies: the healing applied and received will be reduced by 30%. When moving further than 2 blocks, each additional block consumes 1 additional mobility. Lasts 2 turns. Cannot be dispelled. ([Trigger cooldown] This effect can trigger every (3,3,2,2) turns.) <br><br>After death, places a [Dimension Gate] at the current location. At the beginning of the next turn, summons 1 double from another dimension. The twin's stats are reduced by 30% for all stats except HP. Disappears after 3 turns. If the twin kills an enemy, restores all HP and awakens again as an Awakened One. (This effect can be activated once per battle.)",
-        "Global - 05.06.2025",
+        "Prophecy of Ruin",
         "шапка",
         "364",
         "",
@@ -11584,8 +11584,8 @@ var dataTable = [
         "",
         "",
         "Т",
-        "Dream Master",
-        "Damage dealt is increased by (15%, 20%, 25%, 30%), unaffected by melee damage reduction. At the end of the duration, can summon 'Dream Rift'. After summoning, can take an additional action with the remaining mobility and attack again. When within 2 tiles of 'Dream Rift', Sylrna cannot be targeted by enemy normal attacks and skills, is immune to AoE damage, and will not consume mobility when moving within the radius of 'Dream Rift', and will ignore enemy unit obstacles. ([Trigger Cooldown] requires an interval of (5, 4, 3, 3) rounds before it can be activated again; 'Dream Rift' inherits 80% of the attributes when summoned, and disappears at the beginning of the second round after being summoned.)",
+        "Dreamworld Dominator",
+        "Damage dealt is increased by (15%, 20%, 25%, 30%), unaffected by melee damage reduction. At the end of the action, can summon 'Dreamworld Rift'. After summoning, can take an additional action with the remaining mobility and attack again. When within 2 tiles of 'Dreamworld Rift', Sylrna cannot be targeted by enemy normal attacks and skills, is immune to AoE damage and will not consume mobility when moving within the radius of 'Dreamworld Rift', and will ignore enemy unit obstacles. ([Trigger Cooldown] requires an interval of (5, 4, 3, 3) rounds before it can be activated again; 'Dreamworld Rift' inherits 80% of the attributes when summoned, and disappears at the beginning of the second round after being summoned.)",
         "",
         "",
         "",
@@ -30216,54 +30216,54 @@ var persSkills = [
         ""
     ],
 	[
-        "Sleep Rules",
-        "Правила сна",
+        "Dreamtide Edict",
+        "Эдикт прилива грез",
         "1",
         "5",
         "",
         "",
         "",
-        "[Passive] When a friendly 'Dream Rift' is within 2 tiles around the hero, the enemy will not be able to counterattack after hero actively attacking and entering battle. After the battle, the talent trigger's cooldown will be reduced by 1 turn."
+        "[Passive] When a friendly 'Dream Rift' is within 2 tiles around the hero, the enemy will not be able to counterattack after hero actively attacking and entering battle and after the battle, the talent trigger's cooldown will be reduced by 1 turn."
     ],
 	[
-        "Brand of Punishment",
-        "Клеймо наказания",
+        "Brand of Retribution",
+        "Клеймо возмездия",
         "1",
         "5",
         "",
         "",
         "",
-        "[Passive] When any unsummoned ally on the field dies, Sylrna's talent [Trigger Cooldown] is reduced by 1 round, and the damage source is given [Brand of Punishment], which ignores immunity and cannot be removed, lasts for 2 rounds. When fighting an enemy with [Brand of Punishment], the target cannot activate the [Fatal Damage Resistance] effect, and all attributes except HP will be reduced by 20%. When successfully defeating the enemy, the target will summon a phantom of the ally killed by the enemy. (The effect of not being able to activate [Fatal Damage Resistance] only works in PVP mode; 'Phantom' has the original unit state and is considered as Dark Reincarnation unit).<br><i>Note: When Sylrna has this skill, Enya cannot make a copy of her.</i>"
+        "[Passive] When any unsummoned ally on the field dies, Sylrna's talent [Trigger Cooldown] is reduced by 1 round and the damage source is afflicted with [Brand of Retribution], which ignores immunity and cannot be dispelled, lasts for 2 rounds. When fighting an enemy with [Brand of Retribution], the target cannot activate the [Fatal Damage Resistance] effect, and all attributes except HP will be reduced by 20%. When successfully defeating the enemy, summon a phantom of the ally killed by the enemy. (The effect of not being able to activate [Fatal Damage Resistance] only works in PVP mode; 'Phantom' has the original unit state and is considered as Dark Reincarnation unit).<br><i>Note: When Sylrna has this skill, Enya cannot make a copy of her.</i>"
     ],
 	[
-        "Dark Dream Reincarnation",
-        "Реинкарнация Темного сна",
+        "Cycle of Nightmares",
+        "Цикл кошмаров",
         "2",
         "9",
         "self",
         "all",
         "3",
-        "[Fusion Power] The offensive and defensive capabilities of all 'Dark Reincarnation' allies on the battlefield will be greatly improved. When actively attacking and entering battle, the damage dealt will be increased by 8%. Each time a unit dies, the damage will be increased by another 2%, up to a maximum of 8%, lasting for 4 rounds. (This effect cannot be combined with other Fusion Power skills)."
+        "[Fusion Power] The offensive and defensive capabilities of all 'Dark Reincarnation' allies on the battlefield will be greatly improved. When actively attacking and entering battle, the damage dealt will be increased by 8%. For each unit dies, the damage will be increased by another 2%, up to a maximum of 8%, lasting for 4 rounds. (This effect cannot be combined with other Fusion Power skills)."
     ],
 	[
-        "Blessing of Sleep",
-        "Благословение сна",
+        "Dream Aegis",
+        "Эгида мечты",
         "2",
         "3",
         "3",
         "one target",
         "2",
-        "[Assist] When used actively, can reduce the cooldown of all skills of the target ally by 3 turns, restore HP equal to 5x the caster's INT, and at the same time apply [Blessing of Dreams]: ''When within 2 tiles of a friendly 'Dream Rift', cannot be targeted by enemy normal attacks and skills, and is immune to AoE damage.'' Lasts for 2 rounds and cannot be dispelled."
+        "[Assist] When used actively, can reduce the cooldown of all skills of the target ally by 3 turns, restore HP equal to 5x the caster's INT, and at the same time apply [Dream Aegis]: 'When within 2 tiles of a friendly 'Dreamworld Rift', cannot be targeted by enemy normal attacks and skills, and is immune to AoE damage.' Lasts for 2 rounds and cannot be dispelled."
     ],
 	[
-        "Sea of ​​Final Dream",
-        "Море последней мечты",
+        "Dreamsea Ultimatum",
+        "Ультиматут морских грез",
         "3",
         "1",
         "2",
         "one target",
         "4",
-        "[Passive] After summoning 'Dream Rift', all allies of 'Dark Reincarnation' on the battlefield will have their offensive and defensive capabilities greatly improved. The damage dealt by active attacks will increase by 15%. When passing through a friendly 'Dream Rift', does not consume 1 tile of mobility, lasts for 4 rounds. (This effect cannot be combined with other Fusion Energy effects).<br>[Magic Damage] Attacks one enemy, dealing 1.7x damage, applies 'damage taken increased by 20%' and 'cannot be guarded, cannot be targeted by other friendly skills, and is not affected by other friendly skills (PVP mode only)', lasts for 2 rounds and cannot be dispelled. If there is a friendly Dream Rift within 2 blocks of the enemy, the Guard's effect will be ignored for this battle. After the battle, can teleport to any location within 2 cells of a friendly Dream Rift."
+        "[Passive] After summoning 'Dreamworld Rift', all allies of 'Dark Reincarnation' on the battlefield will have their offensive and defensive capabilities greatly improved. The damage dealt by active attacks will increase by 15%. When passing through a friendly 'Dreamworld Rift', does not consume 1 tile of mobility, lasts for 4 rounds. (This effect cannot be combined with other Fusion Energy effects).<br>[Magic Damage] Attacks one enemy, dealing 1.7x damage, applies 'damage taken increased by 20%' and 'cannot be guarded, cannot be targeted by other friendly skills, and is not affected by other friendly skills effects (PVP mode only)', lasts for 2 rounds and cannot be dispelled. If there is a friendly Dreamworld Rift within 2 blocks of the enemy, the Guard's effect will be ignored for this battle. After the battle, can teleport to any location within 2 tiles of a friendly Dreamworld Rift."
     ],
 	[
         "Макаера",
