@@ -216,6 +216,9 @@ body{
 .display_block{
 	display:block;
 }
+.display_table{
+	display:table-cell;
+}
 .box_shadow{
 	box-shadow: 0 0 26px white;
 }
@@ -233,4 +236,8 @@ body{
 }
 #left_filter:before{
 
+}
+#heroimg{
+	max-width:420px;
+	max-height:500px;
 }
