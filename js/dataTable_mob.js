@@ -449,7 +449,7 @@ if (dataTable[hero_number][46]!==''){
 	c3_pic.innerHTML='<span style="position:relative;width:100%;display:block;height:100px;"><img style="position:absolute;top:2px;left:2px;" src="images/skills/personal/'+persSkills[(dataTable[hero_number][46]-1)][1]+'.png" height="80px" /><img style="position:absolute;" src="images/Border_Icon_skill.png" height="84px" /><img style="position:absolute;top:73px;left:16px;" src="images/'+persSkills[(dataTable[hero_number][46]-1)][2]+'c.png" height="16px" /></span>';
 	c3_text.innerHTML = '<b style="font-size:larger;">'+persSkills[(dataTable[hero_number][46]-1)][1]+'</b><br><br><img src="images/sold_stats.png" height="20px"><span style="font-size:14px;display:inline-block;width:140px;vertical-align:super;margin-right:10px;">'+skill_type[persSkills[(dataTable[hero_number][46]-1)][3]]+'</span><img src="images/sold_stats.png" height="20px"><span style="font-size:14px;vertical-align:super;">Перезарядка: '+persSkills[(dataTable[hero_number][46]-1)][6]+'</span><br><img src="images/sold_stats.png" height="20px"><span style="font-size:14px;display:inline-block;width:140px;vertical-align:super;margin-right:10px;">Дальность: '+persSkills[(dataTable[hero_number][46]-1)][4]+'</span><img src="images/sold_stats.png" height="20px"><span style="font-size:14px;vertical-align:super;">Диапазон: '+persSkills[(dataTable[hero_number][46]-1)][5]+'</span>';
 	c3_desc.innerHTML = persSkills[(dataTable[hero_number][46]-1)][7];
-	c3_hero_pic.innerHTML = '<img src="images/heroes/heroes_list/'+ heroName +'/3C/3C.png" width="425px" />';
+	c3_hero_pic.innerHTML = '<img src="images/heroes/heroes_list/'+ heroName +'/3C/3C.png" height="400px" />';
 } else {
 	var prob_none = document.getElementById("h_info4");
 	prob_none.innerHTML = '';
@@ -1249,7 +1249,7 @@ fetter_title=document.getElementById("fetter_title");
 var imgFetter = new Image();
 imgFetter.src = "images/heroes/heroes_list/"+ heroName +"/Confession/Confession.jpg";
 imgFetter.onload = function(){
-	fetter_pic.innerHTML = '<img src="images/heroes/heroes_list/'+ heroName +'/Confession/Confession.jpg" height="400px" />';
+	fetter_pic.innerHTML = '<img src="images/heroes/heroes_list/'+ heroName +'/Confession/Confession.jpg" width="425px" />';
 	fetter_title.innerHTML += '<span style="line-height:2;display:block;width:120px;margin:0 auto;height:35px;">Признание  <img class="conf_hover" style="position:absolute;vertical-align:middle;cursor:pointer;" src="images/icon_confession.png" height="30px" onclick=window.open("'+confession[hero_number][1]+'","new_window"); /></span>';
 };
 imgFetter.onerror = function(){
