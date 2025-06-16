@@ -1249,7 +1249,7 @@ fetter_title=document.getElementById("fetter_title");
 var imgFetter = new Image();
 imgFetter.src = "images/heroes/heroes_list/"+ heroName +"/Confession/Confession.jpg";
 imgFetter.onload = function(){
-	fetter_pic.innerHTML = '<img src="images/heroes/heroes_list/'+ heroName +'/Confession/Confession.jpg" width="425px" />';
+	fetter_pic.innerHTML = '<img src="images/heroes/heroes_list/'+ heroName +'/Confession/Confession.jpg" height="400px" />';
 	fetter_title.innerHTML += '<span style="line-height:2;display:block;width:120px;margin:0 auto;height:35px;">Признание  <img class="conf_hover" style="position:absolute;vertical-align:middle;cursor:pointer;" src="images/icon_confession.png" height="30px" onclick=window.open("'+confession[hero_number][1]+'","new_window"); /></span>';
 };
 imgFetter.onerror = function(){
