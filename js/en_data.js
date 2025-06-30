@@ -2558,7 +2558,7 @@ var dataTable = [
         "",
         "",
         "Samurai Spirit",
-        "When 1 allied unit is attacked, they gain 1 [Soul of the Samurai]: ATK increases by (3,4,6,8)% and damage taken is reduced by (3,4,6,8)% for 4 turns. Can be stacked up to 4 times. Cannot be dispelled. When reaching 4 stacks, [Soul of the Samurai] enters the [Shiroyasha] state: mobility increases by 2, damage dealt in battle increases by 30%, and the unit attacks before the enemy. When an allied unit dies, it gains 4 stacks of [Soul of the Samurai]. If he have already taken an action this turn, he can take the action again. ([Shiroyash's] condition cannot be dispelled and ignores immunity, and the replay effect can only trigger once per turn.)",
+        "When 1 allied unit is attacked, they gain 1 [Soul of the Samurai]: ATK increases by (3,4,6,8)% and damage taken is reduced by (3,4,6,8)% for 4 turns. Can be stacked up to 4 times. Cannot be dispelled. When reaching 4 stacks, [Soul of the Samurai] enters the [Shiroyasha] state: mobility increases by 2, damage dealt in battle increases by 30%, and the unit attacks before the enemy. When an allied unit dies, it gains 4 stacks of [Soul of the Samurai]. If he have already taken an action this turn, he can take the action again. ([Shiroyasha's] condition cannot be dispelled and ignores immunity, and the replay effect can only trigger once per turn.)",
         "",
         "",
         "",
