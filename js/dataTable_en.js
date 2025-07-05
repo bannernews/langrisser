@@ -475,7 +475,7 @@ undw = "125px";
 cli = "235px";
 //1A
 if (dataTable[hero_number][34]=='' && dataTable[hero_number][35]==''){
-	if (heroName == 'Алканфель' || heroName == 'Макишима Агито' || heroName == 'Шо Фукамачи' || heroName == 'Мари Роуз' || heroName == 'Ниотэнгу' || heroName == 'Касуми'){
+	if (heroName == 'Алканфель' || heroName == 'Макишима Агито' || heroName == 'Шо Фукамачи' || heroName == 'Мари Роуз' || heroName == 'Ниотэнгу' || heroName == 'Касуми' || heroName == 'Люси' || heroName == 'Эльза' || heroName == 'Нацу'){
 		cl10.style.display = 'none';
 		cl11.style.width = "100%";
 		cl12.style.width = "0";
@@ -523,7 +523,7 @@ if (dataTable[hero_number][34]=='' && dataTable[hero_number][35]==''){
 
 //1B
 if (dataTable[hero_number][36]=='' && dataTable[hero_number][37]==''){
-	if (heroName == 'Алканфель' || heroName == 'Макишима Агито' || heroName == 'Шо Фукамачи' || heroName == 'Мари Роуз' || heroName == 'Ниотэнгу' || heroName == 'Касуми'){
+	if (heroName == 'Алканфель' || heroName == 'Макишима Агито' || heroName == 'Шо Фукамачи' || heroName == 'Мари Роуз' || heroName == 'Ниотэнгу' || heroName == 'Касуми' || heroName == 'Люси' || heroName == 'Эльза' || heroName == 'Нацу'){
 		cl10.style.display = 'none';
 		cl11.style.width = "100%";
 		cl12.style.width = "0";
@@ -568,7 +568,7 @@ if (dataTable[hero_number][36]=='' && dataTable[hero_number][37]==''){
 }
 //1C
 if (dataTable[hero_number][38]=='' && dataTable[hero_number][39]==''){
-	if (heroName == 'Алканфель' || heroName == 'Макишима Агито' || heroName == 'Шо Фукамачи' || heroName == 'Мари Роуз' || heroName == 'Ниотэнгу' || heroName == 'Касуми'){
+	if (heroName == 'Алканфель' || heroName == 'Макишима Агито' || heroName == 'Шо Фукамачи' || heroName == 'Мари Роуз' || heroName == 'Ниотэнгу' || heroName == 'Касуми' || heroName == 'Люси' || heroName == 'Эльза' || heroName == 'Нацу'){
 		cl10.style.display = 'none';
 		cl11.style.width = "100%";
 		cl12.style.width = "0";

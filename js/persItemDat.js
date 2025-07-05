@@ -2148,6 +2148,21 @@ var persItemDat = [
         "ОЗ & ЗАЩ +5%. Подвергшись атаке и получив урон вы получаете также дальность навыка +1 и диапазон +1 в течении 1 хода.",
         "HP & DEF +5%. After taking damage from being attacked, gain 'Skill range +1 and Span +1' for 1 turn."
     ],
+	[
+        "Эйшин",
+        "Eshean",
+        "Глобал - 30.10.2025",
+        "Global - 30.10.2025",
+        "hat",
+        "437",
+        "",
+        "",
+        "",
+        "59",
+        "",
+        "ОЗ +10%. Дальность умения в конце действия увеличена на +1 и добавляется дополнительный эффект:<br>[Оживление]: снимает с цели 1 дебафф.<br>[Королевский приказ]: делает цель невосприимчивой к эффекту 'невозможно использовать активные навыки' на 2 хода.<br>[Движение]: увеличивает наносимый урон на 15% на 1 ход.",
+        "HP +10%. Skill range at end of effect is increased by +1 and an additional effect is added:<br>[Revival]: Removes 1 debuff from the target.<br>[Royal Order]: Makes the target immune to the 'cannot use active skills' effect for 2 turns.<br>[Movement]: Increases damage dealt by 15% for 1 turn."
+    ],
     [
         "Элвин",
         "Elwin",
