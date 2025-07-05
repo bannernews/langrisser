@@ -1231,7 +1231,7 @@ var heroesDat = [
         "Lugner",
         "ЛС,МС,РЕ,М",
         "SSR",
-        "",
+        "forge",
         "",
         "РЕИ"
     ],
