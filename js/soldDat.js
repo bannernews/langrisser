@@ -2352,7 +2352,7 @@ var soldDat = [
         "3",
         "2",
         "Весь физический урон, нанесённый обычными атаками, рассматривается как магический урон. При активной атаке и вступлении в бой, АТК солдат +45%, а урон контратаки дальнего боя снижается на 25%. <a style='color:#d8c2a9;' target='blank' href='images/soldIcons/SP/Колдун.jpg'>(Условия&nbsp;SP)</a>",
-        "All physical damage dealt by normal attacks is treated as magic damage. When actively attacking and entering combat, soldier's ATK +45%, and ranged counterattack damage is reduced by 25%. <a style='color:#d8c2a9;' target='blank' href='images/soldIcons/SP/Wizard.jpg'>(Условия&nbsp;SP)</a>",
+        "All physical damage dealt by normal attacks is treated as magic damage. When actively attacking and entering combat, soldier's ATK +45%, and ranged counterattack damage is reduced by 25%. <a style='color:#d8c2a9;' target='blank' href='images/soldIcons/SP/Wizard.jpg'>(SP&nbsp;terms)</a>",
         "SP",
         "Альмеда,Джессика,Хейн,Эгберт,Лиффани,София,Бозел,Лана,Лиана,Герольд и Лайла,Шельфаниэль,Рене,Вилер,Гизаров,Ламбда,Айрис,Анжелика,Курама,Юная Джессика,Ака,Дидлит,Майя,Ликорис,Алтина,Ноэми,Отшельник,Флоренция,Айнз,Мелания,Аватар Света,Злой Бог Крюгер,Лукреция,Мю,Кертес,Дева Ковчега,Густав,Аданкельмо,Лео Бек,Сагани,Тормил,Джесс,Селика,Вирелия,Эния,Алия,Илия,Сафрин",
         "ходьба"
@@ -2367,7 +2367,7 @@ var soldDat = [
         "5",
         "2",
         "Весь физический урон, нанесённый обычными атаками, рассматривается как магический урон. При активной атаке игнорирует 20% МЗАЩ врага и игнорирует недостаток класса. Перед боем накладывает на врага мобильность -3 на 1 ход. <a style='color:#d8c2a9;' target='blank' href='images/soldIcons/SP/Паучий эльф-демон.jpg'>(Условия&nbsp;SP)</a>",
-        "All physical damage dealt by normal attacks is treated as magic damage. When active atack,ignores 20% of enemy's MDEF and ignores class disadvantage. Applies -3 mobility to enemy for 1 turn before combat. <a style='color:#d8c2a9;' target='blank' href='images/soldIcons/SP/Spider Demon Elf.jpg'>(Условия&nbsp;SP)</a>",
+        "All physical damage dealt by normal attacks is treated as magic damage. When active atack,ignores 20% of enemy's MDEF and ignores class disadvantage. Applies -3 mobility to enemy for 1 turn before combat. <a style='color:#d8c2a9;' target='blank' href='images/soldIcons/SP/Spider Demon Elf.jpg'>(SP&nbsp;terms)</a>",
         "SP",
         "Эгберт,Соня,Герольд и Лайла,Ака,Ноэми,Айнз,Кертес,Дева Ковчега,Лео Бек,Феракуа,Злой Бог Крюгер,Патцир,Пробужденная,Юске,Ланделл,Силрна",
         "ходьба"
@@ -2382,7 +2382,7 @@ var soldDat = [
         "5",
         "2",
         "Весь физический урон, нанесённый обычными атаками, рассматривается как магический урон. Сила исцеления героя +15%. Юнит не тратит очки мобильности при движении сквозь союзников. В конце действия восстанавливает 30% ОЗ союзников сквозь которых прошел в этот ход. <a style='color:#d8c2a9;' target='blank' href='images/soldIcons/SP/Святой рыцарь.jpg'>(Условия&nbsp;SP)</a>",
-        "All physical damage dealt by normal attacks is treated as magic damage. Hero's healing power is increased by 15%. Unit does not spend mobility points  when moving through allies. At the end of the action, restores 30% of HP of allies it passed through this turn. <a style='color:#d8c2a9;' target='blank' href='images/soldIcons/SP/Holy Knight.jpg'>(Условия&nbsp;SP)</a>",
+        "All physical damage dealt by normal attacks is treated as magic damage. Hero's healing power is increased by 15%. Unit does not spend mobility points  when moving through allies. At the end of the action, restores 30% of HP of allies it passed through this turn. <a style='color:#d8c2a9;' target='blank' href='images/soldIcons/SP/Holy Knight.jpg'>(SP&nbsp;terms)</a>",
         "SP",
         "Имельда,Тиарис,Герольд и Лайла,Айрис,Альмеда,Люгнер,Ашемар,Эльма,Сисси Уайт,Селика,Эния",
         "парение"
@@ -2397,7 +2397,7 @@ var soldDat = [
         "3",
         "1",
         "АТК, ЗАЩ И МЗАЩ +15%. При сражении с врагом у которого процент ОЗ равный или ниже вашего этот эффект удваивается. Перед вступлением в бой наносит противнику фиксированный урон равный 5% от текущего ОЗ (если у противника смешанные силы, этот фиксированный урон игнорирует имунитет). <a style='color:#d8c2a9;' target='blank' href='images/soldIcons/SP/Служанка в маске.jpg'>(Условия&nbsp;SP)</a>",
-        "ATK, DEF AND MDEF +15%. When fighting an enemy whose HP is equal to or lower than yours, this effect is doubled. Before entering combat, deals a fixed damage to the enemy equal to 5% of current HP (if the enemy has mixed forces, this fixed damage ignores immunity). <a style='color:#d8c2a9;' target='blank' href='images/soldIcons/SP/Masked Maid.jpg'>(Условия&nbsp;SP)</a>",
+        "ATK, DEF AND MDEF +15%. When fighting an enemy whose HP is equal to or lower than yours, this effect is doubled. Before entering combat, deals a fixed damage to the enemy equal to 5% of current HP (if the enemy has mixed forces, this fixed damage ignores immunity). <a style='color:#d8c2a9;' target='blank' href='images/soldIcons/SP/Masked Maid.jpg'>(SP&nbsp;terms)</a>",
         "SP",
         "Левин,Ледин,Элвин,Оливиер,Кларетт,Юлия,Кадзума,Арес,Майя,Рё,Мишель,Рикки,Элейн,Соня Бланш,Гаури,Капитан Джек,Эйшин,Тиана,Мари Роуз,Серафина,Лостхэм,Бетти,Леонхарт,Фрейя,Лея,Эльза",
         "ходьба"
@@ -2412,7 +2412,7 @@ var soldDat = [
         "5",
         "1",
         "При наличии эффекта увеличения мобильности, получаемый урон -20%. АТК солдат увеличивается на 10% за каждую пройденную клетку до атаки (до 30%). При перемещении более 3 клеток за ход, получает +2 к мобильности в конце действия или перед вступлением в бой. <a style='color:#d8c2a9;' target='blank' href='images/soldIcons/SP/Солдат-драконианец.jpg'>(Условия&nbsp;SP)</a>",
-        "If there is a mobility increase effect, damage taken is -20%. Soldiers ATK is increased by 10% for each tile passed before the attack (up to 30%). When moving more than 3 tiles per turn, gets +2 to mobility at the end of the action or before entering combat. <a style='color:#d8c2a9;' target='blank' href='images/soldIcons/SP/Dragon Trooper.jpg'>(Условия&nbsp;SP)</a>",
+        "If there is a mobility increase effect, damage taken is -20%. Soldiers ATK is increased by 10% for each tile passed before the attack (up to 30%). When moving more than 3 tiles per turn, gets +2 to mobility at the end of the action or before entering combat. <a style='color:#d8c2a9;' target='blank' href='images/soldIcons/SP/Dragon Trooper.jpg'>(SP&nbsp;terms)</a>",
         "SP",
         "Кит,Ланс,Алтемюллер,Шери,Ашрам,Рената,Шалтир,Ватару,Това,Оборо,Странствующий Дуэлянт,Эксела,Изольда,Макишима Агито,Тирантир,Ниотэнгу,Драконоборец,Хелена,Апофеоз,Рыцарь Тайн,Табрес,Зион,Лукман,Элвис,Нацу",
         "полет"
@@ -2427,7 +2427,7 @@ var soldDat = [
         "3",
         "1",
         "Шанс критического удара +45%. АТК +15% при сражении с героями не являющимися женщинами.Накладывает перед атакой 1 случайный дебафф. При активации критического удара, накладывает на врага еще 1 случайный дебафф после атаки. <a style='color:#d8c2a9;' target='blank' href='images/soldIcons/SP/Танцующая в тумане.jpg'>(Условия&nbsp;SP)</a>",
-        "Critical Hit Chance +45%. ATK +15% when fighting non-female heroes.Applies 1 random debuff before attack. When a critical hit is activated, applies another 1 random debuff to the enemy after the attack. <a style='color:#d8c2a9;' target='blank' href='images/soldIcons/SP/Mist Dancer.jpg'>(Условия&nbsp;SP)</a>",
+        "Critical Hit Chance +45%. ATK +15% when fighting non-female heroes.Applies 1 random debuff before attack. When a critical hit is activated, applies another 1 random debuff to the enemy after the attack. <a style='color:#d8c2a9;' target='blank' href='images/soldIcons/SP/Mist Dancer.jpg'>(SP&nbsp;terms)</a>",
         "SP",
         "Альмеда,Серебряный Волк,Феракуа,Шери,Зерида,Джошуа,Оливиер,Анжелика,Пиротесс,Цубамэ,Химико,Патцир,Каюра,Сельвария,Теон,Кирика,Таталия,Серафина,Тиана,Нож Марк и Ниндзя Гиндзу,Касуми,Макаера,Глаз обмана",
         "ходьба"
@@ -2442,7 +2442,7 @@ var soldDat = [
         "3",
         "2",
         "При входе в бой АТК и ЗАЩ увеличиваются на 30%. Когда у солдат 100% ОЗ, ЗАЩ противника перед боем снижается на 25%, блится 1 раунд. <a style='color:#d8c2a9;' target='blank' href='images/soldIcons/SP/Темный эльф-снайпер.jpg'>(Условия&nbsp;SP)</a>",
-        "When entering battle, ATK and DEF increase by 30%. When soldiers have 100% HP, the enemy's DEF before battle is reduced by 25%, lasts 1 round. <a style='color:#d8c2a9;' target='blank' href='images/soldIcons/SP/Dark Elf Sniper.jpg'>(Условия&nbsp;SP)</a>",
+        "When entering battle, ATK and DEF increase by 30%. When soldiers have 100% HP, the enemy's DEF before battle is reduced by 25%, lasts 1 round. <a style='color:#d8c2a9;' target='blank' href='images/soldIcons/SP/Dark Elf Sniper.jpg'>(SP&nbsp;terms)</a>",
         "SP",
         "Метью,Серебряный Волк,Феракуа,Кирикадзе,Варна,Соня,Лиффани,Эгберт,Имельда,Бозел,Лана,Зерида,Герольд и Лайла,Джошуа,Рэйчел,Сигма,Ламбда,Анжелика,Алустриэль,Омега,Хией,Юная Джессика,Пиротесс,Айнз,Аватар Света,Патцир,Каюра,Лукреция,Сюзетт,Кертес,Дева Ковчега,Густав,Лиза,Сельвария,Алисия,Исара,Ашемар,Лостхэм,Джулиан,Маклейн,Аданкельмо,Девушка в Доспехах,Лео Бек,Теон,Джо и Конни,Агнес,Пробужденная,Кирика,Нимфа,Таталия,Зелгадис,Неемия,Вирелия,Тиана,Птица с поломанным крылом,Ланделл,Силрна,Макаера",
         "ходьба"
@@ -2457,7 +2457,7 @@ var soldDat = [
         "3",
         "1",
         "АТК увеличивается на 30%. Когда атакован дальним боем и вступает в бой, может контратаковать, а получаемый урон снижается на 20%. Если находится в «лесах», «горах» и «лугах», юнит будет атаковать раньше врага. <a style='color:#d8c2a9;' target='blank' href='images/soldIcons/SP/Эльфийский метатель копья.jpg'>(Условия&nbsp;SP)</a>",
-        "ATK increases by 30%. When attacked with a ranged attack and enters battle, can counterattack and damage taken is reduced by 20%. If is in “forests”, “mountains” and “grasslands”, the unit will attack before the enemy. <a style='color:#d8c2a9;' target='blank' href='images/soldIcons/SP/Elven Spear Thrower.jpg'>(Условия&nbsp;SP)</a>",
+        "ATK increases by 30%. When attacked with a ranged attack and enters battle, can counterattack and damage taken is reduced by 20%. If is in “forests”, “mountains” and “grasslands”, the unit will attack before the enemy. <a style='color:#d8c2a9;' target='blank' href='images/soldIcons/SP/Elven Spear Thrower.jpg'>(SP&nbsp;terms)</a>",
         "SP",
         "Лана,Лэндиус,Алустриэль,Эмилия,Ака,Дидлит,Отшельник,Флоренция,Мю,Вернер,Мариандель,Кагуя,Ван,Соня Бланш,Алканфель,Хильда,Оборо,Гренье,Альфа,Хофманн",
         "ходьба"
@@ -2472,7 +2472,7 @@ var soldDat = [
         "3",
         "2",
         "При активной атаке и вступлении в бой АТК увеличивается на 45%. В воде вероятность критического удара увеличивается на 40%, не подвержен снижению урона в ближнем бою. <a style='color:#d8c2a9;' target='blank' href='images/soldIcons/SP/Левиафан.jpg'>(Условия&nbsp;SP)</a>",
-        "When actively attacking and entering battle, ATK increases by 45%. In water, the chance of a critical hit increases by 40% and damage in melee battle doesn't reduce. <a style='color:#d8c2a9;' target='blank' href='images/soldIcons/SP/Leviathan.jpg'>(Условия&nbsp;SP)</a>",
+        "When actively attacking and entering battle, ATK increases by 45%. In water, the chance of a critical hit increases by 40% and damage in melee battle doesn't reduce. <a style='color:#d8c2a9;' target='blank' href='images/soldIcons/SP/Leviathan.jpg'>(SP&nbsp;terms)</a>",
         "SP",
         "Диос,Феракуа,Шельфаниэль,Гизаров,Сигма,Омега,Хией,Оливер,Пиротесс,Ликорис,Девушка в Доспехах,Пробужденная,Маклейн,Анджелина,Лестер,Джаглер,Вираш,Силрна,Глаз обмана",
         "пловец"
@@ -2487,7 +2487,7 @@ var soldDat = [
         "3",
         "1",
         "АТК солдат увеличиваются на 30%. При атаке в ближнем бою, АТК солдат в бою дополнительно увеличивается на 15%. После боя наносит дополнительный урон, равный 15% от максимального ОЗ противника. <a style='color:#d8c2a9;' target='blank' href='images/soldIcons/SP/Орк-берсерк.jpg'>(Условия&nbsp;SP)</a>",
-        "Soldier ATK increase by 30%. When attacking in melee combat, soldiers ATK in battle is additionally increase by 15%. After battle deals additional damage equal to 15% of the enemy's maximum HP. <a style='color:#d8c2a9;' target='blank' href='images/soldIcons/SP/Orc Berserker.jpg'>(Условия&nbsp;SP)</a>",
+        "Soldier ATK increase by 30%. When attacking in melee combat, soldiers ATK in battle is additionally increase by 15%. After battle deals additional damage equal to 15% of the enemy's maximum HP. <a style='color:#d8c2a9;' target='blank' href='images/soldIcons/SP/Orc Berserker.jpg'>(SP&nbsp;terms)</a>",
         "SP",
         "Метью,Варгас,Эмерик,Джаглер,Гизаров,Юске,Тогуро,Бетти,Эмилия,Ашрам,Рената,Айнз,Альфа,Ютем,Апофеоз,Имир,Зион,Ганн,Элвис",
         "ходьба"
@@ -2502,7 +2502,7 @@ var soldDat = [
         "3",
         "2",
         "Весь физический урон, нанесённый обычными атаками, рассматривается как магический урон. Сила исцеления героя +15%. Когда ОЗ солдат выше 80%, ЗАЩ и МЗАЩ союзников в радиусе 2 клеток увеличивается на 10%. <a style='color:#d8c2a9;' target='blank' href='images/soldIcons/SP/Епископ.jpg'>(Условия&nbsp;SP)</a>",
-        "All physical damage dealt by normal attacks is treated as magic damage. The hero's healing efficiency increases by 15%. When soldier's HP above 80%, DEF and MDEF of allies within a radius of 2 tiles increas by 10%. <a style='color:#d8c2a9;' target='blank' href='images/soldIcons/SP/Bishop.jpg'>(Условия&nbsp;SP)</a>",
+        "All physical damage dealt by normal attacks is treated as magic damage. The hero's healing efficiency increases by 15%. When soldier's HP above 80%, DEF and MDEF of allies within a radius of 2 tiles increas by 10%. <a style='color:#d8c2a9;' target='blank' href='images/soldIcons/SP/Bishop.jpg'>(SP&nbsp;terms)</a>",
         "SP",
         "Альмеда,Анна,Крис,София,Хейн,Имельда,Лана,Лиана,Тиарис,Шельфаниэль,Рэйчел,Вилер,Ламбда,Айрис,Юная Джессика,Ликорис,Ноэми,Флоренция,Мелания,Розенцель,Аватар Света,Сисси Уайт,Каюра,Лукреция,Мю,Мариандель,Эльма,Кагуя,Ашемар,Аданкельмо,Люгнер,Агнес,Сагани,Тормил,Джесс,Селика,Яркий призыватель,Эния,Алия,Илия,Макаера",
         "ходьба"
@@ -2517,7 +2517,7 @@ var soldDat = [
         "5",
         "1",
         "Чем выше ОЗ солдат, тем меньше физического урона они получают, максимум до 45%. Когда ОЗ солдат выше 70%, их АТК и МЗАЩ увеличиваются на 20%. <a style='color:#d8c2a9;' target='blank' href='images/soldIcons/SP/Королевская кавалерия.jpg'>(Условия&nbsp;SP)</a>",
-        "The higher a soldier's HP, the less physical damage they receive, up to 45%. When soldier's HP is above 70%, ATK and MDEF increase by 20%. <a style='color:#d8c2a9;' target='blank' href='images/soldIcons/SP/Royal Cavalry.jpg'>(Условия&nbsp;SP)</a>",
+        "The higher a soldier's HP, the less physical damage they receive, up to 45%. When soldier's HP is above 70%, ATK and MDEF increase by 20%. <a style='color:#d8c2a9;' target='blank' href='images/soldIcons/SP/Royal Cavalry.jpg'>(SP&nbsp;terms)</a>",
         "SP",
         "Летисия,Лэйд,Эмерик,Леон,Леонхарт,Лэндиус,Хелена,Хильда,Вернер Дайм,Автократо,Каролина,Андриола,Тирантир,Кристиан,Розалия,Ленфорд,Зион,Лея",
         "всадник"
@@ -2532,7 +2532,7 @@ var soldDat = [
         "3",
         "2",
         "Воскрешение: после боя восстанавливает 30% потерянного ОЗ. АТК солдат +30%. При вступлении в бой, после боя наносит цели фиксированный урон равный 10% от урона, нанесённого в этом бою. <a style='color:#d8c2a9;' target='blank' href='images/soldIcons/SP/Лучник адского пламени.jpg'>(Условия&nbsp;SP)</a>",
-        "Resurrection: after battle restores 30% of lost HP. Soldier's ATK +30%. When entering battle, after battle, deals fixed damage to the target equal to 10% of the damage dealt in this battle. <a style='color:#d8c2a9;' target='blank' href='images/soldIcons/SP/Hellfire Archer.jpg'>(Условия&nbsp;SP)</a>",
+        "Resurrection: after battle restores 30% of lost HP. Soldier's ATK +30%. When entering battle, after battle, deals fixed damage to the target equal to 10% of the damage dealt in this battle. <a style='color:#d8c2a9;' target='blank' href='images/soldIcons/SP/Hellfire Archer.jpg'>(SP&nbsp;terms)</a>",
         "SP",
         "Анна,Эгберт,Феракуа,Бозел,Лана,Зерида,Рене,Гизаров,Омега,Курама,Хией,Пиротесс,Айнз,Злой Бог Крюгер,Патцир,Ликорис,Кертес,Густав,Джулиан,Девушка в Доспехах,Лео Бек,Пробужденная,Таталия,Лина,Алканфель,Нож Марк и Ниндзя Гиндзу,Ланделл,Силрна,Глаз обмана",
         "ходьба"
@@ -2547,7 +2547,7 @@ var soldDat = [
         "3",
         "2",
         "АТК и шанс критического удара +15%. Перед вступлением в бой накладывает на врага повышенный шанс получить критический удар на 15% и повышение получаемого критического урона на 10%. Если вокруг цели в радиусе 1 клетки нет других врагов эти эффекты удваиваются. <a style='color:#d8c2a9;' target='blank' href='images/soldIcons/SP/Безликий.jpg'>(Условия&nbsp;SP)</a>",
-        "ATK and Critical Hit Chance +15%. Before entering combat, applied on enemy a 15% increased chance to receive a critical hit and a 10% increase in critical damage received. If there are no other enemies within 1 tile of the target, these effects are doubled. <a style='color:#d8c2a9;' target='blank' href='images/soldIcons/SP/The Faceless.jpg'>(Условия&nbsp;SP)</a>",
+        "ATK and Critical Hit Chance +15%. Before entering combat, applied on enemy a 15% increased chance to receive a critical hit and a 10% increase in critical damage received. If there are no other enemies within 1 tile of the target, these effects are doubled. <a style='color:#d8c2a9;' target='blank' href='images/soldIcons/SP/The Faceless.jpg'>(SP&nbsp;terms)</a>",
         "SP",
         "Рохга,Серебряный Волк,Феракуа,Дихарт,Пиротесс,Шилинка,Цубамэ,Каюра,Вернер,Сельвария,Лостхэм,Джулиан,Таталия,Серафина,Тиана,Нож Марк и Ниндзя Гиндзу,Кирикадзе,Зерида,Омега,Птица с поломанным крылом,Джошуа,Глаз обмана",
         "ходьба"
@@ -2562,7 +2562,7 @@ var soldDat = [
         "5",
         "2",
         "Обычные атаки, наносящие урон, считаются магическими атаками. При вступлении в бой АТК увеличивается на 40%. Перед боем есть 100% шанс наложить на врага 1 случайный дебафф и 'Ранящее проклятие' (полученное лечение будет преобразовано в урон равный 20% от лечения). <a style='color:#d8c2a9;' target='blank' href='images/soldIcons/SP/Маг - ядовитая летучая мышь.jpg'>(Условия&nbsp;SP)</a>",
-        "Normal attacks that deal damage are considered as magic attacks. When entering combat, ATK increases by 40%. Before combat, there is a 100% chance to applied 1 random debuff and 'Wounding Curse' on the enemy (received healing will be converted to damage equal to 20% of the healing). <a style='color:#d8c2a9;' target='blank' href='images/soldIcons/SP/Poison Bat Mage.jpg'>(Условия&nbsp;SP)</a>",
+        "Normal attacks that deal damage are considered as magic attacks. When entering combat, ATK increases by 40%. Before combat, there is a 100% chance to applied 1 random debuff and 'Wounding Curse' on the enemy (received healing will be converted to damage equal to 20% of the healing). <a style='color:#d8c2a9;' target='blank' href='images/soldIcons/SP/Poison Bat Mage.jpg'>(SP&nbsp;terms)</a>",
         "SP",
         "Эгберт,Феракуа,Бозел,Лана,Рене,Алтина,Айнз,Патцир,Трансцендентный,Кертес,Дева Ковчега,Густав,Девушка в Доспехах,Лео Бек,Пробужденная,Лина,Алканфель,Сафрин,Ланделл,Силрна,Альмеда,Кагуя,Зелгадис,Лукреция,Патриция,Глаз обмана",
         "полет"
@@ -2577,7 +2577,7 @@ var soldDat = [
         "3",
         "1",
         "Перед вступлением в навязанный бой наносит врагу фиксированный урон, равный 2.5х от ЗАЩ. Во время боя, если процент ОЗ героя выше чем процент ОЗ врага, ЗАЩ и МЗАЩ солдат увеличивается на 20%. <a style='color:#d8c2a9;' target='blank' href='images/soldIcons/SP/Темный центурион.jpg'>(Условия&nbsp;SP)</a>",
-        "Before entering a forced battle, deals a fixed damage to the enemy equal to 2.5x DEF. During the battle, if the hero's HP is higher than the enemy's HP, the soldier's DEF and MDEF increase by 20%. <a style='color:#d8c2a9;' target='blank' href='images/soldIcons/SP/Dark Centurion.jpg'>(Условия&nbsp;SP)</a>",
+        "Before entering a forced battle, deals a fixed damage to the enemy equal to 2.5x DEF. During the battle, if the hero's HP is higher than the enemy's HP, the soldier's DEF and MDEF increase by 20%. <a style='color:#d8c2a9;' target='blank' href='images/soldIcons/SP/Dark Centurion.jpg'>(SP&nbsp;terms)</a>",
         "SP",
         "Кит,Элвин,Алтемюллер,Леонхарт,Рене,Селина,Бетти,Густав,Оборо,Лукман,Фрейя,Полиал,Альфа,Лэндиус,Арианход",
         "ходьба"
@@ -2592,7 +2592,7 @@ var soldDat = [
         "3",
         "1",
         "При активной атаке дальнего боя солдаты будут атаковать вместе с героем, при этом урон увеличивается на 30%. Во время боя юнит игнорирует снижение урона в ближнем бою, а АТК и ЗАЩ солдат увеличиваются на 15%. <a style='color:#d8c2a9;' target='blank' href='images/soldIcons/SP/Киборг-сосуд.jpg'>(Условия&nbsp;SP)</a>",
-        "When active ranged attack, soldiers will attack with the hero and damage is increased by 30%. During combat unit ignores melee damage reduction and the soldiers' ATK and DEF are increased by 15%. <a style='color:#d8c2a9;' target='blank' href='images/soldIcons/SP/Cyborg Vessel.jpg'>(Условия&nbsp;SP)</a>",
+        "When active ranged attack, soldiers will attack with the hero and damage is increased by 30%. During combat unit ignores melee damage reduction and the soldiers' ATK and DEF are increased by 15%. <a style='color:#d8c2a9;' target='blank' href='images/soldIcons/SP/Cyborg Vessel.jpg'>(SP&nbsp;terms)</a>",
         "SP",
         "Гизаров,Сигма,Рейнфорс,Шилинка,Эпсилон,Вернер,Маклейн,Абишай,Железный Воитель,Клотэр,Кирикадзе,Джулиан,Лина",
         "ходьба"
@@ -2607,7 +2607,7 @@ var soldDat = [
         "3",
         "1",
         "ЗАЩ солдат +30%. При сражении с демонами, АТК увеличивается на 30%. При активной атаке и входе в бой, если ЗАЩ врага больше или равна МЗАЩ, в этом бою наносится магический урон. <a style='color:#d8c2a9;' target='blank' href='images/soldIcons/SP/Экзорцист.jpg'>(Условия&nbsp;SP)</a>",
-        "Soldier DEF +30%. When fighting demons, ATK increases by 30%. When actively attacking and entering battle, if the enemy's DEF is greater than or equal to MDEF, magic damage is dealt in this battle. <a style='color:#d8c2a9;' target='blank' href='images/soldIcons/SP/Exorcist.jpg'>(Условия&nbsp;SP)</a>",
+        "Soldier DEF +30%. When fighting demons, ATK increases by 30%. When actively attacking and entering battle, if the enemy's DEF is greater than or equal to MDEF, magic damage is dealt in this battle. <a style='color:#d8c2a9;' target='blank' href='images/soldIcons/SP/Exorcist.jpg'>(SP&nbsp;terms)</a>",
         "SP",
         "Крис,София,Фрейя,Ледин,Лиана,Эстель,Клозе,Селина,Сакура,Анжелика,Юлия,Юске,Рейнфорс,Эмилия,Вираш,Майя,Арианход,Розалия,Отшельник,Флоренция,Мелания,Клотэр,Мариэль,Король Красной Луны,Рё,Эльма,Железный Воитель,Азуса,Синпати,Светоносец,Полиал,Элисса,Роланд,Преция,Имир,Яркий призыватель,Сафрин",
         "ходьба"
@@ -2622,7 +2622,7 @@ var soldDat = [
         "5",
         "1",
         "При сражении с врагом, МЗАЩ солдат +45%, АТК и ЗАЩ солдат +20% в бою. Если враг 'демон', АТК и ЗАЩ дополнительно увеличиваются на 20%. <a style='color:#d8c2a9;' target='blank' href='images/soldIcons/SP/Рыцарь-тамплиер.jpg'>(Условия&nbsp;SP)</a>",
-        "When fighting an enemy soldier's MDEF +45%, ATK and DEF +20% in battle. If the enemy is a 'demon', ATK and DEF are additionally increased by 20%. <a style='color:#d8c2a9;' target='blank' href='images/soldIcons/SP/Templar Knight.jpg'>(Условия&nbsp;SP)</a>",
+        "When fighting an enemy soldier's MDEF +45%, ATK and DEF +20% in battle. If the enemy is a 'demon', ATK and DEF are additionally increased by 20%. <a style='color:#d8c2a9;' target='blank' href='images/soldIcons/SP/Templar Knight.jpg'>(SP&nbsp;terms)</a>",
         "SP",
         "Альмеда,Скотт,Аарон,Фрейя,Лиана,Тиарис,Лэндиус,Сумире,Юлия,Альфред,Дидлит,Арианход,Розалия,Хильда,Кристиан,Железный Воитель,Азуса,Синпати,Светоносец,Греншиль,Элейн,Амадей,Элисса,Преция,Эйшин,Хофманн,Зион,Император Ловина,Герольд и Лайла,Ленфорд,Тирантир,Лея",
         "всадник"
@@ -2637,7 +2637,7 @@ var soldDat = [
         "5",
         "1",
         "При активной атаке и вступлении в бой АТК солдат увеличивается на 30%, а получаемый урон снижается на 50%. <a style='color:#d8c2a9;' target='blank' href='images/soldIcons/SP/Святой пегас.jpg'>(Условия&nbsp;SP)</a>",
-        "When actively attacking and entering battle, soldier's ATK increases by 30% and damage taken decreases by 50%. <a style='color:#d8c2a9;' target='blank' href='images/soldIcons/SP/Holy Pegasus.jpg'>(Условия&nbsp;SP)</a>",
+        "When actively attacking and entering battle, soldier's ATK increases by 30% and damage taken decreases by 50%. <a style='color:#d8c2a9;' target='blank' href='images/soldIcons/SP/Holy Pegasus.jpg'>(SP&nbsp;terms)</a>",
         "SP",
         "Кит,Ланс,Нарм,Луна,Рэйчел,Кларетт,Алустриэль,Рыцарь Тайн,Алтина,Розалия,Хелена,Розенцель,Това,Король Красной Луны,Азуса,Оборо,Каролина,Гинтоки,Греншиль,Соня Бланш,Эйшин,Хофманн,Изольда,Табрес,Лукман,Лея",
         "полет"
@@ -2652,7 +2652,7 @@ var soldDat = [
         "5",
         "2",
         "Когда ОЗ солдат выше 50%, АТК и ЗАЩ солдат увеличиваются на 20%. Когда подвергается атаке и втянут в бой, получаемый урон снижается на 50% и игнорирует уменьшение урона в ближнем бою. <a style='color:#d8c2a9;' target='blank' href='images/soldIcons/SP/Рейнджер вихря.jpg'>(Условия&nbsp;SP)</a>",
-        "When soldier's HP is above 50%, soldier's ATK and DEF are increased by 20%. When forced into battle, damage taken is reduced by 50% and ignores melee damage reduction. <a style='color:#d8c2a9;' target='blank' href='images/soldIcons/SP/Bolt Ranger.jpg'>(Условия&nbsp;SP)</a>",
+        "When soldier's HP is above 50%, soldier's ATK and DEF are increased by 20%. When forced into battle, damage taken is reduced by 50% and ignores melee damage reduction. <a style='color:#d8c2a9;' target='blank' href='images/soldIcons/SP/Bolt Ranger.jpg'>(SP&nbsp;terms)</a>",
         "SP",
         "Гренье,Диос,Нарм,Луна,Тиарис,Элисса,Омега,Рыцарь Тайн,Ашемар,Суверен ледяной бездны,Джулиан,Дихарт,Теон,Таталия,Тиана",
         "парение"
@@ -2667,7 +2667,7 @@ var soldDat = [
         "5",
         "2",
         "Физический урон, наносимый обычными атаками, считается магическим уроном. Чем выше ОЗ солдат, тем выше их АТК и МЗАЩ (до 45%). <a style='color:#d8c2a9;' target='blank' href='images/soldIcons/SP/Колдунья.jpg'>(Условия&nbsp;SP)</a>",
-        "Physical damage dealt by normal attacks is considered magical damage. The higher the HP of the soldiers, the higher their ATK and MDEF (up to 45%). <a style='color:#d8c2a9;' target='blank' href='images/soldIcons/SP/Sorceress.jpg'>(Условия&nbsp;SP)</a>",
+        "Physical damage dealt by normal attacks is considered magical damage. The higher the HP of the soldiers, the higher their ATK and MDEF (up to 45%). <a style='color:#d8c2a9;' target='blank' href='images/soldIcons/SP/Sorceress.jpg'>(SP&nbsp;terms)</a>",
         "SP",
         "Джессика,Феракуа,Лиффани,Бозел,Лана,Тиарис,Герольд и Лайла,Рене,Оливиер,Рэйчел,Ламбда,Айрис,Курама,Юная Джессика,Рыцарь Тайн,Ликорис,Алтина,Ноэми,Розенцель,Аватар Света,Химико,Злой Бог Крюгер,Патцир,Сисси Уайт,Каюра,Лукреция,Мю,Трансцендентный,Мариандель,Кертес,Дева Ковчега,Густав,Кагуя,Ашемар,Аданкельмо,Девушка в Доспехах,Лео Бек,Люгнер,Джо и Конни,Агнес,Пробужденная,Сагани,Кирика,Нимфа,Тормил,Роланд,Лина,Зелгадис,Неемия,Джесс,Алканфель,Суверен ледяной бездны,Селика,Вирелия,Яркий призыватель,Эния,Алия,Илия,Сафрин,Птица с поломанным крылом,Ланделл,Силрна,Макаера,Глаз обмана,Люси",
         "полет"
@@ -2682,7 +2682,7 @@ var soldDat = [
         "3",
         "1",
         "АТК солдат увеличивается на 15%. Про получении атаки АТК солдат увеличивается еще на 15%, солдаты могут контратаковать, а получаемый магический урон уменьшается на 30%. <a style='color:#d8c2a9;' target='blank' href='images/soldIcons/SP/Королевский страж.jpg'>(Условия&nbsp;SP)</a>",
-        "Soldiers' ATK increases by 15%. When receiving an attack, soldiers' ATK increases by another 15%, soldiers can counterattack and magic damage received is reduced by 30%. <a style='color:#d8c2a9;' target='blank' href='images/soldIcons/SP/Royal Protector.jpg'>(Условия&nbsp;SP)</a>",
+        "Soldiers' ATK increases by 15%. When receiving an attack, soldiers' ATK increases by another 15%, soldiers can counterattack and magic damage received is reduced by 30%. <a style='color:#d8c2a9;' target='blank' href='images/soldIcons/SP/Royal Protector.jpg'>(SP&nbsp;terms)</a>",
         "SP",
         "Крис,Фрейя,Кларетт,Альбедо,Розенцель,Рё,Кристиан,Мишель,Синпати,Светоносец,Элейн,Лина,Капитан Джек,Эйшин,Хофманн,Тиана,Норнорин,Лея,Юлия,Железный Воитель,Серафина,Мари Роуз,Соня Бланш",
         "ходьба"
@@ -2697,7 +2697,7 @@ var soldDat = [
         "3",
         "1",
         "За каждый бафф, АТК, ЗАЩ и МЗАЩ солдат увеличивается на 15% (до 45%). В конце действия восстанавливается 20% ОЗ солдат. Если есть дебафф, восстанавливается 40% ОЗ и снимается 1 дебафф. <a style='color:#d8c2a9;' target='blank' href='images/soldIcons/SP/Фанатик.jpg'>(Условия&nbsp;SP)</a>",
-        "For each buff the soldier's ATK, DEF, and MDEF increases by 15% (up to 45%). At the end of the action 20% of the soldier's HP is restored. If there is a debuff 40% of HP is restored and 1 debuff is removed. <a style='color:#d8c2a9;' target='blank' href='images/soldIcons/SP/Zealot.jpg'>(Условия&nbsp;SP)</a>",
+        "For each buff the soldier's ATK, DEF, and MDEF increases by 15% (up to 45%). At the end of the action 20% of the soldier's HP is restored. If there is a debuff 40% of HP is restored and 1 debuff is removed. <a style='color:#d8c2a9;' target='blank' href='images/soldIcons/SP/Zealot.jpg'>(SP&nbsp;terms)</a>",
         "SP",
         "Крис,София,Ледин,Эстель,Клозе,Вилер,Селина,Ламбда,Сакура,Юлия,Юске,Эмилия,Майя,Арианход,Отшельник,Клотэр,Мариэль,Король Красной Луны,Рё,Железный Воитель,Азуса,Синпати,Светоносец,Полиал,Роланд,Имир,Сафрин,Элисса,Фрейя,Преция,Розалия",
         "ходьба"
