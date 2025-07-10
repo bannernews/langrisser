@@ -25,7 +25,7 @@ var chb0 = document.getElementById("frak_main");
 
 for (i=0;i<skins.length;i++){
 	/* img2 = new Image();
-	img2.src = "images/heroes/heroes_list/"+ heroName +"/Original/"+skins[i]+".png";
+	img2.src = "images/heroes/heroes_list/"+ heroName +"/Card/"+skins[i]+".png";
 	img2.onload = function(){
 		var im_width = this.width;
 		if (im_width<420){
