@@ -19,7 +19,7 @@ var hero_number = heroList.indexOf(heroName)+1;  //Узнаем номер ст�
 
 var frak = document.getElementById('picture');
 skins = dataTable[hero_number][26].split(",");
-frak.innerHTML += '<div id="frak_main" class="slider chibi1s0" style="display:block;width:425px;height:520px;margin:0 auto;"></div>';
+frak.innerHTML += '<div id="frak_main" class="slider chibi1s0" style="display:block;width:425px;height:340px;margin:0 auto;"></div>';
 
 var chb0 = document.getElementById("frak_main");
 
