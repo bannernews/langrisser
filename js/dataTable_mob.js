@@ -59,8 +59,10 @@ var talant = document.getElementById('talant_text');
 talant.innerHTML = 'Талант: <b>'+dataTable[hero_number][6]+'</b><br>'+dataTable[hero_number][7];
 
 var sp_talant = document.getElementById('talant_sp');
+var sp_shadow = document.getElementById('sp_shadow');
 if (dataTable[hero_number][4]!=='SP'){
 	sp_talant.style.display='none';
+	sp_shadow.style.display='none';
 } else {
 	var talSP_pic = document.getElementById('talSP_pic');
 	talSP_pic.innerHTML += '<img src="images/heroes/talent/' + dataTable[hero_number][0] + 'SP.png" height="100px" /><br>';
