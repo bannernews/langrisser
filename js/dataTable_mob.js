@@ -25,16 +25,16 @@ var chb0 = document.getElementById("frak_main");
 
 for (i=0;i<skins.length;i++){
 	/* img2 = new Image();
-	img2.src = "images/heroes/heroes_list/"+ heroName +"/Original/"+skins[i]+".png";
+	img2.src = "images/heroes/heroes_list/"+ heroName +"/Card/"+skins[i]+".jpg";
 	img2.onload = function(){
 		var im_width = this.width;
 		if (im_width<420){
-			chb0.innerHTML += '<div style="display:block;width:100%;height:520px;text-align:center;"><img style="margin:0 auto;" src="images/heroes/heroes_list/'+ heroName +'/Original/'+skins[i]+'.png" height="500px" /></div>';
+			chb0.innerHTML += '<div style="display:block;width:100%;height:520px;text-align:center;"><img style="margin:0 auto;" src="images/heroes/heroes_list/'+ heroName +'/Card/'+skins[i]+'.jpg" height="500px" /></div>';
 		} else {
-			chb0.innerHTML += '<div style="display:block;width:100%;height:520px;text-align:center;"><img style="margin:0 auto;" src="images/heroes/heroes_list/'+ heroName +'/Original/'+skins[i]+'.png" width="420px" /></div>';
+			chb0.innerHTML += '<div style="display:block;width:100%;height:520px;text-align:center;"><img style="margin:0 auto;" src="images/heroes/heroes_list/'+ heroName +'/Card/'+skins[i]+'.jpg" width="420px" /></div>';
 		}
 	} */
-	chb0.innerHTML += '<div style="display:block;width:100%;height:520px;text-align:center;"><img id="heroimg" style="margin:0 auto;" src="images/heroes/heroes_list/'+ heroName +'/Original/'+skins[i]+'.png" /></div>';
+	chb0.innerHTML += '<div style="display:block;width:100%;height:520px;text-align:center;"><img id="heroimg" style="margin:0 auto;" src="images/heroes/heroes_list/'+ heroName +'/Card/'+skins[i]+'.jpg" /></div>';
 }
 //frak.innerHTML += '<img src="images/hero_phone_light.png" height="570px" style="position:absolute;top: -35px;left: 377px;"/>';
 
