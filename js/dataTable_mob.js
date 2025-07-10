@@ -34,7 +34,7 @@ for (i=0;i<skins.length;i++){
 			chb0.innerHTML += '<div style="display:block;width:100%;height:520px;text-align:center;"><img style="margin:0 auto;" src="images/heroes/heroes_list/'+ heroName +'/Original/'+skins[i]+'.jpg" width="420px" /></div>';
 		}
 	} */
-	chb0.innerHTML += '<div style="display:block;width:100%;height:520px;text-align:center;"><img id="heroimg" style="margin:0 auto;" src="images/heroes/heroes_list/'+ heroName +'/Card/'+skins[i]+'.jpg" /></div>';
+	chb0.innerHTML += '<div style="display:block;width:100%;height:340px;text-align:center;"><img id="heroimg" style="margin:0 auto;" src="images/heroes/heroes_list/'+ heroName +'/Card/'+skins[i]+'.jpg" /></div>';
 }
 //frak.innerHTML += '<img src="images/hero_phone_light.png" height="570px" style="position:absolute;top: -35px;left: 377px;"/>';
 
