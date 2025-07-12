@@ -24,7 +24,7 @@ frak.innerHTML += '<div id="frak_main" class="slider chibi1s0" style="display:bl
 var chb0 = document.getElementById("frak_main");
 
 for (i=0;i<skins.length;i++){
-	chb0.innerHTML += '<div style="display:block;width:100%;height:520px;text-align:center;"><img style="margin:0 auto;" src="images/heroes/heroes_list/'+ heroName +'/Original/'+skins[i]+'.png" height="500px" /></div>';
+	chb0.innerHTML += '<div style="display:block;width:100%;height:520px;text-align:center;position:relative;"><img style="margin:0 auto;" src="images/heroes/heroes_list/'+ heroName +'/Original/'+skins[i]+'.png" height="500px" /><img style="position:absolute;top:485px;left:600px;" src="images/skin_source/'+skins[i].charAt(0)+'.png"></div>';
 }
 frak.innerHTML += '<img src="images/hero_phone_light.png" height="570px" style="position:absolute;top: -35px;left: 377px;"/>';
 
