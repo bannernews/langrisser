@@ -25,7 +25,7 @@
     position: absolute;
     top: 50%;
 
-    display: none;
+    display: block;
 
     padding: 0;
     -webkit-transform: translate(0, -50%);
@@ -78,14 +78,15 @@
 
 .slick-prev
 {
-    left: 0px; 
-	background-image: none;
+    left: 34px;
+	background-image: url(before.png);
 	background-position:bottom 2px center;
 	background-repeat: no-repeat;
 	background-size:78%;
-	display:none;
+	display:block;
 	width:60px;
 	height:60px;
+	z-index: 99;
 }
 [dir='rtl'] .slick-prev
 {
@@ -103,12 +104,12 @@
 
 .slick-next
 {
-    right: 0px;
-	background-image: none;
+    right: 34px;
+	background-image: url(next.png);
 	background-position:bottom 2px center;
 	background-repeat: no-repeat;
 	background-size:78%;
-	display:none;
+	display:block;
 	width:60px;
 	height:60px;
 }

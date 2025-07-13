@@ -7,13 +7,13 @@ if (heroName){
 	title_1.innerHTML = heroName;
 }
 langu = document.getElementById('langu');
-langu.href = "hero_en.html?name="+heroName;
+langu.href = "hero_en_mob.html?name="+heroName;
 
 if (heroName == 'Метью'){
-	document.location.href = "work.html";
+	document.location.href = "work_mob.html";
 }
 if (heroName == 'Яркий призыватель'){
-	document.location.href = "ChrisLLR.html";
+	document.location.href = "ChrisLLR_mob.html";
 }
 var hero_number = heroList.indexOf(heroName)+1;  //Узнаем номер строки героя
 
@@ -34,7 +34,7 @@ for (i=0;i<skins.length;i++){
 			chb0.innerHTML += '<div style="display:block;width:100%;height:520px;text-align:center;"><img style="margin:0 auto;" src="images/heroes/heroes_list/'+ heroName +'/Card/'+skins[i]+'.jpg" width="420px" /></div>';
 		}
 	} */
-	chb0.innerHTML += '<div style="display:block;width:100%;height:340px;text-align:center;"><img id="heroimg" style="margin:0 auto;" src="images/heroes/heroes_list/'+ heroName +'/Card/'+skins[i]+'.jpg" /></div>';
+	chb0.innerHTML += '<div style="display:block;width:100%;height:340px;text-align:center;position:relative;"><img id="heroimg" style="margin:0 auto;" src="images/heroes/heroes_list/'+ heroName +'/Card/'+skins[i]+'.jpg" /><img style="position:absolute;top:0px;left:112px;" src="images/skin_source/'+skins[i].charAt(0)+'.png"></div>';
 }
 //frak.innerHTML += '<img src="images/hero_phone_light.png" height="570px" style="position:absolute;top: -35px;left: 377px;"/>';
 
@@ -421,7 +421,7 @@ if (chb.length==2){
 	drdef = dataTable[hero_number][30].split(",")
 	dratk = dataTable[hero_number][31].split(",")
 	bond_dr_sum = drdef.length + dratk.length;
-	if (bond_dr_sum>=6){widthu="70px";}else{widthu="95px";}
+	if (bond_dr_sum>=6){widthu="55px";}else{widthu="75px";}
 	uzi_dr3.innerHTML = '<span style="display:block;width:170px;height:100%;margin:0 auto;margin-top:15px;white-space:pre-wrap;margin-bottom:6px;">Разблокировка других уз</span>';
 	if (dataTable[hero_number][30]!==''){
 		uzi_dr3.innerHTML += '<span style="display:block;width:205px;height:auto;margin:0 auto;white-space:pre-wrap;">ЗАЩ<br></span>';
@@ -451,7 +451,7 @@ if (dataTable[hero_number][46]!==''){
 	c3_pic.innerHTML='<span style="position:relative;width:100%;display:block;height:100px;"><img style="position:absolute;top:2px;left:2px;" src="images/skills/personal/'+persSkills[(dataTable[hero_number][46]-1)][1]+'.png" height="80px" /><img style="position:absolute;" src="images/Border_Icon_skill.png" height="84px" /><img style="position:absolute;top:73px;left:16px;" src="images/'+persSkills[(dataTable[hero_number][46]-1)][2]+'c.png" height="16px" /></span>';
 	c3_text.innerHTML = '<b style="font-size:larger;">'+persSkills[(dataTable[hero_number][46]-1)][1]+'</b><br><br><img src="images/sold_stats.png" height="20px"><span style="font-size:14px;display:inline-block;width:140px;vertical-align:super;margin-right:10px;">'+skill_type[persSkills[(dataTable[hero_number][46]-1)][3]]+'</span><img src="images/sold_stats.png" height="20px"><span style="font-size:14px;vertical-align:super;">Перезарядка: '+persSkills[(dataTable[hero_number][46]-1)][6]+'</span><br><img src="images/sold_stats.png" height="20px"><span style="font-size:14px;display:inline-block;width:140px;vertical-align:super;margin-right:10px;">Дальность: '+persSkills[(dataTable[hero_number][46]-1)][4]+'</span><img src="images/sold_stats.png" height="20px"><span style="font-size:14px;vertical-align:super;">Диапазон: '+persSkills[(dataTable[hero_number][46]-1)][5]+'</span>';
 	c3_desc.innerHTML = persSkills[(dataTable[hero_number][46]-1)][7];
-	c3_hero_pic.innerHTML = '<img src="images/heroes/heroes_list/'+ heroName +'/3C/3C.png" height="400px" />';
+	c3_hero_pic.innerHTML = '<img src="images/heroes/heroes_list/'+ heroName +'/3C/3C.png" />';
 } else {
 	var prob_none = document.getElementById("h_info4");
 	prob_none.innerHTML = '';
@@ -542,9 +542,9 @@ if (dataTable[hero_number][34]=='' && dataTable[hero_number][35]==''){
 	if (dataTable[hero_number][38]=='' && dataTable[hero_number][39]==''){undw="-14px"}
 	bre = '<br>';
 	if ((dataTable[hero_number][34]!=='' || dataTable[hero_number][35]!=='') && (dataTable[hero_number][36]!=='' || dataTable[hero_number][37]!=='') && (dataTable[hero_number][38]!=='' || dataTable[hero_number][39]!=='')){
-		cl10.innerHTML = '<div style="display:block;width:100%;height:85px;position:relative;"><img onclick="iconC1aOpen()" style="position:absolute;left:'+undw+';top:-13px;" src="images/under_job.png" height="100px;" /><img  onclick="iconC1aOpen()" style="position:absolute;left:38px;top:-2px;" src="images/heroes/job/'+heroName+'/1A.png" height="57px" /></div>';
+		cl10.innerHTML = '<div id="a1" style="display:block;width:100%;height:85px;position:relative;"><img onclick="iconC1aOpen()" style="position:absolute;left:'+undw+';top:-13px;" src="images/under_job.png" height="100px;" /><img  onclick="iconC1aOpen()" style="position:absolute;left:38px;top:-2px;" src="images/heroes/job/'+heroName+'/1A.png" height="57px" /></div>';
 	} else {
-		cl10.innerHTML = '<div style="display:block;width:100%;height:130px;position:relative;"><img onclick="iconC1aOpen()" style="position:absolute;left:'+undw+';top:-13px;" src="images/under_job.png" height="156px;" /><img  onclick="iconC1aOpen()" style="position:absolute;left:58px;top:-1px;" src="images/heroes/job/'+heroName+'/1A.png" height="95px" /></div>';
+		cl10.innerHTML = '<div id="a1" style="display:block;width:100%;height:130px;position:relative;"><img onclick="iconC1aOpen()" style="position:absolute;left:'+undw+';top:-13px;" src="images/under_job.png" height="156px;" /><img  onclick="iconC1aOpen()" style="position:absolute;left:58px;top:-1px;" src="images/heroes/job/'+heroName+'/1A.png" height="95px" /></div>';
 	}
 }
 
@@ -578,9 +578,9 @@ if (dataTable[hero_number][36]=='' && dataTable[hero_number][37]==''){
 } else {
 	bre = '<br>';
 	if ((dataTable[hero_number][34]!=='' || dataTable[hero_number][35]!=='') && (dataTable[hero_number][36]!=='' || dataTable[hero_number][37]!=='') && (dataTable[hero_number][38]!=='' || dataTable[hero_number][39]!=='')){
-		cl11.innerHTML = '<div style="display:block;width:100%;height:85px;position:relative;"><img onclick="iconC1bOpen()" style="position:absolute;left:'+undw+';top:-13px;" src="images/under_job.png" height="100px;" /><img  onclick="iconC1bOpen()" style="position:absolute;left:38px;top:-2px;" src="images/heroes/job/'+heroName+'/1B.png" height="57px" /></div>';
+		cl11.innerHTML = '<div id="b1" style="display:block;width:100%;height:85px;position:relative;"><img onclick="iconC1bOpen()" style="position:absolute;left:'+undw+';top:-13px;" src="images/under_job.png" height="100px;" /><img  onclick="iconC1bOpen()" style="position:absolute;left:38px;top:-2px;" src="images/heroes/job/'+heroName+'/1B.png" height="57px" /></div>';
 	} else {
-		cl11.innerHTML = '<div style="display:block;width:100%;height:130px;position:relative;"><img onclick="iconC1bOpen()" style="position:absolute;left:'+undw+';top:-13px;" src="images/under_job.png" height="156px;" /><img  onclick="iconC1bOpen()" style="position:absolute;left:58px;top:-1px;" src="images/heroes/job/'+heroName+'/1B.png" height="95px" /></div>';
+		cl11.innerHTML = '<div id="b1" style="display:block;width:100%;height:130px;position:relative;"><img onclick="iconC1bOpen()" style="position:absolute;left:'+undw+';top:-13px;" src="images/under_job.png" height="156px;" /><img  onclick="iconC1bOpen()" style="position:absolute;left:58px;top:-1px;" src="images/heroes/job/'+heroName+'/1B.png" height="95px" /></div>';
 	}
 }
 //1C
@@ -613,9 +613,9 @@ if (dataTable[hero_number][38]=='' && dataTable[hero_number][39]==''){
 } else {
 	bre = '<br>';
 	if ((dataTable[hero_number][34]!=='' || dataTable[hero_number][35]!=='') && (dataTable[hero_number][36]!=='' || dataTable[hero_number][37]!=='') && (dataTable[hero_number][38]!=='' || dataTable[hero_number][39]!=='')){
-		cl12.innerHTML = '<div style="display:block;width:100%;height:85px;position:relative;"><img onclick="iconC1cOpen()" style="position:absolute;left:'+undw+';top:-13px;" src="images/under_job.png" height="100px;" /><img  onclick="iconC1cOpen()" style="position:absolute;left:38px;top:-2px;" src="images/heroes/job/'+heroName+'/1C.png" height="57px" /></div>';
+		cl12.innerHTML = '<div id="c1" style="display:block;width:100%;height:85px;position:relative;"><img onclick="iconC1cOpen()" style="position:absolute;left:'+undw+';top:-13px;" src="images/under_job.png" height="100px;" /><img  onclick="iconC1cOpen()" style="position:absolute;left:38px;top:-2px;" src="images/heroes/job/'+heroName+'/1C.png" height="57px" /></div>';
 	} else {
-		cl12.innerHTML = '<div style="display:block;width:100%;height:130px;position:relative;"><img onclick="iconC1cOpen()" style="position:absolute;left:'+undw+';top:-13px;" src="images/under_job.png" height="156px;" /><img  onclick="iconC1cOpen()" style="position:absolute;left:58px;top:-1px;" src="images/heroes/job/'+heroName+'/1C.png" height="95px" /></div>';
+		cl12.innerHTML = '<div id="c1" style="display:block;width:100%;height:130px;position:relative;"><img onclick="iconC1cOpen()" style="position:absolute;left:'+undw+';top:-13px;" src="images/under_job.png" height="156px;" /><img  onclick="iconC1cOpen()" style="position:absolute;left:58px;top:-1px;" src="images/heroes/job/'+heroName+'/1C.png" height="95px" /></div>';
 	}
 }
 
@@ -676,30 +676,39 @@ cl1c = document.getElementById("cl1c");
 	
 function iconC1aOpen(){
 	c1aOpen = document.getElementById("cl1a");
+	a1 = document.getElementById("a1");
 	if (c1aOpen){
 		if (c1aOpen.classList.contains('display_none')){
+			a1.style.filter = "drop-shadow(0 0 1px white)";
 			c1aOpen.className = c1aOpen.className.replace("display_none", "display_table");
 		} else if (c1aOpen.classList.contains('display_table')){
+			a1.style.filter = "none";
 			c1aOpen.className = c1aOpen.className.replace("display_table", "display_none");
 		}
 	}
 }
 function iconC1bOpen(){
 	c1bOpen = document.getElementById("cl1b");
+	b1 = document.getElementById("b1");
 	if (c1bOpen){
 		if (c1bOpen.classList.contains('display_none')){
+			b1.style.filter = "drop-shadow(0 0 1px white)";
 			c1bOpen.className = c1bOpen.className.replace("display_none", "display_table");
 		} else if (c1bOpen.classList.contains('display_table')){
+			b1.style.filter = "none";
 			c1bOpen.className = c1bOpen.className.replace("display_table", "display_none");
 		}
 	}
 }
 function iconC1cOpen(){
 	c1cOpen = document.getElementById("cl1c");
+	c1 = document.getElementById("c1");
 	if (c1cOpen){
 		if (c1cOpen.classList.contains('display_none')){
+			c1.style.filter = "drop-shadow(0 0 1px white)";
 			c1cOpen.className = c1cOpen.className.replace("display_none", "display_table");
 		} else if (c1cOpen.classList.contains('display_table')){
+			c1.style.filter = "none";
 			c1cOpen.className = c1cOpen.className.replace("display_table", "display_none");
 		}
 	}
@@ -711,27 +720,27 @@ if ((dataTable[hero_number][40].split(",").length == dataTable[hero_number][41].
 
 if (dataTable[hero_number][40]!=='' || dataTable[hero_number][41]!==''){
 	if ((dataTable[hero_number][34]!=='' || dataTable[hero_number][35]!=='') && (dataTable[hero_number][36]!=='' || dataTable[hero_number][37]!=='') && (dataTable[hero_number][38]!=='' || dataTable[hero_number][39]!=='')){
-		cl20.innerHTML = '<div style="display:block;width:100%;height:85px;position:relative;"><img onclick=iconC2aOpen() style="position:absolute;left:'+undw+';top:-13px;" src="images/under_job.png" height="100px;" /><img onclick=iconC2aOpen() style="position:absolute;left:38px;top:-2px;" src="images/heroes/job/'+heroName+'/2A.png" height="57px" /><img style="position:absolute;top:52px;left:'+cli+';" src="images/classes/'+classStats[chb[0]-1][2]+'.png" height="25px" /></div>';
+		cl20.innerHTML = '<div id="a2" style="display:block;width:100%;height:85px;position:relative;"><img onclick=iconC2aOpen() style="position:absolute;left:'+undw+';top:-13px;" src="images/under_job.png" height="100px;" /><img onclick=iconC2aOpen() style="position:absolute;left:38px;top:-2px;" src="images/heroes/job/'+heroName+'/2A.png" height="57px" /><img style="position:absolute;top:52px;left:'+cli+';" src="images/classes/'+classStats[chb[0]-1][2]+'.png" height="25px" /></div>';
 	} else {
-		cl20.innerHTML = '<div style="display:block;width:100%;height:130px;position:relative;"><img onclick=iconC2aOpen() style="position:absolute;left:'+undw+';top:-13px;" src="images/under_job.png" height="156px;" /><img onclick=iconC2aOpen() style="position:absolute;left:58px;top:-1px;" src="images/heroes/job/'+heroName+'/2A.png" height="95px" /><img style="position:absolute;top:86px;left:'+cli+';" src="images/classes/'+classStats[chb[0]-1][2]+'.png" height="35px" /></div>';
+		cl20.innerHTML = '<div id="a2" style="display:block;width:100%;height:130px;position:relative;"><img onclick=iconC2aOpen() style="position:absolute;left:'+undw+';top:-13px;" src="images/under_job.png" height="156px;" /><img onclick=iconC2aOpen() style="position:absolute;left:58px;top:-1px;" src="images/heroes/job/'+heroName+'/2A.png" height="95px" /><img style="position:absolute;top:86px;left:'+cli+';" src="images/classes/'+classStats[chb[0]-1][2]+'.png" height="35px" /></div>';
 	}
 } else {cl20.innerHTML ='';}
 //2B
 if ((dataTable[hero_number][42].split(",").length == dataTable[hero_number][43].split(",").length) || (dataTable[hero_number][42].split(",").length ==2)){dop20='<img id="sha0" style="float:left;margin: 10px 0;" src="images/shadow_all.png" width="100%" height="10px" />';dop21 = '';}else{dop20='';dop21='<img id="sha0" style="float:left;margin: 10px 0;" src="images/shadow_all.png" width="100%" height="10px" />';}
 if (dataTable[hero_number][42]!=='' || dataTable[hero_number][43]!==''){
 	if ((dataTable[hero_number][34]!=='' || dataTable[hero_number][35]!=='') && (dataTable[hero_number][36]!=='' || dataTable[hero_number][37]!=='') && (dataTable[hero_number][38]!=='' || dataTable[hero_number][39]!=='')){
-		cl21.innerHTML = '<div style="display:block;width:100%;height:85px;position:relative;"><img onclick=iconC2bOpen() style="position:absolute;left:'+undw+';top:-13px;" src="images/under_job.png" height="100px;" /><img onclick=iconC2bOpen() style="position:absolute;left:38px;top:-2px;" src="images/heroes/job/'+heroName+'/2B.png" height="57px" /><img style="position:absolute;top:52px;left:'+cli+';" src="images/classes/'+classStats[chb[0]-1][2]+'.png" height="25px" /></div>';
+		cl21.innerHTML = '<div id="b2" style="display:block;width:100%;height:85px;position:relative;"><img onclick=iconC2bOpen() style="position:absolute;left:'+undw+';top:-13px;" src="images/under_job.png" height="100px;" /><img onclick=iconC2bOpen() style="position:absolute;left:38px;top:-2px;" src="images/heroes/job/'+heroName+'/2B.png" height="57px" /><img style="position:absolute;top:52px;left:'+cli+';" src="images/classes/'+classStats[chb[0]-1][2]+'.png" height="25px" /></div>';
 	} else {
-		cl21.innerHTML = '<div style="display:block;width:100%;height:130px;position:relative;"><img onclick=iconC2bOpen() style="position:absolute;left:'+undw+';top:-13px;" src="images/under_job.png" height="156px;" /><img onclick=iconC2bOpen() style="position:absolute;left:58px;top:-1px;" src="images/heroes/job/'+heroName+'/2B.png" height="95px" /><img style="position:absolute;top:86px;left:'+cli+';" src="images/classes/'+classStats[chb[0]-1][2]+'.png" height="35px" /></div>';
+		cl21.innerHTML = '<div id="b2" style="display:block;width:100%;height:130px;position:relative;"><img onclick=iconC2bOpen() style="position:absolute;left:'+undw+';top:-13px;" src="images/under_job.png" height="156px;" /><img onclick=iconC2bOpen() style="position:absolute;left:58px;top:-1px;" src="images/heroes/job/'+heroName+'/2B.png" height="95px" /><img style="position:absolute;top:86px;left:'+cli+';" src="images/classes/'+classStats[chb[0]-1][2]+'.png" height="35px" /></div>';
 	}
 } else {cl21.innerHTML ='';}
 //2C
 if (dataTable[hero_number][44].split(",").length == dataTable[hero_number][45].split(",").length){dop30='<img id="sha0" style="float:left;margin: 10px 0;" src="images/shadow_all.png" width="100%" height="10px" />';dop31 = '';}else{dop30='<img id="sha0" style="float:left;margin: 10px 0;" src="images/shadow_all.png" width="100%" height="10px" />';dop31='<img id="sha0" style="float:left;margin: 10px 0;" src="images/shadow_all.png" width="100%" height="10px" />';}
 if (dataTable[hero_number][44]!=='' || dataTable[hero_number][45]!==''){
 	if ((dataTable[hero_number][34]!=='' || dataTable[hero_number][35]!=='') && (dataTable[hero_number][36]!=='' || dataTable[hero_number][37]!=='') && (dataTable[hero_number][38]!=='' || dataTable[hero_number][39]!=='')){
-		cl22.innerHTML = '<div style="display:block;width:100%;height:85px;position:relative;"><img onclick=iconC2cOpen() style="position:absolute;left:'+undw+';top:-13px;" src="images/under_job.png" height="100px;" /><img onclick=iconC2cOpen() style="position:absolute;left:38px;top:-2px;" src="images/heroes/job/'+heroName+'/2C.png" height="57px" /><img style="position:absolute;top:52px;left:'+cli+';" src="images/classes/'+classStats[chb[1]-1][2]+'.png" height="25px" /></div>';
+		cl22.innerHTML = '<div id="c2" style="display:block;width:100%;height:85px;position:relative;"><img onclick=iconC2cOpen() style="position:absolute;left:'+undw+';top:-13px;" src="images/under_job.png" height="100px;" /><img onclick=iconC2cOpen() style="position:absolute;left:38px;top:-2px;" src="images/heroes/job/'+heroName+'/2C.png" height="57px" /><img style="position:absolute;top:52px;left:'+cli+';" src="images/classes/'+classStats[chb[1]-1][2]+'.png" height="25px" /></div>';
 	} else {
-		cl22.innerHTML = '<div style="display:block;width:100%;height:130px;position:relative;"><img onclick=iconC2cOpen() style="position:absolute;left:'+undw+';top:-13px;" src="images/under_job.png" height="156px;" /><img onclick=iconC2cOpen() style="position:absolute;left:58px;top:-1px;" src="images/heroes/job/'+heroName+'/2C.png" height="95px" /><img style="position:absolute;top:86px;left:'+cli+';" src="images/classes/'+classStats[chb[1]-1][2]+'.png" height="35px" /></div>';
+		cl22.innerHTML = '<div id="c2" style="display:block;width:100%;height:130px;position:relative;"><img onclick=iconC2cOpen() style="position:absolute;left:'+undw+';top:-13px;" src="images/under_job.png" height="156px;" /><img onclick=iconC2cOpen() style="position:absolute;left:58px;top:-1px;" src="images/heroes/job/'+heroName+'/2C.png" height="95px" /><img style="position:absolute;top:86px;left:'+cli+';" src="images/classes/'+classStats[chb[1]-1][2]+'.png" height="35px" /></div>';
 	}
 } else {cl22.innerHTML ='';}
 
@@ -811,30 +820,39 @@ cl2c = document.getElementById("cl2c");
 
 function iconC2aOpen(){
 	c2aOpen = document.getElementById("cl2a");
+	a2 = document.getElementById("a2");
 	if (c2aOpen){
 		if (c2aOpen.classList.contains('display_none')){
+			a2.style.filter = "drop-shadow(0 0 1px white)";
 			c2aOpen.className = c2aOpen.className.replace("display_none", "display_table");
 		} else if (c2aOpen.classList.contains('display_table')){
+			a2.style.filter = "none";
 			c2aOpen.className = c2aOpen.className.replace("display_table", "display_none");
 		}
 	}
 }
 function iconC2bOpen(){
 	c2bOpen = document.getElementById("cl2b");
+	b2 = document.getElementById("b2");
 	if (c2bOpen){
 		if (c2bOpen.classList.contains('display_none')){
+			b2.style.filter = "drop-shadow(0 0 1px white)";
 			c2bOpen.className = c2bOpen.className.replace("display_none", "display_table");
 		} else if (c2bOpen.classList.contains('display_table')){
+			b2.style.filter = "none";
 			c2bOpen.className = c2bOpen.className.replace("display_table", "display_none");
 		}
 	}
 }
 function iconC2cOpen(){
 	c2cOpen = document.getElementById("cl2c");
+	c2 = document.getElementById("c2");
 	if (c2cOpen){
 		if (c2cOpen.classList.contains('display_none')){
+			c2.style.filter = "drop-shadow(0 0 1px white)";
 			c2cOpen.className = c2cOpen.className.replace("display_none", "display_table");
 		} else if (c2cOpen.classList.contains('display_table')){
+			c2.style.filter = "none";
 			c2cOpen.className = c2cOpen.className.replace("display_table", "display_none");
 		}
 	}
@@ -842,6 +860,7 @@ function iconC2cOpen(){
 
 //SP
 var clSP = document.getElementById("clSP");
+var cSPa = document.getElementById("cSPa");
 if (dataTable[hero_number][47]==''){
 	clSP.style.display = 'none';
 } else {
@@ -853,17 +872,33 @@ if (dataTable[hero_number][47]==''){
 	cl22.style["border-bottom"] = "2px solid antiquewhite";
 	cl22.style["padding-bottom"] = "0px";
 	if (!(chb[2]-1)){
-		clSP.innerHTML = '<div style="display:block;width:100%;height:140px;position:relative;"><img style="position:absolute;left:86px;top:-19px;" src="images/under_job.png" height="156px;" /><img style="position:absolute;left:159px;top:-7px;" src="images/heroes/job/'+heroName+'/SP.png" height="95px" /><img style="position:absolute;top:82px;left:182px;" src="images/classes/'+SPclass+classStats[chb[1]-1][2]+'.png" height="35px" /></div>';
+		clSP.innerHTML = '<div id="SP1" style="display:block;width:100%;height:140px;position:relative;"><img onclick=iconSP_Open() style="position:absolute;left:86px;top:-19px;" src="images/under_job.png" height="156px;" /><img onclick=iconSP_Open() style="position:absolute;left:159px;top:-7px;" src="images/heroes/job/'+heroName+'/SP.png" height="95px" /><img style="position:absolute;top:82px;left:182px;" src="images/classes/'+SPclass+classStats[chb[1]-1][2]+'.png" height="35px" /></div>';
 	} else {
-		clSP.innerHTML = '<div style="display:block;width:100%;height:140px;position:relative;"><img style="position:absolute;left:86px;top:-19px;" src="images/under_job.png" height="156px;" /><img style="position:absolute;left:159px;top:-7px;" src="images/heroes/job/'+heroName+'/SP.png" height="95px" /><img style="position:absolute;top:82px;left:182px;" src="images/classes/'+SPclass+classStats[chb[2]-1][2]+'.png" height="35px" /></div>';
+		clSP.innerHTML = '<div id="SP1" style="display:block;width:100%;height:140px;position:relative;"><img onclick=iconSP_Open() style="position:absolute;left:86px;top:-19px;" src="images/under_job.png" height="156px;" /><img onclick=iconSP_Open() style="position:absolute;left:159px;top:-7px;" src="images/heroes/job/'+heroName+'/SP.png" height="95px" /><img style="position:absolute;top:82px;left:182px;" src="images/classes/'+SPclass+classStats[chb[2]-1][2]+'.png" height="35px" /></div>';
 	}
-/*	persSP = dataTable[hero_number][47].split(",");
+	persSP = dataTable[hero_number][47].split(",");
 	for (i=0;i<persSP.length;i++){
 		if (SPskills[(persSP[i]-1)][2]=='1'){cc='33px';}else{cc='24px';}
 		if (i==0){fl = "left";} else {fl = "right";}
-		clSP.innerHTML += '<div style="display:block;width:48%;height:auto;float:'+fl+';"><div style="text-align:left;display:block;width:90%;height:auto;float:left;"><div style="position:relative;display:block;width:100px;height:100px;float:left;"><img style="position:absolute;top:2px;left:2px;" src="images/skills/SP skills/'+ SPskills[persSP[i]-1][1] +'.png" height="80px" /><img style="position:absolute;" src="images/Border_Icon_skill.png" height="84px" /><img style="position:absolute;top:73px;left:'+cc+';" src="images/'+SPskills[(persSP[i]-1)][2]+'c.png" height="16px" /></div><div style="display:block;width:70%;height:auto;float:left;"><b style="vertical-align:top;">'+SPskills[persSP[i]-1][1]+'</b>  <img src="images/sp skill.png"  height="20px" /><br><br><img src="images/sold_stats.png" height="20px"><span style="vertical-align:super;margin-right:30px;display:inline-block;width:156px;">'+skill_type[SPskills[persSP[i]-1][3]]+'</span><img src="images/sold_stats.png" height="20px"><span style="vertical-align:super;margin-right:30px;">Перезарядка: '+SPskills[persSP[i]-1][6]+'</span><br><img src="images/sold_stats.png" height="20px"><span style="vertical-align:super;margin-right:30px;display:inline-block;width:156px;">Дальность: '+SPskills[persSP[i]-1][4]+'</span><img src="images/sold_stats.png" height="20px"><span style="vertical-align:super;margin-right:30px;">Диапазон: '+SPskills[persSP[i]-1][5]+'</span></div></div><div style="text-align:left;display:block;width:97%;height:auto;float:left;white-space:pre-wrap;">'+SPskills[persSP[i]-1][7]+'</div></div>';
-	}*/
+		cSPa.innerHTML += '<div style="width:100%;height:auto;float:'+fl+';"><div style="text-align:left;display:block;width:90%;height:auto;float:left;"><div style="position:relative;display:block;width:100px;height:100px;float:left;"><img style="position:absolute;top:2px;left:2px;" src="images/skills/SP skills/'+ SPskills[persSP[i]-1][1] +'.png" height="80px" /><img style="position:absolute;" src="images/Border_Icon_skill.png" height="84px" /><img style="position:absolute;top:73px;left:'+cc+';" src="images/'+SPskills[(persSP[i]-1)][2]+'c.png" height="16px" /></div><div style="display:block;width:70%;height:auto;float:left;"><b style="vertical-align:top;">'+SPskills[persSP[i]-1][1]+'</b>  <img src="images/sp skill.png"  height="20px" /><br><br><img src="images/sold_stats.png" height="20px"><span style="vertical-align:super;margin-right:30px;display:inline-block;width:156px;">'+skill_type[SPskills[persSP[i]-1][3]]+'</span><br><img src="images/sold_stats.png" height="20px"><span style="vertical-align:super;margin-right:30px;">Перезарядка: '+SPskills[persSP[i]-1][6]+'</span><br><img src="images/sold_stats.png" height="20px"><span style="vertical-align:super;margin-right:30px;display:inline-block;width:156px;">Дальность: '+SPskills[persSP[i]-1][4]+'</span><br><img src="images/sold_stats.png" height="20px"><span style="vertical-align:super;margin-right:30px;">Диапазон: '+SPskills[persSP[i]-1][5]+'</span></div></div><div style="text-align:left;display:block;width:97%;height:auto;float:left;white-space:pre-wrap;">'+SPskills[persSP[i]-1][7]+'</div></div>';
+		if (i==0){cSPa.innerHTML += '<br><img id="sha0" style="float:left;margin: 10px 0;" src="images/shadow_all.png" width="415px" height="10px" />';}
+	}
 }
+
+function iconSP_Open(){
+	SPOpen = document.getElementById("cSPa");
+	SP1 = document.getElementById("SP1");
+	if (SPOpen){
+		if (SPOpen.classList.contains('display_none')){
+			SP1.style.filter = "drop-shadow(0 0 1px white)";
+			SPOpen.className = SPOpen.className.replace("display_none", "display_table");
+		} else if (SPOpen.classList.contains('display_table')){
+			SP1.style.filter = "none";
+			SPOpen.className = SPOpen.className.replace("display_table", "display_none");
+		}
+	}
+}
+
 /*
 //builds
 var h_info5 = document.getElementById("h_info5");
