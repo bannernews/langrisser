@@ -941,7 +941,7 @@ var mozaik3 = document.getElementById("mozaik3");
 		for (i=0;i<builds[hero_number][2];i++){
 			b_pvep.innerHTML += '<span style="margin:5px;height:auto;display:block;width:35px;float:left;"><img src="images/star.png" height="25px" /></span>';
 		}
-		b_pvep.innerHTML += '<br><br><span style="float:left;margin-top:7px;display:block;font-size:19px;">PVP</span>';
+		b_pvep.innerHTML += '<span style="clear:both;float:left;margin-top:7px;display:block;font-size:19px;">PVP</span>';
 		for (i=0;i<builds[hero_number][3];i++){
 			b_pvep.innerHTML += '<span style="margin:5px;height:auto;display:block;width:35px;float:left;"><img src="images/star.png" height="25px" /></span>';
 		}
@@ -993,7 +993,7 @@ var mozaik3 = document.getElementById("mozaik3");
 			for (i=0;i<SPbuilds[dataTable[hero_number][48]-1][2];i++){
 				b_pvepsp.innerHTML += '<span style="margin:5px;height:auto;display:block;width:35px;float:left;"><img src="images/star.png" height="25px" /></span>';
 			}
-			b_pvepsp.innerHTML += '<br><br><span style="float:left;margin-top:7px;display:block;font-size:19px;">PVP</span>';
+			b_pvepsp.innerHTML += '<span style="clear:both;float:left;margin-top:7px;display:block;font-size:19px;">PVP</span>';
 			for (i=0;i<SPbuilds[dataTable[hero_number][48]-1][3];i++){
 				b_pvepsp.innerHTML += '<span style="margin:5px;height:auto;display:block;width:35px;float:left;"><img src="images/star.png" height="25px" /></span>';
 			}
