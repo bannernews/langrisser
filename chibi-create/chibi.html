@@ -59,6 +59,10 @@
       top: 0;
       left: 0;
     }
+	#mount {
+      top: 0;
+      left: 0;
+    }
     #base-body {
 	  top: 0;
       left: 0;
@@ -76,13 +80,14 @@
 </head>
 <body>
   <div id="character-area" style="background: #e3f0de;">
+	<img id="mount" class="character-part" alt="Маунт">
     <img id="base-body" class="character-part" src="body.png" alt="Тело">
     <img id="eyes" class="character-part" alt="Глаза">
     <img id="hair" class="character-part" alt="Волосы">
     <img id="clothes" class="character-part" alt="Одежда">
   </div>
   <div id="customization-area" style="background: #fdf6e8;">
-    <div class="section" id="eye-options">
+    <div class="section one" id="eye-options">
       <h2>Eyes</h2>
       <img src="face1.png" class="option" data-target="eyes">
       <img src="face2.png" class="option" data-target="eyes">
@@ -92,7 +97,7 @@
 	  <img src="face6.png" class="option" data-target="eyes">
 	  <img src="face7.png" class="option" data-target="eyes">
     </div>
-    <div class="section" id="hair-options">
+    <div class="section one" id="hair-options">
       <h2>Hair</h2>
       <img src="hair1.png" class="option" data-target="hair">
       <img src="hair2.png" class="option" data-target="hair">
@@ -102,7 +107,7 @@
 	  <img src="hair6.png" class="option" data-target="hair">
 	  <img src="hair7.png" class="option" data-target="hair">
     </div>
-    <div class="section" id="clothes-options">
+    <div class="section one" id="clothes-options">
       <h2>Cloth</h2>
       <img src="cloth1.png" class="option" data-target="clothes">
       <img src="cloth2.png" class="option" data-target="clothes">
@@ -111,6 +116,15 @@
 	  <img src="cloth5.png" class="option" data-target="clothes">
 	  <img src="cloth6.png" class="option" data-target="clothes">
 	  <img src="cloth7.png" class="option" data-target="clothes">
+    </div>
+	<div class="section" id="mount-options">
+      <h2>Mounts</h2>
+      <img src="mount2.png" class="option" data-target="mount">
+	  <img src="mount3.png" class="option" data-target="mount">
+	  <img src="mount4.png" class="option" data-target="mount">
+	  <img src="mount5.png" class="option" data-target="mount">
+	  <img src="mount6.png" class="option" data-target="mount">
+	  <img src="mount7.png" class="option" data-target="mount">
     </div>
     <button id="download-btn">Download PNG</button>
   </div>
@@ -136,7 +150,7 @@
     });
 
     window.addEventListener('DOMContentLoaded', () => {
-      const sections = document.querySelectorAll('.section');
+      const sections = document.querySelectorAll('.one');
       sections.forEach(section => {
         const firstOption = section.querySelector('.option');
         if (firstOption) {
@@ -158,7 +172,8 @@
         { id: 'base-body', x: 0, y: 0 },
         { id: 'hair', x: 0, y: 0 },
         { id: 'eyes', x: 0, y: 0 },
-        { id: 'clothes', x: 0, y: 0 }
+        { id: 'clothes', x: 0, y: 0 },
+		{ id: 'mount', x: 0, y: 0 },
       ];
 
       Promise.all(parts.map(({ id }) => {
