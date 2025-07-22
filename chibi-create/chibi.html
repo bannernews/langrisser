@@ -169,11 +169,12 @@
 
       // Таблица координат для каждой части
       const parts = [
+		{ id: 'mount', x: 0, y: 0 },
         { id: 'base-body', x: 0, y: 0 },
         { id: 'hair', x: 0, y: 0 },
         { id: 'eyes', x: 0, y: 0 },
-        { id: 'clothes', x: 0, y: 0 },
-		{ id: 'mount', x: 0, y: 0 },
+        { id: 'clothes', x: 0, y: 0 }
+		
       ];
 
       Promise.all(parts.map(({ id }) => {
