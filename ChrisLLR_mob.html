@@ -1,0 +1,183 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title id='title_name'>Имя героя</title>  <!--название странички на вкладке сайта-->
+    <link rel="icon" type="image/png" href="favicon.png">  <!--иконка на вкладке сайта-->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, user-scalable=yes" />
+<!--    <link rel="stylesheet" href="assets/css/main.css" /> -->
+        <link rel="stylesheet" href="css/slider.css" />
+		<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+		<link rel="stylesheet" type="text/css" href="css/main_mob.css"/>
+		<link rel="stylesheet" type="text/css" href="slick/slick-theme_mob.css"/>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+</head>
+
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+	<script type="text/javascript" src="slick/slick.min.js"></script>
+	
+<body style="background-color: #629786;">
+<div id="top" style="display:block;width:425px;">
+	<div style="text-align:left;font-size: 13px;">Русский | <a id="langu" href="ChrisLLR_en_mob.html" style="color: antiquewhite;">English</a></div>
+	<div id="logo" style="display:inline-block;text-decoration:none;line-height: 3px;float:right;margin-right:2%;margin-top: -17px;"><a href="index_mob.html"><img src="images/headpanel.png" style="vertical-align:sub" height="20px" /><span style="font-size: 16px;vertical-align: 0px;text-shadow: 1px 1px #d8c2a9;">Banner News</span><img src="images/headpanel.png" style="vertical-align:sub" height="20px" /></a></div>
+	<hr noshade style="border-color: #d8c2a9;">
+	<div class="menu"><a href="heroes_mob.html">Герои</a></div>
+	<div class="menu menumore">Снаряжение
+		<div class="dropdown-content">
+			<a style="margin-top: -30px;background-color: unset;" href="#"></a>
+			<a id="mp1" href="items_mob.html">Общее<img class="menu_point1" src="images/point.png" height="20px" style="vertical-align:-3px;" /></a>
+			<a id="mp2" href="pers_items_mob.html">Личное<img class="menu_point2" src="images/point.png" height="20px" style="vertical-align:-3px;" /></a>
+		</div>
+	</div>
+	<div class="menu"><a href="soldiers_mob.html">Солдаты</a></div>
+	<div class="menu"><a href="https://docs.google.com/spreadsheets/d/1mqOkMylobD4VkGctr_ZMOGvCirGKt6uqPJugNtLYKtQ/edit#gid=0" target="_blank">Календарь</a></div>
+
+	<hr noshade style="border-color: #d8c2a9;">
+</div>
+
+<span style="position:absolute;top:5px;left:200px;"><a id="pcswap" href="ChrisLLR.html"><img src="images/pc.png" height="20px"></a></span>
+<div id="middle" style="width:425px;margin:0 auto;padding-top:7px;white-space: nowrap;">
+	<div id="title" style="display:block;width:100%;margin:0 auto;font-size: 30px;color:#000;height: 38px;background-color: #d8c2a9;text-align: center;">Имя героя</div>
+	<div id="picture" style="position:relative;display:block;width:100%;margin:0 auto;height:auto;text-align:center;padding-top:20px;"></div>
+	<div id="mozaik" style="display:none;width:100%;margin:0 auto;height: 38px;background-color: #d8c2a9;"><img style="margin-top:5px;" src="images/mozaik_mob.png" height="27px" width="425px;" /></div>
+	
+	<div id="h_info1" style="display:block;width:100%;margin:0 auto;height:auto;float:left;">
+		<div id="h_frac" style="display:block;width:100%;float:right;height:50px;margin:20px 0 10px 10px;text-align:center"></div>
+		<div id="talant" style="display:block;width:100%;height:auto;float:left;">
+			<div id="tal_pic" style="display:block;width:28%;float:left;text-align:center;"></div>
+			<div id="talant_text" style="display:contents;width:70%;height:auto;float:left;white-space:pre-wrap;"></div>
+		</div>
+		<div id="sp_shadow"><img style="float:right;" src="images/shadow.png" width="100%" height="20px" /></div>
+		<div id="talant_sp" style="display:block;width:100%;auto;float:right;text-align:end;">
+			<div id="talSP_pic" style="display:block;width:28%;auto;float:right;text-align:center;"></div>
+			<div id="talantSP_text" style="display:contents;width:70%;height:auto;float:right;white-space:pre-wrap;"></div>
+		</div>
+	</div>
+	<div id="h_info2" style="display:block;width:100%;height:auto;margin:0 auto;height:auto;float:left;margin-top:30px;">
+		<div id="pers_item" style="display:block;width:100%;height:auto;float:left;margin-bottom:20px;">
+			<div id="pers_pic" style="display:block;width:28%;auto;float:left;text-align:center;"></div>
+			<div id="pers_text" style="display:contents;width:70%;height:auto;float:right;white-space:pre-wrap;"></div>
+		</div>
+		<div id="h_forge" style="display:block;width:100%;height:auto;float:left;margin-bottom:20px;">
+			<div id="forge_pic" style="display:block;width:28%;auto;float:left;text-align:center;"></div>
+			<div id="forge_text" style="display:contents;width:70%;height:auto;float:left;white-space:pre-wrap;"></div>
+		</div>
+		<div id="h_sold" style="display:block;width:100%;height:auto;float:left;margin-bottom:35px;">
+			<div id="sold_pic" style="display:block;width:28%;auto;float:left;text-align:center;"></div>
+			<div id="sold_text" style="display:block;width:70%;height:auto;float:left;"></div>
+		</div>
+		<div id="h_sold_view" class="display_none" style="width:95%;margin:0 auto;height:auto;float:left;white-space:pre-wrap;margin-left:5px;margin-bottom:20px;"></div>
+		<div id="h_forge_pic" style="display:block;width:300px;float:left;margin-left:62px;height:420px;">Картинка ковка</div>
+	</div>
+	<div id="h_info3" style="display:block;width:100%;margin:0 auto;float:left;">
+		<table border='0' style="width:100%;" cellspacing="2">
+			<tr><td id="chb1" style="width:170px;height:170px;position:relative;">Чибик1</td><td style="height:170px;"></td><td id="chb2" style="width:170px;height:170px;position:relative;">Чибик2</td></tr>
+			<tr><td id="ch1" style="font-size:20px;height:20px;">дальность</td><td style="height:20px;"></td><td id="ch2" style="height:20px;font-size:20px;">дальность</td></tr>
+			<tr style="font-size:20px;"><td id="coz1" style="height:20px;"></td><td style="height:20px;">ОЗ</td><td id="coz2" style="height:20px;"></td></tr>
+			<tr style="font-size:20px;"><td id="catk1" style="height:20px;"></td><td style="height:20px;">АТК</td><td id="catk2" style="height:20px;"></td></tr>
+			<tr style="font-size:20px;"><td id="cint1" style="height:20px;"></td><td style="height:20px;">ИНТ</td><td id="cint2" style="height:20px;"></td></tr>
+			<tr style="font-size:20px;"><td id="cdef1" style="height:20px;"></td><td style="height:20px;">ЗАЩ</td><td id="cdef2" style="height:20px;"></td></tr>
+			<tr style="font-size:20px;"><td id="cmdef1" style="height:20px;"></td><td style="height:20px;">МЗАЩ</td><td id="cmdef2" style="height:20px;"></td></tr>
+			<tr style="font-size:20px;"><td id="cskill1" style="height:20px;"></td><td style="height:20px;">НАВЫК</td><td id="cskill2" style="height:20px;"></td></tr>
+			<tr><td colspan="3"><img src="images/shadow.png" width="100%" height="20px" /></td></tr>
+			<tr><td id="che41" style="height:50px;white-space:pre-wrap;padding:3px 10px;vertical-align:middle;"></td><td id="he4" style="height:50px;vertical-align:middle;"><img src="images/heart.png" height="40px" /><br>4 уровень</td><td id="che42" style="height:50px;white-space:pre-wrap;padding:3px 10px;"></td></tr>
+			<tr><td id="che71" style="height:50px;white-space:pre-wrap;padding:3px 10px;vertical-align:middle;"></td><td id="he7" style="height:50px;vertical-align:middle;"><img src="images/heart.png" height="40px" /><br>7 уровень</td><td id="che72" style="height:50px;white-space:pre-wrap;padding:3px 10px;"></td></tr>
+		</table>
+		<table border='0' style="width:100%;" cellspacing="2">
+			<tr><td id="uzi_l" style="width:205px;background-image:url(images/uzi_l.png);background-repeat:no-repeat;white-space:pre-wrap;background-size:103%;">Для личных уз</td><td id="uzi_dr" style="width:205px;background-image:url(images/uzi_dr.png);background-repeat:no-repeat;white-space:pre-wrap;background-size:103%;">Для чужих уз</td></tr>
+		</table>
+	</div>
+	<div id="h_info4" style="display:block;width:425px;margin:0 auto;height:auto;float:left;margin-bottom:30px;margin-top:10px;">
+		<div id="c3_info" style="display:block;width:100%;height:auto;float:left;">
+			<div id="c3_pic" style="display:block;width:19%;auto;float:left;"></div>
+			<div id="c3_text" style="display:block;width:80%;height:auto;float:left;"></div>
+			<div id="c3_desc" style="display:block;width:100%;height:auto;float:left;white-space:pre-wrap;"></div>
+		</div>
+		<div id="prob" style="display:block;width:110px;float:left;margin-left:40%;margin-top:10px;margin-bottom:10px;"></div>
+		<div id="c3_hero_pic" style="display:block;width:100%;height:auto;float:left;text-align:center;"></div>
+	</div>
+	<div id="mozaik2" style="display:block;width:415px;margin:0 auto;height: 38px;background-color: #d8c2a9;float:left;"><img style="margin-top:5px;" src="images/mozaik_mob.png" height="27px" width="415px;" /></div>
+	
+<!-------------------------------------------------------------------------------------------------------------------------------------------->
+	<div style="display:block;width:400px;height:auto;margin:10px;float:left;">
+		<span id="htree">Герой</span><span id="untree">Единорог</span>
+	</div>
+	<div id="treeHero" class="display_block" style="width:100%;margin:0 auto;height:auto;">
+		<table border="0" style="width:415px;">
+			<tr><td id="cl00" colspan="5" style="height:auto;border-bottom: 2px solid antiquewhite;padding-bottom: 0px;">начальный класс</td></tr>
+			<tr><td id="cl10" style="height:auto;width:32%;border-bottom: 2px solid antiquewhite;padding-bottom: 5px;padding-top:10px;"></td><td id="glminus" style="width:15px;"><img class="glowH" src="images/glow.png" width="15px" height="100%" /></td><td id="cl11" style="height:auto;width:32%;border-bottom: 2px solid antiquewhite;padding-bottom: 5px;padding-top:10px;"></td><td style="width:15px;"><img class="glowH" src="images/glow.png" width="15px" height="100%" /></td><td id="cl12" style="height:auto;width:32%;border-bottom: 2px solid antiquewhite;padding-bottom: 5px;padding-top:10px;"></td></tr>
+			<tr><td id="cl1a" colspan="5" class="display_none"></td></tr>
+			<tr><td id="cl1b" colspan="5" class="display_none"></td></tr>
+			<tr><td id="cl1c" colspan="5" class="display_none"></td></tr>
+			<tr><td id="cl20" style="height:auto;width:32%;padding-top:5px;"></td><td id="glminus2" style="width:13px;padding-top:5px;"><img class="glowH2" src="images/glow.png" width="15px" height="100%" /></td><td id="cl21" style="height:auto;width:32%;padding-top:5px;"></td><td style="width:15px;padding-top:5px;"><img class="glowH2" src="images/glow.png" width="15px" height="100%" /></td><td id="cl22" style="height:auto;width:32%;padding-top:5px;"></td></tr>
+			<tr><td id="cl2a" colspan="5" class="display_none"></td></tr>
+			<tr><td id="cl2b" colspan="5" class="display_none"></td></tr>
+			<tr><td id="cl2c" colspan="5" class="display_none"></td></tr>
+		</table>
+	</div>
+<!-------------------------------------------------------------------------------------------------Дерево единорогов--------------------------------->
+	<div id="treeUnicorn" class="display_none" style="width:100%;margin:0 auto;height:auto;">
+		<table border="0" style="width:425px;font-size:15px;">
+			<tr><td style="width:200px;height:30px;font-size:15px;white-space:normal;">Единорог святого класса</td><td rowspan="6"><img src="images/glow.png" width="15px" height="2330px" /></td><td style="width:200px;font-size:15px;white-space:normal;">Единорог класса маг</td></tr>
+			<tr><td style="height:100px;"><img src="images/ChrisLLR/0A.png" width="190px"></td><td><img src="images/ChrisLLR/0C.png" width="190px"></td></tr>
+			<tr><td style="white-space:normal;"><img src="images/ChrisLLR/holyUni.png" width="100px" style="float:left;"/><span  style="float:left;"><b>Талант</b></span><br><br><span  style="float:left;text-align:left;">Добавляет 40% эффекта «увеличения исцеления» Яркого Призывателя к её эффекту «увеличения урона» и увеличивает дальность действия юнита на 2. Все эффекты усиления, полученные от единорога, длятся +1 раунд.</span></td><td style="white-space:normal;"><img src="images/ChrisLLR/mageUni.png" width="100px" style="float:left;"/><span style="float:left;"><b>Талант</b></span><br><br><span style="float:left;text-align:left;">Вступая в бой, атакует дополнительно 1 раз раньше врага. Навыки и активные атаки самого себя и Яркого Призывателя приведут к тому, что все пораженные клетки получат специальный эффект «Печать Грома» на 2 хода: «Когда вражеский отряд заканчивает действие на этой клетке, он получит «Фиксированный урон» равный 1х интелекта призывателя и получает «30% снижение магической защиты», которое длится 2 раунда.</span></td></tr>
+			<tr><td style="white-space:normal;"><img src="images/skills/common/Чудо.png" height="80px"/>
+				<div style="display:block;width:90%;height:auto;float:left;text-align:left;position:relative;"><span style="float:left;"><b>Чудо</b></span><br><br><img src="images/sold_stats.png" height="20px"><img src="images/Border_Icon_skill.png" height="90px" style="position:absolute;left:55px;top:-89px;" /><span style="vertical-align:super;display:inline-block;width:156px;">Помощь</span><img src="images/sold_stats.png" height="20px"><span style="vertical-align:super;">Перезарядка: 4</span><br><img src="images/sold_stats.png" height="20px"><span style="vertical-align:super;display:inline-block;width:156px;">Дальность: 3</span><img src="images/sold_stats.png" height="20px"><span style="vertical-align:super;">Диапазон: 4</span></div></div><div style="text-align:left;display:block;width:97%;height:auto;float:left;white-space:pre-wrap;">[Помощь] Активный навык. Урон нескольких юнитов в пределах дальности увеличивается на 15%, получаемый урон снижается на 15%. Длится 2 хода. Исцеляет союзников на 3х ИНТ заклинателя.</div></td>
+			<td style="white-space:normal;"><img src="images/skills/common/Грозовой шквал.png" height="80px"/>
+				<div style="display:block;width:90%;height:auto;float:left;text-align:left;position:relative;"><b>Грозовой шквал</b><br><br><img src="images/sold_stats.png" height="20px"><img src="images/Border_Icon_skill.png" height="90px" style="position:absolute;left:55px;top:-89px;" /><span style="vertical-align:super;display:inline-block;width:156px;">Маг.урон</span><img src="images/sold_stats.png" height="20px"><span style="vertical-align:super;">Перезарядка: 3</span><br><img src="images/sold_stats.png" height="20px"><span style="vertical-align:super;display:inline-block;width:156px;">Дальность: 3</span><img src="images/sold_stats.png" height="20px"><span style="vertical-align:super;">Диапазон: 3</span></div></div><div style="text-align:left;display:block;width:97%;height:auto;float:left;white-space:pre-wrap;">[Маг. урон] Атакует нескольких врагов в пределах дальности, нанося 0,3х АоЕ-урона. Наносит доп. урон кавалерии. Снижает ЗАЩ врага на 20% на 2 хода.</div></td></tr>
+			<tr><td style="white-space:normal;"><img src="images/ChrisLLR/skillholy1.png" height="80px"/>
+				<div style="display:block;width:90%;height:auto;float:left;text-align:left;position:relative;"><b>Славное святилище</b><br><br><img src="images/sold_stats.png" height="20px"><img src="images/Border_Icon_skill.png" height="90px" style="position:absolute;left:55px;top:-89px;" /><span style="vertical-align:super;display:inline-block;width:156px;">Команда</span><img src="images/sold_stats.png" height="20px"><span style="vertical-align:super;">Перезарядка: -</span><br><img src="images/sold_stats.png" height="20px"><span style="vertical-align:super;display:inline-block;width:156px;">Дальность: -</span><img src="images/sold_stats.png" height="20px"><span style="vertical-align:super;">Диапазон: -</span></div></div><div style="text-align:left;display:block;width:97%;height:auto;float:left;white-space:pre-wrap;">[Команда] Союзные войска в радиусе 2 клеток вокруг невосприимчивы к эффектам «Проклятия исцеления» и «Запрет баффов» и в конце действия будут восстанавливать себе ОЗ, в  размере 3х ИНТ сияющего единорога, и будет рассеян 1 дебафф.</div></td>
+			<td style="white-space:normal;"><img src="images/ChrisLLR/skillmage1.png" height="80px"/>
+				<div style="display:block;width:90%;height:auto;float:left;text-align:left;position:relative;"><b>Святилище бури</b><br><br><img src="images/sold_stats.png" height="20px"><img src="images/Border_Icon_skill.png" height="90px" style="position:absolute;left:55px;top:-89px;" /><span style="vertical-align:super;display:inline-block;width:156px;">Пассивный</span><img src="images/sold_stats.png" height="20px"><span style="vertical-align:super;">Перезарядка: -</span><br><img src="images/sold_stats.png" height="20px"><span style="vertical-align:super;display:inline-block;width:156px;">Дальность: -</span><img src="images/sold_stats.png" height="20px"><span style="vertical-align:super;">Диапазон: -</span></div></div><div style="text-align:left;display:block;width:97%;height:auto;float:left;white-space:pre-wrap;">[Пассивный] Когда активно атакует, применяет [Удар молнии] ко всем врагам на дружественной [Печати грома] перед вступлением в битву: «Количество солдат в отряде -2 (заменяется на «Увеличение получаемого урона на 20%», если цель не имеет солдат)", длится 2 раунда и наносит 1 [фиксированный урон], значение урона равно 1х интеллекта.</div></td></tr>
+			<td style="white-space:normal;"><img src="images/ChrisLLR/skillholy2.png" height="80px"/>
+				<div style="display:block;width:90%;height:auto;float:left;text-align:left;position:relative;"><b>Сияющая боевая молитва</b><br><br><img src="images/sold_stats.png" height="20px"><img src="images/Border_Icon_skill.png" height="90px" style="position:absolute;left:55px;top:-89px;" /><span style="vertical-align:super;display:inline-block;width:156px;">Помощь</span><img src="images/sold_stats.png" height="20px"><span style="vertical-align:super;">Перезарядка: 5</span><br><img src="images/sold_stats.png" height="20px"><span style="vertical-align:super;display:inline-block;width:156px;">Дальность: 3</span><img src="images/sold_stats.png" height="20px"><span style="vertical-align:super;">Диапазон: одна цель</span></div></div><div style="text-align:left;display:block;width:97%;height:auto;float:left;white-space:pre-wrap;">[Поддержка] Выберите другую дружественную цель, скопируйте все рассеиваемые баффы и превратите ее солдат в сияющих единорогов. Все характеристики солдат, кроме жизни, будут увеличены на 10%, и добавляет невосприимчивость к снижению мобильности. При движении вся проходимая местность считается «равнинами», длится 3 раунда и не может быть снят.</div></td>
+			<td style="white-space:normal;"><img src="images/ChrisLLR/skillmage2.png" height="80px"/>
+				<div style="display:block;width:90%;height:auto;float:left;text-align:left;position:relative;"><b>Священный шторм суда</b><br><br><img src="images/sold_stats.png" height="20px"><img src="images/Border_Icon_skill.png" height="90px" style="position:absolute;left:55px;top:-89px;" /><span style="vertical-align:super;display:inline-block;width:156px;">Маг. урон</span><img src="images/sold_stats.png" height="20px"><span style="vertical-align:super;">Перезарядка: 2</span><br><img src="images/sold_stats.png" height="20px"><span style="vertical-align:super;display:inline-block;width:156px;">Дальность: 2</span><img src="images/sold_stats.png" height="20px"><span style="vertical-align:super;">Диапазон: одна цель</span></div></div><div style="text-align:left;display:block;width:97%;height:auto;float:left;white-space:pre-wrap;">[Пассивный] При сражении с врагом на дружественной [Печати Грома] все атрибуты, кроме ОЗ, будут увеличены на 20%.<br>
+[Магический урон] атакует одного врага, нанося 1,2х урона. Если противник находится на дружественной [Печатью грома], единорог будет невосприимчив к любому урону.</div></td></tr>
+		</table>
+	</div>
+<!--------------------------------------------------------------------------------------------------------------------------------------------------->
+	<div id="mozaik3" style="display:block;width:100%;margin:0 auto;height: 38px;margin-bottom:20px;"><img src="images/mozaik_mob.png" width="425px" /></div>
+	<div id="h_info5" style="display:block;width:100%;margin:0 auto;height:auto;margin-bottom:20px;">
+		<div id="h_i5_title" style="display:block;width:100%;height:auto;text-align:center;font-size:17px;margin-bottom:20px;">Рейтинг и рекомендации по развитию героя</div>
+		<table border="0" style="width:95%;margin:0 auto;">
+			<tr><td style="width:9%;"><img src="images/item_type/weapon.png" height="62px" /></td><td id="b_weapon" style="width:90%;text-align:left;"></td></tr>
+			<tr><td><img src="images/item_type/body.png" height="62px" /></td><td id="b_body" style="text-align:left;"></td></tr>
+			<tr><td><img src="images/item_type/head.png" height="62px" /></td><td id="b_head" style="text-align:left;"></td></tr>
+			<tr><td><img src="images/item_type/accessoir.png" height="62px" /></td><td id="b_acc" style="text-align:left;"></td></tr>
+			<tr><td><img src="images/chant.png" height="62px" /></td><td id="b_chari" style="vertical-align:top;"></td></tr>
+			<tr><td  id="b_sold" colspan="2" style="width:98%;"></td></tr>
+			<tr><td id="b_pvep" colspan="2" style="width:98%;"></td></tr>
+			<tr><td style="text-align:left;white-space:pre-wrap;" colspan="2"><i>***Билд сделан на момент выхода героя. Информация для ознакомления.</i></td></tr>
+<!-- 			<tr><td style="width:9%;"><img src="images/item_type/weapon.png" height="50px" /></td><td id="b_weapon" style="width:90%;text-align:left;"></td><td style="width:5%;"></td><td style="width:7%;"><img src="images/chant.png" height="70px" /></td><td style="width:5%;"></td><td  id="b_sold" style="width:42%;" colspan="2" rowspan="2"></td></tr>
+			<tr><td><img src="images/item_type/body.png" height="50px" /></td><td id="b_body" style="text-align:left;" ></td><td style="vertical-align:middle;"><img src="images/point.png" height="30px" /></td><td id="b_chari" rowspan="3" style="vertical-align:top;"></td><td style="vertical-align:middle;"><img src="images/point.png" height="30px" /></td></tr>
+			<tr><td><img src="images/item_type/head.png" height="50px" /></td><td id="b_head" style="text-align:left;"></td><td></td><td></td><td id="b_pve" style="width:21%;vertical-align:top;text-align:left;"></td><td id="b_pvp" style="width:21%;vertical-align:top;text-align:left;"></td></tr>
+			<tr><td><img src="images/item_type/accessoir.png" height="50px" /></td><td id="b_acc" style="text-align:left;"></td><td></td><td></td><td style="text-align:left;white-space:pre-wrap;" colspan="2">***Билд сделан на момент выхода героя. Информация для ознакомления.</td></tr> -->
+		</table>
+	</div>
+	
+	<div id="fetter_title" style="position:relative;display:block;width:425px;margin:0 auto;height: auto;margin-top:15px;"><img style="position:absolute;margin:-5px 0 0 0;opacity:0.65;box-shadow: 0 0 12px aliceblue;" src="images/conf_fon2.png" width="425px" height="41px" /></div>
+	<div id="fetter_pic" style="display:block;width:425px;margin:0 auto;height:auto;text-align:center;"></div>
+	<div id="mozaik2" style="display:block;width:425px;margin:0 auto;height: 38px;background-color: #d8c2a9;margin-bottom:20px;margin-top:-4px;"><img style="margin-top:5px;" src="images/mozaik_mob.png" height="27px" width="425px;" /></div>
+</div>
+<div id="bottom" style="display:block;width:425px;text-align:center;float:left;">
+	*Информация подготовлена на основе китайского сервера и была переведена без знания китайского языка.<br>
+	Если заметили неточности перевода или несоответствие игровым механикам - напишите нам.<br>
+	Приносим свои извенения за неточности.
+</div>
+
+
+<!--			<script src="js/jquery.min.js"></script>
+			<script src="js/browser.min.js"></script>
+			<script src="js/breakpoints.min.js"></script>
+			<script src="js/util.js"></script> -->
+		<script src="js/dataTableChrisLLR_mob.js"></script>
+		<script src="js/slider.js"></script>
+		<script src="js/hero.js"></script>
+<!--		<script src="js/main.js"></script> 
+	<script type="text/javascript">
+		window.onload = soldView('sword');   //при загрузке страницы автоматически фильтр по мечникам
+	</script>-->
+</body>
+</html>
