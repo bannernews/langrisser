@@ -951,7 +951,7 @@ var mozaik3 = document.getElementById("mozaik3");
 		}
 	} else {
 		h_info5.innerHTML='';
-		mozaik3.style.display="none";
+//		mozaik3.style.display="none";
 	}
 	//SP build
 	if (dataTable[hero_number][47]!==''){
