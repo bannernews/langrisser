@@ -4,6 +4,9 @@ var heroName = params.get("name");
 langu = document.getElementById('langu');
 langu.href = "hero.html?name="+heroName;
 
+mobswap = document.getElementById('mobswap');
+mobswap.href = "hero_en_mob.html?name="+heroName;
+
 if (heroName == 'Метью'){
 	document.location.href = "work_en.html";
 }

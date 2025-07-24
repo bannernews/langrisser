@@ -9,6 +9,9 @@ if (heroName){
 langu = document.getElementById('langu');
 langu.href = "hero_en.html?name="+heroName;
 
+mobswap = document.getElementById('mobswap');
+mobswap.href = "hero_mob.html?name="+heroName;
+
 if (heroName == 'Метью'){
 	document.location.href = "work.html";
 }
