@@ -229,10 +229,12 @@ body{
 }
 
 #htreepic:hover{
-	border:1px solid black;
+	border:1px solid #f59222;
+	border-radius: 8px;
 }
 #untreepic:hover{
-	border:1px solid black;
+	border:1px solid #f59222;
+	border-radius: 8px;
 }
 #left_filter:before{
 
