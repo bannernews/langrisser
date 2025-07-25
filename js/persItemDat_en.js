@@ -156,8 +156,8 @@ var persItemDat = [
 	[
         "Андриола",
         "Andriole",
-        "Глобал - 10.07.2025",
-        "Global - 10.07.2025",
+        "Слава Империи",
+        "Glory of the Empire",
         "body",
         "437",
         "",

@@ -1131,7 +1131,7 @@ var dataTable = [
         "Т",
         "Devotion to the Crown",
         "When there are no allies within 1 block, ATK and DEF increase (10%, 13%, 16%, 20%). <br><br>Once per battle, at the end of the action, select an unsummoned ally who will receive the [Oath of Allegiance] and Andriola himself receives the [Command]: “The hero and the one wearing the [Oath of Allegiance] have all their characteristics (except HP) improved by (5%, 8%, 11%, 15%)\". When an [Oath of Allegiance] ally kills an enemy or dies, Andriola regains 100% health. If he has already acted this round, he can act again. (Extra Action effect only triggers 1 time per turn) When a [Oath of Allegiance] ally dies, Andriola gains [Animosity]: “Move ignores terrain; when entering battle, attacks before the enemy and ignores 30% of the enemy’s defense.” ([Oath of Allegiance], [Animosity] and team effects cannot be dispelled or immunized. The effect of improving the same team skill attributes cannot be overridden)",
-        "Global - 10.07.2025",
+        "Glory of the Empire",
         "броня",
         "437",
         "",
@@ -11629,14 +11629,14 @@ var dataTable = [
         ""
     ],
 	[
-        "Макаера",
+        "Макира",
         "ИС,АП,МУ",
         "SSR",
         "",
         "",
         "Мил",
-        "Hidden Blade Dance",
-        "ATK and critical damage are increased by (10%, 15%, 20%, 25%).<br>After using the skill, a special terrain effect [Hidden Blade] is created in a random empty tile within 1 tile of the skill's impact point: if an enemy unit ends its turn on this tile, it will receive fixed damage equal to 1x the ATK of the unit that applied the effect. Duration: 2 turns.<br>At the end of the turn, [Hidden Blade Dance] can be activated: attacks the first enemy in a line, dealing 0.1x AoE damage and stealing 1 buff from the target. If critical damage is dealt, an additional buff is stolen. At the same time, the first ally in the area is given the effect: 'Critical Chance and Critical Damage are increased by 20%' for (1, 1, 2, 2) turns.",
+        "Veilblade Sarabande",
+        "ATK and critical damage are increased by (10%, 15%, 20%, 25%).<br>After using the skill, a special terrain effect [Hidden Blade] is created in a random empty tile within 1 tile of the skill's impact point: if an enemy unit ends its turn on this tile, it will receive fixed damage equal to 1x the ATK of the unit that applied the effect. Duration: 2 turns.<br>At the end of the turn, [Veilblade Sarabande] can be activated: attacks the first enemy in a line, dealing 0.1x AoE damage and stealing 1 buff from the target. If critical damage is dealt, an additional buff is stolen. At the same time, the first ally in the area is given the effect: 'Critical Chance and Critical Damage are increased by 20%' for (1, 1, 2, 2) turns.",
         "",
         "",
         "",
@@ -11686,8 +11686,8 @@ var dataTable = [
         "",
         "",
         "Мил",
-        "Bloodline Crown",
-        "Damage increases by (10%, 13%, 16%, 20%).<br>At the end of the turn, apply 1 layer of [Bloodline Crown]: 'All stats (except HP) increase by 2%, 4%, 6%, 8%' for 3 turns. The effect can be stacked up to 3 times and cannot be dispelled. After that, deals 0.1x AoE damage to all enemies within 2 tiles. For each layer of [Bloodline Crown], the damage coefficient increases by 0.05. ",
+        "Crown of the Bloodline",
+        "Damage increases by (10%, 13%, 16%, 20%).<br>At the end of the turn, apply 1 layer of [Crown of the Bloodline]: 'All stats (except HP) increase by 2%, 4%, 6%, 8%' for 3 turns. The effect can be stacked up to 3 times and cannot be dispelled. After that, deals 0.1x AoE damage to all enemies within 2 tiles. For each layer of [Crown of the Bloodline], the damage coefficient increases by 0.05. ",
         "",
         "",
         "",
@@ -11708,9 +11708,9 @@ var dataTable = [
         "тяжелая",
         "0,2",
         "463,464",
-        "Макаера",
+        "Макира",
         "мечник",
-        "Макаера",
+        "Макира",
         "",
         "931",
         "117",
@@ -20422,7 +20422,7 @@ var classStats = [
         ""
     ],
 	[
-        "Макаера",
+        "Макира",
         "",
         "assasin",
         "3928",
@@ -20440,7 +20440,7 @@ var classStats = [
         ""
     ],
 	[
-        "Макаера",
+        "Макира",
         "",
         "holy",
         "4242",
@@ -20975,7 +20975,7 @@ var heroList = [
 			"Ниотэнгу",
 			"Касуми",
 			"Силрна",
-			"Макаера",
+			"Макира",
 			"Шем",
 			"Глаз обмана",
 			"Абишай",
@@ -30479,7 +30479,7 @@ var persSkills = [
         "[Passive] After summoning 'Dreamworld Rift', all allies of 'Dark Reincarnation' on the battlefield will have their offensive and defensive capabilities greatly improved. The damage dealt by active attacks will increase by 15%. When passing through a friendly 'Dreamworld Rift', does not consume 1 tile of mobility, lasts for 4 rounds. (This effect cannot be combined with other Fusion Energy effects).<br>[Magic Damage] Attacks one enemy, dealing 1.7x damage, applies 'damage taken increased by 20%' and 'cannot be guarded, cannot be targeted by other friendly skills, and is not affected by other friendly skills effects (PVP mode only)', lasts for 2 rounds and cannot be dispelled. If there is a friendly Dreamworld Rift within 2 blocks of the enemy, the Guard's effect will be ignored for this battle. After the battle, can teleport to any location within 2 tiles of a friendly Dreamworld Rift."
     ],
 	[
-        "Макаера",
+        "Макира",
         "",
         "",
         "",
@@ -30489,8 +30489,8 @@ var persSkills = [
         ""
     ],
 	[
-        "Dance of Illusions",
-        "Танец Иллюзий",
+        "Illusory dance",
+        "Иллюзорный танец",
         "1",
         "7",
         "7",
@@ -30499,8 +30499,8 @@ var persSkills = [
         "[Active] Used actively. Allows you to move to one allied [Hidden Blade] effect within 7 tiles and gain the buff 'Critical Chance and Critical Damage +20%' for 2 turns. After use, you can attack again."
     ],
 	[
-        "Silent Kiss of the Blade",
-        "Безмолвный Поцелуй Клинка",
+        "Silent Blade Kiss",
+        "Поцелуй безмолвного клинка",
         "2",
         "2",
         "2",
@@ -30509,8 +30509,8 @@ var persSkills = [
         "[Physical Damage] Attacks one enemy, dealing 1.5x damage. In this battle, the unit ignores melee damage reduction. After use, the next activation of the Talent skill changes the area of ​​effect: attacks in 3 lines, and the first unit in each line receives the corresponding effect."
     ],
 	[
-        "Dance of the Stolen Soul",
-        "Танец Похищенной Души",
+        "Soul Seizing Dance",
+        "Танец захвата души",
         "3",
         "2",
         "2",
@@ -30539,8 +30539,8 @@ var persSkills = [
         "[Passive] When dealing damage to an enemy, restores 15% of maximum HP. If the damage was AoE, additionally reduces the cooldown of the skill with the longest cooldown by 1 turn (maximum 3 turns per attack)."
     ],
 	[
-        "Annihilating Slash",
-        "Истребляющий Разрез",
+        "Oblivion Slash",
+        "Разрез забвения",
         "1",
         "2",
         "6",
@@ -30549,8 +30549,8 @@ var persSkills = [
         "[Physical Damage] Attacks all enemies in a line, dealing 0.2x AoE damage. For each enemy and each tile with defensive terrain in the area of ​​effect, the skill range increases by 1 tile."
     ],
 	[
-        "Heavenly Retribution",
-        "Небесное Возмездие",
+        "Heavenbane",
+        "Гроза небес",
         "2",
         "2",
         "2",
@@ -30559,14 +30559,14 @@ var persSkills = [
         "[Physical Damage] Teleports to the skill activation point, then deals 0.3x AoE damage to all enemies within 2 tiles. In addition, enemies hit receive 'cannot receive Repeat Action' and 'cannot receive buffs'. Lasts 2 turns.<br>If the character moves 3 tiles or more before activating the skill, the skill range increases by 2 tiles."
     ],
 	[
-        "Shackles of Destruction and Retribution",
-        "Оковы Разрушения и Возмездия",
+        "Chains of Ruin",
+        "Цепи разрушения",
         "3",
         "2",
         "3",
         "one target",
         "5",
-        "[Command] All allies dispel 1 buff from the affected enemies after dealing AoE damage. For each occurrence of this effect, the skill owner gains 1 layer of [Bloodline Crown].<br>[Physical Damage] Teleports to the nearest empty tile next to the enemy and attacks them, dealing 1.6x damage. When attacking from a distance, soldiers also participate in the battle. Before the battle, dispels 5 buffs from the target.<br>After the battle, gains the following effects: Reduces damage by 50% from enemy attacks within a 2-tile radius; before the battle, deals 0.25x AoE damage to all enemies within a 2-tile radius. Lasts 2 turns, cannot be dispelled. For each layer of [Bloodline Crown], the range of this skill increases by 1 cell and the damage in battle increases by 7%."
+        "[Command] All allies dispel 1 buff from the affected enemies after dealing AoE damage. For each occurrence of this effect, the skill owner gains 1 layer of [Crown of the Bloodline].<br>[Physical Damage] Teleports to the nearest empty tile next to the enemy and attacks them, dealing 1.6x damage. When attacking from a distance, soldiers also participate in the battle. Before the battle, dispels 5 buffs from the target.<br>After the battle, gains the following effects: Reduces damage by 50% from enemy attacks within a 2-tile radius; before the battle, deals 0.25x AoE damage to all enemies within a 2-tile radius. Lasts 2 turns, cannot be dispelled. For each layer of [Crown of the Bloodline], the range of this skill increases by 1 cell and the damage in battle increases by 7%."
     ],
 	[
         "Глаз обмана",
@@ -35979,7 +35979,7 @@ var builds = [
         "Фея-ворожея,Темный эльф-снайпер SP,Палубный стрелок,Элементаль льда"
     ],
 	[
-        "Макаера",
+        "Макира",
         "",
         "",
         "",
@@ -37238,7 +37238,7 @@ var confession = [
         "https://drive.google.com/file/d/1L6RYwGZoXqTaUr7FQgVs-n6QDNgjkOWd/view?usp=sharing"
     ],
 	[
-        "Макаера",
+        "Макира",
         "https://drive.google.com/file/d/1nXjCHTU-MFntcW8GQMEHutn_gmzV2XdS/view?usp=sharing"
     ],
 	[
@@ -39550,7 +39550,7 @@ var startB = [
         ""
     ],
     [
-        "Макаера",
+        "Макира",
         "",
         "",
         "",
@@ -41933,7 +41933,7 @@ var basicB = [
         ""
     ],
     [
-        "Макаера",
+        "Макира",
         "",
         "",
         "",
@@ -45228,7 +45228,7 @@ var pveB = [
         ""
     ],
     [
-        "Макаера",
+        "Макира",
         "",
         "",
         "",
@@ -48791,7 +48791,7 @@ var pvpB = [
         ""
     ],
     [
-        "Макаера",
+        "Макира",
         "",
         "",
         "",
