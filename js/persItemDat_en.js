@@ -1743,6 +1743,21 @@ var persItemDat = [
         "ОЗ +10%. За каждый слой кристаллического барьера, который у вас есть, лечебный эффект увеличивается на 3%. Когда герой умирает, восстанавливает жизнь другим союзникам в пределах 2 клеток на 2х ИНТ.",
         "HP +10%. For each layer of Crystall Barrier you have, the healing effect is increased by 3%. When a hero dies, restores HP to other allies within 2 tiles for 2x INT."
     ],
+	[
+        "Сафрин",
+        "Safreen",
+        "Глобал - 27.11.2025",
+        "Global - 27.11.2025",
+        "weapon",
+        "437",
+        "",
+        "107",
+        "",
+        "",
+        "",
+        "ИНТ +10%. [Гармонический дух] изначально обладает эффектом 'Не может быть выбран цель обычных атак и умений врага (снимается если противник заканчивает действие в пределах 1 клетки). Все клетки в радиусе 3 клеток считаются пастбище для врагов.' Этот эффект нельзя снять или заблокировать и удаляется в конце следующего хода.<br>[Гармонический дух] может преобразовать другой [Гармонический дух] вместо Сафрин вызывая при этом эффект снятия перезарядки и активируя доп. действие для Сафрин.",
+        "INT +10%. [Harmonic Spirit] initially has the effect 'Cannot be targeted by enemy's normal attacks and skills  (removed if the enemy ends the action within 1 tile). All tiles within 3 tiles are considered plains for enemies.' This effect cannot be removed or blocked and is removed at the end of the next turn.<br>[Harmonic Spirit] can convert another [Harmonic Spirit] instead of Safreen causing the cooldown removal effect and activating an additional action for Safreen."
+    ],
     [
         "Отшельник",
         "Sage of the Trees",

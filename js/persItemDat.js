@@ -1683,6 +1683,21 @@ var persItemDat = [
         "ОЗ +10%. Снежную сову можно переместить +1 дополнительный раз. Когда в радиусе 6 клеток от Сагани есть снежная сова, при получении фатального урона не умирает (1 раз за бой)",
         "HP +10%. After releasing [Cold Sharp Eyes], you can choose to move the 'Snowy Owl' +1 times. When there is a 'Snowy Owl' released by itself within 6 squares, it cannot be fatally hit (it can be triggered once per battle at most)."
     ],
+	[
+        "Сафрин",
+        "Safreen",
+        "Глобал - 27.11.2025",
+        "Global - 27.11.2025",
+        "weapon",
+        "437",
+        "",
+        "107",
+        "",
+        "",
+        "",
+        "ИНТ +10%. [Гармонический дух] изначально обладает эффектом 'Не может быть выбран цель обычных атак и умений врага (снимается если противник заканчивает действие в пределах 1 клетки). Все клетки в радиусе 3 клеток считаются пастбище для врагов.' Этот эффект нельзя снять или заблокировать и удаляется в конце следующего хода.<br>[Гармонический дух] может преобразовать другой [Гармонический дух] вместо Сафрин вызывая при этом эффект снятия перезарядки и активируя доп. действие для Сафрин.",
+        "INT +10%. [Harmonic Spirit] initially has the effect 'Cannot be targeted by enemy's normal attacks and skills  (removed if the enemy ends the action within 1 tile). All tiles within 3 tiles are considered plains for enemies.' This effect cannot be removed or blocked and is removed at the end of the next turn.<br>[Harmonic Spirit] can convert another [Harmonic Spirit] instead of Safreen causing the cooldown removal effect and activating an additional action for Safreen."
+    ],
     [
         "Светоносец",
         "Lightbringer",

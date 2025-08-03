@@ -1177,7 +1177,7 @@ var dataTable = [
         "Анжелика",
         "ЛС,ГВ",
         "SR",
-        "",
+        "forge",
         "",
         "М1",
         "Analysis and penetration",
@@ -1688,7 +1688,7 @@ var dataTable = [
         "ТР,ТАИР",
         "SSR",
         "forge",
-        "",
+        "SP",
         "Л13",
         "Ancient evil",
         "Replaces INT with 1.5x MDEF. After dealing damage to an enemy, there is a (50,60,80,100)% chance to apply 1 random debuff.",
@@ -1707,11 +1707,11 @@ var dataTable = [
         "10",
         "40",
         "Горный голем,Каменный колосс,Баллиста,Темный эльф-снайпер,Катапульта,Засадный боец,Чудотворец,Колдун,Колдунья,Кристальный чародей,Маг - ядовитая летучая мышь,Воин-скелет,Скелет-лучник,Рыцарь-скелет,Лучник адского пламени,Призрак тумана",
-        "",
+        "Паучий эльф-демон",
         "посох",
         "тканевая",
-        "0,2,3,5,51",
-        "63,64",
+        "0,1,2,3,5,51",
+        "63,64,483",
         "Эгберт",
         "Феракуа",
         "Феракуа,Патцир,Ютем",
@@ -1731,8 +1731,8 @@ var dataTable = [
         "",
         "",
         "125",
-        "",
-        ""
+        "63,64",
+        "22"
     ],
     [
         "Бренда",
@@ -2522,7 +2522,7 @@ var dataTable = [
         "10",
         "35",
         "35",
-        "Орк,Орк-берсерк,Циклоп,Киборг-сосуд,Лобстер,Чудище-лобстер,Левиафан,Элементаль льда,Темный эльф,Чудотворец,Ведьма,Колдун,Скелет-лучник,Лучник адского пламени,Зомби-гигант,Рыцарь-нежить,Расплавленный колдун",
+        "Орк,Орк-берсерк,Циклоп,Киборг-сосуд,Лобстер,Чудище-лобстер,Левиафан,Элементаль льда,Темный эльф,Чудотворец,Ведьма,Колдун,Скелет-лучник,Лучник адского пламени,Зомби-гигант,Рыцарь-нежить,Расплавленный колдун,Призрак тумана SP",
         "",
         "посох",
         "легкая",
@@ -2823,12 +2823,12 @@ var dataTable = [
         "6",
         "",
         "At the end of the action, if no damage is dealt this turn, gain Reinforcement Learning: + 5% INT, +1 Range when skill is used (Cannot dispell, deal damage once and remove).",
-        "INT +5%. When killing an enemy with [Adaptive Infiltration] (3C), gains 1 stack of talent, if the number of stacks of talent has reached the maximum, gains +1 range, which is removed after actively dealing damage. ",
+        "INT +5%. When killing an enemy with [Adaptive Infiltration] (3C), gains 1 stack of talent, if the number of stacks of talent has reached the maximum, gains +1 range, which is removed after actively dealing damage.",
         "20",
         "40",
         "15",
         "25",
-        "Лобстер,Левиафан,Эльф прилива,Элементаль льда,Темный эльф,Темный эльф-снайпер,Снайпер-подстрекатель,Палубный стрелок,Ведьма,Колдунья,Кристальный чародей,Маг - ядовитая летучая мышь,Скелет-лучник,Лучник адского пламени,Расплавленный колдун",
+        "Лобстер,Левиафан,Эльф прилива,Элементаль льда,Темный эльф,Темный эльф-снайпер,Снайпер-подстрекатель,Палубный стрелок,Ведьма,Колдунья,Кристальный чародей,Маг - ядовитая летучая мышь,Скелет-лучник,Лучник адского пламени,Расплавленный колдун,Темный алхимик SP",
         "",
         "посох",
         "тканевая",
@@ -4001,7 +4001,7 @@ var dataTable = [
         "40",
         "15",
         "25",
-        "Элитный копейщик,Копейщик авангарда,Страж-энт,Эльфийский метатель копья,Эльф,Эльф-мастер,Снайпер-подстрекатель,Ведьма,Колдунья,Фея-ворожея,Инквизитор,Епископ,Жрица,Сияющий проповедник,Фокусник,Маг - ядовитая летучая мышь SP",
+        "Элитный копейщик,Копейщик авангарда,Страж-энт,Эльфийский метатель копья,Эльф,Эльф-мастер,Снайпер-подстрекатель,Ведьма,Колдунья,Фея-ворожея,Инквизитор,Епископ,Жрица,Сияющий проповедник,Фокусник,Маг - ядовитая летучая мышь SP,Темный алхимик SP",
         "",
         "посох,молот",
         "тканевая",
@@ -4084,7 +4084,7 @@ var dataTable = [
         "Капитан Джек",
         "ЛС,МУ,ГЙ",
         "SSR",
-        "",
+        "forge",
         "",
         "М3",
         "Sea Route Explorer",
@@ -4098,7 +4098,7 @@ var dataTable = [
         "5",
         "",
         "HP +10%. Ignores skill costs. When allies within range of [Route Marker] actively attack and deal damage, they steal 1 buff from the enemy after attacking and apply 1 random buff to Captain Mack.",
-        "",
+        "ATK +5%. [Journey Destination] range +1. When within [Journey Destination] range, all terrain under the unit is considered 'water'.",
         "25",
         "30",
         "25",
@@ -4307,7 +4307,7 @@ var dataTable = [
         "35",
         "20",
         "20",
-        "Элитная пехота,Элитный копейщик,Лавовый титан,Темный эльф,Темный эльф-снайпер,Чудотворец,Ведьма,Колдун,Колдунья,Кристальный чародей,Маг - ядовитая летучая мышь,Воин-скелет,Лучник адского пламени,Паучий эльф-демон,Расплавленный колдун,Однокрылая стрела",
+        "Элитная пехота,Элитный копейщик,Лавовый титан,Темный эльф,Темный эльф-снайпер,Чудотворец,Ведьма,Колдун,Колдунья,Кристальный чародей,Маг - ядовитая летучая мышь,Воин-скелет,Лучник адского пламени,Паучий эльф-демон,Расплавленный колдун,Однокрылая стрела,Призрак тумана SP",
         "",
         "посох,молот",
         "тканевая",
@@ -5531,7 +5531,7 @@ var dataTable = [
         "20",
         "30",
         "35",
-        "Малый бес,Летучая мышь-вампир,Лобстер,Левиафан,Эльф прилива,Элементаль льда,Жрец океана,Баллиста,Ведьма,Колдун,Колдунья,Кристальный чародей,Инквизитор,Епископ,Скелет-лучник,Лучник адского пламени,Расплавленный колдун",
+        "Малый бес,Летучая мышь-вампир,Лобстер,Левиафан,Эльф прилива,Элементаль льда,Жрец океана,Баллиста,Ведьма,Колдун,Колдунья,Кристальный чародей,Инквизитор,Епископ,Скелет-лучник,Лучник адского пламени,Расплавленный колдун,Призрак тумана SP",
         "",
         "посох,молот",
         "тканевая",
@@ -5582,7 +5582,7 @@ var dataTable = [
         "40",
         "15",
         "25",
-        "Служанка,Страж-пехотинец,Королевский страж,Эльф,Эльф-мастер,Палубный стрелок,Ведьма,Колдунья,Кристальный чародей,Маг - ядовитая летучая мышь,Скелет-лучник,Лучник адского пламени,Призрак тумана,Киборг-сосуд SP",
+        "Служанка,Страж-пехотинец,Королевский страж,Эльф,Эльф-мастер,Палубный стрелок,Ведьма,Колдунья,Кристальный чародей,Маг - ядовитая летучая мышь,Скелет-лучник,Лучник адского пламени,Призрак тумана,Киборг-сосуд SP,Темный алхимик SP",
         "",
         "меч,посох",
         "тканевая",
@@ -5841,7 +5841,7 @@ var dataTable = [
         "Боевой сокол",
         "лук,копье",
         "легкая",
-        "0,1,3,5,51,52,53",
+        "0,1,3,5,51,52,53,7",
         "208,209,467",
         "Левин",
         "Дихарт",
@@ -6124,7 +6124,7 @@ var dataTable = [
         "Маклейн",
         "МС,МУ,ГЙ",
         "SSR",
-        "",
+        "forge",
         "",
         "Л45",
         "Device",
@@ -6138,7 +6138,7 @@ var dataTable = [
         "5",
         "",
         "HP +5%, DEF +5%. When walking through terrain with the [Dash] friendly effect, the movement cost is the same as when walking through water. When actively attacking and killing an enemy, restores 20% of HP.",
-        "",
+        "When attacking enemies that are 'in water', damage is increased by 15%.<br>When using [Lord of the Stream] (3C), if the unit is 'in water' he can move 2 more tiles and attack again.",
         "20",
         "35",
         "25",
@@ -7422,7 +7422,7 @@ var dataTable = [
         "",
         "топор,копье",
         "тяжелая",
-        "0,2",
+        "0,2,5",
         "264,265",
         "Лана",
         "Леон",
@@ -7571,7 +7571,7 @@ var dataTable = [
         "30",
         "10",
         "30",
-        "Чудотворец,Ведьма,Колдун,Колдунья,Кристальный чародей,Маг - ядовитая летучая мышь,Темный эльф,Темный эльф-снайпер,Экспедиция по природе,Скелет-лучник,Лучник адского пламени,Паучий эльф-демон,Зомби-гигант",
+        "Чудотворец,Ведьма,Колдун,Колдунья,Кристальный чародей,Маг - ядовитая летучая мышь,Темный эльф,Темный эльф-снайпер,Экспедиция по природе,Скелет-лучник,Лучник адского пламени,Паучий эльф-демон,Зомби-гигант,Призрак тумана SP",
         "",
         "посох,молот",
         "тканевая",
@@ -8322,15 +8322,15 @@ var dataTable = [
         "Т",
         "Natural Resonance",
         "INT increases by (10%, 13%, 16%, 20%).<br>Has [Elemental Affinity]: For each ally with [Elemental Affinity], the unit's range is +1 (maximum +3), and damage dealt increases by 10% (maximum increase is 30%).<br>After actively using the skill, 1 [Harmonic Spirit] will be summoned at the end of the action. ([Harmonic Spirit] inherits the skill used this turn and 100% of the current attributes, can be up to 2 at a time).<br>If no damage is dealt at the end of the duration, can actively recycle 1 of its [Harmonic Spirit] and remove the cooldown of the skill it inherited. The duration of the buffs will not be reduced after use, and can attack again (cannot move and cannot summon [Harmonic Spirit]). ([Trigger cooldown] requires a 2, 2, 1, 1 round interval before it can be used again.)",
+        "Global - 27.11.2025",
+        "оружие",
+        "437",
+        "",
+        "107",
         "",
         "",
         "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
+        "INT +10%. [Harmonic Spirit] initially has the effect 'Cannot be targeted by enemy's normal attacks and skills  (removed if the enemy ends the action within 1 tile). All tiles within 3 tiles are considered plains for enemies.' This effect cannot be removed or blocked and is removed at the end of the next turn.<br>[Harmonic Spirit] can convert another [Harmonic Spirit] instead of Safreen causing the cooldown removal effect and activating an additional action for Safreen.",
         "",
         "20",
         "40",
@@ -8493,7 +8493,7 @@ var dataTable = [
         "",
         "посох,молот",
         "тканевая",
-        "0,2,5",
+        "0,2,5,51",
         "422,423",
         "Элисса",
         "Имир",
@@ -10070,7 +10070,7 @@ var dataTable = [
         "30",
         "25",
         "25",
-        "Лобстер,Чудище-лобстер,Левиафан,Элементаль льда,Темный эльф,Темный эльф-снайпер,Катапульта,Засадный боец,Бандит,Шиноби,Лучник адского пламени,Получеловек-странник",
+        "Лобстер,Чудище-лобстер,Левиафан,Элементаль льда,Темный эльф,Темный эльф-снайпер,Катапульта,Засадный боец,Бандит,Шиноби,Лучник адского пламени,Получеловек-странник,Призрак тумана SP",
         "",
         "нож,лук",
         "легкая",
@@ -10537,7 +10537,7 @@ var dataTable = [
         "430,431",
         "Тиана",
         "кавалерия",
-        "Тиана,Лукман",
+        "Тиана,Лукман,Рапьер",
         "",
         "852",
         "111",
@@ -11196,7 +11196,7 @@ var dataTable = [
         "",
         "меч,нож",
         "тяжелая",
-        "0,2,5",
+        "0,2,5,6",
         "394,395",
         "Хофманн",
         "мечник",
@@ -11294,7 +11294,7 @@ var dataTable = [
         "35",
         "15",
         "30",
-        "Эльф,Баллиста,Темный эльф,Эльф-мастер,Катапульта,Темный эльф-снайпер,Осадная баллиста,Чудотворец,Ведьма,Колдун,Колдунья,Фея-ворожея,Инквизитор,Епископ,Лесной священник,Боевой монах,Солист ветроцвета,Сияющий проповедник,Фокусник",
+        "Эльф,Баллиста,Темный эльф,Эльф-мастер,Катапульта,Темный эльф-снайпер,Осадная баллиста,Чудотворец,Ведьма,Колдун,Колдунья,Фея-ворожея,Инквизитор,Епископ,Лесной священник,Боевой монах,Солист ветроцвета,Сияющий проповедник,Фокусник,Темный алхимик SP",
         "",
         "посох,молот",
         "тканевая",
@@ -11600,7 +11600,7 @@ var dataTable = [
         "40",
         "20",
         "15",
-        "Ведьма,Колдунья,Фея-ворожея,Маг - ядовитая летучая мышь,Темный эльф,Темный эльф-снайпер,Палубный стрелок,Лобстер,Левиафан,Элементаль льда,Скелет-лучник,Лучник адского пламени,Паучий эльф-демон",
+        "Ведьма,Колдунья,Фея-ворожея,Маг - ядовитая летучая мышь,Темный эльф,Темный эльф-снайпер,Палубный стрелок,Лобстер,Левиафан,Элементаль льда,Скелет-лучник,Лучник адского пламени,Паучий эльф-демон,Темный алхимик SP",
         "",
         "посох,молот",
         "тканевая",
@@ -11811,8 +11811,8 @@ var dataTable = [
         "0,2",
         "468,469",
         "Тиана",
-        "",
-        "",
+        "демон",
+        "Шарик",
         "",
         "941",
         "117",
@@ -12135,6 +12135,108 @@ var dataTable = [
         "",
         "",
         "967",
+        "",
+        ""
+    ],
+	[
+        "Рапьер",
+        "ИМП,АП,ГЙ",
+        "SSR",
+        "",
+        "",
+        "Мил",
+        "Conquest Ambition",
+        "ATK and DEF increase by (10, 15, 20, 25)%.<br>At the end of the action can target one enemy on the battlefield and apply the effect of [Fight of Justice] to him for 2 turns: If the enemy attacks anyone other than Rapier with a skill he lose 5 buffs before the battle (trigger cooldown is (4, 3, 2, 2) turns).<br>If any ally enters into battle with an enemy who has [Fight of Justice], before the battle Rapier is teleported to the nearest empty tile near this ally and if she has already acted this turn, she gets a act again (can only occur once per turn).<br>[Fight of Justice] cannot be removed or blocked. When Rapier fights an enemy with this effect he cannot attack first and cannot activate lethal damage resistance (the inability to activate lethal damage resistance only applies in PVP modes).",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "30",
+        "35",
+        "25",
+        "10",
+        "Элитная пехота,Служанка,Служанка в маске,Тяжелая пехота,Королевский страж,Клыкастый страж,Элитная кавалерия,Тяжелая кавалерия,Осквернитель пламени,Всадник-грифон,Рыцарь-грифон,Всадник Эклиптического Дракона",
+        "",
+        "меч,копье",
+        "тяжелая",
+        "0,2",
+        "479,480",
+        "Зион",
+        "мечник",
+        "",
+        "",
+        "969",
+        "118",
+        "",
+        "119",
+        "",
+        "",
+        "970",
+        "",
+        "",
+        "22,27",
+        "",
+        "",
+        "",
+        "122,168",
+        "971",
+        "",
+        ""
+    ],
+	[
+        "Шарик",
+        "ТР,ГЙ,МУ",
+        "SSR",
+        "",
+        "",
+        "Мил",
+        "Painful Laughter",
+        "ATK and critical strike chance are increased by (10, 15, 20, 25)%. The unit is not subject to melee damage reduction.<br>When actively attacking and dealing damage the [Painful Laughter] effect is applied to the enemy: increases the chance of receiving critical hit by 20%; after receiving damage additionally receives fixed damage equal to 1x of the attacker's ATK (for every 25% of HP lost this damage increases by 0.5x, up to 2x of ATK).<br>[Painful Laughter] cannot be removed and lasts 2 turns.",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "35",
+        "20",
+        "30",
+        "15",
+        "Элитная кавалерия,Тяжелая кавалерия,Королевская кавалерия,Всадник-грифон,Рыцарь-грифон,Солдат-драконианец,Эльф,Эльф-мастер,Рейнджер вихря,Куноити,Танцующая в тумане,Гоблин-рыцарь",
+        "",
+        "лук,нож",
+        "легкая",
+        "0,2",
+        "481,482",
+        "Абишай",
+        "кавалерия",
+        "",
+        "",
+        "974",
+        "40",
+        "973",
+        "",
+        "",
+        "",
+        "",
+        "137",
+        "",
+        "83,176",
+        "",
+        "",
+        "",
+        "59,25",
+        "975",
         "",
         ""
     ]
@@ -20744,6 +20846,96 @@ var classStats = [
         "When attacked in melee damage dealt in battle is increased by 10%.",
         "",
         ""
+    ],
+	[
+        "Рапьер",
+        "",
+        "sword",
+        "4967",
+        "595",
+        "249",
+        "321",
+        "291",
+        "145",
+        "1",
+        "3",
+        "ходьба",
+        "When unit is attacked by an enemy that has debuff, damage taken in battle is reduced by 10%.",
+        "When unit is attacked by an enemy and enters battle, damage dealt is increased by 10%.",
+        "A",
+        "A"
+    ],
+	[
+        "Рапьер",
+        "",
+        "cavalry",
+        "4615",
+        "595",
+        "226",
+        "297",
+        "270",
+        "121",
+        "1",
+        "5",
+        "всадник",
+        "If unit has 7 or more buffs, damage taken in battle is reduced by 10%.",
+        "When unit's HP is above 80%, damage dealt in battle is increased by 10%.",
+        "C",
+        "C"
+    ],
+	[
+        "Шарик",
+        "",
+        "assasin",
+        "3957",
+        "564",
+        "244",
+        "307",
+        "273",
+        "301",
+        "2",
+        "3",
+        "ходьба",
+        "AoE damage is reduced by 10%.",
+        "When unit has 100% HP, damage dealt is increased by 10%.",
+        "A",
+        "A"
+    ],
+	[
+        "Шарик",
+        "",
+        "cavalry",
+        "4295",
+        "594",
+        "222",
+        "320",
+        "295",
+        "229",
+        "1",
+        "5",
+        "всадник",
+        "When fighting an enemy whose HP % is lower than the unit's, damage taken in battle is reduced by 10%.",
+        "When unit's HP is above 80%, the critical hit chance increases by 10%.",
+        "C",
+        "C"
+    ],
+	[
+        "Бозел",
+        "",
+        "demon",
+        "4925",
+        "274",
+        "410",
+        "316",
+        "411",
+        "91",
+        "2",
+        "3",
+        "полет",
+        "When actively attacking and entering combat, physical damage received in combat is reduced by 10%.",
+        "When fighting enemies with the debuff, damage dealt is increased by 10%.",
+        "1",
+        "SP"
     ]
 ]
 
@@ -20984,7 +21176,9 @@ var heroList = [
 			"Элвис",
 			"Люси",
 			"Эльза",
-			"Нацу"
+			"Нацу",
+			"Рапьер",
+			"Шарик"
 ]
 
 var heroList_en = [
@@ -21224,7 +21418,9 @@ var heroList_en = [
 	"Elvis",
 	"Lucy",
 	"Erza",
-	"Natsu"
+	"Natsu",
+	"Rapier",
+	"Sharikh"
 ]
 
 var persSkills = [
@@ -30897,6 +31093,86 @@ var persSkills = [
         "one target",
         "4",
         "[Passive] When the hero is on a tile with the special effect [Fire Dragon King's Domain] damage taken is reduced by 20% and the range of skills is +1.<br>[Phys. Damage] Attacks one enemy dealing 1.8x damage. If there are 4 or more stacks of [Emotional Flame] the unit attacks before the enemy. If Natsu is in [E.N.D. Mode] after battle all terrain within 2 tiles of the target gains the special effect [Fire Dragon King's Domain] for 2 turns.<br>[Fire Dragon King's Domain]: When the enemy ends their turn on this tile they receive a fixed damage equal to 1x the caster's ATK and the damage received from Natsu will be increased by 15% (can stack up to 2 times, lasts 2 turns and cannot be immune or dispelled)."
+    ],
+    [
+        "Рапьер",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+    ],
+    [
+        "Steel Resolve",
+        "Стальная решимость",
+        "1",
+        "5",
+        "",
+        "",
+        "",
+        "[Passive] When entering battle with an enemy with [Fight of Justice] all stats except HP are increased by 15% in battle. Before battle dispels all debuffs from herself and copies all removable buffs from the target."
+    ],
+    [
+        "Battle Banner",
+        "Боевое знамя",
+        "2",
+        "2",
+        "3",
+        "3",
+        "3",
+        "[Phys. Damage] attacks all enemies in the radius dealing 0.36x AoE damage. All enemies hit are teleported to the target location and the [Battle Banner] terrain effect is created on it: [command] All enemies within 2 tiles have their DEF reduced by 10%; when leaving the zone +1 mobility is spent for each tile; at the end of the effect 2 buffs are removed if in the zone.<br>If the enemy has [Fight of Justice] he will be teleported to the center first and all effects of [Fight Banner] affect him at double strength."
+    ],
+    [
+        "Falling Sword of the Final Battle",
+        "Падающий меч финальной битвы",
+        "3",
+        "2",
+        "1",
+        "one target",
+        "4",
+        "[Passive] When actively attacking and engaging in battle with an enemy who has the [Fight of Justice] effect the damage dealt in this battle is increased by 25%.<br>[Phys. Damage] Attacks one enemy dealing 1.8x damage. If there is an enemy with [Fight of Justice] within 3 tiles of the target he will join the battle instead of the selected target, otherwise the damage received in battle is reduced by 25%.<br>If the enemy is killed by this skill the cooldown is reduced by 4 and restores 30% of HP at the end of the action. If the killed enemy was under the effect of [Fight of Justice] Rapier copies up to 3 random removable buffs from herself to all [Honor of the Empire] allies and resets the cooldown of her talent."
+    ],
+    [
+        "Шарик",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+    ],
+    [
+        "Scythe of Malice",
+        "Коса злобы",
+        "1",
+        "5",
+        "",
+        "",
+        "",
+        "[Passive] After dealing fixed damage to an enemy steals 1 buff from them and applies 1 debuff."
+    ],
+    [
+        "Bloody Death Vortex",
+        "Кровавый Вихрь Смерти",
+        "2",
+        "2",
+        "5",
+        "straight",
+        "2",
+        "[Phys. Damage] Attacks all enemies in 3 straight lines dealing 0.16x AoE damage and applies 1 random debuff on each enemy hit. If this attack deals critical damage the skill's cooldown is reduced by 1 and the skill is re-used (the second time the re-use is not triggered). After using unit can move the same number of tiles as it moved before using the skill."
+    ],
+    [
+        "Bloody Opening",
+        "Кровавое Открытие",
+        "3",
+        "2",
+        "3",
+        "2",
+        "5",
+        "[Passive] If no damage was dealt in the current action, the unit gains 'all passable terrain is considered plain' for 1 turn.<br>[Phys. [[damage]] The character teleports to the selected point, then deals 0.35x AoE damage to all enemies within 2 cells and places 'Accessory Effect Disabled' and 'Unable to Heal' on them for 2 turns.<br>After use the hero gains the [Parting Gift] effect: after death deals 0.25x AoE damage to all enemies under the [Painful Laughter] effect and places 'Accessory Effect Disabled' and 'Unable to Heal' on them for 2 turns. If the target is an NPC, instead of disabling the accessory effect it applies 'Damage Taken +30%' on them for 2 turns.<br>[Parting Gift] cannot be removed, cannot be blocked and lasts 1 turn."
     ]
 ]
 
@@ -33333,6 +33609,36 @@ var SPskills = [
         "one target",
         "5",
         "[Passive] After act again effect is triggered, all Princess Alliance allies gain an increase in attack and defense stats; when actively attacking, after dealing damage, the enemy additionally receives a fixed damage equal to 15% of their maximum HP. Lasts 4 turns.<br>[Phys. Damage] Attacks one enemy, dealing 1.7x damage. Before the attack, damage increases by 10% for each tile passed (up to 30%). If melee soldiers are equipped, they will also attack. (This skill is not subject to melee damage reduction).<br>After the hero's battle, she gains the [Moonlight] effect: allies within 1 tile when forced into battle have a 50% chance to reduce the enemy's attack range by 1 for 1 turn."
+    ],
+	[
+        "Бозел",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+    ],
+	[
+        "Demonic Sword Breath",
+        "Дыхание демонического меча",
+        "2",
+        "1",
+        "2",
+        "one target",
+        "2",
+        "[Mag. Damage] Attacks one enemy dealing 1.6x damage. Before combat apply a special effect [Shadow of Chaos] on the tile where the enemy is located: reduces the defensive effect of the area by 20%, lasts 2 turns. If the enemy ends action on such a tile he receives 1 debuff."
+    ],
+	[
+        "Chaos Wave",
+        "Волна Хаоса",
+        "2",
+        "1",
+        "3",
+        "4",
+        "5",
+        "[Mag. Damage] Attacks multiple enemies within an area dealing 0.36x AoE damage. Removes 1 buff from enemies and converts it into 1 random debuff. Additionally affected enemies are inflicted with [Chaos Phantom]: Received buffs are converted into random debuffs, lasts 2 turns. When debuffs are dispelled, [Chaos Phantom] is removed last."
     ]
 ]
 
@@ -33466,6 +33772,12 @@ var SPtalent = [
         "Лунный Покров",
         "MDEF +(10, 15, 20, 25)%. Allied units within 2 tiles take (10, 13, 16, 20)% less damage from ranged attacks.<br>After using the skill, a [Moon Shadow] is created on the hero's tile for 2 turns: This area is considered the center of all the hero's team effects.",
 		"Lunar cover"
+    ],
+	[
+        "Бозел",
+        "Владыка Тёмной Магии",
+        "No skill cost limit. The unit ignores class disadvantage and INT is equal to 1.5x MDEF. When using skills all enemies with a minimum of (4, 4, 3, 3) debuff can be targeted (including 3C) and ranged soldiers will also attack along with the hero. When dealing damage to an enemy apply 1 debuff on them.",
+		"Dark Magic Master"
     ]
 ]
 
@@ -36087,6 +36399,28 @@ var builds = [
         "Завеса звезд,Ярость Тюра,Маска вампира",
         "Лезвие воспоминаний,Талисман судьи,Эмблема истребителя",
         "Галантный дуэлянт,Рыцарь-грифон,Солдат-драконианец SP,Наемник пустыни"
+    ],
+    [
+        "Рапьер",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+    ],
+    [
+        "Шарик",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
     ]
 ]
 
@@ -36321,6 +36655,17 @@ var SPbuilds = [
         "",
         "",
         ""
+    ],
+	[
+        "Бозел",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
     ]
 ]
 
@@ -36539,11 +36884,11 @@ var confession = [
     ],
     [
         "Густав",
-        "https://drive.google.com/file/d/1qTjRiHcxKpBX79DHNva7frAJEftN6LVD/view?usp=drive_link"
+        "https://drive.google.com/file/d/1iy3zsj8UNLJMI5gW-1KIyMI8TB6ZvuKz/view?usp=sharing"
     ],
     [
         "Дева Ковчега",
-        "https://drive.google.com/file/d/1E7dILa74mTlOYorNXkquIWecB8xTtwO-/view?usp=drive_link"
+        "https://drive.google.com/file/d/1WY-7-mkJNhB4icc3Hh2tj0RUcTdWv0MU/view?usp=sharing"
     ],
     [
         "Девушка в доспехах",
@@ -36591,7 +36936,7 @@ var confession = [
     ],
     [
         "Железный Воитель",
-        "https://drive.google.com/file/d/1qaj6Nne2ZlN64m_SGoqs8Ij5XdM7xE5g/view?usp=drive_link"
+        "https://drive.google.com/file/d/1HXUrdH241HDCjhQ70-4D-_7wAziFwxVH/view?usp=sharing"
     ],
     [
         "Зелгадис",
@@ -36831,7 +37176,7 @@ var confession = [
     ],
     [
         "Мишель",
-        "https://drive.google.com/file/d/1UJlZ7rg8r64xDYflVFYZ4iw3KS5EKatv/view?usp=sharing"
+        "https://drive.google.com/file/d/1pKrVXG7GQn9UXUH3B3EKhEb5oNlxESUm/view?usp=sharing"
     ],
     [
         "Мю",
@@ -37247,7 +37592,7 @@ var confession = [
     ],
 	[
         "Глаз обмана",
-        ""
+        "https://drive.google.com/file/d/1NJVpcNUtu81a2owfqT3j0iU_hPuuxME8/view?usp=sharing"
     ],
 	[
         "Абишай",
@@ -39648,6 +39993,26 @@ var startB = [
         "",
         "",
         ""
+    ],
+    [
+        "Рапьер",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+    ],
+    [
+        "Шарик",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
     ]
 ]
 
@@ -42024,6 +42389,26 @@ var basicB = [
     ],
     [
         "Нацу",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+    ],
+    [
+        "Рапьер",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+    ],
+    [
+        "Шарик",
         "",
         "",
         "",
@@ -45355,6 +45740,34 @@ var pveB = [
     ],
     [
         "Нацу",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+    ],
+    [
+        "Рапьер",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+    ],
+    [
+        "Шарик",
         "",
         "",
         "",
@@ -48921,6 +49334,34 @@ var pvpB = [
     ],
     [
         "Нацу",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+    ],
+    [
+        "Рапьер",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+    ],
+    [
+        "Шарик",
         "",
         "",
         "",
