@@ -439,7 +439,7 @@ if (dataTable[hero_number][46]!==''){
 	c3_pic.innerHTML='<span style="position:relative;width:100%;display:block;height:100px;"><img style="position:absolute;top:2px;left:2px;" src="images/skills/personal/'+persSkills[(dataTable[hero_number][46]-1)][1]+'.png" height="80px" /><img style="position:absolute;" src="images/Border_Icon_skill.png" height="84px" /><img style="position:absolute;top:73px;left:16px;" src="images/'+persSkills[(dataTable[hero_number][46]-1)][2]+'c.png" height="16px" /></span>';
 	c3_text.innerHTML = '<b>'+persSkills[(dataTable[hero_number][46]-1)][1]+'</b><br><br><img src="images/sold_stats.png" height="20px"><span style="display:inline-block;width:155px;vertical-align:super;margin-right:30px;">'+skill_type[persSkills[(dataTable[hero_number][46]-1)][3]]+'</span><img src="images/sold_stats.png" height="20px"><span style="vertical-align:super;margin-right:30px;">Перезарядка: '+persSkills[(dataTable[hero_number][46]-1)][6]+'</span><br><img src="images/sold_stats.png" height="20px"><span style="display:inline-block;width:155px;vertical-align:super;margin-right:30px;">Дальность: '+persSkills[(dataTable[hero_number][46]-1)][4]+'</span><img src="images/sold_stats.png" height="20px"><span style="vertical-align:super;margin-right:30px;">Диапазон: '+persSkills[(dataTable[hero_number][46]-1)][5]+'</span>';
 	c3_desc.innerHTML = persSkills[(dataTable[hero_number][46]-1)][7];
-	c3_hero_pic.innerHTML = '<img src="images/heroes/heroes_list/'+ heroName +'/3C/3C.png" height="400px" />';
+	c3_hero_pic.innerHTML = '<img src="images/heroes/heroes_list/'+ heroName +'/3C/3C.png" width="400px" />';
 } else {
 	var prob_none = document.getElementById("h_info4");
 	prob_none.innerHTML = '';
@@ -1132,3 +1132,4 @@ imgFetter.onerror = function(){
 //$('img').error(function() {
 //   $(this).hide();
 //});
+
