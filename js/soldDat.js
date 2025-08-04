@@ -1499,7 +1499,7 @@ var soldDat = [
         "Когда ОЗ выше 50%, перед тем, как быть втянутыми в бой, с 100% шансом снижает получаемый урон на 50%",
         "If attacked when HP is above 50%, has 100% chance to decrease damage taken by 50% before entering damage",
         "bow",
-        "Гренье,Диос,Нарм,Луна,Тиарис,Элисса,Омега,Рыцарь Тайн,Ашемар,Суверен ледяной бездны,Шарик",
+        "Гренье,Диос,Нарм,Луна,Тиарис,Айрис,Омега,Рыцарь Тайн,Ашемар,Суверен ледяной бездны,Шарик",
         "всадник"
     ],
     [
@@ -2654,7 +2654,7 @@ var soldDat = [
         "Когда ОЗ солдат выше 50%, АТК и ЗАЩ солдат увеличиваются на 20%. Когда подвергается атаке и втянут в бой, получаемый урон снижается на 50% и игнорирует уменьшение урона в ближнем бою. <a style='color:#d8c2a9;' target='blank' href='images/soldIcons/SP/Рейнджер вихря.jpg'>(Условия&nbsp;SP)</a>",
         "When soldier's HP is above 50%, soldier's ATK and DEF are increased by 20%. When forced into battle, damage taken is reduced by 50% and ignores melee damage reduction. <a style='color:#d8c2a9;' target='blank' href='images/soldIcons/SP/Bolt Ranger.jpg'>(SP&nbsp;terms)</a>",
         "SP",
-        "Гренье,Диос,Нарм,Луна,Тиарис,Элисса,Омега,Рыцарь Тайн,Ашемар,Суверен ледяной бездны,Джулиан,Дихарт,Теон,Таталия,Тиана,Шарик",
+        "Гренье,Диос,Нарм,Луна,Тиарис,Айрис,Омега,Рыцарь Тайн,Ашемар,Суверен ледяной бездны,Джулиан,Дихарт,Теон,Таталия,Тиана,Шарик",
         "парение"
     ],
     [
@@ -2791,3 +2791,4 @@ function iconHeroOpen(hero){
 		}
 	}
 }
+
