@@ -18,15 +18,18 @@
     }
     #customization-area {
       flex: 1;
-      padding: 20px;
+      padding: 5px 0 5px 20px;
       overflow-y: auto;
     }
     .section {
-      margin-bottom: 30px;
+      margin-bottom: 5px;
     }
     .section h2 {
-      margin-bottom: 10px;
+      margin-bottom: 5px;
     }
+	.first{
+		margin-top:-10px;
+	}
     .option {
       width: 80px;
       height: 80px;
@@ -48,6 +51,10 @@
       pointer-events: none;
     }
     #eyes {
+      top: 0;
+      left: 0;
+    }
+	#jews {
       top: 0;
       left: 0;
     }
@@ -89,10 +96,11 @@
     <img id="eyes" class="character-part" alt="Глаза">
     <img id="hair" class="character-part" alt="Волосы">
     <img id="clothes" class="character-part" alt="Одежда">
+	<img id="jews" class="character-part" alt=".">
 	<img id="weapon" class="character-part" alt=".">
   </div>
   <div id="customization-area" style="background: #fdf6e8;">
-    <div class="section one" id="eye-options">
+    <div class="section one first" id="eye-options">
       <h2>Eyes</h2>
       <img src="face1.png" class="option" data-target="eyes">
       <img src="face2.png" class="option" data-target="eyes">
@@ -121,6 +129,15 @@
 	  <img src="cloth5.png" class="option" data-target="clothes">
 	  <img src="cloth6.png" class="option" data-target="clothes">
 	  <img src="cloth7.png" class="option" data-target="clothes">
+    </div>
+	<div class="section" id="jews-options">
+      <h2>Jews</h2>
+      <img src="jew2.png" class="option" data-target="jews">
+	  <img src="jew3.png" class="option" data-target="jews">
+	  <img src="jew4.png" class="option" data-target="jews">
+	  <img src="jew5.png" class="option" data-target="jews">
+	  <img src="jew6.png" class="option" data-target="jews">
+	  <img src="jew7.png" class="option" data-target="jews">
     </div>
 	<div class="section" id="mount-options">
       <h2>Mounts</h2>
@@ -188,6 +205,7 @@
         { id: 'hair', x: 0, y: 0 },
         { id: 'eyes', x: 0, y: 0 },
         { id: 'clothes', x: 0, y: 0 },
+		{ id: 'jews', x: 0, y: 0 },
 		{ id: 'weapon', x: 0, y: 0 }
 		
       ];
