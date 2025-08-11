@@ -570,7 +570,7 @@ var dataTable = [
         "Мил",
         "Chapter of Fortune",
         "Damage dealt increases by (15%, 20%, 25%, 30%).<br>Initially, the hero has 3 types of “Fortune”: [Spiritual Fortune]: “When the action ends, heals nearby allies in 2 tiles equal to 1x INT”, [Great Fortune]: “ATK +10%, INT +10%”, [Good Fortune]: 'Get 1 random buff at the end of the effect', each type of effect can last for a maximum of 3 stacks at a time and cannot be dispelled.<br>At the start of the round you will receive 1 random 'Fortune'. If a hero has 2 or more 'Fortune' of the same type, the unit's range will be +2, if the hero has 3 of the same type, the cooldown of all damage skills the hero uses will be refreshed.",
-        "Global - 07.08.2025",
+        "Blessed Moon",
         "броня",
         "583",
         "",
@@ -578,7 +578,7 @@ var dataTable = [
         "54",
         "",
         "",
-        "HP +10%. If there are 2 or more identical 'fortunes', mobility +1 (with three identical +2, with four +3). If the hero has 3 or more identical 'fortunes', she cannot be killed with one blow (the cooldown of this effect is 4 turns)",
+        "HP +10%. If there are 2 or more identical 'fortunes', mobility +1 (with three identical +2, with four +3). If the hero has 3 or more identical 'fortunes', she cannot be killed with one blow (the cooldown of this effect is 4 turns), when triggered, receive 3 random 'fortunes'.",
         "",
         "25",
         "35",
@@ -11737,8 +11737,8 @@ var dataTable = [
         "",
         "",
         "",
-        "Illusion",
-        "Damage increases by (15, 20, 25, 30)%. When other units on the field fight with units, against which they have advantage if Gazesuccubus has already committed action in this move, she can act again (once per turn). At the end of the turn you can select two units and exchange their hero classes. Effect lasts 3 turns and cannot be dispel. [CD Trigger] This effect can activate again only after 1 turn.<br>[Change class] It is considered as buff, after receiving damage from attack duration is reduced by 1 turn.",
+        "Mesmerize",
+        "Damage dealt increases by (15, 20, 25, 30)%. When other units on the field fight with units, against which they have advantage if Gazesuccubus has already committed action in this turn, she can act again (once per turn). At the end of the action you can select two units and exchange their hero classes. Effect lasts 3 turns and cannot be dispel. [CD Trigger] This effect can activate again only after 1 turn.<br>[Change class] It is considered as buff, after receiving damage from attack duration is reduced by 1 turn.",
         "",
         "",
         "",
@@ -30775,8 +30775,8 @@ var persSkills = [
         ""
     ],
 	[
-        "Illusory maneuver",
-        "Иллюзорный маневр",
+        "Phantom Shift",
+        "Фантомный маневр",
         "1",
         "7",
         "4",
@@ -30785,18 +30785,18 @@ var persSkills = [
         "[Passive] When receiving fatal damage from an attack by an enemy that does not have advantages, unit does not die, but instead restore 20% HP. [CD Trigger] This effect can activate again only after 5 turns.<br>[Active] Moves unit to the nearest tile next to the target. If target hero class matches the unit's hero class, then instead this [displacement] occurs: unit and target are changing in places. Increases unit's ATK and INT by 20% for 2 turns. After use duration of buffs do not reduced and can act again."
     ],
 	[
-        "Hypnosis",
-        "Гипноз",
+        "Mindbender",
+        "Повелитель разума",
         "2",
         "2",
         "all",
         "straight",
         "3",
-        "[Passive] At the end of the turn, the closest enemy hero on straight lines gets effect 'Loss control' if hero class matches the unit's hero class,  (effect is removed when any allied unit end move within 1 tile of the target). Lasts 1 turn, cannot be dispel. In PVE this effect is replaced by 'Received damage increases by 30%'.<br>[Physical damage] Attacks all enemies on the straight line, dealing 0.3x AoE damage and changing their hero class to unit's hero class for 3 turns.<br>[Change class] It is considered as buff, after receiving damage from attack duration is reduced by 1 turn."
+        "[Passive] At the end of the turn, the closest enemy hero on straight lines gets effect 'Lose control' if hero class matches the unit's hero class, (effect  removed when any allied unit end move within 1 tile of the target). Lasts 1 turn, cannot be dispel. In PVE this effect is replaced by 'Received damage increases by 30%'.<br>[Physical damage] Attacks all enemies on the straight line, dealing 0.3x AoE damage and changing their hero class to unit's hero class for 3 turns.<br>[Change class] It is considered as buff, after receiving damage from attack duration is reduced by 1 turn."
     ],
 	[
-        "Thousand guises",
-        "Тысяча обличий",
+        "Thousand-Faced Enchantress",
+        "Тысячеликая заклинательница",
         "2",
         "7",
         "-",
@@ -30805,7 +30805,7 @@ var persSkills = [
         "This skill changes depending on the current hero class. When attacking any unit against enemy over whom she has advantage, cooldown time is reduced by 1 turn.<br>Infantry/Spearmen → [Soul Steal] (melee fight)<br>Archer/Assassin → [Sharp Attack] (Ranged fight)<br>Aquatic/Saint → [Soul Return] (healing)<br>Flying/Cavalry → [Blind] (group support)<br>Mage/Demon → [Abyss] (mass damage)<br>Dragon/other type → [Devour bodies] (powerful single attack)<br><br>[Soul Steal] (3 turns/1 tile/One target)<br>[Physical damage] Attacks one enemy, dealing 1.5x damage. Attack is not reduced by melee in this fight. Before the fight dispels 3 buffs on an enemy and applies 'Disable all passive skills' (for 2 turns, can't be dispel).<br><br>[Sharp Attack] (3 turns/2 tiles/One target)<br>[Physical damage] Ignores guard and attacks a single enemy, dealing 1.4x damage. Critical hit chance +30%. If the hero is on the defensive terrain, attack range increases by +2. After fight can move 2 tiles.<br><br>[Soul Return] (3 turns/3 tiles/Area: 3 tiles)<br>[Assist] Recovers HP of allies in range equal to 5x the caster's ATK. Dispels 2 debuffs and grants +15% damage (for 2 turns).<br><br>[Blind] (3 turns/self/Area: 3 tiles)<br>[Passive] Mobility is not affected by terrain when moving, +2 to mobility. [Assist] Actively increases mobility of all allies in radius 2, and also gives ATK and INT +20%. Gives immunity to 'Reduction mobility' and 'Disabling all passive skills' (for 2 turns).<br><br>[Abyss] (3 turns/self/Area: 3 tiles)<br>[Physical damage] Deals 0.36x AoE damage to all enemies within a 3 tiles radius and applies 2 random debuff. Critical hit chance of this skill +50%. Deals more damage to enemies of the same hero class as the unit.<br><br>[Devour bodies] (3 turns/2 tiles/One target)<br>[Physical damage] Attacks one enemy, dealing 1.8x damage. Deals more damage to enemies of another hero class. Attack first in this fight. After fight restore 30% of damage and resets the cooldown of the talent."
     ],
 	[
-        "Devouring sight",
+        "Soul-Consuming Gaze",
         "Пожирающий взгляд",
         "3",
         "2",

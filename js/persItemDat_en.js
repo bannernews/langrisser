@@ -66,8 +66,8 @@ var persItemDat = [
 	[
         "Алия",
         "Alia",
-        "Глобал - 07.08.2025",
-        "Global - 07.08.2025",
+        "Благословенная луна",
+        "Blessed Moon",
         "body",
         "583",
         "",
@@ -75,8 +75,8 @@ var persItemDat = [
         "54",
         "",
         "",
-        "ОЗ +10%. При наличии 2 и более одинаковых 'богатств' мобильность +1 (при трёх одинаковых +2, при четырёх +3). Если у героя есть 3 и более одинаковых 'богатств' он не может быть убит одним ударом (перезарядка этого эффекта 4 хода)",
-        "HP +10%. If there are 2 or more identical 'fortunes', mobility +1 (with three identical +2, with four +3). If the hero has 3 or more identical 'fortunes', she cannot be killed with one blow (the cooldown of this effect is 4 turns)"
+        "ОЗ +10%. При наличии 2 и более одинаковых 'богатств' мобильность +1 (при трёх одинаковых +2, при четырёх +3). Если у героя есть 3 и более одинаковых 'богатств' он не может быть убит одним ударом (перезарядка этого эффекта 4 хода), при активации получает 3 случайных 'богатства'.",
+        "HP +10%. If there are 2 or more identical 'fortunes', mobility +1 (with three identical +2, with four +3). If the hero has 3 or more identical 'fortunes', she cannot be killed with one blow (the cooldown of this effect is 4 turns), when triggered, receive 3 random 'fortunes'."
     ],
     [
         "Альмеда",
