@@ -660,6 +660,20 @@ var itemDat = [
         "ATK and INT +8%. When active attack, damage ignores enemy [shield] (including fixed damage). ",
         "accs"
     ],
+	[
+        "Акс 7",
+        "---",
+        "accessoir",
+        "",
+        "75",
+        "75",
+        "",
+        "",
+        "",
+        "Все характеристики +5%. Длительность накладываемых эффектов местности +1. При нахождении противника на вашем эффекте местности её защитный эффект снижается на 5%. При нахождении союзника на такой местности её защитный эффект увеличивается на 5%.",
+        "All stats +5%. Duration of terrain effects +1. When an enemy is on your terrain effect its defensive effect is reduced by 5%. When an ally is on such terrain its defensive effect is increased by 5%.",
+        "accs"
+    ],
     [
         "Броня Энея",
         "Aeneas' Armor",
@@ -1220,6 +1234,20 @@ var itemDat = [
         "HP and DEF +5%. Before entering combat, there is a 25% chance that the terrain the unit is on will be considered 'forest' for 1 turn.",
         "light"
     ],
+	[
+        "Броня 7",
+        "---",
+        "body",
+        "583",
+        "",
+        "",
+        "54",
+        "",
+        "",
+        "ОЗ +5%, МЗАЩ +5%. Если юнит состоит из [смешанного отряда], снимает с себя 1 дебафф при попадения навыком. При получении смертельного урона от АоЕ, не умирает (срабатывает 1 раз за бой).",
+        "HP +5%, MDEF +5%. If the unit consists of a [mixed forces] removes 1 debuff from itself when hit by a skill. Does not die when receiving fatal damage from AoE (triggers 1 time per battle).",
+        "cloth"
+    ],
     [
         "Шлем Энея",
         "Aeneas' Helmet",
@@ -1765,6 +1793,20 @@ var itemDat = [
         "ЗАЩ +10%. Если юнит был перемещен, телепортирован или завершил действие на защитной местности, получает эффект 'Мобильность +1' и 'Иммунитет к снижению мобильности' на 1 ход.",
         "DEF +10%. If a unit is moved, teleported, or ends an action on defensive terrain, gains the effect of 'Mobility +1' and 'Immunity to Mobility reduction' for 1 turn.",
         "heavy"
+    ],
+	[
+        "Головной убор 7",
+        "---",
+        "hat",
+        "437",
+        "",
+        "",
+        "",
+        "59",
+        "",
+        "ОЗ +10%. При активной атаке, перед вступлением в бой снимает с себя 1 дебафф.",
+        "HP +10%. When actively attacking removes 1 debuff from yourself before entering combat.",
+        "light"
     ],
     [
         "Меч клятвы",
@@ -2563,6 +2605,20 @@ var itemDat = [
         "АТК +10%. При активной атаке и вступлении в бой, если у врага есть эффект [сопротивление смертельному урону], получает 'Урон +20%' на 1 ход.",
         "ATK +10%. When actively attacking and entering battle, if the enemy has the [Deadly Damage Resistance] effect, gains 'Damage +20%' for 1 turn.",
         "hammer"
+    ],
+	[
+        "Оружие 7",
+        "---",
+        "weapon",
+        "364",
+        "118",
+        "",
+        "",
+        "",
+        "",
+        "АТК +10%. Если при активной атаке юнит переместился на 3 или более клеток, ЗАЩ противника -30% на 1 ход.",
+        "ATK +10%. If a unit moves 3 or more tiles during an active attack the enemy's DEF is -30% for 1 turn.",
+        "axe"
     ]
 ]
 

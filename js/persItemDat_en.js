@@ -2178,6 +2178,21 @@ var persItemDat = [
         "ЗАЩ +10%. Когда герой активирует эффект, предотвращающий смертельный урон, накладывается 1 случайный бафф.",
         "DEF +10%. When hero triggers an effect that prevents fatal damage, gain 1 random buff."
     ],
+	[
+        "Вирелия",
+        "Virelia",
+        "Глобал - 25.12.2025",
+        "Global - 25.12.2025",
+        "hat",
+        "364",
+        "",
+        "",
+        "",
+        "65",
+        "",
+        "ОЗ +10%. Игнорирует лимит стоимости навыков. После выполнения 'подготовки к заклинанию', если находится вне опасной зоны, время перезарядки всех [триггеров] уменьшается на 1.",
+        "HP +10%. Ignores skill cost limit. After using 'spell preparation', if outside the danger zone the cooldown of all [Triggers] is reduced by 1."
+    ],
     [
         "Странствующий Дуэлянт",
         "Wandering Dualist",
