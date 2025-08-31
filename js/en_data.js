@@ -31308,7 +31308,7 @@ var persSkills = [
         "Яростный Рев Стихий",
         "3",
         "1",
-        "на себя",
+        "self",
         "3",
         "5",
         "[Passive] At the end of the first action and when this skill is activated all allies of the Origin of Light faction gain an increase in offensive and defensive stats and also gain the following effects: damage from active attacks increases by 15% and damage taken from counterattacks decreases by 20%. Lasts 4 turns. (This effect does not stack with other fusion power buffs).<br>[Magic Damage] Deals 0.12x AoE damage to all enemies within 3 tiles and applies a random debuff. All friendly [Butterfly Spirit] and [Butterfly Breath] on the field also activate this skill. If one enemy receives damage from the skill multiple times, each subsequent hit after the first increases the effect by 1 time (maximum up to 4 hits. Damage per hit: 0.12x, 0.24x, 0.36x, 0.48x; 1, 2, 3, 4 debuffs per hit).<br>After using the skill reduces the cooldown of all her skills by the maximum number of hits of this skill on the enemy."
@@ -49577,3 +49577,4 @@ var pvpB = [
         ""
     ]
 ]
+
