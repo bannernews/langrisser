@@ -1677,7 +1677,7 @@ var soldDat = [
         "3",
         "2",
         "Атаки юнитов не подвергаются штрафу за ближний бой. АТК увеличивается на 20% во время ближний атак, крит увеличивается на 20% во время дальних атак",
-        "Unit's damage is not reduced in melee battles. ATK increases by 20% during melee attacks, vrit increases by 20% during range attacks.",
+        "Unit's damage is not reduced in melee battles. ATK increases by 20% during melee attacks, crit increases by 20% during range attacks.",
         "assasin",
         "Кирикадзе,Серебряный Волк,Курама,Рейнфорс,Майя,Химико,Каюра,Эпсилон,Сельвария,Алисия,Маклейн,Гинтоки,Нож Марк и Ниндзя Гиндзу,Касуми",
         "ходьба"
@@ -1722,7 +1722,7 @@ var soldDat = [
         "5",
         "2",
         "Крит увеличивается на 30%. В случае нанесения критического удара накладывает на врага 1 мощный дебафф и крадет 1 бафф",
-        "Crit increases by 30%. Upon landing a critical hit, afflicts the enemy with 1 random strong debuff and sleals 1 buff.",
+        "Crit increases by 30%. Upon landing a critical hit, afflicts the enemy with 1 random strong debuff and steals 1 buff.",
         "assasin",
         "Метью,Рохга,Шери,Зерида,Рыцарь Тайн,Оливер,Цубамэ,Химико,Лиза,Джулиан,Теон,Таталия,Серафина,Шарик",
         "ходьба"
@@ -2866,4 +2866,5 @@ function iconHeroOpen(hero){
 		}
 	}
 }
+
 
