@@ -6792,7 +6792,7 @@ var dataTable = [
         "Т",
         "Tidal Blade",
         "Damage dealt increases by (15%, 20%, 25%, 30%). At the end of the action, if in water, recover HP to yourself equal to (1, 1.5, 2, 2.5)x of ATK. If this healing exceeds Max HP, it can be converted into a [Shield] that cannot be dispelled. (up to 25% of Max HP)<br><br>At the end of the action, can select any cell within 5 tiles around to activate [Wavecall]: Pushes enemies and the caster up to 3 tiles away in 3 straight lines for 2 cells, and causes the affected tiles to receive the effect of [High Tide] for 2 rounds: When you and the enemy are on such cells, the current terrain is considered as 'water'. If this skill successfully activates the effect of [Displacement], the number of buff rounds will not be reduced, and can attack again (cannot move). ([Trigger cooldown] requires a 4, 3, 3, 2 turn interval before it can be activated again.)",
-        "Global - 04.09.2025",
+        "Echo of the Tide",
         "шапка",
         "437",
         "",
@@ -11788,7 +11788,7 @@ var dataTable = [
         "",
         "",
         "Мил",
-        "Slaughter Core",
+        "Core of the Carnage",
         "When using skills they do not cooldown but instead the hero gains a layer of [Overheat] equal to the skill's cooldown time. For each layer of [Overheat], the damage dealt increases by (3, 4, 5, 6)%, up to a maximum of (15, 20, 25, 30)%. Cannot be immune or dispel.<br>At the end of the action, if skills have not been used, loses 1 layer of [Overheat]. When receiving 5 layers of [Overheat], immediately gains [Overload] for 1 turn (cannot be immune or removed): Ignores 15% of the enemy's DEF; when using skills they go on cooldown and also gain [Overheat]. When losing [Overload], 5 layers of [Overheat] will be removed.",
         "",
         "",
@@ -11839,8 +11839,8 @@ var dataTable = [
         "",
         "",
         "Мил",
-        "Balance Vision",
-        "ATK and DEF increase by (10, 13, 16, 20)%.<br>Has the effect of [Unity] and [Command]: If an ally with the effect of [Unity] is within 3 tiles of another ally with the effect of [Unity] then for each such ally ATK and INT increase by 10% (up to 20%). Cannot be immune or removed.<br>At the start of the turn, casts [Unity] on nearby allies until there are 3 allies with the effect of [Unity]. At the end of the turn, you can choose any ally with the effect of [Unity] (including yourself) and teleport them to another ally with the effect of [Unity] within 7 tiles of the target. (Cooldown CD: This skill can be used again after (4, 3, 2, 2) turns, and the stat increase effect of the command skill cannot be used simultaneously with other command skills.)",
+        "Vision of Equilibrium",
+        "ATK and DEF increase by (10, 13, 16, 20)%.<br>Has the effect of [Comradeship] and [Command]: If an ally with the effect of [Comradeship] is within 3 tiles of another ally with the effect of [Comradeship] then for each such ally ATK and INT increase by 10% (up to 20%). Cannot be immune or removed.<br>At the start of the turn, casts [Comradeship] on nearby allies until there are 3 allies with the effect of [Comradeship]. At the end of the turn, you can choose any ally with the effect of [Comradeship] (including yourself) and teleport them to another ally with the effect of [Comradeship] within 7 tiles of the target. (Cooldown CD: This skill can be used again after (4, 3, 2, 2) turns, and the stat increase effect of the command skill cannot be used simultaneously with other command skills.)",
         "",
         "",
         "",
@@ -30914,8 +30914,8 @@ var persSkills = [
         ""
     ],
 	[
-        "Explosive Drive",
-        "Взрывной привод",
+        "Overload Drive",
+        "Перегрузка привода",
         "1",
         "7",
         "self",
@@ -30924,8 +30924,8 @@ var persSkills = [
         "[Passive] At the end of the action, if an active skill was used and there is no [Overload], can move another 2 cells and attack again.<br>[Active] Used actively, increases ATK and INT by 20% for 2 rounds, and also gets [Shield]: immunity to all debuffs, as well as a shield of 25% of the unit's maximum HP.<br>When using this skill during [Overload], the recovery time of all other skills will be -1, restores 100% HP, the duration of buffs will not be reduced, and [Shield] becomes [Overload Shield]: immunity to all debuffs and a shield of 50% of the unit's maximum HP. [Shield] and [Overload Shield] cannot be dispel."
     ],
 	[
-        "Energy Flow",
-        "Энергетический поток",
+        "Energy Torrent",
+        "Поток воды энергии",
         "2",
         "2",
         "3",
@@ -30935,7 +30935,7 @@ var persSkills = [
     ],
 	[
         "Life Drain",
-        "Снятие жизней",
+        "Высасывание жизни",
         "3",
         "2",
         "1",
@@ -30954,34 +30954,34 @@ var persSkills = [
         ""
     ],
 	[
-        "Magic Armor Energy Gathering",
-        "Сбор энергии магической брони",
+        "Arcane Agglomeration",
+        "Мистическое сосредоточение",
         "1",
         "7",
         "self",
         "one target",
         "4",
-        "[Passive] When actively attacking and entering battle, restores 20% HP of the damage dealt to all allies with the [Unity] effect after the battle; if the enemy is killed in this battle, also reduces the cooldown of all attack skills by 2 turns.<br>[Active] When used actively, gains [Immunity] and 'ATK and INT increased by 20%', lasts for 2 turns. After use, can move another 3 tiles and attack again (after use, the number of buff turns does not decrease)."
+        "[Passive] When actively attacking and entering battle, restores 20% HP of the damage dealt to all allies with the [Comradeship] effect after the battle; if the enemy is killed in this battle, also reduces the cooldown of all attack skills by 2 turns.<br>[Active] When used actively, gains [Immunity] and 'ATK and INT increased by 20%', lasts for 2 turns. After use, can move another 3 tiles and attack again (after use, the number of buff turns does not decrease)."
     ],
 	[
-        "Ravine Destruction",
-        "Разрушение ущелья",
+        "Ravinebreaker",
+        "Разрушитель оврагов",
         "2",
         "2",
         "2",
         "one target",
         "2",
-        "[Phys. Damage] Attacks one enemy, dealing 1.5x damage. Before entering battle, places 'DEF -25%' on the enemy for 2 turns. After battle, allies with the [Unity] effect gain +2 mobility for 2 turns. (Melee soldiers will also attack. This skill is not affected by melee damage reduction.)"
+        "[Phys. Damage] Attacks one enemy, dealing 1.5x damage. Before entering battle, places 'DEF -25%' on the enemy for 2 turns. After battle, allies with the [Comradeship] effect gain +2 mobility for 2 turns. (Melee soldiers will also attack. This skill is not affected by melee damage reduction.)"
     ],
 	[
-        "Flash of Light",
-        "Вспышка Света",
+        "Flashblade",
+        "Вспышка клинка",
         "3",
         "2",
         "1",
         "one target",
         "5",
-        "[Command] When an ally with the [Unity] effect passes through another ally with the same effect, they do not spend mobility points.<br>[Passive] For each ally with the [Unity] effect within 3 tiles damage dealt increases by 10% (up to 30%).<br>[Phys. Damage] Attacks one enemy dealing 1.8x damage and removes 5 buffs from the enemy before combat. If there is an ally with the [Unity] effect within 3 tiles, this attack ignores the Guard effect. If an enemy is killed by this skill, the cooldown of the attack skills of enemies within 2 rings around the target will be increased by 2."
+        "[Command] When an ally with the [Comradeship] effect passes through another ally with the same effect, they do not spend mobility points.<br>[Passive] For each ally with the [Comradeship] effect within 3 tiles damage dealt increases by 10% (up to 30%).<br>[Phys. Damage] Attacks one enemy dealing 1.8x damage and removes 5 buffs from the enemy before combat. If there is an ally with the [Comradeship] effect within 3 tiles, this attack ignores the Guard effect. If an enemy is killed by this skill, the cooldown of the attack skills of enemies within 2 rings around the target will be increased by 2."
     ],
     [
         "Лея",
@@ -36478,7 +36478,7 @@ var builds = [
         "Часы,Полнолуние",
         "3",
         "3",
-        "Кипящая чешуя,Оружие 6,Костедробящий молот,Мьельнир",
+        "Кипящая чешуя,Ударник Мехдуши,Костедробящий молот,Мьельнир",
         "Кольчуга Солнечного Поклонника,Благословение Тиамат,Доспехи хранителя",
         "Ярость Тюра",
         "Апексовые сапоги,Лезвие воспоминаний",
@@ -36522,7 +36522,7 @@ var builds = [
         "Метеор,Бриз,Полнолуние",
         "4",
         "4",
-        "Молот Мимира,Оружие 6,Кипящая чешуя",
+        "Молот Мимира,Ударник Мехдуши,Кипящая чешуя",
         "Кольчуга Солнечного Поклонника,Доспехи хранителя,Таинственный боевой доспех",
         "Ярость Тюра",
         "Лазурная брошь-бабочка,Апексовые сапоги",
@@ -36546,7 +36546,7 @@ var builds = [
         "4",
         "Кипящая чешуя,Страж печати",
         "Кольчуга Солнечного Поклонника,Благословение Тиамат,Доспехи хранителя",
-        "Ярость Тюра,Головной убор 6",
+        "Ярость Тюра,Шлем Истинного провидца",
         "Кровопьющий шип,Колокол эха Хексен,Лезвие воспоминаний",
         "Всадник Эклиптического Дракона,Клыкастый страж,Осквернитель пламени,Рыцарь-грифон"
     ],
@@ -36557,7 +36557,7 @@ var builds = [
         "4",
         "Сбалансированный клинок,Кровавый меч Хрунтинг",
         "Кольчуга Солнечного Поклонника,Зеркальная броня,Таинственный боевой доспех",
-        "Головной убор 6,Ярость Тюра",
+        "Шлем Истинного провидца,Ярость Тюра",
         "Кровопьющий шип,Ожерелье Тора",
         "Гоблин-рыцарь,Солдат-драконианец SP"
     ],

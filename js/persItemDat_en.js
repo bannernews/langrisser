@@ -1476,8 +1476,8 @@ var persItemDat = [
 	[
         "Норнорин",
         "Nornorin",
-        "Глобал - 04.09.2025",
-        "Global - 04.09.2025",
+        "Это Прилива",
+        "Echo of the Tide",
         "hat",
         "437",
         "",
