@@ -871,7 +871,22 @@ var persItemDat = [
         "65",
         "",
         "ОЗ +10%. Каждый раз, когда талант используется, бафф будет длиться +1 раунд.",
-        "Life +10% Every time the array skill is used in battle, the buff of the skill will last rounds +1."
+        "HP +10% Every time the array skill is used in battle, the buff of the skill will last rounds +1."
+    ],
+	[
+        "Изольда",
+        "Isolde",
+        "Глобал - 22.01.2026",
+        "Global - 22.01.2026",
+        "body",
+        "437",
+        "",
+        "",
+        "65",
+        "",
+        "",
+        "ОЗ +10%. При первом получении каждой 'Воли' дополнительно получает еще один эффект:<br>[Одиночное путешествие]: героя невозможно убить одним ударом, вместо этого восстанавливает 1% ОЗ (срабатывает 1 раз за бой);<br>[Сопротивление]: время восстановление всех навыков снижается на 3;<br>[Пропитание]: при следующем получении урона получает дополнительный ход.",
+        "HP +10%. After receiving each 'Will' for the first time, gains an additional effect:<br>[Solitary Journey]: The hero cannot be killed in one hit, instead restoring 1% of HP (can only be triggered once per battle);<br>[Resistance]: The cooldown of all skills is reduced by 3;<br>[Sustenance]: The next time you take damage, gain an extra turn."
     ],
     [
         "Джо и Конни",
