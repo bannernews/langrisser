@@ -7557,7 +7557,7 @@ var dataTable = [
         "Т",
         "Book of the Box",
         "Damage dealt increases by (15%, 20%, 25%, 30%), unit attack range + (1, 1, 2, 2).<br>At the start of battle, gain (1, 2, 3, 3) layers of [Chaos Excerpt]. At the end of the action, if unit moved 3 or more tiles in a round, gain 1 layer of [Chaos Excerpt], and the maximum number of layers is 5.<br>At the end of the action, can spend multiple [Chaos Excerpts] to cast [Box Dream Descent] on the same number of enemies: 'At the end of the action, if you move 3 or more cells in a round, the mobility in the next round will be -2, and the cooldown of the current skill with the shortest cooldown +1, cannot be dispelled, and lasts 1 round.'",
-        "Global - 02.10.2025",
+        "Dream Veil",
         "броня",
         "583",
         "",
@@ -11890,8 +11890,8 @@ var dataTable = [
         "",
         "",
         "Т",
-        "Glory of the Dawn",
-        "ATK and DEF increase by (10, 15, 20, 25)%.<br>Before using an active skill, gains [Radiance]: immunity and reflection to 'unable to use active skills' effect, lasts 1 turn, cannot be dispell. When gaining [Radiance] again, its duration is refreshed and the duration is increased by 1 turn (maximum 5).If the skill deals damage to an enemy, the duration of the buffs on the hero does not decrease and can move another 3 tiles and attack again. (Cooldown: the effect of the repeated action can occur again after (4, 3, 2, 2) turns).",
+        "Glory of Dawn",
+        "ATK and DEF increase by (10, 15, 20, 25)%.<br>Before using an active skill, gains [Brilliance]: immunity and reflect 'unable to use active skills' effect, lasts 1 turn, cannot be dispell. When gaining [Brilliance] again, its duration is refreshed and the duration is increased by 1 turn (maximum 5). If the skill deals damage to an enemy, the duration of the buffs on the hero does not decrease and can move another 3 tiles and attack again. (Cooldown: the effect of the repeated action can occur again after (4, 3, 2, 2) turns).",
         "",
         "",
         "",
@@ -11941,8 +11941,8 @@ var dataTable = [
         "",
         "",
         "Т",
-        "Sins of the Dead",
-        "ATK increases by (10, 15, 20, 25)%.<br>At the end of the turn, if hero is in the [danger zone], he gets 'ignores the guard effect when actively attacking' and [death contract] for 1 turn: cannot be targeted by normal attacks and enemy skills. This effect is removed by taking damage or entering combat. When removed, a repeated action is received and the number of turns of buffs on the hero does not decrease. The repeated action is triggered only once per round. Both received effects cannot be removed. (trigger cooldown: can be triggered again after (4, 3, 2, 2) turns).",
+        "Chasm of the Damned",
+        "ATK increases by (10, 15, 20, 25)%.<br>At the end of the turn, if hero is in the [danger zone], he gets 'ignores the guard effect when actively attacking' and [death pact] for 1 turn: cannot be targeted by normal attacks and enemy skills. This effect is removed when taking damage or entering combat. When removed, a repeated action is received and the number of turns of buffs on the hero does not decrease. The repeated action is triggered only once per round. Both received effects cannot be removed. (trigger cooldown: can be triggered again after (4, 3, 2, 2) turns).",
         "",
         "",
         "",
@@ -11992,8 +11992,8 @@ var dataTable = [
         "",
         "",
         "",
-        "Star Spirit Magic",
-        "INT increases by (10, 13, 16, 20)%.<br>When Lucy or her [Star Spirit] uses an AoE skill any tile within the skill range can be targeted. When Lucy or her [Star Spirit] deals AoE damage to enemies they gain the [Star] effect; when entering battle they gain the [Moon] effect. When enemies with [Star] or [Moon] enter battle with Lucy or her [Star Spirit] all stats except HP will be reduced by (5, 8, 11, 15)%.<br>[Star]: Can be targeted by Lucy or [Star Spirit] skills within 6 tiles. Ranged soldiers will also attack with the hero.<br>[Moon]: After receiving damage from Lucy or [Star Spirit] active attack deals fixed damage equal to 1x the attacker's INT to all allies within 1 circle.<br>[Star] and [Moon] cannot be removed or immunized and last for 2 turns. [Star] and [Moon] are neither buffs nor debuffs.",
+        "Celestial Spirit Magic",
+        "INT increases by (10, 13, 16, 20)%.<br>When Lucy or her [Celestial Spirit] uses an AoE skill any tile within the skill range can be targeted. When Lucy or her [Celestial Spirit] deals AoE damage to enemies they gain the [Star] effect; when entering battle they gain the [Moon] effect. When enemies with [Star] or [Moon] enter battle with Lucy or her [Celestial Spirit] all stats except HP will be reduced by (5, 8, 11, 15)%.<br>[Star]: Can be targeted by Lucy or [Celestial Spirit] skills within 6 tiles. Ranged soldiers will also attack with the hero.<br>[Moon]: After receiving damage from Lucy or [Celestial Spirit] active attack deals fixed damage equal to 1x the attacker's INT to all allies within 1 circle.<br>[Star] and [Moon] cannot be removed or immunized and last for 2 turns. [Star] and [Moon] are neither buffs nor debuffs.",
         "",
         "",
         "",
@@ -12043,7 +12043,7 @@ var dataTable = [
         "",
         "",
         "",
-        "Fairy Queen",
+        "Titania",
         "ATK increases by (15, 20, 25, 30)%.<br>Unit Mobility +(1, 1, 2, 2), this effect is further increased by 1 time for each additional enemy on the battlefield (including summons) over the number of allies, up to a maximum of 3 times (max +3, 3, 6, 6 mobility). After an active attack if the number of enemies on the field is not less than allies, Erza gets an additional action with the remaining mobility (no limit on the number of enemies in PVE mode). This effect can only be triggered again after (5, 4, 3, 3) turns.<br>At the beginning of the battle, gains 1 stack of 'Cannot die from fatal damage, instead restores 20% HP'. When actively attacking and killing an enemy gains another stack, up to a maximum of 2 stacks.",
         "",
         "",
@@ -12094,8 +12094,8 @@ var dataTable = [
         "",
         "",
         "",
-        "Fire Dragon Slayer",
-        "ATK and DEF increase by (8, 12, 16, 20)%, doubled when fighting [dragons]. After an active attack and entering battle or when a friendly unit is attacked and enters battle Natsu gains a stack of [Emotional Flames]: Damage dealt increases by 5%, lasts 6 turns (can stack up to a maximum of 6 stacks, cannot be dispel or immune). If the hero has at least 3 layers of [Emotional Flames] he will recover 30% of the HP from the damage dealt after battle when actively attacking and entering battle.",
+        "Fire Dragon Slayer Magic",
+        "ATK and DEF increase by (8, 12, 16, 20)%, doubled when fighting [dragons]. After an active attack and entering battle or when a friendly unit is attacked and enters battle Natsu gains a stack of [Flames of Emotion]: Damage dealt increases by 5%, lasts 6 turns (can stack up to a maximum of 6 stacks, cannot be dispel or immune). If the hero has at least 3 layers of [Emotional Flames] he will recover 30% of the HP from the damage dealt after battle when actively attacking and entering battle.",
         "",
         "",
         "",
@@ -31172,34 +31172,34 @@ var persSkills = [
         ""
     ],
     [
-        "Oath of the Eternal Day",
-        "Клятва вечного дня",
+        "Oath of the Eternal Daylight",
+        "Клятва вечного дневного света",
         "1",
         "7",
         "on self",
         "one target",
         "4",
-        "[Active] Used actively, applied the effect of [Oath of the Eternal Day]: When using AoE skills, their span is +1. Lasts 2 turns, cannot be removed.<br>If the character has no debuffs (including debuffs from auras), after use can perform an additional action. Mobility is equal to the remaining mobility at the time of using the skill. (after use, the duration of buffs does not decrease)."
+        "[Active] Used actively, applied the effect of [Oath of the Eternal Daylight]: When using AoE skills, their span is +1. Lasts 2 turns, cannot be removed.<br>If the character has no debuffs (including debuffs from auras), after use can perform an additional action. Mobility is equal to the remaining mobility at the time of using the skill. (after use, the duration of buffs does not decrease)."
     ],
     [
-        "Dark Blade: Flash",
-        "Темный клинок - вспышка",
+        "Blade of darkness - Flash",
+        "Клинок тьмы - Вспышка",
         "2",
         "2",
         "3",
         "straight",
         "",
-        "[Phys. Damage] Attacks all enemies in 3 straight lines, dealing 0.15x AoE damage and disabling enemy armor skills (except max HP) for 2 turns. If the target is an NPC, the effect is replaced with 'DEF -25%', lasts 2 turns. After use, the skill switches to [Dark Blade: Slash].<br><br>Dark Blade: Slash<br>cooldown: -, range: 3, span: straight<br>[Phys. Damage] Attacks all enemies in a straight line, dealing 0.15x AoE damage. When attacking, the unit is teleported to the farthest point in the skill's range and [Sword Dance] skill is automatically used. If this skill hits an enemy, an additional layer of [Radiance] will be gained. After use switches to [Dark Blade: Flash]."
+        "[Phys. Damage] Attacks all enemies in 3 straight lines, dealing 0.15x AoE damage and disabling enemy armor skills (except max HP) for 2 turns. If the target is an NPC, the effect is replaced with 'DEF -25%', lasts 2 turns. After use, the skill switches to [Blade of darkness - Judgment].<br><br>Blade of darkness - Judgment<br>cooldown: -, range: 3, span: straight<br>[Phys. Damage] Attacks all enemies in a straight line, dealing 0.15x AoE damage. When attacking, the unit is teleported to the farthest point in the skill's range and [Sword Dance] skill is automatically used. If this skill hits an enemy, an additional layer of [Brilliance] will be gained. After use switches to [Blade of darkness - Flash]."
     ],
     [
-        "Star Rainbow of Unity",
-        "Звездная Радуга Единства",
+        "Winding Aetherbow",
+        "Извилистый эфирный лук",
         "3",
         "2",
         "on self",
         "1 ring",
         "5",
-        "[Passive] When [Radiance] is in effect, this unit will attack first when forced into battle. After battle, restores HP by 20% of the damage dealt during battle.<br>[Phys. Damage] Deals 0.36x AoE damage within a radius of 1 ring. Before dealing damage, steals 1 buff from each enemy hit for each remaining turn of [Radiance] (max 3). If the remaining duration of [Radiance] is 5 or more, the maximum duration of [Radiance] is reset to 1 turn; the hero gains the effect of 'instantly kills enemies with HP less than 15% after dealing damage', lasting for 2 turns (in PVE mode, this is replaced by 'deals a fixed damage equal to 20% of the missing HP, not exceeding 5x the hero's ATK')."
+        "[Passive] When [Brilliance] is in effect, this unit will attack first when forced into battle. After battle, restores HP by 20% of the damage dealt during battle.<br>[Phys. Damage] Deals 0.36x AoE damage within a radius of 1 ring. Before dealing damage, steals 1 buff from each enemy hit for each remaining turn of [Brilliance] (max 3). If the remaining duration of [Brilliance] is 5 or more, the maximum duration of [Brilliance] is reset to 1 turn; the hero gains the effect of 'instantly kills enemies with HP less than 15% after dealing damage', lasting for 2 turns (in PVE mode, this is replaced by 'deals a fixed damage equal to 20% of the missing HP, not exceeding 5x the hero's ATK')."
     ],
     [
         "Элвис",
@@ -31212,8 +31212,8 @@ var persSkills = [
         ""
     ],
     [
-        "Soul Eater",
-        "Пожиратель душ",
+        "Soul-Devouring Wedge",
+        "Клин душепожирания",
         "1",
         "5",
         "",
@@ -31222,8 +31222,8 @@ var persSkills = [
         "[Passive] After an active attack and killing an enemy, restores 50% of HP and receives 3 dispell enemy buffs."
     ],
     [
-        "Soul Destroyer",
-        "Разрушитель душ",
+        "Soul Slash",
+        "Удар души",
         "2",
         "2",
         "2",
@@ -31232,14 +31232,14 @@ var persSkills = [
         "[Phys. Damage] Attacks one enemy, dealing 1.5x damage. After combat, applies 'unable to use active skills' on the enemy for 2 turns. If this attack is not protected by Guard, the target is stunned for 1 turn. Melee soldiers will also participate in the attack. This skill is not affected by melee damage reduction."
     ],
     [
-        "Eternal Night",
-        "Вечная ночь",
+        "Eternal Night of Solitude",
+        "Вечная ночь одиночества",
         "3",
         "2",
         "2",
         "one target",
         "3",
-        "[Passive] When the unit's HP is 100%, mobility is increased by 2 and AoE damage taken is reduced by 80%.<br>[Phys. Damage] Attacks one enemy, dealing 1.7x damage. After killing, gains 'ignores guard effect when actively attacking' and [death contract] for 1 turn, which cannot be immune or removed. If this attack is not protected by a guard, damage dealt increases by 30% and the cooldown of damage-dealing skills is reduced by 1 turn after the battle. Melee soldiers will also participate in the attack. This skill is not affected by melee damage reduction."
+        "[Passive] When the unit's HP is 100%, mobility is increased by 2 and AoE damage taken is reduced by 80%.<br>[Phys. Damage] Attacks one enemy, dealing 1.7x damage. After killing, gains 'ignores guard effect when actively attacking' and [death pact] for 1 turn, which cannot be immune or removed. If this attack is not protected by a guard, damage dealt increases by 30% and the cooldown of damage-dealing skills is reduced by 1 turn after the battle. Melee soldiers will also participate in the attack. This skill is not affected by melee damage reduction."
     ],
     [
         "Люси",
@@ -31252,18 +31252,18 @@ var persSkills = [
         ""
     ],
     [
-        "Star Spirit Outfit",
-        "Одежда Звездного Духа",
+        "Celestial Spirit Summoning",
+        "Призыв Небесного Духа",
         "1",
         "7",
         "",
         "",
         "",
-        "[Active] Used actively to select [Star Spirit Outfit]. Except for Aquarius the corresponding spirit will be summoned and then the skill will be replaced with the skill of the selected [Star Spirit]. Only 1 [Star Spirit] of each type can exist at a time.<br>[Star Spirit Outfit - Aquarius Form]: [Transformation] Lucy and her [Star Spirits] have a 100% increase in critical strike chance and their damage to enemies in water increases by 20%. When moving through [water], [swamp], [stream] the hero gains 1 tile of movement without reducing mobility. After use the number of buff turns will not be reduced, you can move with the remaining mobility +2 and attack again. Skill replaced by [Hydrochronic]: Teleports enemies within the radius to the target tile and deals 0.36x AoE damage to them. Enemies hit are debuffed with 'The area under the unit is considered water' for 2 turns.<br>[Star Spirit Outfit - Leon Form]: Summons the Leon Star Spirit - Loki who inherits 100% of the hero's current attributes. [Transformation] When Lucy or [Star Spirits] fight an enemy that has [Moon] damage dealt increases by 20% and unit attacks before the enemy. After use the number of buff turns will not be reduced and the unit can move with the remaining mobility and attack again. Skill replaced by [Lion King's Radiance]: Attacks one enemy dealing 1.6x damage and removes 3 buffs pre-battle from the enemy. If the enemy has [Moon] damage is dealt directly to the hero.<br>[Star Spirit Outfit - Aries Form]: Summons the Star Spirit Aries who inherits 100% of the hero's current attributes. [Transformation] When Lucy or [Star Spirits] deals damage to an enemy an additional 1 debuff is applied which cannot be removed or immunized. After use the number of buff turns will not be reduced, you can move with the remaining mobility and attack again. The skill is replaced by [Wool Bomb]: Attacks all enemies in the radius dealing 0.36x damage and places [Wool Bomb] on enemies (cannot be removed): at the end of the next action deals fixed damage equal to 2x the caster's INT to yourself and all friendly alies around; additionally places 'cannot use active skills' on non-female enemies for 1 turn.<br>Each form cannot be at the same time with another form and after using the Star Spirit skill the skill will again be replaced by [Star Spirit Outfit]."
+        "[Active] Used actively to select [Celestial Spirit Outfit]. Except for Aquarius the corresponding spirit will be summoned and then the skill will be replaced with the skill of the selected [Celestial Spirit]. Only 1 [Celestial Spirit] of each type can exist at a time.<br>[Celestial Spirit Outfit - Aquarius Form]: [Transformation] Lucy and her [Celestial Spirits] have a 100% increase in critical strike chance and their damage to enemies in water increases by 20%. When moving through [water], [swamp], [stream] the hero gains 1 tile of movement without reducing mobility. After use the number of buff turns will not be reduced, you can move with the remaining mobility +2 and attack again. Skill replaced by [Hydrochronic]: Teleports enemies within the radius to the target tile and deals 0.36x AoE damage to them. Enemies hit are debuffed with 'The area under the unit is considered water' for 2 turns.<br>[Celestial Spirit Outfit - Leon Form]: Summons the Leon Celestial Spirit - Loki who inherits 100% of the hero's current attributes. [Transformation] When Lucy or [Celestial Spirits] fight an enemy that has [Moon] damage dealt increases by 20% and unit attacks before the enemy. After use the number of buff turns will not be reduced and the unit can move with the remaining mobility and attack again. Skill replaced by [Lion King's Radiance]: Attacks one enemy dealing 1.6x damage and removes 3 buffs pre-battle from the enemy. If the enemy has [Moon] damage is dealt directly to the hero.<br>[Celestial Spirit Outfit - Aries Form]: Summons the Celestial Spirit Aries who inherits 100% of the hero's current attributes. [Transformation] When Lucy or [Celestial Spirits] deals damage to an enemy an additional 1 debuff is applied which cannot be removed or immunized. After use the number of buff turns will not be reduced, you can move with the remaining mobility and attack again. The skill is replaced by [Wool Bomb]: Attacks all enemies in the radius dealing 0.36x damage and places [Wool Bomb] on enemies (cannot be removed): at the end of the next action deals fixed damage equal to 2x the caster's INT to yourself and all friendly alies around; additionally places 'cannot use active skills' on non-female enemies for 1 turn.<br>Each form cannot be at the same time with another form and after using the Celestial Spirit skill the skill will again be replaced by [Celestial Spirit Outfit]."
     ],
     [
-        "River of Stars",
-        "Река звезд",
+        "Fleuve d'etoiles",
+        "Поток звезд",
         "2",
         "1",
         "2",
@@ -31272,14 +31272,14 @@ var persSkills = [
         "[Magic Damage] Attacks one enemy ignoring guard effect and dealing 1.5x damage. If the target has [Star] all enemies within 1 ring gain [Moon] before battle."
     ],
     [
-        "Star Map Chronicles",
-        "Хроники Звездной Карты",
+        "Urano Metria",
+        "Урано-метрия",
         "3",
         "1",
         "3",
         "4",
         "5",
-        "[Passive] When Lucy or her [Star Spirits] attack enemies with [Star] or [Moon] their damage is increased by 15%. If there is both [Star] and [Moon] the effect is doubled.<br>[Magic Damage] Attacks all enemies within range dealing 0.36x AoE damage and applies [Moon] to all enemies hit. If Lucy has any [Star Spirit Skill] active she loses it after casting it. Afterwards the cooldown of this skill and all of her [Star Spirits] skills is reduced by 3 turns."
+        "[Passive] When Lucy or her [Celestial Spirits] attack enemies with [Star] or [Moon] their damage is increased by 15%. If there is both [Star] and [Moon] the effect is doubled.<br>[Magic Damage] Attacks all enemies within range dealing 0.36x AoE damage and applies [Moon] to all enemies hit. If Lucy has any [Celestial Spirit Skill] active she loses it after casting it. Afterwards the cooldown of this skill and all of her [Celestial Spirits] skills is reduced by 3 turns."
     ],
     [
         "Эльза",
@@ -31292,18 +31292,18 @@ var persSkills = [
         ""
     ],
     [
-        "Rearmament - Heavenly Wheel Armor",
+        "Requip - Heaven's Wheel Armor",
         "Перевооружение - Доспех Небесного Колеса",
         "1",
         "6",
         "self",
         "one target",
         "4",
-        "[Transformation] Active skill. Erza earn Heavenly Wheel Armor form. After use the number of buff rounds does not decrease and can perform an additional action with the remaining mobility +2.<br>[Heavenly Wheel Armor]: when moving the entire terrain is considered [plains]; at the end of the action and before the active damage dealt, gains 1 stack of [magic sword] (cannot be removed). [Magic sword]: when actively attacking and killing an enemy in battle, destroys 1 soldier from all enemies within 2 tiles of the target for each stack of [magic sword]. If Erza ends her turn or initiates an attack in a dangerous area, she gains an additional stack of [magic sword]. The maximum number is 5 stacks. Lasts 3 turns, cannot be removed or immunized. When the [Heavenly Wheel Armor] form is lost the effect disappears."
+        "[Transformation] Active skill. Erza earn Heaven's Wheel Armor form. After use the number of buff rounds does not decrease and can perform an additional action with the remaining mobility +2.<br>[Heaven's Wheel Armor]: when moving the entire terrain is considered [plains]; at the end of the action and before the active damage dealt, gains 1 stack of [magic sword] (cannot be removed). [Magic sword]: when actively attacking and killing an enemy in battle, destroys 1 soldier from all enemies within 2 tiles of the target for each stack of [magic sword]. If Erza ends her turn or initiates an attack in a dangerous area, she gains an additional stack of [magic sword]. The maximum number is 5 stacks. Lasts 3 turns, cannot be removed or immunized. When the [Heaven's Wheel Armor] form is lost the effect disappears."
     ],
     [
-        "Heavenly Wheel - Chaos Sword",
-        "Небесное колесо - Меч Хаоса",
+        "Heaven's Wheel - Scattered Petals",
+        "Небесное колесо - Разбросанные Лепестки",
         "2",
         "2",
         "2",
@@ -31312,14 +31312,14 @@ var persSkills = [
         "[Phys. Damage] Attacks one enemy, dealing 1.5x damage and reduces the enemy's ATK and INT by 25% before battle for 2 turns. If the hero has a [magic sword], before battle deals 0.5x of the enemy's ATK fixed damage for each [magic sword] (up to 2.5x). Melee soldiers will also participate in the battle. (This skill is not affected by melee damage reduction)."
     ],
     [
-        "Crimson Sakura Demon Sword",
-        "Демонический Меч Багровой Сакуры",
+        "True Scarlet Blossom",
+        "Истинное Алое Цветение",
         "3",
         "2",
         "1",
         "one target",
         "5",
-        "[Passive] When an ally on the battlefield dies Erza removes 2 debuffs from herself and the cooldown of this skill is reduced by 5.<br>[Phys. Damage] Erza loses her [Heavenly Wheel Armor] form and gains the [Crimson Sakura Demon Sword] form (cannot be removed or immune and lasts for 2 rounds). She then attacks one enemy for 1.7x damage and pre-battle removes 3 buffs from the enemy. If the number of enemies is greater than allies the target cannot trigger the [Deadly Damage Resistance] effect in this battle (only effective in PvP mode).<br>[Crimson Sakura Demon Sword]: When actively attacking and entering battle, the hero's DEF decreases by 30%. This unit attacks before the enemy and ignores 30% of their DEF, and before battle HP is restored by 30% and 1 buff is removed from the enemy. These effects (except for decreasing the hero's DEF) are additionally increased by 1 time for each additional enemy on the battlefield (including summoned creatures) over the number of allies, up to a maximum of 3 times (up to 90% and removing 3 buffs).<br>The skill [Heavenly Wheel - Chaos Sword] changes to [Crimson Sakura Strike]: (Cooldown: None, Range: 1, Area: Single Target) [Phys. Damage] Attacks one enemy, dealing 1.4x damage and restoring 30% HP of the damage dealt in battle after the battle. The cooldown of all hero skills is reduced by 1."
+        "[Passive] When an ally on the battlefield dies Erza removes 2 debuffs from herself and the cooldown of this skill is reduced by 5.<br>[Phys. Damage] Erza loses her [Heaven's Wheel Armor] form and gains the [Crimson Blossom] form (cannot be removed or immune and lasts for 2 rounds). She then attacks one enemy for 1.7x damage and pre-battle removes 3 buffs from the enemy. If the number of enemies is greater than allies the target cannot trigger the [Death Damage Resistance] effect in this battle (only effective in PvP mode).<br>[Crimson Blossom]: When actively attacking and entering battle, the hero's DEF decreases by 30%. This unit attacks before the enemy and ignores 30% of their DEF, and before battle HP is restored by 30% and 1 buff is removed from the enemy. These effects (except for decreasing the hero's DEF) are additionally increased by 1 time for each additional enemy on the battlefield (including summoned creatures) over the number of allies, up to a maximum of 3 times (up to 90% and removing 3 buffs).<br>The skill [Heavenly Wheel - Scattered Petals] changes to [Scarlet Slash]: (Cooldown: None, Range: 1, Area: Single Target) [Phys. Damage] Attacks one enemy, dealing 1.4x damage and restoring 30% HP of the damage dealt in battle after the battle. The cooldown of all hero skills is reduced by 1."
     ],
     [
         "Нацу",
@@ -31332,34 +31332,34 @@ var persSkills = [
         ""
     ],
     [
-        "Bright Flame of the Fire Dragon",
-        "Яркое пламя огненного дракона",
+        "Fire Dragon's Brilliant Flame",
+        "Блестящее пламя огненного дракона",
         "1",
         "2",
         "1",
         "one target",
         "2",
-        "[Phys. Damage] Attacks one enemy dealing 1.4x damage. If the enemy is killed the cooldown of this skill is reduced by 1. If the hero has 3 or more stacks of [Emotional Flame] the enemy will not be able to counterattack in this battle."
+        "[Phys. Damage] Attacks one enemy dealing 1.4x damage. If the enemy is killed the cooldown of this skill is reduced by 1. If the hero has 3 or more stacks of [Flames of Emotion] the enemy will not be able to counterattack in this battle."
     ],
     [
-        "E.N.D. Mode",
-        "Режим E.N.D.",
+        "END Mode",
+        "Режим END",
         "2",
         "6",
         "self",
         "one target",
         "6",
-        "[Transformation] Actively used, gains 3 stacks of [Emotional Flame] and enters [E.N.D. Mode]: 'Increases damage dealt by 20%, the hero class becomes a demon for 3 turns. When actively attacking and killing an enemy if there are 5 stacks of [Emotional Flame] after the battle, the hero can act again (Cooldown: This effect can be triggered again after 2 turns). While in [E.N.D. Mode], for each enemy killed by this hero or each ally killed the mode duration is increased by 1'.<br>[E.N.D. Mode] For each round of the mode duration before active attack and entering battle removes 1 buff from the enemy (maximum 3). When [E.N.D. Mode] disappears, the hero receives [Dragon Exhaustion]: Mobility -2, lasts 1 turn.<br>[E.N.D. Mode] cannot be dispel or immune. After using this skill can move 2 more tiles and attack again. The number of buff rounds on the hero will not decrease."
+        "[Transformation] Actively used, gains 3 stacks of [Flames of Emotion] and enters [END Mode]: 'Increases damage dealt by 20%, the hero class becomes a demon for 3 turns. When actively attacking and killing an enemy if there are 5 stacks of [Flames of Emotion] after the battle, the hero can act again (Cooldown: This effect can be triggered again after 2 turns). While in [END Mode], for each enemy killed by this hero or each ally killed the mode duration is increased by 1'.<br>[END Mode] For each round of the mode duration before active attack and entering battle removes 1 buff from the enemy (maximum 3). When [END Mode] disappears, the hero receives [Dragon Force Exhaustion]: Mobility -2, lasts 1 turn.<br>[END Mode] cannot be dispel or immune. After using this skill can move 2 more tiles and attack again. The number of buff rounds on the hero will not decrease."
     ],
     [
-        "Roar of the Fire Dragon King",
+        "Fire Dragon King Roar",
         "Рев Короля Огненных Драконов",
         "3",
         "2",
         "1",
         "one target",
         "4",
-        "[Passive] When the hero is on a tile with the special effect [Fire Dragon King's Domain] damage taken is reduced by 20% and the range of skills is +1.<br>[Phys. Damage] Attacks one enemy dealing 1.8x damage. If there are 4 or more stacks of [Emotional Flame] the unit attacks before the enemy. If Natsu is in [E.N.D. Mode] after battle all terrain within 2 tiles of the target gains the special effect [Fire Dragon King's Domain] for 2 turns.<br>[Fire Dragon King's Domain]: When the enemy ends their turn on this tile they receive a fixed damage equal to 1x the caster's ATK and the damage received from Natsu will be increased by 15% (can stack up to 2 times, lasts 2 turns and cannot be immune or dispelled)."
+        "[Passive] When the hero is on a tile with the special effect [Fire Dragon King's Domain] damage taken is reduced by 20% and the range of skills is +1.<br>[Phys. Damage] Attacks one enemy dealing 1.8x damage. If there are 4 or more stacks of [Flames of Emotion] the unit attacks before the enemy. If Natsu is in [END Mode] after battle all terrain within 2 tiles of the target gains the special effect [Fire Dragon King's Domain] for 2 turns.<br>[Fire Dragon King's Domain]: When the enemy ends their turn on this tile they receive a fixed damage equal to 1x the caster's ATK and the damage received from Natsu will be increased by 15% (can stack up to 2 times, lasts 2 turns and cannot be immune or dispelled)."
     ],
     [
         "Рапьер",
