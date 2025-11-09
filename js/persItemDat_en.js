@@ -2298,6 +2298,21 @@ var persItemDat = [
         "ОЗ +5%. Если этот герой не наносил урон и не двигался на этом ходу он может действовать снова. [активация КД] КД эффекта «повторное действие» составляет 4 хода.",
         "HP +5%. After taking action, if this unit has not moved or dealt damage this turn, then may act again. This effect has a 4 turn cooldown."
     ],
+	[
+        "Имир",
+        "Ymir",
+        "Глобал - 26.02.2026",
+        "Global - 26.02.2026",
+        "hat",
+        "583",
+        "",
+        "",
+        "",
+        "48",
+        "",
+        "ОЗ +10%. Когда есть [Сияющие оковы], после того как был втянут в бой, получает 1 стак [Бешеный всплеск]. Если [Сияющих оков] нет, то при активной атаке и вступлении в бой накладывает на всех союзников без дебаффов случайные баффы в колличестве равном числу стаков [Бешеный всплеск].",
+        "HP +10%. While [Radiant Shackles] is active, gain 1 stack of [Raging Surge] after being forced into combat. If [Radiant Shackles] is not active, then when actively attacking and entering combat, random buffs are applied to all allies without debuffs equal to the number of [Raging Surge] stacks."
+    ],
     [
         "Юлия",
         "Yulia",

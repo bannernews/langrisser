@@ -783,6 +783,21 @@ var persItemDat = [
         "МЗАЩ +10%. После завершения действия дарует 4 союзникам в пределах 2 клеток иммунитет к фиксированому урону. Длится 1 ход.",
         "MDEF +10%. After taking action, 4 allies within 2 blocks gain 'Immune to Fixed Damage'. Lasts 1 turn."
     ],
+	[
+        "Имир",
+        "Ymir",
+        "Глобал - 26.02.2026",
+        "Global - 26.02.2026",
+        "hat",
+        "583",
+        "",
+        "",
+        "",
+        "48",
+        "",
+        "ОЗ +10%. Когда есть [Сияющие оковы], после того как был втянут в бой, получает 1 стак [Бешеный всплеск]. Если [Сияющих оков] нет, то при активной атаке и вступлении в бой накладывает на всех союзников без дебаффов случайные баффы в колличестве равном числу стаков [Бешеный всплеск].",
+        "HP +10%. While [Radiant Shackles] is active, gain 1 stack of [Raging Surge] after being forced into combat. If [Radiant Shackles] is not active, then when actively attacking and entering combat, random buffs are applied to all allies without debuffs equal to the number of [Raging Surge] stacks."
+    ],
     [
         "Император Ловина",
         "Emperor Lovina",

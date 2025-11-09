@@ -34,7 +34,7 @@ var heroesDat = [
         "Adankelmo",
         "МС,ГЙ,ТАИР,Ж",
         "SSR",
-        "",
+        "forge",
         "",
         "М3"
     ],
@@ -43,7 +43,7 @@ var heroesDat = [
         "Agito Makishima",
         "МС,ГЙ,ГВ,М",
         "SSR",
-        "",
+        "forge",
         "",
         ""
     ],
@@ -739,6 +739,15 @@ var heroesDat = [
         "forge",
         "",
         "РЕИ"
+    ],
+	[
+        "Непокорная небесам",
+        "Heaven Defier",
+        "ЛС,ТР,РЕ,Ж,ФБ",
+        "LLR",
+        "",
+        "",
+        ""
     ],
     [
         "Хейн",
@@ -3691,7 +3700,7 @@ var heroesDat2 = [
         "Adankelmo",
         "МС,ГЙ,ТАИР,Ж",
         "SSR",
-        "",
+        "forge",
         "",
         "М3"
     ],
@@ -4042,7 +4051,7 @@ var heroesDat2 = [
         "Makishima Agito",
         "МС,ГЙ,ГВ,М",
         "SSR",
-        "",
+        "forge",
         "",
         ""
     ],
@@ -4396,6 +4405,15 @@ var heroesDat2 = [
         "",
         "",
         "Т"
+    ],
+	[
+        "Непокорная небесам",
+        "Heaven Defier",
+        "ЛС,ТР,РЕ,Ж,ФБ",
+        "LLR",
+        "",
+        "",
+        ""
     ]
 ]
 
