@@ -2163,6 +2163,21 @@ var persItemDat = [
         "МЗАЩ +10%. После совершения действия есть 30% шанс получить +1 к дальности навыков и +1 к диапазону. Длится 1 ход.",
         "MDEF +10%. 30% chance after taking action to gain 'Skill range +1, skill span +1'. Lasts 1 turn."
     ],
+	[
+        "Шем",
+        "Shem",
+        "Глобал - 19.03.2026",
+        "Global - 19.03.2026",
+        "hat",
+        "583",
+        "",
+        "",
+        "",
+        "48",
+        "",
+        "ОЗ +10%. Когда имеется эффект [Короны Родословной], по завершении хода ближайший союзник (кроме себя) получает эффект [Отблеск крови]: по окончании своего хода он дополнительно наносит всем врагам в радиусе 2 клеток 0.1х АоЕ урон. Источником урона считается Шем; этот эффект нельзя предотвратить и нельзя развеять. Длительность — 2 хода. При нанесении этого АоЕ урона дополнительно сокращается перезарядка умения с самым большим текущим временем перезарядки на 2 хода.<br>Все указанные эффекты могут сработать снова только через 2 хода.",
+        "HP +10%. While [Crown of the Bloodline] is active at the end of his turn, a nearby ally (excluding themselves) gains [Blood Glimmer]: at the end of his turn, he deal an additional 0.1x AoE damage to all enemies within 2 tiles. The damage source is the Shem; this effect cannot be prevented or dispelled. Duration: 2 turns. Dealing this AoE damage also reduces the cooldown of the skill with the longest current cooldown by 2 turns.<br>All of these effects can only trigger again after 2 turns."
+    ],
     [
         "Шери",
         "Cherie",
