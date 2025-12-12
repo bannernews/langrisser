@@ -38571,7 +38571,7 @@ var confession = [
     ],
 	[
         "Сибель",
-        ""
+        "https://drive.google.com/file/d/1KBS63_xZB82jSOWPpwO96OKVONSrGjne/view?usp=sharing"
     ],
 	[
         "Бьянка",
