@@ -1,0 +1,180 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>BannerNews</title>  <!--название странички на вкладке сайта-->
+    <link rel="icon" type="image/png" href="favicon.png">  <!--иконка на вкладке сайта-->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes" />
+<!--    <link rel="stylesheet" href="assets/css/main.css" /> -->
+    <link rel="stylesheet" href="css/slider.css" />
+		<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+		<link rel="stylesheet" type="text/css" href="css/main.css"/>
+	<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+<style>
+	td{
+		padding:1px;
+	}
+</style>
+</head>
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+	<script type="text/javascript" src="slick/slick.min.js"></script>
+
+
+<body style="background-color: #629786;">
+<div id="top" style="display:block;width:1320px;margin:0 auto;">
+	<div style="text-align:left;display:block;width:200px;float:left;"><a href="chants.html" style="color: antiquewhite;">Russian</a> | English</div>
+	<div style="display:flex;width:30px;margin-left:650px;height:25px;"><a id="mobswap" href="chants_en_mob.html"><img src="images/mob.png" height="25px"></a></div>
+	<div style="display:block;position:absolute;width:30px;height:30px;top: 5px;left: 1580px;" onclick=window.open("https://docs.google.com/spreadsheets/d/1DeHbRgKutJpiS633eMLCibwO2zXwwZpoP5z4P3EKLtY/edit?usp=sharing");></div>
+	<hr noshade style="border-color: #d8c2a9;">
+	<div class="menu"><a href="heroes_en.html">Heroes</a></div>
+	<div class="menu menumore">Items
+		<div class="dropdown-content">
+			<a style="margin-top: -30px;background-color: unset;" href="#"></a>
+			<a id="mp1" href="items_en.html">Common<img class="menu_point1" src="images/point.png" height="20px" style="vertical-align:-3px;" /></a>
+			<a id="mp2" href="pers_items_en.html">Personal<img class="menu_point2" src="images/point.png" height="20px" style="vertical-align:-3px;" /></a>
+			<a id="mp3" href="chants_en.html">Chants<img class="menu_point3" src="images/point.png" height="20px" style="vertical-align:-3px;" /></a>
+		</div>
+	</div>
+	<div class="menu"><a href="soldiers_en.html">Soldiers</a></div>
+	<div class="menu"><a href="https://docs.google.com/spreadsheets/d/1mqOkMylobD4VkGctr_ZMOGvCirGKt6uqPJugNtLYKtQ/edit#gid=859281510" target="_blank">Calendar</a></div>
+	<div class="menu"><a href="chibi-create/chibi_en.html" target="blank">Chibi</a></div>
+	<div class="menu"><a href="https://drive.google.com/drive/folders/1FRiHJGhfUxyufg4eEAUCzQ6ltvJjEOYv?usp=sharing" target="blank">Data</a></div>
+<!--	<div class="menu">Донат</div>-->
+	
+	<div id="logo" style="display:inline-block;text-decoration:none;line-height: 3px;float:right;margin-right:2%;margin-top: -10px;"><a href="index_en.html"><img src="images/headpanel.png" height="60px" /><span style="font-size: 40px;vertical-align: 15px;text-shadow: 1px 1px #d8c2a9;">Banner News</span><img src="images/headpanel.png" height="60px" /></a></div>
+	<br>
+	<hr noshade style="border-color: #d8c2a9;">
+</div>
+<div id="middle" style="width:1320px;margin:0 auto;padding-top:14px;white-space: nowrap;">
+	<span id="title" style="display:block;width:200px;margin:0 auto;font-size: 30px;color:#d8c2a9;">Chants</span><br>
+	<div id="chatx" style="height:900px;width:80%;margin: 10px auto;">
+		<table>
+			<tr><td rowspan="3" style="width:150px;"><img src="images/chants/dawn.png" width="100px" height="100px"></td>
+				<td style="text-align:left;font-size:22px;"><b>Morning Glory</b></td></tr>
+				<tr><td style="text-align:left;">2: ATK, INT +5%</td></tr>
+				<tr><td style="white-space:break-spaces;text-align:left;">4: Damage Dealt +10%. At the start of battle and after defeating an enemy, gain 2 stacks of Immune to the next debuff (up to 5 stacks, cannot be dispelled).</td></tr>
+				<tr><td colspan="2"><img src="images/chants/shadow.png" width="100%" height="10px"></td>
+			</tr>
+			
+			<tr><td rowspan="3" style="width:150px;"><img src="images/chants/wind.png" width="100px" height="100px"></td>
+				<td style="text-align:left;font-size:22px;"><b>Breeze</b></td></tr>
+				<tr><td style="text-align:left;">2: ATK, INT +5%</td></tr>
+				<tr><td style="white-space:break-spaces;text-align:left;">4: Damage dealt is increased by 10%. After action, there is a 30% chance to increase Mobility by 2. Lasts 1 turn.</td></tr>
+				<tr><td colspan="2"><img src="images/chants/shadow.png" width="100%" height="10px"></td>
+			</tr>
+			
+			<tr><td rowspan="3" style="width:150px;"><img src="images/chants/fullmoon.png" width="100px" height="100px"></td>
+				<td style="text-align:left;font-size:22px;"><b>Full Moon</b></td></tr>
+				<tr><td style="text-align:left;">2: ATK, INT +5%</td></tr>
+				<tr><td style="white-space:break-spaces;text-align:left;">4: When HP is above 80%, all ATK and DEF stats are increased by 10%.</td></tr>
+				<tr><td colspan="2"><img src="images/chants/shadow.png" width="100%" height="10px"></td>
+			</tr>
+			
+			<tr><td rowspan="3" style="width:150px;"><img src="images/chants/magic.png" width="100px" height="100px"></td>
+				<td style="text-align:left;font-size:22px;"><b>Magic</b></td></tr>
+				<tr><td style="text-align:left;">2: ATK, INT +5%</td></tr>
+				<tr><td style="white-space:break-spaces;text-align:left;">4: Skill damage increases by 10%, AoE damage increases by an additional 5%.</td></tr>
+				<tr><td colspan="2"><img src="images/chants/shadow.png" width="100%" height="10px"></td>
+			</tr>
+			
+			<tr><td rowspan="3" style="width:150px;"><img src="images/chants/time.png" width="100px" height="100px"></td>
+				<td style="text-align:left;font-size:22px;"><b>Clock</b></td></tr>
+				<tr><td style="text-align:left;">2: ATK, INT +5%</td></tr>
+				<tr><td style="white-space:break-spaces;text-align:left;">4: When dealing damage with a skill, there is a 30% chance to reduce the cooldown by -5.</td></tr>
+				<tr><td colspan="2"><img src="images/chants/shadow.png" width="100%" height="10px"></td>
+			</tr>
+			
+			<tr><td rowspan="3" style="width:150px;"><img src="images/chants/sea.png" width="100px" height="100px"></td>
+				<td style="text-align:left;font-size:22px;"><b>Rough Sea</b></td></tr>
+				<tr><td style="text-align:left;">2: ATK, INT +5%</td></tr>
+				<tr><td style="white-space:break-spaces;text-align:left;">4: When performing an active attack and entering combat, ATK increases by 10% and damage taken decreases by 15%. </td></tr>
+				<tr><td colspan="2"><img src="images/chants/shadow.png" width="100%" height="10px"></td>
+			</tr>
+			
+			<tr><td rowspan="3" style="width:150px;"><img src="images/chants/light.png" width="100px" height="100px"></td>
+				<td style="text-align:left;font-size:22px;"><b>Light Curtain</b></td></tr>
+				<tr><td style="text-align:left;">2: HP +10%</td></tr>
+				<tr><td style="white-space:break-spaces;text-align:left;">4: At start of turn, if an ally is adjacent, gain a shield that absorbs damage up to 10% of max HP. Cannot be dispelled.</td></tr>
+				<tr><td colspan="2"><img src="images/chants/shadow.png" width="100%" height="10px"></td>
+			</tr>
+			
+			<tr><td rowspan="3" style="width:150px;"><img src="images/chants/stal.png" width="100px" height="100px"></td>
+				<td style="text-align:left;font-size:22px;"><b>Steel</b></td></tr>
+				<tr><td style="text-align:left;">2: HP +10%</td></tr>
+				<tr><td style="white-space:break-spaces;text-align:left;">4: Damage taken is reduced by 10%.</td></tr>
+				<tr><td colspan="2"><img src="images/chants/shadow.png" width="100%" height="10px"></td>
+			</tr>
+			
+			<tr><td rowspan="3" style="width:150px;"><img src="images/chants/shipi.png" width="100px" height="100px"></td>
+				<td style="text-align:left;font-size:22px;"><b>Thorns</b></td></tr>
+				<tr><td style="text-align:left;">2: HP +10%</td></tr>
+				<tr><td style="white-space:break-spaces;text-align:left;">4: When attacked, has a 30% chance to reflect damage taken that time by 50%.</td></tr>
+				<tr><td colspan="2"><img src="images/chants/shadow.png" width="100%" height="10px"></td>
+			</tr>
+			
+			<tr><td rowspan="3" style="width:150px;"><img src="images/chants/tree.png" width="100px" height="100px"></td>
+				<td style="text-align:left;font-size:22px;"><b>Tree of Life</b></td></tr>
+				<tr><td style="text-align:left;">2: HP +10%</td></tr>
+				<tr><td style="white-space:break-spaces;text-align:left;">4: Increases DEF and MDEF of all heroes within a 2 tile radius by 5%.</td></tr>
+				<tr><td colspan="2"><img src="images/chants/shadow.png" width="100%" height="10px"></td>
+			</tr>
+						
+			<tr><td rowspan="3" style="width:150px;"><img src="images/chants/fire.png" width="100px" height="100px"></td>
+				<td style="text-align:left;font-size:22px;"><b>Kindling</b></td></tr>
+				<tr><td style="text-align:left;">2: DEF, МDEF +5%</td></tr>
+				<tr><td style="white-space:break-spaces;text-align:left;">4: Hero's Soldier Boost +5%. Soldier count +2.</td></tr>
+				<tr><td colspan="2"><img src="images/chants/shadow.png" width="100%" height="10px"></td>
+			</tr>
+						
+			<tr><td rowspan="3" style="width:150px;"><img src="images/chants/rock.png" width="100px" height="100px"></td>
+				<td style="text-align:left;font-size:22px;"><b>Hard Rock</b></td></tr>
+				<tr><td style="text-align:left;">2: DEF, МDEF +5%</td></tr>
+				<tr><td style="white-space:break-spaces;text-align:left;">4: When HP is less than 50%, there is a 50% chance to restore 15% HP after battle.</td></tr>
+				<tr><td colspan="2"><img src="images/chants/shadow.png" width="100%" height="10px"></td>
+			</tr>
+						
+			<tr><td rowspan="3" style="width:150px;"><img src="images/chants/led.png" width="100px" height="100px"></td>
+				<td style="text-align:left;font-size:22px;"><b>Ice</b></td></tr>
+				<tr><td style="text-align:left;">2: DEF, МDEF +5%</td></tr>
+				<tr><td style="white-space:break-spaces;text-align:left;">4: When attacked, after battle there is a 20% chance to stun the attacker for 1 turn.</td></tr>
+				<tr><td colspan="2"><img src="images/chants/shadow.png" width="100%" height="10px"></td>
+			</tr>
+						
+			<tr><td rowspan="3" style="width:150px;"><img src="images/chants/crystal.png" width="100px" height="100px"></td>
+				<td style="text-align:left;font-size:22px;"><b>Crystal</b></td></tr>
+				<tr><td style="text-align:left;">2: DEF, МDEF +5%</td></tr>
+				<tr><td style="white-space:break-spaces;text-align:left;">4: Healing effects are increased by 20%.</td></tr>
+				<tr><td colspan="2"><img src="images/chants/shadow.png" width="100%" height="10px"></td>
+			</tr>
+						
+			<tr><td rowspan="3" style="width:150px;"><img src="images/chants/meteor.png" width="100px" height="100px"></td>
+				<td style="text-align:left;font-size:22px;"><b>Meteor</b></td></tr>
+				<tr><td style="text-align:left;">2: Crit +7%</td></tr>
+				<tr><td style="white-space:break-spaces;text-align:left;">4: When attacking units with HP above 60%, all damage dealt after entering combat is increased by 20%.</td></tr>
+				<tr><td colspan="2"><img src="images/chants/shadow.png" width="100%" height="10px"></td>
+			</tr>
+						
+			<tr><td rowspan="3" style="width:150px;"><img src="images/chants/sun.png" width="100px" height="100px"></td>
+				<td style="text-align:left;font-size:22px;"><b>Blazing Sun</b></td></tr>
+				<tr><td style="text-align:left;">2: Crit +7%</td></tr>
+				<tr><td style="white-space:break-spaces;text-align:left;">4: Crit. damage +25%.</td></tr>
+				<tr><td colspan="2"><img src="images/chants/shadow.png" width="100%" height="10px"></td>
+			</tr>
+		</table>
+	</div>
+
+</div>
+<!--			<script src="js/jquery.min.js"></script>
+			<script src="js/browser.min.js"></script>
+			<script src="js/breakpoints.min.js"></script>
+			<script src="js/util.js"></script>
+		<script src="js/persItemDat.js"></script>-->
+		<script src="js/slider.js"></script>
+	<script type="text/javascript">
+//		window.onload = persItemView('weapon');   //при загрузке страницы автоматически фильтр по оружию
+	</script>
+
+</body>
+</html>
+
