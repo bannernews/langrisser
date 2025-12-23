@@ -159,6 +159,11 @@ body{
 	position:absolute;
 	top:46px;
 }
+.menu_point3{
+	display:none;
+	position:absolute;
+	top:82px;
+}
 .menu_point12{
 	display:none;
 	position:absolute;
@@ -182,6 +187,7 @@ body{
 
 #mp1:hover .menu_point1 {display: initial;}
 #mp2:hover .menu_point2 {display: initial;}
+#mp3:hover .menu_point3 {display: initial;}
 
 #mp12:hover .menu_point12 {display: initial;}
 #mp22:hover .menu_point22 {display: initial;}
