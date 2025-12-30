@@ -21255,7 +21255,7 @@ var classStats = [
         "96",
         "2",
         "3",
-        "ходьба",
+        "полет",
         "When attacked by an enemy who has a debuff, damage taken in battle is reduced by 10%.",
         "When fighting enemies whose HP is lower than the unit's, damage dealt in battle is increased by 10%.",
         "A",
@@ -21273,7 +21273,7 @@ var classStats = [
         "125",
         "2",
         "3",
-        "ходьба",
+        "полет",
         "When HP is above 80%, the chance of receiving critical hit is reduced by 10%.",
         "When fighting enemies with the debuff, damage dealt is increased by 10%.",
         "C",
@@ -50641,3 +50641,4 @@ var pvpB = [
         ""
     ]
 ]
+
