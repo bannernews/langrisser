@@ -1323,6 +1323,21 @@ var persItemDat = [
         "ОЗ & МЗАЩ +5%. Дальность эффекта команды всех ваших талантов и навыков увеличивается на 1. После совершения действия накладывает «наносимый урон увеличивается на 15%» на 2 союзников в радиусе 1 клетки. Длится 1 ход.",
         "HP & MDEF +5%. Command range from talent and skills +1. After taking action, grants 2 allies within 1 block 'Damage Dealt+15%'. Lasts 1 turn."
     ],
+	[
+        "Макира",
+        "Macaera",
+        "Глобал - 16.04.2026",
+        "Global - 16.04.2026",
+        "weapon",
+        "",
+        "96",
+        "",
+        "",
+        "",
+        "53",
+        "АТК +10%. Если в радиусе 2 клеток есть [скрытый клинок], то: дальность умений +2; в конце хода время перезарядки всех умений -1; при использовании умения и вступлении в бой снижение урона в ближнем бою отсутствует; солдаты дальнего боя атакуют одновременно с героем.",
+        "ATK +10%. If there is a [Hidden Blade] within a 2-tile radius, then: skill range +2; at the end of the turn, the cooldown of all skills is -1; when using a skill and entering combat, there is no reduction in melee damage; ranged soldiers attack also with the hero."
+    ],
     [
         "Майя",
         "Maiya",

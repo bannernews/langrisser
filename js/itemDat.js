@@ -674,6 +674,20 @@ var itemDat = [
         "All stats +5%. Duration of terrain effects +1. When an enemy is on your terrain effect its defensive effect is reduced by 5%. When an ally is on such terrain its defensive effect is increased by 5%.",
         "accs"
     ],
+	[
+        "Акс 8",
+        "---",
+        "accessoir",
+        "",
+        "75",
+        "75",
+        "",
+        "",
+        "",
+        "АТК, ИНТ +5%. При использовании навыка для атаки врага, процент которого не выше чем у юнита, в конце боя время действия 5 случайных баффов на враге уменьшится на 1 ход. Если у врага нет баффов, наносимый урон в этом бою будет увеличен на 8%.",
+        "ATK, INT +5%. When using a skill to attack an enemy whose percentage is no higher than the unit's, the duration of 5 random buffs on the enemy at the end of the battle will be reduced by 1 turn. If the enemy has no buffs, damage dealt in this battle will be increased by 8%. ",
+        "accs"
+    ],
     [
         "Броня Энея",
         "Aeneas' Armor",
@@ -1248,6 +1262,20 @@ var itemDat = [
         "HP +5%, MDEF +5%. If the unit consists of a [mixed forces] removes 1 debuff from itself when hit by a skill. Does not die when receiving fatal damage from AoE (triggers 1 time per battle).",
         "cloth"
     ],
+	[
+        "Броня 8",
+        "---",
+        "body",
+        "437",
+        "",
+        "",
+        "65",
+        "",
+        "",
+        "ОЗ, ЗАЩ +5%. Перед вступлением в бой накладывае на врага 1 случайный пеповторяющийся дебафф. Если у противника есть [сопротивление смертельному урону], дополнительно преобразовывает 1 его бафф в случайный неповторяющийся дебафф.",
+        "HP, DEF +5%. Before entering combat applies one random non-repeating debuff to the enemy. If the enemy has [Lethal Damage Resistance] converts one of buffs into a random non-repeating debuff.",
+        "heavy"
+    ],
     [
         "Шлем Энея",
         "Aeneas' Helmet",
@@ -1807,6 +1835,20 @@ var itemDat = [
         "ОЗ +10%. При активной атаке, перед вступлением в бой снимает с себя 1 дебафф.",
         "HP +10%. When actively attacking removes 1 debuff from yourself before entering combat.",
         "light"
+    ],
+	[
+        "Головной убор 8",
+        "---",
+        "hat",
+        "364",
+        "",
+        "",
+        "",
+        "65",
+        "",
+        "ОЗ +10%. Когда получает эффект 'повторное действие', существует 100% вероятность получить случайный бафф.",
+        "HP +10%. When receiving the 'Act again' effect, there is a 100% chance to receive a random buff.",
+        "cloth"
     ],
     [
         "Меч клятвы",
@@ -2619,6 +2661,20 @@ var itemDat = [
         "АТК +10%. Если при активной атаке юнит переместился на 3 или более клеток, ЗАЩ противника -30% на 1 ход.",
         "ATK +10%. If a unit moves 3 or more tiles during an active attack the enemy's DEF is -30% for 1 turn.",
         "axe"
+    ],
+	[
+        "Оружие 8",
+        "---",
+        "weapon",
+        "583",
+        "85",
+        "",
+        "",
+        "",
+        "",
+        "АТК +10%. При использовании навыка для вступления в бой, наносимый этим навыком урон увеличивается на 5% за каждый ход его перезарядки (максимум на 15%)",
+        "ATK +10%. When using a skill to enter combat, the damage dealt by that skill increases by 5% for each turn of it cooldown (maximum 15%).",
+        "lance"
     ]
 ]
 

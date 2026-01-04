@@ -1263,6 +1263,21 @@ var persItemDat = [
         "ИНТ +10%. Тип передвижения героя изменен на [полёт]. АОЕ-навыки могут убирать вражеские эффекты местности с пораженных клеток. После совершения действия рассеивает со всех союзных юнитов в радиусе 2 клеток 1 дебафф.",
         "INT +10%. Unit movement type is considered [Flying]. AoE skills from this unit can clear enemy terrain effects. After taking action, dispel 1 debuff from allies within 2 spaces."
     ],
+	[
+        "Макира",
+        "Macaera",
+        "Глобал - 16.04.2026",
+        "Global - 16.04.2026",
+        "weapon",
+        "",
+        "96",
+        "",
+        "",
+        "",
+        "53",
+        "АТК +10%. Если в радиусе 2 клеток есть [скрытый клинок], то: дальность умений +2; в конце хода время перезарядки всех умений -1; при использовании умения и вступлении в бой снижение урона в ближнем бою отсутствует; солдаты дальнего боя атакуют одновременно с героем.",
+        "ATK +10%. If there is a [Hidden Blade] within a 2-tile radius, then: skill range +2; at the end of the turn, the cooldown of all skills is -1; when using a skill and entering combat, there is no reduction in melee damage; ranged soldiers attack also with the hero."
+    ],
     [
         "Маклейн",
         "McClein",
