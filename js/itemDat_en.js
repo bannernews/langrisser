@@ -1824,7 +1824,7 @@ var itemDat = [
     ],
 	[
         "Легенда о русалке",
-        "---",
+        "Legend of the Mermaid",
         "hat",
         "437",
         "",
@@ -1838,7 +1838,7 @@ var itemDat = [
     ],
 	[
         "Головной убор 8",
-        "Legend of the Mermaid",
+        "---",
         "hat",
         "364",
         "",
@@ -2737,3 +2737,4 @@ function itemView (itemType) {
 		}
 	}
 }
+
