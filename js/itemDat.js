@@ -661,8 +661,8 @@ var itemDat = [
         "accs"
     ],
 	[
-        "Акс 7",
-        "---",
+        "Астральный Тессеракт",
+        "Astral Tesseract",
         "accessoir",
         "",
         "75",
@@ -1249,8 +1249,8 @@ var itemDat = [
         "light"
     ],
 	[
-        "Броня 7",
-        "---",
+        "Мантия Духа пламени",
+        "Flame Spirit Robe",
         "body",
         "583",
         "",
@@ -1823,8 +1823,8 @@ var itemDat = [
         "heavy"
     ],
 	[
-        "Головной убор 7",
-        "---",
+        "Легенда о русалке",
+        "Legend of the Mermaid",
         "hat",
         "437",
         "",
@@ -2649,8 +2649,8 @@ var itemDat = [
         "hammer"
     ],
 	[
-        "Оружие 7",
-        "---",
+        "Рев титана",
+        "Roar of the Titan",
         "weapon",
         "364",
         "118",

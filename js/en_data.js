@@ -8322,7 +8322,7 @@ var dataTable = [
         "Т",
         "Natural Resonance",
         "INT increases by (10%, 13%, 16%, 20%).<br>Has [Elemental Affinity]: For each ally with [Elemental Affinity], the unit's range is +1 (maximum +3), and damage dealt increases by 10% (maximum increase is 30%).<br>After actively using the skill, 1 [Harmonic Spirit] will be summoned at the end of the action. ([Harmonic Spirit] inherits the skill used this turn and 100% of the current attributes, can be up to 2 at a time).<br>If no damage is dealt at the end of the duration, can actively recycle 1 of its [Harmonic Spirit] and remove the cooldown of the skill it inherited. The duration of the buffs will not be reduced after use, and can attack again (cannot move and cannot summon [Harmonic Spirit]). ([Trigger cooldown] requires a 2, 2, 1, 1 round interval before it can be used again.)",
-        "Global - 27.11.2025",
+        "Viridios",
         "оружие",
         "437",
         "",
@@ -12145,8 +12145,8 @@ var dataTable = [
         "",
         "",
         "Мил",
-        "Conquest Ambition",
-        "ATK and DEF increase by (10, 15, 20, 25)%.<br>At the end of the action can target one enemy on the battlefield and apply the effect of [Fight of Justice] to him for 2 turns: If the enemy attacks anyone other than Rapier with a skill he lose 5 buffs before the battle (trigger cooldown is (4, 3, 2, 2) turns).<br>If any ally enters into battle with an enemy who has [Fight of Justice], before the battle Rapier is teleported to the nearest empty tile near this ally and if she has already acted this turn, she gets a act again (can only occur once per turn).<br>[Fight of Justice] cannot be removed or blocked. When Rapier fights an enemy with this effect he cannot attack first and cannot activate lethal damage resistance (the inability to activate lethal damage resistance only applies in PVP modes).",
+        "Conqueror's Ambition",
+        "ATK and DEF increase by (10, 15, 20, 25)%.<br>At the end of the action can target one enemy on the battlefield and apply the effect of [Final Tribunal] to him for 2 turns: If the enemy attacks anyone other than Rapier with a skill he lose 5 buffs before the battle (trigger cooldown is (4, 3, 2, 2) turns).<br>If any ally enters into battle with an enemy who has [Final Tribunal], before the battle Rapier is teleported to the nearest empty tile near this ally and if she has already acted this turn, she gets a act again (can only occur once per turn).<br>[Final Tribunal] cannot be removed or blocked. When Rapier fights an enemy with this effect he cannot attack first and cannot activate lethal damage resistance (the inability to activate lethal damage resistance only applies in PVP modes).",
         "",
         "",
         "",
@@ -12196,8 +12196,8 @@ var dataTable = [
         "",
         "",
         "Мил",
-        "Painful Laughter",
-        "ATK and critical strike chance are increased by (10, 15, 20, 25)%. The unit is not subject to melee damage reduction.<br>When actively attacking and dealing damage the [Painful Laughter] effect is applied to the enemy: increases the chance of receiving critical hit by 20%; after receiving damage additionally receives fixed damage equal to 1x of the attacker's ATK (for every 25% of HP lost this damage increases by 0.5x, up to 2x of ATK).<br>[Painful Laughter] cannot be removed and lasts 2 turns.",
+        "Agony's Grin",
+        "ATK and critical strike chance are increased by (10, 15, 20, 25)%. The unit is not subject to melee damage reduction.<br>When actively attacking and dealing damage the [Agony's Grin] effect is applied to the enemy: increases the chance of receiving critical hit by 20%; after receiving damage additionally receives fixed damage equal to 1x of the attacker's ATK (for every 25% of HP lost this damage increases by 0.5x, up to 2x of ATK).<br>[Agony's Grin] cannot be removed and lasts 2 turns.",
         "",
         "",
         "",
@@ -12247,7 +12247,7 @@ var dataTable = [
         "",
         "",
         "Т",
-        "Nirvana Butterfly",
+        "Butterfly of Oblivion",
         "Damage dealt is increased by (15, 20, 25, 30)%.<br>At the start of the turn create (1, 1, 2, 2) special terrain effects [Butterfly Spirit] near allies: 'After the first allied hero passes through this terrain they will gain [Butterfly Breath] (cannot be blocked or removed) and [Shield]: blocks damage equal to 30% of max HP; while in 1 ring around an allied [Butterfly Spirit] cannot be targeted by enemy skills (however can be targeted and attacked by normal attacks).'<br>If an ally with [Butterfly Breath] is killed [Butterfly Breath] is transferred to the source of the damage (it is neither a buff nor a debuff). [Butterfly Spirit] lasts for 2 turns, [Butterfly Breath] lasts for 3 turns.<br>When using targeting skills Humbaba also considers the terrain with friendly [Butterfly Spirit] and units with allied [Butterfly Breath] as her location and ranged soldiers will also attack when entering combat.",
         "",
         "",
@@ -31870,34 +31870,34 @@ var persSkills = [
         ""
     ],
     [
-        "Steel Resolve",
-        "Стальная решимость",
+        "Ironbound Resolve",
+        "Железная решимость",
         "1",
         "5",
         "",
         "",
         "",
-        "[Passive] When entering battle with an enemy with [Fight of Justice] all stats except HP are increased by 15% in battle. Before battle dispels all debuffs from herself and copies all removable buffs from the target."
+        "[Passive] When entering battle with an enemy with [Final Tribunal] all stats except HP are increased by 15% in battle. Before battle dispels all debuffs from herself and copies all removable buffs from the target."
     ],
     [
-        "Battle Banner",
-        "Боевое знамя",
+        "Battlefield Banner",
+        "Знамя Поля Боя",
         "2",
         "2",
         "3",
         "3",
         "3",
-        "[Phys. Damage] attacks all enemies in the radius dealing 0.36x AoE damage. All enemies hit are teleported to the target location and the [Battle Banner] terrain effect is created on it: [command] All enemies within 2 tiles have their DEF reduced by 10%; when leaving the zone +1 mobility is spent for each tile; at the end of the effect 2 buffs are removed if in the zone.<br>If the enemy has [Fight of Justice] he will be teleported to the center first and all effects of [Fight Banner] affect him at double strength."
+        "[Phys. Damage] attacks all enemies in the radius dealing 0.36x AoE damage. All enemies hit are teleported to the target location and the [Battlefield Banner] terrain effect is created on it: [Command] All enemies within 2 tiles have their DEF reduced by 10%; when leaving the zone +1 mobility is spent for each tile; at the end of the effect 2 buffs are removed if in the zone.<br>If the enemy has [Final Tribunal] he will be teleported to the center first and all effects of [Battlefield Banner] affect him at double strength."
     ],
     [
-        "Falling Sword of the Final Battle",
-        "Падающий меч финальной битвы",
+        "Doomblade of Ultimate Ruin",
+        "Клинок Рока Конечной Руины",
         "3",
         "2",
         "1",
         "one target",
         "4",
-        "[Passive] When actively attacking and engaging in battle with an enemy who has the [Fight of Justice] effect the damage dealt in this battle is increased by 25%.<br>[Phys. Damage] Attacks one enemy dealing 1.8x damage. If there is an enemy with [Fight of Justice] within 3 tiles of the target he will join the battle instead of the selected target, otherwise the damage received in battle is reduced by 25%.<br>If the enemy is killed by this skill the cooldown is reduced by 4 and restores 30% of HP at the end of the action. If the killed enemy was under the effect of [Fight of Justice] Rapier copies up to 3 random removable buffs from herself to all [Honor of the Empire] allies and resets the cooldown of her talent."
+        "[Passive] When actively attacking and engaging in battle with an enemy who has the [Final Tribunal] effect the damage dealt in this battle is increased by 25%.<br>[Phys. Damage] Attacks one enemy dealing 1.8x damage. If there is an enemy with [Final Tribunal] within 3 tiles of the target he will join the battle instead of the selected target, otherwise the damage received in battle is reduced by 25%.<br>If the enemy is killed by this skill the cooldown is reduced by 4 and restores 30% of HP at the end of the action. If the killed enemy was under the effect of [Final Tribunal] Rapier copies up to 3 random removable buffs from herself to all [Honor of the Empire] allies and resets the cooldown of her talent."
     ],
     [
         "Шарик",
@@ -31920,24 +31920,24 @@ var persSkills = [
         "[Passive] After dealing fixed damage to an enemy steals 1 buff from them and applies 1 debuff."
     ],
     [
-        "Bloody Death Vortex",
-        "Кровавый Вихрь Смерти",
+        "Bloodwhorl Deathblade",
+        "Кровавый Вихрь Клинка Смерти",
         "2",
         "2",
         "5",
         "straight",
         "2",
-        "[Phys. Damage] Attacks all enemies in 3 straight lines dealing 0.16x AoE damage and applies 1 random debuff on each enemy hit. If this attack deals critical damage the skill's cooldown is reduced by 1 and the skill is re-used (the second time the re-use is not triggered). After using unit can move the same number of tiles as it moved before using the skill."
+        "[Phys. Damage] Attacks all enemies in 3 straight lines dealing 0.16x AoE damage and applies 1 random debuff on each enemy. If this attack deals critical damage the skill's cooldown is reduced by 1 and the skill is re-used (the second time the re-use is not triggered). After using unit can move the same number of tiles as it moved before using the skill."
     ],
     [
-        "Bloody Opening",
-        "Кровавое Открытие",
+        "Bloody Prelude",
+        "Кровавое Прелюдие",
         "3",
         "2",
         "3",
         "2",
         "5",
-        "[Passive] If no damage was dealt in the current action, the unit gains 'all passable terrain is considered plain' for 1 turn.<br>[Phys. [[damage]] The character teleports to the selected point, then deals 0.35x AoE damage to all enemies within 2 cells and places 'Accessory Effect Disabled' and 'Unable to Heal' on them for 2 turns.<br>After use the hero gains the [Parting Gift] effect: after death deals 0.25x AoE damage to all enemies under the [Painful Laughter] effect and places 'Accessory Effect Disabled' and 'Unable to Heal' on them for 2 turns. If the target is an NPC, instead of disabling the accessory effect it applies 'Damage Taken +30%' on them for 2 turns.<br>[Parting Gift] cannot be removed, cannot be blocked and lasts 1 turn."
+        "[Passive] If no damage was dealt in the current action, the unit gains 'all passable terrain is considered plain' for 1 turn.<br>[Phys. damage] Teleports to the selected point, then deals 0.35x AoE damage to all enemies within 2 tiles and applies 'Accessory Effect Disabled' and 'Unable to Heal' on them for 2 turns.<br>After use the hero gains the [Gift of the Curtain Call] effect: after death deals 0.25x AoE damage to all enemies under the [Agony's Frin] effect and places 'Accessory Effect Disabled' and 'Unable to Heal' on them for 2 turns. If the target is an NPC, instead of disabling the accessory effect it applies 'Damage Taken +30%' on them for 2 turns.<br>[Gift of the Curtain Call] cannot be removed, cannot be blocked and lasts 1 turn."
     ],
     [
         "Хумбаба",
@@ -31950,8 +31950,8 @@ var persSkills = [
         ""
     ],
     [
-        "Flower Wing",
-        "Цветочное крыло",
+        "Petal Plume",
+        "Шлейф лепестков",
         "1",
         "7",
         "3",
@@ -31970,8 +31970,8 @@ var persSkills = [
         "[Fusion Power] All allies of the Origins of Light faction gain increased attack and defense stats, and also gain the following effects: Active Attack damage is increased by 8%, and if enemies are on friendly terrain effects, they receive an additional 8% more damage. Lasts 4 turns. (This effect does not stack with other Fusion Power effects.)"
     ],
 	[
-        "Mountain Stream of Disaster",
-        "Горный Поток Бедствий",
+        "Mayhem of the Mountains",
+        "Произвол в горах",
         "2",
         "1",
         "2",
@@ -31980,8 +31980,8 @@ var persSkills = [
         "[Mag. Damage] Attacks one enemy dealing 1.6x damage. For each [Butterfly Spirit] or [Butterfly Breath] within 1 ring around the enemy, ATK and INT increase by 10% (up to 30%). After battle can teleport the enemy to any friendly [Butterfly Spirit] or adjacent cell (up to 5 cell) and apply 'mobility -2' and 'inability to use guard effect'. Lasts for 2 turns."
     ],
 	[
-        "Furious Roar of the Elements",
-        "Яростный Рев Стихий",
+        "Pandemonic Bellow",
+        "Пандемонический рев",
         "3",
         "1",
         "self",
@@ -37639,9 +37639,9 @@ var builds = [
         "5",
         "5",
         "Цветок ночи,Божественный скипетр,Чудесный посох,Красная луна",
-        "Броня 7,Мантия Теннио",
+        "Мантия Духа пламени,Мантия Теннио",
         "Завеса звезд,Головной убор Теннио",
-        "Акс 7,Святое кольцо,Бриллиант измерения,Истинный крест",
+        "Астральный Тессеракт,Святое кольцо,Бриллиант измерения,Истинный крест",
         "Некромант Запретного Леса,Маг - ядовитая летучая мышь SP,Фея-ворожея,Колдунья SP"
     ],
 	[
@@ -37705,7 +37705,7 @@ var builds = [
         "5",
         "4",
         "Божественный скипетр,Цветок ночи,Красная луна",
-        "Броня 7,Мантия Теннио,Царственные регалии",
+        "Мантия Духа пламени,Мантия Теннио,Царственные регалии",
         "Завеса звезд,Головной убор Теннио,Шляпа Охотника на демонов",
         "Акс 8,Святое кольцо",
         "Темный алхимик SP,Стрела одинокого крыла,Колдунья SP,Кристальный элементаль"
