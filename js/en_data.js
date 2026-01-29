@@ -8025,7 +8025,7 @@ var dataTable = [
         "",
         "",
         "HP +10%. When switching forms, the number of buffs does not decrease. If a unit has [Edge of Insight] and no damage was dealt during the turn, at the end of the turn gains \"Mobility +2\", lasts 1 round. If a unit has [Punishing Light], it can move 2 tiles after an attack.",
-        "INT +10%. If hero, the duration of buffs on the hero at the end of the turn is not reduced.",
+        "INT +10%. If hero kills the enemy, the duration of buffs on the hero at the end of the turn is not reduced.",
         "25",
         "35",
         "20",
@@ -51183,4 +51183,5 @@ var pvpB = [
         ""
     ]
 ]
+
 
