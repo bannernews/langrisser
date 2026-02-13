@@ -348,6 +348,21 @@ var persItemDat = [
         "ОЗ and ЗАЩ +5%. Когда активирует эффект повторного действия «образец изящности», снимает с вас 2 дебаффа, повышает наносимый вами урон на 10% и уменьшает получаемый вами урон на 10%. Длится 1 ход.",
         "HP and DEF +5%. When triggering Paragon of Elegance's act again effect, dispels 2 debuffs from self, increase damage dealt by 10% and reduce damage taken by 10%. Lasts 1 turn."
     ],
+	[
+        "Птица с поломанным крылом",
+        "Broken-winged bird",
+        "Глобал - 21.05.2026",
+        "Global - 21.05.2026",
+        "hat",
+        "437",
+        "",
+        "",
+        "",
+        "59",
+        "",
+        "Когда враг получает эффект [разоблачение], если герой уже действовал на этом ходу, может совершить действие еще раз (1 раз за ход). Враги с [Взор] в конце своего действия накладывают [разоблачение] на ближайших врагов по прямым линиям.",
+        "When an enemy obtain [Penetrate], if the hero has already acted this turn, can perform the action again (once per turn). Enemies with [Gaze] afflict [Penetrate] on nearby enemies in straight lines at the end of their action."
+    ],
     [
         "Капитан Джек",
         "Captain Mack",
@@ -1116,7 +1131,7 @@ var persItemDat = [
     [
         "Лео Бек",
         "Leo Beck",
-        "Успех подземного мира",
+        "Усех подземного мира",
         "Usekh of the Underworld",
         "hat",
         "364",

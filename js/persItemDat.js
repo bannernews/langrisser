@@ -1071,7 +1071,7 @@ var persItemDat = [
     [
         "Лео Бек",
         "Leo Beck",
-        "Успех подземного мира",
+        "Усех подземного мира",
         "Usekh of the Underworld",
         "hat",
         "364",
@@ -1607,6 +1607,21 @@ var persItemDat = [
         "",
         "ОЗ +10%. В бою с врагом, на котором есть [Заклинание], ИНТ и АТК юнита увеличивается на 15%. Когда герой умирает, накладывает [Заклинание] на всех врагов в радиусе 1 клетки от источника урона.",
         "HP +10%. When fighting an enemy with [Spell], unit INT and ATK increases by 15%. When a hero dies, casts [Spell] on all enemies within a 1 cell radius of the source of damage."
+    ],
+	[
+        "Птица с поломанным крылом",
+        "Broken-winged bird",
+        "Глобал - 21.05.2026",
+        "Global - 21.05.2026",
+        "hat",
+        "437",
+        "",
+        "",
+        "",
+        "59",
+        "",
+        "Когда враг получает эффект [разоблачение], если герой уже действовал на этом ходу, может совершить действие еще раз (1 раз за ход). Враги с [Взор] в конце своего действия накладывают [разоблачение] на ближайших врагов по прямым линиям.",
+        "When an enemy obtain [Penetrate], if the hero has already acted this turn, can perform the action again (once per turn). Enemies with [Gaze] afflict [Penetrate] on nearby enemies in straight lines at the end of their action."
     ],
     [
         "Рейнфорс",
