@@ -741,8 +741,8 @@ var persItemDat = [
 	[
         "Изольда",
         "Isolde",
-        "Глобал - 22.01.2026",
-        "Global - 22.01.2026",
+        "Забытые легенды",
+        "Forgotten Legends",
         "body",
         "437",
         "",

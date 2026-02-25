@@ -3579,7 +3579,7 @@ var dataTable = [
         "Т",
         "Will of the True Dragon",
         "ATK and DEF increase by (10,15,20,25)%, characteristics double in battle with the Dragon enemy class type. <br><br>After an action, he can choose one of the “Will”. A new Will can only be chosen after 2 turns. <br><br>Solitary Journey: Attacks are ignored Guard effect. <br><br>Resistance: Skill damage increased by 25%. <br><br>Sustenance: Skill CD reduced by 1 turn. <br><br>After receiving all three \"Wills\", the damage dealt increases by (10,15,20,25)% and after the attack you can act again. (The above effects cannot be immune and cannot be dispelled, the effect of the second turn triggers only once per turn).",
-        "Global - 22.01.2026",
+        "Forgotten Legends",
         "броня",
         "437",
         "",
@@ -12298,8 +12298,8 @@ var dataTable = [
         "",
         "",
         "Т",
-        "Ancient Dragon Summon",
-        "ATK and DEF increase by (10, 15, 20, 25)%.<br>At the start of combat summons a [Battle Dragon] nearby, which inherits 120% of Cybele's stats. The Battle Dragon has the skills [Smash], [Master's Call], and [Salvation]. After the dragon dies you must wait (3, 2, 1, 1) rounds before it can be summoned again at the start of the round.<br>If the Battle Dragon is within 4 tiles of Cybele she attacks first during an active attack and applies a 'Loss of Control' debuff to the enemy for 1 turn before combat (in PVE mode this is replaced by a 'Damage Received +20%' debuff for 1 turn).",
+        "Wild Dragon Tamer",
+        "ATK and DEF increase by (10, 15, 20, 25)%.<br>At the start of combat summons a [Battle Dragon] nearby, which inherits 120% of Cybele's stats. The Battle Dragon has the skills [Smash], [Draconic Resonance], and [Swift Aid]. After the dragon dies you must wait (3, 2, 1, 1) rounds before it can be summoned again at the start of the round.<br>If the Battle Dragon is within 4 tiles of Cybele she attacks first during an active attack and applies a 'Loss of Control' debuff to the enemy for 1 turn before combat (in PVE mode this is replaced by a 'Damage Received +20%' debuff for 1 turn).",
         "",
         "",
         "",
@@ -12349,8 +12349,8 @@ var dataTable = [
         "",
         "",
         "Т",
-        "Dragonfire Codex",
-        "ATK and DEF increase by (10, 15, 20, 25)%.<br>At the end of the action the hero can choose one of two 'Spear and Shield' skills:<br>[Lava Shield]: The hero gains a [Shield] which absorbs damage equal to 25% of max HP and is immune to critical hits, and also applies the effect 'enemies within 2 tiles cannot use act again effects'.<br>[Fire Spear Explosion]: The hero gains [Dragon Flame]: damage dealt is increased by 20%; when actively attacking applies 'Armor Skill Disable' to the enemy before combat (in PVE this is replaced by 'Damage Taken +20%') for 2 turns.<br>All 'Spear and Shield' effects last for 2 turns and cannot be removed. (Can be re-acquired after (4, 3, 2, 2) turns).",
+        "Dragonfire Code",
+        "ATK and DEF increase by (10, 15, 20, 25)%.<br>At the end of the action the hero can choose one of two 'Spear and Shield' skills:<br>[Magma Shield]: The hero gains a [Shield] which absorbs damage equal to 25% of max HP and is immune to critical hits, and also applies the effect 'enemies within 2 tiles cannot use act again effects'.<br>[Flamespear Explosion]: The hero gains [Dragon Flame]: damage dealt is increased by 20%; when actively attacking applies 'Armor Skill Disable' to the enemy before combat (in PVE this is replaced by 'Damage Taken +20%') for 2 turns.<br>All 'Spear and Shield' effects last for 2 turns and cannot be removed. (Can be re-acquired after (4, 3, 2, 2) turns).",
         "",
         "",
         "",
@@ -32178,8 +32178,8 @@ var persSkills = [
         ""
     ],
     [
-        "Assault Order",
-        "Приказ на штурм",
+        "Onslaught Command",
+        "Команда разорения",
         "1",
         "7",
         "4",
@@ -32188,8 +32188,8 @@ var persSkills = [
         "[Active] Selects one ally or enemy summoned unit and teleports yourself and the Battle Dragon to the target. The hero, Battle Dragon and the target ally gain 'ATK and INT +20%' for 2 turns. After use the hero can attack again with her remaining mobility."
     ],
     [
-        "Prey Stalking",
-        "Преследование Добычи",
+        "Ruthless Hunter",
+        "Безжалостный охотник",
         "2",
         "2",
         "1",
@@ -32198,8 +32198,8 @@ var persSkills = [
         "[Physical Damage] Attacks one enemy dealing 1.5x damage. After combat causes [Displacement]: knocks the target back 3 tiles. If there are other units or impassable terrain in the knockback path, the Battle Dragon makes 2 additional attacks against the enemy increasing its damage by 20%."
     ],
     [
-        "Shadow Whip Dragon Strike",
-        "Драконий удар теневого кнута",
+        "Dragonslash Strike",
+        "Удар драконьего хлыста",
         "3",
         "2",
         "2",
@@ -32218,8 +32218,8 @@ var persSkills = [
         ""
     ],
     [
-        "Battle Barrier",
-        "Боевой заслон",
+        "Sweeping Formation",
+        "Боевое построение",
         "1",
         "7",
         "3",
@@ -32228,8 +32228,8 @@ var persSkills = [
         "[Active] Actively cast on unoccupied defensive terrain or an ally. The hero is teleported to the target and gains [Immunity] and [Reinforcement]. Lasts 2 turns. After use the hero can move 3 more tiles and attack again. The duration of all buffs is not reduced."
     ],
     [
-        "Flame Spear Attack",
-        "Атака пламенного копья",
+        "Flamespear Assault",
+        "Штурм пламенного копья",
         "2",
         "2",
         "1",
@@ -32238,8 +32238,8 @@ var persSkills = [
         "[Passive] When any unit on the battlefield dies, hero gains [Dragon Flame] and 'all passable terrain is considered plain' for 2 turns. Cannot be removed.<br>[Physical Damage] Attacks one enemy dealing 1.6x damage and applying the effect 'The next time you actively attack this unit with a skill and enter battle the cooldown of this skill will be reduced by 3.' If there are no other enemies within a 1-tile radius before combat the hero can move an additional 3 tiles after combat.<br>If the hero has [Dragon Flame] when using the skill its range is increased by 1, and melee soldiers will also attack."
     ],
 	[
-        "Stone Shield of Defense",
-        "Каменный щит обороны",
+        "Rockshield Defense",
+        "Защита каменным щитом",
         "2",
         "7",
         "self",
@@ -32248,8 +32248,8 @@ var persSkills = [
         "[Passive] Enters combat instead of allies within a 1-tile radius. If there is an ally within 2 tiles, the hero will not die from fatal damage but instead restore 20% of max HP (trigger cooldown is 5 turns).<br>[Active] The guard's range increases to 2 tiles and grants the [Stone Guardian] effect (cannot be removed): can counterattack ranged attacks within a 2-tile radius; after combat gains [Shield]; when entering combat instead of an ally damage taken is reduced by 20%. Lasts 3 turns."
     ],
     [
-        "Dragon's Fire Breath",
-        "Огненное дыхание дракона",
+        "Dragonbreath Cannon",
+        "Пушка дыхания дракона",
         "3",
         "2",
         "2",
