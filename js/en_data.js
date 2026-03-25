@@ -3783,7 +3783,7 @@ var dataTable = [
         "М3",
         "Shackles of Supreme Will",
         "Damage dealt increases by (15,20,25,30)% when entering battle.<br><br>At the start of the battle, has [Radiant Shackles]: \"Reduces damage received by (15,20,25,30)%, immunity to all debuffs\". Gain [Raging Surge] when immune triggered: \"Critical Strike Chance increased by 15%\" can stack and cannot be dispelled.<br><br>If you have [Radiant Shackles] at the end of the turn, and if [Raging Surge] has 4 stacks or more and is in the [Danger Zone], removes [Radiant Shackles], the number of buff rounds it carries will not be reduced, and will act again. [Radiant Shackles] cannot be dispelled.<br><br>If you don't have [Radiant Shackles], if the opponent's defense is greater than or equal to their magic defense when entering a battle, that battle will deal magic damage.<br><br>At the end of the action, removes all [Raging Surge] and gains [Radiant Shackles].",
-        "Global - 26.02.2026",
+        "Lost Dawn",
         "шапка",
         "583",
         "",
@@ -12400,8 +12400,8 @@ var dataTable = [
         "",
         "",
         "",
-        "Balance of Light and Darkness",
-        "ATK and DEF increase by (15, 20, 25, 30)%.<br>At the start of battle, if the hero is a Demon, gain 1 stack of [Radiant Power]: Normal attack range +1, combat damage multiplier increased by (0.2, 0.2, 0.3, 0.3). If the hero is a different class then unit is not affected by melee damage reduction and gains [Dark Power]: Mobility +1 and HP recovery equal to (8, 10, 15, 15)% of damage dealt when actively attacking and entering combat.<br>[Radiant Power] and [Dark Power] can accumulate up to 3 stacks and cannot be immuned or removed.<br>After a normal attack hero gains 1 stack of [Radiant Power]; after using a skill to attack gains 1 stack of [Dark Power]; after the death of an enemy gains 1 stack of the Power they have less of (if the two are tied gains [Radiant Power]) and the hero can act again if they have already performed an action (if enemy died not during an active attack by this hero, can only be triggered once per turn).<br>Initially, the hero has the ability to avoid death from physical or magical damage once, instead restoring 20% of HP and losing all levels of [Radiant Power] (for physical damage) or [Dark Power] (for magical damage). When the corresponding Power reaches its maximum again the fatal blow resistance effect is restored.",
+        "Twilight's balance",
+        "ATK and DEF increase by (15, 20, 25, 30)%.<br>At the start of battle, if the hero is a Demon, gain 1 stack of [Lightborne Power]: Normal attack range +1, combat damage multiplier increased by (0.2, 0.2, 0.3, 0.3). If the hero is a different class then unit is not affected by melee damage reduction and gains [Shadowborne Power]: Mobility +1 and HP recovery equal to (8, 10, 15, 15)% of damage dealt when actively attacking and entering combat.<br>[Lightborne Power] and [Shadowborne Power] can accumulate up to 3 stacks and cannot be immuned or removed.<br>After a normal attack hero gains 1 stack of [Lightborne Power]; after using a skill to attack gains 1 stack of [Shadowborne Power]; after the death of an enemy gains 1 stack of the Power they have less of (if the two are tied gains [Lightborne Power]) and the hero can act again if they have already performed an action (if enemy died not during an active attack by this hero, can only be triggered once per turn).<br>Initially, the hero has the ability to avoid death from physical or magical damage once, instead restoring 20% of HP and losing all levels of [Lightborne Power] (for physical damage) or [Shadowborne Power] (for magical damage). When the corresponding Power reaches its maximum again the fatal blow resistance effect is restored.",
         "",
         "",
         "",
@@ -32268,7 +32268,7 @@ var persSkills = [
         ""
     ],
     [
-        "Call of the Abyss",
+        "Abyssal Calling",
         "Зов Бездны",
         "1",
         "9",
@@ -32278,34 +32278,34 @@ var persSkills = [
         "[Passive] After performing the first action or the death of any unit increases the offensive and defensive capabilities of all 'demon' allies and also grants the following effects: when actively attacking and entering combat damage dealt is increased by 15%; troops ignore class disadvantages. Lasts 4 turns."
     ],
     [
-        "Eye of Flame Knowledge",
+        "Eye of Scorching Insight",
         "Око Пламенного Познания",
         "1",
         "7",
         "self",
         "one target",
         "3",
-        "[Passive] When actively attacking and entering combat, if the enemy's DEF is equal to or higher than their MDEF all damage in that combat will be considered magical. If the hero enters combat with a skill, gain the effect 'When attacked by a skill and enters combat, hero becomes invulnerable to all damage.' This effect cannot be removed and disappears after the hero enters combat while being attacked.<br>[Active] When used, restores 30% of maximum HP. For each stack of [Radiant Power] or [Dark Power] removes one debuff from herself. After use, hero gains 1 stack of the Power they have less of, allowing to move 3 more tiles and attack again (the number of buff turns on the hero is not reduced)."
+        "[Passive] When actively attacking and entering combat, if the enemy's DEF is equal to or higher than their MDEF all damage in that combat will be considered magical. If the hero enters combat with a skill, gain the effect 'When attacked by a skill and enters combat, hero becomes invulnerable to all damage.' This effect cannot be removed and disappears after the hero enters combat while being attacked.<br>[Active] When used, restores 30% of maximum HP. For each stack of [Lightborne Power] or [Shadowborne Power] removes one debuff from herself. After use, hero gains 1 stack of the Power they have less of, allowing to move 3 more tiles and attack again (the number of buff turns on the hero is not reduced)."
     ],
 	[
-        "Shining Dark Spiral",
+        "Twilight Helix",
         "Сияющая темная спираль",
         "2",
         "2",
         "2",
         "one target",
         "3",
-        "[Passive] With both Powers, if the hero is actively attacking and entering combat, she attack first. After combat, if has both Power, can teleport to any tile within 3 tiles of her current position.<br>[Phys. Damage] Attacks one enemy dealing 1.4x damage. For each stack of [Radiant Power] or [Dark Power] before combat one debuff is applied to the target. This skill ignores melee damage reduction and melee soldiers will also attack."
+        "[Passive] With both Powers, if the hero is actively attacking and entering combat, she attack first. After combat, if has both Power, can teleport to any tile within 3 tiles of her current position.<br>[Phys. Damage] Attacks one enemy dealing 1.4x damage. For each stack of [Lightborne Power] or [Shadowborne Power] before combat one debuff is applied to the target. This skill ignores melee damage reduction and melee soldiers will also attack."
     ],
     [
-        "Cutting through the abyss against reason",
-        "Рассекающий бездну вопреки разуму",
+        "Paradox Divide",
+        "Разделение Парадокса",
         "3",
         "2",
         "2",
         "one target",
         "5",
-        "[Passive] When fighting the demon class enemies all stats except HP are increased by 20%. For each stack of [Radiant Power] or [Dark Power] damage dealt is increased by 10% (up to 30%). If the hero has 3 stacks of any Power, enemy cannot activate lethal damage resistance effects when hero actively attacking and entering combat (only valid in PvP).<br>[Physical Damage] Attacks one enemy, dealing 1.6x damage. Before combat removes 5 buffs from the target. After combat deals an additional 0.3x AoE damage to the target based on damage dealt in combat and applies a 'Curse of Wounding' (any healing deals 30% of the healing) for 2 turns, which cannot be removed.<br>When using this skill, for each stack of [Radiant Power] or [Dark Power], the skill's AoE radius increases by 1 tile (up to a maximum of +3 tiles).<br>This skill ignores melee damage reduction and melee soldiers will also attack."
+        "[Passive] When fighting the demon class enemies all stats except HP are increased by 20%. For each stack of [Lightborne Power] or [Shadowborne Power] damage dealt is increased by 10% (up to 30%). If the hero has 3 stacks of any Power, enemy cannot activate lethal damage resistance effects when hero actively attacking and entering combat (only valid in PvP).<br>[Physical Damage] Attacks one enemy, dealing 1.6x damage. Before combat removes 5 buffs from the target. After combat deals an additional 0.3x AoE damage to the target based on damage dealt in combat and applies a 'Curse of Wounding' (any healing deals 30% of the healing) for 2 turns, which cannot be removed.<br>When using this skill, for each stack of [Lightborne Power] or [Shadowborne Power], the skill's AoE radius increases by 1 tile (up to a maximum of +3 tiles).<br>This skill ignores melee damage reduction and melee soldiers will also attack."
     ],
     [
         "Сангер",
