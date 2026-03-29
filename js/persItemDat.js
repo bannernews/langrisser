@@ -1788,6 +1788,21 @@ var persItemDat = [
         "ОЗ +10%. За каждый 1 слой [Зеркального света] урон, наносимый войсками, увеличивается на 2%. В конце действия, если у вас есть 5 слоев [Зеркального света], вы можете восстановить ОЗ союзника с наименьшим количеством ОЗ, на 2,5х от ИНТ.",
         "HP +10%. For every 1 layer of [Mirror Light], the damage dealt by troops is increased by 2%. At the end of the action, if you have 5 layers of [Mirror Light], you can recover the HP of the ally with the lowest HP by 2.5x INT."
     ],
+	[
+        "Селика",
+        "Celica",
+        "Глобал - 18.06.2026",
+        "Global - 18.06.2026",
+        "weapon",
+        "437",
+        "",
+        "107",
+        "",
+        "",
+        "",
+        "ИНТ +10%. Если при срабатывании таланта не выбрать замену навыка, можно один раз заново случайным образом получить новый список навыков для замены. (Перезарядка срабатывания - 2 хода).<br>Когда навык этого героя накладывается на союзника, на него также накладывается 1 эффект [Элемент] (максимум до 3). Нельзя заимунить или снять. После замены навыка, все эффекты [Элемент] у союзников расходуются и с них снимается такое же колличество дебаффов.",
+        "INT +10%. If you don't choose a skill replacement when talent triggers you can randomly generate a new skill list to replace it. (The cooldown is 2 turns.)<br>When this hero's skill is cast on an ally they are also given 1 [Element] effect (up to a maximum of 3). Cannot be immobilized or removed. After the skill is replaced all [Element] effects on allies are consumed and the same number of debuffs are removed from them."
+    ],
     [
         "Селина",
         "Serene",
