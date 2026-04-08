@@ -9237,7 +9237,7 @@ var dataTable = [
         "SSR",
         "",
         "",
-        "T",
+        "Т",
         "Dark Wings of Determination",
         "ATK and DEF increases by (10, 15, 20, 25)%.<br><br>After actively dealing damage, applies (1,1,2,2) stacks of [Shadow Feathers] to the enemy for 3 turns. (Can be stacked up to 3 times, with each cast the duration of all [Shadow Feathers] on the target will be updated).<br><br>If the enemy has 1 stack of [Shadow Feather], the damage received when fighting Tabres will be increased by 20%.<br>When an enemy has 2 stacks of [Shadow Feather], they can be targeted by Tabres skills within the entire field, after which Tabres will teleport to an empty space near the target and cast skills on the target.<br>When the opponent has 3 stacks of [Shadow Feather], he cannot counterattack when attacked by Tabres.",
         "Dark Winged Helm",
