@@ -18,6 +18,21 @@ var persItemDat = [
         "DESCRIPTION (RUS)",
         "DESCRIPTION (ENG)"
     ],
+	[
+        "Абишай",
+        "Abishai",
+        "Глобал - 23.07.2026",
+        "Global - 23.07.2026",
+        "hat",
+        "583",
+        "",
+        "",
+        "",
+        "48",
+        "",
+        "ОЗ +10%. За каждый стак перегрева мобильность увеличивается на +1 (максимум до +3). При потере [Перегрузки] время восстановления всех навыков уменьшается на 2. Если за ход был использован навык и [Перегрузка] отсутствует, длительность баффов не уменьшается.",
+        "HP +10%. For each stack of Overheat Mobility increases by +1 (maximum +3). Losing [Overload] reduces the cooldown of all skills by 2. If a skill was used during a turn and [Overload] is missing the duration of the buffs is not reduced."
+    ],
     [
         "Аватар Света",
         "Light of Genesis",
