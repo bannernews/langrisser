@@ -22948,7 +22948,7 @@ var heroList_en = [
 	"Pure Zerida",
 	"Ora",
 	"Ranka",
-	"D-man",
+	"D-boy",
 	"Shinya",
 	"Miyuki"
 ]
