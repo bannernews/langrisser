@@ -688,6 +688,20 @@ var itemDat = [
         "ATK, INT +5%. When using a skill to attack an enemy whose percentage is no higher than the unit's, the duration of 5 random buffs on the enemy at the end of the battle will be reduced by 1 turn. If the enemy has no buffs, damage dealt in this battle will be increased by 8%. ",
         "accs"
     ],
+	[
+        "Акс 9",
+        "---",
+        "accessoir",
+        "",
+        "",
+        "",
+        "48",
+        "43",
+        "",
+        "Все характеристики +5%. Когда атакован врагом и получил урон или при смерти, на врага накладывается эффект [потеря контроля] на 1 ход. Этот эффект снаряжения становится недоступным на 1 ход когда юнит совершает активную атаку. (в ПВЕ режиме эффект заменяется на 'получаемый урон +20%')",
+        "All stats +5%. When attacked by an enemy and damaged or when dying, the enemy is inflicted with the [Loss of Control] effect for 1 turn. This equipment effect becomes unavailable for 1 turn when the unit is actively attacking. (In PVE mode, the effect is replaced with 'damage taken +20%')",
+        "accs"
+    ],
     [
         "Броня Энея",
         "Aeneas' Armor",
@@ -1276,6 +1290,20 @@ var itemDat = [
         "HP, DEF +5%. Before entering combat applies one random non-repeating debuff to the enemy. If the enemy has [Lethal Damage Resistance] converts one of buffs into a random non-repeating debuff.",
         "heavy"
     ],
+	[
+        "Броня 9",
+        "---",
+        "body",
+        "509",
+        "",
+        "",
+        "59",
+        "",
+        "",
+        "ОЗ +10%. Когда атакован врагом, мобильность которого ниже чем у юнита и вступил в бой, на врага накладывается 'получаемйы урон +20%' на 2 хода.",
+        "HP +10%. When attacked by an enemy whose mobility is lower than the unit's and the unit enters combat, the enemy is given a 'damage taken +20%' debuff for 2 turns.",
+        "light"
+    ],
     [
         "Шлем Энея",
         "Aeneas' Helmet",
@@ -1849,6 +1877,20 @@ var itemDat = [
         "ОЗ +10%. Когда получает эффект 'повторное действие', существует 100% вероятность получить случайный бафф.",
         "HP +10%. When receiving the 'Act again' effect, there is a 100% chance to receive a random buff.",
         "cloth"
+    ],
+	[
+        "Головной убор 9",
+        "---",
+        "hat",
+        "583",
+        "",
+        "",
+        "",
+        "48",
+        "",
+        "ЗАЩ +10%. Когда юнит атакован врагом, у которого есть дебафф, длительность одного случайного дебаффа на враге +1, а длительность одного случайного дебаффа на юните -1.",
+        "DEF +10%. When a unit is attacked by an enemy with a debuff, the duration of one random debuff on the enemy is +1 and the duration of one random debuff on the unit is -1.",
+        "heavy"
     ],
     [
         "Меч клятвы",
@@ -2675,6 +2717,20 @@ var itemDat = [
         "АТК +10%. При использовании навыка для вступления в бой, наносимый этим навыком урон увеличивается на 5% за каждый ход его перезарядки (максимум на 15%)",
         "ATK +10%. When using a skill to enter combat, the damage dealt by that skill increases by 5% for each turn of it cooldown (maximum 15%).",
         "lance"
+    ],
+	[
+        "Оружие 9",
+        "---",
+        "weapon",
+        "437",
+        "107",
+        "",
+        "",
+        "",
+        "",
+        "АТК +10%. При активной атаке и вступлении в бой, если у врага есть дебаффы игнорируется 10% его ЗАЩ, а также перед боем с цели снимаются баффы в колличестве равном колличеству дебаффов (максимум до 5).",
+        "ATK +10%. When actively attacking and entering combat, if the enemy has debuffs, 10% of their DEF is ignored. Also before combat removes buffs equal to the number of debuffs on the target (maximum 5).",
+        "sword"
     ]
 ]
 

@@ -573,6 +573,21 @@ var persItemDat = [
         "ATK +10%. При нанесении урона с помощью навыка с 30% шансом снижает КД на 5.",
         "ATK +10%. When dealing skill damage, 30% chance to decrease cooldown by 5."
     ],
+	[
+        "Элвис",
+        "Elwis",
+        "Глобал ~ 13.08.2026",
+        "Global ~ 13.08.2026",
+        "hat",
+        "583",
+        "",
+        "",
+        "",
+        "48",
+        "",
+        "ОЗ +10%. Когда получает [пакт смерти], также получает [иммунитет] на 1 ход. Если во время действия [пакта смерти] получает урон, враг нанесший этот урон получат 'не может использовать активные навыки' на 2 хода, а Элвис восстанавливает 50% от аксимального ОЗ юнита.",
+        "HP +10%. When receiving [Death Pact] also receives [Immunity] for 1 turn. If damage is taken while [Death Pact] is active, the enemy that dealt the damage obtain 'active skills disabled' for 2 turns and Elvis will recover 50% of the unit's maximum HP. "
+    ],
     [
         "Эмерик",
         "Emerick",
