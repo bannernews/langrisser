@@ -2253,7 +2253,7 @@ var dataTable = [
         "Т",
         "Heart of the Molder",
         "Damage increases by (15%, 20%, 25%, 30%)<br><br>At the end of the action, if the hero did not attack, can perform a “Spell Preparation” to strengthen the next skill ([Eradicate] to focus damage, [Agglomerate] to increase range, [Catalyze] to reduce cooldown). The number of buff rounds will not decrease, and can move another 2 tiles and attack again. ([Trigger Cooldown] Spell Preparation requires an interval of (3, 3, 2, 2) turns before it can be activated again). After each \"Spell Preparation\" different from the previous one, the unit's range is +1 (maximum +2).<br><br>[Annihilation]: [Active] Gains [Annihilation]: “When using skills to attack, you can attack again, and the damage dealt by the second attack is halved; When using long-range skills, the skill's range is reduced by -1\", cannot be immune, cannot be dispelled, and lasts until the next skill attack.<br><br>[Collected Energy]: [Active] Gains [Collected Energy]: “When using skills to attack, the unit's attack range is +2; can only move in a straight line\", cannot be immunized, cannot be dispelled, and lasts until the next use of the skill.<br><br>[Catalyst]: [Active] Receives [Catalyst]: “After using a skill to attack, the cooldown of the skill is -3; after other \"spell preparations\" [trigger cooldown] will be increased by 1 more round\", cannot be immunized, cannot be dispelled, lasts until the next skill attack.",
-        "Global - 25.12.2025",
+        "Ritual Archipelago Veil",
         "шапка",
         "364",
         "",
@@ -6588,7 +6588,7 @@ var dataTable = [
         "Т",
         "Stream of Lost Islands",
         "ATK increases by (15%, 20%, 25%, 30%). <br><br>At the end of the action, select a location and apply to it and the entire surrounding area (1 block, 1 block, 1 block, 2 blocks) a special terrain effect [Mysterious Ocean Current] for 2 rounds: Terrain effect: additional effects in depending on the target: When it is an ally, it restores 15% HP and receives a random buff; When it is an enemy, it takes [fixed damage] equal to 15% of its maximum HP and gains: \"The terrain it is on is considered 'water'\" for 1 round. <br><br>([Trigger cooldown] can apply the effect of [Mysterious Ocean Current] again after an interval of 1 round). <br><br>When you pass through an area with a friendly effect [Mysterious Ocean Current], you can remove 2 mobility reduction blocks",
-        "---",
+        "Path of Traceability",
         "броня",
         "509",
         "",
@@ -11178,7 +11178,7 @@ var dataTable = [
         "Т",
         "Glory of the Kingdom",
         "ATK and DEF increases by (12%, 16%, 20%, 25%). <br><br>At the beginning of the round, if the number of stacks of [Glory] you have is not the maximum, gain 1 stack of [Glory]: “damage dealt increases by (5%, 6%, 8%, 10% )”, can accumulate up to 3 stacks and cannot be removed. If the amount of [Fame] you have reaches the maximum, at the beginning of the round all [Fame] will be removed and the cooldown of all skills you have will be reduced by (3, 4, 5, 5) rounds. <br><br>At the end of the action, you will be able to use an additional \"control skill\" ([Revival] can restore HP, [Royal Command] can improve the target's attack ability, [Move] can force the target to act again) < br><br>[Revival]: removes 1 stack of [Glory] and restores 30% HP (no cooldown/self) <br><br>[Royal Order]: gains 1 stack of [Glory], gives an ally \"increases ATK and INT by 20%\" for 2 rounds. (no cooldown/range 3/one target) <br><br>[Movement]: gains 1 stack of [Glory] and allows an ally to perform a second action. (Requires 3 round interval to reuse) (range 3/single target)",
-        "Global - 30.10.2025",
+        "Radiance of the Pegasi",
         "шапка",
         "437",
         "",
@@ -11637,7 +11637,7 @@ var dataTable = [
         "Мил",
         "Veilblade Sarabande",
         "ATK and critical damage are increased by (10%, 15%, 20%, 25%).<br>After using the skill, a special terrain effect [Hidden Blade] is created in a random empty tile within 1 tile of the skill's impact point: if an enemy unit ends its turn on this tile, it will receive fixed damage equal to 1x the ATK of the unit that applied the effect. Duration: 2 turns.<br>At the end of the turn, [Veilblade Sarabande] can be activated: attacks the first enemy in a line, dealing 0.1x AoE damage and stealing 1 buff from the target. If critical damage is dealt, an additional buff is stolen. At the same time, the first ally in the area is given the effect: 'Critical Chance and Critical Damage are increased by 20%' for (1, 1, 2, 2) turns.",
-        "Global - 16.04.2026",
+        "Final Audience",
         "оружие",
         "",
         "96",
@@ -11688,7 +11688,7 @@ var dataTable = [
         "Мил",
         "Crown of the Bloodline",
         "Damage increases by (10%, 13%, 16%, 20%).<br>At the end of the turn, apply 1 layer of [Crown of the Bloodline]: 'All stats (except HP) increase by 2%, 4%, 6%, 8%' for 3 turns. The effect can be stacked up to 3 times and cannot be dispelled. After that, deals 0.1x AoE damage to all enemies within 2 tiles. For each layer of [Crown of the Bloodline], the damage coefficient increases by 0.05. ",
-        "Global - 19.03.2026",
+        "Beolf's Fallen Crown",
         "шапка",
         "583",
         "",
@@ -12451,8 +12451,8 @@ var dataTable = [
         "",
         "",
         "Т",
-        "Soul Dance",
-        "ATK and DEF increase by (10, 15, 20, 25)%. At the end of the action perform 'Soul Compression' and the hero gains 'Elemental Spirit'.<br>Elemental Spirit: If there is a hero of the same class within 2 tiles gain [Fire Spirit]: 'Damage dealt increases by (10, 10, 15, 15)%'; if there is a hero of a different class within 2 tiles gain [Rock Spirit]: 'Damage taken when entering in melee combat is reduced by (20, 20, 30, 30)%'; if there are 3 or more heroes of different classes within 2 tiles gain [Thunder Spirit]: 'Mobility +(1, 1, 2, 2)'. Elemental Spirit lasts for 1 turn and cannot be removed.<br>If the hero deals damage and has all 3 types of elemental spirits removes them at the end of the action and gains [Spirit Descent]: 'Gives the bonuses of all elemental spirits, can act again and until the start of the next turn the radius of 'Soul Compression' is reduced by 1.' [Spirit Descent] lasts for 2 turns and cannot be removed.",
+        "Soulbinding War Dance",
+        "ATK and DEF increase by (10, 15, 20, 25)%. At the end of the action perform 'Soul Coalescence' and the hero gains 'Elemental Spirit'.<br>Elemental Spirit: If there is a hero of the same class within 2 tiles gain [Fire Spirit]: 'Damage dealt increases by (10, 10, 15, 15)%'; if there is a hero of a different class within 2 tiles gain [Rock Spirit]: 'Damage taken when entering in melee combat is reduced by (20, 20, 30, 30)%'; if there are 3 or more heroes of different classes within 2 tiles gain [Thunder Spirit]: 'Mobility +(1, 1, 2, 2)'. Elemental Spirit lasts for 1 turn and cannot be removed.<br>If the hero deals damage and has all 3 types of elemental spirits removes them at the end of the action and gains [Spirit Descent]: 'Gives the bonuses of all elemental spirits, can act again and until the start of the next turn the radius of 'Soul Coalescence' is reduced by 1.' [Spirit Descent] lasts for 2 turns and cannot be removed.",
         "",
         "",
         "",
@@ -12502,8 +12502,8 @@ var dataTable = [
         "",
         "",
         "Т",
-        "Warrior's Heart",
-        "ATK increases by (10, 15, 20, 25)%. At the end of the action can choose a direction and cast [Fire Shadow Burst]: dash (teleport) to the farthest tile within range inflicting 1 stack of [Hidden Wound] on all enemies hit. When fighting Reiga for each stack of [Hidden Wound] all of Reiga's stats (except HP) are increased by (5, 7, 10, 10)%. Lasts 2 turns. Can be stacked up to 3 times and cannot be removed.<br>[Fire Shadow Burst] can be cast up to 3 times per turn and cannot be cast twice in a row in the same direction.<br>If [Fire Shadow Burst] is cast 2 or more times in a turn, gains [Will of the Blazing Sun] after the end of the turn: attacks ignore guard effect. If used less than twice, gains [Will of Still Water]: before an active attack and entering combat applies the 'cannot activate fatal damage resistance' effect to the enemy (in PVE this is replaced by 'damage taken +20%') for 2 turns which cannot be removed.<br>Both wills cannot be immune or displel. The will will be removed if the enemy is not killed by the active attack with the skill.<br>[Fire Shadow Burst] has a range of 4 tiles.",
+        "Martial Truth",
+        "ATK increases by (10, 15, 20, 25)%. At the end of the action can choose a direction and cast [Shadowflame Flash]: dash (teleport) to the farthest tile within range inflicting 1 stack of [Hidden Harm] on all enemies hit. When fighting Reiga for each stack of [Hidden Harm] all of Reiga's stats (except HP) are increased by (5, 7, 10, 10)%. Lasts 2 turns. Can be stacked up to 3 times and cannot be removed.<br>[Shadowflame Flash] can be cast up to 3 times per turn and cannot be cast twice in a row in the same direction.<br>If [Fire Shadow Burst] is cast 2 or more times in a turn, gains [Will of the Blazing Sun] after the end of the turn: attacks ignore guard effect. If used less than twice, gains [Will of Tranquility]: before an active attack and entering combat applies the 'cannot activate fatal damage resistance' effect to the enemy (in PVE this is replaced by 'damage taken +20%') for 2 turns which cannot be removed.<br>Both wills cannot be immune or displel. The will will be removed if the enemy is not killed by the active attack with the skill.<br>[Shadowflame Flash] has a range of 4 tiles.",
         "",
         "",
         "",
@@ -32906,7 +32906,7 @@ var persSkills = [
     ],
     [
         "Furious Sting",
-        "Яростный прижок",
+        "Безумный Скачок",
         "1",
         "5",
         "",
@@ -32926,7 +32926,7 @@ var persSkills = [
     ],
     [
         "Destructive Hurricane",
-        "Разрушительный ураган",
+        "Циклон Катаклизма",
         "3",
         "2",
         "1",
@@ -32945,34 +32945,34 @@ var persSkills = [
         ""
     ],
     [
-        "Fiery Flame",
-        "Яростное пламя",
+        "Furyflame Convergence",
+        "Конвергенция Яростного Пламени",
         "1",
         "7",
         "self",
         "one target",
         "3",
-        "[Active] For 2 turns gain the following effects: ATK and INT +20%; [Suppression]; [Reinforcement]; at the end of the ction teleport all enemies within 1 circle to yourself, dealing 0.15x AoE damage and applying 1 stack of [Hidden Wound]; [Command] all enemies within 1 circle gain -2 Mobility.<br>After cast, if there is an enemy within 1 tile, can attack again without reducing the duration of the buffs."
+        "[Active] For 2 turns gain the following effects: ATK and INT +20%; [Crush]; [Reinforcement]; at the end of the ction teleport all enemies within 1 circle to yourself, dealing 0.15x AoE damage and applying 1 stack of [Hidden Harm]; [Command] all enemies within 1 circle gain -2 Mobility.<br>After cast, if there is an enemy within 1 tile, can attack again without reducing the duration of the buffs."
     ],
     [
-        "Supreme Martial Art",
-        "Высшее боевое искусство",
+        "Martial Ultimatum",
+        "Боевой Ультиматум",
         "2",
         "2",
         "1",
         "one target",
         "2",
-        "[Physical Damage] Attacks one enemy dealing 1.5x damage. After combat restores HP equal to 30% of the damage dealt. With [Will of the Blazing Sun] this skill changes to [Radiant Flash] and with [Will of Still Water] it changes to [Burning Strike]. With both Wills can choose to use one of the two skills. If lose a specific Will the corresponding skill is also removed.<br>[Radiant Flash]: [Physical Damage] Attacks one enemy dealing 1.6x damage. Before combat removes 3 buffs from the enemy. After combat can teleport to any empty ile within 3 tiles. During combat for each stack of [Hidden Wound] on an enemy the teleport range increases by +1.<br>[Burning Strike]: Attacks one enemy dealing 1.4x damage and ignoring 20% ​​of the target's DEF. After combat restores HP equal to 30% of the damage dealt. During combat for each stack of [Hidden Wound] on the enemy the ignored DEF increases by an additional +5%."
+        "[Physical Damage] Attacks one enemy dealing 1.5x damage. After combat restores HP equal to 30% of the damage dealt. With [Will of the Blazing Sun] this skill changes to [Radiant Sky Slash] and with [Will of Tranquility] it changes to [Scorching Rend]. With both Wills can choose to use one of the two skills. If lose a specific Will the corresponding skill is also removed.<br>[Radiant Sky Slash]: [Physical Damage] Attacks one enemy dealing 1.6x damage. Before combat removes 3 buffs from the enemy. After combat can teleport to any empty ile within 3 tiles. During combat for each stack of [Hidden Harm] on an enemy the teleport range increases by +1.<br>[Scorching Rend]: Attacks one enemy dealing 1.4x damage and ignoring 20% ​​of the target's DEF. After combat restores HP equal to 30% of the damage dealt. During combat for each stack of [Hidden Harm] on the enemy the ignored DEF increases by an additional +5%."
     ],
     [
-        "Sunfall",
-        "Падение солнца",
+        "Doom of the Falling Sun",
+        "Судный День Падающего Солнца",
         "3",
         "2",
         "1",
         "one target",
         "4",
-        "[Passive] With Any Will damage dealt increases by 20%.<br>[Physical Damage] Attacks one enemy dealing 1.8x damage. Before combat removes 5 buffs from the enemy. With any Will the enemy cannot counterattack in this battle. If the target has [Hidden Wound], before combat deals a fixed damage equal to 1x ATK and can cast [Fire Shadow Burst] once additionally, with no restrictions on direction or count. After casting always gains [Will of Still Water]."
+        "[Passive] With Any Will damage dealt increases by 20%.<br>[Physical Damage] Attacks one enemy dealing 1.8x damage. Before combat removes 5 buffs from the enemy. With any Will the enemy cannot counterattack in this battle. If the target has [Hidden Harm], before combat deals a fixed damage equal to 1x ATK and can cast [Shadowflame Flash] once additionally, with no restrictions on direction or count. After casting gains [Will of Tranquility]."
     ],
     [
         "Райза",
@@ -32985,18 +32985,18 @@ var persSkills = [
         ""
     ],
     [
-        "Keystone Power Conversion",
-        "Преобразование силы ключа (р)",
+        "Key Modification",
+        "Ключевая модификация (р)",
         "1",
         "7",
         "self",
         "one target",
         "-",
-        "[Passive] When activating a repeat action this skill is replaced with [Keystone Artifact]: You can choose one of three skills: [Lotus Flame], [Explosive Sea Urchin], [Mist Breath]. After using one of these skills or at the end of the action the skill is replaced with [Keystone Power Conversion].<br>[Lotus Flame] (Cooldown: 2, Range: 3, Area: 4): [Magic Damage] Attacks multiple enemies within range dealing 0.36x AoE damage and applying [Blazing Flame] to all targets: At the end of the turn the target takes [fixed damage] equal to 10% of their maximum HP; lasts 2 turns, cannot be removed. With enough [CC] the skill's area increases by 1 and the lower the target's HP, the greater the damage dealt, up to a maximum of 30%.<br>[Explosive Sea Urchin] (Cooldown: 1, Range: 2, Area: Single Target): [Physical Damage] Attacks a single enemy dealing 1.5x damage. Before combat adds 70% of INT to ATK. With enough [CC] before combat reduces the target's DEF and MDEF by 20% for 2 turns. After combat the target 'loses control' for 1 turn (in PVE this effect is replaced by 'damage taken increased by 20%').<br>[Mist Breath] (Cooldown: 3, Range: 3, Area: 3): [Assist] Actively casting, grants friendly units within range 'Increases Critical Damage by 20%' and 'Immunity to the next debuff received. When immunity is activated, there is an 80% chance of receiving this effect again, with the chance being reduced by 20% each time', lasting 2 turns. With enough [CC] it also grants friendly units within range +1 Mobility, lasting 2 turns.<br>[Active] Actively cast. When cast the unit can move again with its remaining mobility and attack again and also gains the [Keystone Power Conversion] effect: 'Reduces the maximum cooldown of all damaging skills by 1, lasts 2 turns and cannot be dispelled'. After using the skill the duration of buffs on the hero is not reduced."
+        "[Passive] When activating a repeat action this skill is replaced with [Core Item]: You can choose one of three skills: [Anemo Bomb], [Explosive Uni], [Haze Breath]. After using one of these skills or at the end of the action the skill is replaced with [Key Modification].<br>[Anemo Bomb] (Cooldown: 2, Range: 3, Area: 4): [Magic Damage] Attacks multiple enemies within range dealing 0.36x AoE damage and applying [Blazing Flame] to all targets: At the end of the turn the target takes [fixed damage] equal to 10% of their maximum HP; lasts 2 turns, cannot be removed. With enough [CC] the skill's area increases by 1 and the lower the target's HP, the greater the damage dealt, up to a maximum of 30%.<br>[Explosive Uni] (Cooldown: 1, Range: 2, Area: Single Target): [Physical Damage] Attacks a single enemy dealing 1.5x damage. Before combat adds 70% of INT to ATK. With enough [CC] before combat reduces the target's DEF and MDEF by 20% for 2 turns. After combat the target 'loses control' for 1 turn (in PVE this effect is replaced by 'damage taken increased by 20%').<br>[Haze Breath] (Cooldown: 3, Range: 3, Area: 3): [Assist] Actively casting, grants friendly units within range 'Increases Critical Damage by 20%' and 'Immunity to the next debuff received. When immunity is activated, there is an 80% chance of receiving this effect again, with the chance being reduced by 20% each time', lasting 2 turns. With enough [CC] it also grants friendly units within range +1 Mobility, lasting 2 turns.<br>[Active] Actively cast. When cast the unit can move again with its remaining mobility and attack again and also gains the [Key Modification] effect: 'Reduces the maximum cooldown of all damaging skills by 1, lasts 2 turns and cannot be dispelled'. After using the skill the duration of buffs on the hero is not reduced."
     ],
     [
-        "Fire Strike",
-        "Огненный удар",
+        "Burning Strike",
+        "Пылающий удар",
         "2",
         "2",
         "2",
@@ -33025,8 +33025,8 @@ var persSkills = [
         ""
     ],
     [
-        "Key Power Conversion",
-        "Преобразование силы ключа (л)",
+        "Key Modification",
+        "Ключевая модификация (л)",
         "1",
         "7",
         "self",
@@ -33035,24 +33035,24 @@ var persSkills = [
         "[Active] Used actively. Grants the unit 'increase ATK and INT by 20%' and 'increase critical hit chance by 25%' for 2 turns. After use, for each Tactical Level unit can move 1 tile and attack again (the duration of buffs on the hero will not be reduced)."
     ],
     [
-        "Lightning Dash",
-        "Молниеносный прижок",
+        "Lightning Leap",
+        "Скачок Молнии",
         "2",
         "2",
         "2",
         "one target",
         "-",
-        "[Physical Damage] Attacks one enemy dealing 1.5x damage. Melee soldiers will also attack. Before combat gains the 'Lightning' effect: 'attacks before the enemy when entering combat'. Lasts for 2 turns and cannot be removed. If Tactical Level 3 or higher stuns the enemy for 1 turn before combat. After use the skill changes to [Blazing Claw]. This skill is not affected by melee damage reduction."
+        "[Physical Damage] Attacks one enemy dealing 1.5x damage. Melee soldiers will also attack. Before combat gains the 'Electric light' effect: 'attacks before the enemy when entering combat'. Lasts for 2 turns and cannot be removed. If Tactical Level 3 or higher stuns the enemy for 1 turn before combat. After use the skill changes to [Blaze Claw]. This skill is not affected by melee damage reduction."
     ],
 	[
-        "Blazing Claw",
-        "Пылающий коготь",
+        "Blaze Claw",
+        "Коготь Бушующего Пламени",
         "2",
         "2",
         "2",
         "one target",
         "-",
-        "[Physical Damage] Attacks one enemy dealing 1.5x damage. Melee soldiers will also attack. Before combat gains the 'Burning' effect: 'Before combat restores HP equal to 2.5x ATK. After combat deals a fixed damage equal to 2x ATK.' This effect lasts for 2 turns and cannot be removed. If Tactical Level 3 or higher before combat applies 'cannot activate the fatal damage block effect' effect to the enemy. This effect lasts for 2 turns and cannot be removed (in PVE this effect is replaced by 'damage taken +20%'). After use, the skill changes to [Lightning Dash]. This skill is not affected by melee damage reduction."
+        "[Physical Damage] Attacks one enemy dealing 1.5x damage. Melee soldiers will also attack. Before combat gains the 'Cinder surge' effect: 'Before combat restores HP equal to 2.5x ATK. After combat deals a fixed damage equal to 2x ATK.' This effect lasts for 2 turns and cannot be removed. If Tactical Level 3 or higher before combat applies 'cannot activate the fatal damage block effect' effect to the enemy. This effect lasts for 2 turns and cannot be removed (in PVE this effect is replaced by 'damage taken +20%'). After use, the skill changes to [Lightning Leap]. This skill is not affected by melee damage reduction."
     ],
     [
         "Invisible Breath",
@@ -33062,7 +33062,7 @@ var persSkills = [
         "2",
         "one target",
         "4",
-        "[Passive] The lower the hero's HP, the higher the critical strike chance and critical damage (maximum to 35%).<br>[Physical Damage] Attacks one enemy dealing 1.7x damage. Melee soldiers will also attack. Before combat applies 2 random debuffs to the enemy, reduces the hero's HP to 1 and grants 1 round of [Elf Protection] per Tactical Level: 'Cannot be killed in one hit; after triggering the duration of the effect is reduced by 1 round; the hero cannot be healed; the hero is immune to damage while actively attacking. When losing the effect the hero's HP is resets and the Tactical Level is reduced to 1.' [Elf Protection] cannot be removed.<br>After combat the hero can move a number of tiles equal to the Tactical Level. This skill is not affected by melee damage reduction."
+        "[Passive] The lower the hero's HP, the higher the critical strike chance and critical damage (maximum to 35%).<br>[Physical Damage] Attacks one enemy dealing 1.7x damage. Melee soldiers will also attack. Before combat applies 2 random debuffs to the enemy, reduces the hero's HP to 1 and grants 1 round of [Elven Ward] per Tactical Level: 'Cannot be killed in one hit; after triggering the duration of the effect is reduced by 1 round; the hero cannot be healed; the hero is immune to damage while actively attacking. When losing the effect the hero's HP is resets and the Tactical Level is reduced to 1.' [Elven Ward] cannot be removed.<br>After combat the hero can move a number of tiles equal to the Tactical Level. This skill is not affected by melee damage reduction."
     ],
     [
         "Клаудия",
@@ -33075,8 +33075,8 @@ var persSkills = [
         ""
     ],
     [
-        "Keystone Power Conversion",
-        "Преобразование силы ключа (к)",
+        "Key Modification",
+        "Ключевая модификация (к)",
         "1",
         "7",
         "self",

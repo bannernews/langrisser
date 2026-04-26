@@ -216,7 +216,7 @@ var persItemDat = [
     [
         "Апофеоз",
         "Apotheosis",
-        "Глобал - 25.07.2024",
+        "Откровение Бездны",
         "Abyssal Revelation",
         "hat",
         "583",
@@ -381,7 +381,7 @@ var persItemDat = [
     [
         "Капитан Джек",
         "Captain Mack",
-        "Глобал - 27.06.2024",
+        "Шапка капитана Черной кошки",
         "Black Cat Captain's Hat",
         "hat",
         "437",
@@ -651,8 +651,8 @@ var persItemDat = [
 	[
         "Эйшин",
         "Eshean",
-        "Глобал - 30.10.2025",
-        "Global - 30.10.2025",
+        "Сияние Пегасов",
+        "Radiance of the Pegasi",
         "hat",
         "437",
         "",
@@ -801,7 +801,7 @@ var persItemDat = [
     [
         "Ганн",
         "Gunn",
-        "---",
+        "Мантия Паломника",
         "Pilgrim's Robe",
         "body",
         "437",
@@ -1386,8 +1386,8 @@ var persItemDat = [
 	[
         "Макира",
         "Macaera",
-        "Глобал - 16.04.2026",
-        "Global - 16.04.2026",
+        "Финальная Аудиенция",
+        "Final Audience",
         "weapon",
         "",
         "96",
@@ -1537,7 +1537,7 @@ var persItemDat = [
         "Неемия",
         "Nemia",
         "Путь отслеживания",
-        "---",
+        "Path of Traceability",
         "body",
         "509",
         "",
@@ -1671,7 +1671,7 @@ var persItemDat = [
     [
         "Полиал",
         "Polyal",
-        "Глобал - 29.02.2024",
+        "Шепот духа предков",
         "Whispers of the Ancestral Spirit",
         "hat",
         "583",
@@ -1686,7 +1686,7 @@ var persItemDat = [
     [
         "Преция",
         "Precia",
-        "Глобал - 25.04.2024",
+        "Край времен года",
         "Edge of the Seasons",
         "weapon",
         "364",
@@ -1941,7 +1941,7 @@ var persItemDat = [
 	[
         "Шем",
         "Shem",
-        "Глобал - 19.03.2026",
+        "Падение Короны Беольфа",
         "Global - 19.03.2026",
         "hat",
         "583",
@@ -2061,7 +2061,7 @@ var persItemDat = [
     [
         "Меч Света и Тьмы",
         "Sword of Light and Shadow",
-        "Глобал - 29.02.2024",
+        "Переплетенные желания",
         "Intertwined Wishes",
         "body",
         "437",
@@ -2151,7 +2151,7 @@ var persItemDat = [
     [
         "Тормил",
         "Tourmilque",
-        "Глобал 25.04.2024",
+        "Тихая исповедь",
         "Silent Confession",
         "body",
         "364",
@@ -2286,8 +2286,8 @@ var persItemDat = [
 	[
         "Вирелия",
         "Virelia",
-        "Глобал - 25.12.2025",
-        "Global - 25.12.2025",
+        "Покров ритуального архипелага",
+        "Ritual Archipelago Veil",
         "hat",
         "364",
         "",
