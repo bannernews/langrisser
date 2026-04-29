@@ -675,8 +675,8 @@ var itemDat = [
         "accs"
     ],
 	[
-        "Акс 8",
-        "---",
+        "Ножницы вечного судного дня",
+        "Shears of Eternal Doom",
         "accessoir",
         "",
         "75",
@@ -1277,8 +1277,8 @@ var itemDat = [
         "cloth"
     ],
 	[
-        "Броня 8",
-        "---",
+        "Демоническая кираса разрушения",
+        "Demonic Cuirass of Ruin",
         "body",
         "437",
         "",
@@ -1865,8 +1865,8 @@ var itemDat = [
         "light"
     ],
 	[
-        "Головной убор 8",
-        "---",
+        "Сумеречная бабочка грез",
+        "Twilight Butterfly Reverie",
         "hat",
         "364",
         "",
@@ -2705,8 +2705,8 @@ var itemDat = [
         "axe"
     ],
 	[
-        "Оружие 8",
-        "---",
+        "Клятва кровавого шипа",
+        "Bloodthorn Oath",
         "weapon",
         "583",
         "85",

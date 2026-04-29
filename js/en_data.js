@@ -12655,7 +12655,7 @@ var dataTable = [
         "",
         "",
         "",
-        "Heavenly Bow",
+        "Ciel Shoot",
         "Skills ignore cost limit. ATK increases by (10, 13, 16, 20)%, replacing INT by 1x ATK.<br>Gain 4 [AP] stacks at the start of combat and 2 stacks at the start of each next turn. Using a skill to enter combat consumes [AP] equal to the skill's cost. If the number of [AP] stacks is at least 2 by the end of the turn, the hero can attack again and the duration of buffs on the hero will not be reduced. [AP] cannot be immuned or dispeled and can stack up to 6 stacks.",
         "",
         "",
@@ -33085,34 +33085,34 @@ var persSkills = [
         "[Passive] At the end of the action for each [AP] stack spent restores 15% of maximum HP.<br>[Active] Used actively. Gains 1 stack of [AP], can move with remaining mobility and attack again. After use gains 2 random buffs and the duration of buffs on the hero is not reduced."
     ],
     [
-        "Harmonious Arrow",
+        "Arrow of Harmony",
         "Гармоничная стрела",
         "2",
         "1",
         "2",
         "one target",
         "-",
-        "[Mag. Damage] Attacks one enemy dealing 1.1x damage. After combat gains [Harmonic Melody]: [Command] Increases DEF and MDEF of allies within 2 tiles by 15% for 4 turns. After use the skill is replaced with Harmonious Arrow+: 'Damage multiplier increased to 1.2x. After battle gain [Harmonic Melody+]: [Command] Increases DEF and MDEF of allies within 2 tiles by 15% for 4 turns and grants immunity to the next debuff for 4 turns'. At the start of the turn this skill is replaced with Harmonious Arrow."
+        "[Mag. Damage] Attacks one enemy dealing 1.1x damage. After combat gains [Harmonic Symphony]: [Command] Increases DEF and MDEF of allies within 2 tiles by 15% for 4 turns. After use the skill is replaced with Arrow of Harmony+: 'Damage multiplier increased to 1.2x. After battle gain [Harmonic Symphony+]: [Command] Increases DEF and MDEF of allies within 2 tiles by 15% for 4 turns and grants immunity to the next debuff for 4 turns'. At the start of the turn this skill is replaced with Harmonious Arrow."
     ],
 	[
-        "Destructive Arrow",
+        "Arrow of Mayhem",
         "Разрушительная стрела",
         "2",
         "1",
         "2",
         "one target",
         "-",
-        "[Magic Damage] Attacks a single enemy dealing 1.1x damage. After battle gain [Melody of Destruction]: [Command] Increases ATK and INT of allies within 2 tiles by 15% for 4 turns. After use this skill is replaced with Destructive Arrow+: 'Damage multiplier increased to 1.2x. After battle gain [Melody of Destruction+]: [Command] Increases ATK and INT of allies within 2 tiles by 15%. At the end of the turn applies the 'Critical Chance and Critical Damage increased by 10%' buff to all allies for 4 turns'. At the start of the turn this buff is replaced by Devastating Arrow."
+        "[Magic Damage] Attacks a single enemy dealing 1.1x damage. After battle gain [Chaotic Symphony]: [Command] Increases ATK and INT of allies within 2 tiles by 15% for 4 turns. After use this skill is replaced with Arrow of Mayhem+: 'Damage multiplier increased to 1.2x. After battle gain [Chaotic Symphony+]: [Command] Increases ATK and INT of allies within 2 tiles by 15%. At the end of the turn applies the 'Critical Chance and Critical Damage increased by 10%' buff to all allies for 4 turns'. At the start of the turn this buff is replaced by Devastating Arrow."
     ],
     [
-        "Final Stage",
+        "Last Stage",
         "Финальный этап",
         "3",
         "1",
         "2",
         "one target",
         "5",
-        "[Passive] Gain 1 stack of [AP] after a normal attack.<br>[Magic Damage] Attacks one enemy dealing 1.2x damage. For each Melody possessed the skill multiplier increases by 0.1x. Melody+ increases the skill damage multiplier by 0.3x. After combat the target gains 'Damage taken +20%' for 2 turns. If the enemy is killed the skill's cooldown is reduced by 2 and the hero gains one Melody+ which the hero does not have."
+        "[Passive] Gain 1 stack of [AP] after a normal attack.<br>[Magic Damage] Attacks one enemy dealing 1.2x damage. For each Symphony possessed the skill multiplier increases by 0.1x. Symphony+ increases the skill damage multiplier by 0.3x. After combat the target gains 'Damage taken +20%' for 2 turns. If the enemy is killed the skill's cooldown is reduced by 2 and the hero gains one Symphony+ which the hero does not have."
     ],
     [
         "Тадж",
@@ -38908,7 +38908,7 @@ var builds = [
         "Божественный скипетр,Цветок ночи,Красная луна",
         "Мантия Духа пламени,Мантия Теннио,Царственные регалии",
         "Завеса звезд,Головной убор Теннио,Шляпа Охотника на демонов",
-        "Акс 8,Святое кольцо",
+        "Ножницы вечного судного дня,Святое кольцо",
         "Темный алхимик SP,Стрела одинокого крыла,Колдунья SP,Кристальный элементаль"
     ],
 	[
@@ -38939,7 +38939,7 @@ var builds = [
         "5",
         "3",
         "Кристальное жало,Жало скрытня",
-        "Последние обряды,Броня 8,Кольчуга Солнечного Поклонника",
+        "Последние обряды,Демоническая кираса разрушения,Кольчуга Солнечного Поклонника",
         "Зов вечности,Тень ночной совы,Ярость Тюра",
         "Небесный планисферий,Крылья скрытого великолепия,Апексовые сапоги",
         "Черный Пегас Рыцарь,Наемник пустыни,Мститель глубин,Лучник Изумрудного Крыла"
