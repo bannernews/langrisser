@@ -1368,6 +1368,21 @@ var persItemDat = [
         "ОЗ +10%. Когда союзник погибает - победивший его враг получает 4 стака [Грех]. Когда у врага есть 4 и более стаков [Грех], урон, наносимый в бою со святыми, уменьшается на 15%.",
         "HP+10%. When an ally dies, the damage source gains 4 layers of [Sin]. When enemy has 4 or more layers of [Sin], damage agains [Saint] decreased by 15%"
     ],
+	[
+        "Лукман",
+        "Lukhmaan",
+        "Глобал - 10.09.2026",
+        "Global - 10.09.2026",
+        "weapon",
+        "437",
+        "107",
+        "",
+        "",
+        "",
+        "",
+        "АТК +10%. При вступлении в бой, за каждого союзника с [Товарищество] в радиусе 3 клеток, наносит фиксированный урон равный 2х АТК героя и применяет ко всем союзникам с [Товарищество] 1 бафф.",
+        "ATK +10%. When entering combat, for each ally with [Comradeship] within 3 tiles, deals fixed damage equal to 2x the hero's ATK and applies 1 buff to all allies with [Comradeship]."
+    ],
     [
         "Луна",
         "Luna",

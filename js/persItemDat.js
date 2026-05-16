@@ -1203,6 +1203,21 @@ var persItemDat = [
         "ОЗ и ЗАЩ +5%. При срабатывании пассивного эффекта разгневанного гладиатора вероятность критического удара увеличивается на 10% на 1 раунд. Если находится в пустыне, также может активировать пассивный эффект разгневанного гладиатора.",
         "When Rage Gladiator passive effect is triggered, Critical Strike Chance is increased by 10% for 1 turn. If you are in the desert, you can also trigger the passive effect of Rage Gladiator"
     ],
+	[
+        "Лукман",
+        "Lukhmaan",
+        "Глобал - 10.09.2026",
+        "Global - 10.09.2026",
+        "weapon",
+        "437",
+        "107",
+        "",
+        "",
+        "",
+        "",
+        "АТК +10%. При вступлении в бой, за каждого союзника с [Товарищество] в радиусе 3 клеток, наносит фиксированный урон равный 2х АТК героя и применяет ко всем союзникам с [Товарищество] 1 бафф.",
+        "ATK +10%. When entering combat, for each ally with [Comradeship] within 3 tiles, deals fixed damage equal to 2x the hero's ATK and applies 1 buff to all allies with [Comradeship]."
+    ],
     [
         "Лукреция",
         "Lucretia",
