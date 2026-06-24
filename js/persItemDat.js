@@ -1641,8 +1641,8 @@ var persItemDat = [
 	[
         "Птица с поломанным крылом",
         "Broken-winged bird",
-        "Глобал - 21.05.2026",
-        "Global - 21.05.2026",
+        "Тень Падших Перьев",
+        "Fallen Feather Shadow",
         "hat",
         "437",
         "",
@@ -1821,8 +1821,8 @@ var persItemDat = [
 	[
         "Селика",
         "Celica",
-        "Глобал - 18.06.2026",
-        "Global - 18.06.2026",
+        "Законы алхимии",
+        "Rules of Alchemy",
         "weapon",
         "437",
         "",

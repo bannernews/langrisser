@@ -2457,7 +2457,7 @@ var dataTable = [
         "Т",
         "Soulsight",
         "ATK and Critical Hit Rate +(10%, 15%, 20%, 25%).<br>At the end of the action, cast [Gaze] on the nearest enemy in a straight line: 'After using skills, gain (15%, 20%, 25%, 30%) skill damage reduction' and [Penetrate] (cannot be dispelled and immune): 'Unable to be guarded when Broken-winged Bird attack', both last for 2 rounds. ([Gaze] has no immunity, cannot be dispelled, and is removed at the beginning of the second turn after acquisition or after being triggered)",
-        "Global - 21.05.2026",
+        "Fallen Feather Shadow",
         "шапка",
         "437",
         "",
@@ -8475,7 +8475,7 @@ var dataTable = [
         "М3",
         "Alchemical Legacy",
         "INT increases by (10%, 13%, 16%, 20%).<br><br>The cooldown time for using healing and assist skills is reduced by 1 turn.<br><br>At the end of the action, you can replace the skill used this round with 1 of (2, 2, 3, 3) random skills.<br><br>Range of skills that can be obtained randomly depending on the skills used:<br><br>1C Skills: Healing, Phantom Healing (same effect as Crystal Healing), Increase ATK, Shield, Magic Resistance, Equivalent Exchange, Fireball, Lightning Strike, Freeze Strike, Wind Blade.<br><br>2C Skills: Group Healing, Group Phantom Healing (Same Effect as Group Crystal Healing), Armor Affinity, Ice Dragon Breath, Blessing, Miracle.",
-        "Global - 18.06.2026",
+        "Rules of Alchemy",
         "оружие",
         "437",
         "",
@@ -12859,7 +12859,7 @@ var dataTable = [
         "",
         "",
         "Т",
-        "Instant Leap Steel Cavalry",
+        "Chrono Stell Cavalry",
         "ATK increases by (15, 20, 25, 30)%. At the end of the action can choose to use [Chaos Tunnel]: The unit teleports (3, 3, 4, 4) tiles in a straight line and applies [Black Time Hole] and [White Time Hole] at the skill's start and end points for 1 turn.<br>[Black Time Hole]: [Command] When friendly units move within 2 tiles they gain 1 tile of mobility reduction.<br>[White Time Hole]: [Command] When friendly units within 2 tiles move outside the command's effect range they gain 1 tile of mobility reduction.<br>Only one pair of Black and White Time Holes can exist at a time.",
         "",
         "",
@@ -33421,17 +33421,17 @@ var persSkills = [
         ""
     ],
 	[
-        "Double Shadow",
+        "Twin Shadow",
         "Двойная тень",
         "1",
         "7",
         "4",
         "one target",
         "4",
-        "[Passive] When Mullin dies the 'phantom' she summoned gains the following effect: If it has not received damage at the end of the turn it can transform into Mullin and act immediately. The transformed Mullin cannot move for the duration of this turn (this effect can only occur once per battle).<br>[Command] If an enemy unit within 2 tiles is attacked and its HP percentage is lower than the attacker's, it cannot use the Guard effect of another unit.<br>[Active] Targets one friendly 'phantom' or the unit itself and teleports within 2 tiles of Mullin or the 'phantom', applying the effect: 'ATK and INT +20%' for 2 turns. After use can move 3 tiles and attack again (the number of buff turns is not reduced)."
+        "[Passive] When Mullin dies the 'phantom' she summoned gains the following effect: If no damage was dealt at the end of the turn it can transform into Mullin and act immediately. The transformed Mullin cannot move for the duration of this turn (this effect can only occur once per battle).<br>[Command] If an enemy unit within 2 tiles is attacked and its HP percentage is lower than the attacker's, it cannot use the Guard effect of another unit.<br>[Active] Targets one friendly 'phantom' or the unit itself and teleports within 2 tiles of Mullin or the 'phantom', applying the effect: 'ATK and INT +20%' for 2 turns. After use can move 3 tiles and attack again (the number of buff turns is not reduced)."
     ],
 	[
-        "Shadow Spike",
+        "Thornshade",
         "Теневой шип",
         "2",
         "2",
@@ -33441,7 +33441,7 @@ var persSkills = [
         "[Phys. Damage] Attacks all enemies within 2 tiles dealing 0.3x AoE damage and applying the 'Unable to activate [Fatal Damage Block]' effect to them and 'At the end of the turn takes a fixed damage equal to 0.5x the attacker's ATK, increasing by 0.5x for each tile moved, up to 3x'. Lasts 2 turns and cannot be removed (in PVE, the 'Unable to activate [Fatal Damage Block]' effect is replaced by 'Damage taken +20%')."
     ],
 	[
-        "Black Star Glow",
+        "Voidstar Radiance",
         "Сияние черной звезды",
         "2",
         "9",
@@ -33451,14 +33451,14 @@ var persSkills = [
         "[Fusion Power] All Meteor Strike faction allies gain a significant boost to their offensive and defensive capabilities. Their damage is increased by 8% while actively attacking and by an additional 8% if there are no other enemies within 1 tile of the target. Lasts 4 turns."
     ],
 	[
-        "Thousand-Wound Shadow Vortex",
+        "Shadow Waltz",
         "Теневой вихрь тысячи ран",
         "3",
         "2",
         "2",
         "one target",
         "5",
-        "[Passive] At the end of the first action and after activating this skill all Meteor Strike faction allies gain a significant increase in offensive and defensive capabilities. Their damage is increased by 15% when actively attacking and engaging in melee combat. After actively destroying an enemy they gain [Shield] for 1 turn: 'Can block damage equal to 25% of a unit's maximum HP and reflects 30% of damage taken from melee attacks.' Lasts 4 turns.<br>[Physical Damage] Attacks one enemy dealing 1.6x damage. Ignores melee damage reduction and melee soldiers will also attack. Steals 3 buffs from the target before combat. The enemy cannot counterattack if there is a friendly Phantom or Mullin within 3 tiles. When successfuly kill can teleport to any location near a friendly Phantom or Mullin; otherwise, the cooldowns of all friendly Phantoms and Mullin's offensive skills are reduced by 2 turns. For each friendly Phantom or Mullin within 3 tiles, steals an additional buff (up to 2) and performs an additional attack, dealing 0.6x damage (up to 2 additional attacks)."
+        "[Passive] At the end of the first action and after activating this skill all Meteor Strike faction allies gain a significant increase in offensive and defensive capabilities. Their damage is increased by 15% when actively attacking and engaging in combat. After actively destroying an enemy they gain [Shield] for 1 turn: 'Can block damage equal to 25% of a unit's maximum HP and reflects 30% of damage taken when forced into battle.' Lasts 4 turns.<br>[Physical Damage] Attacks one enemy dealing 1.6x damage. Ignores melee damage reduction and melee soldiers will also attack. Steals 3 buffs from the target before combat. The enemy cannot counterattack if there is a friendly Phantom or Mullin within 3 tiles. When successfuly kill can teleport to any location near a friendly Phantom or Mullin; otherwise, the cooldowns of all friendly Phantoms and Mullin's offensive skills are reduced by 2 turns. For each friendly Phantom or Mullin within 3 tiles, steals an additional buff (up to 2) and performs an additional attack, dealing 0.6x damage (up to 2 additional attacks)."
     ],
     [
         "Первобытная Зерида",
@@ -33471,14 +33471,14 @@ var persSkills = [
         ""
     ],
     [
-        "Steel Cavalry Charge",
+        "Cavalry Charge",
         "Заряд стальной конницы",
         "1",
         "7",
         "self",
         "one target",
         "4",
-        "[Passive] When any unit ends its action within 2 tiles of an allied [Black Time Hole] or [White Time Hole] Pure Zerida can act again (requires a 2-turn wait before reactivating).<br>[Active] Grants the user [Steel Cavalry Charge]: After the next use of [Chaos Tunnel] at the end of the turn the positions of the two nearest units within 2 tiles of the [Black Time Hole] and [White Time Hole] will be changed: units around the [Black Time Hole] will be teleported to the [White Time Hole] and units around the [White Time Hole] will be teleported to the [Black Time Hole].<br>After using this skill can move again with the remaining mobility and attack again."
+        "[Passive] When any unit ends its action within 2 tiles of an allied [Black Time Hole] or [White Time Hole] Pure Zerida can act again (requires a 2-turn wait before reactivating).<br>[Active] Grants the user [Cavalry Charge]: After the next use of [Chaos Tunnel] at the end of the turn the positions of the two nearest units within 2 tiles of the [Black Time Hole] and [White Time Hole] will be changed: units around the [Black Time Hole] will be teleported to the [White Time Hole] and units around the [White Time Hole] will be teleported to the [Black Time Hole].<br>After using this skill can move again with the remaining mobility and attack again."
     ],
     [
         "Chaos Field",
@@ -33488,17 +33488,17 @@ var persSkills = [
         "-",
         "-",
         "-",
-        "[Passive] After using a talent skill at the end of the action can target 1 unsummoned ally and apply [Chaos Field]. The next time target use an attack skill to enter battle and kill the enemy the cooldowns for healing and damage skills will be reset to the start of the turn.<br>If this ally is within 2 tiles of a [Black Time Hole] or [White Time Hole] he/she will also be teleported to the other hole and gain an extra turn (the extra action effect can only be activated once per unit per battle)."
+        "[Passive] After using a talent skill at the end of the action can target 1 unsummoned ally and apply [Chaos Field]. The next time target use an attack skill to enter battle the cooldowns for skills will be reset and HP to the start of the turn.If kill the enemy, can act again.<br>If this ally is within 2 tiles of a [Black Time Hole] or [White Time Hole] he/she will also be teleported to the other hole and gain all skills cooldown -1 (the extra action effect can only be activated once per unit per battle)."
     ],
     [
-        "Dead Blade Cavalry",
+        "Boneblade Cavalry",
         "Конница Клинка мертвых",
         "3",
         "2",
         "1",
         "one target",
         "5",
-        "[Passive] When an ally within 2 tiles of a [Black Time Hole] or [White Time Hole] kills an enemy the cooldown of Pure Zerida's damage skills is reduced by 3.<br>[Physical Damage] Attacks one enemy dealing 1.8x damage. Before combat removes 5 buffs from the target. For each unit within 2 tiles of the [Black Time Hole] or [White Time Hole] damage is increased by 10% (maximum 30%) and an additional buff is removed. If there is a [Black Time Hole] or [White Time Hole] within 2 tiles, attacks before the enemy and gains [Steel Cavalry Charge] at the end of the action."
+        "[Passive] When an ally within 2 tiles of a [Black Time Hole] or [White Time Hole] kills an enemy the cooldown of Pure Zerida's damage skills is reduced by 3.<br>[Physical Damage] Attacks one enemy dealing 1.8x damage. Before combat removes 5 buffs from the target. For each unit within 2 tiles of the [Black Time Hole] or [White Time Hole] damage is increased by 10% (maximum 30%) and an additional buff is removed. If there is a [Black Time Hole] or [White Time Hole] within 2 tiles, attacks before the enemy and gains [Cavalry Charge] at the end of the action."
     ],
     [
         "Ора",
