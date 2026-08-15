@@ -768,6 +768,21 @@ var persItemDat = [
         "ОЗ +10%. При первом получении каждой 'Воли' дополнительно получает еще один эффект:<br>[Одиночное путешествие]: героя невозможно убить одним ударом, вместо этого восстанавливает 1% ОЗ (срабатывает 1 раз за бой);<br>[Сопротивление]: время восстановление всех навыков снижается на 3;<br>[Пропитание]: при следующем получении урона получает дополнительный ход.",
         "HP +10%. After receiving each 'Will' for the first time, gains an additional effect:<br>[Solitary Journey]: The hero cannot be killed in one hit, instead restoring 1% of HP (can only be triggered once per battle);<br>[Resistance]: The cooldown of all skills is reduced by 3;<br>[Sustenance]: The next time you take damage, gain an extra turn."
     ],
+	[
+        "Илия",
+        "Ilia",
+        "Глобал - 08.10.2026",
+        "Global - 08.10.2026",
+        "hat",
+        "364",
+        "",
+        "",
+        "",
+        "65",
+        "",
+        "ОЗ +10%. В конце действия, если [Ангела правосудия] был призван или перемещен, накладывает 1 стак [Сияющего Благословения] на 2 ближайших союзников.",
+        "HP +10%. At the end of the action, if [Angel of Justice] was summoned or moved, place 1 stack of [Luminous Blessing] on 2 nearby allies."
+    ],
     [
         "Илюсия",
         "Ilucia",

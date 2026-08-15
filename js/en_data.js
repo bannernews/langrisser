@@ -1149,7 +1149,7 @@ var dataTable = [
         "",
         "меч,копье",
         "тяжелая",
-        "0,2,5,3",
+        "0,2,5,3,6",
         "41,42",
         "Преция",
         "right",
@@ -1604,7 +1604,7 @@ var dataTable = [
         "35",
         "15",
         "15",
-        "Элитная пехота,Орк,Страж-пехотинец,Темный страж,Клыкастый страж,Элитный копейщик,Горный голем,Каменный колосс,Лавовый титан,Солдат фаланги,Элитная кавалерия,Страж-кавалерист,Скорпион,Гигантский всадник-ящерица,Воин-скелет,Рыцарь-скелет,Сталегривый оборотень,Рыцарь-нежить,Танцор цепей джунглей",
+        "Элитная пехота,Орк,Страж-пехотинец,Темный страж,Клыкастый страж,Элитный копейщик,Горный голем,Каменный колосс,Лавовый титан,Солдат фаланги,Элитная кавалерия,Страж-кавалерист,Скорпион,Гигантский всадник-ящерица,Воин-скелет,Рыцарь-скелет,Сталегривый оборотень,Рыцарь-нежить,Танцор цепей джунглей,Костяной дино SP",
         "Осквернитель пламени",
         "меч,молот",
         "тяжелая",
@@ -1808,7 +1808,7 @@ var dataTable = [
         "35",
         "25",
         "15",
-        "Элитная пехота,Тяжелая пехота,Воин-варвар,Галантный дуэлянт,Элитный копейщик,Фаланга,Эльфийский метатель копья,Элитная кавалерия,Тяжелая кавалерия,Гигантский всадник-ящерица,Воин-скелет,Рыцарь-скелет,Сталегривый оборотень,Покоритель клыков",
+        "Элитная пехота,Тяжелая пехота,Воин-варвар,Галантный дуэлянт,Элитный копейщик,Фаланга,Эльфийский метатель копья,Элитная кавалерия,Тяжелая кавалерия,Гигантский всадник-ящерица,Воин-скелет,Рыцарь-скелет,Сталегривый оборотень,Покоритель клыков,Костяной дино SP",
         "",
         "меч,молот",
         "тяжелая",
@@ -2475,7 +2475,7 @@ var dataTable = [
         "",
         "лук,нож",
         "легкая",
-        "0,2",
+        "0,2,3",
         "453,454",
         "Ланделл",
         "Серафина",
@@ -3630,15 +3630,15 @@ var dataTable = [
         "Мил",
         "Shrine Maiden of Justice",
         "Damage increases by (15%, 20%, 25%, 30%).<br>At the end of the effect, can summon [Angel of Justice] to hero location: 'After allies within 3 tiles around [Angel of Justice] enter battle, restore their HP equal to 2x the caster's INT.'; If there is already an allied [Angel of Justice] on the field, can move it to hero location. ([Trigger Cooldown] requires an interval of 2 rounds before it can be used again).<br>It is considered that range of [Angel of Justice] is within the range of hero skills, and ranged soldiers will attack together. At the end of the effect, if in 1 circle around [Angel of Justice], gains 1 layer of [Spiritual Perception]: '[Angel of Justice] range +2, intelligence increased by 5%, damage skill recovery time decreased by 1 round (can be stacked, max 3, 4, 5, 5 stacks, cannot be dispelled)'.",
+        "Global - 08.10.2026",
+        "шапка",
+        "364",
         "",
         "",
         "",
+        "65",
         "",
-        "",
-        "",
-        "",
-        "",
-        "",
+        "HP +10%. At the end of the action, if [Angel of Justice] was summoned or moved, place 1 stack of [Luminous Blessing] on 2 nearby allies.",
         "",
         "20",
         "40",
@@ -5870,7 +5870,7 @@ var dataTable = [
         "ИМП,МУ",
         "R",
         "",
-        "",
+        "SP",
         "Л13",
         "Knight's Faith",
         "When actively entering battle with 80% HP or higher, ATK and DEF increase by (10,15,20,25,30)%.",
@@ -5888,7 +5888,7 @@ var dataTable = [
         "35",
         "35",
         "10",
-        "Элитная кавалерия,Рогатый дино,Страж-кавалерист,Королевская кавалерия,Механический рыцарь,Золотой рыцарь,Осквернитель пламени,Всадник-грифон,Малый бес,Рыцарь-грифон,Горгулья,Эльф,Меткий стрелок",
+        "Элитная кавалерия,Рогатый дино,Страж-кавалерист,Королевская кавалерия,Механический рыцарь,Золотой рыцарь,Осквернитель пламени,Всадник-грифон,Малый бес,Рыцарь-грифон,Горгулья,Эльф,Меткий стрелок,Костяной дино SP",
         "",
         "меч,копье",
         "тяжелая",
@@ -5912,9 +5912,9 @@ var dataTable = [
         "103,144",
         "",
         "",
-        "",
-        "",
-        ""
+        "1072",
+        "75,76",
+        "26"
     ],
     [
         "Лэндиус",
@@ -6398,7 +6398,7 @@ var dataTable = [
         "35",
         "25",
         "25",
-        "Элитная пехота,Тяжелая пехота,Воин-варвар,Галантный дуэлянт,Элитная кавалерия,Тяжелая кавалерия,Малый бес,Летучая мышь-вампир,Горгулья,Воин-скелет,Рыцарь-скелет,Сталегривый оборотень,Танцор цепей джунглей,Покоритель клыков,Берсерк SP,Гладиатор яростного рога",
+        "Элитная пехота,Тяжелая пехота,Воин-варвар,Галантный дуэлянт,Элитная кавалерия,Тяжелая кавалерия,Малый бес,Летучая мышь-вампир,Горгулья,Воин-скелет,Рыцарь-скелет,Сталегривый оборотень,Танцор цепей джунглей,Покоритель клыков,Берсерк SP,Гладиатор яростного рога,Костяной дино SP",
         "",
         "меч,нож",
         "тяжелая",
@@ -6602,7 +6602,7 @@ var dataTable = [
         "35",
         "25",
         "20",
-        "Элитный тритон,Мастер приливов,Эльф прилива,Посол острова,Эльф,Темный эльф,Эльф-мастер,Темный эльф-снайпер,Ведьма,Колдунья,Кристальный чародей,Экспедиция по природе,Прикосновение загробного мира,Жрец океана SP,Ламия темного прилива",
+        "Элитный тритон,Мастер приливов,Эльф прилива,Посол острова,Эльф,Темный эльф,Эльф-мастер,Темный эльф-снайпер,Ведьма,Колдунья,Кристальный чародей,Экспедиция по природе,Прикосновение загробного мира,Жрец океана SP,Ламия темного прилива,Охотник на демонов SP",
         "",
         "нож,лук",
         "легкая",
@@ -6704,7 +6704,7 @@ var dataTable = [
         "40",
         "20",
         "15",
-        "Эльф,Эльф-мастер,Снайпер-подстрекатель,Палубный стрелок,Засадный боец,Бандит,Самурай,Танцующая в тумане,Безликий,Убийца из Ковчега,Скелет-лучник,Лучник адского пламени,Клинок сумереченого крыла,Мститель Глубокого моря",
+        "Эльф,Эльф-мастер,Снайпер-подстрекатель,Палубный стрелок,Засадный боец,Бандит,Самурай,Танцующая в тумане,Безликий,Убийца из Ковчега,Скелет-лучник,Лучник адского пламени,Клинок сумереченого крыла,Мститель Глубокого моря,Охотник на демонов SP",
         "",
         "нож,лук",
         "легкая",
@@ -8317,7 +8317,7 @@ var dataTable = [
         "Сафрин",
         "ИС,ТАИР,РЕ",
         "SSR",
-        "",
+        "forge",
         "",
         "Т",
         "Natural Resonance",
@@ -8331,7 +8331,7 @@ var dataTable = [
         "",
         "",
         "INT +10%. [Harmonic Spirit] initially has the effect 'Cannot be targeted by enemy's normal attacks and skills  (removed if the enemy ends the action within 1 tile). All tiles within 3 tiles are considered plains for enemies.' This effect cannot be removed or blocked and is removed at the end of the next turn.<br>[Harmonic Spirit] can convert another [Harmonic Spirit] instead of Safreen causing the cooldown removal effect and activating an additional action for Safreen.",
-        "",
+        "INT +5%. The summoned [Harmonic Spirit] additionally inherits the first skill from unused skill slot. (A [Harmonic Spirit] with an additional skill can only be summoned again after 3 turns.)",
         "20",
         "40",
         "15",
@@ -8591,7 +8591,7 @@ var dataTable = [
         "40",
         "25",
         "10",
-        "Элитная пехота,Тяжелая пехота,Клыкастый страж,Элитная кавалерия,Страж-кавалерист,Осквернитель пламени,Баллиста,Катапульта,Палубный стрелок,Танцующая в тумане,Гоблин-рыцарь,Безликий,Монах,Клинок сумереченого крыла,Служанка в маске SP,Королевский страж SP,Мститель Глубокого моря,Шиноби SP",
+        "Элитная пехота,Тяжелая пехота,Клыкастый страж,Элитная кавалерия,Страж-кавалерист,Осквернитель пламени,Баллиста,Катапульта,Палубный стрелок,Танцующая в тумане,Гоблин-рыцарь,Безликий,Монах,Клинок сумереченого крыла,Служанка в маске SP,Королевский страж SP,Мститель Глубокого моря,Шиноби SP,Охотник на демонов SP",
         "",
         "меч,нож",
         "тяжелая",
@@ -9815,7 +9815,7 @@ var dataTable = [
         "15",
         "10",
         "35",
-        "Левиафан,Баллиста,Темный эльф,Темный эльф-снайпер,Засадный боец,Куноити,Бандит,Безликий,Танцующая в тумане,Ведьма,Колдунья,Маг - ядовитая летучая мышь,Скелет-лучник,Рыцарь-скелет,Лучник адского пламени,Призрак тумана,Клинок сумереченого крыла,Паучий эльф-демон SP,Кристальный дух демона,Мститель Глубокого моря,Расплавленный колдун SP",
+        "Левиафан,Баллиста,Темный эльф,Темный эльф-снайпер,Засадный боец,Куноити,Бандит,Безликий,Танцующая в тумане,Ведьма,Колдунья,Маг - ядовитая летучая мышь,Скелет-лучник,Рыцарь-скелет,Лучник адского пламени,Призрак тумана,Клинок сумереченого крыла,Паучий эльф-демон SP,Кристальный дух демона,Мститель Глубокого моря,Расплавленный колдун SP,Охотник на демонов SP",
         "",
         "нож,лук",
         "легкая",
@@ -10380,7 +10380,7 @@ var dataTable = [
         "",
         "посох,молот",
         "тканевая",
-        "0,2,5,51,52,53,54",
+        "0,2,5,51,52,53,54,7",
         "366,367",
         "Альмеда",
         "Анджелина",
@@ -11173,7 +11173,7 @@ var dataTable = [
         "Эйшин",
         "ЛС,АП,МУ",
         "SSR",
-        "",
+        "forge",
         "",
         "Т",
         "Glory of the Kingdom",
@@ -11187,7 +11187,7 @@ var dataTable = [
         "59",
         "",
         "HP +10%. Skill range at end of effect is increased by +1 and an additional effect is added:<br>[Revival]: Removes 1 debuff from the target.<br>[Royal Order]: Makes the target immune to the 'cannot use active skills' effect for 2 turns.<br>[Movement]: Increases damage dealt by 15% for 1 turn.",
-        "",
+        "ATK and DEF +5%. If an active attack kills an enemy, [Blessing of Sebrick] is automatically cast at the end of the turn and the cooldown of [Movement] is reduced by 1.",
         "25",
         "35",
         "15",
@@ -11753,7 +11753,7 @@ var dataTable = [
         "40",
         "20",
         "20",
-        "Лобстер,Левиафан,Элементаль льда,Экспедиция по природе,Куноити,Танцующая в тумане,Безликий,Ведьма,Колдунья,Маг - ядовитая летучая мышь,Скелет-лучник,Лучник адского пламени,Призрак тумана,Колосс исчадия ада,Мститель Глубокого моря,Конный лучник эльфов SP",
+        "Лобстер,Левиафан,Элементаль льда,Экспедиция по природе,Куноити,Танцующая в тумане,Безликий,Ведьма,Колдунья,Маг - ядовитая летучая мышь,Скелет-лучник,Лучник адского пламени,Призрак тумана,Колосс исчадия ада,Мститель Глубокого моря,Конный лучник эльфов SP,Охотник на демонов SP",
         "",
         "лук,нож",
         "легкая",
@@ -12314,7 +12314,7 @@ var dataTable = [
         "40",
         "20",
         "15",
-        "Орк,Служанка,Орк-берсерк,Служанка в маске,Танцор цепей джунглей,Гладиатор яростного рога,Элитная кавалерия,Драгун,Гигантский всадник-ящерица,Покоритель клыков,Малый бес,Летучая мышь-вампир,Всадник Эклиптического Дракона,Лесной кентавр,Адский пес SP",
+        "Орк,Служанка,Орк-берсерк,Служанка в маске,Танцор цепей джунглей,Гладиатор яростного рога,Элитная кавалерия,Драгун,Гигантский всадник-ящерица,Покоритель клыков,Малый бес,Летучая мышь-вампир,Всадник Эклиптического Дракона,Лесной кентавр,Адский пес SP,Костяной дино SP",
         "",
         "меч,копье",
         "тяжелая",
@@ -13257,6 +13257,57 @@ var dataTable = [
         "",
         "157,42",
         "1064",
+        "",
+        ""
+    ],
+	[
+        "Хранитель волн",
+        "АП,ТР,РЕ",
+        "LLR",
+        "",
+        "",
+        "",
+        "Mermaid",
+        "ATK and DEF increase by (15, 20, 25, 30)%.<br>At the start of the turn creates a special terrain effect [Mirage] in 5 surrounding squares, near an enemy unit. When any unit ends action near [Mirage] she summons phantoms of unsummoned enemy units near [Mirage] in symmetrical empty squares centered on the mirage. If the enemy unit moves outside the [Mirage] circle phantom disappears.<br>When an enemy unit ends turn on [Mirage], all enemies in the circle around [Mirage] are dealt 0.2x AoE damage, then the [Mirage] terrain effect is removed and replaced with the terrain effect 'current terrain is treated as water when action ends' for 1 turn. Lasts 3 turns.<br>A maximum of (3, 4, 5, 6) [Mirage] terrain effects can be active. A maximum of 8 phantoms can exist simultaneously. When a phantom takes damage, it deals 25% of the damage taken (of the same type as the damage taken) to its main body.",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "30",
+        "20",
+        "30",
+        "30",
+        "Элитный тритон,Лобстер,Мастер приливов,Чудище-лобстер,Эльф прилива,Морской пират,Элементаль льда,Ламия темного прилива,Всадник-грифон,Рыцарь-грифон,Ангел,Рыцарь на механическом драконе,Паладин,Рыцарь-тамплиер",
+        "",
+        "топор,молот",
+        "легкая",
+        "0,2",
+        "521,522",
+        "водник",
+        "летающий",
+        "",
+        "",
+        "1068",
+        "13",
+        "1066",
+        "",
+        "",
+        "",
+        "1067",
+        "",
+        "",
+        "54,59",
+        "",
+        "",
+        "1069",
+        "31",
+        "1070",
         "",
         ""
     ]
@@ -22622,6 +22673,42 @@ var classStats = [
         "When HP is above 80%, damage dealt in battle increases by 10%.",
         "1",
         "SP"
+    ],
+	[
+        "Хранитель волн",
+        "",
+        "water_LLR",
+        "4423",
+        "598",
+        "239",
+        "305",
+        "285",
+        "240",
+        "1",
+        "4",
+        "пловец",
+        "While in water, physical damage taken is reduced by 10%.",
+        "When HP is above 80%, damage dealt increases by 10%.",
+        "A",
+        "A"
+    ],
+	[
+        "Хранитель волн",
+        "",
+        "fly_LLR",
+        "4108",
+        "598",
+        "217",
+        "305",
+        "319",
+        "184",
+        "1",
+        "5",
+        "полет",
+        "When a unit's HP is at 100%, damage taken is reduced by 10%.",
+        "AoE damage is increased by 10% while at air.",
+        "C",
+        "C"
     ]
 ]
 
@@ -22884,7 +22971,8 @@ var heroList = [
 			"Синья",
 			"Миюки",
 			"Саллун",
-			"Аши"
+			"Аши",
+			"Хранитель волн"
 ]
 
 var heroList_en = [
@@ -23146,7 +23234,8 @@ var heroList_en = [
 	"Shinya",
 	"Miyuki",
 	"Sallune",
-	"Ashi"
+	"Ashi",
+	"Tidal Vindicator"
 ]
 
 var persSkills = [
@@ -33789,6 +33878,86 @@ var persSkills = [
         "one target",
         "5",
         "[Passive] Before entering combat gain a Shield equal to 10% of max HP for each enemy with debuffs (up to 50%).<br>[Phys. Damage] Attacks one enemy dealing 1.7x damage. For each enemy with a debuff, the unit's ATK and INT are increased by 5% (up to 30%). After combat restores HP equal to 30% of the damage dealt. If the enemy has [Dark Seed] or [Dark Curse] this attack ignores the Guard effect. [Dark Curse] is applied to the target before the attack and activates immediately. If the enemy is destroyed all [Dark Curse] effects on the enemy are activated after the battle."
+    ],
+    [
+        "Хранитель волн",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+    ],
+    [
+        "Rainbow Sea",
+        "Радужное море",
+        "1",
+        "7",
+        "5",
+        "one target",
+        "3",
+        "[Passive] Increases damage dealt by 25% and reduces damage taken by 25% when attacking targets not on defensive terrain. All terrain the unit moves on is treated as water and the unit's mobility is increased by 1.<br>[Active] Creates a [Mirage] terrain effect on another terrain effect created by allies."
+    ],
+    [
+        "Rainbow Sky",
+        "Радужное небо",
+        "1",
+        "7",
+        "5",
+        "one target",
+        "3",
+        "[Passive] When within 1 tile of defensive terrain or a friendly terrain effect, becomes immune to damage from AoE skills.<br>[Active] Creates a [Wind Blessing] terrain effect on another terrain effect created by allies: the duration of debuffs on allies within 1 circle is reduced by 1 and enemy units remove 1 debuff when attacking and entering combat. Lasts 3 turns."
+    ],
+	[
+        "Mirage Breath",
+        "Дыхание миража",
+        "2",
+        "2",
+        "5",
+        "straight",
+        "3",
+        "[Physical Damage] Selects a point in a straight line within 5 tiles and can make up to 2 perpendicular changes in direction. For each defensive terrain element or terrain effect along the path, the limit of targetable tiles increases by 1 (maximum 4). Deals 0.3x AoE damage to all enemies in the path and applies the effect 'Phantom damage transfer is increased by 30%, or by 300% if there are no soldiers initially.' Lasts 2 turns. Afterward, removes all terrain effects from enemies within the skill's range. If a friendly [Mirage] is hit, creates a [Mirage] in the furthest space along the skill's path where there is no enemy."
+    ],
+	[
+        "Wind Surge",
+        "Прылив ветра",
+        "2",
+        "4",
+        "5",
+        "straight",
+        "3",
+        "[Passive] Creates a [Wind Blessing] terrain effect at your position for 3 turns at the start of your turn.<br>[Heal] Targets a point in a straight line within 5 tiles and can make up to 2 perpendicular changes. For each defensive terrain element or terrain effect along the path, the limit of tiles targeted increases by 1 (maximum 4). Restores HP to all allies along the path equal to 2.5x their ATK and generates [Wind Blessing] at the locations of all allies along the path."
+    ],
+	[
+        "Rainbow Glow",
+        "Радужное сияние",
+        "3",
+        "7",
+        "self",
+        "one target",
+        "4",
+        "[Passive] Increases damage dealt to phantoms by 100%. After actively using the skill to create a terrain effect, the hero can move an additional 2 tiles and attack again. The number of buff turns on the hero is not reduced. (Can be used again after 3 turns).<br>[Active] Grants [Overflow] - a permanent buff for 2 turns: [Command]: If there are 2 or more [Mirages] around an enemy unit and its HP is less than 30%, it dies instantly after taking damage from a phantom (once per turn. In PVE mode, there is no HP limit and is replaced by 2x the fixed damage from the attacker or a unit with higher INT); Allies within 1 tile radius of defensive terrain or within the range of friendly terrain effects gain +1 range when attacked by an enemy with a single skill for each tile before the enemy (maximum +3, does not apply to skills with a range of 1) and at the end of the turn, the duration of 3 random debuffs is reduced by 1 and 30% of max HP is restored.<br>After use this skill is replaced by [Blast Waves].<br><br>[Blast Waves]: Cooldown 4, Range 6, Area: Straight<br>[Command] After an ally deals damage to an enemy 1 terrain effect [Mirage] will appear near the nearest enemy.<br>[Passive] Increases damage dealt to phantoms by 100%. After actively using the skill to create a terrain effect the hero can move an additional 2 tiles and attack again. The number of buff turns on the hero is not reduced. (Can be used again after 3 turns).<br>[Phys. Damage] Attacks all enemies in 3 straight lines dealing 0.36x damage and restoring all hit allies' HP equal to 2.5x their ATK and reducing the duration of debuffs by 1. When a unit is within 1 circle of defensive terrain or a friendly terrain effect the skill's range increases to 5 lines. When hitting 3 or more enemies reduces the skill's cooldown by 4.<br>After use this skill changes to [Rainbow Glow], whose cooldown is inherited from this skill."
+    ],
+    [
+        "Лэйд",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+    ],
+	[
+        "Azure Dragon Crusher (SSR)",
+        "Сокрушитель лазурного дракона (SSR)",
+        "3",
+        "2",
+        "1",
+        "one target",
+        "5",
+        "[Passive] When Laird or Leon attack an enemy with 4 stacks of [Dragonfire], the enemy cannot counterattack.<br>[Physical Damage] Attacks one enemy dealing 1.6x damage. Before battle applies 2 stacks of [Dragon Fire]. If you move 3 or more tiles before battle the damage of this attack is increased by an additional 20%. After battle restores HP equal to 20% of the damage dealt. If an enemy is successfully defeated the cooldown of this skill is reduced by 3 turns.<br>After using this skill the cooldown of the longest skill of an ally Leon is reduced by 5. If Leon has already performed an action he can perform the action again (this only works once per turn)."
     ]
 ]
 
@@ -36345,6 +36514,36 @@ var SPskills = [
         "one target",
         "4",
         "[Passive] At the start of battle gain [Sword Domain].<br>[Physical Damage] Attacks a single enemy dealing 1.5x damage. Before combat steals 2 buffs from the enemy and applies a 20% damage increase debuff for 2 turns. Melee soldiers will also attack. If there are other enemies within 2 tiles of the target, after combat deals 0.5x ATK fixed damage to the target and all enemies within 2 tiles of the target (the fixed damage multiplier increases by 0.5x for each ally within 2 tiles of the target, to a maximum of 2x)."
+    ],
+	[
+        "Лэйд",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+    ],
+	[
+        "Coordinated Attack",
+        "Скоординированная атака",
+        "1",
+        "2",
+        "1",
+        "one target",
+        "2",
+        "[Passive] After battling an enemy with less mobility than you reduce the cooldown of the skill with the longest cooldown by 1.<br>[Physical Damage] Attacks one enemy dealing 1.4x damage. For each stack of [Dragonfire] apply 1 debuff before combat.<br>If an ally of Leon is on the battlefield can move 3 tiles after combat."
+    ],
+	[
+        "Dragon Soul Resonance",
+        "Резонанс Души Дракона",
+        "2",
+        "7",
+        "self",
+        "one target",
+        "3",
+        "[Passive] At the end of the turn restore 10% HP for each enemy within 2 tiles (max 30%).<br>[Active] When activate, gains an effect that deals 0.1x AoE damage to all enemies within a 2-tile radius before entering combat. Lasts 2 turns and cannot be immune or dispelled. After using the skill the number of buffs on the hero is not reduced and can move an additional 3 tiles and attack again.<br>If an ally Leon is on the field using the skill increases both Laird's and Leon's ATK and INT by 20%, as well as the effects of [Legion] and [Crush] for 2 turns."
     ]
 ]
 
@@ -36502,6 +36701,12 @@ var SPtalent = [
         "Природная магия",
         "When entering combat ATK and critical hit chance are increased by (10, 13, 16, 20)% and critical damage by (5, 8, 11, 15)%.<br>When actively attacking and entering combat, after combat restores HP equal to 20% of the damage dealt and gains the [Sword Domain] effect, after which you can teleport to any tile within a 6-tile radius.<br>[Sword Domain]: If in a dangerous area at the end of the turn, gains the 'cannot be targeted by skills' effect. After engaging in combat the effect is removed. If the number of units on both sides is unequal, all enemies within a (2, 2, 3, 3) tile radius cannot attack first. Lasts 3 turns and cannot be removed.<br>While [Sword Domain] is active the hero cannot die from fatal damage. Instead all debuffs are removed and HP is restored by 30% (can only occur once per battle).",
 		"Illusory Shadow"
+    ],
+	[
+        "Лэйд",
+        "Пробужденный генерал драконов",
+        "ATK and DEF increase by 30%. After dealing damage 1 stack of [Dragonfire] is applied to the enemy: 'Lasts for 3 turns, can stack up to 4 times, cannot be immune or removed; if there are 3 stacks of [Dragonfire] at the end of the turn gain 'damage taken increased by 20%' for 2 turns.'<br>If an enemy unit within 3 tiles around Laird moves 3 or fewer tiles before the start of battle it gains 'damage dealt reduced by 15%' for 2 turns.<br>If an ally Leon is on the battlefield Laird can absorb all physical attacks against him, regardless of range, and when receiving fatal damage, he will instead restore 50% of his HP (once per battle). Each stack of [Dragonfire] further reduces DEF by 5% and [Dragonfire] can be cast on an enemy whenever Leon deals damage to them.",
+		"Awakened Dragon General"
     ]
 ]
 
@@ -39365,6 +39570,17 @@ var builds = [
         "Головной убор 9,Ярость Тюра,Маска вампира",
         "Колокол эха Хексен,Кровопьющий шип,Ангел бедствия,Лезвие воспоминаний",
         "Адский пес SP,Амазонка-чемпион SP,Сталегривый оборотень,Наемник пустыни"
+    ],
+	[
+        "Хранитель волн",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
     ]
 ]
 
@@ -40685,6 +40901,10 @@ var confession = [
     ],
 	[
         "Аши",
+        "https://drive.google.com/file/d/1Xry70UhRsT2LcRYFJY0DH_lJyv6D8ZUF/view?usp=sharing"
+    ],
+	[
+        "Хранитель волн",
         ""
     ]
 ]
@@ -43289,6 +43509,16 @@ var startB = [
         "",
         "",
         ""
+    ],
+    [
+        "Хранитель волн",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
     ]
 ]
 
@@ -45885,6 +46115,16 @@ var basicB = [
     ],
     [
         "Аши",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+    ],
+    [
+        "Хранитель волн",
         "",
         "",
         "",
@@ -49524,6 +49764,20 @@ var pveB = [
     ],
     [
         "Аши",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+    ],
+    [
+        "Хранитель волн",
         "",
         "",
         "",
@@ -53398,6 +53652,20 @@ var pvpB = [
     ],
     [
         "Аши",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+    ],
+    [
+        "Хранитель волн",
         "",
         "",
         "",

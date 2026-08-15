@@ -56,7 +56,11 @@ if (dataTable[hero_number][4]!=='SP'){
 } else {
 	var talSP_pic = document.getElementById('talSP_pic');
 	talSP_pic.innerHTML += '<img src="images/heroes/talent/' + dataTable[hero_number][0] + 'SP.png" height="100px" /><br>';
-	talSP_pic.innerHTML += '<img src="images/hero_filter/range/SP.png" height="25px" />   ';
+	if (heroName == "Лэйд"){
+		talSP_pic.innerHTML += '<img src="images/hero_filter/range/SSR.png" height="25px" />   ';
+	} else {
+		talSP_pic.innerHTML += '<img src="images/hero_filter/range/SP.png" height="25px" />   ';
+	}
 
 	var talantSP = document.getElementById('talantSP_text');
 	talantSP.innerHTML = '<span style="display:inline-block;margin-bottom:10px;">Талант: <b>'+SPtalent[dataTable[hero_number][48]-1][1]+'</b></span><br>'+SPtalent[dataTable[hero_number][48]-1][2];
@@ -722,7 +726,9 @@ if (dataTable[hero_number][47]==''){
 	cl21.style["padding-bottom"] = "15px";
 	cl22.style["border-bottom"] = "2px solid antiquewhite";
 	cl22.style["padding-bottom"] = "15px";
-	if (!(chb[2]-1)){
+	if (heroName == 'Лэйд'){
+		clSP.innerHTML = "";
+	} else if (!(chb[2]-1)){
 		clSP.innerHTML = '<div style="display:block;width:100%;height:176px;position:relative;"><img style="position:absolute;left:575px;top:-13px;" src="images/under_job.png" height="176px;" /><img style="position:absolute;margin:0 auto;top:3px;" src="images/heroes/job/'+heroName+'/SP.png" height="105px" /><img style="position:absolute;top:98px;left:687px;" src="images/classes/'+SPclass+classStats[chb[1]-1][2]+'.png" height="35px" /></div>';
 	} else {
 		clSP.innerHTML = '<div style="display:block;width:100%;height:176px;position:relative;"><img style="position:absolute;left:575px;top:-13px;" src="images/under_job.png" height="176px;" /><img style="position:absolute;margin:0 auto;top:3px;" src="images/heroes/job/'+heroName+'/SP.png" height="105px" /><img style="position:absolute;top:98px;left:687px;" src="images/classes/'+SPclass+classStats[chb[2]-1][2]+'.png" height="35px" /></div>';
@@ -731,7 +737,11 @@ if (dataTable[hero_number][47]==''){
 	for (i=0;i<persSP.length;i++){
 		if (SPskills[(persSP[i]-1)][2]=='1'){cc='33px';}else{cc='24px';}
 		if (i==0){fl = "left";} else {fl = "right";}
-		clSP.innerHTML += '<div style="display:block;width:48%;height:auto;float:'+fl+';"><div style="text-align:left;display:block;width:90%;height:auto;float:left;"><div style="position:relative;display:block;width:100px;height:100px;float:left;"><img style="position:absolute;top:2px;left:2px;" src="images/skills/SP skills/'+ SPskills[persSP[i]-1][1] +'.png" height="80px" /><img style="position:absolute;" src="images/Border_Icon_skill.png" height="84px" /><img style="position:absolute;top:73px;left:'+cc+';" src="images/'+SPskills[(persSP[i]-1)][2]+'c.png" height="16px" /></div><div style="display:block;width:70%;height:auto;float:left;"><b style="vertical-align:top;">'+SPskills[persSP[i]-1][1]+'</b>  <img src="images/sp skill.png"  height="20px" /><br><br><img src="images/sold_stats.png" height="20px"><span style="vertical-align:super;margin-right:30px;display:inline-block;width:156px;">'+skill_type[SPskills[persSP[i]-1][3]]+'</span><img src="images/sold_stats.png" height="20px"><span style="vertical-align:super;margin-right:30px;">Перезарядка: '+SPskills[persSP[i]-1][6]+'</span><br><img src="images/sold_stats.png" height="20px"><span style="vertical-align:super;margin-right:30px;display:inline-block;width:156px;">Дальность: '+SPskills[persSP[i]-1][4]+'</span><img src="images/sold_stats.png" height="20px"><span style="vertical-align:super;margin-right:30px;">Диапазон: '+SPskills[persSP[i]-1][5]+'</span></div></div><div style="text-align:left;display:block;width:97%;height:auto;float:left;white-space:pre-wrap;">'+SPskills[persSP[i]-1][7]+'</div></div>';
+		if (heroName == 'Лэйд'){
+			clSP.innerHTML += '<div style="display:block;width:48%;height:auto;float:'+fl+';"><div style="text-align:left;display:block;width:90%;height:auto;float:left;"><div style="position:relative;display:block;width:100px;height:100px;float:left;"><img style="position:absolute;top:2px;left:2px;" src="images/skills/SP skills/'+ SPskills[persSP[i]-1][1] +'.png" height="80px" /><img style="position:absolute;" src="images/Border_Icon_skill.png" height="84px" /><img style="position:absolute;top:73px;left:'+cc+';" src="images/'+SPskills[(persSP[i]-1)][2]+'c.png" height="16px" /></div><div style="display:block;width:70%;height:auto;float:left;"><b style="vertical-align:top;">'+SPskills[persSP[i]-1][1]+'</b>  <img src="images/hero_filter/range/SSR.png"  height="15" /><br><br><img src="images/sold_stats.png" height="20px"><span style="vertical-align:super;margin-right:30px;display:inline-block;width:156px;">'+skill_type[SPskills[persSP[i]-1][3]]+'</span><img src="images/sold_stats.png" height="20px"><span style="vertical-align:super;margin-right:30px;">Перезарядка: '+SPskills[persSP[i]-1][6]+'</span><br><img src="images/sold_stats.png" height="20px"><span style="vertical-align:super;margin-right:30px;display:inline-block;width:156px;">Дальность: '+SPskills[persSP[i]-1][4]+'</span><img src="images/sold_stats.png" height="20px"><span style="vertical-align:super;margin-right:30px;">Диапазон: '+SPskills[persSP[i]-1][5]+'</span></div></div><div style="text-align:left;display:block;width:97%;height:auto;float:left;white-space:pre-wrap;">'+SPskills[persSP[i]-1][7]+'</div></div>';
+		} else {
+			clSP.innerHTML += '<div style="display:block;width:48%;height:auto;float:'+fl+';"><div style="text-align:left;display:block;width:90%;height:auto;float:left;"><div style="position:relative;display:block;width:100px;height:100px;float:left;"><img style="position:absolute;top:2px;left:2px;" src="images/skills/SP skills/'+ SPskills[persSP[i]-1][1] +'.png" height="80px" /><img style="position:absolute;" src="images/Border_Icon_skill.png" height="84px" /><img style="position:absolute;top:73px;left:'+cc+';" src="images/'+SPskills[(persSP[i]-1)][2]+'c.png" height="16px" /></div><div style="display:block;width:70%;height:auto;float:left;"><b style="vertical-align:top;">'+SPskills[persSP[i]-1][1]+'</b>  <img src="images/<img src="images/hero_filter/range/SSR.png"  height="15" /><br><br><img src="images/sold_stats.png" height="20px"><span style="vertical-align:super;margin-right:30px;display:inline-block;width:156px;">'+skill_type[SPskills[persSP[i]-1][3]]+'</span><img src="images/sold_stats.png" height="20px"><span style="vertical-align:super;margin-right:30px;">Перезарядка: '+SPskills[persSP[i]-1][6]+'</span><br><img src="images/sold_stats.png" height="20px"><span style="vertical-align:super;margin-right:30px;display:inline-block;width:156px;">Дальность: '+SPskills[persSP[i]-1][4]+'</span><img src="images/sold_stats.png" height="20px"><span style="vertical-align:super;margin-right:30px;">Диапазон: '+SPskills[persSP[i]-1][5]+'</span></div></div><div style="text-align:left;display:block;width:97%;height:auto;float:left;white-space:pre-wrap;">'+SPskills[persSP[i]-1][7]+'</div></div>';
+		}
 	}
 }
 
@@ -787,7 +797,7 @@ if (startB[hero_number][1]==''){
 		mozaik3.style.display="none";
 	}
 	//SP build
-	if (dataTable[hero_number][47]!==''){
+	if (dataTable[hero_number][47]!=='' && heroName !== "Лэйд"){
 		if (dataTable[hero_number][27].split(",").length!==2){
 			h_info5.innerHTML += '<img src="images/shadow.png" width="100%" height="20px" /><div style="display:block;width:100%;height:auto;text-align:center;margin-top:5px;"><img src="images/hero_filter/range/SP.png" height="40px;"/></div>';
 		} else {

@@ -888,6 +888,21 @@ var persItemDat = [
         "ЗАЩ +5%. При использование Щитом умение обозначения зоны он получает Комманду: 'Когда другие нелетающие союзники проходят через зону щита они дополнительно получают шанс убрать 1 клетку снижения мобильности'. Сам щит получает способность 'Вступает в бой вместо союзников в радиусе 3 клеток'.",
         "DEF +5%. When using the Shield zone designation skill, it receives Command: “When other non-flying allies pass through the shield zone, they additionally gain a chance to remove 1 cell of mobility reduction.” The shield itself gains the ability “Enter battle instead of allies within a radius of 3 cells.”"
     ],
+	[
+        "Илия",
+        "Ilia",
+        "Глобал - 08.10.2026",
+        "Global - 08.10.2026",
+        "hat",
+        "364",
+        "",
+        "",
+        "",
+        "65",
+        "",
+        "ОЗ +10%. В конце действия, если [Ангела правосудия] был призван или перемещен, накладывает 1 стак [Сияющего Благословения] на 2 ближайших союзников.",
+        "HP +10%. At the end of the action, if [Angel of Justice] was summoned or moved, place 1 stack of [Luminous Blessing] on 2 nearby allies."
+    ],
     [
         "Илюсия",
         "Ilucia",
