@@ -1788,6 +1788,21 @@ var persItemDat = [
         "ATK +5%, Мобильность +1. Когда у вас есть минимум 4 эффекта [неземной силы], всегда можете проходить сквозь врагов во время движения. Когда у вас есть 7 эффектов [неземной силы], после нанесения урона накладывает на вражеского юнита мощный дебафф.",
         "ATK +5%, Movement +1. When this unit has 4 or more stacks of [Otherworldly Force], then it may ignore enemy unit obstruction. When this unit has 7 stacks of [Otherworldly Force], then inflict 1 random debuff on enemies after dealing damage."
     ],
+	[
+        "Лея",
+        "Reah",
+        "Глобал - 05.11.2026",
+        "Global - 05.11.2026",
+        "hat",
+        "583",
+        "",
+        "",
+        "",
+        "48",
+        "",
+        "ОЗ +10%. За каждый ход действия [Блеск] наносимый урон увеличивается на 4%. Когда АоЕ навык поражает 3 и более врагов, получает 1 стак [Блеск] и уменьшает время восстановления навыка с самым длинным временем восстановления на 2.",
+        "HP +10%. For each stack of [Brilliance] damage dealt increases by 4%. When an AoE skill hits 3 or more enemies, gain 1 stack of [Brilliance] and reduce the cooldown of the skill with the longest cooldown by 2."
+    ],
     [
         "Рената",
         "Renata",

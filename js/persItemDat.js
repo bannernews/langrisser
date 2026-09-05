@@ -1128,6 +1128,21 @@ var persItemDat = [
         "ЗАЩ +10%. Когда получаете урон, местность больше не влияет на мобильность. Длится 1 ход.",
         "DEF +10%. After taking damage, gain 'Movement is not affected by terrain'. Lasts 1 turn."
     ],
+	[
+        "Лея",
+        "Reah",
+        "Глобал - 05.11.2026",
+        "Global - 05.11.2026",
+        "hat",
+        "583",
+        "",
+        "",
+        "",
+        "48",
+        "",
+        "ОЗ +10%. За каждый ход действия [Блеск] наносимый урон увеличивается на 4%. Когда АоЕ навык поражает 3 и более врагов, получает 1 стак [Блеск] и уменьшает время восстановления навыка с самым длинным временем восстановления на 2.",
+        "HP +10%. For each stack of [Brilliance] damage dealt increases by 4%. When an AoE skill hits 3 or more enemies, gain 1 stack of [Brilliance] and reduce the cooldown of the skill with the longest cooldown by 2."
+    ],
     [
         "Лиана",
         "Liana",
