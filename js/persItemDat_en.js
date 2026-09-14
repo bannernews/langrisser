@@ -1789,6 +1789,21 @@ var persItemDat = [
         "ATK +5%, Movement +1. When this unit has 4 or more stacks of [Otherworldly Force], then it may ignore enemy unit obstruction. When this unit has 7 stacks of [Otherworldly Force], then inflict 1 random debuff on enemies after dealing damage."
     ],
 	[
+        "Рапьер",
+        "Rapier",
+        "Глобал - 03.12.2026",
+        "Global - 03.12.2026",
+        "weapon",
+        "437",
+        "107",
+        "",
+        "",
+        "",
+        "",
+        "АТК +10%. Когда юнит активирует эффект 'действовать снова' и 'телепорт' режим передвижения меняется на мастер-партизан и при движении можно проходить сквозь врагов, действует 2 хода. При сражении с противником у которого есть эффект [Последний Трибунал], юнит становится невосприимчив к накладываемым противником дебаффам и после боя восстанавливает ОЗ равное 30% от нанесённого в бою урона.",
+        "ATK +10%. When the unit activates 'Act Again' and 'Teleport' effects,  movement type changes to 'Terrain Master' and allowing to pass through enemies while moving; this effect lasts for 2 turns. When battling an opponent with the [Final Tribunal] effect, unit becomes immune to debuffs applied by that opponent and restores HP equal to 30% of the damage dealt during the battle."
+    ],
+	[
         "Лея",
         "Reah",
         "Глобал - 05.11.2026",

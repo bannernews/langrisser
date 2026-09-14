@@ -1683,6 +1683,21 @@ var persItemDat = [
         "Когда враг получает эффект [разоблачение], если герой уже действовал на этом ходу, может совершить действие еще раз (1 раз за ход). Враги с [Взор] в конце своего действия накладывают [разоблачение] на ближайших врагов по прямым линиям.",
         "When an enemy obtain [Penetrate], if the hero has already acted this turn, can perform the action again (once per turn). Enemies with [Gaze] afflict [Penetrate] on nearby enemies in straight lines at the end of their action."
     ],
+	[
+        "Рапьер",
+        "Rapier",
+        "Глобал - 03.12.2026",
+        "Global - 03.12.2026",
+        "weapon",
+        "437",
+        "107",
+        "",
+        "",
+        "",
+        "",
+        "АТК +10%. Когда юнит активирует эффект 'действовать снова' и 'телепорт' режим передвижения меняется на мастер-партизан и при движении можно проходить сквозь врагов, действует 2 хода. При сражении с противником у которого есть эффект [Последний Трибунал], юнит становится невосприимчив к накладываемым противником дебаффам и после боя восстанавливает ОЗ равное 30% от нанесённого в бою урона.",
+        "ATK +10%. When the unit activates 'Act Again' and 'Teleport' effects,  movement type changes to 'Terrain Master' and allowing to pass through enemies while moving; this effect lasts for 2 turns. When battling an opponent with the [Final Tribunal] effect, unit becomes immune to debuffs applied by that opponent and restores HP equal to 30% of the damage dealt during the battle."
+    ],
     [
         "Рейнфорс",
         "Rainforce",

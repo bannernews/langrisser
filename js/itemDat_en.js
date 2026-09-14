@@ -702,6 +702,20 @@ var itemDat = [
         "All stats +5%. When attacked by an enemy and damaged or when dying, the enemy is inflicted with the [Loss of Control] effect for 1 turn. This equipment effect becomes unavailable for 1 turn when the unit is actively attacking. (In PVE mode, the effect is replaced with 'damage taken +20%')",
         "accs"
     ],
+	[
+        "Акс 10",
+        "---",
+        "accessoir",
+        "",
+        "75",
+        "75",
+        "",
+        "4",
+        "",
+        "АТК и ИНТ +8%. При использовании навыка получает 1 стак [заряд гримуара]. Получает дополнительный заряд за каждый ход перезарядки навыка (максимум 3). Не может быть снято. При получении лечения или [щит] расходует 1 стак и сокращает время перезарядки навыка с самым длинным временем перезарядки на 1, а также снимает 1 дебафф.",
+        "All stats +5%. When attacked by an enemy and damaged or when dying, the enemy is inflicted with the [Loss of Control] effect for 1 turn. This equipment effect becomes unavailable for 1 turn when the unit is actively attacking. ATK and INT +8%. When using a skill, gains 1 stack of [Grimoire Charge]. Gains an additional stack for every turn of the skill's cooldown (max 3). Cannot be dispelled. When receiving healing or a [shield], consumes 1 stack to reduce the cooldown of the skill with the longest cooldown by 1 and remove 1 debuff.",
+        "accs"
+    ],
     [
         "Броня Энея",
         "Aeneas' Armor",
@@ -1304,6 +1318,20 @@ var itemDat = [
         "HP +10%. When attacked by an enemy whose mobility is lower than the unit's and the unit enters combat, the enemy is given a 'damage taken +20%' debuff for 2 turns.",
         "light"
     ],
+	[
+        "Броня 10",
+        "---",
+        "body",
+        "509",
+        "",
+        "",
+        "59",
+        "",
+        "",
+        "ОЗ +10%. При активной атаке, если у цели есть дебафф до начала боя, наносит фиксированный урон равный 0.5х от МЗАЩ. Во время боя получаемый урон снижается на 15%. Все эти значения увеличиваются на 1 раз за каждый дополнительный дебафф (максимум до 3 раз).",
+        "HP +10%. When actively attacking, if the target has a debuff before combat begins, deals fixed damage equal to 0.5x MDEF. Damage taken during combat is reduced by 15%. All this effects increases once for each additional debuff (up to a maximum of 3 times).",
+        "light"
+    ],
     [
         "Шлем Энея",
         "Aeneas' Helmet",
@@ -1891,6 +1919,20 @@ var itemDat = [
         "ЗАЩ +10%. Когда юнит атакован врагом, у которого есть дебафф, длительность одного случайного дебаффа на враге +1, а длительность одного случайного дебаффа на юните -1.",
         "DEF +10%. When a unit is attacked by an enemy with a debuff, the duration of one random debuff on the enemy is +1 and the duration of one random debuff on the unit is -1.",
         "heavy"
+    ],
+	[
+        "Головной убор 10",
+        "---",
+        "hat",
+        "364",
+        "",
+        "",
+        "",
+        "65",
+        "",
+        "ОЗ +10%. В конце хода, если юнит находится на местности 'Лес' или 'Пастбище', восстанавливает 15% потерянных ОЗ и получает 1 случайный эффект.",
+        "HP +10%. At the end of the turn, if the unit is on 'Forest' or 'Plain terrain, it restores 15% of lost HP and gains 1 random effect.",
+        "cloth"
     ],
     [
         "Меч клятвы",
@@ -2731,6 +2773,20 @@ var itemDat = [
         "АТК +10%. При активной атаке и вступлении в бой, если у врага есть дебаффы игнорируется 10% его ЗАЩ, а также перед боем с цели снимаются баффы в колличестве равном колличеству дебаффов (максимум до 5).",
         "ATK +10%. When actively attacking and entering combat, if the enemy has debuffs, 10% of their DEF is ignored. Also before combat removes buffs equal to the number of debuffs on the target (maximum 5).",
         "sword"
+    ],
+	[
+        "Оружие 10",
+        "---",
+        "weapon",
+        "",
+        "96",
+        "",
+        "",
+        "",
+        "53",
+        "АТК +10%. При активной атаке и нанесении критического удара в бою  АТК/ИНТ противника -25%, АТК/ИНТ юнита +25%. Действует 2 хода.",
+        "ATK +10%. When doing a critical hit in battle during an active attack, the enemy's ATK/INT decreases by 25% and the unit's ATK/INT increases by 25%. Lasts for 2 turns.",
+        "dagger"
     ]
 ]
 
