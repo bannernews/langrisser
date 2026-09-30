@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>Солдаты</title>  <!--название странички на вкладке сайта-->
+    <title>SP солдаты</title>  <!--название странички на вкладке сайта-->
     <link rel="icon" type="image/png" href="favicon.png">  <!--иконка на вкладке сайта-->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes" />
@@ -12,8 +12,8 @@
 
 <body style="background-color: #629786;">
 <div id="top" style="display:block;width:1320px;margin:0 auto;">
-	<div style="text-align:left;display:block;width:200px;float:left;">Русский | <a href="soldiers_en.html" style="color: antiquewhite;">English</a></div>
-	<div style="display:flex;width:30px;margin-left:650px;height:25px;"><a id="mobswap" href="soldiers_mob.html"><img src="images/mob.png" height="25px"></a></div>
+	<div style="text-align:left;display:block;width:200px;float:left;">Русский | <a href="soldiers_sp_en.html" style="color: antiquewhite;">English</a></div>
+	<div style="display:flex;width:30px;margin-left:650px;height:25px;"><a id="mobswap" href="soldiers_mob_sp.html"><img src="images/mob.png" height="25px"></a></div>
 	<hr noshade style="border-color: #d8c2a9;">
 	<div class="menu"><a href="heroes.html">Герои</a></div>
 	<div class="menu menumore">Снаряжение
@@ -42,22 +42,21 @@
 	<hr noshade style="border-color: #d8c2a9;">
 </div>
 <div id="middle" style="width:1320px;margin:0 auto;padding-top:7px;white-space: nowrap;">
-	<span id="title" style="display:block;width:200px;margin:0 auto;font-size: 30px;color:#d8c2a9;">Солдаты</span><br>
+	<span id="title" style="display:block;width:200px;margin:0 auto;font-size: 30px;color:#d8c2a9;">SP солдаты</span><br>
 	<div id="left_filter" style="display:inline-block;width:205px;vertical-align: top;margin-left: 15px;position:sticky;top:10px;">Фильтр по классу<br><img src="images/shadow.png" height="30px" width="210px" /><br>
 	<table border='0' cellspacing='0' cellpadding='0' width="200px" style="padding:10px 0 10px 0;margin:0px;">
-		<tr><td class="filt active_f" style="display:table-cell;" onclick=soldView('sword') width="67px"><img src="images/classes/sword.png" width="65px" /></td>
-		<td class="filt" style="display:table-cell;" onclick=soldView('lance') width="67px"><img src="images/classes/lance.png" width="65px" /></td>
-		<td class="filt" style="display:table-cell;" onclick=soldView('cavalry') width="67px"><img src="images/classes/cavalry.png" width="65px" /></td></tr>
-		<tr><td class="filt" style="display:table-cell;" onclick=soldView('fly') width="67px"><img src="images/classes/fly.png" width="65px" /></td>
+		<tr><td class="filt active_f" style="display:table-cell;" onclick=soldView('sword') width="67px"><img src="images/classes/SP/sword.png" width="65px" /></td>
+		<td class="filt" style="display:table-cell;" onclick=soldView('lance') width="67px"><img src="images/classes/SP/lance.png" width="65px" /></td>
+		<td class="filt" style="display:table-cell;" onclick=soldView('cavalry') width="67px"><img src="images/classes/SP/cavalry.png" width="65px" /></td></tr>
+		<tr><td class="filt" style="display:table-cell;" onclick=soldView('fly') width="67px"><img src="images/classes/SP/fly.png" width="65px" /></td>
 		<td style="display:table-cell;" width="67px"></td>
-		<td class="filt" style="display:table-cell;" onclick=soldView('water') width="67px"><img src="images/classes/water.png" width="65px" /></td></tr>
-		<tr><td class="filt" style="display:table-cell;" onclick=soldView('bow') width="67px"><img src="images/classes/bow.png" width="65px" /></td>
+		<td class="filt" style="display:table-cell;" onclick=soldView('water') width="67px"><img src="images/classes/SP/water.png" width="65px" /></td></tr>
+		<tr><td class="filt" style="display:table-cell;" onclick=soldView('bow') width="67px"><img src="images/classes/SP/bow.png" width="65px" /></td>
 		<td style="display:table-cell;" width="67px"></td>
-		<td class="filt" style="display:table-cell;" onclick=soldView('assasin') width="67px"><img src="images/classes/assasin.png" width="65px" /></td></tr>
-		<tr><td class="filt" style="display:table-cell;" onclick=soldView('mage') width="67px"><img src="images/classes/mage.png" width="65px" /></td>
-		<td class="filt" style="display:table-cell;" onclick=soldView('holy') width="67px"><img src="images/classes/holy.png" width="65px" /></td>
-		<td class="filt" style="display:table-cell;" onclick=soldView('demon') width="67px"><img src="images/classes/demon.png" width="65px" /></td></tr>
-		
+		<td class="filt" style="display:table-cell;" onclick=soldView('assasin') width="67px"><img src="images/classes/SP/assasin.png" width="65px" /></td></tr>
+		<tr><td class="filt" style="display:table-cell;" onclick=soldView('mage') width="67px"><img src="images/classes/SP/mage.png" width="65px" /></td>
+		<td class="filt" style="display:table-cell;" onclick=soldView('holy') width="67px"><img src="images/classes/SP/holy.png" width="65px" /></td>
+		<td class="filt" style="display:table-cell;" onclick=soldView('demon') width="67px"><img src="images/classes/SP/demon.png" width="65px" /></td></tr>
 	</table>
 	
 <!--		<div class="filt active_f" onclick=soldView('sword') style="float: left;"><img src="images/classes/sword.png" height="70px" /></div>
@@ -86,7 +85,7 @@
 			<script src="js/browser.min.js"></script>
 			<script src="js/breakpoints.min.js"></script>
 			<script src="js/util.js"></script> -->
-		<script src="js/soldDat.js"></script>
+		<script src="js/soldDat_sp.js"></script>
 		<script src="js/main.js"></script>
 	<script type="text/javascript">
 		window.onload = soldView('sword');   //при загрузке страницы автоматически фильтр по мечникам
