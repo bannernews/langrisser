@@ -518,6 +518,7 @@ function iconC0Open(){
 
 undw = "-11px";
 cli = "50px";
+clas2 = "58px";
 //1A
 if (dataTable[hero_number][34]=='' && dataTable[hero_number][35]==''){
 	if (heroName == 'Алканфель' || heroName == 'Макишима Агито' || heroName == 'Шо Фукамачи' || heroName == 'Мари Роуз' || heroName == 'Ниотэнгу' || heroName == 'Касуми' || heroName == 'Люси' || heroName == 'Эльза' || heroName == 'Нацу' || heroName == 'Райза' || heroName == 'Лила' || heroName == 'Клаудия' || heroName == 'Д-мен' || heroName == 'Синья' || heroName == 'Миюки' || heroName == 'Шурато' || heroName == 'Гай' || heroName == 'Реига'){
@@ -529,9 +530,10 @@ if (dataTable[hero_number][34]=='' && dataTable[hero_number][35]==''){
 		cl22.style.width = "0";
 		glminus.style.display = 'none';
 		glminus2.style.display = 'none';
-		undw = "565px";
-		cli = "677px";
+		undw = "83px";
+		cli = "181px";
 		bre = '';
+		clas2 = "158px";
 	} else {
 		cl10.style.display = 'none';
 		cl11.style.width = "50%";
@@ -544,6 +546,7 @@ if (dataTable[hero_number][34]=='' && dataTable[hero_number][35]==''){
 		undw = "-14px";
 		cli = "83px";
 		bre = '';
+		clas2 = "58px";
 	}
 } else {
 	if (dataTable[hero_number][36]=='' && dataTable[hero_number][37]==''){undw="-14px"}
@@ -552,7 +555,7 @@ if (dataTable[hero_number][34]=='' && dataTable[hero_number][35]==''){
 	if ((dataTable[hero_number][34]!=='' || dataTable[hero_number][35]!=='') && (dataTable[hero_number][36]!=='' || dataTable[hero_number][37]!=='') && (dataTable[hero_number][38]!=='' || dataTable[hero_number][39]!=='')){
 		cl10.innerHTML = '<div id="a1" style="display:block;width:100%;height:85px;position:relative;"><img onclick="iconC1aOpen()" style="position:absolute;left:'+undw+';top:-13px;" src="images/under_job.png" height="100px;" /><img  onclick="iconC1aOpen()" style="position:absolute;left:38px;top:-2px;" src="images/heroes/job/'+heroName+'/1A.png" height="57px" /></div>';
 	} else {
-		cl10.innerHTML = '<div id="a1" style="display:block;width:100%;height:130px;position:relative;"><img onclick="iconC1aOpen()" style="position:absolute;left:'+undw+';top:-13px;" src="images/under_job.png" height="156px;" /><img  onclick="iconC1aOpen()" style="position:absolute;left:58px;top:-1px;" src="images/heroes/job/'+heroName+'/1A.png" height="95px" /></div>';
+		cl10.innerHTML = '<div id="a1" style="display:block;width:100%;height:130px;position:relative;"><img onclick="iconC1aOpen()" style="position:absolute;left:'+undw+';top:-13px;" src="images/under_job.png" height="156px;" /><img  onclick="iconC1aOpen()" style="position:absolute;left:'+clas2+';top:-1px;" src="images/heroes/job/'+heroName+'/1A.png" height="95px" /></div>';
 	}
 }
 
@@ -567,9 +570,10 @@ if (dataTable[hero_number][36]=='' && dataTable[hero_number][37]==''){
 		cl22.style.width = "0";
 		glminus.style.display = 'none';
 		glminus2.style.display = 'none';
-		undw = "565px";
-		cli = "677px";
+		undw = "83px";
+		cli = "181px";
 		bre = '';
+		clas2 = "158px";
 	} else {
 		cl10.style.width = '50%';
 		cl11.style.display = "none";
@@ -582,13 +586,14 @@ if (dataTable[hero_number][36]=='' && dataTable[hero_number][37]==''){
 		undw = "-14px";
 		cli = "83px";
 		bre = '';
+		clas2 = "58px";
 	}
 } else {
 	bre = '<br>';
 	if ((dataTable[hero_number][34]!=='' || dataTable[hero_number][35]!=='') && (dataTable[hero_number][36]!=='' || dataTable[hero_number][37]!=='') && (dataTable[hero_number][38]!=='' || dataTable[hero_number][39]!=='')){
 		cl11.innerHTML = '<div id="b1" style="display:block;width:100%;height:85px;position:relative;"><img onclick="iconC1bOpen()" style="position:absolute;left:'+undw+';top:-13px;" src="images/under_job.png" height="100px;" /><img  onclick="iconC1bOpen()" style="position:absolute;left:38px;top:-2px;" src="images/heroes/job/'+heroName+'/1B.png" height="57px" /></div>';
 	} else {
-		cl11.innerHTML = '<div id="b1" style="display:block;width:100%;height:130px;position:relative;"><img onclick="iconC1bOpen()" style="position:absolute;left:'+undw+';top:-13px;" src="images/under_job.png" height="156px;" /><img  onclick="iconC1bOpen()" style="position:absolute;left:58px;top:-1px;" src="images/heroes/job/'+heroName+'/1B.png" height="95px" /></div>';
+		cl11.innerHTML = '<div id="b1" style="display:block;width:100%;height:130px;position:relative;"><img onclick="iconC1bOpen()" style="position:absolute;left:'+undw+';top:-13px;" src="images/under_job.png" height="156px;" /><img  onclick="iconC1bOpen()" style="position:absolute;left:'+clas2+';top:-1px;" src="images/heroes/job/'+heroName+'/1B.png" height="95px" /></div>';
 	}
 }
 //1C
@@ -602,9 +607,10 @@ if (dataTable[hero_number][38]=='' && dataTable[hero_number][39]==''){
 		cl22.style.width = "0";
 		glminus.style.display = 'none';
 		glminus2.style.display = 'none';
-		undw = "565px";
-		cli = "677px";
+		undw = "83px";
+		cli = "181px";
 		bre = '';
+		clas2 = "158px";
 	} else {
 		cl10.style.width = '50%';
 		cl11.style.width = "50%";
@@ -617,13 +623,14 @@ if (dataTable[hero_number][38]=='' && dataTable[hero_number][39]==''){
 		undw = "-14px";
 		cli = "83px";
 		bre = '';
+		clas2 = "58px";
 	}
 } else {
 	bre = '<br>';
 	if ((dataTable[hero_number][34]!=='' || dataTable[hero_number][35]!=='') && (dataTable[hero_number][36]!=='' || dataTable[hero_number][37]!=='') && (dataTable[hero_number][38]!=='' || dataTable[hero_number][39]!=='')){
 		cl12.innerHTML = '<div id="c1" style="display:block;width:100%;height:85px;position:relative;"><img onclick="iconC1cOpen()" style="position:absolute;left:'+undw+';top:-13px;" src="images/under_job.png" height="100px;" /><img  onclick="iconC1cOpen()" style="position:absolute;left:38px;top:-2px;" src="images/heroes/job/'+heroName+'/1C.png" height="57px" /></div>';
 	} else {
-		cl12.innerHTML = '<div id="c1" style="display:block;width:100%;height:130px;position:relative;"><img onclick="iconC1cOpen()" style="position:absolute;left:'+undw+';top:-13px;" src="images/under_job.png" height="156px;" /><img  onclick="iconC1cOpen()" style="position:absolute;left:58px;top:-1px;" src="images/heroes/job/'+heroName+'/1C.png" height="95px" /></div>';
+		cl12.innerHTML = '<div id="c1" style="display:block;width:100%;height:130px;position:relative;"><img onclick="iconC1cOpen()" style="position:absolute;left:'+undw+';top:-13px;" src="images/under_job.png" height="156px;" /><img  onclick="iconC1cOpen()" style="position:absolute;left:'+clas2+';top:-1px;" src="images/heroes/job/'+heroName+'/1C.png" height="95px" /></div>';
 	}
 }
 
@@ -729,26 +736,37 @@ if ((dataTable[hero_number][40].split(",").length == dataTable[hero_number][41].
 if (dataTable[hero_number][40]!=='' || dataTable[hero_number][41]!==''){
 	if ((dataTable[hero_number][34]!=='' || dataTable[hero_number][35]!=='') && (dataTable[hero_number][36]!=='' || dataTable[hero_number][37]!=='') && (dataTable[hero_number][38]!=='' || dataTable[hero_number][39]!=='')){
 		cl20.innerHTML = '<div id="a2" style="display:block;width:100%;height:85px;position:relative;"><img onclick=iconC2aOpen() style="position:absolute;left:'+undw+';top:-13px;" src="images/under_job.png" height="100px;" /><img onclick=iconC2aOpen() style="position:absolute;left:38px;top:-2px;" src="images/heroes/job/'+heroName+'/2A.png" height="57px" /><img style="position:absolute;top:52px;left:'+cli+';" src="images/classes/'+classStats[chb[0]-1][2]+'.png" height="25px" /></div>';
+		console.log(classStats[chb[0]-1]);
 	} else {
-		cl20.innerHTML = '<div id="a2" style="display:block;width:100%;height:130px;position:relative;"><img onclick=iconC2aOpen() style="position:absolute;left:'+undw+';top:-13px;" src="images/under_job.png" height="156px;" /><img onclick=iconC2aOpen() style="position:absolute;left:58px;top:-1px;" src="images/heroes/job/'+heroName+'/2A.png" height="95px" /><img style="position:absolute;top:86px;left:'+cli+';" src="images/classes/'+classStats[chb[0]-1][2]+'.png" height="35px" /></div>';
+		cl20.innerHTML = '<div id="a2" style="display:block;width:100%;height:130px;position:relative;"><img onclick=iconC2aOpen() style="position:absolute;left:'+undw+';top:-13px;" src="images/under_job.png" height="156px;" /><img onclick=iconC2aOpen() style="position:absolute;left:'+clas2+';top:-1px;" src="images/heroes/job/'+heroName+'/2A.png" height="95px" /><img style="position:absolute;top:86px;left:'+cli+';" src="images/classes/'+classStats[chb[0]-1][2]+'.png" height="35px" /></div>';
 	}
 } else {cl20.innerHTML ='';}
 //2B
 if ((dataTable[hero_number][42].split(",").length == dataTable[hero_number][43].split(",").length) || (dataTable[hero_number][42].split(",").length ==2)){dop20='<img id="sha0" style="float:left;margin: 10px 0;" src="images/shadow_all.png" width="100%" height="10px" />';dop21 = '';}else{dop20='';dop21='<img id="sha0" style="float:left;margin: 10px 0;" src="images/shadow_all.png" width="100%" height="10px" />';}
 if (dataTable[hero_number][42]!=='' || dataTable[hero_number][43]!==''){
 	if ((dataTable[hero_number][34]!=='' || dataTable[hero_number][35]!=='') && (dataTable[hero_number][36]!=='' || dataTable[hero_number][37]!=='') && (dataTable[hero_number][38]!=='' || dataTable[hero_number][39]!=='')){
-		cl21.innerHTML = '<div id="b2" style="display:block;width:100%;height:85px;position:relative;"><img onclick=iconC2bOpen() style="position:absolute;left:'+undw+';top:-13px;" src="images/under_job.png" height="100px;" /><img onclick=iconC2bOpen() style="position:absolute;left:38px;top:-2px;" src="images/heroes/job/'+heroName+'/2B.png" height="57px" /><img style="position:absolute;top:52px;left:'+cli+';" src="images/classes/'+classStats[chb[0]-1][2]+'.png" height="25px" /></div>';
+		if (dataTable[hero_number][40]=='' && dataTable[hero_number][41]==''){
+			cl21.innerHTML = '<div id="b2" style="display:block;width:100%;height:85px;position:relative;"><img onclick=iconC2bOpen() style="position:absolute;left:'+undw+';top:-13px;" src="images/under_job.png" height="100px;" /><img onclick=iconC2bOpen() style="position:absolute;left:38px;top:-2px;" src="images/heroes/job/'+heroName+'/2B.png" height="57px" /><img style="position:absolute;top:52px;left:'+cli+';" src="images/classes/'+classStats[chb[0]-1][2]+'.png" height="25px" /></div>';
+		} else {
+			cl21.innerHTML = '<div id="b2" style="display:block;width:100%;height:85px;position:relative;"><img onclick=iconC2bOpen() style="position:absolute;left:'+undw+';top:-13px;" src="images/under_job.png" height="100px;" /><img onclick=iconC2bOpen() style="position:absolute;left:38px;top:-2px;" src="images/heroes/job/'+heroName+'/2B.png" height="57px" /><img style="position:absolute;top:52px;left:'+cli+';" src="images/classes/'+classStats[chb[1]-1][2]+'.png" height="25px" /></div>';
+		}
+		console.log(classStats[chb[0]-1]);
 	} else {
-		cl21.innerHTML = '<div id="b2" style="display:block;width:100%;height:130px;position:relative;"><img onclick=iconC2bOpen() style="position:absolute;left:'+undw+';top:-13px;" src="images/under_job.png" height="156px;" /><img onclick=iconC2bOpen() style="position:absolute;left:58px;top:-1px;" src="images/heroes/job/'+heroName+'/2B.png" height="95px" /><img style="position:absolute;top:86px;left:'+cli+';" src="images/classes/'+classStats[chb[0]-1][2]+'.png" height="35px" /></div>';
+		cl21.innerHTML = '<div id="b2" style="display:block;width:100%;height:130px;position:relative;"><img onclick=iconC2bOpen() style="position:absolute;left:'+undw+';top:-13px;" src="images/under_job.png" height="156px;" /><img onclick=iconC2bOpen() style="position:absolute;left:'+clas2+';top:-1px;" src="images/heroes/job/'+heroName+'/2B.png" height="95px" /><img style="position:absolute;top:86px;left:'+cli+';" src="images/classes/'+classStats[chb[0]-1][2]+'.png" height="35px" /></div>';
 	}
 } else {cl21.innerHTML ='';}
 //2C
 if (dataTable[hero_number][44].split(",").length == dataTable[hero_number][45].split(",").length){dop30='<img id="sha0" style="float:left;margin: 10px 0;" src="images/shadow_all.png" width="100%" height="10px" />';dop31 = '';}else{dop30='<img id="sha0" style="float:left;margin: 10px 0;" src="images/shadow_all.png" width="100%" height="10px" />';dop31='<img id="sha0" style="float:left;margin: 10px 0;" src="images/shadow_all.png" width="100%" height="10px" />';}
 if (dataTable[hero_number][44]!=='' || dataTable[hero_number][45]!==''){
 	if ((dataTable[hero_number][34]!=='' || dataTable[hero_number][35]!=='') && (dataTable[hero_number][36]!=='' || dataTable[hero_number][37]!=='') && (dataTable[hero_number][38]!=='' || dataTable[hero_number][39]!=='')){
-		cl22.innerHTML = '<div id="c2" style="display:block;width:100%;height:85px;position:relative;"><img onclick=iconC2cOpen() style="position:absolute;left:'+undw+';top:-13px;" src="images/under_job.png" height="100px;" /><img onclick=iconC2cOpen() style="position:absolute;left:38px;top:-2px;" src="images/heroes/job/'+heroName+'/2C.png" height="57px" /><img style="position:absolute;top:52px;left:'+cli+';" src="images/classes/'+classStats[chb[2]-1][2]+'.png" height="25px" /></div>';
+		if (dataTable[hero_number][40]=='' && dataTable[hero_number][41]==''){
+			cl22.innerHTML = '<div id="c2" style="display:block;width:100%;height:85px;position:relative;"><img onclick=iconC2cOpen() style="position:absolute;left:'+undw+';top:-13px;" src="images/under_job.png" height="100px;" /><img onclick=iconC2cOpen() style="position:absolute;left:38px;top:-2px;" src="images/heroes/job/'+heroName+'/2C.png" height="57px" /><img style="position:absolute;top:52px;left:'+cli+';" src="images/classes/'+classStats[chb[1]-1][2]+'.png" height="25px" /></div>';
+		} else {
+			cl22.innerHTML = '<div id="c2" style="display:block;width:100%;height:85px;position:relative;"><img onclick=iconC2cOpen() style="position:absolute;left:'+undw+';top:-13px;" src="images/under_job.png" height="100px;" /><img onclick=iconC2cOpen() style="position:absolute;left:38px;top:-2px;" src="images/heroes/job/'+heroName+'/2C.png" height="57px" /><img style="position:absolute;top:52px;left:'+cli+';" src="images/classes/'+classStats[chb[2]-1][2]+'.png" height="25px" /></div>';
+		}
+		console.log(classStats[chb[1]-1]);
 	} else {
-		cl22.innerHTML = '<div id="c2" style="display:block;width:100%;height:130px;position:relative;"><img onclick=iconC2cOpen() style="position:absolute;left:'+undw+';top:-13px;" src="images/under_job.png" height="156px;" /><img onclick=iconC2cOpen() style="position:absolute;left:58px;top:-1px;" src="images/heroes/job/'+heroName+'/2C.png" height="95px" /><img style="position:absolute;top:86px;left:'+cli+';" src="images/classes/'+classStats[chb[1]-1][2]+'.png" height="35px" /></div>';
+		cl22.innerHTML = '<div id="c2" style="display:block;width:100%;height:130px;position:relative;"><img onclick=iconC2cOpen() style="position:absolute;left:'+undw+';top:-13px;" src="images/under_job.png" height="156px;" /><img onclick=iconC2cOpen() style="position:absolute;left:'+clas2+';top:-1px;" src="images/heroes/job/'+heroName+'/2C.png" height="95px" /><img style="position:absolute;top:86px;left:'+cli+';" src="images/classes/'+classStats[chb[1]-1][2]+'.png" height="35px" /></div>';
 	}
 } else {cl22.innerHTML ='';}
 
