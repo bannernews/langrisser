@@ -1999,7 +1999,7 @@ var persItemDat = [
         "DEF +10%. When attacking and entering battle, unit damage taken -30%. If the target has [Chain of Vengeance], damage taken is further reduced by 20%."
     ],
 	[
-        "Суверен Ледяной Бездны",
+        "Суверен ледяной бездны",
         "Sovereign of the Ice Abyss",
         "Глобал - 31.12.2026",
         "Global - 31.12.2026",

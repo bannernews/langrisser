@@ -2104,7 +2104,7 @@ var persItemDat = [
         "HP +5%. When casting skills on allies, also grant: 'ATK, INT +15%' and 'MDEF +20%'. Lasts 2 turns."
     ],
 	[
-        "Суверен Ледяной Бездны",
+        "Суверен ледяной бездны",
         "Sovereign of the Ice Abyss",
         "Глобал - 31.12.2026",
         "Global - 31.12.2026",
