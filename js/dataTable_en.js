@@ -427,6 +427,123 @@ if (chb.length==2){
 			uzi_dr3.innerHTML += '<a href="hero_en.html?name='+(dratk[i]).replace(/ /g,"%20")+'"><img style="cursor:pointer;margin-left:5px;" style="margin:4px 4px;" src="images/head_circle/'+dratk[i]+'.png" height="'+widthu+'" /></a>';
 		}
 	}
+} else if (chb.length==4){
+	
+	if (Number(classStats[chb[0]-1][3])>Number(classStats[chb[1]-1][3])){ozA='#16ff66'}else{ozA='black'};if (Number(classStats[chb[0]-1][3])<Number(classStats[chb[1]-1][3])){ozB='#16ff66'}else{ozB='black'};
+	if (Number(classStats[chb[0]-1][4])>Number(classStats[chb[1]-1][4])){atkA='#16ff66'}else{atkA='black'};if (Number(classStats[chb[0]-1][4])<Number(classStats[chb[1]-1][4])){atkB='#16ff66'}else{atkB='black'};
+	if (Number(classStats[chb[0]-1][5])>Number(classStats[chb[1]-1][5])){intA='#16ff66'}else{intA='black'};if (Number(classStats[chb[0]-1][5])<Number(classStats[chb[1]-1][5])){intB='#16ff66'}else{intB='black'};
+	if (Number(classStats[chb[0]-1][6])>Number(classStats[chb[1]-1][6])){defA='#16ff66'}else{defA='black'};if (Number(classStats[chb[0]-1][6])<Number(classStats[chb[1]-1][6])){defB='#16ff66'}else{defB='black'};
+	if (Number(classStats[chb[0]-1][7])>Number(classStats[chb[1]-1][7])){mdefA='#16ff66'}else{mdefA='black'};if (Number(classStats[chb[0]-1][7])<Number(classStats[chb[1]-1][7])){mdefB='#16ff66'}else{mdefB='black'};
+	if (Number(classStats[chb[0]-1][8])>Number(classStats[chb[1]-1][8])){skillA='#16ff66'}else{skillA='black'};if (Number(classStats[chb[0]-1][8])<Number(classStats[chb[1]-1][8])){skillB='#16ff66'}else{skillB='black'};
+	
+	if (Number(classStats[chb[2]-1][3])>Number(classStats[chb[3]-1][3])){ozA2='#16ff66'}else{ozA2='black'};if (Number(classStats[chb[2]-1][3])<Number(classStats[chb[3]-1][3])){ozB2='#16ff66'}else{ozB2='black'};
+	if (Number(classStats[chb[2]-1][4])>Number(classStats[chb[3]-1][4])){atkA2='#16ff66'}else{atkA2='black'};if (Number(classStats[chb[2]-1][4])<Number(classStats[chb[3]-1][4])){atkB2='#16ff66'}else{atkB2='black'};
+	if (Number(classStats[chb[2]-1][5])>Number(classStats[chb[3]-1][5])){intA2='#16ff66'}else{intA2='black'};if (Number(classStats[chb[2]-1][5])<Number(classStats[chb[3]-1][5])){intB2='#16ff66'}else{intB2='black'};
+	if (Number(classStats[chb[2]-1][6])>Number(classStats[chb[3]-1][6])){defA2='#16ff66'}else{defA2='black'};if (Number(classStats[chb[2]-1][6])<Number(classStats[chb[3]-1][6])){defB2='#16ff66'}else{defB2='black'};
+	if (Number(classStats[chb[2]-1][7])>Number(classStats[chb[3]-1][7])){mdefA2='#16ff66'}else{mdefA2='black'};if (Number(classStats[chb[2]-1][7])<Number(classStats[chb[3]-1][7])){mdefB2='#16ff66'}else{mdefB2='black'};
+	if (Number(classStats[chb[2]-1][8])>Number(classStats[chb[3]-1][8])){skillA2='#16ff66'}else{skillA2='black'};if (Number(classStats[chb[2]-1][8])<Number(classStats[chb[3]-1][8])){skillB2='#16ff66'}else{skillB2='black'};
+	
+	h_info3.innerHTML = '<table border="0" style="width:100%;"><tr><td style="width:20%;height:190px;border:0;"></td><td id="chb1" style="width:27%;height:190px;position:relative;"></td><td style="height:190px;"></td><td id="chb2" style="width:27%;height:190px;position:relative;"></td></tr><tr><td id="uzi_l3" rowspan="11" style="background-image:url(images/uzi_l.png);background-repeat:no-repeat;">Для личных уз</td><td style="height:20px;font-size:20px;"><img src="images/Icon_Range.png" height="25px" /> '+classStats[chb[0]-1][9]+' <img src="images/'+classStats[chb[0]-1][11]+'.png" height="25px" /> '+classStats[chb[0]-1][10]+'</td><td style="height:20px;"></td><td id="ch2" style="height:20px;font-size:20px;"><img src="images/Icon_Range.png" height="25px" /> '+classStats[chb[1]-1][9]+' <img src="images/'+classStats[chb[1]-1][11]+'.png" height="25px" /> '+classStats[chb[1]-1][10]+'</td></tr><tr style="font-size:20px;"><td style="height:20px;"><span style="color:'+ozA+';">'+classStats[chb[0]-1][3]+'</span></td><td style="height:20px;">HP</td><td style="height:20px;"><span style="color:'+ozB+';">'+classStats[chb[1]-1][3]+'</span></td></tr><tr style="font-size:20px;"><td style="height:20px;"><span style="color:'+atkA+';">'+classStats[chb[0]-1][4]+'</span></td><td style="height:20px;">ATK</td><td style="height:20px;"><span style="color:'+atkB+';">'+classStats[chb[1]-1][4]+'</span></td></tr><tr style="font-size:20px;"><td style="height:20px;"><span style="color:'+intA+';">'+classStats[chb[0]-1][5]+'</span></td><td style="height:20px;">INT</td><td style="height:20px;"><span style="color:'+intB+';">'+classStats[chb[1]-1][5]+'</span></td></tr><tr style="font-size:20px;"><td style="height:20px;"><span style="color:'+defA+';">'+classStats[chb[0]-1][6]+'</span></td><td style="height:20px;">DEF</td><td style="height:20px;"><span style="color:'+defB+';">'+classStats[chb[1]-1][6]+'</span></td></tr><tr style="font-size:20px;"><td style="height:20px;"><span style="color:'+mdefA+';">'+classStats[chb[0]-1][7]+'</span></td><td style="height:20px;">MDEF</td><td style="height:20px;"><span style="color:'+mdefB+';">'+classStats[chb[1]-1][7]+'</span></td></tr><tr style="font-size:20px;"><td style="width:24%;height:20px;"><span style="color:'+skillA+';">'+classStats[chb[0]-1][8]+'</span></td><td style="width:4%;height:20px;">SKILL</td><td style="width:24%;height:20px;"><span style="color:'+skillB+';">'+classStats[chb[1]-1][8]+'</span></td></tr><tr><td colspan="3"><img src="images/shadow.png" width="100%" height="20px" /></td></tr><tr><td style="height:50px;white-space:break-spaces;padding:0 10px;vertical-align:middle;"><span>'+classStats[chb[0]-1][12]+'</span></td><td style="height:50px;"><img src="images/heart.png" height="40px" /><br>4 level</td><td style="height:50px;white-space:break-spaces;padding:0 10px;vertical-align:middle;"><span>'+classStats[chb[1]-1][12]+'</span></td></tr><tr><td style="height:50px;white-space:break-spaces;padding:0 10px;vertical-align:middle;"><span>'+classStats[chb[0]-1][13]+'</span></td><td style="height:50px;"><img src="images/heart.png" height="40px" /><br>7 level</td><td style="height:50px;white-space:break-spaces;padding:0 10px;vertical-align:middle;"><span>'+classStats[chb[1]-1][13]+'</span></td></tr><tr><td style="height:20px;" colspan="4"></td></tr></table><br>';
+	
+	if (dataTable[hero_number][47]!==''){SPclass='/SP/'}else{SPclass=''}
+	var chb1 = document.getElementById("chb1");
+	var chb2 = document.getElementById("chb2");
+	var chibiskin = dataTable[hero_number][26].split(",");
+	var chibi1skin = [];
+	var chibi2skin = [];
+	if (dataTable[hero_number][47]==''){
+		chibi1skin[0]='0'+classStats[chb[0]-1][14]+'.png';
+		chibi2skin[0]='0'+classStats[chb[1]-1][14]+'.png';
+		for (i=1;i<chibiskin.length;i++){
+			chibi1skin[i] = chibiskin[i]+classStats[chb[0]-1][15]+'.png';
+			chibi2skin[i] = chibiskin[i]+classStats[chb[1]-1][15]+'.png';
+		}
+	} else {
+		chibi1skin[0]='0'+classStats[chb[0]-1][14]+'.png';
+		chibi1skin[1]='0'+classStats[chb[0]-1][14]+'.png';
+		chibi2skin[0]='0'+classStats[chb[1]-1][14]+'.png';
+		chibi2skin[1]='0'+classStats[chb[1]-1][14]+'.png';
+		for (i=2;i<chibiskin.length;i++){
+			chibi1skin[i] = chibiskin[i]+classStats[chb[0]-1][15]+'.png';
+			chibi2skin[i] = chibiskin[i]+classStats[chb[1]-1][15]+'.png';
+		}
+	}
+	chb1.innerHTML = '<div id="ch1sl" class="chibi1sl" style="display:block;width:468px;height:200px;"></div>';
+	var ch1sl = document.getElementById("ch1sl");
+	for (i=0;i<chibi1skin.length;i++){
+		ch1sl.innerHTML += '<div style="position:relative;height:200px;width:468px;"><img style="position:absolute;top:0;left:145px;" src="images/moon.png" height="190px" /><img style="position:absolute;top:0;left:157px;" src="images/heroes/heroes_list/'+ heroName +'/Chibi/'+chibi1skin[i]+'" height="180px" /><img style="position:absolute;top:0;left:285px;" src="images/classes/'+classStats[chb[0]-1][2]+'.png" height="60px" /></div>';
+	}
+	chb2.innerHTML = '<div id="ch1s2" class="chibi1s2" style="display:block;width:468px;height:200px;"></div>';
+	var ch1s2 = document.getElementById("ch1s2");
+	for (i=0;i<chibi2skin.length;i++){
+		ch1s2.innerHTML += '<div style="position:relative;height:200px;width:468px;"><img style="position:absolute;top:0;left:145px;" src="images/moon.png" height="190px" /><img style="position:absolute;top:0;left:157px;" src="images/heroes/heroes_list/'+ heroName +'/Chibi/'+chibi2skin[i]+'" height="180px" /><img style="position:absolute;top:0;left:285px;" src="images/classes/'+classStats[chb[1]-1][2]+'.png" height="60px" /></div>';
+	}
+	
+	
+	h_info3.innerHTML += '<table border="0" style="width:100%;"><tr><td style="width:20%;height:190px;border:0;"></td><td id="chb3" style="width:27%;height:190px;position:relative;"></td><td style="height:190px;"></td><td id="chb4" style="width:27%;height:190px;position:relative;"></td></tr><tr><td id="uzi_dr3" rowspan="11" style="background-image:url(images/uzi_l.png);background-repeat:no-repeat;">Для других уз</td><td style="height:20px;font-size:20px;"><img src="images/Icon_Range.png" height="25px" /> '+classStats[chb[2]-1][9]+' <img src="images/'+classStats[chb[2]-1][11]+'.png" height="25px" /> '+classStats[chb[2]-1][10]+'</td><td style="height:20px;"></td><td id="ch3" style="height:20px;font-size:20px;"><img src="images/Icon_Range.png" height="25px" /> '+classStats[chb[3]-1][9]+' <img src="images/'+classStats[chb[3]-1][11]+'.png" height="25px" /> '+classStats[chb[3]-1][10]+'</td></tr><tr style="font-size:20px;"><td style="height:20px;"><span style="color:'+ozA2+';">'+classStats[chb[2]-1][3]+'</span></td><td style="height:20px;">HP</td><td style="height:20px;"><span style="color:'+ozB2+';">'+classStats[chb[3]-1][3]+'</span></td></tr><tr style="font-size:20px;"><td style="height:20px;"><span style="color:'+atkA2+';">'+classStats[chb[2]-1][4]+'</span></td><td style="height:20px;">АТК</td><td style="height:20px;"><span style="color:'+atkB2+';">'+classStats[chb[3]-1][4]+'</span></td></tr><tr style="font-size:20px;"><td style="height:20px;"><span style="color:'+intA2+';">'+classStats[chb[2]-1][5]+'</span></td><td style="height:20px;">INT</td><td style="height:20px;"><span style="color:'+intB2+';">'+classStats[chb[3]-1][5]+'</span></td></tr><tr style="font-size:20px;"><td style="height:20px;"><span style="color:'+defA2+';">'+classStats[chb[2]-1][6]+'</span></td><td style="height:20px;">DEF</td><td style="height:20px;"><span style="color:'+defB2+';">'+classStats[chb[3]-1][6]+'</span></td></tr><tr style="font-size:20px;"><td style="height:20px;"><span style="color:'+mdefA2+';">'+classStats[chb[2]-1][7]+'</span></td><td style="height:20px;">MDEF</td><td style="height:20px;"><span style="color:'+mdefB2+';">'+classStats[chb[3]-1][7]+'</span></td></tr><tr style="font-size:20px;"><td style="width:24%;height:20px;"><span style="color:'+skillA2+';">'+classStats[chb[2]-1][8]+'</span></td><td style="width:4%;height:20px;">SKILL</td><td style="width:24%;height:20px;"><span style="color:'+skillB2+';">'+classStats[chb[3]-1][8]+'</span></td></tr><tr><td colspan="3"><img src="images/shadow.png" width="100%" height="20px" /></td></tr><tr><td style="height:50px;white-space:break-spaces;padding:0 10px;vertical-align:middle;"><span>'+classStats[chb[2]-1][12]+'</span></td><td style="height:50px;"><img src="images/heart.png" height="40px" /><br>4 level</td><td style="height:50px;white-space:break-spaces;padding:0 10px;vertical-align:middle;"><span>'+classStats[chb[3]-1][12]+'</span></td></tr><tr><td style="height:50px;white-space:break-spaces;padding:0 10px;vertical-align:middle;"><span>'+classStats[chb[2]-1][13]+'</span></td><td style="height:50px;"><img src="images/heart.png" height="40px" /><br>7 level</td><td style="height:50px;white-space:break-spaces;padding:0 10px;vertical-align:middle;"><span>'+classStats[chb[3]-1][13]+'</span></td></tr><tr><td style="height:20px;" colspan="4"></td></tr></table><br>';
+	
+	if (dataTable[hero_number][47]!==''){SPclass='/SP/'}else{SPclass=''}
+	var chb3 = document.getElementById("chb3");
+	var chb4 = document.getElementById("chb4");
+	var chibiskin2 = dataTable[hero_number][26].split(",");
+	var chibi1skin2 = [];
+	var chibi2skin2 = [];
+	if (dataTable[hero_number][47]==''){
+		chibi1skin2[0]='0'+classStats[chb[2]-1][14]+'.png';
+		chibi2skin2[0]='0'+classStats[chb[3]-1][14]+'.png';
+		for (i=1;i<chibiskin2.length;i++){
+			chibi1skin2[i] = chibiskin2[i]+classStats[chb[2]-1][15]+'.png';
+			chibi2skin2[i] = chibiskin2[i]+classStats[chb[3]-1][15]+'.png';
+		}
+	} else {
+		chibi1skin2[0]=''+classStats[chb[2]-1][14]+'.png';
+		chibi1skin2[1]=''+classStats[chb[2]-1][14]+'.png';
+		chibi2skin2[0]=''+classStats[chb[3]-1][14]+'.png';
+		chibi2skin2[1]=''+classStats[chb[3]-1][14]+'.png';
+		for (i=2;i<chibiskin2.length;i++){
+			chibi1skin2[i] = chibiskin2[i]+classStats[chb[2]-1][15]+'.png';
+			chibi2skin2[i] = chibiskin2[i]+classStats[chb[3]-1][15]+'.png';
+		}
+	}
+	chb3.innerHTML = '<div id="ch3sl" class="chibi3s2" style="display:block;width:468px;height:200px;"></div>';
+	var ch3sl = document.getElementById("ch3sl");
+	for (i=0;i<chibi1skin2.length;i++){
+		ch3sl.innerHTML += '<div style="position:relative;height:200px;width:468px;"><img style="position:absolute;top:0;left:145px;" src="images/moon.png" height="190px" /><img style="position:absolute;top:0;left:157px;" src="images/heroes/heroes_list/'+ heroName +'/Chibi/'+chibi1skin2[i]+'" height="180px" /><img style="position:absolute;top:0;left:285px;" src="images/classes/'+classStats[chb[2]-1][2]+'.png" height="60px" /></div>';
+	}
+	chb4.innerHTML = '<div id="ch4s2" class="chibi4s2" style="display:block;width:468px;height:200px;"></div>';
+	var ch4s2 = document.getElementById("ch4s2");
+	for (i=0;i<chibi2skin2.length;i++){
+		ch4s2.innerHTML += '<div style="position:relative;height:200px;width:468px;"><img style="position:absolute;top:0;left:145px;" src="images/moon.png" height="190px" /><img style="position:absolute;top:0;left:157px;" src="images/heroes/heroes_list/'+ heroName +'/Chibi/'+chibi2skin2[i]+'" height="180px" /><img style="position:absolute;top:0;left:285px;" src="images/classes/SP/'+classStats[chb[3]-1][2]+'.png" height="60px" /></div>';
+	}
+	
+	var uzi_l3 = document.getElementById("uzi_l3");
+	var uzi_dr3 = document.getElementById("uzi_dr3");
+	uzi_l3.style["vertical-align"] = "top";
+	uzi_dr3.style["vertical-align"] = "top";
+	uzi_l3.innerHTML = '<span style="display:block;width:170px;height:auto;margin:0 auto;margin-top:15px;white-space:pre-wrap;margin-bottom:12px;">Personal bonds</span>';
+	uzi_l3.innerHTML += '<span style="display:block;width:170px;height:150px;margin:10px auto;">DEF<br><a href="hero.html?name='+(dataTable[hero_number][28]).replace(/ /g,"%20")+'"><img style="cursor:pointer;margin-top:6px;" src="images/head_circle/'+dataTable[hero_number][28]+'.png" height="134px" /></a></span>';
+	uzi_l3.innerHTML += '<span style="display:block;width:170px;height:150px;margin:10px auto;margin-top:17px;">АТК<br><a href="hero.html?name='+(dataTable[hero_number][29]).replace(/ /g,"%20")+'"><img style="cursor:pointer;margin-top:6px;" src="images/head_circle/'+dataTable[hero_number][29]+'.png" height="134px" /></a></span>';
+	drdef = dataTable[hero_number][30].split(",")
+	dratk = dataTable[hero_number][31].split(",")
+	bond_dr_sum = drdef.length + dratk.length;
+	if (bond_dr_sum>=6){widthu="70px";}else{widthu="95px";}
+	uzi_dr3.innerHTML = '<span style="display:block;width:170px;height:100%;margin:0 auto;margin-top:10px;white-space:pre-wrap;">Bonds for other</span><br>';
+	if (dataTable[hero_number][30]!==''){
+		uzi_dr3.innerHTML += '<span style="display:block;width:215px;height:auto;margin:0 auto;white-space:pre-wrap;">DEF<br></span>';
+		for (i=0;i<drdef.length;i++){
+			uzi_dr3.innerHTML += '<a href="hero.html?name='+(drdef[i]).replace(/ /g,"%20")+'"><img style="cursor:pointer;margin-left:5px;" src="images/head_circle/'+drdef[i]+'.png" height="'+widthu+'" /></a>';
+		}
+	}
+	uzi_dr3.innerHTML += '<br>';
+	if (dataTable[hero_number][31]!==''){
+		uzi_dr3.innerHTML += '<span style="display:block;width:215px;height:auto;margin:0 auto;white-space:pre-wrap;">АТК<br></span>';
+		for (i=0;i<dratk.length;i++){
+			uzi_dr3.innerHTML += '<a href="hero.html?name='+(dratk[i]).replace(/ /g,"%20")+'"><img style="cursor:pointer;margin-left:5px;" style="margin:4px 4px;" src="images/head_circle/'+dratk[i]+'.png" height="'+widthu+'" /></a>';
+		}
+	}
+	
+	
+	
 }
 
 //3C

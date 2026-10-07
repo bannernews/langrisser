@@ -1998,6 +1998,21 @@ var persItemDat = [
         "ЗАЩ +10%. В начале боя герой получает на 30% меньше урона. Если у цели есть [цепи возмездия], получаемый урон уменьшается еще на 20%.",
         "DEF +10%. When attacking and entering battle, unit damage taken -30%. If the target has [Chain of Vengeance], damage taken is further reduced by 20%."
     ],
+	[
+        "Суверен Ледяной Бездны",
+        "Sovereign of the Ice Abyss",
+        "Глобал - 31.12.2026",
+        "Global - 31.12.2026",
+        "hat",
+        "583",
+        "",
+        "",
+        "",
+        "48",
+        "",
+        "ОЗ +10%. АоЕ урон увеличивается на 10%. При нанесении урона союзнику накладывает на него эффект: 'при нанесении АоЕ урона врагу накладывает на него [пробирающий до костей холод]. Снимается после срабатывания, невозможно снять'",
+        "HP +10%. AoE damage increased by 10%. When dealing damage to an ally, applies an effect to them: 'When dealing AoE damage to an enemy, applies [Bone-Chilling Cold] to that enemy. Removed after activation; cannot be dispelled'."
+    ],
     [
         "Сюзетт",
         "Suzette",

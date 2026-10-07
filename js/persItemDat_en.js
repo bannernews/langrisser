@@ -2103,6 +2103,21 @@ var persItemDat = [
         "ОЗ +5%. Применяя навыки на союзных юнитов, дополнительно накладывает: АТК и ИНТ повышается на 15%, а МЗАЩ повышается на 20%. Длится 2 хода.",
         "HP +5%. When casting skills on allies, also grant: 'ATK, INT +15%' and 'MDEF +20%'. Lasts 2 turns."
     ],
+	[
+        "Суверен Ледяной Бездны",
+        "Sovereign of the Ice Abyss",
+        "Глобал - 31.12.2026",
+        "Global - 31.12.2026",
+        "hat",
+        "583",
+        "",
+        "",
+        "",
+        "48",
+        "",
+        "ОЗ +10%. АоЕ урон увеличивается на 10%. При нанесении урона союзнику накладывает на него эффект: 'при нанесении АоЕ урона врагу накладывает на него [пробирающий до костей холод]. Снимается после срабатывания, невозможно снять'",
+        "HP +10%. AoE damage increased by 10%. When dealing damage to an ally, applies an effect to them: 'When dealing AoE damage to an enemy, applies [Bone-Chilling Cold] to that enemy. Removed after activation; cannot be dispelled'."
+    ],
     [
         "Сюзетт",
         "Suzette",

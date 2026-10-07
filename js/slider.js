@@ -48,7 +48,7 @@ $(".chibi1s0").slick({
   arrows: true,
   focusOnSelect:false,
   pauseOnDotsHover:false,
-  asNavFor: ".chibi1sl,.chibi1s2,.chibi1s3"
+  asNavFor: ".chibi1sl,.chibi1s2,.chibi1s3,.chibi4s2,.chibi3s2"
 });
 
 $(".chibi1sl").slick({
@@ -90,7 +90,32 @@ $(".chibi1s3").slick({
   pauseOnDotsHover:false,
   asNavFor: ".chibi1s0"
 });
-
+$(".chibi3s2").slick({
+  dots: false,
+  autoplay: false,
+  autoplaySpeed:5000,
+  infinite: true,
+  speed: 500,
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  arrows: false,
+  focusOnSelect:false,
+  pauseOnDotsHover:false,
+  asNavFor: ".chibi1s0"
+});
+$(".chibi4s2").slick({
+  dots: false,
+  autoplay: false,
+  autoplaySpeed:5000,
+  infinite: true,
+  speed: 500,
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  arrows: false,
+  focusOnSelect:false,
+  pauseOnDotsHover:false,
+  asNavFor: ".chibi1s0"
+});
 
 
 
