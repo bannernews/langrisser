@@ -13267,8 +13267,8 @@ var dataTable = [
         "",
         "",
         "",
-        "Mermaid",
-        "ATK and DEF increase by (15, 20, 25, 30)%.<br>At the start of the turn creates a special terrain effect [Mirage] in 5 surrounding squares, near an enemy unit. When any unit ends action near [Mirage] she summons phantoms of unsummoned enemy units near [Mirage] in symmetrical empty squares centered on the mirage. If the enemy unit moves outside the [Mirage] circle phantom disappears.<br>When an enemy unit ends turn on [Mirage], all enemies in the circle around [Mirage] are dealt 0.2x AoE damage, then the [Mirage] terrain effect is removed and replaced with the terrain effect 'current terrain is treated as water when action ends' for 1 turn. Lasts 3 turns.<br>A maximum of (3, 4, 5, 6) [Mirage] terrain effects can be active. A maximum of 8 phantoms can exist simultaneously. When a phantom takes damage, it deals 25% of the damage taken (of the same type as the damage taken) to its main body.",
+        "Daughter of the Sea",
+        "ATK and DEF increase by (15, 20, 25, 30)%.<br>At the start of the turn, creates a special terrain effect [Mirage] within a 5-tile radius around an enemy unit (lasts 3 turns). When any unit finishes an action, summons phantoms of unsummoned enemy units located near the [Mirage] onto symmetrical empty tiles centered on the [Mirage]. If an enemy moves outside the [Mirage] circle, their phantoms dissapear.<br>When an enemy ends their turn on a [Mirage] tile, all enemies within the circle around the [Mirage] take 0.2x AoE damage; the [Mirage] terrain effect is then removed and that enemy gains the 'current terrain counts as water' status for 1 turn.<br>A maximum of (3, 4, 5, 6) [Mirage] terrain effects can exist. A maximum of 8 phantoms can exist simultaneously. Damage taken by phantoms is increased by 100%. When a phantom takes damage, it deals 25% of the damage received (of the same type) to the original unit. In PvE mode, damage taken by phantoms is increased by 50%.",
         "",
         "",
         "",
@@ -34395,7 +34395,7 @@ var persSkills = [
         "5",
         "one target",
         "3",
-        "[Passive] Increases damage dealt by 25% and reduces damage taken by 25% when attacking targets not on defensive terrain. All terrain the unit moves on is treated as water and the unit's mobility is increased by 1.<br>[Active] Creates a [Mirage] terrain effect on another terrain effect created by allies."
+        "[Passive] After actively using the skill to create a terrain effect, the unit can move an additional 2 tiles and attack again. Buff durations on the hero do not decrease (this effect can trigger once per turn and shares the extra action mechanic with the 'Rainbow Sky' skill). Increases damage dealt by 25% and reduces damage taken by 25% when attacking targets not on defensive terrain. All terrain the unit moves on is treated as water and the unit's mobility is increased by 1.<br>[Active] Creates a [Mirage] terrain effect at the specified location."
     ],
     [
         "Rainbow Sky",
@@ -34405,7 +34405,7 @@ var persSkills = [
         "5",
         "one target",
         "3",
-        "[Passive] When within 1 tile of defensive terrain or a friendly terrain effect, becomes immune to damage from AoE skills.<br>[Active] Creates a [Wind Blessing] terrain effect on another terrain effect created by allies: the duration of debuffs on allies within 1 circle is reduced by 1 and enemy units remove 1 debuff when attacking and entering combat. Lasts 3 turns."
+        "[Passive] After actively using a skill to create a terrain effect, the unit can move an additional 2 tiles and attack again. Buff durations on the hero do not decrease (this effect can trigger once per turn and shares the extra action mechanic with the 'Rainbow Sea' skill). When positioned on defensive terrain or within 1 circle of a friendly terrain effect, the unit becomes immune to damage from AoE skills.<br>[Active] Creates a [Wind's Blessing] terrain effect at the target location: allies within 1 circle are treated as being on defensive terrain and gain +20% DEF; debuff durations on them are reduced by 1 and they remove 1 debuff from the enemy when attacking and entering combat. Lasts 3 turns."
     ],
 	[
         "Mirage Breath",
@@ -34415,7 +34415,7 @@ var persSkills = [
         "5",
         "straight",
         "3",
-        "[Physical Damage] Selects a point in a straight line within 5 tiles and can make up to 2 perpendicular changes in direction. For each defensive terrain element or terrain effect along the path, the limit of targetable tiles increases by 1 (maximum 4). Deals 0.3x AoE damage to all enemies in the path and applies the effect 'Phantom damage transfer is increased by 30%, or by 300% if there are no soldiers initially.' Lasts 2 turns. Afterward, removes all terrain effects from enemies within the skill's range. If a friendly [Mirage] is hit, creates a [Mirage] in the furthest space along the skill's path where there is no enemy."
+        "[Physical Damage] Selects a point in a straight line within 5 tiles and can make up to 2 perpendicular changes in direction. For each defensive terrain element or terrain effect along the path the limit of targetable tiles increases by 1 (maximum 4). Deals 0.3x AoE damage to all enemies in the path and applies the effect 'Phantom damage transfer is increased by 30%, or by 300% if there are no soldiers initially.' Lasts 2 turns. Afterward, removes all enemies terrain effects within the skill's range. If a friendly [Mirage] is hit, creates a [Mirage] in the furthest space along the skill's path where there is no enemy."
     ],
 	[
         "Wind Surge",
@@ -34425,7 +34425,7 @@ var persSkills = [
         "5",
         "straight",
         "3",
-        "[Passive] Creates a [Wind Blessing] terrain effect at your position for 3 turns at the start of your turn.<br>[Heal] Targets a point in a straight line within 5 tiles and can make up to 2 perpendicular changes. For each defensive terrain element or terrain effect along the path, the limit of tiles targeted increases by 1 (maximum 4). Restores HP to all allies along the path equal to 2.5x their ATK and generates [Wind Blessing] at the locations of all allies along the path."
+        "[Passive] Unit Range +1 for each allied [Wind's Blessing] terrain effect (up to +3). At the start of the turn creates a [Wind's Blessing] terrain effect at the unit's position lasting 3 turns: allies within a 1-circle radius are treated as being on defensive terrain (DEF +20%) and have debuff durations reduced by 1; additionally, the unit removes 1 debuff from an enemy when attacking or entering combat. <br>[Heal] Selects a target point along a straight line within 5 tiles, allowing for up to 2 perpendicular changes of direction. For each defensive terrain element or terrain effect along the path the maximum range increases by 1 (up to a maximum of 4). Restores HP to all allies along the path equal to 2.5x ATK and generates [Wind's Blessing] at the locations of all allies along the path."
     ],
 	[
         "Rainbow Glow",
@@ -34435,7 +34435,7 @@ var persSkills = [
         "self",
         "one target",
         "4",
-        "[Passive] Increases damage dealt to phantoms by 100%. After actively using the skill to create a terrain effect, the hero can move an additional 2 tiles and attack again. The number of buff turns on the hero is not reduced. (Can be used again after 3 turns).<br>[Active] Grants [Overflow] - a permanent buff for 2 turns: [Command]: If there are 2 or more [Mirages] around an enemy unit and its HP is less than 30%, it dies instantly after taking damage from a phantom (once per turn. In PVE mode, there is no HP limit and is replaced by 2x the fixed damage from the attacker or a unit with higher INT); Allies within 1 tile radius of defensive terrain or within the range of friendly terrain effects gain +1 range when attacked by an enemy with a single skill for each tile before the enemy (maximum +3, does not apply to skills with a range of 1) and at the end of the turn, the duration of 3 random debuffs is reduced by 1 and 30% of max HP is restored.<br>After use this skill is replaced by [Blast Waves].<br><br>[Blast Waves]: Cooldown 4, Range 6, Area: Straight<br>[Command] After an ally deals damage to an enemy 1 terrain effect [Mirage] will appear near the nearest enemy.<br>[Passive] Increases damage dealt to phantoms by 100%. After actively using the skill to create a terrain effect the hero can move an additional 2 tiles and attack again. The number of buff turns on the hero is not reduced. (Can be used again after 3 turns).<br>[Phys. Damage] Attacks all enemies in 3 straight lines dealing 0.36x damage and restoring all hit allies' HP equal to 2.5x their ATK and reducing the duration of debuffs by 1. When a unit is within 1 circle of defensive terrain or a friendly terrain effect the skill's range increases to 5 lines. When hitting 3 or more enemies reduces the skill's cooldown by 4.<br>After use this skill changes to [Rainbow Glow], whose cooldown is inherited from this skill."
+        "[Active] Grants [Overflow]—an undispellable buff lasting 2 turns: [Command] If an enemy unit is surrounded by 2 or more [Mirages] and has less than 30% HP, it instantly dies after taking damage transferred from a phantom (in PvE mode, the HP threshold is removed and replaced by fixed damage equal to 3x the attacker's ATK or INT, whichever is higher); when allies positioned on defensive terrain or within 1 tile of friendly terrain effects are targeted by an enemy skill, the required skill range increases by +1 for every tile of distance to the opponent (max +3; does not apply to skills with a range of 1); at the end of the turn, the duration of 3 random debuffs is reduced by 1, 30% of Max HP is restored and the cooldown of all attack skills is reduced by 1.<br>After use, this skill is replaced by [Blast Waves]. When [Overflow] expires, the skill reverts to [Rainbow Glow].<br><br>[Blast Waves]: Cooldown 4, Range 6, Area: Straight<br>[Command] After an ally deals damage to an enemy 1 terrain effect [Mirage] will appear near the nearest enemy.<br>[Phys. Damage] Attacks all enemies in 3 straight lines dealing 0.36x damage and restoring all hit allies' HP equal to 2.5x their ATK and reducing the duration of debuffs by 1. When a unit is on defensive terrain or within 1 circle of friendly terrain effect the skill's range increases to 5 lines. When hitting 3 or more enemies reduces the skill's cooldown by 4.<br>If an enemy is defeated by this skill, the duration of [Overflow] is not reduced."
     ],
     [
         "Лэйд",
