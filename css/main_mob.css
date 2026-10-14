@@ -46,7 +46,7 @@ a:visited{
 } */
 .menu{
 	display:inline-block;
-	padding: 4px 4px;
+	padding: 3px 3px;
 	text-decoration: none;
 	line-height: 3px;
 	font-size: 19px;
@@ -119,6 +119,46 @@ body{
 	width:130px;
 	font-size:17px;
 }
+.item {
+    display: none;
+    position: absolute;
+    min-width: 50px;
+    z-index: 1;
+	top:26px;
+	left:0px;
+	border-top:none;
+	box-shadow:0 0 12px #d8cea9;
+}
+.item a {
+	background-color: #629786;
+    color: black;
+    padding: 16px 0px;
+    text-decoration: none;
+    display: block;
+	text-align: center;
+	width:100px;
+	font-size:17px;
+}
+.sold {
+    display: none;
+    position: absolute;
+    min-width: 50px;
+    z-index: 1;
+	top:26px;
+	left:0px;
+	border-top:none;
+	box-shadow:0 0 12px #d8cea9;
+}
+.sold a {
+	background-color: #629786;
+    color: black;
+    padding: 16px 0px;
+    text-decoration: none;
+    display: block;
+	text-align: center;
+	width:110px;
+	font-size:17px;
+}
 
 /* .dropdown-content a:hover {background-color: #629786;} */
 .menu_point1{
@@ -130,6 +170,16 @@ body{
 	display:none;
 	position:absolute;
 	top:46px;
+}
+.menu_point3{
+	display:none;
+	position:absolute;
+	top:82px;
+}
+.menu_point4{
+	display:none;
+	position:absolute;
+	top:118px;
 }
 .menu_point12{
 	display:none;
@@ -145,6 +195,8 @@ body{
 .menumore:hover .dropdown-content2 {display: block;color:black;text-shadow: none;}
 #mp1:hover .menu_point1 {display: initial;}
 #mp2:hover .menu_point2 {display: initial;}
+#mp3:hover .menu_point3 {display: initial;}
+#mp4:hover .menu_point4 {display: initial;}
 
 #mp12:hover .menu_point12 {display: initial;}
 #mp22:hover .menu_point22 {display: initial;}
