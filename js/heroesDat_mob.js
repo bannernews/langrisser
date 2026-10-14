@@ -22,3 +22,24 @@ function heroesView () {
 //		}
 	}
 }
+
+function heroesView2 () {
+	var sd = document.getElementById('heroes_data_mob');
+//	sd.innerHTML = '<table><tr><th>Имя героя</th><th>Бонд для ОЗ,ЗАЩ</th><th>Бонд для АТК/ИНТ</th><th>Нужен для бондов другим героям</th></tr>';
+	sd.innerHTML = "";
+	//sd.innerHTML = soldDat[111][8];
+	var i;
+	for (i=1;i<heroesDat2.length;i++){
+		fact = heroesDat2[i][2].split(",");
+		if (fact[0]!=""){
+				f2 = "her";
+				for (j=0;j<fact.length;j++){
+					f2 += ' ' + fact[j];
+				}
+			} else {f2 = "her";}
+		hreff = ('hero_mob.html?name='+ heroesDat2[i][0]).replace(/ /g,"%20");
+		if(heroesDat2[i][0]=='Трансцендентный' || heroesDat2[i][0]=='Повелительница ледяной бездны'){f = 'font-size:8px;'}else{f = 'font-size:9px;'}
+		sd.innerHTML += '<div description="' + heroesDat2[i][0] + '" class="' + f2 + ' ' + heroesDat2[i][3] + ' ' + heroesDat2[i][4] + ' ' + heroesDat2[i][5] + ' ' + heroesDat2[i][6] + '" style="display:block;height:80px;width:69px;float:left;"><div class="imgglow" style="display:block;"><a href="'+hreff+'"><img style="cursor:pointer;" height="60px" src="images/head/' + heroesDat2[i][0] + '.png" title="' + heroesDat2[i][0] + '"></a></div><div style="white-space:normal;' + f + 'width:60px;text-align:center;margin-top:-5px;">' + heroesDat2[i][0] + '</div></div>';
+//		}
+	}
+}

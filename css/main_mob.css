@@ -191,8 +191,17 @@ body{
 	position:absolute;
 	top:46px;
 }
+#filt_arr{
+	transition-duration: 0.3s;
+	transition-property: transform;
+}
 .menumore:hover .dropdown-content {display: block;color:black;text-shadow: none;}
 .menumore:hover .dropdown-content2 {display: block;color:black;text-shadow: none;}
+
+.menumore-sort:hover .dropdown-content-sort {display: block;color:black;text-shadow: none;} 
+.menumore-sort:hover #filt_arr {transform: rotate(180deg);}
+.menumore-sort:hover #ss0 {color: #d8c2a9;}
+
 #mp1:hover .menu_point1 {display: initial;}
 #mp2:hover .menu_point2 {display: initial;}
 #mp3:hover .menu_point3 {display: initial;}
@@ -294,4 +303,39 @@ body{
 #heroimg{
 	max-width:420px;
 	max-height:500px;
+}
+.dropdown-content-sort {
+    display: none;
+    position: absolute;
+    min-width: 100px;
+    z-index: 1;
+	top:15px;
+	left:0px;
+	border-top:none;
+}
+.dropdown-content-sort a {
+    color: black;
+    padding: 4px 5px;
+    text-decoration: none;
+    display: block;
+	width:100px;
+	font-size:16px;
+}
+#ss1:hover{
+	color: #217157;
+}
+#ss2:hover{
+	color: #217157;
+}
+.menumore-sort {
+    position: relative;
+	float:right;
+	margin-top:-3px;
+	margin-right:298px;
+}
+.menumore-sort2 {
+    position: relative;
+	float:right;
+	margin-top:-3px;
+	margin-right:352px;
 }
