@@ -1,0 +1,141 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>Einherjar</title>  <!--название странички на вкладке сайта-->
+    <link rel="icon" type="image/png" href="favicon.png">  <!--иконка на вкладке сайта-->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes" />
+<!--    <link rel="stylesheet" href="assets/css/main.css" /> -->
+    <link rel="stylesheet" href="css/slider.css" />
+		<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+		<link rel="stylesheet" type="text/css" href="css/main.css"/>
+	<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+<style>
+	td{
+		padding:1px;
+	}
+</style>
+</head>
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+	<script type="text/javascript" src="slick/slick.min.js"></script>
+
+
+<body style="background-color: #629786;">
+<div id="top" style="display:block;width:1320px;margin:0 auto;">
+	<div style="text-align:left;display:block;width:200px;float:left;"><a href="enherjar.html" style="color: antiquewhite;">Russian</a> | English</div>
+	<div style="display:flex;width:30px;margin-left:650px;height:25px;"><a id="mobswap" href="enherjar_en_mob.html"><img src="images/mob.png" height="25px"></a></div>
+	<hr noshade style="border-color: #d8c2a9;">
+	<div class="menu"><a href="heroes_en.html">Heroes</a></div>
+	<div class="menu menumore">Items
+		<div class="dropdown-content item">
+			<a style="margin-top: -30px;background-color: unset;" href="#"></a>
+			<a id="mp1" href="items_en.html">Common<img class="menu_point1" src="images/point.png" height="20px" style="vertical-align:-3px;" /></a>
+			<a id="mp2" href="pers_items_en.html">Personal<img class="menu_point2" src="images/point.png" height="20px" style="vertical-align:-3px;" /></a>
+			<a id="mp3" href="chants_en.html">Enchantment<img class="menu_point3" src="images/point.png" height="20px" style="vertical-align:-3px;" /></a>
+		</div>
+	</div>
+	<div class="menu menumore">Soldiers
+		<div class="dropdown-content sold">
+			<a style="margin-top: -30px;background-color: unset;" href="#"></a>
+			<a id="mp1" href="soldiers_en.html">Common<img class="menu_point1" src="images/point.png" height="20px" style="vertical-align:-3px;" /></a>
+			<a id="mp2" href="soldiers_sp_en.html">SP soldiers<img class="menu_point2" src="images/point.png" height="20px" style="vertical-align:-3px;" /></a>
+		</div>
+	</div>
+	<div class="menu menumore">Covs./Sigs.
+		<div class="dropdown-content covsig">
+			<a style="margin-top: -30px;background-color: unset;" href="#"></a>
+			<a id="mp1" href="https://docs.google.com/spreadsheets/d/1m7iggEOI2hVPAQT9rEUxuHmB6J3vvWafacEc1-U8PkU/edit?gid=1563384234#gid=1563384234" target="_blank">Covenants<img class="menu_point1" src="images/point.png" height="20px" style="vertical-align:-3px;" /></a>
+			<a id="mp2" href="enherjar_en.html">Einherjar<img class="menu_point2" src="images/point.png" height="20px" style="vertical-align:-3px;" /></a>
+			<a id="mp3" href="weather_en.html">Weather<img class="menu_point3" src="images/point.png" height="20px" style="vertical-align:-3px;" /></a>
+			<a id="mp4" href="plato_en.html">Plateau<img class="menu_point4" src="images/point.png" height="20px" style="vertical-align:-3px;" /></a>
+		</div>
+	</div>
+	<div class="menu"><a href="https://docs.google.com/spreadsheets/d/1mqOkMylobD4VkGctr_ZMOGvCirGKt6uqPJugNtLYKtQ/edit#gid=859281510" target="_blank">Calendar</a></div>
+	<div class="menu"><a href="https://drive.google.com/drive/folders/1FRiHJGhfUxyufg4eEAUCzQ6ltvJjEOYv?usp=sharing" target="blank">Data</a></div>
+<!--	<div class="menu">Донат</div>-->
+	
+	<div id="logo" style="display:inline-block;text-decoration:none;line-height: 3px;float:right;margin-top: -10px;"><a href="index_en.html"><img src="images/headpanel.png" height="60px" /><span style="font-size: 40px;vertical-align: 15px;text-shadow: 1px 1px #d8c2a9;">Banner News</span><img src="images/headpanel.png" height="60px" /></a></div>
+	<br>
+	<hr noshade style="border-color: #d8c2a9;">
+</div>
+<div id="middle" style="width:1320px;margin:0 auto;padding-top:14px;white-space: nowrap;">
+	<span id="title" style="display:block;width:200px;margin:0 auto;font-size: 30px;color:#d8c2a9;">Einherjar</span><br>
+	<div id="chatx" style="height:auto;width:90%;margin: 10px auto;">
+		<table>
+			<tr><td rowspan="2" style="width:150px;"><img src="images/powers/enherjar/Leon.png" width="100px" height="auto"></td>
+				<td style="text-align:left;font-size:22px;"><b>Leon</b></td></tr>
+				<tr><td style="white-space:break-spaces;text-align:left;">Active skill. Grants the user "Leon's support" until the start of the next turn: Allied units within 3 tiles do not die from fatal damage and restore 50% of their HP. Can trigger a total of 2 times (can trigger once per unit per battle). At the start of battle, restores 25% HP to allied units within range for each remaining activation. Ignores immunity. Cannot be dispelled.</td></tr>
+				<tr><td colspan="2"><img src="images/chants/shadow.png" width="100%" height="10px"></td>
+			</tr>
+			
+			<tr><td rowspan="2" style="width:150px;"><img src="images/powers/enherjar/Elwin.png" width="100px" height="auto"></td>
+				<td style="text-align:left;font-size:22px;"><b>Elwin</b></td></tr>
+				<tr><td style="white-space:break-spaces;text-align:left;">Summon Elwin. He teleports one nearby enemy and applies "Fall of the Gods": when the target dies, the entire team's skill damage increases by 20% for 2 turns. This effect ignores immunity and cannot be dispelled.</td></tr>
+				<tr><td colspan="2"><img src="images/chants/shadow.png" width="100%" height="10px"></td>
+			</tr>
+			
+			<tr><td rowspan="2" style="width:150px;"><img src="images/powers/enherjar/Liana.png" width="100px" height="auto"></td>
+				<td style="text-align:left;font-size:22px;"><b>Liana</b></td></tr>
+				<tr><td style="white-space:break-spaces;text-align:left;">Active skill. Grants the caster "Liana's support": after attacking, restores HP to all allies equal to 2x the caster's INT. Lasts 2 turns.</td></tr>
+				<tr><td colspan="2"><img src="images/chants/shadow.png" width="100%" height="10px"></td>
+			</tr>
+			
+			<tr><td rowspan="2" style="width:150px;"><img src="images/powers/enherjar/Bosel.png" width="100px" height="auto"></td>
+				<td style="text-align:left;font-size:22px;"><b>Bozel</b></td></tr>
+				<tr><td style="white-space:break-spaces;text-align:left;">Active skill. Grants the caster "Bozel's Support": When initiating an attack, damage dealt to a debuffed enemy increases by 10% for each debuff, up to a maximum of 40%. Lasts 2 turns.</td></tr>
+				<tr><td colspan="2"><img src="images/chants/shadow.png" width="100%" height="10px"></td>
+			</tr>
+			
+			<tr><td rowspan="2" style="width:150px;"><img src="images/powers/enherjar/Cherie.png" width="100px" height="auto"></td>
+				<td style="text-align:left;font-size:22px;"><b>Cherie</b></td></tr>
+				<tr><td style="white-space:break-spaces;text-align:left;">Active skill. Grants the caster "Cherie's support": AoE skills gain +2 range and linear skills gain +2 range. After actively dealing damage, deals additional fixed damage equal to 2x the caster's (ATK + INT). Lasts 2 turns. Ignores immunity. Cannot be dispelled.</td></tr>
+				<tr><td colspan="2"><img src="images/chants/shadow.png" width="100%" height="10px"></td>
+			</tr>
+			
+			<tr><td rowspan="2" style="width:150px;"><img src="images/powers/enherjar/Hein.png" width="100px" height="auto"></td>
+				<td style="text-align:left;font-size:22px;"><b>Hein</b></td></tr>
+				<tr><td style="white-space:break-spaces;text-align:left;">Summon Hein. Attacks enemies along three straight lines, dealing 0.4x AoE magic damage. Heals allies within range for 4x the caster's INT and removes two debuffs from them.</td></tr>
+				<tr><td colspan="2"><img src="images/chants/shadow.png" width="100%" height="10px"></td>
+			</tr>
+			
+			<tr><td rowspan="2" style="width:150px;"><img src="images/powers/enherjar/Zerida.png" width="100px" height="auto"></td>
+				<td style="text-align:left;font-size:22px;"><b>Zerida</b></td></tr>
+				<tr><td style="white-space:break-spaces;text-align:left;">Summon Zerida. She attacks a single enemy dealing 1.5x physical damage. Before the battle, she applies "Chance to get Critical hit +30%" and "Critical Damage Taken +30%" [to the target]. These effects last for 1 turn and cannot be dispelled.</td></tr>
+				<tr><td colspan="2"><img src="images/chants/shadow.png" width="100%" height="10px"></td>
+			</tr>
+			
+			<tr><td rowspan="2" style="width:150px;"><img src="images/powers/enherjar/Landius.png" width="100px" height="auto"></td>
+				<td style="text-align:left;font-size:22px;"><b>Landius</b></td></tr>
+				<tr><td style="white-space:break-spaces;text-align:left;">Summon Landius. It grants "Serenity" to 1 ally: the target cannot attack, move, be moved or use skills; gains immunity to AoE and fixed damage; reflects 150% of damage received when engaged in combat; when taking fatal damage does not die but instead restores 100% HP; and after being attacked, the ally heals 100% HP, all skill cooldowns are reset and buff durations do not decrease. This effect ignores immunity and cannot be dispelled. It lasts for 1 turn.</td></tr>
+				<tr><td colspan="2"><img src="images/chants/shadow.png" width="100%" height="10px"></td>
+			</tr>
+			
+			<tr><td rowspan="2" style="width:150px;"><img src="images/powers/enherjar/Shelfaniel.png" width="100px" height="auto"></td>
+				<td style="text-align:left;font-size:22px;"><b>Shelfaniel</b></td></tr>
+				<tr><td style="white-space:break-spaces;text-align:left;">Summon Shelfaniel. Deals 0.4x AoE magic damage to all enemies within a 5-tile radius. For each enemy hit, the caster gains the effect: "Skill Range +1; AoE Skill Damage +10%" (stacks up to 3 times). Ignores immunity. Cannot be dispelled. Lasts 1 turn.</td></tr>
+				<tr><td colspan="2"><img src="images/chants/shadow.png" width="100%" height="10px"></td>
+			</tr>
+			
+			<tr><td rowspan="2" style="width:150px;"><img src="images/powers/enherjar/Altemuller.png" width="100px" height="auto"></td>
+				<td style="text-align:left;font-size:22px;"><b>Altemuller</b></td></tr>
+				<tr><td style="white-space:break-spaces;text-align:left;">Summon Altemüller. Deals 1.5x physical damage to a single target; the damage increases by 20% for each debuff on the enemy, up to a maximum of 100%.</td></tr>
+			</tr>
+		</table>
+	</div>
+
+</div>
+<!--			<script src="js/jquery.min.js"></script>
+			<script src="js/browser.min.js"></script>
+			<script src="js/breakpoints.min.js"></script>
+			<script src="js/util.js"></script>
+		<script src="js/persItemDat.js"></script>-->
+		<script src="js/slider.js"></script>
+	<script type="text/javascript">
+//		window.onload = persItemView('weapon');   //при загрузке страницы автоматически фильтр по оружию
+	</script>
+
+</body>
+</html>
+
+

@@ -1,0 +1,126 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>Weather</title>  <!--название странички на вкладке сайта-->
+    <link rel="icon" type="image/png" href="favicon.png">  <!--иконка на вкладке сайта-->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, user-scalable=yes" />
+<!--    <link rel="stylesheet" href="assets/css/main.css" /> -->
+    <link rel="stylesheet" href="css/main_mob.css" />
+<style>
+	td{
+		padding:1px;
+	}
+</style>
+</head>
+
+<script type="text/javascript" src="jq/jquery.js"></script>
+<script type="text/javascript" src="jq/jquery-ui-1.10.4.custom.min.js"></script>
+<script type="text/javascript" src="jq/jquery.cookie.js"></script>
+
+<body style="background-color: #629786;">
+<div id="top" style="display:block;width:425px;margin:0 auto;">
+	<div style="text-align:left;font-size: 13px;"><a href="weather_mob.html" style="color: antiquewhite;">Russian</a> | English</div>
+	<div id="logo" style="display:inline-block;text-decoration:none;line-height: 3px;float:right;margin-right:2%;margin-top: -17px;"><a href="index_en_mob.html"><img src="images/headpanel.png" style="vertical-align:sub" height="20px" /><span style="font-size: 16px;vertical-align: 0px;text-shadow: 1px 1px #d8c2a9;">Banner News</span><img src="images/headpanel.png" style="vertical-align:sub" height="20px" /></a></div>
+	<hr noshade style="border-color: #d8c2a9;">
+	<div class="menu"><a href="heroes_en_mob.html">Heroes</a></div>
+	<div class="menu menumore">Items
+		<div class="dropdown-content item">
+			<a style="margin-top: -30px;background-color: unset;" href="#"></a>
+			<a id="mp1" href="items_en_mob.html">Common<img class="menu_point1" src="images/point.png" height="20px" style="vertical-align:-3px;" /></a>
+			<a id="mp2" href="pers_items_en_mob.html">Personal<img class="menu_point2" src="images/point.png" height="20px" style="vertical-align:-3px;" /></a>
+			<a id="mp3" href="chants_en_mob.html">Chants<img class="menu_point3" src="images/point.png" height="20px" style="vertical-align:-3px;" /></a>
+		</div>
+	</div>
+	<div class="menu menumore">Soldiers
+		<div class="dropdown-content sold">
+			<a style="margin-top: -30px;background-color: unset;" href="#"></a>
+			<a id="mp1" href="soldiers_en_mob.html">Common<img class="menu_point1" src="images/point.png" height="20px" style="vertical-align:-3px;" /></a>
+			<a id="mp2" href="soldiers_en_mob_sp.html">SP soldiers<img class="menu_point2" src="images/point.png" height="20px" style="vertical-align:-3px;" /></a>
+		</div>
+	</div>
+	<div class="menu menumore">Covs./Sigs.
+		<div class="dropdown-content covsig">
+			<a style="margin-top: -30px;background-color: unset;" href="#"></a>
+			<a id="mp1" href="https://docs.google.com/spreadsheets/d/1m7iggEOI2hVPAQT9rEUxuHmB6J3vvWafacEc1-U8PkU/edit?gid=1563384234#gid=1563384234" target="_blank">Covenants<img class="menu_point1" src="images/point.png" height="20px" style="vertical-align:-3px;" /></a>
+			<a id="mp2" href="enherjar_en_mob.html">Einherjar<img class="menu_point2" src="images/point.png" height="20px" style="vertical-align:-3px;" /></a>
+			<a id="mp3" href="weather_en_mob.html">Weather<img class="menu_point3" src="images/point.png" height="20px" style="vertical-align:-3px;" /></a>
+			<a id="mp4" href="plato_en_mob.html">Plateau<img class="menu_point4" src="images/point.png" height="20px" style="vertical-align:-3px;" /></a>
+		</div>
+	</div>
+	<div class="menu"><a href="https://docs.google.com/spreadsheets/d/1mqOkMylobD4VkGctr_ZMOGvCirGKt6uqPJugNtLYKtQ/edit#gid=859281510" target="_blank">Calendar</a></div>
+<!--	<div class="menu">Донат</div>-->
+	
+	<hr noshade style="border-color: #d8c2a9;">
+</div>
+
+<span style="position:absolute;top:5px;left:200px;"><a href="weather_en.html"><img src="images/pc.png" height="20px"></a></span>
+<div id="middle" style="width:425px;margin:0 auto;padding-top:7px;">
+	<span id="title" style="display:block;width:170px;margin:0 auto;font-size: 25px;color:#d8c2a9;margin-top:-10px;margin-bottom:0px;">Einherjar</span>
+	<div id="chatx" style="height:auto;width:100%;margin: 2px auto;">
+		<table>
+			<tr><td rowspan="2" style="width:95px;"><img src="images/powers/weather/Wind_1.png" width="75px" height="auto"></td>
+				<td style="text-align:left;font-size:22px;"><b>Iron Crystal Sphere</b></td></tr>
+				<tr><td style="white-space:break-spaces;text-align:left;">Summons a storm sphere, moving all enemies 2 tiles in the selected direction. Then, all allies gain "Tailwind": Mobility +2; when entering combat while under the direction of Tailwind, ATK and INT +10%. Ignores immunity, cannot be dispelled and expires in the next round.</td></tr>
+				<tr><td colspan="2"><img src="images/chants/shadow.png" width="100%" height="10px"></td>
+			</tr>
+			
+			<tr><td rowspan="2" style="width:95px;"><img src="images/powers/weather/Wind_2.png" width="75px" height="auto"></td>
+				<td style="text-align:left;font-size:22px;"><b>Sphere of the Wind Crystal</b></td></tr>
+				<tr><td style="white-space:break-spaces;text-align:left;">Increases the wearer's Mobility by 2 for 2 turns and grants "Blessing of the Wind Knot": before actively entering combat, damage increases by 6% for every tile moved, up to a maximum of 42%. After combat, the unit can move an additional 2 tiles. Lasts 2 turns. Cannot be dispelled. Ignores immunity.</td></tr>
+				<tr><td colspan="2"><img src="images/chants/shadow.png" width="100%" height="10px"></td>
+			</tr>
+			
+			<tr><td rowspan="2" style="width:95px;"><img src="images/powers/weather/Sand_1.png" width="75px" height="auto"></td>
+				<td style="text-align:left;font-size:22px;"><b>Sphere of Sand-Mist</b></td></tr>
+				<tr><td style="white-space:break-spaces;text-align:left;">Summon a sphere. All enemies have their mobility reduced by 2 and cannot use the "Guard" effect. All allies gain the "Spiked Blade" effect: before combat, deals fixed damage equal to 2x (ATK + INT) to all enemies within a 2-tile radius. It ignores immunity, cannot be dispelled and lasts for 1 turn.</td></tr>
+				<tr><td colspan="2"><img src="images/chants/shadow.png" width="100%" height="10px"></td>
+			</tr>
+			
+			<tr><td rowspan="2" style="width:95px;"><img src="images/powers/weather/Sand_2.png" width="75px" height="auto"></td>
+				<td style="text-align:left;font-size:22px;"><b>Sphere of Sands of Repose</b></td></tr>
+				<tr><td style="white-space:break-spaces;text-align:left;">Grants the wearer "Nobility of the Silent Sands": At the start of battle, applies "Decrepitude" to the enemy, increasing fixed damage taken by 100%. Lasts 1 turn. Ignores immunity. Cannot be dispelled. Additionally, at the start of battle, damage dealt increases by 30%; for every additional block from the enemy, damage dealt decreases by 15%, up to a maximum reduction of 30%. Lasts 2 turns. Ignores immunity. Cannot be dispelled.</td></tr>
+				<tr><td colspan="2"><img src="images/chants/shadow.png" width="100%" height="10px"></td>
+			</tr>
+			
+			<tr><td rowspan="2" style="width:95px;"><img src="images/powers/weather/Snow_1.png" width="75px" height="auto"></td>
+				<td style="text-align:left;font-size:22px;"><b>Settled Snow Crystal</b></td></tr>
+				<tr><td style="white-space:break-spaces;text-align:left;">Summon a sphere. Selects 1 tile to apply the "Snowy Hill + Frozen Portal + Icy Docks" terrain effect. The effect also applies to all tiles within a 2-tile radius. It lasts until the next turn. Allies on this terrain gain +1 Skill Range. When initiating an attack and dealing damage they ignore 15% of the enemy's DEF and MDEF. All stats except HP increase by 10%.</td></tr>
+				<tr><td colspan="2"><img src="images/chants/shadow.png" width="100%" height="10px"></td>
+			</tr>
+			
+			<tr><td rowspan="2" style="width:95px;"><img src="images/powers/weather/Snow_2.png" width="75px" height="auto"></td>
+				<td style="text-align:left;font-size:22px;"><b>Crystal of Ice and Snow</b></td></tr>
+				<tr><td style="white-space:break-spaces;text-align:left;">Grants the bearer "Blessing of Ice and Snow": Before dealing active damage, applies 1 random debuff to the enemy. When initiating combat, deals fixed damage equal to 0.1x the damage dealt to the target and enemies within a 1-tile radius. Increases the unit's critical hit rate by 50%. Ignores immunity. Cannot be dispelled. Expires in the next round.</td></tr>
+				<tr><td colspan="2"><img src="images/chants/shadow.png" width="100%" height="10px"></td>
+			</tr>
+			
+			<tr><td rowspan="2" style="width:95px;"><img src="images/powers/weather/Rain_1.png" width="75px" height="auto"></td>
+				<td style="text-align:left;font-size:22px;"><b>Crystal Sphere of Thunderous Strike</b></td></tr>
+				<tr><td style="white-space:break-spaces;text-align:left;">Summons a sphere. Gains a "Static Charge" for each enemy hit by the damage. For every 3/5/8 stacks of "Static Charge" at the end of the turn it unleashes 2/4/6 "Thunderstrikes" against random enemies anywhere on the map, dealing fixed damage equal to 2x the Orb's (ATK + INT). Damage dealt to the same enemy increases by 20% with each successive hit. Each time an enemy is struck by a "Thunderstrike," they gain 1 stack of "Quick Temper," increasing their chance of receiving a critical hit by 50%; this effect stacks up to 2 times and lasts for 2 turns. Ignores immunity. Cannot be dispelled.</td></tr>
+				<tr><td colspan="2"><img src="images/chants/shadow.png" width="100%" height="10px"></td>
+			</tr>
+			
+			<tr><td rowspan="2" style="width:95px;"><img src="images/powers/weather/Rain_2.png" width="75px" height="auto"></td>
+				<td style="text-align:left;font-size:22px;"><b>Sphere of the Drizzling Crystal</b></td></tr>
+				<tr><td style="white-space:break-spaces;text-align:left;">Grants the bearer "Dew's Favor": Skill damage increases by 20%. When dealing skill damage, if a critical hit occurs, the skill's cooldown is reduced by 2. Lasts 2 turns. Ignores immunity. Cannot be dispelled.</td></tr>
+			</tr>
+		</table>
+	</div>
+
+</div>
+<!--			<script src="js/jquery.min.js"></script>
+			<script src="js/browser.min.js"></script>
+			<script src="js/breakpoints.min.js"></script>
+			<script src="js/util.js"></script>
+		<script src="js/persItemDat.js"></script>-->
+		<script src="js/slider.js"></script>
+	<script type="text/javascript">
+//		window.onload = persItemView('weapon');   //при загрузке страницы автоматически фильтр по оружию
+	</script>
+
+</body>
+</html>
+
+

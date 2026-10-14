@@ -1,0 +1,125 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>Погода</title>  <!--название странички на вкладке сайта-->
+    <link rel="icon" type="image/png" href="favicon.png">  <!--иконка на вкладке сайта-->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, user-scalable=yes" />
+<!--    <link rel="stylesheet" href="assets/css/main.css" /> -->
+    <link rel="stylesheet" href="css/main_mob.css" />
+<style>
+	td{
+		padding:1px;
+	}
+</style>
+</head>
+
+<script type="text/javascript" src="jq/jquery.js"></script>
+<script type="text/javascript" src="jq/jquery-ui-1.10.4.custom.min.js"></script>
+<script type="text/javascript" src="jq/jquery.cookie.js"></script>
+
+<body style="background-color: #629786;">
+<div id="top" style="display:block;width:425px;margin:0 auto;">
+	<div style="text-align:left;font-size: 13px;">Русский | <a href="weather_en_mob.html" style="color: antiquewhite;">English</a></div>
+	<div id="logo" style="display:inline-block;text-decoration:none;line-height: 3px;float:right;margin-right:2%;margin-top: -17px;"><a href="index_mob.html"><img src="images/headpanel.png" style="vertical-align:sub" height="20px" /><span style="font-size: 16px;vertical-align: 0px;text-shadow: 1px 1px #d8c2a9;">Banner News</span><img src="images/headpanel.png" style="vertical-align:sub" height="20px" /></a></div>
+	<hr noshade style="border-color: #d8c2a9;">
+	<div class="menu"><a href="heroes_mob.html">Герои</a></div>
+	<div class="menu menumore">Вещи
+		<div class="dropdown-content item">
+			<a style="margin-top: -30px;background-color: unset;" href="#"></a>
+			<a id="mp1" href="items_mob.html">Общие<img class="menu_point1" src="images/point.png" height="20px" style="vertical-align:-3px;" /></a>
+			<a id="mp2" href="pers_items_mob.html">Личные<img class="menu_point2" src="images/point.png" height="20px" style="vertical-align:-3px;" /></a>
+			<a id="mp3" href="chants_mob.html">Зачары<img class="menu_point3" src="images/point.png" height="20px" style="vertical-align:-3px;" /></a>
+		</div>
+	</div>
+	<div class="menu menumore">Солдаты
+		<div class="dropdown-content sold">
+			<a style="margin-top: -30px;background-color: unset;" href="#"></a>
+			<a id="mp1" href="soldiers_mob.html">Обычные<img class="menu_point1" src="images/point.png" height="20px" style="vertical-align:-3px;" /></a>
+			<a id="mp2" href="soldiers_mob_sp.html">SP<img class="menu_point2" src="images/point.png" height="20px" style="vertical-align:-3px;" /></a>
+		</div>
+	</div>
+	<div class="menu menumore">Ков./Сиг.
+		<div class="dropdown-content covsig">
+			<a style="margin-top: -30px;background-color: unset;" href="#"></a>
+			<a id="mp1" href="https://docs.google.com/spreadsheets/d/17W-dhtneWlZ2uDLGH91oIG9xXox-p7hGQqNETH8Gm5A/edit#gid=1965560392" target="_blank">Ковенанты<img class="menu_point1" src="images/point.png" height="20px" style="vertical-align:-3px;" /></a>
+			<a id="mp2" href="enherjar_mob.html">Ейнхерии<img class="menu_point2" src="images/point.png" height="20px" style="vertical-align:-3px;" /></a>
+			<a id="mp3" href="weather_mob.html">Погода<img class="menu_point3" src="images/point.png" height="20px" style="vertical-align:-3px;" /></a>
+			<a id="mp4" href="plato_mob.html">Плато<img class="menu_point4" src="images/point.png" height="20px" style="vertical-align:-3px;" /></a>
+		</div>
+	</div>
+	<div class="menu"><a href="https://docs.google.com/spreadsheets/d/1mqOkMylobD4VkGctr_ZMOGvCirGKt6uqPJugNtLYKtQ/edit#gid=0" target="_blank">Баннеры</a></div>
+<!--	<div class="menu">Донат</div>-->
+	
+	<hr noshade style="border-color: #d8c2a9;">
+</div>
+
+<span style="position:absolute;top:5px;left:200px;"><a href="weather.html"><img src="images/pc.png" height="20px"></a></span>
+<div id="middle" style="width:425px;margin:0 auto;padding-top:7px;">
+	<span id="title" style="display:block;width:170px;margin:0 auto;font-size: 25px;color:#d8c2a9;margin-top:-10px;margin-bottom:0px;">Погода</span>
+	<div id="chatx" style="height:auto;width:100%;margin: 2px auto;">
+		<table>
+			<tr><td rowspan="2" style="width:95px;"><img src="images/powers/weather/Wind_1.png" width="75px" height="auto"></td>
+				<td style="text-align:left;font-size:20px;"><b>Сфера железного кристалла</b></td></tr>
+				<tr><td style="white-space:break-spaces;text-align:left;">Призывает сферу шторма, перемещая всех врагов на 2 клетки в выбранном направлении. Затем все союзники получают "Попутный ветер": Мобильность +2. при вступлении в бой в позиции Попутного ветра АТК и ИНТ +10%. Игнорирует иммунитет, не может быть развеяно, исчезает в следующем раунде.</td></tr>
+				<tr><td colspan="2"><img src="images/chants/shadow.png" width="100%" height="10px"></td>
+			</tr>
+			
+			<tr><td rowspan="2" style="width:95px;"><img src="images/powers/weather/Wind_2.png" width="75px" height="auto"></td>
+				<td style="text-align:left;font-size:20px;"><b>Сфера ветрового кристалла</b></td></tr>
+				<tr><td style="white-space:break-spaces;text-align:left;">Увеличивает мобильность носителя на 2 на 2 хода и дает "Благословение ветряного узла": перед активным вступлением в бой урон увеличивается на 6% за каждую 1 пройденную клетку, до максимума 42%. После боя можно переместиться еще на 2 клетки. Длится 2 хода. Нельзя рассеять. Игнорирует невосприимчивость.</td></tr>
+				<tr><td colspan="2"><img src="images/chants/shadow.png" width="100%" height="10px"></td>
+			</tr>
+			
+			<tr><td rowspan="2" style="width:95px;"><img src="images/powers/weather/Sand_1.png" width="75px" height="auto"></td>
+				<td style="text-align:left;font-size:20px;"><b>Сфера Песчаного тумана</b></td></tr>
+				<tr><td style="white-space:break-spaces;text-align:left;">Призівает сферу. Мобильность всех врагов снижается на 2 и они не могут использовать эффект "Страж". Все союзники получают эффект "Шипастый клинок": перед боем наносит фиксированный урон в размене 2х (АТК + ИНТ) всем врагам в радиусе 2 клеток. Игнорирует иммунитет. Не может быть расвеяно, длится 1 ход.</td></tr>
+				<tr><td colspan="2"><img src="images/chants/shadow.png" width="100%" height="10px"></td>
+			</tr>
+			
+			<tr><td rowspan="2" style="width:95px;"><img src="images/powers/weather/Sand_2.png" width="75px" height="auto"></td>
+				<td style="text-align:left;font-size:20px;"><b>Сфера песков покоя</b></td></tr>
+				<tr><td style="white-space:break-spaces;text-align:left;">Дает носителю "Благородство молчаливых песков": Перед началом боя накладывает на врага "Дряхление": получаемый фиксированный урон увеличивается на 100%. Длится 1 ход. Игнорирует иммунитет. Не может быть развеяно. Кроме того, при начале боя наносимый урон увеличивается на 30%; за каждый дополнительный 1 блок от врага наносимый урон уменьшается на 15%, до максимального уменьшения в 30%. Длится 2 хода. Игнорирует иммунитет. Не может быть развеяно.</td></tr>
+				<tr><td colspan="2"><img src="images/chants/shadow.png" width="100%" height="10px"></td>
+			</tr>
+			
+			<tr><td rowspan="2" style="width:95px;"><img src="images/powers/weather/Snow_1.png" width="75px" height="auto"></td>
+				<td style="text-align:left;font-size:20px;"><b>Кристалл Осевшего Снега</b></td></tr>
+				<tr><td style="white-space:break-spaces;text-align:left;">Призівает сферу. Выбирает 1 клетку, чтобы применить эффект местности "Снежный Холм + Замороженный Портал + Ледяные Доки". Также эффект работает на всю местность в пределах 2 клеток. Длится до следующего хода. Союзники на этой местности получают дальность навыка +1. При активной атаке и наненсении урона они игнорируют 15% ЗАЩ и МЗАЩ противника. Все характеристики, кроме ОЗ, повышаются на 10%.</td></tr>
+				<tr><td colspan="2"><img src="images/chants/shadow.png" width="100%" height="10px"></td>
+			</tr>
+			
+			<tr><td rowspan="2" style="width:95px;"><img src="images/powers/weather/Snow_2.png" width="75px" height="auto"></td>
+				<td style="text-align:left;font-size:20px;"><b>Кристалл Льда и Снега</b></td></tr>
+				<tr><td style="white-space:break-spaces;text-align:left;">Дает носителю "Благословение льда и снега": Перед активных нанесением урона накладывает 1 случайный дебафф на противника. После инициирования боя наносит фиксированный урон в размере 0,1х от нанесенного урона цели и врагам в радиусе 1 кольца. Шанс критического удара юнита увеличивается на 50%. Игнорирует иммунитет. Не может быть развеяно. Исчезает в следующем раунде.</td></tr>
+				<tr><td colspan="2"><img src="images/chants/shadow.png" width="100%" height="10px"></td>
+			</tr>
+			
+			<tr><td rowspan="2" style="width:95px;"><img src="images/powers/weather/Rain_1.png" width="75px" height="auto"></td>
+				<td style="text-align:left;font-size:20px;"><b>Кристальная сфера громового удара</b></td></tr>
+				<tr><td style="white-space:break-spaces;text-align:left;">Призывает сферу. За каждого пораженного уроном противника получает "Статический заряд". За каждые 3/5/8 стаков "Статического заряда" в конце хода наносит 2/4/6 "Громовых удара" для атаки случайных врагов в пределах дальности всей карты, нанося фиксированный урон, равный 2х (АТК + ИНТ) Сферы. Получаемый урон одним и тем же врагом увеличивается последовательно на 20%. Каждый раз, когда 1 враг подбит "Громовым ударом", он получает 1 стак "Быстрого нрава": шанс получения критического удара повышается на 50%. Суммируется до 2 раз, длится 2 хода. Игнорирует иммунитет. Не может быть развеяно.</td></tr>
+				<tr><td colspan="2"><img src="images/chants/shadow.png" width="100%" height="10px"></td>
+			</tr>
+			
+			<tr><td rowspan="2" style="width:95px;"><img src="images/powers/weather/Rain_2.png" width="75px" height="auto"></td>
+				<td style="text-align:left;font-size:20px;"><b>Сфера моросящего кристалла</b></td></tr>
+				<tr><td style="white-space:break-spaces;text-align:left;">Дает носителю "Благосклонность росы": Урон от навыков увеличивается на 20%. При нанесении урона от навыка, если срабатывает критический удар, время перезарядки навыка сокращается на 2. Длится 2 хода. Игнорирует иммунитет. Не может быть рассеяно.</td></tr>
+			</tr>
+		</table>
+	</div>
+
+</div>
+<!--			<script src="js/jquery.min.js"></script>
+			<script src="js/browser.min.js"></script>
+			<script src="js/breakpoints.min.js"></script>
+			<script src="js/util.js"></script>
+		<script src="js/persItemDat.js"></script>-->
+		<script src="js/slider.js"></script>
+	<script type="text/javascript">
+//		window.onload = persItemView('weapon');   //при загрузке страницы автоматически фильтр по оружию
+	</script>
+
+</body>
+</html>
+

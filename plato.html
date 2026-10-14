@@ -1,0 +1,140 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>Расплавленное плато</title>  <!--название странички на вкладке сайта-->
+    <link rel="icon" type="image/png" href="favicon.png">  <!--иконка на вкладке сайта-->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes" />
+<!--    <link rel="stylesheet" href="assets/css/main.css" /> -->
+    <link rel="stylesheet" href="css/slider.css" />
+		<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+		<link rel="stylesheet" type="text/css" href="css/main.css"/>
+	<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+<style>
+	td{
+		padding:1px;
+	}
+</style>
+</head>
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+	<script type="text/javascript" src="slick/slick.min.js"></script>
+
+
+<body style="background-color: #629786;">
+<div id="top" style="display:block;width:1320px;margin:0 auto;">
+	<div style="text-align:left;display:block;width:200px;float:left;">Русский | <a href="plato_en.html" style="color: antiquewhite;">English</a></div>
+	<div style="display:flex;width:30px;margin-left:650px;height:25px;"><a id="mobswap" href="plato_mob.html"><img src="images/mob.png" height="25px"></a></div>
+	<hr noshade style="border-color: #d8c2a9;">
+	<div class="menu"><a href="heroes.html">Герои</a></div>
+	<div class="menu menumore">Снаряжение
+		<div class="dropdown-content">
+			<a style="margin-top: -30px;background-color: unset;" href="#"></a>
+			<a id="mp1" href="items.html">Общее<img class="menu_point1" src="images/point.png" height="20px" style="vertical-align:-3px;" /></a>
+			<a id="mp2" href="pers_items.html">Личное<img class="menu_point2" src="images/point.png" height="20px" style="vertical-align:-3px;" /></a>
+			<a id="mp3" href="chants.html">Зачары<img class="menu_point3" src="images/point.png" height="20px" style="vertical-align:-3px;" /></a>
+		</div>
+	</div>
+	<div class="menu menumore">Солдаты
+		<div class="dropdown-content sold">
+			<a style="margin-top: -30px;background-color: unset;" href="#"></a>
+			<a id="mp1" href="soldiers.html">Обычные<img class="menu_point1" src="images/point.png" height="20px" style="vertical-align:-3px;" /></a>
+			<a id="mp2" href="soldiers_sp.html">SP солдаты<img class="menu_point2" src="images/point.png" height="20px" style="vertical-align:-3px;" /></a>
+		</div>
+	</div>
+	<div class="menu menumore">Ков./Сиг.
+		<div class="dropdown-content covsig">
+			<a style="margin-top: -30px;background-color: unset;" href="#"></a>
+			<a id="mp1" href="https://docs.google.com/spreadsheets/d/17W-dhtneWlZ2uDLGH91oIG9xXox-p7hGQqNETH8Gm5A/edit#gid=1965560392" target="_blank">Ковенанты<img class="menu_point1" src="images/point.png" height="20px" style="vertical-align:-3px;" /></a>
+			<a id="mp2" href="enherjar.html">Эйнхерии<img class="menu_point2" src="images/point.png" height="20px" style="vertical-align:-3px;" /></a>
+			<a id="mp3" href="weather.html">Погода<img class="menu_point3" src="images/point.png" height="20px" style="vertical-align:-3px;" /></a>
+			<a id="mp4" href="plato.html">Плато<img class="menu_point4" src="images/point.png" height="20px" style="vertical-align:-3px;" /></a>
+		</div>
+	</div>
+	<div class="menu"><a href="https://docs.google.com/spreadsheets/d/1mqOkMylobD4VkGctr_ZMOGvCirGKt6uqPJugNtLYKtQ/edit#gid=0" target="_blank">Календарь</a></div>
+	<div class="menu"><a href="https://drive.google.com/drive/folders/1FRiHJGhfUxyufg4eEAUCzQ6ltvJjEOYv?usp=sharing" target="blank">Данные</a></div>
+<!--	<div class="menu">Донат</div>-->
+	
+	<div id="logo" style="display:inline-block;text-decoration:none;line-height: 3px;float:right;margin-top: -10px;"><a href="index.html"><img src="images/headpanel.png" height="60px" /><span style="font-size: 40px;vertical-align: 15px;text-shadow: 1px 1px #d8c2a9;">Banner News</span><img src="images/headpanel.png" height="60px" /></a></div>
+	<br>
+	<hr noshade style="border-color: #d8c2a9;">
+</div>
+<div id="middle" style="width:1320px;margin:0 auto;padding-top:14px;white-space: nowrap;">
+	<span id="title" style="display:block;width:200px;margin:0 auto;font-size: 30px;color:#d8c2a9;">Расплавленное плато</span><br>
+	<div id="chatx" style="height:auto;width:90%;margin: 10px auto;">
+		<!-- <table>
+			<tr><td rowspan="2" style="width:150px;"><img src="images/powers/enherjar/Leon.png" width="100px" height="auto"></td>
+				<td style="text-align:left;font-size:22px;"><b>Леон</b></td></tr>
+				<tr><td style="white-space:break-spaces;text-align:left;">Активный навык. Дарует носителю "Поддержку Леона" до начала следующего хода: Союзные юниты в пределах 3 блоков не умирают от смертельного урона и восстанавливают 50% своих ОЗ. Может сработать 2 раза в общей сложности (может сработать один раз на юнит за бой). В начале боя за каждую оставшуюся активацию восстанавливает 25% ОЗ союзным юнитам в пределах дальности. Игнорирует невосприимчивость. Нельзя развеять.</td></tr>
+				<tr><td colspan="2"><img src="images/chants/shadow.png" width="100%" height="10px"></td>
+			</tr>
+			
+			<tr><td rowspan="2" style="width:150px;"><img src="images/powers/enherjar/Elwin.png" width="100px" height="auto"></td>
+				<td style="text-align:left;font-size:22px;"><b>Элвин</b></td></tr>
+				<tr><td style="white-space:break-spaces;text-align:left;">Вызывается Элвин. Телепортирует 1 врага вблизи себя и применяет "Падение богов" к нему: Когда он умирает, у всех в команде увеличивается урон от навыков на 20% на 2 хода. Игнорирует иммунитет, нельзя развеять.</td></tr>
+				<tr><td colspan="2"><img src="images/chants/shadow.png" width="100%" height="10px"></td>
+			</tr>
+			
+			<tr><td rowspan="2" style="width:150px;"><img src="images/powers/enherjar/Liana.png" width="100px" height="auto"></td>
+				<td style="text-align:left;font-size:22px;"><b>Лиана</b></td></tr>
+				<tr><td style="white-space:break-spaces;text-align:left;">Активный навык. Дает заклинателю "Поддержка Лианы": после атаки восстанавливает всем союзникам ОЗ в размере 2х ИНТ заклинателя. Длится 2 хода.</td></tr>
+				<tr><td colspan="2"><img src="images/chants/shadow.png" width="100%" height="10px"></td>
+			</tr>
+			
+			<tr><td rowspan="2" style="width:150px;"><img src="images/powers/enherjar/Bosel.png" width="100px" height="auto"></td>
+				<td style="text-align:left;font-size:22px;"><b>Бозел</b></td></tr>
+				<tr><td style="white-space:break-spaces;text-align:left;">Активный навык. Дает заклинателю "Поддержка Бозела": При начале атаки урон по врагу с дебаффом увеличивается на 10% за каждый дебафф, до максимума 40%. Длится 2 хода.</td></tr>
+				<tr><td colspan="2"><img src="images/chants/shadow.png" width="100%" height="10px"></td>
+			</tr>
+			
+			<tr><td rowspan="2" style="width:150px;"><img src="images/powers/enherjar/Cherie.png" width="100px" height="auto"></td>
+				<td style="text-align:left;font-size:22px;"><b>Шери</b></td></tr>
+				<tr><td style="white-space:break-spaces;text-align:left;">Активный навык. Дает заклинателю "Поддержка Шери": АоЕ навыки получают диапазон +2, линейные навыки получают диапазон +2. После активного нанесения урона, наносит дополнительный фиксированный урон в размере 2х (АТК + ИНТ) заклинателя. Длится 2 хода. Игнорирует иммунитет. Невозможно снять.</td></tr>
+				<tr><td colspan="2"><img src="images/chants/shadow.png" width="100%" height="10px"></td>
+			</tr>
+			
+			<tr><td rowspan="2" style="width:150px;"><img src="images/powers/enherjar/Hein.png" width="100px" height="auto"></td>
+				<td style="text-align:left;font-size:22px;"><b>Хейн</b></td></tr>
+				<tr><td style="white-space:break-spaces;text-align:left;">Вызывается Хейн. Атакует врагов по 3 прямым линиям, нанося 0,4х АоЕ маг. урона. Ицеляет ОЗ союзников в радиусе действия на 4х ИНТ заклинателя, снимает 2 дебаффа с них.</td></tr>
+				<tr><td colspan="2"><img src="images/chants/shadow.png" width="100%" height="10px"></td>
+			</tr>
+			
+			<tr><td rowspan="2" style="width:150px;"><img src="images/powers/enherjar/Zerida.png" width="100px" height="auto"></td>
+				<td style="text-align:left;font-size:22px;"><b>Зерида</b></td></tr>
+				<tr><td style="white-space:break-spaces;text-align:left;">Вызывается Зерида. Атакует одного врага, нанося 1,5х физического урона. Перед битвой применяет "Шанс получить Крит удар увеличен на 30%" и "Получаемый критический урон увеличен на 30%". Длится 1 ход. Не может быть развеян.</td></tr>
+				<tr><td colspan="2"><img src="images/chants/shadow.png" width="100%" height="10px"></td>
+			</tr>
+			
+			<tr><td rowspan="2" style="width:150px;"><img src="images/powers/enherjar/Landius.png" width="100px" height="auto"></td>
+				<td style="text-align:left;font-size:22px;"><b>Лэндиус</b></td></tr>
+				<tr><td style="white-space:break-spaces;text-align:left;">Вызывается Лэндиус. Дает 1 союзнику "Спокойствие": не может атаковать, перемещаться, быть перемещенным или использовать навыки; иммунитет к АоЕ и фиксированному урону; когда втянут в бой, отражает 150% полученного урона; при гибели не умирает, а восстанавливает 100% ОЗ; после атаки по союзнику со "Спокойствием" он исцеляет 100% ОЗ, сбрасываются все КД навыков и баффы не теряют счетчик ходов. Игнорирует иммунитет и не может быть развеяно. Длится 1 ход.</td></tr>
+				<tr><td colspan="2"><img src="images/chants/shadow.png" width="100%" height="10px"></td>
+			</tr>
+			
+			<tr><td rowspan="2" style="width:150px;"><img src="images/powers/enherjar/Shelfaniel.png" width="100px" height="auto"></td>
+				<td style="text-align:left;font-size:22px;"><b>Шельфаниэль</b></td></tr>
+				<tr><td style="white-space:break-spaces;text-align:left;">Вызывается Шельфаниэль. Наносит 0,4х АоЕ маг. урона всем врагам в радиусе 5 клеток от себя. За каждого задетого врага заклинатель получает "Диапазон навыка +1. Урон АоЕ навыка увеличен на 10%", складывается до 3 раз. Игнорирует иммунитет. Не может быть развеян. Длится 1 ход.</td></tr>
+				<tr><td colspan="2"><img src="images/chants/shadow.png" width="100%" height="10px"></td>
+			</tr>
+			
+			<tr><td rowspan="2" style="width:150px;"><img src="images/powers/enherjar/Altemuller.png" width="100px" height="auto"></td>
+				<td style="text-align:left;font-size:22px;"><b>Алтемюллер</b></td></tr>
+				<tr><td style="white-space:break-spaces;text-align:left;">Вызывается Алтемюллер. Наносит 1,5х физ. урона по одной цели, который увеличивается на 20% за каждый дебафф на враге, вплоть до 100%.</td></tr>
+			</tr>
+		</table> -->
+	</div>
+
+</div>
+<!--			<script src="js/jquery.min.js"></script>
+			<script src="js/browser.min.js"></script>
+			<script src="js/breakpoints.min.js"></script>
+			<script src="js/util.js"></script>
+		<script src="js/persItemDat.js"></script>-->
+		<script src="js/slider.js"></script>
+	<script type="text/javascript">
+//		window.onload = persItemView('weapon');   //при загрузке страницы автоматически фильтр по оружию
+	</script>
+
+</body>
+</html>
+
