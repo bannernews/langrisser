@@ -710,10 +710,10 @@ var itemDat = [
         "75",
         "75",
         "",
-        "4",
+        "",
         "",
         "АТК и ИНТ +8%. При использовании навыка получает 1 стак [заряд гримуара]. Получает дополнительный заряд за каждый ход перезарядки навыка (максимум 3). Не может быть снято. При получении лечения или [щит] расходует 1 стак и сокращает время перезарядки навыка с самым длинным временем перезарядки на 1, а также снимает 1 дебафф.",
-        "All stats +5%. When attacked by an enemy and damaged or when dying, the enemy is inflicted with the [Loss of Control] effect for 1 turn. This equipment effect becomes unavailable for 1 turn when the unit is actively attacking. ATK and INT +8%. When using a skill, gains 1 stack of [Grimoire Charge]. Gains an additional stack for every turn of the skill's cooldown (max 3). Cannot be dispelled. When receiving healing or a [shield], consumes 1 stack to reduce the cooldown of the skill with the longest cooldown by 1 and remove 1 debuff.",
+        "ATK and INT +8%. When using a skill, gains 1 stack of [Grimoire Charge]. Gains an additional stack for every turn of the skill's cooldown (max 3). Cannot be dispelled. When receiving healing or a [shield], consumes 1 stack to reduce the cooldown of the skill with the longest cooldown by 1 and remove 1 debuff.",
         "accs"
     ],
     [
