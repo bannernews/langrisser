@@ -2283,6 +2283,21 @@ var persItemDat = [
         "ОЗ+10%. Наносимый урон увеличивается на 10%. Получаемый АОЕ-урон снижается на 10%. Когда у этого героя имеется эффект «скрытая тень» крит урон увеличивается на 15%. После совершения действия получает эффект [гонка]: мобильность +1. Может накладываться 2 раза. Длится 2 хода.",
         "HP +10%. Damage dealt +10%, AoE damage taken -10%. When this unit has [Hide], critical hit rate +15%, and after taking action, gain [Haste]: 'Movement +1. Can be stacked up to 2 times.' Lasts 2 turns."
     ],
+	[
+        "Шарик",
+        "Sharikh",
+        "Глобал - 28.01.2027",
+        "Global - 28.01.2027",
+        "body",
+        "437",
+        "",
+        "",
+        "65",
+        "",
+        "",
+        "ОЗ +10%. Когда у врагов суммарно 3 и более [Улыбка Агонии] дальность действия навыков +1. После смерти наносит 0.15х АоЕ урона всем врагам в радиусе 2 клеток от источника урона и накладывает 2 дебаффа.",
+        "HP +10%. When enemies have a combined total of 3 or more stacks of [Agony's Grin], skill range increases by +1. After death, deals 0.15x AoE damage to all enemies within 2 tiles of the source of the damage and applies 2 debuffs."
+    ],
     [
         "Шельфаниэль",
         "Shelfaniel",

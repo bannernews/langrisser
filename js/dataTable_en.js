@@ -866,7 +866,7 @@ var h_info5 = document.getElementById("h_info5");
 var mozaik3 = document.getElementById("mozaik3");
 //h_info5.innerHTML='';
 //mozaik3.style.display="none";
-if (startB[hero_number][1]==''){
+//if (startB[hero_number][1]==''){
 	if (builds[hero_number][4]!==''){
 		var b_weapon = document.getElementById("b_weapon");
 		var b_body = document.getElementById("b_body");
@@ -962,7 +962,7 @@ if (startB[hero_number][1]==''){
 				b_pvpsp.innerHTML += '<span style="margin:5px;height:auto;display:block;width:35px;float:left;"><img src="images/star.png" height="35px" /></span>';
 			}
 	}
-} else {
+/*} else {
 	h_info5.innerHTML='';
 	mozaik3.style.display="block";
 	h_info5.innerHTML+='<div style="display:block;width:100%;height:auto;text-align:center;font-size:20px;margin-bottom:20px;font-weight: bold;">Rating and recommendations for hero development</div>';
@@ -1191,7 +1191,7 @@ if (startB[hero_number][1]==''){
 			arena_stones.innerHTML += '<span style="margin:5px;height:auto;display:block;width:55px;float:left;"><img src="images/stones/arena/'+ pvp_arenast[i] +'.png" height="60px" /></span>';
 		}
 	}
-}
+}*/
 
 function startBuildOpen(){
 	startTemp = document.getElementById("start_temp");

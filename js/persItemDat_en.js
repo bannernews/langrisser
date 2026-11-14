@@ -1983,6 +1983,21 @@ var persItemDat = [
         "ЗАЩ +10%. Все союзные юниты, у которых менее 80% ОЗ, в радиусе 3 клеток считаются «павшими солдатами».",
         "DEF +10%. Allies within 3 blocks with under 80% HP are considered as having no soldiers."
     ],
+	[
+        "Шарик",
+        "Sharikh",
+        "Глобал - 28.01.2027",
+        "Global - 28.01.2027",
+        "body",
+        "437",
+        "",
+        "",
+        "65",
+        "",
+        "",
+        "ОЗ +10%. Когда у врагов суммарно 3 и более [Улыбка Агонии] дальность действия навыков +1. После смерти наносит 0.15х АоЕ урона всем врагам в радиусе 2 клеток от источника урона и накладывает 2 дебаффа.",
+        "HP +10%. When enemies have a combined total of 3 or more stacks of [Agony's Grin], skill range increases by +1. After death, deals 0.15x AoE damage to all enemies within 2 tiles of the source of the damage and applies 2 debuffs."
+    ],
     [
         "Шельфаниэль",
         "Shelfaniel",
