@@ -95,6 +95,7 @@ body{
 	left:0px;
 	border-top:none;
 	box-shadow:0 0 12px #d8cea9;
+	opacity: 0.8;
 }
 .dropdown-content-sort {
     display: none;
